@@ -1,0 +1,127 @@
+{
+ "id": "8yi9-t44c",
+ "perfilado": "2026-11-01",
+ "filas": 149944,
+ "columnas": {
+  "idpeaje": {
+   "tipo": "number",
+   "min": "1",
+   "max": "221",
+   "no_nulos": 149944,
+   "entero": true
+  },
+  "peaje": {
+   "tipo": "text",
+   "distintos": 162,
+   "no_nulos": 149944,
+   "frac_numerica_top50": 0.0,
+   "ceros_a_la_izquierda": false
+  },
+  "categoriatarifa": {
+   "tipo": "text",
+   "distintos": 55,
+   "no_nulos": 149944,
+   "valores": [
+    "E1-II",
+    "E1-III",
+    "E1-IV",
+    "E1-V",
+    "E1-VI",
+    "E1-VII",
+    "E2-I",
+    "E2-II",
+    "E2-III",
+    "E2-IV",
+    "E2-V",
+    "E2-VII",
+    "EA",
+    "EC",
+    "EG",
+    "E-IV",
+    "ER",
+    "EXCI",
+    "EXCII",
+    "EXCIII",
+    "I",
+    "IE",
+    "IE1",
+    "IE10",
+    "IE1A",
+    "IE1B",
+    "IE2",
+    "IE2A",
+    "IE2B",
+    "IE3",
+    "IE4",
+    "IEE",
+    "IEEE",
+    "II",
+    "IIA",
+    "IIE",
+    "IIE1",
+    "IIE2",
+    "III",
+    "IIIE",
+    "IV",
+    "IVE",
+    "IX",
+    "IXE",
+    "POLCA",
+    "UNICA",
+    "V",
+    "VE",
+    "VE1",
+    "VI",
+    "VIE",
+    "VII",
+    "VIIE",
+    "VIII",
+    "VIIIE"
+   ],
+   "frac_numerica_top50": 0.0,
+   "ceros_a_la_izquierda": false
+  },
+  "desde": {
+   "tipo": "calendar_date",
+   "min": "2014-01-01T00:00:00.000",
+   "max": "2026-05-01T00:00:00.000",
+   "no_nulos": 149944,
+   "con_hora": false
+  },
+  "hasta": {
+   "tipo": "calendar_date",
+   "min": "2014-01-31T00:00:00.000",
+   "max": "2026-05-31T00:00:00.000",
+   "no_nulos": 149944,
+   "con_hora": false
+  },
+  "valortarifa": {
+   "tipo": "number",
+   "min": "0",
+   "max": "195200",
+   "no_nulos": 149944,
+   "entero": true
+  },
+  "cantidadtrafico": {
+   "tipo": "number",
+   "min": "0",
+   "max": "1124159",
+   "no_nulos": 149944,
+   "entero": true
+  },
+  "cantidadevasores": {
+   "tipo": "number",
+   "min": "0",
+   "max": "273071",
+   "no_nulos": 149944,
+   "entero": true
+  },
+  "cantidadexentos787": {
+   "tipo": "number",
+   "min": "0",
+   "max": "101300",
+   "no_nulos": 149944,
+   "entero": true
+  }
+ }
+}

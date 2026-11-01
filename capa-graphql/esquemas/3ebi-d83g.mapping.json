@@ -1,0 +1,219 @@
+{
+ "id": "3ebi-d83g",
+ "alias": "energiaZonasNoInterconectadas",
+ "type": "EnergiaZonasNoInterconectadas",
+ "baseWhere": null,
+ "columns": {
+  "idDepartamento": {
+   "field": "id_dpto",
+   "kind": "string",
+   "gql": "String",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "departamento": {
+   "field": "dpto",
+   "kind": "enum",
+   "gql": "EnergiaZonasNoInterconectadasDepartamento",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "AMAZONAS": [
+     "AMAZONAS"
+    ],
+    "ANTIOQUIA": [
+     "ANTIOQUIA"
+    ],
+    "ARCHIPIELAGO_DE_SAN_ANDRES_PROVIDENCIA_Y_SANTA_CATALINA": [
+     "ARCHIPIELAGO DE SAN ANDRES",
+     "ARCHIPIÉLAGO DE SAN ANDRÉS",
+     "ARCHIPIÉLAGO DE SAN ANDRÉS Y PROVIDENCIA",
+     "ARCHIPIÉLAGO DE SAN ANDRÉS y PROVIDENCIA",
+     "ARCHIPIÉLAGO DE SAN ANDRÉS, PROVIDENCIA Y SANTA CATALINA"
+    ],
+    "BOLIVAR": [
+     "BOLIVAR",
+     "BOLÍVAR"
+    ],
+    "CAQUETA": [
+     "CAQUETA",
+     "CAQUETÁ"
+    ],
+    "CASANARE": [
+     "CASANARE"
+    ],
+    "CAUCA": [
+     "CAUCA"
+    ],
+    "CHOCO": [
+     "CHOCO",
+     "CHOCÓ"
+    ],
+    "GUAINIA": [
+     "GUAINIA",
+     "GUAINÍA"
+    ],
+    "GUAVIARE": [
+     "GUAVIARE"
+    ],
+    "LA_GUAJIRA": [
+     "LA GUAJIRA"
+    ],
+    "MAGDALENA": [
+     "MAGDALENA"
+    ],
+    "META": [
+     "META"
+    ],
+    "NARINO": [
+     "NARIÑO"
+    ],
+    "PUTUMAYO": [
+     "PUTUMAYO"
+    ],
+    "VALLE_DEL_CAUCA": [
+     "VALLE DEL CAUCA"
+    ],
+    "VAUPES": [
+     "VAUPES",
+     "VAUPÉS"
+    ],
+    "VICHADA": [
+     "VICHADA"
+    ]
+   }
+  },
+  "idMunicipio": {
+   "field": "id_mpio",
+   "kind": "string",
+   "gql": "String",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "municipio": {
+   "field": "mpio",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "idLocalidad": {
+   "field": "id_localidad",
+   "kind": "string",
+   "gql": "String",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "localidad": {
+   "field": "localidad",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "anioServicio": {
+   "field": "anio",
+   "kind": "int",
+   "gql": "Int",
+   "role": "time",
+   "cast": {
+    "type": "Int"
+   },
+   "enum": null
+  },
+  "mesServicio": {
+   "field": "mes",
+   "kind": "int",
+   "gql": "Int",
+   "role": "time",
+   "cast": {
+    "type": "Int"
+   },
+   "enum": null
+  },
+  "energiaActiva": {
+   "field": "energia_activa",
+   "kind": "int",
+   "gql": "Int",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "energiaReactiva": {
+   "field": "energia_reactiva",
+   "kind": "int",
+   "gql": "Int",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "potenciaMaxima": {
+   "field": "potencia_maxima",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "diaDeDemandaMaxima": {
+   "field": "dia_demanda_maxima",
+   "kind": "enum",
+   "gql": "EnergiaZonasNoInterconectadasDiaDeDemandaMaxima",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "DOMINGO": [
+     "Domingo",
+     "domingo"
+    ],
+    "JUEVES": [
+     "Jueves",
+     "jueves"
+    ],
+    "LUNES": [
+     "Lunes",
+     "lunes"
+    ],
+    "MARTES": [
+     "Martes",
+     "martes"
+    ],
+    "MIERCOLES": [
+     "Miercoles",
+     "Miércoles",
+     "miércoles"
+    ],
+    "SABADO": [
+     "Sabado",
+     "Sábado",
+     "sábado"
+    ],
+    "VIERNES": [
+     "Viernes",
+     "viernes"
+    ]
+   }
+  },
+  "fechaDeDemandaMaxima": {
+   "field": "fecha_demanda_maxima",
+   "kind": "datetime",
+   "gql": "DateTime",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "promedioDiarioEnHoras": {
+   "field": "prom_diario_horas",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  }
+ }
+}

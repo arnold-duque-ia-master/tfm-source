@@ -1,0 +1,1535 @@
+{
+ "id": "daed-z4fw",
+ "name": "FURAG",
+ "assetType": "dataset",
+ "attribution": "Departamento Administrativo de la Función Pública - DAFP, Bogotá D.C.",
+ "attributionLink": "https://www.funcionpublica.gov.co/",
+ "averageRating": 0,
+ "category": "Función pública",
+ "createdAt": 1600203591,
+ "description": "Este conjunto de datos contiene las respuestas registradas por cada entidad a cada una de las preguntas que se le aplicaron a través del Formulario Único de Reporte de Avances de la Gestión - FURAG, de acuerdo con el ámbito de aplicación de las Políticas de Gestión y Desempeño Institucional del Modelo Integrado de Planeación y Gestión - MIPG.\n\nNos interesa conocer su opinión sobre nuestros conjuntos de datos. Lo invitamos a diligenciar esta breve encuesta de satisfacción de datos abiertos: https://www.funcionpublica.gov.co/encuesta-institucional2",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 5851,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 41475521,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1753288927,
+ "publicationGroup": 17558517,
+ "publicationStage": "published",
+ "rowsUpdatedAt": 1793122821,
+ "rowsUpdatedBy": "pwx2-z6jq",
+ "tableId": 19980008,
+ "totalTimesRated": 0,
+ "viewCount": 60793,
+ "viewLastModified": 1793122132,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1753846695,
+   "reviewedAutomatically": false,
+   "state": "approved",
+   "submissionId": 7011504,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1753826759,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "reviewer": {
+    "id": "r4qn-dwdd",
+    "displayName": "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+   },
+   "submissionDetails": {
+    "permissionType": "read"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1753846695,
+    "failureCount": 0,
+    "startedAt": 1753846695,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "pwx2-z6jq",
+    "displayName": "Datos Abiertos Función Pública"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 614659357,
+   "name": "Código SIGEP",
+   "dataTypeName": "text",
+   "description": "Los valores que puede tomar esta variable corresponden al código único de identificación de las entidades que diligenciaron los formularios del Furag, de acuerdo con el Sistema de Información y Gestión del Empleo Público.",
+   "fieldName": "c_digo_sigep",
+   "position": 1,
+   "renderTypeName": "text",
+   "tableColumnId": 117649990,
+   "cachedContents": {
+    "non_null": "1011662",
+    "largest": "999",
+    "null": "0",
+    "top": [
+     {
+      "item": "2800",
+      "count": "210"
+     },
+     {
+      "item": "11905",
+      "count": "209"
+     },
+     {
+      "item": "13090",
+      "count": "207"
+     },
+     {
+      "item": "11831",
+      "count": "204"
+     },
+     {
+      "item": "12462",
+      "count": "204"
+     },
+     {
+      "item": "12946",
+      "count": "202"
+     },
+     {
+      "item": "12596",
+      "count": "199"
+     },
+     {
+      "item": "13023",
+      "count": "197"
+     },
+     {
+      "item": "10728",
+      "count": "194"
+     },
+     {
+      "item": "12026",
+      "count": "192"
+     },
+     {
+      "item": "0152",
+      "count": "190"
+     },
+     {
+      "item": "11351",
+      "count": "190"
+     },
+     {
+      "item": "0573",
+      "count": "190"
+     },
+     {
+      "item": "0485",
+      "count": "190"
+     },
+     {
+      "item": "4417",
+      "count": "190"
+     },
+     {
+      "item": "0755",
+      "count": "190"
+     },
+     {
+      "item": "0804",
+      "count": "190"
+     },
+     {
+      "item": "4412",
+      "count": "190"
+     },
+     {
+      "item": "0409",
+      "count": "190"
+     },
+     {
+      "item": "4419",
+      "count": "190"
+     }
+    ],
+    "smallest": "00001",
+    "count": "1011662",
+    "cardinality": "1011662"
+   },
+   "format": {}
+  },
+  {
+   "id": 614659358,
+   "name": "Nombre de la entidad",
+   "dataTypeName": "text",
+   "description": "Los valores que puede tomar esta variable corresponden la razón social de las entidades que diligenciaron los formularios del Furag.",
+   "fieldName": "entidad",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 117649991,
+   "cachedContents": {
+    "non_null": "1011662",
+    "largest": "VIDASINU",
+    "null": "0",
+    "top": [
+     {
+      "item": "CENTRO DE SALUD SAN SEBASTIAN",
+      "count": "557"
+     },
+     {
+      "item": "ALCALDIA DE MANIZALES",
+      "count": "376"
+     },
+     {
+      "item": "ALCALDIA DE SAN JOSE DE CUCUTA",
+      "count": "376"
+     },
+     {
+      "item": "GOBERNACION DE ANTIOQUIA",
+      "count": "376"
+     },
+     {
+      "item": "ALCALDIA DE SOGAMOSO",
+      "count": "376"
+     },
+     {
+      "item": "GOBERNACION DE MAGDALENA",
+      "count": "376"
+     },
+     {
+      "item": "GOBERNACION DE RISARALDA",
+      "count": "376"
+     },
+     {
+      "item": "ALCALDIA DE RIONEGRO - ANTIOQUIA",
+      "count": "376"
+     },
+     {
+      "item": "ALCALDIA DE FUNZA",
+      "count": "376"
+     },
+     {
+      "item": "ALCALDIA DE BUCARAMANGA",
+      "count": "376"
+     },
+     {
+      "item": "ALCALDIA DE MOSQUERA - CUNDINAMARCA",
+      "count": "376"
+     },
+     {
+      "item": "ALCALDIA DE GUARNE",
+      "count": "376"
+     },
+     {
+      "item": "ALCALDIA DE ITAGÜI",
+      "count": "375"
+     },
+     {
+      "item": "GOBERNACION DE CUNDINAMARCA",
+      "count": "375"
+     },
+     {
+      "item": "GOBERNACION DE GUAINIA",
+      "count": "375"
+     },
+     {
+      "item": "ALCALDIA DE MARINILLA",
+      "count": "375"
+     },
+     {
+      "item": "GOBERNACION DE META",
+      "count": "375"
+     },
+     {
+      "item": "ALCALDIA DE LA ESTRELLA",
+      "count": "375"
+     },
+     {
+      "item": "ALCALDIA DE ENVIGADO",
+      "count": "375"
+     },
+     {
+      "item": "ALCALDIA DE SABANETA",
+      "count": "375"
+     }
+    ],
+    "smallest": "ABASTOS GUADALAJARA DE BUGA",
+    "count": "1011662",
+    "cardinality": "1011662"
+   },
+   "format": {}
+  },
+  {
+   "id": 614659359,
+   "name": "Sector",
+   "dataTypeName": "text",
+   "description": "Los valores que puede tomar esta variable corresponden a los 24 sectores administrativos de la rama ejecutiva en caso de que no pertenezca a ninguno de esos sectores, la variable toma el valor “no aplica”.  ",
+   "fieldName": "sector",
+   "position": 3,
+   "renderTypeName": "text",
+   "tableColumnId": 117649993,
+   "cachedContents": {
+    "non_null": "1011662",
+    "largest": "VIVIENDA CIUDAD Y TERRITORIO",
+    "null": "0",
+    "top": [
+     {
+      "item": "NO APLICA",
+      "count": "949267"
+     },
+     {
+      "item": "HACIENDA Y CRÉDITO PÚBLICO",
+      "count": "8770"
+     },
+     {
+      "item": "AMBIENTE Y DESARROLLO SOSTENIBLE",
+      "count": "7443"
+     },
+     {
+      "item": "DEFENSA",
+      "count": "6850"
+     },
+     {
+      "item": "EDUCACIÓN",
+      "count": "5645"
+     },
+     {
+      "item": "SALUD Y PROTECCIÓN SOCIAL",
+      "count": "3845"
+     },
+     {
+      "item": "TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+      "count": "2832"
+     },
+     {
+      "item": "TRANSPORTE",
+      "count": "2713"
+     },
+     {
+      "item": "MINAS Y ENERGÍA",
+      "count": "2579"
+     },
+     {
+      "item": "TRABAJO",
+      "count": "2145"
+     },
+     {
+      "item": "PRESIDENCIA DE LA REPÚBLICA",
+      "count": "2141"
+     },
+     {
+      "item": "INTERIOR",
+      "count": "2057"
+     },
+     {
+      "item": "JUSTICIA Y DEL DERECHO",
+      "count": "1864"
+     },
+     {
+      "item": "COMERCIO, INDUSTRIA Y TURISMO",
+      "count": "1607"
+     },
+     {
+      "item": "CULTURA",
+      "count": "1457"
+     },
+     {
+      "item": "AGROPECUARIO PESQUERO Y DE DESARROLLO RURAL",
+      "count": "1435"
+     },
+     {
+      "item": "INCLUSIÓN SOCIAL Y RECONCILIACIÓN",
+      "count": "1194"
+     },
+     {
+      "item": "PLANEACIÓN",
+      "count": "1096"
+     },
+     {
+      "item": "IGUALDAD Y EQUIDAD",
+      "count": "904"
+     },
+     {
+      "item": "VIVIENDA CIUDAD Y TERRITORIO",
+      "count": "744"
+     }
+    ],
+    "smallest": "AGROPECUARIO PESQUERO Y DE DESARROLLO RURAL",
+    "count": "1011662",
+    "cardinality": "1011662"
+   },
+   "format": {}
+  },
+  {
+   "id": 614659360,
+   "name": "Orden",
+   "dataTypeName": "text",
+   "description": "Los valores que puede tomar esta variable son nacional o territorial.",
+   "fieldName": "orden",
+   "position": 4,
+   "renderTypeName": "text",
+   "tableColumnId": 117649994,
+   "cachedContents": {
+    "non_null": "1011662",
+    "largest": "TERRITORIAL",
+    "null": "0",
+    "top": [
+     {
+      "item": "TERRITORIAL",
+      "count": "946436"
+     },
+     {
+      "item": "NACIONAL",
+      "count": "65226"
+     }
+    ],
+    "smallest": "NACIONAL",
+    "count": "1011662",
+    "cardinality": "1011662"
+   },
+   "format": {}
+  },
+  {
+   "id": 614659361,
+   "name": "Vigencia",
+   "dataTypeName": "text",
+   "description": "Medición de Desempeño Institucional, por parte de las entidades que diligenciaron el FURAG para evaluar la vigencia",
+   "fieldName": "vigencia",
+   "position": 5,
+   "renderTypeName": "text",
+   "tableColumnId": 140217283,
+   "cachedContents": {
+    "non_null": "1011662",
+    "largest": "2025",
+    "null": "0",
+    "top": [
+     {
+      "item": "2025",
+      "count": "261463"
+     },
+     {
+      "item": "2023",
+      "count": "253389"
+     },
+     {
+      "item": "2022",
+      "count": "250931"
+     },
+     {
+      "item": "2024",
+      "count": "245879"
+     }
+    ],
+    "smallest": "2022",
+    "count": "1011662",
+    "cardinality": "1011662"
+   },
+   "format": {}
+  },
+  {
+   "id": 614659362,
+   "name": "Grupa PAR",
+   "dataTypeName": "text",
+   "description": "\t\nLos valores que puede tomar esta variable son enteros positivos mayores a 0, según distribución de entidades en grupos más homogéneos según su naturaleza jurídica y la tipología municipal.",
+   "fieldName": "grupa_par",
+   "position": 6,
+   "renderTypeName": "text",
+   "tableColumnId": 160332382,
+   "cachedContents": {
+    "non_null": "1011662",
+    "largest": "UNIDADES ADMINISTRATIVAS ESPECIALES",
+    "null": "0",
+    "top": [
+     {
+      "item": "ALCALDIA DE 6",
+      "count": "82250"
+     },
+     {
+      "item": "6",
+      "count": "73668"
+     },
+     {
+      "item": "5",
+      "count": "69283"
+     },
+     {
+      "item": "7",
+      "count": "55993"
+     },
+     {
+      "item": "30",
+      "count": "50639"
+     },
+     {
+      "item": "4",
+      "count": "49974"
+     },
+     {
+      "item": "EMPRESAS SOCIALES DEL ESTADO DE 6",
+      "count": "45930"
+     },
+     {
+      "item": "31",
+      "count": "44942"
+     },
+     {
+      "item": "32",
+      "count": "43780"
+     },
+     {
+      "item": "29",
+      "count": "30745"
+     },
+     {
+      "item": "1",
+      "count": "29587"
+     },
+     {
+      "item": "3",
+      "count": "24276"
+     },
+     {
+      "item": "37",
+      "count": "22668"
+     },
+     {
+      "item": "33",
+      "count": "19099"
+     },
+     {
+      "item": "34",
+      "count": "17346"
+     },
+     {
+      "item": "23",
+      "count": "17079"
+     },
+     {
+      "item": "EMPRESAS DE SERVICIOS PÚBLICOS DE 6",
+      "count": "16328"
+     },
+     {
+      "item": "20",
+      "count": "15186"
+     },
+     {
+      "item": "21",
+      "count": "14349"
+     },
+     {
+      "item": "44",
+      "count": "13863"
+     }
+    ],
+    "smallest": "1",
+    "count": "1011662",
+    "cardinality": "1011662"
+   },
+   "format": {}
+  },
+  {
+   "id": 614659363,
+   "name": "ID indice",
+   "dataTypeName": "text",
+   "description": "Los valores que puede tomar esta variable corresponden a los códigos únicos de identificación de los índices de gestión y desempeño institucional.",
+   "fieldName": "id_indice",
+   "position": 7,
+   "renderTypeName": "text",
+   "tableColumnId": 160332383,
+   "cachedContents": {
+    "non_null": "1011662",
+    "largest": "POL19",
+    "null": "0",
+    "top": [
+     {
+      "item": "POL19",
+      "count": "19251"
+     },
+     {
+      "item": "POL16",
+      "count": "14384"
+     },
+     {
+      "item": "POL15",
+      "count": "14376"
+     },
+     {
+      "item": "I50",
+      "count": "14019"
+     },
+     {
+      "item": "I51",
+      "count": "14018"
+     },
+     {
+      "item": "I52",
+      "count": "14016"
+     },
+     {
+      "item": "I48",
+      "count": "13959"
+     },
+     {
+      "item": "I49",
+      "count": "13952"
+     },
+     {
+      "item": "D7",
+      "count": "13724"
+     },
+     {
+      "item": "POL02",
+      "count": "13051"
+     },
+     {
+      "item": "I05",
+      "count": "13046"
+     },
+     {
+      "item": "I06",
+      "count": "13039"
+     },
+     {
+      "item": "I13",
+      "count": "13034"
+     },
+     {
+      "item": "POL07",
+      "count": "13033"
+     },
+     {
+      "item": "I18",
+      "count": "13029"
+     },
+     {
+      "item": "POL11",
+      "count": "13028"
+     },
+     {
+      "item": "I35",
+      "count": "13024"
+     },
+     {
+      "item": "I36",
+      "count": "13022"
+     },
+     {
+      "item": "I34",
+      "count": "13020"
+     },
+     {
+      "item": "I53",
+      "count": "13010"
+     }
+    ],
+    "smallest": "D1",
+    "count": "1011662",
+    "cardinality": "1011662"
+   },
+   "format": {}
+  },
+  {
+   "id": 614659364,
+   "name": "Indice",
+   "dataTypeName": "text",
+   "description": "\t\nLos valores que puede tomar esta variable corresponden a los índices de gestión y desempeño institucional.",
+   "fieldName": "indice",
+   "position": 8,
+   "renderTypeName": "text",
+   "tableColumnId": 160332384,
+   "cachedContents": {
+    "non_null": "1011662",
+    "largest": "TRANSPARENCIA. ACCESO A LA INFORMACIÓN Y LUCHA CONTRA LA CORRUPCIÓN",
+    "null": "0",
+    "top": [
+     {
+      "item": "Control Interno",
+      "count": "13759"
+     },
+     {
+      "item": "Cambio cultural basado en la implementación del código de integridad del servicio público",
+      "count": "9733"
+     },
+     {
+      "item": "Arquitectura",
+      "count": "9724"
+     },
+     {
+      "item": "Gestión adecuada de acciones preventivas en conflicto de interés",
+      "count": "9724"
+     },
+     {
+      "item": "Estado abierto",
+      "count": "9720"
+     },
+     {
+      "item": "Oferta institucional de fácil acceso, comprensión y uso para la ciudadanía",
+      "count": "9717"
+     },
+     {
+      "item": "Evaluación de la gestión del servicio y medición de la experiencia ciudadana",
+      "count": "9716"
+     },
+     {
+      "item": "Accesibilidad para personas con discapacidad",
+      "count": "9715"
+     },
+     {
+      "item": "Decisiones basadas en datos",
+      "count": "9714"
+     },
+     {
+      "item": "Talento humano idóneo y suficiente al servicio y relacionamiento con la ciudadanía",
+      "count": "9713"
+     },
+     {
+      "item": "CONTROL INTERNO",
+      "count": "9622"
+     },
+     {
+      "item": "Índice de Control Interno",
+      "count": "9594"
+     },
+     {
+      "item": "Diagnóstico y planeación del servicio y relacionamiento con la ciudadanía",
+      "count": "9480"
+     },
+     {
+      "item": "Analítica institucional para la toma de decisiones",
+      "count": "9333"
+     },
+     {
+      "item": "Evaluación de los resultados de la estrategia anual de participación ciudadana y su aprovechamiento en acciones de mejora institucional",
+      "count": "9194"
+     },
+     {
+      "item": "Capacidades institucionales instaladas para la promoción de la participación",
+      "count": "9103"
+     },
+     {
+      "item": "Gobernanza",
+      "count": "9029"
+     },
+     {
+      "item": "Gestión del Conocimiento",
+      "count": "9027"
+     },
+     {
+      "item": "Cultura y apropiación",
+      "count": "9020"
+     },
+     {
+      "item": "Talento Humano",
+      "count": "9012"
+     }
+    ],
+    "smallest": "Accesibilidad para personas con discapacidad",
+    "count": "1011662",
+    "cardinality": "1011662"
+   },
+   "format": {}
+  },
+  {
+   "id": 614659365,
+   "name": "Descripcion indice",
+   "dataTypeName": "text",
+   "description": "\t\nLos valores que puede tomar esta variable corresponden a los nombres de los índices desagregados de gestión y desempeño institucional.",
+   "fieldName": "descripcion_indice",
+   "position": 9,
+   "renderTypeName": "text",
+   "tableColumnId": 160332385,
+   "cachedContents": {
+    "non_null": "1011662",
+    "largest": "TRANSPARENCIA. ACCESO A LA INFORMACIÓN Y LUCHA CONTRA LA CORRUPCIÓN",
+    "null": "0",
+    "top": [
+     {
+      "item": "GOBIERNO DIGITAL",
+      "count": "122686"
+     },
+     {
+      "item": "CONTROL INTERNO",
+      "count": "104750"
+     },
+     {
+      "item": "GESTIÓN DEL CONOCIMIENTO",
+      "count": "81528"
+     },
+     {
+      "item": "PARTICIPACIÓN CIUDADANA EN LA GESTIÓN PÚBLICA",
+      "count": "80918"
+     },
+     {
+      "item": "GESTIÓN DOCUMENTAL",
+      "count": "79167"
+     },
+     {
+      "item": "GESTIÓN ESTRATÉGICA DEL TALENTO HUMANO",
+      "count": "58562"
+     },
+     {
+      "item": "INTEGRIDAD",
+      "count": "51009"
+     },
+     {
+      "item": "SEGURIDAD DIGITAL",
+      "count": "46464"
+     },
+     {
+      "item": "DEFENSA JURÍDICA",
+      "count": "46346"
+     },
+     {
+      "item": "COMPRAS Y CONTRATACIÓN PÚBLICA",
+      "count": "42196"
+     },
+     {
+      "item": "RACIONALIZACIÓN DE TRÁMITES",
+      "count": "39334"
+     },
+     {
+      "item": "SERVICIO AL CIUDADANO",
+      "count": "38522"
+     },
+     {
+      "item": "SERVICIO A LAS CIUDADANÍAS",
+      "count": "38070"
+     },
+     {
+      "item": "TRANSPARENCIA, ACCESO A LA INFORMACIÓN Y LUCHA CONTRA LA CORRUPCIÓN",
+      "count": "32369"
+     },
+     {
+      "item": "GESTIÓN DE LA INFORMACIÓN ESTADÍSTICA",
+      "count": "21978"
+     },
+     {
+      "item": "PLANEACIÓN INSTITUCIONAL",
+      "count": "11972"
+     },
+     {
+      "item": "TALENTO HUMANO",
+      "count": "11965"
+     },
+     {
+      "item": "FORTALECIMIENTO ORGANIZACIONAL Y SIMPLIFICACIÓN DE PROCESOS",
+      "count": "11960"
+     },
+     {
+      "item": "INFORMACIÓN Y COMUNICACIÓN",
+      "count": "11952"
+     },
+     {
+      "item": "SEGUIMIENTO Y EVALUACIÓN DEL DESEMPEÑO INSTITUCIONAL",
+      "count": "11945"
+     }
+    ],
+    "smallest": "COMPRAS Y CONTRATACIÓN PÚBLICA",
+    "count": "1011662",
+    "cardinality": "1011662"
+   },
+   "format": {}
+  },
+  {
+   "id": 614659366,
+   "name": "Indice desagregado",
+   "dataTypeName": "text",
+   "description": "Corresponde al código único de identificación de cada pregunta.",
+   "fieldName": "indice_desagregado",
+   "position": 10,
+   "renderTypeName": "text",
+   "tableColumnId": 160332386,
+   "cachedContents": {
+    "non_null": "1011662",
+    "largest": "TRANSPARENCIA. ACCESO A LA INFORMACIÓN Y LUCHA CONTRA LA CORRUPCIÓN: Índice de Transparencia y Acceso a la Información Pública",
+    "null": "0",
+    "top": [
+     {
+      "item": "Control Interno",
+      "count": "29975"
+     },
+     {
+      "item": "Gestión del conocimiento",
+      "count": "14865"
+     },
+     {
+      "item": "Gestión Documental",
+      "count": "14384"
+     },
+     {
+      "item": "Integridad",
+      "count": "13051"
+     },
+     {
+      "item": "INTEGRIDAD: Cambio cultural basado en la implementación del código de integridad del servicio público",
+      "count": "13046"
+     },
+     {
+      "item": "INTEGRIDAD: Gestión adecuada de acciones preventivas en conflicto de interés",
+      "count": "13039"
+     },
+     {
+      "item": "GOBIERNO DIGITAL: Arquitectura",
+      "count": "13034"
+     },
+     {
+      "item": "Gobierno Digital",
+      "count": "13033"
+     },
+     {
+      "item": "GOBIERNO DIGITAL: Estado abierto",
+      "count": "13029"
+     },
+     {
+      "item": "GESTIÓN DEL CONOCIMIENTO: Analítica institucional para la toma de decisiones",
+      "count": "12653"
+     },
+     {
+      "item": "GOBIERNO DIGITAL: Gobernanza",
+      "count": "12340"
+     },
+     {
+      "item": "Participación Ciudadana en la Gestión Pública",
+      "count": "12242"
+     },
+     {
+      "item": "CONTROL INTERNO: Evaluación estratégica del riesgo",
+      "count": "12172"
+     },
+     {
+      "item": "CONTROL INTERNO: Ambiente propicio para el ejercicio del control",
+      "count": "12150"
+     },
+     {
+      "item": "PARTICIPACIÓN CIUDADANA EN LA GESTIÓN PÚBLICA: Capacidades institucionales instaladas para la promoción de la participación",
+      "count": "12143"
+     },
+     {
+      "item": "CONTROL INTERNO: Información y comunicación relevante y oportuna para el control",
+      "count": "12135"
+     },
+     {
+      "item": "Planeación Institucional",
+      "count": "11972"
+     },
+     {
+      "item": "CONTROL INTERNO: Actividades de monitoreo sistemáticas y orientadas a la mejora",
+      "count": "11951"
+     },
+     {
+      "item": "Seguimiento y Evaluación del Desempeño Institucional",
+      "count": "11945"
+     },
+     {
+      "item": "Seguridad Digital",
+      "count": "11944"
+     }
+    ],
+    "smallest": "Compras y Contratación Pública",
+    "count": "1011662",
+    "cardinality": "1011662"
+   },
+   "format": {}
+  },
+  {
+   "id": 614659367,
+   "name": "Puntaje entidad",
+   "dataTypeName": "text",
+   "description": "\t\nEs el valor estimado en escala de logits, que hace referencia al puntaje bruto de cada entidad en cada uno de sus indicadores para la actual medición.",
+   "fieldName": "puntaje_entidad",
+   "position": 11,
+   "renderTypeName": "text",
+   "tableColumnId": 160332387,
+   "cachedContents": {
+    "non_null": "1011662",
+    "largest": "99.9",
+    "null": "0",
+    "top": [
+     {
+      "item": "100",
+      "count": "36519"
+     },
+     {
+      "item": "0",
+      "count": "36083"
+     },
+     {
+      "item": "0.0",
+      "count": "18157"
+     },
+     {
+      "item": "0.00",
+      "count": "16666"
+     },
+     {
+      "item": "100.00",
+      "count": "16499"
+     },
+     {
+      "item": "50",
+      "count": "12994"
+     },
+     {
+      "item": "66.67",
+      "count": "11747"
+     },
+     {
+      "item": "33.33",
+      "count": "10829"
+     },
+     {
+      "item": "100.0",
+      "count": "10420"
+     },
+     {
+      "item": "50.00",
+      "count": "8015"
+     },
+     {
+      "item": "83.33",
+      "count": "7037"
+     },
+     {
+      "item": "16.67",
+      "count": "5459"
+     },
+     {
+      "item": "50.0",
+      "count": "5376"
+     },
+     {
+      "item": "75",
+      "count": "5301"
+     },
+     {
+      "item": "25",
+      "count": "4886"
+     },
+     {
+      "item": "85.71",
+      "count": "4264"
+     },
+     {
+      "item": "25.0",
+      "count": "4173"
+     },
+     {
+      "item": "71.43",
+      "count": "3817"
+     },
+     {
+      "item": "87.5",
+      "count": "3755"
+     },
+     {
+      "item": "80",
+      "count": "3598"
+     }
+    ],
+    "smallest": "0",
+    "count": "1011662",
+    "cardinality": "1011662"
+   },
+   "format": {}
+  },
+  {
+   "id": 614659368,
+   "name": "Promedio grupo par",
+   "dataTypeName": "number",
+   "description": "",
+   "fieldName": "promedio_grupo_par",
+   "position": 12,
+   "renderTypeName": "number",
+   "tableColumnId": 160332388,
+   "cachedContents": {
+    "non_null": "1011662",
+    "largest": "100",
+    "null": "0",
+    "top": [
+     {
+      "item": "42.21079665",
+      "count": "1908"
+     },
+     {
+      "item": "63.85614256",
+      "count": "1908"
+     },
+     {
+      "item": "63.11128017",
+      "count": "1906"
+     },
+     {
+      "item": "49.2",
+      "count": "1867"
+     },
+     {
+      "item": "63.3",
+      "count": "1749"
+     },
+     {
+      "item": "33.3",
+      "count": "1669"
+     },
+     {
+      "item": "57.2",
+      "count": "1639"
+     },
+     {
+      "item": "49.53086691",
+      "count": "1638"
+     },
+     {
+      "item": "65.5",
+      "count": "1605"
+     },
+     {
+      "item": "59",
+      "count": "1530"
+     },
+     {
+      "item": "37.8",
+      "count": "1375"
+     },
+     {
+      "item": "29.2",
+      "count": "1357"
+     },
+     {
+      "item": "54.4",
+      "count": "1308"
+     },
+     {
+      "item": "57.64147239",
+      "count": "1304"
+     },
+     {
+      "item": "31.91716258",
+      "count": "1304"
+     },
+     {
+      "item": "59.94392638",
+      "count": "1304"
+     },
+     {
+      "item": "61",
+      "count": "1272"
+     },
+     {
+      "item": "48",
+      "count": "1266"
+     },
+     {
+      "item": "57.3",
+      "count": "1238"
+     },
+     {
+      "item": "61.8",
+      "count": "1228"
+     }
+    ],
+    "smallest": "0",
+    "count": "1011662",
+    "cardinality": "1011662"
+   },
+   "format": {}
+  },
+  {
+   "id": 614659369,
+   "name": "Minimo grupo par",
+   "dataTypeName": "number",
+   "description": "\t\nLos valores que puede tomar esta variable corresponden al mínimo del grupo par en el cual quedó la entidad.",
+   "fieldName": "minimo_grupo_par",
+   "position": 13,
+   "renderTypeName": "number",
+   "tableColumnId": 160332389,
+   "cachedContents": {
+    "non_null": "1011662",
+    "largest": "100",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "535120"
+     },
+     {
+      "item": "10",
+      "count": "6961"
+     },
+     {
+      "item": "25",
+      "count": "6836"
+     },
+     {
+      "item": "16.67",
+      "count": "6197"
+     },
+     {
+      "item": "11.11",
+      "count": "5985"
+     },
+     {
+      "item": "5.26",
+      "count": "5984"
+     },
+     {
+      "item": "20",
+      "count": "4850"
+     },
+     {
+      "item": "12.5",
+      "count": "4834"
+     },
+     {
+      "item": "7.69",
+      "count": "4504"
+     },
+     {
+      "item": "14.29",
+      "count": "4289"
+     },
+     {
+      "item": "8.33",
+      "count": "4109"
+     },
+     {
+      "item": "33.33",
+      "count": "3935"
+     },
+     {
+      "item": "5",
+      "count": "3761"
+     },
+     {
+      "item": "6.25",
+      "count": "3681"
+     },
+     {
+      "item": "6.67",
+      "count": "3340"
+     },
+     {
+      "item": "50",
+      "count": "3267"
+     },
+     {
+      "item": "2.56",
+      "count": "3229"
+     },
+     {
+      "item": "16.7",
+      "count": "3079"
+     },
+     {
+      "item": "5.88",
+      "count": "3052"
+     },
+     {
+      "item": "3.1",
+      "count": "2993"
+     }
+    ],
+    "smallest": "0",
+    "count": "1011662",
+    "cardinality": "1011662"
+   },
+   "format": {}
+  },
+  {
+   "id": 614659370,
+   "name": "Quintil grupo par",
+   "dataTypeName": "number",
+   "description": "Los valores que puede tomar esta variable corresponden al quintil del grupo par en el cual quedó la entidad.",
+   "fieldName": "quintil_grupo_par",
+   "position": 14,
+   "renderTypeName": "number",
+   "tableColumnId": 160332390,
+   "cachedContents": {
+    "non_null": "1011662",
+    "largest": "5",
+    "null": "0",
+    "top": [
+     {
+      "item": "1",
+      "count": "207663"
+     },
+     {
+      "item": "2",
+      "count": "205060"
+     },
+     {
+      "item": "3",
+      "count": "201853"
+     },
+     {
+      "item": "4",
+      "count": "199515"
+     },
+     {
+      "item": "5",
+      "count": "197207"
+     },
+     {
+      "item": "0",
+      "count": "364"
+     }
+    ],
+    "smallest": "0",
+    "count": "1011662",
+    "cardinality": "1011662"
+   },
+   "format": {}
+  },
+  {
+   "id": 614659371,
+   "name": "Percentil grupo par",
+   "dataTypeName": "text",
+   "description": "\t\nLos valores que puede tomar esta variable corresponden al percentil del grupo par en el cual quedó la entidad.",
+   "fieldName": "percentil_grupo_par",
+   "position": 15,
+   "renderTypeName": "text",
+   "tableColumnId": 160332391,
+   "cachedContents": {
+    "non_null": "1011662",
+    "largest": "9",
+    "null": "0",
+    "top": [
+     {
+      "item": "1",
+      "count": "107371"
+     },
+     {
+      "item": "2",
+      "count": "106000"
+     },
+     {
+      "item": "3",
+      "count": "104065"
+     },
+     {
+      "item": "4",
+      "count": "102721"
+     },
+     {
+      "item": "5",
+      "count": "101699"
+     },
+     {
+      "item": "6",
+      "count": "100303"
+     },
+     {
+      "item": "7",
+      "count": "99056"
+     },
+     {
+      "item": "8",
+      "count": "97796"
+     },
+     {
+      "item": "9",
+      "count": "96804"
+     },
+     {
+      "item": "10",
+      "count": "95483"
+     },
+     {
+      "item": "0",
+      "count": "364"
+     }
+    ],
+    "smallest": "0",
+    "count": "1011662",
+    "cardinality": "1011662"
+   },
+   "format": {}
+  },
+  {
+   "id": 614659372,
+   "name": "Target Nacion",
+   "dataTypeName": "number",
+   "description": "\t\nLos valores que puede tomar esta variable corresponden al objetivo en términos de puntaje para la entidad en la vigencia medida.",
+   "fieldName": "target_nacion",
+   "position": 16,
+   "renderTypeName": "number",
+   "tableColumnId": 160332392,
+   "cachedContents": {
+    "non_null": "1011662",
+    "largest": "100",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "949086"
+     },
+     {
+      "item": "100",
+      "count": "1266"
+     },
+     {
+      "item": "90",
+      "count": "203"
+     },
+     {
+      "item": "75",
+      "count": "187"
+     },
+     {
+      "item": "80",
+      "count": "169"
+     },
+     {
+      "item": "95",
+      "count": "165"
+     },
+     {
+      "item": "87.5",
+      "count": "161"
+     },
+     {
+      "item": "96",
+      "count": "143"
+     },
+     {
+      "item": "86.8",
+      "count": "138"
+     },
+     {
+      "item": "91.66666667",
+      "count": "129"
+     },
+     {
+      "item": "92.7",
+      "count": "129"
+     },
+     {
+      "item": "87.6",
+      "count": "127"
+     },
+     {
+      "item": "85",
+      "count": "122"
+     },
+     {
+      "item": "83.1",
+      "count": "115"
+     },
+     {
+      "item": "83.3",
+      "count": "113"
+     },
+     {
+      "item": "85.8",
+      "count": "112"
+     },
+     {
+      "item": "88.8",
+      "count": "109"
+     },
+     {
+      "item": "85.7",
+      "count": "108"
+     },
+     {
+      "item": "95.2",
+      "count": "106"
+     },
+     {
+      "item": "86.4",
+      "count": "102"
+     }
+    ],
+    "smallest": "0",
+    "count": "1011662",
+    "cardinality": "1011662"
+   },
+   "format": {}
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Departamento Administrativo de la Función Pública - DAFP, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Función Pública",
+    "Área o dependencia": "Dirección de Gestión y Desempeño Institucional",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Nacional",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Anual"
+   }
+  },
+  "availableDisplayTypes": [
+   "table",
+   "fatrow",
+   "page"
+  ]
+ },
+ "owner": {
+  "id": "pwx2-z6jq",
+  "displayName": "Datos Abiertos Función Pública",
+  "screenName": "Datos Abiertos Función Pública",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "pwx2-z6jq",
+  "displayName": "Datos Abiertos Función Pública",
+  "screenName": "Datos Abiertos Función Pública",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "furag",
+  "mipg",
+  "función pública",
+  "formulario",
+  "reporte",
+  "avance",
+  "política",
+  "gestion",
+  "desempeño"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

@@ -1,0 +1,259 @@
+# ---------- gcq5-hvdx ----------
+
+enum VacunacionAftosaVichadaDepartamento {
+  VICHADA
+}
+
+input VacunacionAftosaVichadaDepartamentoFilter {
+  eq: VacunacionAftosaVichadaDepartamento
+  neq: VacunacionAftosaVichadaDepartamento
+  in: [VacunacionAftosaVichadaDepartamento!]
+  nin: [VacunacionAftosaVichadaDepartamento!]
+  isNull: Boolean
+}
+
+enum VacunacionAftosaVichadaMunicipio {
+  CUMARIBO
+  LA_PRIMAVERA
+  PUERTO_CARRENO
+  SANTA_ROSALIA
+}
+
+input VacunacionAftosaVichadaMunicipioFilter {
+  eq: VacunacionAftosaVichadaMunicipio
+  neq: VacunacionAftosaVichadaMunicipio
+  in: [VacunacionAftosaVichadaMunicipio!]
+  nin: [VacunacionAftosaVichadaMunicipio!]
+  isNull: Boolean
+}
+
+enum VacunacionAftosaVichadaTenencia {
+  ARRENDADO
+  OTRO
+  POSEEDOR
+  PROPIO
+  TENEDOR
+  TERRITORIO_COLECTIVO
+}
+
+input VacunacionAftosaVichadaTenenciaFilter {
+  eq: VacunacionAftosaVichadaTenencia
+  neq: VacunacionAftosaVichadaTenencia
+  in: [VacunacionAftosaVichadaTenencia!]
+  nin: [VacunacionAftosaVichadaTenencia!]
+  isNull: Boolean
+}
+
+enum VacunacionAftosaVichadaCicloVacunacion {
+  CICLO_II_2024
+}
+
+input VacunacionAftosaVichadaCicloVacunacionFilter {
+  eq: VacunacionAftosaVichadaCicloVacunacion
+  neq: VacunacionAftosaVichadaCicloVacunacion
+  in: [VacunacionAftosaVichadaCicloVacunacion!]
+  nin: [VacunacionAftosaVichadaCicloVacunacion!]
+  isNull: Boolean
+}
+
+"""Registros de vacunación contra fiebre aftosa en el Vichada. Una fila por Registro Único de Vacunación (RUV) de un predio. (gcq5-hvdx)"""
+type VacunacionAftosaVichada {
+  "Código numérico de dos dígitos asignado por el DANE en la codificación DIVIPOLA al departamento del Vichada…"
+  codigoDaneDepartamento: Int
+  "Nombre oficial del departamento de Colombia donde se localiza el predio pecuario (VICHADA)."
+  departamento: VacunacionAftosaVichadaDepartamento
+  "Código numérico oficial de cinco dígitos DIVIPOLA asignado por el DANE a la entidad municipal."
+  codigoDaneMunicipio: Int
+  "Nombre del municipio del departamento del Vichada donde se ejecutó la jornada de vacunación."
+  municipio: VacunacionAftosaVichadaMunicipio
+  "División territorial rural o sector veredal en el que se encuentra ubicado el predio ganadero."
+  vereda: String
+  "Condición jurídica de ocupación o explotación del predio (Propio, Arrendado, Poseedor, Tenedor, Territorio…"
+  tenencia: VacunacionAftosaVichadaTenencia
+  "Número del Registro Único de Vacunación emitido oficialmente como soporte de la inoculación animal por…"
+  ruv: Int
+  "Fecha de expedición del RUV y aplicación del biológico en el predio, en formato estándar AAAA-MM-DD."
+  fechaRuv: Date
+  "Año fiscal y calendario al que corresponde la ejecución de las jornadas de vacunación pecuaria reportadas."
+  vigencia: Int
+  "Etapa o ciclo oficial del calendario sanitario animal fijado por el Instituto Colombiano Agropecuario (ICA)."
+  cicloVacunacion: VacunacionAftosaVichadaCicloVacunacion
+  "Coordenada geográfica decimal de longitud en el sistema de referencia WGS84 para la ubicación espacial del…"
+  longitud: Float
+  "Coordenada geográfica decimal de latitud en el sistema de referencia WGS84 para la ubicación espacial del…"
+  latitud: Float
+  "Cantidad total de cabezas de ganado bovino y bufalino efectivamente vacunadas contra Fiebre Aftosa en el…"
+  totalAftosa: Int
+  "Censo de animales de la especie équida (caballos, yeguas, mulares y asnales) registrados en el predio…"
+  equinos: Int
+  "Censo total de ganado porcino registrado en las instalaciones del predio durante la jornada sanitaria."
+  porcinos: Int
+  "Censo de animales de la especie ovina registrados en el predio pecuario."
+  ovinos: Int
+  "Censo total de ganado caprino registrado en el predio pecuario durante la visita."
+  caprinos: Int
+}
+
+input VacunacionAftosaVichadaWhere {
+  _and: [VacunacionAftosaVichadaWhere!]
+  _or: [VacunacionAftosaVichadaWhere!]
+  _not: VacunacionAftosaVichadaWhere
+  codigoDaneDepartamento: IntFilter
+  departamento: VacunacionAftosaVichadaDepartamentoFilter
+  codigoDaneMunicipio: IntFilter
+  municipio: VacunacionAftosaVichadaMunicipioFilter
+  vereda: StringFilter
+  tenencia: VacunacionAftosaVichadaTenenciaFilter
+  ruv: IntFilter
+  fechaRuv: DateFilter
+  fechaRuvYear: IntFilter
+  fechaRuvMonth: IntFilter
+  vigencia: IntFilter
+  cicloVacunacion: VacunacionAftosaVichadaCicloVacunacionFilter
+  longitud: FloatFilter
+  latitud: FloatFilter
+  totalAftosa: IntFilter
+  equinos: IntFilter
+  porcinos: IntFilter
+  ovinos: IntFilter
+  caprinos: IntFilter
+}
+
+input VacunacionAftosaVichadaOrderBy {
+  codigoDaneDepartamento: OrderDirection
+  departamento: OrderDirection
+  codigoDaneMunicipio: OrderDirection
+  municipio: OrderDirection
+  vereda: OrderDirection
+  tenencia: OrderDirection
+  ruv: OrderDirection
+  fechaRuv: OrderDirection
+  vigencia: OrderDirection
+  cicloVacunacion: OrderDirection
+  longitud: OrderDirection
+  latitud: OrderDirection
+  totalAftosa: OrderDirection
+  equinos: OrderDirection
+  porcinos: OrderDirection
+  ovinos: OrderDirection
+  caprinos: OrderDirection
+}
+
+type VacunacionAftosaVichadaSum {
+  totalAftosa: Float
+  equinos: Float
+  porcinos: Float
+  ovinos: Float
+  caprinos: Float
+}
+
+input VacunacionAftosaVichadaSumOrderBy {
+  totalAftosa: OrderDirection
+  equinos: OrderDirection
+  porcinos: OrderDirection
+  ovinos: OrderDirection
+  caprinos: OrderDirection
+}
+
+type VacunacionAftosaVichadaMinMax {
+  fechaRuv: Date
+  vigencia: Int
+  longitud: Float
+  latitud: Float
+  totalAftosa: Int
+  equinos: Int
+  porcinos: Int
+  ovinos: Int
+  caprinos: Int
+}
+
+input VacunacionAftosaVichadaMinMaxOrderBy {
+  fechaRuv: OrderDirection
+  vigencia: OrderDirection
+  longitud: OrderDirection
+  latitud: OrderDirection
+  totalAftosa: OrderDirection
+  equinos: OrderDirection
+  porcinos: OrderDirection
+  ovinos: OrderDirection
+  caprinos: OrderDirection
+}
+
+type VacunacionAftosaVichadaCountDistinct {
+  codigoDaneDepartamento: Int
+  departamento: Int
+  codigoDaneMunicipio: Int
+  municipio: Int
+  vereda: Int
+  tenencia: Int
+  ruv: Int
+  fechaRuv: Int
+  vigencia: Int
+  cicloVacunacion: Int
+}
+
+input VacunacionAftosaVichadaCountDistinctOrderBy {
+  codigoDaneDepartamento: OrderDirection
+  departamento: OrderDirection
+  codigoDaneMunicipio: OrderDirection
+  municipio: OrderDirection
+  vereda: OrderDirection
+  tenencia: OrderDirection
+  ruv: OrderDirection
+  fechaRuv: OrderDirection
+  vigencia: OrderDirection
+  cicloVacunacion: OrderDirection
+}
+
+"""Fila de un resultado agregado de vacunacionAftosaVichada. Los campos escalares seleccionados son las claves de agrupación."""
+type VacunacionAftosaVichadaGroup {
+  codigoDaneDepartamento: Int
+  departamento: VacunacionAftosaVichadaDepartamento
+  codigoDaneMunicipio: Int
+  municipio: VacunacionAftosaVichadaMunicipio
+  vereda: String
+  tenencia: VacunacionAftosaVichadaTenencia
+  ruv: Int
+  fechaRuv: Date
+  "Año de fechaRuv."
+  fechaRuvYear: Int
+  "Mes (1-12) de fechaRuv."
+  fechaRuvMonth: Int
+  vigencia: Int
+  cicloVacunacion: VacunacionAftosaVichadaCicloVacunacion
+  "Número de filas del grupo."
+  count: Int!
+  countDistinct: VacunacionAftosaVichadaCountDistinct
+  sum: VacunacionAftosaVichadaSum
+  avg: VacunacionAftosaVichadaSum
+  min: VacunacionAftosaVichadaMinMax
+  max: VacunacionAftosaVichadaMinMax
+}
+
+input VacunacionAftosaVichadaGroupOrderBy {
+  codigoDaneDepartamento: OrderDirection
+  departamento: OrderDirection
+  codigoDaneMunicipio: OrderDirection
+  municipio: OrderDirection
+  vereda: OrderDirection
+  tenencia: OrderDirection
+  ruv: OrderDirection
+  fechaRuv: OrderDirection
+  fechaRuvYear: OrderDirection
+  fechaRuvMonth: OrderDirection
+  vigencia: OrderDirection
+  cicloVacunacion: OrderDirection
+  count: OrderDirection
+  countDistinct: VacunacionAftosaVichadaCountDistinctOrderBy
+  sum: VacunacionAftosaVichadaSumOrderBy
+  avg: VacunacionAftosaVichadaSumOrderBy
+  min: VacunacionAftosaVichadaMinMaxOrderBy
+  max: VacunacionAftosaVichadaMinMaxOrderBy
+}
+
+extend type Query {
+  "Filas de gcq5-hvdx. Sin orderBy se ordenan por el identificador interno de fila."
+  vacunacionAftosaVichada(where: VacunacionAftosaVichadaWhere, orderBy: [VacunacionAftosaVichadaOrderBy!], limit: Int = 100, offset: Int = 0): [VacunacionAftosaVichada!]!
+  "Agregados de gcq5-hvdx agrupados por los campos escalares seleccionados."
+  vacunacionAftosaVichadaAggregate(where: VacunacionAftosaVichadaWhere, orderBy: [VacunacionAftosaVichadaGroupOrderBy!], limit: Int = 100, offset: Int = 0): [VacunacionAftosaVichadaGroup!]!
+}

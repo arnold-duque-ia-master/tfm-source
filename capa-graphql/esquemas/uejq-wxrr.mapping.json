@@ -1,0 +1,446 @@
+{
+ "id": "uejq-wxrr",
+ "alias": "evaluacionesAgricolas",
+ "type": "EvaluacionesAgricolas",
+ "baseWhere": null,
+ "columns": {
+  "codigoDaneDepartamento": {
+   "field": "c_digo_dane_departamento",
+   "kind": "string",
+   "gql": "String",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "departamento": {
+   "field": "departamento",
+   "kind": "enum",
+   "gql": "EvaluacionesAgricolasDepartamento",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "AMAZONAS": [
+     "Amazonas"
+    ],
+    "ANTIOQUIA": [
+     "Antioquia"
+    ],
+    "ARAUCA": [
+     "Arauca"
+    ],
+    "ARCHIPIELAGO_DE_SAN_ANDRES_PROVIDENCIA_Y_SANTA_CATALINA": [
+     "Archipiélago de San Andrés, Providencia y Santa Catalina"
+    ],
+    "ATLANTICO": [
+     "Atlántico"
+    ],
+    "BOLIVAR": [
+     "Bolívar"
+    ],
+    "BOYACA": [
+     "Boyacá"
+    ],
+    "CALDAS": [
+     "Caldas"
+    ],
+    "CAQUETA": [
+     "Caquetá"
+    ],
+    "CASANARE": [
+     "Casanare"
+    ],
+    "CAUCA": [
+     "Cauca"
+    ],
+    "CESAR": [
+     "Cesar"
+    ],
+    "CHOCO": [
+     "Chocó"
+    ],
+    "CORDOBA": [
+     "Córdoba"
+    ],
+    "CUNDINAMARCA": [
+     "Cundinamarca"
+    ],
+    "GUAINIA": [
+     "Guainía"
+    ],
+    "GUAVIARE": [
+     "Guaviare"
+    ],
+    "HUILA": [
+     "Huila"
+    ],
+    "LA_GUAJIRA": [
+     "La Guajira"
+    ],
+    "MAGDALENA": [
+     "Magdalena"
+    ],
+    "META": [
+     "Meta"
+    ],
+    "NARINO": [
+     "Nariño"
+    ],
+    "NORTE_DE_SANTANDER": [
+     "Norte de Santander"
+    ],
+    "PUTUMAYO": [
+     "Putumayo"
+    ],
+    "QUINDIO": [
+     "Quindío"
+    ],
+    "RISARALDA": [
+     "Risaralda"
+    ],
+    "SANTANDER": [
+     "Santander"
+    ],
+    "SUCRE": [
+     "Sucre"
+    ],
+    "TOLIMA": [
+     "Tolima"
+    ],
+    "VALLE_DEL_CAUCA": [
+     "Valle del Cauca"
+    ],
+    "VAUPES": [
+     "Vaupés"
+    ],
+    "VICHADA": [
+     "Vichada"
+    ]
+   }
+  },
+  "codigoDaneMunicipio": {
+   "field": "c_digo_dane_municipio",
+   "kind": "string",
+   "gql": "String",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "municipio": {
+   "field": "municipio",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "grupoCultivo": {
+   "field": "grupo_cultivo",
+   "kind": "enum",
+   "gql": "EvaluacionesAgricolasGrupoCultivo",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "CEREALES": [
+     "Cereales"
+    ],
+    "CULTIVOS_PARA_CONDIMENTOS_BEBIDAS_MEDICINALES_Y_AROMATICAS": [
+     "Cultivos para condimentos, bebidas medicinales y aromáticas"
+    ],
+    "CULTIVOS_TROPICALES_TRADICIONALES": [
+     "Cultivos tropicales tradicionales"
+    ],
+    "FRUTALES": [
+     "Frutales"
+    ],
+    "HORTALIZAS": [
+     "Hortalizas"
+    ],
+    "LEGUMINOSAS": [
+     "Leguminosas"
+    ],
+    "OLEAGINOSAS": [
+     "Oleaginosas"
+    ],
+    "RAICES_Y_TUBERCULOS": [
+     "Raíces y tubérculos"
+    ]
+   }
+  },
+  "subgrupo": {
+   "field": "subgrupo",
+   "kind": "enum",
+   "gql": "EvaluacionesAgricolasSubgrupo",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "ANONACEAS": [
+     "Anonáceas"
+    ],
+    "ARACEAS": [
+     "Aráceas"
+    ],
+    "AROMATICAS": [
+     "Aromáticas"
+    ],
+    "CADUCIFOLIOS": [
+     "Caducifolios"
+    ],
+    "CEREALES": [
+     "Cereales"
+    ],
+    "CITRICOS": [
+     "Cítricos"
+    ],
+    "CONDIMENTOS": [
+     "Condimentos"
+    ],
+    "CULTIVOS_PARA_CONDIMENTOS_BEBIDAS_MEDICINALES_Y_AROMATICAS": [
+     "Cultivos para condimentos, bebidas medicinales y aromáticas"
+    ],
+    "CULTIVOS_TROPICALES_TRADICIONALES": [
+     "Cultivos tropicales tradicionales"
+    ],
+    "DEMAS_FRUTALES": [
+     "Demás frutales"
+    ],
+    "HORTALIZAS": [
+     "Hortalizas"
+    ],
+    "HORTALIZAS_DE_FLOR": [
+     "Hortalizas de flor"
+    ],
+    "HORTALIZAS_DE_FRUTO": [
+     "Hortalizas de fruto"
+    ],
+    "HORTALIZAS_DE_HOJA": [
+     "Hortalizas de hoja"
+    ],
+    "HORTALIZAS_DE_RAIZ": [
+     "Hortalizas de raíz"
+    ],
+    "HORTALIZAS_DE_TALLO": [
+     "Hortalizas de tallo"
+    ],
+    "LEGUMINOSAS": [
+     "Leguminosas"
+    ],
+    "MEDICINALES": [
+     "Medicinales"
+    ],
+    "MIRTACEAS": [
+     "Mirtáceas"
+    ],
+    "OLEAGINOSAS": [
+     "Oleaginosas"
+    ],
+    "PASIFLORACEAS": [
+     "Pasifloráceas"
+    ],
+    "RAICES_Y_TUBERCULOS": [
+     "Raíces y tubérculos"
+    ],
+    "SOLANACEAS": [
+     "Solanáceas"
+    ]
+   }
+  },
+  "cultivo": {
+   "field": "cultivo",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "desagregacionCultivo": {
+   "field": "desagregaci_n_cultivo",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "anio": {
+   "field": "a_o",
+   "kind": "int",
+   "gql": "Int",
+   "role": "time",
+   "cast": null,
+   "enum": null
+  },
+  "periodo": {
+   "field": "periodo",
+   "kind": "enum",
+   "gql": "EvaluacionesAgricolasPeriodo",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "_2019": [
+     "2019"
+    ],
+    "_2019A": [
+     "2019A"
+    ],
+    "_2019B": [
+     "2019B"
+    ],
+    "_2020": [
+     "2020"
+    ],
+    "_2020A": [
+     "2020A"
+    ],
+    "_2020B": [
+     "2020B"
+    ],
+    "_2021": [
+     "2021"
+    ],
+    "_2021A": [
+     "2021A"
+    ],
+    "_2021B": [
+     "2021B"
+    ],
+    "_2022": [
+     "2022"
+    ],
+    "_2022A": [
+     "2022A"
+    ],
+    "_2022B": [
+     "2022B"
+    ],
+    "_2023": [
+     "2023"
+    ],
+    "_2023A": [
+     "2023A"
+    ],
+    "_2023B": [
+     "2023B"
+    ],
+    "_2024": [
+     "2024"
+    ],
+    "_2024A": [
+     "2024A"
+    ],
+    "_2024B": [
+     "2024B"
+    ],
+    "_2025": [
+     "2025"
+    ],
+    "_2025A": [
+     "2025A"
+    ],
+    "_2025B": [
+     "2025B"
+    ]
+   }
+  },
+  "areaSembrada": {
+   "field": "rea_sembrada",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "areaCosechada": {
+   "field": "rea_cosechada",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "produccion": {
+   "field": "producci_n",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "rendimiento": {
+   "field": "rendimiento",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "cicloDelCultivo": {
+   "field": "ciclo_del_cultivo",
+   "kind": "enum",
+   "gql": "EvaluacionesAgricolasCicloDelCultivo",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "PERMANENTE": [
+     "Permanente"
+    ],
+    "TRANSITORIO": [
+     "Transitorio"
+    ]
+   }
+  },
+  "estadoFisicoDelCultivo": {
+   "field": "estado_f_sico_del_cultivo",
+   "kind": "enum",
+   "gql": "EvaluacionesAgricolasEstadoFisicoDelCultivo",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "ACEITE_CRUDO": [
+     "Aceite crudo"
+    ],
+    "ALGODON_SEMILLA": [
+     "Algodón semilla"
+    ],
+    "CANA_O_VERDE": [
+     "Caña o verde"
+    ],
+    "EN_FRESCO": [
+     "En fresco"
+    ],
+    "FIBRA_O_CABUYA": [
+     "Fibra o cabuya"
+    ],
+    "GRANO": [
+     "Grano"
+    ],
+    "GRANO_O_ALMENDRA": [
+     "Grano o almendra"
+    ],
+    "GRANO_SECO": [
+     "Grano seco"
+    ],
+    "PADDY_O_CASCARA_VERDE": [
+     "Paddy o cascara verde"
+    ],
+    "PERGAMINO_O_SECO_DE_TRILLA": [
+     "Pergamino o seco de trilla"
+    ]
+   }
+  },
+  "codigoDelCultivo": {
+   "field": "c_digo_del_cultivo",
+   "kind": "int",
+   "gql": "Int",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "nombreCientificoDelCultivo": {
+   "field": "nombre_cient_fico_del_cultivo",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  }
+ }
+}

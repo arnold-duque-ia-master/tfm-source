@@ -1,0 +1,1076 @@
+{
+ "id": "h2yr-zfb2",
+ "name": "Subsidios De Vivienda Asignados",
+ "assetType": "dataset",
+ "attribution": "Gobernación de Risaralda, Risaralda",
+ "attributionLink": "http://minvivienda.gov.co",
+ "averageRating": 0,
+ "category": "Vivienda, Ciudad y Territorio",
+ "createdAt": 1505751794,
+ "description": "El archivo contiene el número de hogares que en algún momento fueron beneficiarios del subsidio familiar de vivienda por parte del Fondo Nacional de Vivienda - FONVIVIENDA. Así mismo, contiene la información de las vigencias 2003 a la fecha, clasificada  por departamento, municipio, programa, y otras variables; a la fecha de actualización de esta plataforma. Fecha Última Emisión 20261001.",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 10043,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locale": "en_US",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 38914988,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1664901387,
+ "publicationGroup": 14470196,
+ "publicationStage": "published",
+ "resourceName": "Minvivienda1",
+ "rowsUpdatedAt": 1790865322,
+ "rowsUpdatedBy": "i88y-uh8g",
+ "tableId": 18896360,
+ "totalTimesRated": 0,
+ "viewCount": 211021,
+ "viewLastModified": 1790865301,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1563998651,
+   "reviewedAutomatically": true,
+   "state": "approved",
+   "submissionId": 5016106,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1563998651,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "submissionDetails": {
+    "permissionType": "READ"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1563998652,
+    "failureCount": 0,
+    "startedAt": 1563998651,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "i88y-uh8g",
+    "displayName": "Ministerio de Vivienda, Ciudad y Territorio"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 566196663,
+   "name": "Departamento",
+   "dataTypeName": "text",
+   "description": "Departamento",
+   "fieldName": "departamento",
+   "position": 1,
+   "renderTypeName": "text",
+   "tableColumnId": 53443954,
+   "width": 244,
+   "cachedContents": {
+    "non_null": "87095",
+    "largest": "VICHADA",
+    "null": "0",
+    "top": [
+     {
+      "item": "ANTIOQUIA",
+      "count": "11397"
+     },
+     {
+      "item": "VALLE DEL CAUCA",
+      "count": "10016"
+     },
+     {
+      "item": "CUNDINAMARCA",
+      "count": "7395"
+     },
+     {
+      "item": "ATLÁNTICO",
+      "count": "5575"
+     },
+     {
+      "item": "SANTANDER",
+      "count": "5238"
+     },
+     {
+      "item": "NORTE DE SANTANDER",
+      "count": "4450"
+     },
+     {
+      "item": "BOYACÁ",
+      "count": "4150"
+     },
+     {
+      "item": "TOLIMA",
+      "count": "3765"
+     },
+     {
+      "item": "BOLÍVAR",
+      "count": "3088"
+     },
+     {
+      "item": "RISARALDA",
+      "count": "2948"
+     },
+     {
+      "item": "NARIÑO",
+      "count": "2858"
+     },
+     {
+      "item": "HUILA",
+      "count": "2801"
+     },
+     {
+      "item": "META",
+      "count": "2718"
+     },
+     {
+      "item": "CAUCA",
+      "count": "2371"
+     },
+     {
+      "item": "CESAR",
+      "count": "2227"
+     },
+     {
+      "item": "CÓRDOBA",
+      "count": "2199"
+     },
+     {
+      "item": "CALDAS",
+      "count": "2152"
+     },
+     {
+      "item": "QUINDÍO",
+      "count": "2114"
+     },
+     {
+      "item": "BOGOTÁ, D.C.",
+      "count": "2052"
+     },
+     {
+      "item": "MAGDALENA",
+      "count": "1693"
+     }
+    ],
+    "smallest": "AMAZONAS",
+    "count": "87095",
+    "cardinality": "87095"
+   },
+   "format": {}
+  },
+  {
+   "id": 566196671,
+   "name": "Código Divipola Departamento",
+   "dataTypeName": "text",
+   "description": "Código Divipola Departamento",
+   "fieldName": "c_digo_divipola_departamento",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 143896896,
+   "cachedContents": {
+    "non_null": "87095",
+    "largest": "99",
+    "null": "0",
+    "top": [
+     {
+      "item": "5",
+      "count": "11397"
+     },
+     {
+      "item": "76",
+      "count": "10016"
+     },
+     {
+      "item": "25",
+      "count": "7395"
+     },
+     {
+      "item": "8",
+      "count": "5575"
+     },
+     {
+      "item": "68",
+      "count": "5238"
+     },
+     {
+      "item": "54",
+      "count": "4450"
+     },
+     {
+      "item": "15",
+      "count": "4150"
+     },
+     {
+      "item": "73",
+      "count": "3765"
+     },
+     {
+      "item": "13",
+      "count": "3088"
+     },
+     {
+      "item": "66",
+      "count": "2948"
+     },
+     {
+      "item": "52",
+      "count": "2858"
+     },
+     {
+      "item": "41",
+      "count": "2801"
+     },
+     {
+      "item": "50",
+      "count": "2718"
+     },
+     {
+      "item": "19",
+      "count": "2371"
+     },
+     {
+      "item": "20",
+      "count": "2227"
+     },
+     {
+      "item": "23",
+      "count": "2199"
+     },
+     {
+      "item": "17",
+      "count": "2152"
+     },
+     {
+      "item": "63",
+      "count": "2114"
+     },
+     {
+      "item": "11",
+      "count": "2052"
+     },
+     {
+      "item": "47",
+      "count": "1693"
+     }
+    ],
+    "smallest": "11",
+    "count": "87095",
+    "cardinality": "87095"
+   },
+   "format": {
+    "align": "left"
+   }
+  },
+  {
+   "id": 566196664,
+   "name": "Municipio",
+   "dataTypeName": "text",
+   "description": "Municipio",
+   "fieldName": "municipio",
+   "position": 3,
+   "renderTypeName": "text",
+   "tableColumnId": 53443955,
+   "width": 208,
+   "cachedContents": {
+    "non_null": "87095",
+    "largest": "ZONA BANANERA",
+    "null": "0",
+    "top": [
+     {
+      "item": "BOGOTÁ, D.C.",
+      "count": "2052"
+     },
+     {
+      "item": "SOLEDAD",
+      "count": "1615"
+     },
+     {
+      "item": "BARRANQUILLA",
+      "count": "1533"
+     },
+     {
+      "item": "IBAGUÉ",
+      "count": "1481"
+     },
+     {
+      "item": "SAN JOSÉ DE CÚCUTA",
+      "count": "1438"
+     },
+     {
+      "item": "SANTIAGO DE CALI",
+      "count": "1420"
+     },
+     {
+      "item": "CARTAGENA DE INDIAS",
+      "count": "1410"
+     },
+     {
+      "item": "MEDELLÍN",
+      "count": "1403"
+     },
+     {
+      "item": "JAMUNDÍ",
+      "count": "1368"
+     },
+     {
+      "item": "SOACHA",
+      "count": "1355"
+     },
+     {
+      "item": "BELLO",
+      "count": "1190"
+     },
+     {
+      "item": "PASTO",
+      "count": "1189"
+     },
+     {
+      "item": "PEREIRA",
+      "count": "1142"
+     },
+     {
+      "item": "VALLEDUPAR",
+      "count": "1142"
+     },
+     {
+      "item": "DOSQUEBRADAS",
+      "count": "1062"
+     },
+     {
+      "item": "ARMENIA",
+      "count": "1029"
+     },
+     {
+      "item": "SANTA MARTA",
+      "count": "999"
+     },
+     {
+      "item": "CANDELARIA",
+      "count": "993"
+     },
+     {
+      "item": "PALMIRA",
+      "count": "961"
+     },
+     {
+      "item": "VILLAVICENCIO",
+      "count": "959"
+     }
+    ],
+    "smallest": "ABEJORRAL",
+    "count": "87095",
+    "cardinality": "87095"
+   },
+   "format": {}
+  },
+  {
+   "id": 566196670,
+   "name": "Código Divipola Municipio",
+   "dataTypeName": "text",
+   "description": "Código Divipola Municipio",
+   "fieldName": "c_digo_divipola_municipio",
+   "position": 4,
+   "renderTypeName": "text",
+   "tableColumnId": 143896895,
+   "cachedContents": {
+    "non_null": "87095",
+    "largest": "99773",
+    "null": "0",
+    "top": [
+     {
+      "item": "11001",
+      "count": "2052"
+     },
+     {
+      "item": "8758",
+      "count": "1615"
+     },
+     {
+      "item": "8001",
+      "count": "1533"
+     },
+     {
+      "item": "73001",
+      "count": "1481"
+     },
+     {
+      "item": "54001",
+      "count": "1438"
+     },
+     {
+      "item": "76001",
+      "count": "1420"
+     },
+     {
+      "item": "13001",
+      "count": "1410"
+     },
+     {
+      "item": "5001",
+      "count": "1403"
+     },
+     {
+      "item": "76364",
+      "count": "1368"
+     },
+     {
+      "item": "25754",
+      "count": "1355"
+     },
+     {
+      "item": "5088",
+      "count": "1190"
+     },
+     {
+      "item": "52001",
+      "count": "1189"
+     },
+     {
+      "item": "20001",
+      "count": "1142"
+     },
+     {
+      "item": "66001",
+      "count": "1142"
+     },
+     {
+      "item": "66170",
+      "count": "1062"
+     },
+     {
+      "item": "63001",
+      "count": "1027"
+     },
+     {
+      "item": "47001",
+      "count": "999"
+     },
+     {
+      "item": "76130",
+      "count": "963"
+     },
+     {
+      "item": "76520",
+      "count": "961"
+     },
+     {
+      "item": "50001",
+      "count": "959"
+     }
+    ],
+    "smallest": "11001",
+    "count": "87095",
+    "cardinality": "87095"
+   },
+   "format": {}
+  },
+  {
+   "id": 566196665,
+   "name": "Programa",
+   "dataTypeName": "text",
+   "description": "Nombre del Programa Inscrito",
+   "fieldName": "programa",
+   "position": 5,
+   "renderTypeName": "text",
+   "tableColumnId": 53443956,
+   "width": 196,
+   "cachedContents": {
+    "non_null": "87095",
+    "largest": "VIPA",
+    "null": "0",
+    "top": [
+     {
+      "item": "MI CASA YA",
+      "count": "50788"
+     },
+     {
+      "item": "Bolsa Desplazados",
+      "count": "9296"
+     },
+     {
+      "item": "Semillero de Propietarios Arriendo",
+      "count": "4683"
+     },
+     {
+      "item": "Casa Digna Vida Digna",
+      "count": "4415"
+     },
+     {
+      "item": "VIPA",
+      "count": "3308"
+     },
+     {
+      "item": "Programa Vivienda Gratuita Fase I",
+      "count": "2657"
+     },
+     {
+      "item": "Bolsa Esfuerzo Territorial",
+      "count": "2034"
+     },
+     {
+      "item": "Semillero de Propietarios Ahorro",
+      "count": "1699"
+     },
+     {
+      "item": "Bolsa Ordinaria",
+      "count": "1351"
+     },
+     {
+      "item": "Ahorro Programado Contractual",
+      "count": "1231"
+     },
+     {
+      "item": "Programa Vivienda Gratuita Fase II",
+      "count": "1087"
+     },
+     {
+      "item": "Bolsa Concejales",
+      "count": "1029"
+     },
+     {
+      "item": "Bolsa Desastres Naturales",
+      "count": "756"
+     },
+     {
+      "item": "Bolsa Atentados terroristas",
+      "count": "745"
+     },
+     {
+      "item": "Bolsa Saludable",
+      "count": "729"
+     },
+     {
+      "item": "Bolsa unica Nacional",
+      "count": "370"
+     },
+     {
+      "item": "Macroproyecto",
+      "count": "201"
+     },
+     {
+      "item": "Fenómeno de la Niña",
+      "count": "194"
+     },
+     {
+      "item": "Bolsa Recicladores",
+      "count": "135"
+     },
+     {
+      "item": "Habilitación de Titulos",
+      "count": "134"
+     }
+    ],
+    "smallest": "Ahorro Programado Contractual",
+    "count": "87095",
+    "cardinality": "87095"
+   },
+   "format": {}
+  },
+  {
+   "id": 566196666,
+   "name": "Año de Asignación",
+   "dataTypeName": "number",
+   "description": "Vigencia en que se asignó el Subsidio",
+   "fieldName": "a_o_de_asignaci_n",
+   "position": 6,
+   "renderTypeName": "number",
+   "tableColumnId": 53443957,
+   "width": 304,
+   "cachedContents": {
+    "non_null": "87095",
+    "largest": "2026",
+    "null": "0",
+    "top": [
+     {
+      "item": "2022",
+      "count": "10224"
+     },
+     {
+      "item": "2021",
+      "count": "10171"
+     },
+     {
+      "item": "2020",
+      "count": "7125"
+     },
+     {
+      "item": "2018",
+      "count": "6353"
+     },
+     {
+      "item": "2024",
+      "count": "5959"
+     },
+     {
+      "item": "2019",
+      "count": "5935"
+     },
+     {
+      "item": "2017",
+      "count": "5398"
+     },
+     {
+      "item": "2016",
+      "count": "5263"
+     },
+     {
+      "item": "2023",
+      "count": "5250"
+     },
+     {
+      "item": "2025",
+      "count": "3233"
+     },
+     {
+      "item": "2010",
+      "count": "3047"
+     },
+     {
+      "item": "2008",
+      "count": "2412"
+     },
+     {
+      "item": "2015",
+      "count": "2411"
+     },
+     {
+      "item": "2009",
+      "count": "2201"
+     },
+     {
+      "item": "2011",
+      "count": "2059"
+     },
+     {
+      "item": "2007",
+      "count": "1993"
+     },
+     {
+      "item": "2006",
+      "count": "1535"
+     },
+     {
+      "item": "2004",
+      "count": "1403"
+     },
+     {
+      "item": "2005",
+      "count": "1394"
+     },
+     {
+      "item": "2026",
+      "count": "1039"
+     }
+    ],
+    "smallest": "2003",
+    "count": "87095",
+    "cardinality": "87095"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 566196667,
+   "name": "Estado de Postulación",
+   "dataTypeName": "text",
+   "description": "Estado de Postulación",
+   "fieldName": "estado_de_postulaci_n",
+   "position": 7,
+   "renderTypeName": "text",
+   "tableColumnId": 53443958,
+   "width": 352,
+   "cachedContents": {
+    "non_null": "87095",
+    "largest": "Vencido en proceso de restitución de recursos a la DTN",
+    "null": "0",
+    "top": [
+     {
+      "item": "Asignados",
+      "count": "68922"
+     },
+     {
+      "item": "Apto con subsidio vencido",
+      "count": "7125"
+     },
+     {
+      "item": "Renuncias al subsidio",
+      "count": "5226"
+     },
+     {
+      "item": "Asignado con aplicación en Vivienda Gratuita",
+      "count": "1420"
+     },
+     {
+      "item": "Renuncia con restitucion de subsidio",
+      "count": "1221"
+     },
+     {
+      "item": "Perdida de ejecutoriedad de asignación de SFV",
+      "count": "1168"
+     },
+     {
+      "item": "Restitución SFV por Vencimiento Vigencia",
+      "count": "605"
+     },
+     {
+      "item": "Restitución SFV por Indemnización",
+      "count": "339"
+     },
+     {
+      "item": "Subsidio Revocado",
+      "count": "331"
+     },
+     {
+      "item": "Restitucion de subsidios no aplicados",
+      "count": "285"
+     },
+     {
+      "item": "Subsidio revocado mediante procedimiento Administrativo Sancionatorio",
+      "count": "251"
+     },
+     {
+      "item": "Restitución SFV Cobro Directo Fiduciaria",
+      "count": "55"
+     },
+     {
+      "item": "Renuncia al Subsidio - Pendiente de Restitución",
+      "count": "30"
+     },
+     {
+      "item": "Asignado posteriormente beneficiario de Vivienda Gratuita",
+      "count": "27"
+     },
+     {
+      "item": "Renuncia a la postulación",
+      "count": "23"
+     },
+     {
+      "item": "Subsidio Revocado con Restitución a la DTN",
+      "count": "15"
+     },
+     {
+      "item": "Subsidio Restituido",
+      "count": "10"
+     },
+     {
+      "item": "Renuncia a la postulación - Anteriormente vencido",
+      "count": "6"
+     },
+     {
+      "item": "Asignado con Aplicación en Mi Casa Ya",
+      "count": "5"
+     },
+     {
+      "item": "Vencido en proceso de restitución de recursos a la DTN",
+      "count": "5"
+     }
+    ],
+    "smallest": "Apto con subsidio vencido",
+    "count": "87095",
+    "cardinality": "87095"
+   },
+   "format": {}
+  },
+  {
+   "id": 566196668,
+   "name": "Hogares",
+   "dataTypeName": "number",
+   "description": "Cantidad de Hogares con Subsidio Asignado",
+   "fieldName": "hogares",
+   "position": 8,
+   "renderTypeName": "number",
+   "tableColumnId": 53443959,
+   "width": 184,
+   "cachedContents": {
+    "non_null": "87095",
+    "largest": "6100",
+    "null": "0",
+    "top": [
+     {
+      "item": "1",
+      "count": "35587"
+     },
+     {
+      "item": "2",
+      "count": "11973"
+     },
+     {
+      "item": "3",
+      "count": "6642"
+     },
+     {
+      "item": "4",
+      "count": "4462"
+     },
+     {
+      "item": "5",
+      "count": "3206"
+     },
+     {
+      "item": "6",
+      "count": "2533"
+     },
+     {
+      "item": "7",
+      "count": "2058"
+     },
+     {
+      "item": "8",
+      "count": "1704"
+     },
+     {
+      "item": "9",
+      "count": "1375"
+     },
+     {
+      "item": "10",
+      "count": "1228"
+     },
+     {
+      "item": "11",
+      "count": "1068"
+     },
+     {
+      "item": "12",
+      "count": "927"
+     },
+     {
+      "item": "13",
+      "count": "815"
+     },
+     {
+      "item": "14",
+      "count": "759"
+     },
+     {
+      "item": "15",
+      "count": "649"
+     },
+     {
+      "item": "17",
+      "count": "559"
+     },
+     {
+      "item": "16",
+      "count": "544"
+     },
+     {
+      "item": "18",
+      "count": "495"
+     },
+     {
+      "item": "20",
+      "count": "468"
+     },
+     {
+      "item": "19",
+      "count": "464"
+     }
+    ],
+    "smallest": "0",
+    "count": "87095",
+    "cardinality": "87095"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 566196669,
+   "name": "Valor Asignado",
+   "dataTypeName": "number",
+   "description": "Valor Total que se Pagó a los Hogares Asignados",
+   "fieldName": "valor_asignado",
+   "position": 9,
+   "renderTypeName": "number",
+   "tableColumnId": 53443960,
+   "width": 268,
+   "cachedContents": {
+    "non_null": "87095",
+    "largest": "65843588500",
+    "null": "0",
+    "top": [
+     {
+      "item": "18170520",
+      "count": "1638"
+     },
+     {
+      "item": "14754340",
+      "count": "1601"
+     },
+     {
+      "item": "17556060",
+      "count": "1506"
+     },
+     {
+      "item": "20000000",
+      "count": "1501"
+     },
+     {
+      "item": "24843480",
+      "count": "1384"
+     },
+     {
+      "item": "15624840",
+      "count": "1345"
+     },
+     {
+      "item": "27255780",
+      "count": "1280"
+     },
+     {
+      "item": "23437260",
+      "count": "1249"
+     },
+     {
+      "item": "26334090",
+      "count": "1208"
+     },
+     {
+      "item": "30000000",
+      "count": "1189"
+     },
+     {
+      "item": "13789100",
+      "count": "1118"
+     },
+     {
+      "item": "16562320",
+      "count": "1021"
+     },
+     {
+      "item": "26000000",
+      "count": "1008"
+     },
+     {
+      "item": "15450000",
+      "count": "978"
+     },
+     {
+      "item": "14907000",
+      "count": "973"
+     },
+     {
+      "item": "34800000",
+      "count": "962"
+     },
+     {
+      "item": "39000000",
+      "count": "956"
+     },
+     {
+      "item": "23200000",
+      "count": "808"
+     },
+     {
+      "item": "20683650",
+      "count": "779"
+     },
+     {
+      "item": "8273460",
+      "count": "584"
+     }
+    ],
+    "smallest": "0",
+    "count": "87095",
+    "cardinality": "87095"
+   },
+   "format": {
+    "precisionStyle": "currency",
+    "decimalSeparator": ".",
+    "currencyStyle": "CAD",
+    "precision": "2",
+    "groupSeparator": ","
+   }
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Ministerio de Vivienda, Ciudad y Territorio - MinVivienda, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Planeación",
+    "Área o dependencia": "Subdirección de Subsidio y Ejecución de Viviend",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Municipal",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Mensual"
+   }
+  },
+  "availableDisplayTypes": [
+   "table",
+   "fatrow",
+   "page"
+  ]
+ },
+ "owner": {
+  "id": "i88y-uh8g",
+  "displayName": "Ministerio de Vivienda, Ciudad y Territorio",
+  "profileImageUrlLarge": "/api/users/i88y-uh8g/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/i88y-uh8g/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/i88y-uh8g/profile_images/TINY",
+  "screenName": "Ministerio de Vivienda, Ciudad y Territorio",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "i88y-uh8g",
+  "displayName": "Ministerio de Vivienda, Ciudad y Territorio",
+  "profileImageUrlLarge": "/api/users/i88y-uh8g/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/i88y-uh8g/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/i88y-uh8g/profile_images/TINY",
+  "screenName": "Ministerio de Vivienda, Ciudad y Territorio",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "vivienda",
+  "asignados",
+  "hogares",
+  "subsidio"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

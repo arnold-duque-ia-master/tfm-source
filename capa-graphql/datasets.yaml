@@ -1,0 +1,112 @@
+# Registro de conjuntos expuestos por la capa GraphQL (CONVENCIONES.md, apartado 2).
+# El generador combina este registro con metadata/<id>.json y perfiles/<id>.json.
+#
+# Claves:
+#   alias        nombre del campo raíz (camelCase)
+#   description  descripción corta del conjunto (se escribe a mano)
+#   exclude      columnas que no se exponen
+#   rename       fieldName -> nombre GraphQL (cuando la etiqueta visible no sirve)
+#   roles        id | time | geo   (las columnas sin rol que sean numéricas son medidas: admiten sum y avg)
+#   casts        columnas de texto que contienen números: {type: Int|Float, nullTokens: [...]}
+#   baseWhere    condición SoQL que se aplica siempre (filas que no deben exponerse)
+#   valueAliases fusiones manuales de valores de enum: {fieldName: [[canónico, sinónimo, ...], ...]}
+#                (las variantes de mayúsculas, tildes, puntuación y orden de palabras se fusionan solas)
+
+- id: gcq5-hvdx
+  alias: vacunacionAftosaVichada
+  description: Registros de vacunación contra fiebre aftosa en el Vichada. Una fila por Registro Único de Vacunación (RUV) de un predio.
+  exclude: [predio]
+  roles:
+    id: [codigo_dane_departamento, codigo_dane_municipio, ruv]
+    time: [vigencia]
+    geo: [latitud, longitud]
+
+- id: h2yr-zfb2
+  alias: subsidiosVivienda
+  description: Subsidios de vivienda asignados por departamento, municipio, programa y año. Una fila por combinación con el número de hogares y el valor asignado.
+  roles:
+    id: [c_digo_divipola_departamento, c_digo_divipola_municipio]
+    time: [a_o_de_asignaci_n]
+
+- id: uejq-wxrr
+  alias: evaluacionesAgricolas
+  description: Evaluaciones Agropecuarias Municipales (EVA) 2019-2025. Área sembrada y cosechada, producción y rendimiento por municipio, cultivo y periodo.
+  roles:
+    id: [c_digo_dane_departamento, c_digo_dane_municipio, c_digo_del_cultivo]
+    time: [a_o]
+
+- id: 8yi9-t44c
+  alias: traficoPeajes
+  description: Tráfico vehicular mensual en los peajes de la ANI por categoría de tarifa. Cada fila cubre el periodo entre desde y hasta.
+  roles:
+    id: [idpeaje]
+
+- id: 3ebi-d83g
+  alias: energiaZonasNoInterconectadas
+  description: Prestación del servicio de energía en las Zonas No Interconectadas. Una fila por localidad y mes.
+  rename:
+    id_dpto: idDepartamento
+    id_mpio: idMunicipio
+  roles:
+    id: [id_dpto, id_mpio, id_localidad]
+    time: [anio, mes]
+  casts:
+    anio: {type: Int}
+    mes: {type: Int}
+  valueAliases:
+    dpto:
+      - ["ARCHIPIÉLAGO DE SAN ANDRÉS, PROVIDENCIA Y SANTA CATALINA", "ARCHIPIELAGO DE SAN ANDRES", "ARCHIPIÉLAGO DE SAN ANDRÉS",
+         "ARCHIPIÉLAGO DE SAN ANDRÉS y PROVIDENCIA", "ARCHIPIÉLAGO DE SAN ANDRÉS Y PROVIDENCIA"]
+
+- id: rtai-k9uh
+  alias: indiceGobiernoDigital
+  description: Índice de Gobierno Digital por entidad pública, vigencia e índice, con el puntaje de la entidad y las estadísticas de su grupo par.
+  roles:
+    id: [c_digo_sigep, id_departamento, id_municipio, id_ndice]
+    time: [vigencia]
+  # La metodología cambió entre 2021 y 2025: se fusionan los índices equivalentes con el nombre de 2025.
+  # Los puntajes de ambas metodologías no son estrictamente comparables.
+  valueAliases:
+    ndice:
+      - ["Estado Abierto", "Empoderamiento de los ciudadanos mediante un Estado abierto"]
+      - ["Decisiones Basadas en Datos", "Toma de decisiones basadas en datos"]
+      - ["Seguridad y Privacidad de la información", "Fortalecimiento de la Seguridad y Privacidad de la Información"]
+      - ["Servicios Ciudadanos Digitales", "Uso y apropiación de los Servicios Ciudadanos Digitales"]
+      - ["Arquitectura", "Fortalecimiento de la Arquitectura Empresarial y de la Gestión de TI"]
+      - ["Índice de Gobierno Digital", "Gobierno Digital"]
+      - ["Estrategias de Ciudades y Territorios Inteligentes", "Impulso en el desarrollo de territorios y ciudades inteligentes"]
+    sector:
+      - ["DEPORTE", "DEL DEPORTE, LA RECREACIÓN, LA ACTIVIDAD FÍSICA Y EL APROVECHAMIENTO DEL TIEMPO LIBRE"]
+
+- id: kekd-7v7h
+  alias: calidadAire
+  description: Calidad del aire en Colombia (promedio anual). Una fila por estación, variable, tiempo de exposición y año.
+  exclude: [fechas_horas_del_m_ximo, fechas_horas_del_m_nimo, ubicacion]
+  roles:
+    id: [id_estacion, c_digo_del_departamento, c_digo_del_municipio, tiempo_de_exposici_n_horas]
+    time: [a_o]
+    geo: [latitud, longitud]
+  casts:
+    representatividad_temporal: {type: Float, nullTokens: ["N/A"]}
+    excedencias_limite_actual: {type: Int}
+    porcentaje_excedencias_limite: {type: Float}
+
+- id: nxt2-39c3
+  alias: calidadAguaIrca
+  description: Índice de Riesgo de la Calidad del Agua para consumo humano (IRCA) por municipio y año, total, urbano y rural.
+  rename:
+    ircaurbano: ircaUrbano
+    ircarural: ircaRural
+  roles:
+    id: [departamentocodigo, municipiocodigo]
+    time: [a_o]
+  casts:
+    ircaurbano: {type: Float, nullTokens: [ND]}
+    ircarural: {type: Float, nullTokens: [ND]}
+  baseWhere: "municipiocodigo != '#TODOS'"
+
+- id: ni93-8mm5
+  alias: preciosMinerales
+  description: Precios base de minerales para la liquidación de regalías, fijados por resolución de la UPME para un periodo de vigencia.
+  roles:
+    id: [resolucion]

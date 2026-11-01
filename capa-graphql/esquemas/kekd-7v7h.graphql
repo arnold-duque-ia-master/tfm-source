@@ -1,0 +1,398 @@
+# ---------- kekd-7v7h ----------
+
+enum CalidadAireAutoridadAmbiental {
+  AMB
+  AMVA
+  CAM
+  CAR
+  CARDER
+  CARDIQUE
+  CAR_DEL_CANAL_DEL_DIQUE
+  CDMB
+  CODECHOCO
+  CORANTIOQUIA
+  CORMACARENA
+  CORNARE
+  CORPAMAG
+  CORPOBOYACA
+  CORPOCALDAS
+  CORPOCESAR
+  CORPOGUAJIRA
+  CORPONARINO
+  CORPONOR
+  CORPORINOQUIA
+  CORTOLIMA
+  CRA
+  CRC
+  CRQ
+  CVC
+  CVS
+  DAGMA
+  EPA_BARRANQUILLA
+  EPA_CARTAGENA
+  SDA
+}
+
+input CalidadAireAutoridadAmbientalFilter {
+  eq: CalidadAireAutoridadAmbiental
+  neq: CalidadAireAutoridadAmbiental
+  in: [CalidadAireAutoridadAmbiental!]
+  nin: [CalidadAireAutoridadAmbiental!]
+  isNull: Boolean
+}
+
+enum CalidadAireVariable {
+  CO
+  DVIENTO
+  HAIRE
+  HAIRE10
+  HAIRE2
+  NO
+  NO2
+  O3
+  P
+  PLIQUIDA
+  PM10
+  PM2_5
+  PST
+  RGLOBAL
+  RUVB
+  SO2
+  TAIRE
+  TAIRE10
+  TAIRE2
+  VVIENTO
+}
+
+input CalidadAireVariableFilter {
+  eq: CalidadAireVariable
+  neq: CalidadAireVariable
+  in: [CalidadAireVariable!]
+  nin: [CalidadAireVariable!]
+  isNull: Boolean
+}
+
+enum CalidadAireUnidades {
+  CELSIUS
+  DEG
+  MEDH
+  MM
+  MMHG
+  MS
+  PERC
+  UGM3
+  WM2
+}
+
+input CalidadAireUnidadesFilter {
+  eq: CalidadAireUnidades
+  neq: CalidadAireUnidades
+  in: [CalidadAireUnidades!]
+  nin: [CalidadAireUnidades!]
+  isNull: Boolean
+}
+
+enum CalidadAireNombreDelDepartamento {
+  ANTIOQUIA
+  ARAUCA
+  ATLANTICO
+  BOGOTA_D_C
+  BOLIVAR
+  BOYACA
+  CALDAS
+  CASANARE
+  CAUCA
+  CESAR
+  CHOCO
+  CORDOBA
+  CUNDINAMARCA
+  HUILA
+  LA_GUAJIRA
+  MAGDALENA
+  META
+  NARINO
+  NORTE_DE_SANTANDER
+  QUINDIO
+  RISARALDA
+  SANTANDER
+  TOLIMA
+  VALLE_DEL_CAUCA
+}
+
+input CalidadAireNombreDelDepartamentoFilter {
+  eq: CalidadAireNombreDelDepartamento
+  neq: CalidadAireNombreDelDepartamento
+  in: [CalidadAireNombreDelDepartamento!]
+  nin: [CalidadAireNombreDelDepartamento!]
+  isNull: Boolean
+}
+
+enum CalidadAireTipoDeEstacion {
+  FIJA
+  INDICATIVA
+  NA
+}
+
+input CalidadAireTipoDeEstacionFilter {
+  eq: CalidadAireTipoDeEstacion
+  neq: CalidadAireTipoDeEstacion
+  in: [CalidadAireTipoDeEstacion!]
+  nin: [CalidadAireTipoDeEstacion!]
+  isNull: Boolean
+}
+
+"""Calidad del aire en Colombia (promedio anual). Una fila por estación, variable, tiempo de exposición y año. (kekd-7v7h)"""
+type CalidadAire {
+  "Identificador único asignado por el Subsistema de Información sobre Calidad del Aire - SISAIRE a cada…"
+  idEstacion: Int
+  "Autoridad Ambiental encargada de operar el Sistema de Vigilancia de la Calidad del Aire en la jurisdicción…"
+  autoridadAmbiental: CalidadAireAutoridadAmbiental
+  "Nombre específico que se designa a la estación de monitoreo de calidad del aire."
+  estacion: String
+  "Coordenada geográfica que indica la latitud de la ubicación de la estación (Sistema de referencia espacial…"
+  latitud: Float
+  "Coordenada geográfica que indica la longitud de la ubicación de la estación (Sistema de referencia espacial…"
+  longitud: Float
+  "Contaminante atmosférico o variable meteorológica que se mide en la estación de monitoreo de la calidad del…"
+  variable: CalidadAireVariable
+  "Unidad de medida empleada para expresar el contaminante atmosférico o variable meteorológica"
+  unidades: CalidadAireUnidades
+  "Período de referencia específico establecido normativamente (Resolución 2254/2017) para evaluar los niveles…"
+  tiempoDeExposicionHoras: Int
+  "Año en el que se realizó la medición en la respectiva estación."
+  anio: Int
+  "Promedio anual del nivel de inmisión o concentración a condiciones de referencia o estándar (std) del…"
+  promedio: Float
+  "Total acumulado anual del nivel de inmisión o concentración a condiciones de referencia o estándar (std) del…"
+  suma: Float
+  "Cantidad total de datos validos recopilados durante el año de medición."
+  noDeDatos: Int
+  "Porcentaje del tiempo total de un período tiene datos válidos registrados"
+  representatividadTemporal: Float
+  "Número total de veces en que el contaminante atmosférico ha superado el nivel máximo permisible vigente…"
+  excedenciasLimiteActual: Int
+  "Proporción determinada por el número de veces en que el contaminante atmosférico ha superado el nivel máximo…"
+  porcentajeExcedenciasLimiteActual: Float
+  "Mediana anual del nivel de inmisión o concentración a condiciones de referencia o estándar (std) del…"
+  mediana: Float
+  "Medida estadística que indica el valor del contaminante atmosférico o de la variable meteorológica por debajo…"
+  percentil98: Float
+  "Valor más alto registrado del contaminante atmosférico o de la variable meteorológica durante el año de…"
+  maximo: Float
+  "Valor más bajo registrado del contaminante atmosférico o de la variable meteorológica durante el año de…"
+  minimo: Float
+  "Número total de días en que el contaminante atmosférico ha superado el nivel máximo permisible vigente…"
+  diasDeExcedencias: Int
+  "Código DANE asignado al departamento."
+  codigoDelDepartamento: Int
+  "Nombre del departamento"
+  nombreDelDepartamento: CalidadAireNombreDelDepartamento
+  "Código del municipio"
+  codigoDelMunicipio: String
+  "Nombre del municipio"
+  nombreDelMunicipio: String
+  "Ubicación de la estación (Sistema de referencia espacial MAGNA- SIRGAS)"
+  tipoDeEstacion: CalidadAireTipoDeEstacion
+}
+
+input CalidadAireWhere {
+  _and: [CalidadAireWhere!]
+  _or: [CalidadAireWhere!]
+  _not: CalidadAireWhere
+  idEstacion: IntFilter
+  autoridadAmbiental: CalidadAireAutoridadAmbientalFilter
+  estacion: StringFilter
+  latitud: FloatFilter
+  longitud: FloatFilter
+  variable: CalidadAireVariableFilter
+  unidades: CalidadAireUnidadesFilter
+  tiempoDeExposicionHoras: IntFilter
+  anio: IntFilter
+  promedio: FloatFilter
+  suma: FloatFilter
+  noDeDatos: IntFilter
+  representatividadTemporal: FloatFilter
+  excedenciasLimiteActual: IntFilter
+  porcentajeExcedenciasLimiteActual: FloatFilter
+  mediana: FloatFilter
+  percentil98: FloatFilter
+  maximo: FloatFilter
+  minimo: FloatFilter
+  diasDeExcedencias: IntFilter
+  codigoDelDepartamento: IntFilter
+  nombreDelDepartamento: CalidadAireNombreDelDepartamentoFilter
+  codigoDelMunicipio: StringFilter
+  nombreDelMunicipio: StringFilter
+  tipoDeEstacion: CalidadAireTipoDeEstacionFilter
+}
+
+input CalidadAireOrderBy {
+  idEstacion: OrderDirection
+  autoridadAmbiental: OrderDirection
+  estacion: OrderDirection
+  latitud: OrderDirection
+  longitud: OrderDirection
+  variable: OrderDirection
+  unidades: OrderDirection
+  tiempoDeExposicionHoras: OrderDirection
+  anio: OrderDirection
+  promedio: OrderDirection
+  suma: OrderDirection
+  noDeDatos: OrderDirection
+  representatividadTemporal: OrderDirection
+  excedenciasLimiteActual: OrderDirection
+  porcentajeExcedenciasLimiteActual: OrderDirection
+  mediana: OrderDirection
+  percentil98: OrderDirection
+  maximo: OrderDirection
+  minimo: OrderDirection
+  diasDeExcedencias: OrderDirection
+  codigoDelDepartamento: OrderDirection
+  nombreDelDepartamento: OrderDirection
+  codigoDelMunicipio: OrderDirection
+  nombreDelMunicipio: OrderDirection
+  tipoDeEstacion: OrderDirection
+}
+
+type CalidadAireSum {
+  promedio: Float
+  suma: Float
+  noDeDatos: Float
+  representatividadTemporal: Float
+  excedenciasLimiteActual: Float
+  porcentajeExcedenciasLimiteActual: Float
+  mediana: Float
+  percentil98: Float
+  maximo: Float
+  minimo: Float
+  diasDeExcedencias: Float
+}
+
+input CalidadAireSumOrderBy {
+  promedio: OrderDirection
+  suma: OrderDirection
+  noDeDatos: OrderDirection
+  representatividadTemporal: OrderDirection
+  excedenciasLimiteActual: OrderDirection
+  porcentajeExcedenciasLimiteActual: OrderDirection
+  mediana: OrderDirection
+  percentil98: OrderDirection
+  maximo: OrderDirection
+  minimo: OrderDirection
+  diasDeExcedencias: OrderDirection
+}
+
+type CalidadAireMinMax {
+  latitud: Float
+  longitud: Float
+  anio: Int
+  promedio: Float
+  suma: Float
+  noDeDatos: Int
+  representatividadTemporal: Float
+  excedenciasLimiteActual: Int
+  porcentajeExcedenciasLimiteActual: Float
+  mediana: Float
+  percentil98: Float
+  maximo: Float
+  minimo: Float
+  diasDeExcedencias: Int
+}
+
+input CalidadAireMinMaxOrderBy {
+  latitud: OrderDirection
+  longitud: OrderDirection
+  anio: OrderDirection
+  promedio: OrderDirection
+  suma: OrderDirection
+  noDeDatos: OrderDirection
+  representatividadTemporal: OrderDirection
+  excedenciasLimiteActual: OrderDirection
+  porcentajeExcedenciasLimiteActual: OrderDirection
+  mediana: OrderDirection
+  percentil98: OrderDirection
+  maximo: OrderDirection
+  minimo: OrderDirection
+  diasDeExcedencias: OrderDirection
+}
+
+type CalidadAireCountDistinct {
+  idEstacion: Int
+  autoridadAmbiental: Int
+  estacion: Int
+  variable: Int
+  unidades: Int
+  tiempoDeExposicionHoras: Int
+  anio: Int
+  codigoDelDepartamento: Int
+  nombreDelDepartamento: Int
+  codigoDelMunicipio: Int
+  nombreDelMunicipio: Int
+  tipoDeEstacion: Int
+}
+
+input CalidadAireCountDistinctOrderBy {
+  idEstacion: OrderDirection
+  autoridadAmbiental: OrderDirection
+  estacion: OrderDirection
+  variable: OrderDirection
+  unidades: OrderDirection
+  tiempoDeExposicionHoras: OrderDirection
+  anio: OrderDirection
+  codigoDelDepartamento: OrderDirection
+  nombreDelDepartamento: OrderDirection
+  codigoDelMunicipio: OrderDirection
+  nombreDelMunicipio: OrderDirection
+  tipoDeEstacion: OrderDirection
+}
+
+"""Fila de un resultado agregado de calidadAire. Los campos escalares seleccionados son las claves de agrupación."""
+type CalidadAireGroup {
+  idEstacion: Int
+  autoridadAmbiental: CalidadAireAutoridadAmbiental
+  estacion: String
+  variable: CalidadAireVariable
+  unidades: CalidadAireUnidades
+  tiempoDeExposicionHoras: Int
+  anio: Int
+  codigoDelDepartamento: Int
+  nombreDelDepartamento: CalidadAireNombreDelDepartamento
+  codigoDelMunicipio: String
+  nombreDelMunicipio: String
+  tipoDeEstacion: CalidadAireTipoDeEstacion
+  "Número de filas del grupo."
+  count: Int!
+  countDistinct: CalidadAireCountDistinct
+  sum: CalidadAireSum
+  avg: CalidadAireSum
+  min: CalidadAireMinMax
+  max: CalidadAireMinMax
+}
+
+input CalidadAireGroupOrderBy {
+  idEstacion: OrderDirection
+  autoridadAmbiental: OrderDirection
+  estacion: OrderDirection
+  variable: OrderDirection
+  unidades: OrderDirection
+  tiempoDeExposicionHoras: OrderDirection
+  anio: OrderDirection
+  codigoDelDepartamento: OrderDirection
+  nombreDelDepartamento: OrderDirection
+  codigoDelMunicipio: OrderDirection
+  nombreDelMunicipio: OrderDirection
+  tipoDeEstacion: OrderDirection
+  count: OrderDirection
+  countDistinct: CalidadAireCountDistinctOrderBy
+  sum: CalidadAireSumOrderBy
+  avg: CalidadAireSumOrderBy
+  min: CalidadAireMinMaxOrderBy
+  max: CalidadAireMinMaxOrderBy
+}
+
+extend type Query {
+  "Filas de kekd-7v7h. Sin orderBy se ordenan por el identificador interno de fila."
+  calidadAire(where: CalidadAireWhere, orderBy: [CalidadAireOrderBy!], limit: Int = 100, offset: Int = 0): [CalidadAire!]!
+  "Agregados de kekd-7v7h agrupados por los campos escalares seleccionados."
+  calidadAireAggregate(where: CalidadAireWhere, orderBy: [CalidadAireGroupOrderBy!], limit: Int = 100, offset: Int = 0): [CalidadAireGroup!]!
+}

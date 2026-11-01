@@ -1,0 +1,1377 @@
+{
+ "id": "6cat-2gcs",
+ "name": "10.000 Empresas mas Grandes del País",
+ "assetType": "dataset",
+ "attribution": "Superintendencia de Sociedades SuperSociedades, Bogotá D.C.",
+ "attributionLink": "https://www.supersociedades.gov.co/",
+ "averageRating": 0,
+ "category": "Comercio, Industria y Turismo",
+ "createdAt": 1694104343,
+ "description": "Reporte de las diez mil empresas más grandes del país, todas las cifras en este reporte se muestran en Billones de Pesos. Lo invitamos a participar en la siguiente encuesta https://forms.office.com/r/QNC1FantDU",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 48708,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 39937608,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1694105346,
+ "publicationGroup": 19280385,
+ "publicationStage": "published",
+ "rowsUpdatedAt": 1789590544,
+ "rowsUpdatedBy": "kvn9-7ifp",
+ "tableId": 19280385,
+ "totalTimesRated": 0,
+ "viewCount": 81319,
+ "viewLastModified": 1790294535,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1694176461,
+   "reviewedAutomatically": false,
+   "state": "approved",
+   "submissionId": 5749302,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1694105346,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "reviewer": {
+    "id": "vc9x-zjzh",
+    "displayName": "soporteccc"
+   },
+   "submissionDetails": {
+    "permissionType": "READ"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1694176461,
+    "failureCount": 0,
+    "startedAt": 1694176461,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "kvn9-7ifp",
+    "displayName": "Supersociedades"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 580586571,
+   "name": "NIT",
+   "dataTypeName": "number",
+   "description": "Número de Identificación Tributaria (NIT) de la Sociedad.",
+   "fieldName": "nit",
+   "position": 1,
+   "renderTypeName": "number",
+   "tableColumnId": 148338111,
+   "cachedContents": {
+    "non_null": "50000",
+    "largest": "901966600.00",
+    "null": "0",
+    "top": [
+     {
+      "item": "860501682.00",
+      "count": "5"
+     },
+     {
+      "item": "900882602.00",
+      "count": "5"
+     },
+     {
+      "item": "900073391.00",
+      "count": "5"
+     },
+     {
+      "item": "800193010.00",
+      "count": "5"
+     },
+     {
+      "item": "900429861.00",
+      "count": "5"
+     },
+     {
+      "item": "900268747.00",
+      "count": "5"
+     },
+     {
+      "item": "811032919.00",
+      "count": "5"
+     },
+     {
+      "item": "860077126.00",
+      "count": "5"
+     },
+     {
+      "item": "860034714.00",
+      "count": "5"
+     },
+     {
+      "item": "900340610.00",
+      "count": "5"
+     },
+     {
+      "item": "800011651.00",
+      "count": "5"
+     },
+     {
+      "item": "860513247.00",
+      "count": "5"
+     },
+     {
+      "item": "900847099.00",
+      "count": "5"
+     },
+     {
+      "item": "900172963.00",
+      "count": "5"
+     },
+     {
+      "item": "821001749.00",
+      "count": "5"
+     },
+     {
+      "item": "900488269.00",
+      "count": "5"
+     },
+     {
+      "item": "811010679.00",
+      "count": "5"
+     },
+     {
+      "item": "890942986.00",
+      "count": "5"
+     },
+     {
+      "item": "860076919.00",
+      "count": "5"
+     },
+     {
+      "item": "860075208.00",
+      "count": "5"
+     }
+    ],
+    "smallest": "800000118.00",
+    "count": "50000",
+    "cardinality": "50000"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 580586572,
+   "name": "RAZÓN SOCIAL",
+   "dataTypeName": "text",
+   "description": "Nombre de la sociedad",
+   "fieldName": "raz_n_social",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 148338112,
+   "cachedContents": {
+    "non_null": "50000",
+    "largest": "ZYSTOLE S.A.S.",
+    "null": "0",
+    "top": [
+     {
+      "item": "CONVIAS S.A.S.",
+      "count": "10"
+     },
+     {
+      "item": "SUMOTO S.A.",
+      "count": "9"
+     },
+     {
+      "item": "RADIOLOGOS ASOCIADOS S.A.S.",
+      "count": "7"
+     },
+     {
+      "item": "YOYO S.A.S.",
+      "count": "6"
+     },
+     {
+      "item": "COSMETIKA S.A.S.",
+      "count": "5"
+     },
+     {
+      "item": "CAFEREDES INGENIERIA S.A.S.",
+      "count": "5"
+     },
+     {
+      "item": "SUMINISTROS GENERALES CONASEO S.A.S.",
+      "count": "5"
+     },
+     {
+      "item": "ESTACIONES INNOVADORAS S.A.S.",
+      "count": "5"
+     },
+     {
+      "item": "NEGOCIOS DEL LLANO S.A.S. ZOMAC",
+      "count": "5"
+     },
+     {
+      "item": "POLYBOL S.A.S.",
+      "count": "5"
+     },
+     {
+      "item": "MUNDO CROSS ORIENTE LIMITADA.",
+      "count": "5"
+     },
+     {
+      "item": "SU SERVICIO TEMPORAL S.A.S.",
+      "count": "5"
+     },
+     {
+      "item": "HUAWEI TECHNOLOGIES MANAGED SERVICE COLOMBIA S.A.S.",
+      "count": "5"
+     },
+     {
+      "item": "COINOBRAS S.A.S.",
+      "count": "5"
+     },
+     {
+      "item": "SINAT LIMITADA.",
+      "count": "5"
+     },
+     {
+      "item": "LUYMA S.A.",
+      "count": "5"
+     },
+     {
+      "item": "CARBOQUIMICA S.A.S.",
+      "count": "5"
+     },
+     {
+      "item": "ORIFLAME DE COLOMBIA S.A.",
+      "count": "5"
+     },
+     {
+      "item": "SEGURIDAD DE COLOMBIA ANTIOQUIA LIMITADA",
+      "count": "5"
+     },
+     {
+      "item": "CHAMPIONX DE COLOMBIA LIMITADA.",
+      "count": "5"
+     }
+    ],
+    "smallest": "19",
+    "count": "50000",
+    "cardinality": "50000"
+   },
+   "format": {}
+  },
+  {
+   "id": 580586573,
+   "name": "SUPERVISOR",
+   "dataTypeName": "text",
+   "description": "Empresa que ejerce supervisión",
+   "fieldName": "supervisor",
+   "position": 3,
+   "renderTypeName": "text",
+   "tableColumnId": 148338113,
+   "cachedContents": {
+    "non_null": "50000",
+    "largest": "SUPERVIGILANCIA",
+    "null": "0",
+    "top": [
+     {
+      "item": "SUPERSOCIEDADES",
+      "count": "43750"
+     },
+     {
+      "item": "SUPERSALUD",
+      "count": "2885"
+     },
+     {
+      "item": "SUPERTRANSPORTE",
+      "count": "1450"
+     },
+     {
+      "item": "SUPERVIGILANCIA",
+      "count": "983"
+     },
+     {
+      "item": "SUPERSERVICIOS",
+      "count": "664"
+     },
+     {
+      "item": "SUPERFINANCIERA",
+      "count": "268"
+     }
+    ],
+    "smallest": "SUPERFINANCIERA",
+    "count": "50000",
+    "cardinality": "50000"
+   },
+   "format": {}
+  },
+  {
+   "id": 580586574,
+   "name": "REGIÓN",
+   "dataTypeName": "text",
+   "description": "Región Geográfica en que se ubica la sociedad",
+   "fieldName": "regi_n",
+   "position": 4,
+   "renderTypeName": "text",
+   "tableColumnId": 148338114,
+   "cachedContents": {
+    "non_null": "50000",
+    "largest": "REGIÓN CARIBE",
+    "null": "0",
+    "top": [
+     {
+      "item": "BOGOTÁ - CUNDINAMARCA",
+      "count": "23444"
+     },
+     {
+      "item": "ANTIOQUIA",
+      "count": "9407"
+     },
+     {
+      "item": "COSTA PACÍFICA",
+      "count": "5312"
+     },
+     {
+      "item": "COSTA ATLÁNTICA",
+      "count": "4232"
+     },
+     {
+      "item": "CENTRO - ORIENTE",
+      "count": "2945"
+     },
+     {
+      "item": "EJE CAFETERO",
+      "count": "1791"
+     },
+     {
+      "item": "OTROS",
+      "count": "1524"
+     },
+     {
+      "item": "REGIÓN CARIBE",
+      "count": "987"
+     },
+     {
+      "item": "CENTRO - SUR",
+      "count": "193"
+     },
+     {
+      "item": "LLANOS",
+      "count": "165"
+     }
+    ],
+    "smallest": "ANTIOQUIA",
+    "count": "50000",
+    "cardinality": "50000"
+   },
+   "format": {}
+  },
+  {
+   "id": 580586575,
+   "name": "DEPARTAMENTO DOMICILIO",
+   "dataTypeName": "text",
+   "description": "Departamento de domicilio de la sociedad",
+   "fieldName": "departamento_domicilio",
+   "position": 5,
+   "renderTypeName": "text",
+   "tableColumnId": 148338115,
+   "cachedContents": {
+    "non_null": "50000",
+    "largest": "VICHADA",
+    "null": "0",
+    "top": [
+     {
+      "item": "BOGOTA D.C.",
+      "count": "19751"
+     },
+     {
+      "item": "ANTIOQUIA",
+      "count": "9403"
+     },
+     {
+      "item": "CUNDINAMARCA",
+      "count": "3707"
+     },
+     {
+      "item": "VALLE",
+      "count": "3454"
+     },
+     {
+      "item": "ATLANTICO",
+      "count": "2638"
+     },
+     {
+      "item": "SANTANDER",
+      "count": "1815"
+     },
+     {
+      "item": "BOLIVAR",
+      "count": "1171"
+     },
+     {
+      "item": "VALLE DEL CAUCA",
+      "count": "951"
+     },
+     {
+      "item": "RISARALDA",
+      "count": "856"
+     },
+     {
+      "item": "NORTE DE SANTANDER",
+      "count": "796"
+     },
+     {
+      "item": "CALDAS",
+      "count": "618"
+     },
+     {
+      "item": "MAGDALENA",
+      "count": "546"
+     },
+     {
+      "item": "META",
+      "count": "501"
+     },
+     {
+      "item": "TOLIMA",
+      "count": "423"
+     },
+     {
+      "item": "HUILA",
+      "count": "403"
+     },
+     {
+      "item": "CAUCA",
+      "count": "385"
+     },
+     {
+      "item": "BOYACA",
+      "count": "335"
+     },
+     {
+      "item": "CORDOBA",
+      "count": "333"
+     },
+     {
+      "item": "QUINDIO",
+      "count": "315"
+     },
+     {
+      "item": "NARIÑO",
+      "count": "295"
+     }
+    ],
+    "smallest": "AMAZONAS",
+    "count": "50000",
+    "cardinality": "50000"
+   },
+   "format": {}
+  },
+  {
+   "id": 580586576,
+   "name": "CIUDAD DOMICILIO",
+   "dataTypeName": "text",
+   "description": "Ciudad de domicilio de la sociedad",
+   "fieldName": "ciudad_domicilio",
+   "position": 6,
+   "renderTypeName": "text",
+   "tableColumnId": 148338116,
+   "cachedContents": {
+    "non_null": "50000",
+    "largest": "ZIPAQUIRÁ",
+    "null": "0",
+    "top": [
+     {
+      "item": "BOGOTA, D.C.",
+      "count": "19755"
+     },
+     {
+      "item": "MEDELLIN",
+      "count": "4420"
+     },
+     {
+      "item": "CALI",
+      "count": "2663"
+     },
+     {
+      "item": "BARRANQUILLA",
+      "count": "2205"
+     },
+     {
+      "item": "MEDELLÍN",
+      "count": "1063"
+     },
+     {
+      "item": "BUCARAMANGA",
+      "count": "1063"
+     },
+     {
+      "item": "CARTAGENA",
+      "count": "1028"
+     },
+     {
+      "item": "COTA",
+      "count": "1023"
+     },
+     {
+      "item": "ITAGUI",
+      "count": "813"
+     },
+     {
+      "item": "YUMBO",
+      "count": "770"
+     },
+     {
+      "item": "PEREIRA",
+      "count": "612"
+     },
+     {
+      "item": "ENVIGADO",
+      "count": "557"
+     },
+     {
+      "item": "MANIZALES",
+      "count": "553"
+     },
+     {
+      "item": "CUCUTA",
+      "count": "548"
+     },
+     {
+      "item": "FUNZA",
+      "count": "539"
+     },
+     {
+      "item": "SANTA MARTA",
+      "count": "475"
+     },
+     {
+      "item": "SABANETA",
+      "count": "433"
+     },
+     {
+      "item": "VILLAVICENCIO",
+      "count": "399"
+     },
+     {
+      "item": "PASTO",
+      "count": "382"
+     },
+     {
+      "item": "RIONEGRO",
+      "count": "369"
+     }
+    ],
+    "smallest": "ABREGO",
+    "count": "50000",
+    "cardinality": "50000"
+   },
+   "format": {}
+  },
+  {
+   "id": 580586577,
+   "name": "CIIU",
+   "dataTypeName": "number",
+   "description": "Clasificación Industrial Internacional Uniforme",
+   "fieldName": "ciiu",
+   "position": 7,
+   "renderTypeName": "number",
+   "tableColumnId": 148338117,
+   "cachedContents": {
+    "non_null": "50000",
+    "largest": "9900.00",
+    "null": "0",
+    "top": [
+     {
+      "item": "8610",
+      "count": "1380"
+     },
+     {
+      "item": "4631",
+      "count": "1357"
+     },
+     {
+      "item": "4290",
+      "count": "1303"
+     },
+     {
+      "item": "4645",
+      "count": "1277"
+     },
+     {
+      "item": "4663",
+      "count": "1227"
+     },
+     {
+      "item": "4111",
+      "count": "1163"
+     },
+     {
+      "item": "4731",
+      "count": "1068"
+     },
+     {
+      "item": "8010",
+      "count": "974"
+     },
+     {
+      "item": "4664",
+      "count": "946"
+     },
+     {
+      "item": "4659",
+      "count": "939"
+     },
+     {
+      "item": "8621",
+      "count": "853"
+     },
+     {
+      "item": "4690",
+      "count": "840"
+     },
+     {
+      "item": "4511",
+      "count": "827"
+     },
+     {
+      "item": "4711",
+      "count": "783"
+     },
+     {
+      "item": "2229",
+      "count": "723"
+     },
+     {
+      "item": "6810",
+      "count": "671"
+     },
+     {
+      "item": "4530",
+      "count": "660"
+     },
+     {
+      "item": "4620",
+      "count": "642"
+     },
+     {
+      "item": "1410",
+      "count": "620"
+     },
+     {
+      "item": "7112",
+      "count": "581"
+     }
+    ],
+    "smallest": "111",
+    "count": "50000",
+    "cardinality": "50000"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 580586579,
+   "name": "MACROSECTOR",
+   "dataTypeName": "text",
+   "description": "Sector al que pertenece la sociedad",
+   "fieldName": "macrosector",
+   "position": 8,
+   "renderTypeName": "text",
+   "tableColumnId": 148338119,
+   "cachedContents": {
+    "non_null": "50000",
+    "largest": "SERVICIOS",
+    "null": "0",
+    "top": [
+     {
+      "item": "COMERCIO",
+      "count": "17335"
+     },
+     {
+      "item": "SERVICIOS",
+      "count": "15689"
+     },
+     {
+      "item": "MANUFACTURA",
+      "count": "10033"
+     },
+     {
+      "item": "CONSTRUCCIÓN",
+      "count": "3854"
+     },
+     {
+      "item": "AGROPECUARIO",
+      "count": "2142"
+     },
+     {
+      "item": "MINERO",
+      "count": "947"
+     }
+    ],
+    "smallest": "AGROPECUARIO",
+    "count": "50000",
+    "cardinality": "50000"
+   },
+   "format": {}
+  },
+  {
+   "id": 580586578,
+   "name": "INGRESOS OPERACIONALES",
+   "dataTypeName": "text",
+   "description": "Ingresos operacionales registrados por la sociedad",
+   "fieldName": "ingresos_operacionales",
+   "position": 9,
+   "renderTypeName": "text",
+   "tableColumnId": 148338118,
+   "cachedContents": {
+    "non_null": "50000",
+    "largest": "$9.98",
+    "null": "0",
+    "top": [
+     {
+      "item": "$0.02",
+      "count": "8311"
+     },
+     {
+      "item": "$0.03",
+      "count": "6740"
+     },
+     {
+      "item": "$0.04",
+      "count": "4283"
+     },
+     {
+      "item": "$0.05",
+      "count": "2954"
+     },
+     {
+      "item": "$0.06",
+      "count": "2329"
+     },
+     {
+      "item": "$ 0.03",
+      "count": "1984"
+     },
+     {
+      "item": "$0.07",
+      "count": "1656"
+     },
+     {
+      "item": "$0.08",
+      "count": "1325"
+     },
+     {
+      "item": "$0.01",
+      "count": "1297"
+     },
+     {
+      "item": "$ 0.04",
+      "count": "1288"
+     },
+     {
+      "item": "$ 0.02",
+      "count": "1026"
+     },
+     {
+      "item": "$0.09",
+      "count": "1019"
+     },
+     {
+      "item": "$ 0.05",
+      "count": "929"
+     },
+     {
+      "item": "$0.10",
+      "count": "857"
+     },
+     {
+      "item": "$0.11",
+      "count": "723"
+     },
+     {
+      "item": "$ 0.06",
+      "count": "625"
+     },
+     {
+      "item": "$0.12",
+      "count": "622"
+     },
+     {
+      "item": "$0.13",
+      "count": "568"
+     },
+     {
+      "item": "$ 0.07",
+      "count": "506"
+     },
+     {
+      "item": "$0.14",
+      "count": "475"
+     }
+    ],
+    "smallest": "$0.01",
+    "count": "50000",
+    "cardinality": "50000"
+   },
+   "format": {
+    "precisionStyle": "currency",
+    "decimalSeparator": ".",
+    "currencyStyle": "USD",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 580586568,
+   "name": "GANANCIA (PÉRDIDA)",
+   "dataTypeName": "text",
+   "description": "Ganancias registradas por la sociedad",
+   "fieldName": "ganancia_p_rdida",
+   "position": 10,
+   "renderTypeName": "text",
+   "tableColumnId": 148338108,
+   "cachedContents": {
+    "non_null": "50000",
+    "largest": "$ 9.03",
+    "null": "0",
+    "top": [
+     {
+      "item": "$0.00",
+      "count": "25135"
+     },
+     {
+      "item": "$ 0.00",
+      "count": "6967"
+     },
+     {
+      "item": "$0.01",
+      "count": "5810"
+     },
+     {
+      "item": "-$0.00",
+      "count": "3065"
+     },
+     {
+      "item": "$0.02",
+      "count": "1564"
+     },
+     {
+      "item": "$ 0.01",
+      "count": "1454"
+     },
+     {
+      "item": "-$0.01",
+      "count": "918"
+     },
+     {
+      "item": "$0.03",
+      "count": "712"
+     },
+     {
+      "item": "$ 0.02",
+      "count": "413"
+     },
+     {
+      "item": "$0.04",
+      "count": "400"
+     },
+     {
+      "item": "-$0.02",
+      "count": "280"
+     },
+     {
+      "item": "$0.05",
+      "count": "275"
+     },
+     {
+      "item": "-$ 0.01",
+      "count": "224"
+     },
+     {
+      "item": "$ 0.03",
+      "count": "210"
+     },
+     {
+      "item": "$0.06",
+      "count": "201"
+     },
+     {
+      "item": "-$0.03",
+      "count": "151"
+     },
+     {
+      "item": "$0.07",
+      "count": "142"
+     },
+     {
+      "item": "$ 0.04",
+      "count": "113"
+     },
+     {
+      "item": "$0.08",
+      "count": "112"
+     },
+     {
+      "item": "$0.09",
+      "count": "83"
+     }
+    ],
+    "smallest": "-$0.00",
+    "count": "50000",
+    "cardinality": "50000"
+   },
+   "format": {
+    "precisionStyle": "currency",
+    "decimalSeparator": ".",
+    "currencyStyle": "USD",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 580586569,
+   "name": "TOTAL ACTIVOS",
+   "dataTypeName": "text",
+   "description": "Total activos registrados por la sociedad",
+   "fieldName": "total_activos",
+   "position": 11,
+   "renderTypeName": "text",
+   "tableColumnId": 148338109,
+   "cachedContents": {
+    "non_null": "50000",
+    "largest": "$9.88",
+    "null": "0",
+    "top": [
+     {
+      "item": "$0.01",
+      "count": "7669"
+     },
+     {
+      "item": "$0.02",
+      "count": "6670"
+     },
+     {
+      "item": "$0.03",
+      "count": "4557"
+     },
+     {
+      "item": "$0.04",
+      "count": "3020"
+     },
+     {
+      "item": "$0.05",
+      "count": "2231"
+     },
+     {
+      "item": "$0.06",
+      "count": "1757"
+     },
+     {
+      "item": "$ 0.02",
+      "count": "1603"
+     },
+     {
+      "item": "$ 0.01",
+      "count": "1472"
+     },
+     {
+      "item": "$0.07",
+      "count": "1320"
+     },
+     {
+      "item": "$ 0.03",
+      "count": "1171"
+     },
+     {
+      "item": "$0.00",
+      "count": "1137"
+     },
+     {
+      "item": "$0.08",
+      "count": "1045"
+     },
+     {
+      "item": "$0.09",
+      "count": "887"
+     },
+     {
+      "item": "$ 0.04",
+      "count": "761"
+     },
+     {
+      "item": "$0.10",
+      "count": "747"
+     },
+     {
+      "item": "$0.11",
+      "count": "646"
+     },
+     {
+      "item": "$ 0.05",
+      "count": "632"
+     },
+     {
+      "item": "$0.12",
+      "count": "514"
+     },
+     {
+      "item": "$0.13",
+      "count": "504"
+     },
+     {
+      "item": "$ 0.06",
+      "count": "460"
+     }
+    ],
+    "smallest": "$ 0.00",
+    "count": "50000",
+    "cardinality": "50000"
+   },
+   "format": {
+    "precisionStyle": "currency",
+    "decimalSeparator": ".",
+    "currencyStyle": "USD",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 580586581,
+   "name": "TOTAL PASIVOS",
+   "dataTypeName": "text",
+   "description": "Total Pasivos registrados por la sociedad",
+   "fieldName": "total_pasivos",
+   "position": 12,
+   "renderTypeName": "text",
+   "tableColumnId": 148338121,
+   "cachedContents": {
+    "non_null": "50000",
+    "largest": "$99.87",
+    "null": "0",
+    "top": [
+     {
+      "item": "$0.01",
+      "count": "12250"
+     },
+     {
+      "item": "$0.00",
+      "count": "6078"
+     },
+     {
+      "item": "$0.02",
+      "count": "5927"
+     },
+     {
+      "item": "$0.03",
+      "count": "3333"
+     },
+     {
+      "item": "$ 0.01",
+      "count": "2838"
+     },
+     {
+      "item": "$0.04",
+      "count": "2081"
+     },
+     {
+      "item": "$ 0.02",
+      "count": "1551"
+     },
+     {
+      "item": "$0.05",
+      "count": "1510"
+     },
+     {
+      "item": "$ 0.00",
+      "count": "1324"
+     },
+     {
+      "item": "$0.06",
+      "count": "1084"
+     },
+     {
+      "item": "$ 0.03",
+      "count": "876"
+     },
+     {
+      "item": "$0.07",
+      "count": "868"
+     },
+     {
+      "item": "$0.08",
+      "count": "681"
+     },
+     {
+      "item": "$ 0.04",
+      "count": "575"
+     },
+     {
+      "item": "$0.09",
+      "count": "570"
+     },
+     {
+      "item": "$0.10",
+      "count": "443"
+     },
+     {
+      "item": "$ 0.05",
+      "count": "402"
+     },
+     {
+      "item": "$0.11",
+      "count": "365"
+     },
+     {
+      "item": "$0.12",
+      "count": "323"
+     },
+     {
+      "item": "$ 0.06",
+      "count": "316"
+     }
+    ],
+    "smallest": "$ 0.00",
+    "count": "50000",
+    "cardinality": "50000"
+   },
+   "format": {
+    "precisionStyle": "currency",
+    "decimalSeparator": ".",
+    "currencyStyle": "USD",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 580586570,
+   "name": "TOTAL PATRIMONIO",
+   "dataTypeName": "text",
+   "description": "Total Patrimonio registrado por la sociedad",
+   "fieldName": "total_patrimonio",
+   "position": 13,
+   "renderTypeName": "text",
+   "tableColumnId": 148338110,
+   "cachedContents": {
+    "non_null": "50000",
+    "largest": "$9.93",
+    "null": "0",
+    "top": [
+     {
+      "item": "$0.01",
+      "count": "12258"
+     },
+     {
+      "item": "$0.00",
+      "count": "7698"
+     },
+     {
+      "item": "$0.02",
+      "count": "5537"
+     },
+     {
+      "item": "$0.03",
+      "count": "2881"
+     },
+     {
+      "item": "$ 0.01",
+      "count": "2841"
+     },
+     {
+      "item": "$0.04",
+      "count": "1882"
+     },
+     {
+      "item": "$ 0.00",
+      "count": "1678"
+     },
+     {
+      "item": "$ 0.02",
+      "count": "1492"
+     },
+     {
+      "item": "$0.05",
+      "count": "1282"
+     },
+     {
+      "item": "$0.06",
+      "count": "907"
+     },
+     {
+      "item": "$ 0.03",
+      "count": "798"
+     },
+     {
+      "item": "$0.07",
+      "count": "680"
+     },
+     {
+      "item": "$0.08",
+      "count": "566"
+     },
+     {
+      "item": "$ 0.04",
+      "count": "521"
+     },
+     {
+      "item": "$0.09",
+      "count": "455"
+     },
+     {
+      "item": "-$0.00",
+      "count": "389"
+     },
+     {
+      "item": "$0.10",
+      "count": "380"
+     },
+     {
+      "item": "$ 0.05",
+      "count": "369"
+     },
+     {
+      "item": "$0.11",
+      "count": "293"
+     },
+     {
+      "item": "$0.12",
+      "count": "278"
+     }
+    ],
+    "smallest": "-$0.00",
+    "count": "50000",
+    "cardinality": "50000"
+   },
+   "format": {
+    "precisionStyle": "currency",
+    "decimalSeparator": ".",
+    "currencyStyle": "USD",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 580586580,
+   "name": "Año de Corte",
+   "dataTypeName": "number",
+   "description": "Fecha en que finaliza el periodo contable a reportar en SIRFIN ",
+   "fieldName": "a_o_de_corte",
+   "position": 14,
+   "renderTypeName": "number",
+   "tableColumnId": 148338120,
+   "cachedContents": {
+    "non_null": "50000",
+    "largest": "2025.00",
+    "null": "0",
+    "top": [
+     {
+      "item": "2023.00",
+      "count": "10000"
+     },
+     {
+      "item": "2024.00",
+      "count": "10000"
+     },
+     {
+      "item": "2021.00",
+      "count": "10000"
+     },
+     {
+      "item": "2022.00",
+      "count": "10000"
+     },
+     {
+      "item": "2025.00",
+      "count": "10000"
+     }
+    ],
+    "smallest": "2021.00",
+    "count": "50000",
+    "cardinality": "50000"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Superintendencia de Sociedades - SUPERSOCIEDADES, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Planeación",
+    "Área o dependencia": "Delegatura de Asuntos Económicos y Societarios",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Nacional",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Anual"
+   }
+  },
+  "availableDisplayTypes": [
+   "table",
+   "fatrow",
+   "page"
+  ]
+ },
+ "owner": {
+  "id": "kvn9-7ifp",
+  "displayName": "Supersociedades",
+  "screenName": "Supersociedades",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "kvn9-7ifp",
+  "displayName": "Supersociedades",
+  "screenName": "Supersociedades",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "empresas",
+  "registro de empresas",
+  "empresas mas grandes"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

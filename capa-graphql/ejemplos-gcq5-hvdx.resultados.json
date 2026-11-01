@@ -1,0 +1,331 @@
+[
+ {
+  "id": "e01",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 5,
+  "resultado": [
+   {
+    "vereda": "PUERTO ORIENTE",
+    "fecha_ruv": "2024-10-28T00:00:00.000",
+    "total_aftosa": "148"
+   },
+   {
+    "vereda": "EL TRIUNFO",
+    "fecha_ruv": "2024-10-28T00:00:00.000",
+    "total_aftosa": "105"
+   },
+   {
+    "vereda": "PUERTO ORIENTE",
+    "fecha_ruv": "2024-10-28T00:00:00.000",
+    "total_aftosa": "295"
+   }
+  ]
+ },
+ {
+  "id": "e02",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 1,
+  "resultado": [
+   {
+    "count": "2877"
+   }
+  ]
+ },
+ {
+  "id": "e03",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 1,
+  "resultado": [
+   {
+    "sum_total_aftosa": "54910"
+   }
+  ]
+ },
+ {
+  "id": "e04",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 4,
+  "resultado": [
+   {
+    "municipio": "LA PRIMAVERA",
+    "sum_total_aftosa": "131896"
+   },
+   {
+    "municipio": "CUMARIBO",
+    "sum_total_aftosa": "54910"
+   },
+   {
+    "municipio": "SANTA ROSALÍA",
+    "sum_total_aftosa": "40103"
+   }
+  ]
+ },
+ {
+  "id": "e05",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 4,
+  "resultado": [
+   {
+    "municipio": "CUMARIBO",
+    "count_distinct_vereda": "49"
+   },
+   {
+    "municipio": "LA PRIMAVERA",
+    "count_distinct_vereda": "28"
+   },
+   {
+    "municipio": "PUERTO CARREÑO",
+    "count_distinct_vereda": "15"
+   }
+  ]
+ },
+ {
+  "id": "e06",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 1,
+  "resultado": [
+   {
+    "count": "539"
+   }
+  ]
+ },
+ {
+  "id": "e07",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 21,
+  "resultado": [
+   {
+    "municipio": "CUMARIBO",
+    "tenencia": "PROPIO",
+    "count": "582"
+   },
+   {
+    "municipio": "CUMARIBO",
+    "tenencia": "ARRENDADO",
+    "count": "142"
+   },
+   {
+    "municipio": "CUMARIBO",
+    "tenencia": "TERRITORIO COLECTIVO",
+    "count": "24"
+   }
+  ]
+ },
+ {
+  "id": "e08",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 10,
+  "resultado": [
+   {
+    "municipio": "LA PRIMAVERA",
+    "vereda": "NUEVA ANTIOQUIA",
+    "fecha_ruv": "2024-11-19T00:00:00.000",
+    "total_aftosa": "5071"
+   },
+   {
+    "municipio": "CUMARIBO",
+    "vereda": "TOMO",
+    "fecha_ruv": "2024-11-15T00:00:00.000",
+    "total_aftosa": "4080"
+   },
+   {
+    "municipio": "LA PRIMAVERA",
+    "vereda": "CAMUARA",
+    "fecha_ruv": "2024-11-09T00:00:00.000",
+    "total_aftosa": "2400"
+   }
+  ]
+ },
+ {
+  "id": "e09",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 1,
+  "resultado": [
+   {
+    "count": "1770"
+   }
+  ]
+ },
+ {
+  "id": "e10",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 3,
+  "resultado": [
+   {
+    "fecha_ruv_year": "2024",
+    "fecha_ruv_month": "10",
+    "count": "217"
+   },
+   {
+    "fecha_ruv_year": "2024",
+    "fecha_ruv_month": "11",
+    "count": "1770"
+   },
+   {
+    "fecha_ruv_year": "2024",
+    "fecha_ruv_month": "12",
+    "count": "890"
+   }
+  ]
+ },
+ {
+  "id": "e11",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 1,
+  "resultado": [
+   {
+    "min_fecha_ruv": "2024-10-28T00:00:00.000",
+    "max_fecha_ruv": "2024-12-16T00:00:00.000"
+   }
+  ]
+ },
+ {
+  "id": "e12",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 1,
+  "resultado": [
+   {
+    "avg_total_aftosa": "81.0161616161616162"
+   }
+  ]
+ },
+ {
+  "id": "e13",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 16,
+  "resultado": [
+   {
+    "municipio": "CUMARIBO",
+    "vereda": "PUERTO ORIENTE",
+    "fecha_ruv": "2024-10-28T00:00:00.000"
+   },
+   {
+    "municipio": "CUMARIBO",
+    "vereda": "PUERTO ORIENTE",
+    "fecha_ruv": "2024-10-28T00:00:00.000"
+   },
+   {
+    "municipio": "CUMARIBO",
+    "vereda": "PUERTO ORIENTE",
+    "fecha_ruv": "2024-10-28T00:00:00.000"
+   }
+  ]
+ },
+ {
+  "id": "e14",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 1,
+  "resultado": [
+   {
+    "count": "80"
+   }
+  ]
+ },
+ {
+  "id": "e15",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 1,
+  "resultado": [
+   {
+    "sum_equinos": "4759",
+    "sum_porcinos": "1177",
+    "sum_ovinos": "553",
+    "sum_caprinos": "196"
+   }
+  ]
+ },
+ {
+  "id": "e16",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 1,
+  "resultado": [
+   {
+    "count": "306"
+   }
+  ]
+ },
+ {
+  "id": "e17",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 1,
+  "resultado": [
+   {
+    "count": "54"
+   }
+  ]
+ },
+ {
+  "id": "e18",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 20,
+  "resultado": [
+   {
+    "vereda": "PUERTO MURILLO",
+    "tenencia": "PROPIO",
+    "total_aftosa": "7"
+   },
+   {
+    "vereda": "PUERTO MURILLO",
+    "tenencia": "PROPIO",
+    "total_aftosa": "21"
+   },
+   {
+    "vereda": "PUERTO MURILLO",
+    "tenencia": "PROPIO",
+    "total_aftosa": "14"
+   }
+  ]
+ },
+ {
+  "id": "e19",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 1,
+  "resultado": [
+   {
+    "count": "61"
+   }
+  ]
+ },
+ {
+  "id": "e20",
+  "graphql_errores": [],
+  "soql_http": 200,
+  "filas": 5,
+  "resultado": [
+   {
+    "municipio": "LA PRIMAVERA",
+    "vereda": "NUEVA ANTIOQUIA",
+    "sum_total_aftosa": "25585"
+   },
+   {
+    "municipio": "LA PRIMAVERA",
+    "vereda": "SANTA BARBARA",
+    "sum_total_aftosa": "24693"
+   },
+   {
+    "municipio": "LA PRIMAVERA",
+    "vereda": "MATIYURE",
+    "sum_total_aftosa": "18074"
+   }
+  ]
+ }
+]

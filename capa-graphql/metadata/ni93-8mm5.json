@@ -1,0 +1,840 @@
+{
+ "id": "ni93-8mm5",
+ "name": "Precios base de minerales para la Liquidación de Regalías",
+ "assetType": "dataset",
+ "attribution": "Unidad de Planeación Minero Energética - UPME, Bogotá D.C.",
+ "attributionLink": "https://www.upme.gov.co",
+ "averageRating": 0,
+ "category": "Minas y Energía",
+ "createdAt": 1475769146,
+ "description": "Precios base de minerales para la Liquidación de Regalías",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 1976,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "indexUpdatedAt": 1543524848,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 29450963,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1533743360,
+ "publicationGroup": 13554378,
+ "publicationStage": "published",
+ "rowsUpdatedAt": 1787257857,
+ "rowsUpdatedBy": "c659-ugtd",
+ "tableId": 15436148,
+ "totalTimesRated": 0,
+ "viewCount": 16293,
+ "viewLastModified": 1787257856,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1613422822,
+   "reviewedAutomatically": false,
+   "state": "approved",
+   "submissionId": 3245282,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1613405313,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "reviewer": {
+    "id": "r4qn-dwdd",
+    "displayName": "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+   },
+   "submissionDetails": {
+    "permissionType": "read"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1613422822,
+    "failureCount": 0,
+    "startedAt": 1613422822,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "c659-ugtd",
+    "displayName": "Unidad de Planeación Minero Energética"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 370340169,
+   "name": "No. Resolución",
+   "dataTypeName": "number",
+   "description": "Este campo corresponde al número de la resolución por la cuál se fijan los precios base para la liquidación de regalias de minerales. ",
+   "fieldName": "resolucion",
+   "position": 1,
+   "renderTypeName": "number",
+   "tableColumnId": 38880501,
+   "width": 230,
+   "cachedContents": {
+    "largest": "3613",
+    "non_null": "5868",
+    "average": "574.5290431429260",
+    "null": "0",
+    "top": [
+     {
+      "item": "818",
+      "count": "152"
+     },
+     {
+      "item": "307",
+      "count": "125"
+     },
+     {
+      "item": "324",
+      "count": "120"
+     },
+     {
+      "item": "121",
+      "count": "104"
+     },
+     {
+      "item": "764",
+      "count": "99"
+     },
+     {
+      "item": "289",
+      "count": "97"
+     },
+     {
+      "item": "155",
+      "count": "94"
+     },
+     {
+      "item": "763",
+      "count": "87"
+     },
+     {
+      "item": "429",
+      "count": "77"
+     },
+     {
+      "item": "309",
+      "count": "76"
+     },
+     {
+      "item": "556",
+      "count": "76"
+     },
+     {
+      "item": "141",
+      "count": "76"
+     },
+     {
+      "item": "540",
+      "count": "76"
+     },
+     {
+      "item": "92",
+      "count": "75"
+     },
+     {
+      "item": "32",
+      "count": "74"
+     },
+     {
+      "item": "555",
+      "count": "74"
+     },
+     {
+      "item": "140",
+      "count": "74"
+     },
+     {
+      "item": "368",
+      "count": "74"
+     },
+     {
+      "item": "638",
+      "count": "74"
+     },
+     {
+      "item": "158",
+      "count": "74"
+     }
+    ],
+    "smallest": "1",
+    "not_null": "4357",
+    "count": "5868",
+    "sum": "2383721",
+    "cardinality": "5868"
+   },
+   "format": {}
+  },
+  {
+   "id": 370340170,
+   "name": "Fecha de Resolución",
+   "dataTypeName": "calendar_date",
+   "description": "Es la fecha en la cual se expide la resolución.",
+   "fieldName": "fecha_de_resolucion",
+   "position": 2,
+   "renderTypeName": "calendar_date",
+   "tableColumnId": 38880502,
+   "width": 230,
+   "cachedContents": {
+    "largest": "2026-06-30T00:00:00.000",
+    "non_null": "5868",
+    "null": "0",
+    "top": [
+     {
+      "item": "2017-03-28T00:00:00.000",
+      "count": "135"
+     },
+     {
+      "item": "2020-03-31T00:00:00.000",
+      "count": "91"
+     },
+     {
+      "item": "2018-03-23T00:00:00.000",
+      "count": "88"
+     },
+     {
+      "item": "2019-03-27T00:00:00.000",
+      "count": "88"
+     },
+     {
+      "item": "2022-03-28T00:00:00.000",
+      "count": "86"
+     },
+     {
+      "item": "2016-03-30T00:00:00.000",
+      "count": "86"
+     },
+     {
+      "item": "2023-03-27T00:00:00.000",
+      "count": "85"
+     },
+     {
+      "item": "2026-03-31T00:00:00.000",
+      "count": "85"
+     },
+     {
+      "item": "2015-03-27T00:00:00.000",
+      "count": "81"
+     },
+     {
+      "item": "2014-03-31T00:00:00.000",
+      "count": "80"
+     },
+     {
+      "item": "2010-07-06T00:00:00.000",
+      "count": "78"
+     },
+     {
+      "item": "2009-04-02T00:00:00.000",
+      "count": "78"
+     },
+     {
+      "item": "2008-09-30T00:00:00.000",
+      "count": "76"
+     },
+     {
+      "item": "2009-07-30T00:00:00.000",
+      "count": "76"
+     },
+     {
+      "item": "2012-06-27T00:00:00.000",
+      "count": "76"
+     },
+     {
+      "item": "2008-07-01T00:00:00.000",
+      "count": "76"
+     },
+     {
+      "item": "2012-03-29T00:00:00.000",
+      "count": "76"
+     },
+     {
+      "item": "2009-12-28T00:00:00.000",
+      "count": "75"
+     },
+     {
+      "item": "2011-03-31T00:00:00.000",
+      "count": "75"
+     },
+     {
+      "item": "2012-09-27T00:00:00.000",
+      "count": "75"
+     }
+    ],
+    "smallest": "1994-10-24T00:00:00.000",
+    "not_null": "4357",
+    "count": "5868",
+    "cardinality": "5868"
+   },
+   "format": {
+    "view": "date_dmy",
+    "align": "left"
+   }
+  },
+  {
+   "id": 370340171,
+   "name": "Fecha de Inicio",
+   "dataTypeName": "calendar_date",
+   "description": "Fecha a partir de la cuál rige la resolución.",
+   "fieldName": "fecha_inicio",
+   "position": 3,
+   "renderTypeName": "calendar_date",
+   "tableColumnId": 38880503,
+   "width": 230,
+   "cachedContents": {
+    "largest": "2026-07-01T00:00:00.000",
+    "non_null": "5868",
+    "null": "0",
+    "top": [
+     {
+      "item": "2017-04-01T00:00:00.000",
+      "count": "135"
+     },
+     {
+      "item": "2020-04-01T00:00:00.000",
+      "count": "91"
+     },
+     {
+      "item": "2019-04-01T00:00:00.000",
+      "count": "89"
+     },
+     {
+      "item": "2018-04-01T00:00:00.000",
+      "count": "88"
+     },
+     {
+      "item": "2024-04-01T00:00:00.000",
+      "count": "87"
+     },
+     {
+      "item": "2016-04-01T00:00:00.000",
+      "count": "87"
+     },
+     {
+      "item": "2026-04-01T00:00:00.000",
+      "count": "86"
+     },
+     {
+      "item": "2022-04-01T00:00:00.000",
+      "count": "86"
+     },
+     {
+      "item": "2025-04-01T00:00:00.000",
+      "count": "86"
+     },
+     {
+      "item": "2021-04-01T00:00:00.000",
+      "count": "86"
+     },
+     {
+      "item": "2023-04-01T00:00:00.000",
+      "count": "85"
+     },
+     {
+      "item": "2020-01-01T00:00:00.000",
+      "count": "81"
+     },
+     {
+      "item": "2015-04-01T00:00:00.000",
+      "count": "81"
+     },
+     {
+      "item": "2014-07-01T00:00:00.000",
+      "count": "80"
+     },
+     {
+      "item": "2014-04-01T00:00:00.000",
+      "count": "80"
+     },
+     {
+      "item": "2010-07-06T00:00:00.000",
+      "count": "78"
+     },
+     {
+      "item": "2009-04-02T00:00:00.000",
+      "count": "78"
+     },
+     {
+      "item": "2012-07-01T00:00:00.000",
+      "count": "76"
+     },
+     {
+      "item": "2008-07-01T00:00:00.000",
+      "count": "76"
+     },
+     {
+      "item": "2008-10-01T00:00:00.000",
+      "count": "76"
+     }
+    ],
+    "smallest": "1994-10-25T00:00:00.000",
+    "not_null": "4357",
+    "count": "5868",
+    "cardinality": "5868"
+   },
+   "format": {
+    "view": "date_dmy",
+    "align": "left"
+   }
+  },
+  {
+   "id": 370340172,
+   "name": "Fecha Fin",
+   "dataTypeName": "calendar_date",
+   "description": "Fecha en la que finaliza la vigencia de la resolución.",
+   "fieldName": "fecha_fin",
+   "position": 4,
+   "renderTypeName": "calendar_date",
+   "tableColumnId": 38880504,
+   "width": 230,
+   "cachedContents": {
+    "largest": "2027-03-31T00:00:00.000",
+    "non_null": "5868",
+    "null": "0",
+    "top": [
+     {
+      "item": "2007-12-31T00:00:00.000",
+      "count": "148"
+     },
+     {
+      "item": "2018-03-31T00:00:00.000",
+      "count": "135"
+     },
+     {
+      "item": "2025-03-31T00:00:00.000",
+      "count": "113"
+     },
+     {
+      "item": "2026-03-31T00:00:00.000",
+      "count": "112"
+     },
+     {
+      "item": "2019-03-31T00:00:00.000",
+      "count": "88"
+     },
+     {
+      "item": "2013-10-10T00:00:00.000",
+      "count": "88"
+     },
+     {
+      "item": "2020-03-31T00:00:00.000",
+      "count": "88"
+     },
+     {
+      "item": "2021-03-31T00:00:00.000",
+      "count": "88"
+     },
+     {
+      "item": "2016-06-30T00:00:00.000",
+      "count": "87"
+     },
+     {
+      "item": "2024-03-31T00:00:00.000",
+      "count": "86"
+     },
+     {
+      "item": "2022-03-31T00:00:00.000",
+      "count": "86"
+     },
+     {
+      "item": "2023-03-31T00:00:00.000",
+      "count": "86"
+     },
+     {
+      "item": "2015-06-30T00:00:00.000",
+      "count": "81"
+     },
+     {
+      "item": "2015-03-31T00:00:00.000",
+      "count": "81"
+     },
+     {
+      "item": "2014-06-30T00:00:00.000",
+      "count": "80"
+     },
+     {
+      "item": "2010-09-30T00:00:00.000",
+      "count": "78"
+     },
+     {
+      "item": "2009-07-31T00:00:00.000",
+      "count": "78"
+     },
+     {
+      "item": "2009-09-30T00:00:00.000",
+      "count": "76"
+     },
+     {
+      "item": "2012-09-30T00:00:00.000",
+      "count": "76"
+     },
+     {
+      "item": "2008-09-30T00:00:00.000",
+      "count": "76"
+     }
+    ],
+    "smallest": "1995-12-31T00:00:00.000",
+    "not_null": "4357",
+    "count": "5868",
+    "cardinality": "5868"
+   },
+   "format": {
+    "view": "date_dmy",
+    "align": "left"
+   }
+  },
+  {
+   "id": 370340173,
+   "name": "Mineral",
+   "dataTypeName": "text",
+   "description": "Tipo de mineral para el que aplica el precio definido en la resolución.",
+   "fieldName": "mineral",
+   "position": 5,
+   "renderTypeName": "text",
+   "tableColumnId": 38880505,
+   "width": 499,
+   "cachedContents": {
+    "largest": "YESO",
+    "non_null": "5868",
+    "null": "0",
+    "top": [
+     {
+      "item": "CARBÓN ZONA INTERIOR METALÚRGICO MAYOR DE 3 MT",
+      "count": "96"
+     },
+     {
+      "item": "CARBÓN TÉRMICO DEL CESAR SECTOR DE LA JAGUA DE IBIRICO MAYOR DE 3 MT",
+      "count": "96"
+     },
+     {
+      "item": "CARBÓN TÉRMICO DEL CESAR SECTOR LA LOMA Y EL BOQUERÓN MAYOR DE 3 MT",
+      "count": "96"
+     },
+     {
+      "item": "CARBÓN ZONA SANTANDERES TÉRMICO MAYOR DE 3 MT",
+      "count": "96"
+     },
+     {
+      "item": "CARBÓN ZONA SANTANDERES METALÚRGICO MAYOR DE 3 MT",
+      "count": "96"
+     },
+     {
+      "item": "CARBÓN ZONA INTERIOR METALÚRGICO MENOR DE 3 MT",
+      "count": "96"
+     },
+     {
+      "item": "CARBÓN TÉRMICO DE LA GUAJIRA MAYOR DE 3 MT",
+      "count": "96"
+     },
+     {
+      "item": "MINERAL DE HIERRO",
+      "count": "96"
+     },
+     {
+      "item": "CARBÓN TÉRMICO DEL CESAR SECTOR EL DESCANSO MAYOR DE 3 MT",
+      "count": "96"
+     },
+     {
+      "item": "CARBÓN TÉRMICO DEL CESAR SECTOR DE LA JAGUA DE IBIRICO MENOR DE 3 MT",
+      "count": "96"
+     },
+     {
+      "item": "MINERAL DE MANGANESO",
+      "count": "96"
+     },
+     {
+      "item": "CARBÓN TÉRMICO DEL CESAR SECTOR EL DESCANSO MENOR DE 3 MT",
+      "count": "95"
+     },
+     {
+      "item": "CARBÓN TÉRMICO DEL CESAR SECTOR LA LOMA Y EL BOQUERÓN MENOR DE 3 MT",
+      "count": "95"
+     },
+     {
+      "item": "CARBÓN ZONA INTERIOR TÉRMICO MENOR DE 3 MT",
+      "count": "93"
+     },
+     {
+      "item": "CARBÓN ZONA INTERIOR TÉRMICO MAYOR DE 3 MT",
+      "count": "93"
+     },
+     {
+      "item": "CARBÓN ZONA SANTANDERES ANTRACITAS MAYOR DE 3 MT",
+      "count": "81"
+     },
+     {
+      "item": "CARBÓN ZONA SANTANDERES ANTRACITAS MENOR DE 3 MT",
+      "count": "81"
+     },
+     {
+      "item": "CARBÓN ZONA INTERIOR ANTRACITAS MAYOR DE 3 MT",
+      "count": "81"
+     },
+     {
+      "item": "CARBÓN ZONA INTERIOR ANTRACITAS MENOR DE 3 MT",
+      "count": "81"
+     },
+     {
+      "item": "MAGNESIO",
+      "count": "77"
+     }
+    ],
+    "smallest": "ANTRACITA",
+    "not_null": "4357",
+    "count": "5868",
+    "cardinality": "5868"
+   },
+   "format": {}
+  },
+  {
+   "id": 370340174,
+   "name": "Precio",
+   "dataTypeName": "number",
+   "description": "Precio que se debe pagar para el tipo de mineral por la unidad definida de acuerdo a la resolución.",
+   "fieldName": "precio",
+   "position": 6,
+   "renderTypeName": "number",
+   "tableColumnId": 38880506,
+   "width": 230,
+   "cachedContents": {
+    "largest": "42767124",
+    "non_null": "5868",
+    "average": "93981.62278898530",
+    "null": "0",
+    "top": [
+     {
+      "item": "15880.00",
+      "count": "35"
+     },
+     {
+      "item": "36421.00",
+      "count": "24"
+     },
+     {
+      "item": "29248.00",
+      "count": "20"
+     },
+     {
+      "item": "4905.00",
+      "count": "17"
+     },
+     {
+      "item": "10000.00",
+      "count": "17"
+     },
+     {
+      "item": "11700.00",
+      "count": "17"
+     },
+     {
+      "item": "13690.00",
+      "count": "17"
+     },
+     {
+      "item": "26241.00",
+      "count": "16"
+     },
+     {
+      "item": "40157.00",
+      "count": "16"
+     },
+     {
+      "item": "18602.95",
+      "count": "16"
+     },
+     {
+      "item": "19320.29",
+      "count": "16"
+     },
+     {
+      "item": "99854.47",
+      "count": "14"
+     },
+     {
+      "item": "4559.00",
+      "count": "12"
+     },
+     {
+      "item": "4743.00",
+      "count": "12"
+     },
+     {
+      "item": "73109.00",
+      "count": "12"
+     },
+     {
+      "item": "754398.00",
+      "count": "12"
+     },
+     {
+      "item": "72077.00",
+      "count": "12"
+     },
+     {
+      "item": "131717.28",
+      "count": "11"
+     },
+     {
+      "item": "143315.00",
+      "count": "11"
+     },
+     {
+      "item": "137066.91",
+      "count": "11"
+     }
+    ],
+    "smallest": "0.00",
+    "not_null": "4357",
+    "count": "5868",
+    "sum": "389929752.95149999998581",
+    "cardinality": "5868"
+   },
+   "format": {}
+  },
+  {
+   "id": 370340175,
+   "name": "Unidad",
+   "dataTypeName": "text",
+   "description": "Medida con la que se cuantifica el tipo de mineral.",
+   "fieldName": "unidad",
+   "position": 7,
+   "renderTypeName": "text",
+   "tableColumnId": 38880507,
+   "width": 230,
+   "cachedContents": {
+    "largest": "Ton",
+    "non_null": "5868",
+    "null": "0",
+    "top": [
+     {
+      "item": "Ton",
+      "count": "4269"
+     },
+     {
+      "item": "m3",
+      "count": "1005"
+     },
+     {
+      "item": "kg",
+      "count": "553"
+     },
+     {
+      "item": "Lb",
+      "count": "40"
+     },
+     {
+      "item": "Grs",
+      "count": "1"
+     }
+    ],
+    "smallest": "Grs",
+    "not_null": "4357",
+    "count": "5868",
+    "cardinality": "5868"
+   },
+   "format": {}
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "jsonQuery": {
+   "order": [
+    {
+     "columnFieldName": "fecha_inicio",
+     "ascending": false
+    }
+   ]
+  },
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Unidad de Planeación Minero Energética - UPME, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Minas y Energía",
+    "Área o dependencia": "Subdirección de Minería",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Nacional",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Trimestral"
+   }
+  },
+  "availableDisplayTypes": [
+   "table",
+   "fatrow",
+   "page"
+  ]
+ },
+ "owner": {
+  "id": "c659-ugtd",
+  "displayName": "Unidad de Planeación Minero Energética",
+  "profileImageUrlLarge": "/api/users/c659-ugtd/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/c659-ugtd/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/c659-ugtd/profile_images/TINY",
+  "screenName": "Unidad de Planeación Minero Energética",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {
+  "orderBys": [
+   {
+    "ascending": false,
+    "expression": {
+     "columnId": 370340171,
+     "type": "column"
+    }
+   }
+  ]
+ },
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "c659-ugtd",
+  "displayName": "Unidad de Planeación Minero Energética",
+  "profileImageUrlLarge": "/api/users/c659-ugtd/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/c659-ugtd/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/c659-ugtd/profile_images/TINY",
+  "screenName": "Unidad de Planeación Minero Energética",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "regalias",
+  "minerales",
+  "precios"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

@@ -1,0 +1,905 @@
+{
+ "id": "5fct-ib9u",
+ "name": "Exportaciones agrícolas no tradicionales y tradicionales",
+ "assetType": "dataset",
+ "attribution": "Ministerio de Agricultura y Desarrollo Rural - MinAgricultura, Bogotá D.C.",
+ "attributionLink": "https://www.minagricultura.gov.co/",
+ "averageRating": 0,
+ "category": "Agricultura y Desarrollo Rural",
+ "createdAt": 1726063148,
+ "description": "Este conjunto de datos presenta la información de las exportaciones del sector agrícola medidas en dólares FOB y toneladas. Las exportaciones presentadas abarcan el ámbito de OMC y pesca desde el año 2019 con corte a Agosto del 2025.",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 1077,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 40857610,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1726067619,
+ "publicationGroup": 19648289,
+ "publicationStage": "published",
+ "rowsUpdatedAt": 1763150647,
+ "rowsUpdatedBy": "r4qn-dwdd",
+ "tableId": 19648289,
+ "totalTimesRated": 0,
+ "viewCount": 4419,
+ "viewLastModified": 1779123468,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1726069503,
+   "reviewedAutomatically": false,
+   "state": "approved",
+   "submissionId": 6546575,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1726068880,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "reviewer": {
+    "id": "vc9x-zjzh",
+    "displayName": "soporteccc"
+   },
+   "submissionDetails": {
+    "permissionType": "read"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1726069503,
+    "failureCount": 0,
+    "startedAt": 1726069503,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "h5ru-kk9w",
+    "displayName": "Ministerio de Agricultura"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 599256667,
+   "name": "Partida",
+   "dataTypeName": "number",
+   "description": "Subpartida arancelaria a 10 dígitos",
+   "fieldName": "partida",
+   "position": 1,
+   "renderTypeName": "number",
+   "tableColumnId": 154817871,
+   "cachedContents": {
+    "non_null": "544914",
+    "largest": "5302900000",
+    "null": "0",
+    "top": [
+     {
+      "item": "901119000",
+      "count": "18293"
+     },
+     {
+      "item": "603129000",
+      "count": "8895"
+     },
+     {
+      "item": "603110000",
+      "count": "8333"
+     },
+     {
+      "item": "1704901000",
+      "count": "7256"
+     },
+     {
+      "item": "603199090",
+      "count": "7209"
+     },
+     {
+      "item": "603193000",
+      "count": "6653"
+     },
+     {
+      "item": "603121000",
+      "count": "6626"
+     },
+     {
+      "item": "603199010",
+      "count": "6468"
+     },
+     {
+      "item": "1806900090",
+      "count": "5933"
+     },
+     {
+      "item": "2106909000",
+      "count": "5714"
+     },
+     {
+      "item": "1905310000",
+      "count": "5403"
+     },
+     {
+      "item": "604200000",
+      "count": "5036"
+     },
+     {
+      "item": "2008999000",
+      "count": "4765"
+     },
+     {
+      "item": "2309902000",
+      "count": "4729"
+     },
+     {
+      "item": "1704909000",
+      "count": "4527"
+     },
+     {
+      "item": "603141000",
+      "count": "4426"
+     },
+     {
+      "item": "1701999000",
+      "count": "4358"
+     },
+     {
+      "item": "2101110090",
+      "count": "4009"
+     },
+     {
+      "item": "2103909000",
+      "count": "3975"
+     },
+     {
+      "item": "1905901000",
+      "count": "3955"
+     }
+    ],
+    "smallest": "101210000",
+    "count": "544914",
+    "cardinality": "544914"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 599256666,
+   "name": "Descripcion Partida10 Dig",
+   "dataTypeName": "text",
+   "description": "Descripción de la subpartida arancelaria a 10 digitos",
+   "fieldName": "descripcion_partida10_dig",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 154817870,
+   "cachedContents": {
+    "non_null": "544914",
+    "largest": "Zanahorias y nabos frescos o refrigerados.",
+    "null": "0",
+    "top": [
+     {
+      "item": "Los demás cafés sin tostar, sin descafeinar",
+      "count": "15946"
+     },
+     {
+      "item": "Los demás claveles frescos, cortados para ramos o adornos",
+      "count": "7683"
+     },
+     {
+      "item": "Rosas frescas, cortadas para ramos o adornos",
+      "count": "7282"
+     },
+     {
+      "item": "Las demás flores y capullos frescos, cortados para ramos o adornos",
+      "count": "7209"
+     },
+     {
+      "item": "Hortensias (Hydrangea spp) frescas",
+      "count": "6468"
+     },
+     {
+      "item": "Bombones, caramelos, confites y pastillas",
+      "count": "6376"
+     },
+     {
+      "item": "Alstroemerias frescas, cortadas para ramos o adornos",
+      "count": "5745"
+     },
+     {
+      "item": "Claveles miniatura frescos, cortados para ramos o adornos",
+      "count": "5737"
+     },
+     {
+      "item": "Los demás chocolates y demás preparaciones alimenticias que contengan cacao",
+      "count": "5197"
+     },
+     {
+      "item": "FOLLAJE, HOJAS, RAMAS Y DEMÁS PARTES DE PLANTAS SIN FLORES NI CAPULLOS, Y HIERBAS, MUSGOS Y LINQUENES PARA RAMOS O ADORNADOS FRESCOS",
+      "count": "5036"
+     },
+     {
+      "item": "Las demás preparaciones alimenticias no expresadas ni comprendidas en otra parte",
+      "count": "4973"
+     },
+     {
+      "item": "Galletas dulces (con adición de edulcorante)",
+      "count": "4902"
+     },
+     {
+      "item": "Los demás frutos y partes comestibles de plantas, incluidas las mezclas, preparados o conservados de otro modo, incluso con adición de azúcar u otro edulcorante o alcohol, excepto las mezclas de la subpartida No  2008 19",
+      "count": "4158"
+     },
+     {
+      "item": "Premezclas para la alimentación de los animales",
+      "count": "4091"
+     },
+     {
+      "item": "Los demás artículos de confitería sin cacao (incluido el chocolate blanco)",
+      "count": "3980"
+     },
+     {
+      "item": "Pompones frescos, cortados para ramos o adornos",
+      "count": "3843"
+     },
+     {
+      "item": "Los demás azúcares de caña o de remolacha y sacarosa químicamente pura, en estado sólido",
+      "count": "3819"
+     },
+     {
+      "item": "Galletas saladas o aromatizadas incluso con adición de cacao",
+      "count": "3554"
+     },
+     {
+      "item": "Los demás extractos, esencias y concentrados de café",
+      "count": "3540"
+     },
+     {
+      "item": "Barquillos y obleas, incluso rellenos (\"gaufrettes\", \"wafers\" ) y \"waffles\" (\"gaufres\")",
+      "count": "3529"
+     }
+    ],
+    "smallest": "Abadejo de Alaska (Theraga Chalcogramma) congelado",
+    "count": "544914",
+    "cardinality": "544914"
+   },
+   "format": {}
+  },
+  {
+   "id": 599256665,
+   "name": "Tradición productos",
+   "dataTypeName": "text",
+   "description": "Tipo de tradicionalidad del producto",
+   "fieldName": "tradici_n_productos",
+   "position": 3,
+   "renderTypeName": "text",
+   "tableColumnId": 154817869,
+   "cachedContents": {
+    "non_null": "544914",
+    "largest": "Tradicional",
+    "null": "0",
+    "top": [
+     {
+      "item": "No tradicional",
+      "count": "449138"
+     },
+     {
+      "item": "Tradicional",
+      "count": "95776"
+     }
+    ],
+    "smallest": "No tradicional",
+    "count": "544914",
+    "cardinality": "544914"
+   },
+   "format": {}
+  },
+  {
+   "id": 599256664,
+   "name": "Departamento",
+   "dataTypeName": "text",
+   "description": "Departamento de origen",
+   "fieldName": "departamento",
+   "position": 4,
+   "renderTypeName": "text",
+   "tableColumnId": 154817868,
+   "cachedContents": {
+    "non_null": "544914",
+    "largest": "Vichada",
+    "null": "0",
+    "top": [
+     {
+      "item": "Bogotá",
+      "count": "164994"
+     },
+     {
+      "item": "Antioquia",
+      "count": "103083"
+     },
+     {
+      "item": "Cundinamarca",
+      "count": "88477"
+     },
+     {
+      "item": "Valle del Cauca",
+      "count": "61498"
+     },
+     {
+      "item": "Atlántico",
+      "count": "27930"
+     },
+     {
+      "item": "Santander",
+      "count": "13935"
+     },
+     {
+      "item": "Caldas",
+      "count": "13577"
+     },
+     {
+      "item": "Bolívar",
+      "count": "12538"
+     },
+     {
+      "item": "Risaralda",
+      "count": "10559"
+     },
+     {
+      "item": "Magdalena",
+      "count": "7084"
+     },
+     {
+      "item": "Quindío",
+      "count": "6100"
+     },
+     {
+      "item": "Cauca",
+      "count": "5394"
+     },
+     {
+      "item": "Nariño",
+      "count": "4818"
+     },
+     {
+      "item": "Huila",
+      "count": "4695"
+     },
+     {
+      "item": "Norte de Santander",
+      "count": "3202"
+     },
+     {
+      "item": "Córdoba",
+      "count": "2891"
+     },
+     {
+      "item": "Boyacá",
+      "count": "2751"
+     },
+     {
+      "item": "Tolima",
+      "count": "2708"
+     },
+     {
+      "item": "Sucre",
+      "count": "2532"
+     },
+     {
+      "item": "La Guajira",
+      "count": "1593"
+     }
+    ],
+    "smallest": "Amazonas",
+    "count": "544914",
+    "cardinality": "544914"
+   },
+   "format": {}
+  },
+  {
+   "id": 599256663,
+   "name": "Pais",
+   "dataTypeName": "text",
+   "description": "País de destino de la exportación",
+   "fieldName": "pais",
+   "position": 5,
+   "renderTypeName": "text",
+   "tableColumnId": 154817867,
+   "cachedContents": {
+    "non_null": "544914",
+    "largest": "Zimbabwe",
+    "null": "0",
+    "top": [
+     {
+      "item": "Estados Unidos",
+      "count": "70650"
+     },
+     {
+      "item": "España",
+      "count": "29303"
+     },
+     {
+      "item": "Chile",
+      "count": "23697"
+     },
+     {
+      "item": "Ecuador",
+      "count": "22418"
+     },
+     {
+      "item": "Aruba",
+      "count": "18941"
+     },
+     {
+      "item": "Canadá",
+      "count": "18844"
+     },
+     {
+      "item": "Curazao",
+      "count": "17752"
+     },
+     {
+      "item": "China",
+      "count": "15948"
+     },
+     {
+      "item": "México",
+      "count": "14855"
+     },
+     {
+      "item": "Países Bajos",
+      "count": "14517"
+     },
+     {
+      "item": "Panamá",
+      "count": "14334"
+     },
+     {
+      "item": "Alemania",
+      "count": "14056"
+     },
+     {
+      "item": "Perú",
+      "count": "13855"
+     },
+     {
+      "item": "Francia",
+      "count": "13824"
+     },
+     {
+      "item": "Brasil",
+      "count": "13568"
+     },
+     {
+      "item": "Italia",
+      "count": "13311"
+     },
+     {
+      "item": "Argentina",
+      "count": "10328"
+     },
+     {
+      "item": "Estados Unidos de América",
+      "count": "9979"
+     },
+     {
+      "item": "Reino Unido",
+      "count": "9092"
+     },
+     {
+      "item": "Venezuela",
+      "count": "7693"
+     }
+    ],
+    "smallest": "Afganistán",
+    "count": "544914",
+    "cardinality": "544914"
+   },
+   "format": {}
+  },
+  {
+   "id": 599256662,
+   "name": "Año",
+   "dataTypeName": "number",
+   "description": "Año",
+   "fieldName": "a_o",
+   "position": 6,
+   "renderTypeName": "number",
+   "tableColumnId": 154817866,
+   "cachedContents": {
+    "non_null": "544914",
+    "largest": "2025",
+    "null": "0",
+    "top": [
+     {
+      "item": "2023",
+      "count": "89083"
+     },
+     {
+      "item": "2022",
+      "count": "88150"
+     },
+     {
+      "item": "2021",
+      "count": "87841"
+     },
+     {
+      "item": "2020",
+      "count": "80367"
+     },
+     {
+      "item": "2019",
+      "count": "80019"
+     },
+     {
+      "item": "2025",
+      "count": "60853"
+     },
+     {
+      "item": "2024",
+      "count": "58601"
+     }
+    ],
+    "smallest": "2019",
+    "count": "544914",
+    "cardinality": "544914"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 599256661,
+   "name": "Mes",
+   "dataTypeName": "text",
+   "description": "Mes",
+   "fieldName": "mes",
+   "position": 7,
+   "renderTypeName": "text",
+   "tableColumnId": 154817865,
+   "cachedContents": {
+    "non_null": "544914",
+    "largest": "Septiembre",
+    "null": "0",
+    "top": [
+     {
+      "item": "Marzo",
+      "count": "52136"
+     },
+     {
+      "item": "Mayo",
+      "count": "50508"
+     },
+     {
+      "item": "Abril",
+      "count": "50466"
+     },
+     {
+      "item": "Julio",
+      "count": "49515"
+     },
+     {
+      "item": "Junio",
+      "count": "49411"
+     },
+     {
+      "item": "Febrero",
+      "count": "48467"
+     },
+     {
+      "item": "Enero",
+      "count": "47253"
+     },
+     {
+      "item": "Diciembre",
+      "count": "45619"
+     },
+     {
+      "item": "Agosto",
+      "count": "41271"
+     },
+     {
+      "item": "Octubre",
+      "count": "37051"
+     },
+     {
+      "item": "Noviembre",
+      "count": "36807"
+     },
+     {
+      "item": "Septiembre",
+      "count": "36410"
+     }
+    ],
+    "smallest": "Abril",
+    "count": "544914",
+    "cardinality": "544914"
+   },
+   "format": {}
+  },
+  {
+   "id": 599256660,
+   "name": "Exportaciones en valor (Miles USD FOB)",
+   "dataTypeName": "number",
+   "description": "Valor de la exportación en miles de dólares FOB",
+   "fieldName": "exportaciones_en_valor_miles",
+   "position": 8,
+   "renderTypeName": "number",
+   "tableColumnId": 154817864,
+   "cachedContents": {
+    "non_null": "544914",
+    "largest": "92600",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "258819"
+     },
+     {
+      "item": "1",
+      "count": "32310"
+     },
+     {
+      "item": "2",
+      "count": "17713"
+     },
+     {
+      "item": "3",
+      "count": "12431"
+     },
+     {
+      "item": "4",
+      "count": "9407"
+     },
+     {
+      "item": "5",
+      "count": "7607"
+     },
+     {
+      "item": "6",
+      "count": "6147"
+     },
+     {
+      "item": "7",
+      "count": "5421"
+     },
+     {
+      "item": "8",
+      "count": "4672"
+     },
+     {
+      "item": "9",
+      "count": "4357"
+     },
+     {
+      "item": "10",
+      "count": "3798"
+     },
+     {
+      "item": "11",
+      "count": "3450"
+     },
+     {
+      "item": "12",
+      "count": "3207"
+     },
+     {
+      "item": "13",
+      "count": "2914"
+     },
+     {
+      "item": "14",
+      "count": "2755"
+     },
+     {
+      "item": "15",
+      "count": "2627"
+     },
+     {
+      "item": "16",
+      "count": "2498"
+     },
+     {
+      "item": "18",
+      "count": "2356"
+     },
+     {
+      "item": "17",
+      "count": "2301"
+     },
+     {
+      "item": "20",
+      "count": "2112"
+     }
+    ],
+    "smallest": "0",
+    "count": "544914",
+    "cardinality": "544914"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 599256668,
+   "name": "Exportaciones en volumen (Toneladas)",
+   "dataTypeName": "number",
+   "description": "Cantidad de toneladas de la exportación",
+   "fieldName": "exportaciones_en_volumen",
+   "position": 9,
+   "renderTypeName": "number",
+   "tableColumnId": 154817872,
+   "cachedContents": {
+    "non_null": "544914",
+    "largest": "60979",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "310430"
+     },
+     {
+      "item": "1",
+      "count": "38656"
+     },
+     {
+      "item": "2",
+      "count": "17130"
+     },
+     {
+      "item": "3",
+      "count": "10719"
+     },
+     {
+      "item": "4",
+      "count": "7736"
+     },
+     {
+      "item": "5",
+      "count": "6120"
+     },
+     {
+      "item": "6",
+      "count": "4844"
+     },
+     {
+      "item": "7",
+      "count": "4042"
+     },
+     {
+      "item": "19",
+      "count": "3690"
+     },
+     {
+      "item": "8",
+      "count": "3546"
+     },
+     {
+      "item": "20",
+      "count": "3280"
+     },
+     {
+      "item": "10",
+      "count": "3096"
+     },
+     {
+      "item": "9",
+      "count": "2963"
+     },
+     {
+      "item": "11",
+      "count": "2384"
+     },
+     {
+      "item": "12",
+      "count": "2311"
+     },
+     {
+      "item": "15",
+      "count": "1942"
+     },
+     {
+      "item": "13",
+      "count": "1938"
+     },
+     {
+      "item": "21",
+      "count": "1929"
+     },
+     {
+      "item": "25",
+      "count": "1879"
+     },
+     {
+      "item": "22",
+      "count": "1867"
+     }
+    ],
+    "smallest": "0",
+    "count": "544914",
+    "cardinality": "544914"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Ministerio de Agricultura y Desarrollo Rural - MinAgricultura, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Agricultura y Desarrollo Rural",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Nacional",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Mensual"
+   }
+  }
+ },
+ "owner": {
+  "id": "h5ru-kk9w",
+  "displayName": "Ministerio de Agricultura",
+  "profileImageUrlLarge": "/api/users/h5ru-kk9w/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/h5ru-kk9w/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/h5ru-kk9w/profile_images/TINY",
+  "screenName": "Ministerio de Agricultura",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "h5ru-kk9w",
+  "displayName": "Ministerio de Agricultura",
+  "profileImageUrlLarge": "/api/users/h5ru-kk9w/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/h5ru-kk9w/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/h5ru-kk9w/profile_images/TINY",
+  "screenName": "Ministerio de Agricultura",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "agrícola",
+  "exportaciones"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

@@ -1,0 +1,161 @@
+# ---------- ni93-8mm5 ----------
+
+enum PreciosMineralesUnidad {
+  GRS
+  KG
+  LB
+  M3
+  TON
+}
+
+input PreciosMineralesUnidadFilter {
+  eq: PreciosMineralesUnidad
+  neq: PreciosMineralesUnidad
+  in: [PreciosMineralesUnidad!]
+  nin: [PreciosMineralesUnidad!]
+  isNull: Boolean
+}
+
+"""Precios base de minerales para la liquidación de regalías, fijados por resolución de la UPME para un periodo de vigencia. (ni93-8mm5)"""
+type PreciosMinerales {
+  "Este campo corresponde al número de la resolución por la cuál se fijan los precios base para la liquidación…"
+  noResolucion: Int
+  "Es la fecha en la cual se expide la resolución."
+  fechaDeResolucion: Date
+  "Fecha a partir de la cuál rige la resolución."
+  fechaDeInicio: Date
+  "Fecha en la que finaliza la vigencia de la resolución."
+  fechaFin: Date
+  "Tipo de mineral para el que aplica el precio definido en la resolución."
+  mineral: String
+  "Precio que se debe pagar para el tipo de mineral por la unidad definida de acuerdo a la resolución."
+  precio: Float
+  "Medida con la que se cuantifica el tipo de mineral."
+  unidad: PreciosMineralesUnidad
+}
+
+input PreciosMineralesWhere {
+  _and: [PreciosMineralesWhere!]
+  _or: [PreciosMineralesWhere!]
+  _not: PreciosMineralesWhere
+  noResolucion: IntFilter
+  fechaDeResolucion: DateFilter
+  fechaDeResolucionYear: IntFilter
+  fechaDeResolucionMonth: IntFilter
+  fechaDeInicio: DateFilter
+  fechaDeInicioYear: IntFilter
+  fechaDeInicioMonth: IntFilter
+  fechaFin: DateFilter
+  fechaFinYear: IntFilter
+  fechaFinMonth: IntFilter
+  mineral: StringFilter
+  precio: FloatFilter
+  unidad: PreciosMineralesUnidadFilter
+}
+
+input PreciosMineralesOrderBy {
+  noResolucion: OrderDirection
+  fechaDeResolucion: OrderDirection
+  fechaDeInicio: OrderDirection
+  fechaFin: OrderDirection
+  mineral: OrderDirection
+  precio: OrderDirection
+  unidad: OrderDirection
+}
+
+type PreciosMineralesSum {
+  precio: Float
+}
+
+input PreciosMineralesSumOrderBy {
+  precio: OrderDirection
+}
+
+type PreciosMineralesMinMax {
+  fechaDeResolucion: Date
+  fechaDeInicio: Date
+  fechaFin: Date
+  precio: Float
+}
+
+input PreciosMineralesMinMaxOrderBy {
+  fechaDeResolucion: OrderDirection
+  fechaDeInicio: OrderDirection
+  fechaFin: OrderDirection
+  precio: OrderDirection
+}
+
+type PreciosMineralesCountDistinct {
+  noResolucion: Int
+  fechaDeResolucion: Int
+  fechaDeInicio: Int
+  fechaFin: Int
+  mineral: Int
+  unidad: Int
+}
+
+input PreciosMineralesCountDistinctOrderBy {
+  noResolucion: OrderDirection
+  fechaDeResolucion: OrderDirection
+  fechaDeInicio: OrderDirection
+  fechaFin: OrderDirection
+  mineral: OrderDirection
+  unidad: OrderDirection
+}
+
+"""Fila de un resultado agregado de preciosMinerales. Los campos escalares seleccionados son las claves de agrupación."""
+type PreciosMineralesGroup {
+  noResolucion: Int
+  fechaDeResolucion: Date
+  "Año de fechaDeResolucion."
+  fechaDeResolucionYear: Int
+  "Mes (1-12) de fechaDeResolucion."
+  fechaDeResolucionMonth: Int
+  fechaDeInicio: Date
+  "Año de fechaDeInicio."
+  fechaDeInicioYear: Int
+  "Mes (1-12) de fechaDeInicio."
+  fechaDeInicioMonth: Int
+  fechaFin: Date
+  "Año de fechaFin."
+  fechaFinYear: Int
+  "Mes (1-12) de fechaFin."
+  fechaFinMonth: Int
+  mineral: String
+  unidad: PreciosMineralesUnidad
+  "Número de filas del grupo."
+  count: Int!
+  countDistinct: PreciosMineralesCountDistinct
+  sum: PreciosMineralesSum
+  avg: PreciosMineralesSum
+  min: PreciosMineralesMinMax
+  max: PreciosMineralesMinMax
+}
+
+input PreciosMineralesGroupOrderBy {
+  noResolucion: OrderDirection
+  fechaDeResolucion: OrderDirection
+  fechaDeResolucionYear: OrderDirection
+  fechaDeResolucionMonth: OrderDirection
+  fechaDeInicio: OrderDirection
+  fechaDeInicioYear: OrderDirection
+  fechaDeInicioMonth: OrderDirection
+  fechaFin: OrderDirection
+  fechaFinYear: OrderDirection
+  fechaFinMonth: OrderDirection
+  mineral: OrderDirection
+  unidad: OrderDirection
+  count: OrderDirection
+  countDistinct: PreciosMineralesCountDistinctOrderBy
+  sum: PreciosMineralesSumOrderBy
+  avg: PreciosMineralesSumOrderBy
+  min: PreciosMineralesMinMaxOrderBy
+  max: PreciosMineralesMinMaxOrderBy
+}
+
+extend type Query {
+  "Filas de ni93-8mm5. Sin orderBy se ordenan por el identificador interno de fila."
+  preciosMinerales(where: PreciosMineralesWhere, orderBy: [PreciosMineralesOrderBy!], limit: Int = 100, offset: Int = 0): [PreciosMinerales!]!
+  "Agregados de ni93-8mm5 agrupados por los campos escalares seleccionados."
+  preciosMineralesAggregate(where: PreciosMineralesWhere, orderBy: [PreciosMineralesGroupOrderBy!], limit: Int = 100, offset: Int = 0): [PreciosMineralesGroup!]!
+}

@@ -1,0 +1,293 @@
+{
+ "id": "rtai-k9uh",
+ "alias": "indiceGobiernoDigital",
+ "type": "IndiceGobiernoDigital",
+ "baseWhere": null,
+ "columns": {
+  "codigoSigep": {
+   "field": "c_digo_sigep",
+   "kind": "int",
+   "gql": "Int",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "entidad": {
+   "field": "entidad",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "orden": {
+   "field": "orden",
+   "kind": "enum",
+   "gql": "IndiceGobiernoDigitalOrden",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "NACIONAL": [
+     "NACIONAL"
+    ],
+    "TERRITORIAL": [
+     "TERRITORIAL"
+    ]
+   }
+  },
+  "sector": {
+   "field": "sector",
+   "kind": "enum",
+   "gql": "IndiceGobiernoDigitalSector",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "AGROPECUARIO_PESQUERO_Y_DE_DESARROLLO_RURAL": [
+     "AGROPECUARIO PESQUERO Y DE DESARROLLO RURAL",
+     "AGROPECUARIO, PESQUERO Y DE DESARROLLO RURAL"
+    ],
+    "AMBIENTE_Y_DESARROLLO_SOSTENIBLE": [
+     "AMBIENTE Y DESARROLLO SOSTENIBLE"
+    ],
+    "CIENCIA_TECNOLOGIA_E_INNOVACION": [
+     "CIENCIA, TECNOLOGÍA E INNOVACIÓN"
+    ],
+    "COMERCIO_INDUSTRIA_Y_TURISMO": [
+     "COMERCIO, INDUSTRIA Y TURISMO"
+    ],
+    "CULTURA": [
+     "CULTURA"
+    ],
+    "DEFENSA": [
+     "DEFENSA"
+    ],
+    "DEPORTE": [
+     "DEL DEPORTE, LA RECREACIÓN, LA ACTIVIDAD FÍSICA Y EL APROVECHAMIENTO DEL TIEMPO LIBRE",
+     "DEPORTE"
+    ],
+    "EDUCACION": [
+     "EDUCACIÓN"
+    ],
+    "ESTADISTICAS": [
+     "ESTADÍSTICAS"
+    ],
+    "FUNCION_PUBLICA": [
+     "FUNCIÓN PÚBLICA"
+    ],
+    "HACIENDA_Y_CREDITO_PUBLICO": [
+     "HACIENDA Y CRÉDITO PÚBLICO"
+    ],
+    "IGUALDAD_Y_EQUIDAD": [
+     "IGUALDAD Y EQUIDAD"
+    ],
+    "INCLUSION_SOCIAL_Y_RECONCILIACION": [
+     "INCLUSIÓN SOCIAL Y RECONCILIACIÓN"
+    ],
+    "INFORMACION_ESTADISTICA": [
+     "INFORMACIÓN ESTADÍSTICA"
+    ],
+    "INTELIGENCIA_ESTRATEGICA_Y_CONTRAINTELIGENCIA": [
+     "INTELIGENCIA ESTRATÉGICA Y CONTRAINTELIGENCIA"
+    ],
+    "INTERIOR": [
+     "INTERIOR"
+    ],
+    "JUSTICIA_Y_DEL_DERECHO": [
+     "JUSTICIA Y DEL DERECHO"
+    ],
+    "MINAS_Y_ENERGIA": [
+     "MINAS Y ENERGÍA"
+    ],
+    "NO_APLICA": [
+     "NO APLICA"
+    ],
+    "PLANEACION": [
+     "PLANEACIÓN"
+    ],
+    "PRESIDENCIA_DE_LA_REPUBLICA": [
+     "PRESIDENCIA DE LA REPÚBLICA"
+    ],
+    "RELACIONES_EXTERIORES": [
+     "RELACIONES EXTERIORES"
+    ],
+    "SALUD_Y_PROTECCION_SOCIAL": [
+     "SALUD Y PROTECCIÓN SOCIAL"
+    ],
+    "TECNOLOGIAS_DE_LA_INFORMACION_Y_LAS_COMUNICACIONES": [
+     "TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES"
+    ],
+    "TRABAJO": [
+     "TRABAJO"
+    ],
+    "TRANSPORTE": [
+     "TRANSPORTE"
+    ],
+    "VIVIENDA_CIUDAD_Y_TERRITORIO": [
+     "VIVIENDA CIUDAD Y TERRITORIO"
+    ]
+   }
+  },
+  "naturalezaJuridica": {
+   "field": "naturaleza_jur_dica",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "idDepartamento": {
+   "field": "id_departamento",
+   "kind": "int",
+   "gql": "Int",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "departamento": {
+   "field": "departamento",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "idMunicipio": {
+   "field": "id_municipio",
+   "kind": "int",
+   "gql": "Int",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "municipio": {
+   "field": "municipio",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "vigencia": {
+   "field": "vigencia",
+   "kind": "int",
+   "gql": "Int",
+   "role": "time",
+   "cast": null,
+   "enum": null
+  },
+  "idIndice": {
+   "field": "id_ndice",
+   "kind": "string",
+   "gql": "String",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "indice": {
+   "field": "ndice",
+   "kind": "enum",
+   "gql": "IndiceGobiernoDigitalIndice",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "ARQUITECTURA": [
+     "Arquitectura",
+     "Fortalecimiento de la Arquitectura Empresarial y de la Gestión de TI"
+    ],
+    "CULTURA_Y_APROPIACION": [
+     "Cultura y Apropiación"
+    ],
+    "DECISIONES_BASADAS_EN_DATOS": [
+     "Decisiones Basadas en Datos",
+     "Toma de decisiones basadas en datos"
+    ],
+    "ESTADO_ABIERTO": [
+     "Empoderamiento de los ciudadanos mediante un Estado abierto",
+     "Estado Abierto"
+    ],
+    "ESTRATEGIAS_DE_CIUDADES_Y_TERRITORIOS_INTELIGENTES": [
+     "Estrategias de Ciudades y Territorios Inteligentes",
+     "Impulso en el desarrollo de territorios y ciudades inteligentes"
+    ],
+    "GOBERNANZA": [
+     "Gobernanza"
+    ],
+    "INDICE_DE_GOBIERNO_DIGITAL": [
+     "Gobierno Digital",
+     "Índice de Gobierno Digital"
+    ],
+    "INNOVACION_PUBLICA_DIGITAL": [
+     "Innovación Pública Digital"
+    ],
+    "PROCESOS_SEGUROS_Y_EFICIENTES": [
+     "Procesos seguros y eficientes"
+    ],
+    "PROYECTOS_DE_TRANSFORMACION_DIGITAL": [
+     "Proyectos de Transformación Digital"
+    ],
+    "SEGURIDAD_Y_PRIVACIDAD_DE_LA_INFORMACION": [
+     "Fortalecimiento de la Seguridad y Privacidad de la Información",
+     "Seguridad y Privacidad de la información"
+    ],
+    "SERVICIOS_CIUDADANOS_DIGITALES": [
+     "Servicios Ciudadanos Digitales",
+     "Uso y apropiación de los Servicios Ciudadanos Digitales"
+    ],
+    "SERVICIOS_DIGITALES_DE_CONFIANZA_Y_CALIDAD": [
+     "Servicios Digitales de Confianza y Calidad"
+    ],
+    "SERVICIOS_Y_PROCESOS_INTELIGENTES": [
+     "Servicios y Procesos Inteligentes"
+    ]
+   }
+  },
+  "puntajeEntidad": {
+   "field": "puntaje_entidad",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "promedioGrupoPar": {
+   "field": "promedio_grupo_par",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "maximoGrupoPar": {
+   "field": "m_ximo_grupo_par",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "minimoGrupoPar": {
+   "field": "m_nimo_grupo_par",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "quintilGrupoPar": {
+   "field": "quintil_grupo_par",
+   "kind": "int",
+   "gql": "Int",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "percentilGrupoPar": {
+   "field": "percentil_grupo_par",
+   "kind": "int",
+   "gql": "Int",
+   "role": null,
+   "cast": null,
+   "enum": null
+  }
+ }
+}

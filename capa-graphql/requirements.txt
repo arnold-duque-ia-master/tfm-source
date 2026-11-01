@@ -1,0 +1,6 @@
+graphql-core>=3.2,<3.4
+pyyaml>=6.0
+httpx>=0.27
+starlette>=0.37
+uvicorn>=0.30
+requests>=2.31   # solo scripts de perfilado y prueba (spike-soda3)

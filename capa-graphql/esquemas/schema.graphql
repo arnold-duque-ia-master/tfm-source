@@ -1,0 +1,2424 @@
+"""Fecha ISO 8601 sin hora (AAAA-MM-DD)."""
+scalar Date
+
+"""Fecha y hora ISO 8601 sin zona horaria (AAAA-MM-DDTHH:MM:SS)."""
+scalar DateTime
+
+enum OrderDirection {
+  ASC
+  DESC
+}
+
+type Point {
+  latitude: Float
+  longitude: Float
+}
+
+input StringFilter {
+  eq: String
+  neq: String
+  in: [String!]
+  nin: [String!]
+  contains: String
+  startsWith: String
+  isNull: Boolean
+}
+
+input IntFilter {
+  eq: Int
+  neq: Int
+  gt: Int
+  gte: Int
+  lt: Int
+  lte: Int
+  in: [Int!]
+  nin: [Int!]
+  isNull: Boolean
+}
+
+input FloatFilter {
+  eq: Float
+  neq: Float
+  gt: Float
+  gte: Float
+  lt: Float
+  lte: Float
+  in: [Float!]
+  nin: [Float!]
+  isNull: Boolean
+}
+
+input DateFilter {
+  eq: Date
+  neq: Date
+  gt: Date
+  gte: Date
+  lt: Date
+  lte: Date
+  isNull: Boolean
+}
+
+input DateTimeFilter {
+  eq: DateTime
+  neq: DateTime
+  gt: DateTime
+  gte: DateTime
+  lt: DateTime
+  lte: DateTime
+  isNull: Boolean
+}
+
+input BooleanFilter {
+  eq: Boolean
+  isNull: Boolean
+}
+
+type Query
+
+# ---------- gcq5-hvdx ----------
+
+enum VacunacionAftosaVichadaDepartamento {
+  VICHADA
+}
+
+input VacunacionAftosaVichadaDepartamentoFilter {
+  eq: VacunacionAftosaVichadaDepartamento
+  neq: VacunacionAftosaVichadaDepartamento
+  in: [VacunacionAftosaVichadaDepartamento!]
+  nin: [VacunacionAftosaVichadaDepartamento!]
+  isNull: Boolean
+}
+
+enum VacunacionAftosaVichadaMunicipio {
+  CUMARIBO
+  LA_PRIMAVERA
+  PUERTO_CARRENO
+  SANTA_ROSALIA
+}
+
+input VacunacionAftosaVichadaMunicipioFilter {
+  eq: VacunacionAftosaVichadaMunicipio
+  neq: VacunacionAftosaVichadaMunicipio
+  in: [VacunacionAftosaVichadaMunicipio!]
+  nin: [VacunacionAftosaVichadaMunicipio!]
+  isNull: Boolean
+}
+
+enum VacunacionAftosaVichadaTenencia {
+  ARRENDADO
+  OTRO
+  POSEEDOR
+  PROPIO
+  TENEDOR
+  TERRITORIO_COLECTIVO
+}
+
+input VacunacionAftosaVichadaTenenciaFilter {
+  eq: VacunacionAftosaVichadaTenencia
+  neq: VacunacionAftosaVichadaTenencia
+  in: [VacunacionAftosaVichadaTenencia!]
+  nin: [VacunacionAftosaVichadaTenencia!]
+  isNull: Boolean
+}
+
+enum VacunacionAftosaVichadaCicloVacunacion {
+  CICLO_II_2024
+}
+
+input VacunacionAftosaVichadaCicloVacunacionFilter {
+  eq: VacunacionAftosaVichadaCicloVacunacion
+  neq: VacunacionAftosaVichadaCicloVacunacion
+  in: [VacunacionAftosaVichadaCicloVacunacion!]
+  nin: [VacunacionAftosaVichadaCicloVacunacion!]
+  isNull: Boolean
+}
+
+"""Registros de vacunación contra fiebre aftosa en el Vichada. Una fila por Registro Único de Vacunación (RUV) de un predio. (gcq5-hvdx)"""
+type VacunacionAftosaVichada {
+  "Código numérico de dos dígitos asignado por el DANE en la codificación DIVIPOLA al departamento del Vichada…"
+  codigoDaneDepartamento: Int
+  "Nombre oficial del departamento de Colombia donde se localiza el predio pecuario (VICHADA)."
+  departamento: VacunacionAftosaVichadaDepartamento
+  "Código numérico oficial de cinco dígitos DIVIPOLA asignado por el DANE a la entidad municipal."
+  codigoDaneMunicipio: Int
+  "Nombre del municipio del departamento del Vichada donde se ejecutó la jornada de vacunación."
+  municipio: VacunacionAftosaVichadaMunicipio
+  "División territorial rural o sector veredal en el que se encuentra ubicado el predio ganadero."
+  vereda: String
+  "Condición jurídica de ocupación o explotación del predio (Propio, Arrendado, Poseedor, Tenedor, Territorio…"
+  tenencia: VacunacionAftosaVichadaTenencia
+  "Número del Registro Único de Vacunación emitido oficialmente como soporte de la inoculación animal por…"
+  ruv: Int
+  "Fecha de expedición del RUV y aplicación del biológico en el predio, en formato estándar AAAA-MM-DD."
+  fechaRuv: Date
+  "Año fiscal y calendario al que corresponde la ejecución de las jornadas de vacunación pecuaria reportadas."
+  vigencia: Int
+  "Etapa o ciclo oficial del calendario sanitario animal fijado por el Instituto Colombiano Agropecuario (ICA)."
+  cicloVacunacion: VacunacionAftosaVichadaCicloVacunacion
+  "Coordenada geográfica decimal de longitud en el sistema de referencia WGS84 para la ubicación espacial del…"
+  longitud: Float
+  "Coordenada geográfica decimal de latitud en el sistema de referencia WGS84 para la ubicación espacial del…"
+  latitud: Float
+  "Cantidad total de cabezas de ganado bovino y bufalino efectivamente vacunadas contra Fiebre Aftosa en el…"
+  totalAftosa: Int
+  "Censo de animales de la especie équida (caballos, yeguas, mulares y asnales) registrados en el predio…"
+  equinos: Int
+  "Censo total de ganado porcino registrado en las instalaciones del predio durante la jornada sanitaria."
+  porcinos: Int
+  "Censo de animales de la especie ovina registrados en el predio pecuario."
+  ovinos: Int
+  "Censo total de ganado caprino registrado en el predio pecuario durante la visita."
+  caprinos: Int
+}
+
+input VacunacionAftosaVichadaWhere {
+  _and: [VacunacionAftosaVichadaWhere!]
+  _or: [VacunacionAftosaVichadaWhere!]
+  _not: VacunacionAftosaVichadaWhere
+  codigoDaneDepartamento: IntFilter
+  departamento: VacunacionAftosaVichadaDepartamentoFilter
+  codigoDaneMunicipio: IntFilter
+  municipio: VacunacionAftosaVichadaMunicipioFilter
+  vereda: StringFilter
+  tenencia: VacunacionAftosaVichadaTenenciaFilter
+  ruv: IntFilter
+  fechaRuv: DateFilter
+  fechaRuvYear: IntFilter
+  fechaRuvMonth: IntFilter
+  vigencia: IntFilter
+  cicloVacunacion: VacunacionAftosaVichadaCicloVacunacionFilter
+  longitud: FloatFilter
+  latitud: FloatFilter
+  totalAftosa: IntFilter
+  equinos: IntFilter
+  porcinos: IntFilter
+  ovinos: IntFilter
+  caprinos: IntFilter
+}
+
+input VacunacionAftosaVichadaOrderBy {
+  codigoDaneDepartamento: OrderDirection
+  departamento: OrderDirection
+  codigoDaneMunicipio: OrderDirection
+  municipio: OrderDirection
+  vereda: OrderDirection
+  tenencia: OrderDirection
+  ruv: OrderDirection
+  fechaRuv: OrderDirection
+  vigencia: OrderDirection
+  cicloVacunacion: OrderDirection
+  longitud: OrderDirection
+  latitud: OrderDirection
+  totalAftosa: OrderDirection
+  equinos: OrderDirection
+  porcinos: OrderDirection
+  ovinos: OrderDirection
+  caprinos: OrderDirection
+}
+
+type VacunacionAftosaVichadaSum {
+  totalAftosa: Float
+  equinos: Float
+  porcinos: Float
+  ovinos: Float
+  caprinos: Float
+}
+
+input VacunacionAftosaVichadaSumOrderBy {
+  totalAftosa: OrderDirection
+  equinos: OrderDirection
+  porcinos: OrderDirection
+  ovinos: OrderDirection
+  caprinos: OrderDirection
+}
+
+type VacunacionAftosaVichadaMinMax {
+  fechaRuv: Date
+  vigencia: Int
+  longitud: Float
+  latitud: Float
+  totalAftosa: Int
+  equinos: Int
+  porcinos: Int
+  ovinos: Int
+  caprinos: Int
+}
+
+input VacunacionAftosaVichadaMinMaxOrderBy {
+  fechaRuv: OrderDirection
+  vigencia: OrderDirection
+  longitud: OrderDirection
+  latitud: OrderDirection
+  totalAftosa: OrderDirection
+  equinos: OrderDirection
+  porcinos: OrderDirection
+  ovinos: OrderDirection
+  caprinos: OrderDirection
+}
+
+type VacunacionAftosaVichadaCountDistinct {
+  codigoDaneDepartamento: Int
+  departamento: Int
+  codigoDaneMunicipio: Int
+  municipio: Int
+  vereda: Int
+  tenencia: Int
+  ruv: Int
+  fechaRuv: Int
+  vigencia: Int
+  cicloVacunacion: Int
+}
+
+input VacunacionAftosaVichadaCountDistinctOrderBy {
+  codigoDaneDepartamento: OrderDirection
+  departamento: OrderDirection
+  codigoDaneMunicipio: OrderDirection
+  municipio: OrderDirection
+  vereda: OrderDirection
+  tenencia: OrderDirection
+  ruv: OrderDirection
+  fechaRuv: OrderDirection
+  vigencia: OrderDirection
+  cicloVacunacion: OrderDirection
+}
+
+"""Fila de un resultado agregado de vacunacionAftosaVichada. Los campos escalares seleccionados son las claves de agrupación."""
+type VacunacionAftosaVichadaGroup {
+  codigoDaneDepartamento: Int
+  departamento: VacunacionAftosaVichadaDepartamento
+  codigoDaneMunicipio: Int
+  municipio: VacunacionAftosaVichadaMunicipio
+  vereda: String
+  tenencia: VacunacionAftosaVichadaTenencia
+  ruv: Int
+  fechaRuv: Date
+  "Año de fechaRuv."
+  fechaRuvYear: Int
+  "Mes (1-12) de fechaRuv."
+  fechaRuvMonth: Int
+  vigencia: Int
+  cicloVacunacion: VacunacionAftosaVichadaCicloVacunacion
+  "Número de filas del grupo."
+  count: Int!
+  countDistinct: VacunacionAftosaVichadaCountDistinct
+  sum: VacunacionAftosaVichadaSum
+  avg: VacunacionAftosaVichadaSum
+  min: VacunacionAftosaVichadaMinMax
+  max: VacunacionAftosaVichadaMinMax
+}
+
+input VacunacionAftosaVichadaGroupOrderBy {
+  codigoDaneDepartamento: OrderDirection
+  departamento: OrderDirection
+  codigoDaneMunicipio: OrderDirection
+  municipio: OrderDirection
+  vereda: OrderDirection
+  tenencia: OrderDirection
+  ruv: OrderDirection
+  fechaRuv: OrderDirection
+  fechaRuvYear: OrderDirection
+  fechaRuvMonth: OrderDirection
+  vigencia: OrderDirection
+  cicloVacunacion: OrderDirection
+  count: OrderDirection
+  countDistinct: VacunacionAftosaVichadaCountDistinctOrderBy
+  sum: VacunacionAftosaVichadaSumOrderBy
+  avg: VacunacionAftosaVichadaSumOrderBy
+  min: VacunacionAftosaVichadaMinMaxOrderBy
+  max: VacunacionAftosaVichadaMinMaxOrderBy
+}
+
+extend type Query {
+  "Filas de gcq5-hvdx. Sin orderBy se ordenan por el identificador interno de fila."
+  vacunacionAftosaVichada(where: VacunacionAftosaVichadaWhere, orderBy: [VacunacionAftosaVichadaOrderBy!], limit: Int = 100, offset: Int = 0): [VacunacionAftosaVichada!]!
+  "Agregados de gcq5-hvdx agrupados por los campos escalares seleccionados."
+  vacunacionAftosaVichadaAggregate(where: VacunacionAftosaVichadaWhere, orderBy: [VacunacionAftosaVichadaGroupOrderBy!], limit: Int = 100, offset: Int = 0): [VacunacionAftosaVichadaGroup!]!
+}
+
+# ---------- h2yr-zfb2 ----------
+
+enum SubsidiosViviendaDepartamento {
+  AMAZONAS
+  ANTIOQUIA
+  ARAUCA
+  ARCHIPIELAGO_DE_SAN_ANDRES_PROVIDENCIA_Y_SANTA_CATALINA
+  ATLANTICO
+  BOGOTA_D_C
+  BOLIVAR
+  BOYACA
+  CALDAS
+  CAQUETA
+  CASANARE
+  CAUCA
+  CESAR
+  CHOCO
+  CORDOBA
+  CUNDINAMARCA
+  GUAINIA
+  GUAVIARE
+  HUILA
+  LA_GUAJIRA
+  MAGDALENA
+  META
+  NARINO
+  NORTE_DE_SANTANDER
+  PUTUMAYO
+  QUINDIO
+  RISARALDA
+  SANTANDER
+  SUCRE
+  TOLIMA
+  VALLE_DEL_CAUCA
+  VAUPES
+  VICHADA
+}
+
+input SubsidiosViviendaDepartamentoFilter {
+  eq: SubsidiosViviendaDepartamento
+  neq: SubsidiosViviendaDepartamento
+  in: [SubsidiosViviendaDepartamento!]
+  nin: [SubsidiosViviendaDepartamento!]
+  isNull: Boolean
+}
+
+enum SubsidiosViviendaPrograma {
+  AHORRO_PROGRAMADO_CONTRACTUAL
+  BOLSA_ATENTADOS_TERRORISTAS
+  BOLSA_CONCEJALES
+  BOLSA_DESASTRES_NATURALES
+  BOLSA_DESPLAZADOS
+  BOLSA_ESFUERZO_TERRITORIAL
+  BOLSA_ORDINARIA
+  BOLSA_RECICLADORES
+  BOLSA_SALUDABLE
+  BOLSA_UNICA_MEJORAMIENTO
+  BOLSA_UNICA_NACIONAL
+  CASA_DIGNA_VIDA_DIGNA
+  CONCURSO_DE_ESFUERZO_TERRITORIAL_NACIONAL
+  ESTRATEGIA_ADQUISICION
+  FENOMENO_DE_LA_NINA
+  HABILITACION_DE_TITULOS
+  MACROPROYECTO
+  MI_CASA_YA
+  PROGRAMA_VIVIENDA_GRATUITA_FASE_I
+  PROGRAMA_VIVIENDA_GRATUITA_FASE_II
+  SEMILLERO_DE_PROPIETARIOS_AHORRO
+  SEMILLERO_DE_PROPIETARIOS_ARRIENDO
+  SIN_CLASIFICACION
+  SUBSIDIOS_EN_ESPECIE_Y_COMPLEMENTARIOS
+  TUTELAS
+  VIPA
+}
+
+input SubsidiosViviendaProgramaFilter {
+  eq: SubsidiosViviendaPrograma
+  neq: SubsidiosViviendaPrograma
+  in: [SubsidiosViviendaPrograma!]
+  nin: [SubsidiosViviendaPrograma!]
+  isNull: Boolean
+}
+
+enum SubsidiosViviendaEstadoDePostulacion {
+  APTO_CON_SUBSIDIO_VENCIDO
+  ASIGNADOS
+  ASIGNADO_CON_APLICACION_EN_MI_CASA_YA
+  ASIGNADO_CON_APLICACION_EN_VIVIENDA_GRATUITA
+  ASIGNADO_EN_DEMANDA_DE_NULIDAD_Y_RESTABLECIMIENTO_HABILITADOS_MI_CASA_YA
+  ASIGNADO_POSTERIORMENTE_BENEFICIARIO_DE_VIVIENDA_GRATUITA
+  ASIGNADO_SANCIONADO
+  DIAGNOSTICO_INVIABLE_DIAGNOSTICO_NO_EFECTIVO
+  EN_SISTEMA_NO_EN_RESOLUCION_DEPURACION_CON_RESOLUCION
+  ESTADO_ANULADO
+  PENDIENTE_DE_REVOCAR
+  PENDIENTE_DE_SANCION_POR_FALSEDAD
+  PERDIDA_DE_EJECUTORIEDAD_DE_ASIGNACION_DE_SFV
+  POSTULACION_ANULADA_POR_ERROR_DE_DIGITACION_DE_LA_CAJA
+  REALIZO_CAMBIO_DE_PROYECTO_HOGAR_ASIGNADO
+  RECHAZADO_MEDIANTE_PROCEDIMIENTO_ADMINISTRATIVO_SANCIONATORIO
+  RENUNCIAS_AL_SUBSIDIO
+  RENUNCIA_AL_SUBSIDIO_PENDIENTE_DE_RESTITUCION
+  RENUNCIA_A_LA_POSTULACION
+  RENUNCIA_A_LA_POSTULACION_ANTERIORMENTE_VENCIDO
+  RENUNCIA_CON_RESTITUCION_DE_SUBSIDIO
+  RENUNCIA_EN_TRAMITE_SIN_RESTITUCION
+  RESTITUCION_DE_SUBSIDIOS_NO_APLICADOS
+  RESTITUCION_SFV_COBRO_DIRECTO_FIDUCIARIA
+  RESTITUCION_SFV_POR_INDEMNIZACION
+  RESTITUCION_SFV_POR_VENCIMIENTO_VIGENCIA
+  SUBSIDIO_RESTITUIDO
+  SUBSIDIO_REVOCADO
+  SUBSIDIO_REVOCADO_CON_RESTITUCION_A_LA_DTN
+  SUBSIDIO_REVOCADO_MEDIANTE_PROCEDIMIENTO_ADMINISTRATIVO_SANCIONATORIO
+  VENCIDO_EN_PROCESO_DE_RESTITUCION_DE_RECURSOS_A_LA_DTN
+}
+
+input SubsidiosViviendaEstadoDePostulacionFilter {
+  eq: SubsidiosViviendaEstadoDePostulacion
+  neq: SubsidiosViviendaEstadoDePostulacion
+  in: [SubsidiosViviendaEstadoDePostulacion!]
+  nin: [SubsidiosViviendaEstadoDePostulacion!]
+  isNull: Boolean
+}
+
+"""Subsidios de vivienda asignados por departamento, municipio, programa y año. Una fila por combinación con el número de hogares y el valor asignado. (h2yr-zfb2)"""
+type SubsidiosVivienda {
+  "Departamento"
+  departamento: SubsidiosViviendaDepartamento
+  "Código Divipola Departamento"
+  codigoDivipolaDepartamento: String
+  "Municipio"
+  municipio: String
+  "Código Divipola Municipio"
+  codigoDivipolaMunicipio: String
+  "Nombre del Programa Inscrito"
+  programa: SubsidiosViviendaPrograma
+  "Vigencia en que se asignó el Subsidio"
+  anioDeAsignacion: Int
+  "Estado de Postulación"
+  estadoDePostulacion: SubsidiosViviendaEstadoDePostulacion
+  "Cantidad de Hogares con Subsidio Asignado"
+  hogares: Int
+  "Valor Total que se Pagó a los Hogares Asignados"
+  valorAsignado: Float
+}
+
+input SubsidiosViviendaWhere {
+  _and: [SubsidiosViviendaWhere!]
+  _or: [SubsidiosViviendaWhere!]
+  _not: SubsidiosViviendaWhere
+  departamento: SubsidiosViviendaDepartamentoFilter
+  codigoDivipolaDepartamento: StringFilter
+  municipio: StringFilter
+  codigoDivipolaMunicipio: StringFilter
+  programa: SubsidiosViviendaProgramaFilter
+  anioDeAsignacion: IntFilter
+  estadoDePostulacion: SubsidiosViviendaEstadoDePostulacionFilter
+  hogares: IntFilter
+  valorAsignado: FloatFilter
+}
+
+input SubsidiosViviendaOrderBy {
+  departamento: OrderDirection
+  codigoDivipolaDepartamento: OrderDirection
+  municipio: OrderDirection
+  codigoDivipolaMunicipio: OrderDirection
+  programa: OrderDirection
+  anioDeAsignacion: OrderDirection
+  estadoDePostulacion: OrderDirection
+  hogares: OrderDirection
+  valorAsignado: OrderDirection
+}
+
+type SubsidiosViviendaSum {
+  hogares: Float
+  valorAsignado: Float
+}
+
+input SubsidiosViviendaSumOrderBy {
+  hogares: OrderDirection
+  valorAsignado: OrderDirection
+}
+
+type SubsidiosViviendaMinMax {
+  anioDeAsignacion: Int
+  hogares: Int
+  valorAsignado: Float
+}
+
+input SubsidiosViviendaMinMaxOrderBy {
+  anioDeAsignacion: OrderDirection
+  hogares: OrderDirection
+  valorAsignado: OrderDirection
+}
+
+type SubsidiosViviendaCountDistinct {
+  departamento: Int
+  codigoDivipolaDepartamento: Int
+  municipio: Int
+  codigoDivipolaMunicipio: Int
+  programa: Int
+  anioDeAsignacion: Int
+  estadoDePostulacion: Int
+}
+
+input SubsidiosViviendaCountDistinctOrderBy {
+  departamento: OrderDirection
+  codigoDivipolaDepartamento: OrderDirection
+  municipio: OrderDirection
+  codigoDivipolaMunicipio: OrderDirection
+  programa: OrderDirection
+  anioDeAsignacion: OrderDirection
+  estadoDePostulacion: OrderDirection
+}
+
+"""Fila de un resultado agregado de subsidiosVivienda. Los campos escalares seleccionados son las claves de agrupación."""
+type SubsidiosViviendaGroup {
+  departamento: SubsidiosViviendaDepartamento
+  codigoDivipolaDepartamento: String
+  municipio: String
+  codigoDivipolaMunicipio: String
+  programa: SubsidiosViviendaPrograma
+  anioDeAsignacion: Int
+  estadoDePostulacion: SubsidiosViviendaEstadoDePostulacion
+  "Número de filas del grupo."
+  count: Int!
+  countDistinct: SubsidiosViviendaCountDistinct
+  sum: SubsidiosViviendaSum
+  avg: SubsidiosViviendaSum
+  min: SubsidiosViviendaMinMax
+  max: SubsidiosViviendaMinMax
+}
+
+input SubsidiosViviendaGroupOrderBy {
+  departamento: OrderDirection
+  codigoDivipolaDepartamento: OrderDirection
+  municipio: OrderDirection
+  codigoDivipolaMunicipio: OrderDirection
+  programa: OrderDirection
+  anioDeAsignacion: OrderDirection
+  estadoDePostulacion: OrderDirection
+  count: OrderDirection
+  countDistinct: SubsidiosViviendaCountDistinctOrderBy
+  sum: SubsidiosViviendaSumOrderBy
+  avg: SubsidiosViviendaSumOrderBy
+  min: SubsidiosViviendaMinMaxOrderBy
+  max: SubsidiosViviendaMinMaxOrderBy
+}
+
+extend type Query {
+  "Filas de h2yr-zfb2. Sin orderBy se ordenan por el identificador interno de fila."
+  subsidiosVivienda(where: SubsidiosViviendaWhere, orderBy: [SubsidiosViviendaOrderBy!], limit: Int = 100, offset: Int = 0): [SubsidiosVivienda!]!
+  "Agregados de h2yr-zfb2 agrupados por los campos escalares seleccionados."
+  subsidiosViviendaAggregate(where: SubsidiosViviendaWhere, orderBy: [SubsidiosViviendaGroupOrderBy!], limit: Int = 100, offset: Int = 0): [SubsidiosViviendaGroup!]!
+}
+
+# ---------- uejq-wxrr ----------
+
+enum EvaluacionesAgricolasDepartamento {
+  AMAZONAS
+  ANTIOQUIA
+  ARAUCA
+  ARCHIPIELAGO_DE_SAN_ANDRES_PROVIDENCIA_Y_SANTA_CATALINA
+  ATLANTICO
+  BOLIVAR
+  BOYACA
+  CALDAS
+  CAQUETA
+  CASANARE
+  CAUCA
+  CESAR
+  CHOCO
+  CORDOBA
+  CUNDINAMARCA
+  GUAINIA
+  GUAVIARE
+  HUILA
+  LA_GUAJIRA
+  MAGDALENA
+  META
+  NARINO
+  NORTE_DE_SANTANDER
+  PUTUMAYO
+  QUINDIO
+  RISARALDA
+  SANTANDER
+  SUCRE
+  TOLIMA
+  VALLE_DEL_CAUCA
+  VAUPES
+  VICHADA
+}
+
+input EvaluacionesAgricolasDepartamentoFilter {
+  eq: EvaluacionesAgricolasDepartamento
+  neq: EvaluacionesAgricolasDepartamento
+  in: [EvaluacionesAgricolasDepartamento!]
+  nin: [EvaluacionesAgricolasDepartamento!]
+  isNull: Boolean
+}
+
+enum EvaluacionesAgricolasGrupoCultivo {
+  CEREALES
+  CULTIVOS_PARA_CONDIMENTOS_BEBIDAS_MEDICINALES_Y_AROMATICAS
+  CULTIVOS_TROPICALES_TRADICIONALES
+  FRUTALES
+  HORTALIZAS
+  LEGUMINOSAS
+  OLEAGINOSAS
+  RAICES_Y_TUBERCULOS
+}
+
+input EvaluacionesAgricolasGrupoCultivoFilter {
+  eq: EvaluacionesAgricolasGrupoCultivo
+  neq: EvaluacionesAgricolasGrupoCultivo
+  in: [EvaluacionesAgricolasGrupoCultivo!]
+  nin: [EvaluacionesAgricolasGrupoCultivo!]
+  isNull: Boolean
+}
+
+enum EvaluacionesAgricolasSubgrupo {
+  ANONACEAS
+  ARACEAS
+  AROMATICAS
+  CADUCIFOLIOS
+  CEREALES
+  CITRICOS
+  CONDIMENTOS
+  CULTIVOS_PARA_CONDIMENTOS_BEBIDAS_MEDICINALES_Y_AROMATICAS
+  CULTIVOS_TROPICALES_TRADICIONALES
+  DEMAS_FRUTALES
+  HORTALIZAS
+  HORTALIZAS_DE_FLOR
+  HORTALIZAS_DE_FRUTO
+  HORTALIZAS_DE_HOJA
+  HORTALIZAS_DE_RAIZ
+  HORTALIZAS_DE_TALLO
+  LEGUMINOSAS
+  MEDICINALES
+  MIRTACEAS
+  OLEAGINOSAS
+  PASIFLORACEAS
+  RAICES_Y_TUBERCULOS
+  SOLANACEAS
+}
+
+input EvaluacionesAgricolasSubgrupoFilter {
+  eq: EvaluacionesAgricolasSubgrupo
+  neq: EvaluacionesAgricolasSubgrupo
+  in: [EvaluacionesAgricolasSubgrupo!]
+  nin: [EvaluacionesAgricolasSubgrupo!]
+  isNull: Boolean
+}
+
+enum EvaluacionesAgricolasPeriodo {
+  _2019
+  _2019A
+  _2019B
+  _2020
+  _2020A
+  _2020B
+  _2021
+  _2021A
+  _2021B
+  _2022
+  _2022A
+  _2022B
+  _2023
+  _2023A
+  _2023B
+  _2024
+  _2024A
+  _2024B
+  _2025
+  _2025A
+  _2025B
+}
+
+input EvaluacionesAgricolasPeriodoFilter {
+  eq: EvaluacionesAgricolasPeriodo
+  neq: EvaluacionesAgricolasPeriodo
+  in: [EvaluacionesAgricolasPeriodo!]
+  nin: [EvaluacionesAgricolasPeriodo!]
+  isNull: Boolean
+}
+
+enum EvaluacionesAgricolasCicloDelCultivo {
+  PERMANENTE
+  TRANSITORIO
+}
+
+input EvaluacionesAgricolasCicloDelCultivoFilter {
+  eq: EvaluacionesAgricolasCicloDelCultivo
+  neq: EvaluacionesAgricolasCicloDelCultivo
+  in: [EvaluacionesAgricolasCicloDelCultivo!]
+  nin: [EvaluacionesAgricolasCicloDelCultivo!]
+  isNull: Boolean
+}
+
+enum EvaluacionesAgricolasEstadoFisicoDelCultivo {
+  ACEITE_CRUDO
+  ALGODON_SEMILLA
+  CANA_O_VERDE
+  EN_FRESCO
+  FIBRA_O_CABUYA
+  GRANO
+  GRANO_O_ALMENDRA
+  GRANO_SECO
+  PADDY_O_CASCARA_VERDE
+  PERGAMINO_O_SECO_DE_TRILLA
+}
+
+input EvaluacionesAgricolasEstadoFisicoDelCultivoFilter {
+  eq: EvaluacionesAgricolasEstadoFisicoDelCultivo
+  neq: EvaluacionesAgricolasEstadoFisicoDelCultivo
+  in: [EvaluacionesAgricolasEstadoFisicoDelCultivo!]
+  nin: [EvaluacionesAgricolasEstadoFisicoDelCultivo!]
+  isNull: Boolean
+}
+
+"""Evaluaciones Agropecuarias Municipales (EVA) 2019-2025. Área sembrada y cosechada, producción y rendimiento por municipio, cultivo y periodo. (uejq-wxrr)"""
+type EvaluacionesAgricolas {
+  "Código del departamento - DIVIPOLA"
+  codigoDaneDepartamento: String
+  "Nombre del departamento"
+  departamento: EvaluacionesAgricolasDepartamento
+  "Código del municipio - DIVIPOLA"
+  codigoDaneMunicipio: String
+  "Nombre del municipio"
+  municipio: String
+  "Clasificación de la especie cultivada"
+  grupoCultivo: EvaluacionesAgricolasGrupoCultivo
+  "Subgrupo de la clasificación de especie cultivada"
+  subgrupo: EvaluacionesAgricolasSubgrupo
+  "Nombre de la especie cultivada"
+  cultivo: String
+  "Desagregación de la especie, reportada por los municipios"
+  desagregacionCultivo: String
+  "Año de referencia"
+  anio: Int
+  "Periodo de siembra (Año y semestre para transitorios) y solo año para los cultivos permanentes"
+  periodo: EvaluacionesAgricolasPeriodo
+  "Área Sembrada en hectáreas"
+  areaSembrada: Float
+  "Área cosechada en hectáreas de las siembras realizadas en el periodo de referencia"
+  areaCosechada: Float
+  "Producción en toneladas de las siembras realizadas en el periodo de referencia"
+  produccion: Float
+  "Rendimiento (producción / área cosechada)"
+  rendimiento: Float
+  "Ciclo del cultivo (transitorio o permanente)"
+  cicloDelCultivo: EvaluacionesAgricolasCicloDelCultivo
+  "Estado físico como se expresa la producción"
+  estadoFisicoDelCultivo: EvaluacionesAgricolasEstadoFisicoDelCultivo
+  "Código cultivo - Clasificación EVA"
+  codigoDelCultivo: Int
+  "Nombre científico de la especie cultivada"
+  nombreCientificoDelCultivo: String
+}
+
+input EvaluacionesAgricolasWhere {
+  _and: [EvaluacionesAgricolasWhere!]
+  _or: [EvaluacionesAgricolasWhere!]
+  _not: EvaluacionesAgricolasWhere
+  codigoDaneDepartamento: StringFilter
+  departamento: EvaluacionesAgricolasDepartamentoFilter
+  codigoDaneMunicipio: StringFilter
+  municipio: StringFilter
+  grupoCultivo: EvaluacionesAgricolasGrupoCultivoFilter
+  subgrupo: EvaluacionesAgricolasSubgrupoFilter
+  cultivo: StringFilter
+  desagregacionCultivo: StringFilter
+  anio: IntFilter
+  periodo: EvaluacionesAgricolasPeriodoFilter
+  areaSembrada: FloatFilter
+  areaCosechada: FloatFilter
+  produccion: FloatFilter
+  rendimiento: FloatFilter
+  cicloDelCultivo: EvaluacionesAgricolasCicloDelCultivoFilter
+  estadoFisicoDelCultivo: EvaluacionesAgricolasEstadoFisicoDelCultivoFilter
+  codigoDelCultivo: IntFilter
+  nombreCientificoDelCultivo: StringFilter
+}
+
+input EvaluacionesAgricolasOrderBy {
+  codigoDaneDepartamento: OrderDirection
+  departamento: OrderDirection
+  codigoDaneMunicipio: OrderDirection
+  municipio: OrderDirection
+  grupoCultivo: OrderDirection
+  subgrupo: OrderDirection
+  cultivo: OrderDirection
+  desagregacionCultivo: OrderDirection
+  anio: OrderDirection
+  periodo: OrderDirection
+  areaSembrada: OrderDirection
+  areaCosechada: OrderDirection
+  produccion: OrderDirection
+  rendimiento: OrderDirection
+  cicloDelCultivo: OrderDirection
+  estadoFisicoDelCultivo: OrderDirection
+  codigoDelCultivo: OrderDirection
+  nombreCientificoDelCultivo: OrderDirection
+}
+
+type EvaluacionesAgricolasSum {
+  areaSembrada: Float
+  areaCosechada: Float
+  produccion: Float
+  rendimiento: Float
+}
+
+input EvaluacionesAgricolasSumOrderBy {
+  areaSembrada: OrderDirection
+  areaCosechada: OrderDirection
+  produccion: OrderDirection
+  rendimiento: OrderDirection
+}
+
+type EvaluacionesAgricolasMinMax {
+  anio: Int
+  areaSembrada: Float
+  areaCosechada: Float
+  produccion: Float
+  rendimiento: Float
+}
+
+input EvaluacionesAgricolasMinMaxOrderBy {
+  anio: OrderDirection
+  areaSembrada: OrderDirection
+  areaCosechada: OrderDirection
+  produccion: OrderDirection
+  rendimiento: OrderDirection
+}
+
+type EvaluacionesAgricolasCountDistinct {
+  codigoDaneDepartamento: Int
+  departamento: Int
+  codigoDaneMunicipio: Int
+  municipio: Int
+  grupoCultivo: Int
+  subgrupo: Int
+  cultivo: Int
+  desagregacionCultivo: Int
+  anio: Int
+  periodo: Int
+  cicloDelCultivo: Int
+  estadoFisicoDelCultivo: Int
+  codigoDelCultivo: Int
+  nombreCientificoDelCultivo: Int
+}
+
+input EvaluacionesAgricolasCountDistinctOrderBy {
+  codigoDaneDepartamento: OrderDirection
+  departamento: OrderDirection
+  codigoDaneMunicipio: OrderDirection
+  municipio: OrderDirection
+  grupoCultivo: OrderDirection
+  subgrupo: OrderDirection
+  cultivo: OrderDirection
+  desagregacionCultivo: OrderDirection
+  anio: OrderDirection
+  periodo: OrderDirection
+  cicloDelCultivo: OrderDirection
+  estadoFisicoDelCultivo: OrderDirection
+  codigoDelCultivo: OrderDirection
+  nombreCientificoDelCultivo: OrderDirection
+}
+
+"""Fila de un resultado agregado de evaluacionesAgricolas. Los campos escalares seleccionados son las claves de agrupación."""
+type EvaluacionesAgricolasGroup {
+  codigoDaneDepartamento: String
+  departamento: EvaluacionesAgricolasDepartamento
+  codigoDaneMunicipio: String
+  municipio: String
+  grupoCultivo: EvaluacionesAgricolasGrupoCultivo
+  subgrupo: EvaluacionesAgricolasSubgrupo
+  cultivo: String
+  desagregacionCultivo: String
+  anio: Int
+  periodo: EvaluacionesAgricolasPeriodo
+  cicloDelCultivo: EvaluacionesAgricolasCicloDelCultivo
+  estadoFisicoDelCultivo: EvaluacionesAgricolasEstadoFisicoDelCultivo
+  codigoDelCultivo: Int
+  nombreCientificoDelCultivo: String
+  "Número de filas del grupo."
+  count: Int!
+  countDistinct: EvaluacionesAgricolasCountDistinct
+  sum: EvaluacionesAgricolasSum
+  avg: EvaluacionesAgricolasSum
+  min: EvaluacionesAgricolasMinMax
+  max: EvaluacionesAgricolasMinMax
+}
+
+input EvaluacionesAgricolasGroupOrderBy {
+  codigoDaneDepartamento: OrderDirection
+  departamento: OrderDirection
+  codigoDaneMunicipio: OrderDirection
+  municipio: OrderDirection
+  grupoCultivo: OrderDirection
+  subgrupo: OrderDirection
+  cultivo: OrderDirection
+  desagregacionCultivo: OrderDirection
+  anio: OrderDirection
+  periodo: OrderDirection
+  cicloDelCultivo: OrderDirection
+  estadoFisicoDelCultivo: OrderDirection
+  codigoDelCultivo: OrderDirection
+  nombreCientificoDelCultivo: OrderDirection
+  count: OrderDirection
+  countDistinct: EvaluacionesAgricolasCountDistinctOrderBy
+  sum: EvaluacionesAgricolasSumOrderBy
+  avg: EvaluacionesAgricolasSumOrderBy
+  min: EvaluacionesAgricolasMinMaxOrderBy
+  max: EvaluacionesAgricolasMinMaxOrderBy
+}
+
+extend type Query {
+  "Filas de uejq-wxrr. Sin orderBy se ordenan por el identificador interno de fila."
+  evaluacionesAgricolas(where: EvaluacionesAgricolasWhere, orderBy: [EvaluacionesAgricolasOrderBy!], limit: Int = 100, offset: Int = 0): [EvaluacionesAgricolas!]!
+  "Agregados de uejq-wxrr agrupados por los campos escalares seleccionados."
+  evaluacionesAgricolasAggregate(where: EvaluacionesAgricolasWhere, orderBy: [EvaluacionesAgricolasGroupOrderBy!], limit: Int = 100, offset: Int = 0): [EvaluacionesAgricolasGroup!]!
+}
+
+# ---------- 8yi9-t44c ----------
+
+"""Tráfico vehicular mensual en los peajes de la ANI por categoría de tarifa. Cada fila cubre el periodo entre desde y hasta. (8yi9-t44c)"""
+type TraficoPeajes {
+  idPeaje: Int
+  peaje: String
+  categoriaTarifa: String
+  desde: Date
+  hasta: Date
+  valorTarifa: Int
+  cantidadTrafico: Int
+  cantidadEvasores: Int
+  cantidadExentos787: Int
+}
+
+input TraficoPeajesWhere {
+  _and: [TraficoPeajesWhere!]
+  _or: [TraficoPeajesWhere!]
+  _not: TraficoPeajesWhere
+  idPeaje: IntFilter
+  peaje: StringFilter
+  categoriaTarifa: StringFilter
+  desde: DateFilter
+  desdeYear: IntFilter
+  desdeMonth: IntFilter
+  hasta: DateFilter
+  hastaYear: IntFilter
+  hastaMonth: IntFilter
+  valorTarifa: IntFilter
+  cantidadTrafico: IntFilter
+  cantidadEvasores: IntFilter
+  cantidadExentos787: IntFilter
+}
+
+input TraficoPeajesOrderBy {
+  idPeaje: OrderDirection
+  peaje: OrderDirection
+  categoriaTarifa: OrderDirection
+  desde: OrderDirection
+  hasta: OrderDirection
+  valorTarifa: OrderDirection
+  cantidadTrafico: OrderDirection
+  cantidadEvasores: OrderDirection
+  cantidadExentos787: OrderDirection
+}
+
+type TraficoPeajesSum {
+  valorTarifa: Float
+  cantidadTrafico: Float
+  cantidadEvasores: Float
+  cantidadExentos787: Float
+}
+
+input TraficoPeajesSumOrderBy {
+  valorTarifa: OrderDirection
+  cantidadTrafico: OrderDirection
+  cantidadEvasores: OrderDirection
+  cantidadExentos787: OrderDirection
+}
+
+type TraficoPeajesMinMax {
+  desde: Date
+  hasta: Date
+  valorTarifa: Int
+  cantidadTrafico: Int
+  cantidadEvasores: Int
+  cantidadExentos787: Int
+}
+
+input TraficoPeajesMinMaxOrderBy {
+  desde: OrderDirection
+  hasta: OrderDirection
+  valorTarifa: OrderDirection
+  cantidadTrafico: OrderDirection
+  cantidadEvasores: OrderDirection
+  cantidadExentos787: OrderDirection
+}
+
+type TraficoPeajesCountDistinct {
+  idPeaje: Int
+  peaje: Int
+  categoriaTarifa: Int
+  desde: Int
+  hasta: Int
+}
+
+input TraficoPeajesCountDistinctOrderBy {
+  idPeaje: OrderDirection
+  peaje: OrderDirection
+  categoriaTarifa: OrderDirection
+  desde: OrderDirection
+  hasta: OrderDirection
+}
+
+"""Fila de un resultado agregado de traficoPeajes. Los campos escalares seleccionados son las claves de agrupación."""
+type TraficoPeajesGroup {
+  idPeaje: Int
+  peaje: String
+  categoriaTarifa: String
+  desde: Date
+  "Año de desde."
+  desdeYear: Int
+  "Mes (1-12) de desde."
+  desdeMonth: Int
+  hasta: Date
+  "Año de hasta."
+  hastaYear: Int
+  "Mes (1-12) de hasta."
+  hastaMonth: Int
+  "Número de filas del grupo."
+  count: Int!
+  countDistinct: TraficoPeajesCountDistinct
+  sum: TraficoPeajesSum
+  avg: TraficoPeajesSum
+  min: TraficoPeajesMinMax
+  max: TraficoPeajesMinMax
+}
+
+input TraficoPeajesGroupOrderBy {
+  idPeaje: OrderDirection
+  peaje: OrderDirection
+  categoriaTarifa: OrderDirection
+  desde: OrderDirection
+  desdeYear: OrderDirection
+  desdeMonth: OrderDirection
+  hasta: OrderDirection
+  hastaYear: OrderDirection
+  hastaMonth: OrderDirection
+  count: OrderDirection
+  countDistinct: TraficoPeajesCountDistinctOrderBy
+  sum: TraficoPeajesSumOrderBy
+  avg: TraficoPeajesSumOrderBy
+  min: TraficoPeajesMinMaxOrderBy
+  max: TraficoPeajesMinMaxOrderBy
+}
+
+extend type Query {
+  "Filas de 8yi9-t44c. Sin orderBy se ordenan por el identificador interno de fila."
+  traficoPeajes(where: TraficoPeajesWhere, orderBy: [TraficoPeajesOrderBy!], limit: Int = 100, offset: Int = 0): [TraficoPeajes!]!
+  "Agregados de 8yi9-t44c agrupados por los campos escalares seleccionados."
+  traficoPeajesAggregate(where: TraficoPeajesWhere, orderBy: [TraficoPeajesGroupOrderBy!], limit: Int = 100, offset: Int = 0): [TraficoPeajesGroup!]!
+}
+
+# ---------- 3ebi-d83g ----------
+
+enum EnergiaZonasNoInterconectadasDepartamento {
+  AMAZONAS
+  ANTIOQUIA
+  ARCHIPIELAGO_DE_SAN_ANDRES_PROVIDENCIA_Y_SANTA_CATALINA
+  BOLIVAR
+  CAQUETA
+  CASANARE
+  CAUCA
+  CHOCO
+  GUAINIA
+  GUAVIARE
+  LA_GUAJIRA
+  MAGDALENA
+  META
+  NARINO
+  PUTUMAYO
+  VALLE_DEL_CAUCA
+  VAUPES
+  VICHADA
+}
+
+input EnergiaZonasNoInterconectadasDepartamentoFilter {
+  eq: EnergiaZonasNoInterconectadasDepartamento
+  neq: EnergiaZonasNoInterconectadasDepartamento
+  in: [EnergiaZonasNoInterconectadasDepartamento!]
+  nin: [EnergiaZonasNoInterconectadasDepartamento!]
+  isNull: Boolean
+}
+
+enum EnergiaZonasNoInterconectadasDiaDeDemandaMaxima {
+  DOMINGO
+  JUEVES
+  LUNES
+  MARTES
+  MIERCOLES
+  SABADO
+  VIERNES
+}
+
+input EnergiaZonasNoInterconectadasDiaDeDemandaMaximaFilter {
+  eq: EnergiaZonasNoInterconectadasDiaDeDemandaMaxima
+  neq: EnergiaZonasNoInterconectadasDiaDeDemandaMaxima
+  in: [EnergiaZonasNoInterconectadasDiaDeDemandaMaxima!]
+  nin: [EnergiaZonasNoInterconectadasDiaDeDemandaMaxima!]
+  isNull: Boolean
+}
+
+"""Prestación del servicio de energía en las Zonas No Interconectadas. Una fila por localidad y mes. (3ebi-d83g)"""
+type EnergiaZonasNoInterconectadas {
+  "ID DEPATAMENTO"
+  idDepartamento: String
+  "DEPARTAMENTO"
+  departamento: EnergiaZonasNoInterconectadasDepartamento
+  "ID MUNICIPIO"
+  idMunicipio: String
+  "MUNICIPIO"
+  municipio: String
+  "ID LOCALIDAD"
+  idLocalidad: String
+  "LOCALIDAD"
+  localidad: String
+  "AÑO SERVICIO"
+  anioServicio: Int
+  "MES SERVICIO"
+  mesServicio: Int
+  "ENERGÍA ACTIVA"
+  energiaActiva: Int
+  "ENERGÍA REACTIVA"
+  energiaReactiva: Int
+  "POTENCIA MÁXIMA"
+  potenciaMaxima: Float
+  "DÍA DE DEMANDA MÁXIMA"
+  diaDeDemandaMaxima: EnergiaZonasNoInterconectadasDiaDeDemandaMaxima
+  "FECHA DE DEMANDA MÁXIMA"
+  fechaDeDemandaMaxima: DateTime
+  "PROMEDIO DIARIO EN HORAS"
+  promedioDiarioEnHoras: Float
+}
+
+input EnergiaZonasNoInterconectadasWhere {
+  _and: [EnergiaZonasNoInterconectadasWhere!]
+  _or: [EnergiaZonasNoInterconectadasWhere!]
+  _not: EnergiaZonasNoInterconectadasWhere
+  idDepartamento: StringFilter
+  departamento: EnergiaZonasNoInterconectadasDepartamentoFilter
+  idMunicipio: StringFilter
+  municipio: StringFilter
+  idLocalidad: StringFilter
+  localidad: StringFilter
+  anioServicio: IntFilter
+  mesServicio: IntFilter
+  energiaActiva: IntFilter
+  energiaReactiva: IntFilter
+  potenciaMaxima: FloatFilter
+  diaDeDemandaMaxima: EnergiaZonasNoInterconectadasDiaDeDemandaMaximaFilter
+  fechaDeDemandaMaxima: DateTimeFilter
+  fechaDeDemandaMaximaYear: IntFilter
+  fechaDeDemandaMaximaMonth: IntFilter
+  promedioDiarioEnHoras: FloatFilter
+}
+
+input EnergiaZonasNoInterconectadasOrderBy {
+  idDepartamento: OrderDirection
+  departamento: OrderDirection
+  idMunicipio: OrderDirection
+  municipio: OrderDirection
+  idLocalidad: OrderDirection
+  localidad: OrderDirection
+  anioServicio: OrderDirection
+  mesServicio: OrderDirection
+  energiaActiva: OrderDirection
+  energiaReactiva: OrderDirection
+  potenciaMaxima: OrderDirection
+  diaDeDemandaMaxima: OrderDirection
+  fechaDeDemandaMaxima: OrderDirection
+  promedioDiarioEnHoras: OrderDirection
+}
+
+type EnergiaZonasNoInterconectadasSum {
+  energiaActiva: Float
+  energiaReactiva: Float
+  potenciaMaxima: Float
+  promedioDiarioEnHoras: Float
+}
+
+input EnergiaZonasNoInterconectadasSumOrderBy {
+  energiaActiva: OrderDirection
+  energiaReactiva: OrderDirection
+  potenciaMaxima: OrderDirection
+  promedioDiarioEnHoras: OrderDirection
+}
+
+type EnergiaZonasNoInterconectadasMinMax {
+  anioServicio: Int
+  mesServicio: Int
+  energiaActiva: Int
+  energiaReactiva: Int
+  potenciaMaxima: Float
+  fechaDeDemandaMaxima: DateTime
+  promedioDiarioEnHoras: Float
+}
+
+input EnergiaZonasNoInterconectadasMinMaxOrderBy {
+  anioServicio: OrderDirection
+  mesServicio: OrderDirection
+  energiaActiva: OrderDirection
+  energiaReactiva: OrderDirection
+  potenciaMaxima: OrderDirection
+  fechaDeDemandaMaxima: OrderDirection
+  promedioDiarioEnHoras: OrderDirection
+}
+
+type EnergiaZonasNoInterconectadasCountDistinct {
+  idDepartamento: Int
+  departamento: Int
+  idMunicipio: Int
+  municipio: Int
+  idLocalidad: Int
+  localidad: Int
+  anioServicio: Int
+  mesServicio: Int
+  diaDeDemandaMaxima: Int
+  fechaDeDemandaMaxima: Int
+}
+
+input EnergiaZonasNoInterconectadasCountDistinctOrderBy {
+  idDepartamento: OrderDirection
+  departamento: OrderDirection
+  idMunicipio: OrderDirection
+  municipio: OrderDirection
+  idLocalidad: OrderDirection
+  localidad: OrderDirection
+  anioServicio: OrderDirection
+  mesServicio: OrderDirection
+  diaDeDemandaMaxima: OrderDirection
+  fechaDeDemandaMaxima: OrderDirection
+}
+
+"""Fila de un resultado agregado de energiaZonasNoInterconectadas. Los campos escalares seleccionados son las claves de agrupación."""
+type EnergiaZonasNoInterconectadasGroup {
+  idDepartamento: String
+  departamento: EnergiaZonasNoInterconectadasDepartamento
+  idMunicipio: String
+  municipio: String
+  idLocalidad: String
+  localidad: String
+  anioServicio: Int
+  mesServicio: Int
+  diaDeDemandaMaxima: EnergiaZonasNoInterconectadasDiaDeDemandaMaxima
+  fechaDeDemandaMaxima: DateTime
+  "Año de fechaDeDemandaMaxima."
+  fechaDeDemandaMaximaYear: Int
+  "Mes (1-12) de fechaDeDemandaMaxima."
+  fechaDeDemandaMaximaMonth: Int
+  "Número de filas del grupo."
+  count: Int!
+  countDistinct: EnergiaZonasNoInterconectadasCountDistinct
+  sum: EnergiaZonasNoInterconectadasSum
+  avg: EnergiaZonasNoInterconectadasSum
+  min: EnergiaZonasNoInterconectadasMinMax
+  max: EnergiaZonasNoInterconectadasMinMax
+}
+
+input EnergiaZonasNoInterconectadasGroupOrderBy {
+  idDepartamento: OrderDirection
+  departamento: OrderDirection
+  idMunicipio: OrderDirection
+  municipio: OrderDirection
+  idLocalidad: OrderDirection
+  localidad: OrderDirection
+  anioServicio: OrderDirection
+  mesServicio: OrderDirection
+  diaDeDemandaMaxima: OrderDirection
+  fechaDeDemandaMaxima: OrderDirection
+  fechaDeDemandaMaximaYear: OrderDirection
+  fechaDeDemandaMaximaMonth: OrderDirection
+  count: OrderDirection
+  countDistinct: EnergiaZonasNoInterconectadasCountDistinctOrderBy
+  sum: EnergiaZonasNoInterconectadasSumOrderBy
+  avg: EnergiaZonasNoInterconectadasSumOrderBy
+  min: EnergiaZonasNoInterconectadasMinMaxOrderBy
+  max: EnergiaZonasNoInterconectadasMinMaxOrderBy
+}
+
+extend type Query {
+  "Filas de 3ebi-d83g. Sin orderBy se ordenan por el identificador interno de fila."
+  energiaZonasNoInterconectadas(where: EnergiaZonasNoInterconectadasWhere, orderBy: [EnergiaZonasNoInterconectadasOrderBy!], limit: Int = 100, offset: Int = 0): [EnergiaZonasNoInterconectadas!]!
+  "Agregados de 3ebi-d83g agrupados por los campos escalares seleccionados."
+  energiaZonasNoInterconectadasAggregate(where: EnergiaZonasNoInterconectadasWhere, orderBy: [EnergiaZonasNoInterconectadasGroupOrderBy!], limit: Int = 100, offset: Int = 0): [EnergiaZonasNoInterconectadasGroup!]!
+}
+
+# ---------- rtai-k9uh ----------
+
+enum IndiceGobiernoDigitalOrden {
+  NACIONAL
+  TERRITORIAL
+}
+
+input IndiceGobiernoDigitalOrdenFilter {
+  eq: IndiceGobiernoDigitalOrden
+  neq: IndiceGobiernoDigitalOrden
+  in: [IndiceGobiernoDigitalOrden!]
+  nin: [IndiceGobiernoDigitalOrden!]
+  isNull: Boolean
+}
+
+enum IndiceGobiernoDigitalSector {
+  AGROPECUARIO_PESQUERO_Y_DE_DESARROLLO_RURAL
+  AMBIENTE_Y_DESARROLLO_SOSTENIBLE
+  CIENCIA_TECNOLOGIA_E_INNOVACION
+  COMERCIO_INDUSTRIA_Y_TURISMO
+  CULTURA
+  DEFENSA
+  DEPORTE
+  EDUCACION
+  ESTADISTICAS
+  FUNCION_PUBLICA
+  HACIENDA_Y_CREDITO_PUBLICO
+  IGUALDAD_Y_EQUIDAD
+  INCLUSION_SOCIAL_Y_RECONCILIACION
+  INFORMACION_ESTADISTICA
+  INTELIGENCIA_ESTRATEGICA_Y_CONTRAINTELIGENCIA
+  INTERIOR
+  JUSTICIA_Y_DEL_DERECHO
+  MINAS_Y_ENERGIA
+  NO_APLICA
+  PLANEACION
+  PRESIDENCIA_DE_LA_REPUBLICA
+  RELACIONES_EXTERIORES
+  SALUD_Y_PROTECCION_SOCIAL
+  TECNOLOGIAS_DE_LA_INFORMACION_Y_LAS_COMUNICACIONES
+  TRABAJO
+  TRANSPORTE
+  VIVIENDA_CIUDAD_Y_TERRITORIO
+}
+
+input IndiceGobiernoDigitalSectorFilter {
+  eq: IndiceGobiernoDigitalSector
+  neq: IndiceGobiernoDigitalSector
+  in: [IndiceGobiernoDigitalSector!]
+  nin: [IndiceGobiernoDigitalSector!]
+  isNull: Boolean
+}
+
+enum IndiceGobiernoDigitalIndice {
+  ARQUITECTURA
+  CULTURA_Y_APROPIACION
+  DECISIONES_BASADAS_EN_DATOS
+  ESTADO_ABIERTO
+  ESTRATEGIAS_DE_CIUDADES_Y_TERRITORIOS_INTELIGENTES
+  GOBERNANZA
+  INDICE_DE_GOBIERNO_DIGITAL
+  INNOVACION_PUBLICA_DIGITAL
+  PROCESOS_SEGUROS_Y_EFICIENTES
+  PROYECTOS_DE_TRANSFORMACION_DIGITAL
+  SEGURIDAD_Y_PRIVACIDAD_DE_LA_INFORMACION
+  SERVICIOS_CIUDADANOS_DIGITALES
+  SERVICIOS_DIGITALES_DE_CONFIANZA_Y_CALIDAD
+  SERVICIOS_Y_PROCESOS_INTELIGENTES
+}
+
+input IndiceGobiernoDigitalIndiceFilter {
+  eq: IndiceGobiernoDigitalIndice
+  neq: IndiceGobiernoDigitalIndice
+  in: [IndiceGobiernoDigitalIndice!]
+  nin: [IndiceGobiernoDigitalIndice!]
+  isNull: Boolean
+}
+
+"""Índice de Gobierno Digital por entidad pública, vigencia e índice, con el puntaje de la entidad y las estadísticas de su grupo par. (rtai-k9uh)"""
+type IndiceGobiernoDigital {
+  "Código único de identificación de las entidades, de acuerdo con el Sistema de Información y Gestión del…"
+  codigoSigep: Int
+  "Razón social de las entidades públicas"
+  entidad: String
+  "Orden en que se encuentre clasificada cada entidad: nacional o territorial"
+  orden: IndiceGobiernoDigitalOrden
+  "Corresponde a los 24 sectores administrativos de la rama ejecutiva del orden nacional"
+  sector: IndiceGobiernoDigitalSector
+  "Naturaleza jurídica de cada entidad"
+  naturalezaJuridica: String
+  "Código único de identificación DIVIPOLA de los departamentos de Colombia"
+  idDepartamento: Int
+  "Departamentos de Colombia"
+  departamento: String
+  "Código único de identificación DIVIPOLA de los municipios de Colombia"
+  idMunicipio: Int
+  "Municipios de Colombia"
+  municipio: String
+  "Año de medición"
+  vigencia: Int
+  "Código único de identificación de cada índice"
+  idIndice: String
+  "Nombre de cada índice"
+  indice: IndiceGobiernoDigitalIndice
+  "Puntaje obtenido por cada entidad en cada índice y en cada vigencia"
+  puntajeEntidad: Float
+  "Puntaje promedio del grupo par al que pertenece cada entidad"
+  promedioGrupoPar: Float
+  "Puntaje máximo del grupo par al que pertenece cada entidad"
+  maximoGrupoPar: Float
+  "Puntaje mínimo del grupo par al que pertenece cada entidad"
+  minimoGrupoPar: Float
+  "Quintil en el que se ubica cada entidad dentro de su grupo par"
+  quintilGrupoPar: Int
+  "Percentil en el que se ubica cada entidad dentro de su grupo par"
+  percentilGrupoPar: Int
+}
+
+input IndiceGobiernoDigitalWhere {
+  _and: [IndiceGobiernoDigitalWhere!]
+  _or: [IndiceGobiernoDigitalWhere!]
+  _not: IndiceGobiernoDigitalWhere
+  codigoSigep: IntFilter
+  entidad: StringFilter
+  orden: IndiceGobiernoDigitalOrdenFilter
+  sector: IndiceGobiernoDigitalSectorFilter
+  naturalezaJuridica: StringFilter
+  idDepartamento: IntFilter
+  departamento: StringFilter
+  idMunicipio: IntFilter
+  municipio: StringFilter
+  vigencia: IntFilter
+  idIndice: StringFilter
+  indice: IndiceGobiernoDigitalIndiceFilter
+  puntajeEntidad: FloatFilter
+  promedioGrupoPar: FloatFilter
+  maximoGrupoPar: FloatFilter
+  minimoGrupoPar: FloatFilter
+  quintilGrupoPar: IntFilter
+  percentilGrupoPar: IntFilter
+}
+
+input IndiceGobiernoDigitalOrderBy {
+  codigoSigep: OrderDirection
+  entidad: OrderDirection
+  orden: OrderDirection
+  sector: OrderDirection
+  naturalezaJuridica: OrderDirection
+  idDepartamento: OrderDirection
+  departamento: OrderDirection
+  idMunicipio: OrderDirection
+  municipio: OrderDirection
+  vigencia: OrderDirection
+  idIndice: OrderDirection
+  indice: OrderDirection
+  puntajeEntidad: OrderDirection
+  promedioGrupoPar: OrderDirection
+  maximoGrupoPar: OrderDirection
+  minimoGrupoPar: OrderDirection
+  quintilGrupoPar: OrderDirection
+  percentilGrupoPar: OrderDirection
+}
+
+type IndiceGobiernoDigitalSum {
+  puntajeEntidad: Float
+  promedioGrupoPar: Float
+  maximoGrupoPar: Float
+  minimoGrupoPar: Float
+  quintilGrupoPar: Float
+  percentilGrupoPar: Float
+}
+
+input IndiceGobiernoDigitalSumOrderBy {
+  puntajeEntidad: OrderDirection
+  promedioGrupoPar: OrderDirection
+  maximoGrupoPar: OrderDirection
+  minimoGrupoPar: OrderDirection
+  quintilGrupoPar: OrderDirection
+  percentilGrupoPar: OrderDirection
+}
+
+type IndiceGobiernoDigitalMinMax {
+  vigencia: Int
+  puntajeEntidad: Float
+  promedioGrupoPar: Float
+  maximoGrupoPar: Float
+  minimoGrupoPar: Float
+  quintilGrupoPar: Int
+  percentilGrupoPar: Int
+}
+
+input IndiceGobiernoDigitalMinMaxOrderBy {
+  vigencia: OrderDirection
+  puntajeEntidad: OrderDirection
+  promedioGrupoPar: OrderDirection
+  maximoGrupoPar: OrderDirection
+  minimoGrupoPar: OrderDirection
+  quintilGrupoPar: OrderDirection
+  percentilGrupoPar: OrderDirection
+}
+
+type IndiceGobiernoDigitalCountDistinct {
+  codigoSigep: Int
+  entidad: Int
+  orden: Int
+  sector: Int
+  naturalezaJuridica: Int
+  idDepartamento: Int
+  departamento: Int
+  idMunicipio: Int
+  municipio: Int
+  vigencia: Int
+  idIndice: Int
+  indice: Int
+}
+
+input IndiceGobiernoDigitalCountDistinctOrderBy {
+  codigoSigep: OrderDirection
+  entidad: OrderDirection
+  orden: OrderDirection
+  sector: OrderDirection
+  naturalezaJuridica: OrderDirection
+  idDepartamento: OrderDirection
+  departamento: OrderDirection
+  idMunicipio: OrderDirection
+  municipio: OrderDirection
+  vigencia: OrderDirection
+  idIndice: OrderDirection
+  indice: OrderDirection
+}
+
+"""Fila de un resultado agregado de indiceGobiernoDigital. Los campos escalares seleccionados son las claves de agrupación."""
+type IndiceGobiernoDigitalGroup {
+  codigoSigep: Int
+  entidad: String
+  orden: IndiceGobiernoDigitalOrden
+  sector: IndiceGobiernoDigitalSector
+  naturalezaJuridica: String
+  idDepartamento: Int
+  departamento: String
+  idMunicipio: Int
+  municipio: String
+  vigencia: Int
+  idIndice: String
+  indice: IndiceGobiernoDigitalIndice
+  "Número de filas del grupo."
+  count: Int!
+  countDistinct: IndiceGobiernoDigitalCountDistinct
+  sum: IndiceGobiernoDigitalSum
+  avg: IndiceGobiernoDigitalSum
+  min: IndiceGobiernoDigitalMinMax
+  max: IndiceGobiernoDigitalMinMax
+}
+
+input IndiceGobiernoDigitalGroupOrderBy {
+  codigoSigep: OrderDirection
+  entidad: OrderDirection
+  orden: OrderDirection
+  sector: OrderDirection
+  naturalezaJuridica: OrderDirection
+  idDepartamento: OrderDirection
+  departamento: OrderDirection
+  idMunicipio: OrderDirection
+  municipio: OrderDirection
+  vigencia: OrderDirection
+  idIndice: OrderDirection
+  indice: OrderDirection
+  count: OrderDirection
+  countDistinct: IndiceGobiernoDigitalCountDistinctOrderBy
+  sum: IndiceGobiernoDigitalSumOrderBy
+  avg: IndiceGobiernoDigitalSumOrderBy
+  min: IndiceGobiernoDigitalMinMaxOrderBy
+  max: IndiceGobiernoDigitalMinMaxOrderBy
+}
+
+extend type Query {
+  "Filas de rtai-k9uh. Sin orderBy se ordenan por el identificador interno de fila."
+  indiceGobiernoDigital(where: IndiceGobiernoDigitalWhere, orderBy: [IndiceGobiernoDigitalOrderBy!], limit: Int = 100, offset: Int = 0): [IndiceGobiernoDigital!]!
+  "Agregados de rtai-k9uh agrupados por los campos escalares seleccionados."
+  indiceGobiernoDigitalAggregate(where: IndiceGobiernoDigitalWhere, orderBy: [IndiceGobiernoDigitalGroupOrderBy!], limit: Int = 100, offset: Int = 0): [IndiceGobiernoDigitalGroup!]!
+}
+
+# ---------- kekd-7v7h ----------
+
+enum CalidadAireAutoridadAmbiental {
+  AMB
+  AMVA
+  CAM
+  CAR
+  CARDER
+  CARDIQUE
+  CAR_DEL_CANAL_DEL_DIQUE
+  CDMB
+  CODECHOCO
+  CORANTIOQUIA
+  CORMACARENA
+  CORNARE
+  CORPAMAG
+  CORPOBOYACA
+  CORPOCALDAS
+  CORPOCESAR
+  CORPOGUAJIRA
+  CORPONARINO
+  CORPONOR
+  CORPORINOQUIA
+  CORTOLIMA
+  CRA
+  CRC
+  CRQ
+  CVC
+  CVS
+  DAGMA
+  EPA_BARRANQUILLA
+  EPA_CARTAGENA
+  SDA
+}
+
+input CalidadAireAutoridadAmbientalFilter {
+  eq: CalidadAireAutoridadAmbiental
+  neq: CalidadAireAutoridadAmbiental
+  in: [CalidadAireAutoridadAmbiental!]
+  nin: [CalidadAireAutoridadAmbiental!]
+  isNull: Boolean
+}
+
+enum CalidadAireVariable {
+  CO
+  DVIENTO
+  HAIRE
+  HAIRE10
+  HAIRE2
+  NO
+  NO2
+  O3
+  P
+  PLIQUIDA
+  PM10
+  PM2_5
+  PST
+  RGLOBAL
+  RUVB
+  SO2
+  TAIRE
+  TAIRE10
+  TAIRE2
+  VVIENTO
+}
+
+input CalidadAireVariableFilter {
+  eq: CalidadAireVariable
+  neq: CalidadAireVariable
+  in: [CalidadAireVariable!]
+  nin: [CalidadAireVariable!]
+  isNull: Boolean
+}
+
+enum CalidadAireUnidades {
+  CELSIUS
+  DEG
+  MEDH
+  MM
+  MMHG
+  MS
+  PERC
+  UGM3
+  WM2
+}
+
+input CalidadAireUnidadesFilter {
+  eq: CalidadAireUnidades
+  neq: CalidadAireUnidades
+  in: [CalidadAireUnidades!]
+  nin: [CalidadAireUnidades!]
+  isNull: Boolean
+}
+
+enum CalidadAireNombreDelDepartamento {
+  ANTIOQUIA
+  ARAUCA
+  ATLANTICO
+  BOGOTA_D_C
+  BOLIVAR
+  BOYACA
+  CALDAS
+  CASANARE
+  CAUCA
+  CESAR
+  CHOCO
+  CORDOBA
+  CUNDINAMARCA
+  HUILA
+  LA_GUAJIRA
+  MAGDALENA
+  META
+  NARINO
+  NORTE_DE_SANTANDER
+  QUINDIO
+  RISARALDA
+  SANTANDER
+  TOLIMA
+  VALLE_DEL_CAUCA
+}
+
+input CalidadAireNombreDelDepartamentoFilter {
+  eq: CalidadAireNombreDelDepartamento
+  neq: CalidadAireNombreDelDepartamento
+  in: [CalidadAireNombreDelDepartamento!]
+  nin: [CalidadAireNombreDelDepartamento!]
+  isNull: Boolean
+}
+
+enum CalidadAireTipoDeEstacion {
+  FIJA
+  INDICATIVA
+  NA
+}
+
+input CalidadAireTipoDeEstacionFilter {
+  eq: CalidadAireTipoDeEstacion
+  neq: CalidadAireTipoDeEstacion
+  in: [CalidadAireTipoDeEstacion!]
+  nin: [CalidadAireTipoDeEstacion!]
+  isNull: Boolean
+}
+
+"""Calidad del aire en Colombia (promedio anual). Una fila por estación, variable, tiempo de exposición y año. (kekd-7v7h)"""
+type CalidadAire {
+  "Identificador único asignado por el Subsistema de Información sobre Calidad del Aire - SISAIRE a cada…"
+  idEstacion: Int
+  "Autoridad Ambiental encargada de operar el Sistema de Vigilancia de la Calidad del Aire en la jurisdicción…"
+  autoridadAmbiental: CalidadAireAutoridadAmbiental
+  "Nombre específico que se designa a la estación de monitoreo de calidad del aire."
+  estacion: String
+  "Coordenada geográfica que indica la latitud de la ubicación de la estación (Sistema de referencia espacial…"
+  latitud: Float
+  "Coordenada geográfica que indica la longitud de la ubicación de la estación (Sistema de referencia espacial…"
+  longitud: Float
+  "Contaminante atmosférico o variable meteorológica que se mide en la estación de monitoreo de la calidad del…"
+  variable: CalidadAireVariable
+  "Unidad de medida empleada para expresar el contaminante atmosférico o variable meteorológica"
+  unidades: CalidadAireUnidades
+  "Período de referencia específico establecido normativamente (Resolución 2254/2017) para evaluar los niveles…"
+  tiempoDeExposicionHoras: Int
+  "Año en el que se realizó la medición en la respectiva estación."
+  anio: Int
+  "Promedio anual del nivel de inmisión o concentración a condiciones de referencia o estándar (std) del…"
+  promedio: Float
+  "Total acumulado anual del nivel de inmisión o concentración a condiciones de referencia o estándar (std) del…"
+  suma: Float
+  "Cantidad total de datos validos recopilados durante el año de medición."
+  noDeDatos: Int
+  "Porcentaje del tiempo total de un período tiene datos válidos registrados"
+  representatividadTemporal: Float
+  "Número total de veces en que el contaminante atmosférico ha superado el nivel máximo permisible vigente…"
+  excedenciasLimiteActual: Int
+  "Proporción determinada por el número de veces en que el contaminante atmosférico ha superado el nivel máximo…"
+  porcentajeExcedenciasLimiteActual: Float
+  "Mediana anual del nivel de inmisión o concentración a condiciones de referencia o estándar (std) del…"
+  mediana: Float
+  "Medida estadística que indica el valor del contaminante atmosférico o de la variable meteorológica por debajo…"
+  percentil98: Float
+  "Valor más alto registrado del contaminante atmosférico o de la variable meteorológica durante el año de…"
+  maximo: Float
+  "Valor más bajo registrado del contaminante atmosférico o de la variable meteorológica durante el año de…"
+  minimo: Float
+  "Número total de días en que el contaminante atmosférico ha superado el nivel máximo permisible vigente…"
+  diasDeExcedencias: Int
+  "Código DANE asignado al departamento."
+  codigoDelDepartamento: Int
+  "Nombre del departamento"
+  nombreDelDepartamento: CalidadAireNombreDelDepartamento
+  "Código del municipio"
+  codigoDelMunicipio: String
+  "Nombre del municipio"
+  nombreDelMunicipio: String
+  "Ubicación de la estación (Sistema de referencia espacial MAGNA- SIRGAS)"
+  tipoDeEstacion: CalidadAireTipoDeEstacion
+}
+
+input CalidadAireWhere {
+  _and: [CalidadAireWhere!]
+  _or: [CalidadAireWhere!]
+  _not: CalidadAireWhere
+  idEstacion: IntFilter
+  autoridadAmbiental: CalidadAireAutoridadAmbientalFilter
+  estacion: StringFilter
+  latitud: FloatFilter
+  longitud: FloatFilter
+  variable: CalidadAireVariableFilter
+  unidades: CalidadAireUnidadesFilter
+  tiempoDeExposicionHoras: IntFilter
+  anio: IntFilter
+  promedio: FloatFilter
+  suma: FloatFilter
+  noDeDatos: IntFilter
+  representatividadTemporal: FloatFilter
+  excedenciasLimiteActual: IntFilter
+  porcentajeExcedenciasLimiteActual: FloatFilter
+  mediana: FloatFilter
+  percentil98: FloatFilter
+  maximo: FloatFilter
+  minimo: FloatFilter
+  diasDeExcedencias: IntFilter
+  codigoDelDepartamento: IntFilter
+  nombreDelDepartamento: CalidadAireNombreDelDepartamentoFilter
+  codigoDelMunicipio: StringFilter
+  nombreDelMunicipio: StringFilter
+  tipoDeEstacion: CalidadAireTipoDeEstacionFilter
+}
+
+input CalidadAireOrderBy {
+  idEstacion: OrderDirection
+  autoridadAmbiental: OrderDirection
+  estacion: OrderDirection
+  latitud: OrderDirection
+  longitud: OrderDirection
+  variable: OrderDirection
+  unidades: OrderDirection
+  tiempoDeExposicionHoras: OrderDirection
+  anio: OrderDirection
+  promedio: OrderDirection
+  suma: OrderDirection
+  noDeDatos: OrderDirection
+  representatividadTemporal: OrderDirection
+  excedenciasLimiteActual: OrderDirection
+  porcentajeExcedenciasLimiteActual: OrderDirection
+  mediana: OrderDirection
+  percentil98: OrderDirection
+  maximo: OrderDirection
+  minimo: OrderDirection
+  diasDeExcedencias: OrderDirection
+  codigoDelDepartamento: OrderDirection
+  nombreDelDepartamento: OrderDirection
+  codigoDelMunicipio: OrderDirection
+  nombreDelMunicipio: OrderDirection
+  tipoDeEstacion: OrderDirection
+}
+
+type CalidadAireSum {
+  promedio: Float
+  suma: Float
+  noDeDatos: Float
+  representatividadTemporal: Float
+  excedenciasLimiteActual: Float
+  porcentajeExcedenciasLimiteActual: Float
+  mediana: Float
+  percentil98: Float
+  maximo: Float
+  minimo: Float
+  diasDeExcedencias: Float
+}
+
+input CalidadAireSumOrderBy {
+  promedio: OrderDirection
+  suma: OrderDirection
+  noDeDatos: OrderDirection
+  representatividadTemporal: OrderDirection
+  excedenciasLimiteActual: OrderDirection
+  porcentajeExcedenciasLimiteActual: OrderDirection
+  mediana: OrderDirection
+  percentil98: OrderDirection
+  maximo: OrderDirection
+  minimo: OrderDirection
+  diasDeExcedencias: OrderDirection
+}
+
+type CalidadAireMinMax {
+  latitud: Float
+  longitud: Float
+  anio: Int
+  promedio: Float
+  suma: Float
+  noDeDatos: Int
+  representatividadTemporal: Float
+  excedenciasLimiteActual: Int
+  porcentajeExcedenciasLimiteActual: Float
+  mediana: Float
+  percentil98: Float
+  maximo: Float
+  minimo: Float
+  diasDeExcedencias: Int
+}
+
+input CalidadAireMinMaxOrderBy {
+  latitud: OrderDirection
+  longitud: OrderDirection
+  anio: OrderDirection
+  promedio: OrderDirection
+  suma: OrderDirection
+  noDeDatos: OrderDirection
+  representatividadTemporal: OrderDirection
+  excedenciasLimiteActual: OrderDirection
+  porcentajeExcedenciasLimiteActual: OrderDirection
+  mediana: OrderDirection
+  percentil98: OrderDirection
+  maximo: OrderDirection
+  minimo: OrderDirection
+  diasDeExcedencias: OrderDirection
+}
+
+type CalidadAireCountDistinct {
+  idEstacion: Int
+  autoridadAmbiental: Int
+  estacion: Int
+  variable: Int
+  unidades: Int
+  tiempoDeExposicionHoras: Int
+  anio: Int
+  codigoDelDepartamento: Int
+  nombreDelDepartamento: Int
+  codigoDelMunicipio: Int
+  nombreDelMunicipio: Int
+  tipoDeEstacion: Int
+}
+
+input CalidadAireCountDistinctOrderBy {
+  idEstacion: OrderDirection
+  autoridadAmbiental: OrderDirection
+  estacion: OrderDirection
+  variable: OrderDirection
+  unidades: OrderDirection
+  tiempoDeExposicionHoras: OrderDirection
+  anio: OrderDirection
+  codigoDelDepartamento: OrderDirection
+  nombreDelDepartamento: OrderDirection
+  codigoDelMunicipio: OrderDirection
+  nombreDelMunicipio: OrderDirection
+  tipoDeEstacion: OrderDirection
+}
+
+"""Fila de un resultado agregado de calidadAire. Los campos escalares seleccionados son las claves de agrupación."""
+type CalidadAireGroup {
+  idEstacion: Int
+  autoridadAmbiental: CalidadAireAutoridadAmbiental
+  estacion: String
+  variable: CalidadAireVariable
+  unidades: CalidadAireUnidades
+  tiempoDeExposicionHoras: Int
+  anio: Int
+  codigoDelDepartamento: Int
+  nombreDelDepartamento: CalidadAireNombreDelDepartamento
+  codigoDelMunicipio: String
+  nombreDelMunicipio: String
+  tipoDeEstacion: CalidadAireTipoDeEstacion
+  "Número de filas del grupo."
+  count: Int!
+  countDistinct: CalidadAireCountDistinct
+  sum: CalidadAireSum
+  avg: CalidadAireSum
+  min: CalidadAireMinMax
+  max: CalidadAireMinMax
+}
+
+input CalidadAireGroupOrderBy {
+  idEstacion: OrderDirection
+  autoridadAmbiental: OrderDirection
+  estacion: OrderDirection
+  variable: OrderDirection
+  unidades: OrderDirection
+  tiempoDeExposicionHoras: OrderDirection
+  anio: OrderDirection
+  codigoDelDepartamento: OrderDirection
+  nombreDelDepartamento: OrderDirection
+  codigoDelMunicipio: OrderDirection
+  nombreDelMunicipio: OrderDirection
+  tipoDeEstacion: OrderDirection
+  count: OrderDirection
+  countDistinct: CalidadAireCountDistinctOrderBy
+  sum: CalidadAireSumOrderBy
+  avg: CalidadAireSumOrderBy
+  min: CalidadAireMinMaxOrderBy
+  max: CalidadAireMinMaxOrderBy
+}
+
+extend type Query {
+  "Filas de kekd-7v7h. Sin orderBy se ordenan por el identificador interno de fila."
+  calidadAire(where: CalidadAireWhere, orderBy: [CalidadAireOrderBy!], limit: Int = 100, offset: Int = 0): [CalidadAire!]!
+  "Agregados de kekd-7v7h agrupados por los campos escalares seleccionados."
+  calidadAireAggregate(where: CalidadAireWhere, orderBy: [CalidadAireGroupOrderBy!], limit: Int = 100, offset: Int = 0): [CalidadAireGroup!]!
+}
+
+# ---------- nxt2-39c3 ----------
+
+enum CalidadAguaIrcaDepartamento {
+  AMAZONAS
+  ANTIOQUIA
+  ARAUCA
+  ARCHIPIELAGO_DE_SAN_ANDRES_PROVIDENCIA_Y_SANTA_CATALINA
+  ATLANTICO
+  BOGOTA_D_C
+  BOLIVAR
+  BOYACA
+  CALDAS
+  CAQUETA
+  CASANARE
+  CAUCA
+  CESAR
+  CHOCO
+  CORDOBA
+  CUNDINAMARCA
+  GUAINIA
+  GUAVIARE
+  HUILA
+  LA_GUAJIRA
+  MAGDALENA
+  META
+  NARINO
+  NORTE_DE_SANTANDER
+  PUTUMAYO
+  QUINDIO
+  RISARALDA
+  SANTANDER
+  SUCRE
+  TOLIMA
+  VALLE_DEL_CAUCA
+  VAUPES
+  VICHADA
+}
+
+input CalidadAguaIrcaDepartamentoFilter {
+  eq: CalidadAguaIrcaDepartamento
+  neq: CalidadAguaIrcaDepartamento
+  in: [CalidadAguaIrcaDepartamento!]
+  nin: [CalidadAguaIrcaDepartamento!]
+  isNull: Boolean
+}
+
+enum CalidadAguaIrcaNivelDeRiesgo {
+  ALTO_RIESGO
+  BAJO_RIESGO
+  INVIABLE_SANITARIAMENTE
+  RIESGO_MEDIO
+  SIN_RIESGO
+}
+
+input CalidadAguaIrcaNivelDeRiesgoFilter {
+  eq: CalidadAguaIrcaNivelDeRiesgo
+  neq: CalidadAguaIrcaNivelDeRiesgo
+  in: [CalidadAguaIrcaNivelDeRiesgo!]
+  nin: [CalidadAguaIrcaNivelDeRiesgo!]
+  isNull: Boolean
+}
+
+enum CalidadAguaIrcaNivelDeRiesgoUrbano {
+  ALTO_RIESGO
+  BAJO_RIESGO
+  INVIABLE_SANITARIAMENTE
+  ND
+  RIESGO_MEDIO
+  SIN_RIESGO
+}
+
+input CalidadAguaIrcaNivelDeRiesgoUrbanoFilter {
+  eq: CalidadAguaIrcaNivelDeRiesgoUrbano
+  neq: CalidadAguaIrcaNivelDeRiesgoUrbano
+  in: [CalidadAguaIrcaNivelDeRiesgoUrbano!]
+  nin: [CalidadAguaIrcaNivelDeRiesgoUrbano!]
+  isNull: Boolean
+}
+
+enum CalidadAguaIrcaNivelDeRiesgoRural {
+  ALTO_RIESGO
+  BAJO_RIESGO
+  INVIABLE_SANITARIAMENTE
+  ND
+  RIESGO_MEDIO
+  SIN_RIESGO
+}
+
+input CalidadAguaIrcaNivelDeRiesgoRuralFilter {
+  eq: CalidadAguaIrcaNivelDeRiesgoRural
+  neq: CalidadAguaIrcaNivelDeRiesgoRural
+  in: [CalidadAguaIrcaNivelDeRiesgoRural!]
+  nin: [CalidadAguaIrcaNivelDeRiesgoRural!]
+  isNull: Boolean
+}
+
+"""Índice de Riesgo de la Calidad del Agua para consumo humano (IRCA) por municipio y año, total, urbano y rural. (nxt2-39c3)"""
+type CalidadAguaIrca {
+  "Código DIVIPOLA del Departamento"
+  departamentoCodigo: String
+  "Nombre del Departamento"
+  departamento: CalidadAguaIrcaDepartamento
+  "Codigo DIVIPOLA del Municipio."
+  municipioCodigo: String
+  "Nombre del Municipio."
+  municipio: String
+  "Año"
+  anio: Int
+  "Indice de Riesgo de la Calidad del Agua para Consumo Humano representa un valor porcentual calculado a partir…"
+  irca: Float
+  "Intepretación del valor IRCA de acuerdo a la Resolución 2115 de 2007."
+  nivelDeRiesgo: CalidadAguaIrcaNivelDeRiesgo
+  "IRCA calculado considerando las muestras de vigilancia de la calidad del agua potable recolectadas…"
+  ircaUrbano: Float
+  "Intepretación del valor IRCA de acuerdo a la Resolución 2115 de 2007."
+  nivelDeRiesgoUrbano: CalidadAguaIrcaNivelDeRiesgoUrbano
+  "IRCA calculado considerando las muestras de vigilancia de la calidad del agua potable recolectadas…"
+  ircaRural: Float
+  "Intepretación del valor IRCA de acuerdo a la Resolución 2115 de 2007."
+  nivelDeRiesgoRural: CalidadAguaIrcaNivelDeRiesgoRural
+}
+
+input CalidadAguaIrcaWhere {
+  _and: [CalidadAguaIrcaWhere!]
+  _or: [CalidadAguaIrcaWhere!]
+  _not: CalidadAguaIrcaWhere
+  departamentoCodigo: StringFilter
+  departamento: CalidadAguaIrcaDepartamentoFilter
+  municipioCodigo: StringFilter
+  municipio: StringFilter
+  anio: IntFilter
+  irca: FloatFilter
+  nivelDeRiesgo: CalidadAguaIrcaNivelDeRiesgoFilter
+  ircaUrbano: FloatFilter
+  nivelDeRiesgoUrbano: CalidadAguaIrcaNivelDeRiesgoUrbanoFilter
+  ircaRural: FloatFilter
+  nivelDeRiesgoRural: CalidadAguaIrcaNivelDeRiesgoRuralFilter
+}
+
+input CalidadAguaIrcaOrderBy {
+  departamentoCodigo: OrderDirection
+  departamento: OrderDirection
+  municipioCodigo: OrderDirection
+  municipio: OrderDirection
+  anio: OrderDirection
+  irca: OrderDirection
+  nivelDeRiesgo: OrderDirection
+  ircaUrbano: OrderDirection
+  nivelDeRiesgoUrbano: OrderDirection
+  ircaRural: OrderDirection
+  nivelDeRiesgoRural: OrderDirection
+}
+
+type CalidadAguaIrcaSum {
+  irca: Float
+  ircaUrbano: Float
+  ircaRural: Float
+}
+
+input CalidadAguaIrcaSumOrderBy {
+  irca: OrderDirection
+  ircaUrbano: OrderDirection
+  ircaRural: OrderDirection
+}
+
+type CalidadAguaIrcaMinMax {
+  anio: Int
+  irca: Float
+  ircaUrbano: Float
+  ircaRural: Float
+}
+
+input CalidadAguaIrcaMinMaxOrderBy {
+  anio: OrderDirection
+  irca: OrderDirection
+  ircaUrbano: OrderDirection
+  ircaRural: OrderDirection
+}
+
+type CalidadAguaIrcaCountDistinct {
+  departamentoCodigo: Int
+  departamento: Int
+  municipioCodigo: Int
+  municipio: Int
+  anio: Int
+  nivelDeRiesgo: Int
+  nivelDeRiesgoUrbano: Int
+  nivelDeRiesgoRural: Int
+}
+
+input CalidadAguaIrcaCountDistinctOrderBy {
+  departamentoCodigo: OrderDirection
+  departamento: OrderDirection
+  municipioCodigo: OrderDirection
+  municipio: OrderDirection
+  anio: OrderDirection
+  nivelDeRiesgo: OrderDirection
+  nivelDeRiesgoUrbano: OrderDirection
+  nivelDeRiesgoRural: OrderDirection
+}
+
+"""Fila de un resultado agregado de calidadAguaIrca. Los campos escalares seleccionados son las claves de agrupación."""
+type CalidadAguaIrcaGroup {
+  departamentoCodigo: String
+  departamento: CalidadAguaIrcaDepartamento
+  municipioCodigo: String
+  municipio: String
+  anio: Int
+  nivelDeRiesgo: CalidadAguaIrcaNivelDeRiesgo
+  nivelDeRiesgoUrbano: CalidadAguaIrcaNivelDeRiesgoUrbano
+  nivelDeRiesgoRural: CalidadAguaIrcaNivelDeRiesgoRural
+  "Número de filas del grupo."
+  count: Int!
+  countDistinct: CalidadAguaIrcaCountDistinct
+  sum: CalidadAguaIrcaSum
+  avg: CalidadAguaIrcaSum
+  min: CalidadAguaIrcaMinMax
+  max: CalidadAguaIrcaMinMax
+}
+
+input CalidadAguaIrcaGroupOrderBy {
+  departamentoCodigo: OrderDirection
+  departamento: OrderDirection
+  municipioCodigo: OrderDirection
+  municipio: OrderDirection
+  anio: OrderDirection
+  nivelDeRiesgo: OrderDirection
+  nivelDeRiesgoUrbano: OrderDirection
+  nivelDeRiesgoRural: OrderDirection
+  count: OrderDirection
+  countDistinct: CalidadAguaIrcaCountDistinctOrderBy
+  sum: CalidadAguaIrcaSumOrderBy
+  avg: CalidadAguaIrcaSumOrderBy
+  min: CalidadAguaIrcaMinMaxOrderBy
+  max: CalidadAguaIrcaMinMaxOrderBy
+}
+
+extend type Query {
+  "Filas de nxt2-39c3. Sin orderBy se ordenan por el identificador interno de fila."
+  calidadAguaIrca(where: CalidadAguaIrcaWhere, orderBy: [CalidadAguaIrcaOrderBy!], limit: Int = 100, offset: Int = 0): [CalidadAguaIrca!]!
+  "Agregados de nxt2-39c3 agrupados por los campos escalares seleccionados."
+  calidadAguaIrcaAggregate(where: CalidadAguaIrcaWhere, orderBy: [CalidadAguaIrcaGroupOrderBy!], limit: Int = 100, offset: Int = 0): [CalidadAguaIrcaGroup!]!
+}
+
+# ---------- ni93-8mm5 ----------
+
+enum PreciosMineralesUnidad {
+  GRS
+  KG
+  LB
+  M3
+  TON
+}
+
+input PreciosMineralesUnidadFilter {
+  eq: PreciosMineralesUnidad
+  neq: PreciosMineralesUnidad
+  in: [PreciosMineralesUnidad!]
+  nin: [PreciosMineralesUnidad!]
+  isNull: Boolean
+}
+
+"""Precios base de minerales para la liquidación de regalías, fijados por resolución de la UPME para un periodo de vigencia. (ni93-8mm5)"""
+type PreciosMinerales {
+  "Este campo corresponde al número de la resolución por la cuál se fijan los precios base para la liquidación…"
+  noResolucion: Int
+  "Es la fecha en la cual se expide la resolución."
+  fechaDeResolucion: Date
+  "Fecha a partir de la cuál rige la resolución."
+  fechaDeInicio: Date
+  "Fecha en la que finaliza la vigencia de la resolución."
+  fechaFin: Date
+  "Tipo de mineral para el que aplica el precio definido en la resolución."
+  mineral: String
+  "Precio que se debe pagar para el tipo de mineral por la unidad definida de acuerdo a la resolución."
+  precio: Float
+  "Medida con la que se cuantifica el tipo de mineral."
+  unidad: PreciosMineralesUnidad
+}
+
+input PreciosMineralesWhere {
+  _and: [PreciosMineralesWhere!]
+  _or: [PreciosMineralesWhere!]
+  _not: PreciosMineralesWhere
+  noResolucion: IntFilter
+  fechaDeResolucion: DateFilter
+  fechaDeResolucionYear: IntFilter
+  fechaDeResolucionMonth: IntFilter
+  fechaDeInicio: DateFilter
+  fechaDeInicioYear: IntFilter
+  fechaDeInicioMonth: IntFilter
+  fechaFin: DateFilter
+  fechaFinYear: IntFilter
+  fechaFinMonth: IntFilter
+  mineral: StringFilter
+  precio: FloatFilter
+  unidad: PreciosMineralesUnidadFilter
+}
+
+input PreciosMineralesOrderBy {
+  noResolucion: OrderDirection
+  fechaDeResolucion: OrderDirection
+  fechaDeInicio: OrderDirection
+  fechaFin: OrderDirection
+  mineral: OrderDirection
+  precio: OrderDirection
+  unidad: OrderDirection
+}
+
+type PreciosMineralesSum {
+  precio: Float
+}
+
+input PreciosMineralesSumOrderBy {
+  precio: OrderDirection
+}
+
+type PreciosMineralesMinMax {
+  fechaDeResolucion: Date
+  fechaDeInicio: Date
+  fechaFin: Date
+  precio: Float
+}
+
+input PreciosMineralesMinMaxOrderBy {
+  fechaDeResolucion: OrderDirection
+  fechaDeInicio: OrderDirection
+  fechaFin: OrderDirection
+  precio: OrderDirection
+}
+
+type PreciosMineralesCountDistinct {
+  noResolucion: Int
+  fechaDeResolucion: Int
+  fechaDeInicio: Int
+  fechaFin: Int
+  mineral: Int
+  unidad: Int
+}
+
+input PreciosMineralesCountDistinctOrderBy {
+  noResolucion: OrderDirection
+  fechaDeResolucion: OrderDirection
+  fechaDeInicio: OrderDirection
+  fechaFin: OrderDirection
+  mineral: OrderDirection
+  unidad: OrderDirection
+}
+
+"""Fila de un resultado agregado de preciosMinerales. Los campos escalares seleccionados son las claves de agrupación."""
+type PreciosMineralesGroup {
+  noResolucion: Int
+  fechaDeResolucion: Date
+  "Año de fechaDeResolucion."
+  fechaDeResolucionYear: Int
+  "Mes (1-12) de fechaDeResolucion."
+  fechaDeResolucionMonth: Int
+  fechaDeInicio: Date
+  "Año de fechaDeInicio."
+  fechaDeInicioYear: Int
+  "Mes (1-12) de fechaDeInicio."
+  fechaDeInicioMonth: Int
+  fechaFin: Date
+  "Año de fechaFin."
+  fechaFinYear: Int
+  "Mes (1-12) de fechaFin."
+  fechaFinMonth: Int
+  mineral: String
+  unidad: PreciosMineralesUnidad
+  "Número de filas del grupo."
+  count: Int!
+  countDistinct: PreciosMineralesCountDistinct
+  sum: PreciosMineralesSum
+  avg: PreciosMineralesSum
+  min: PreciosMineralesMinMax
+  max: PreciosMineralesMinMax
+}
+
+input PreciosMineralesGroupOrderBy {
+  noResolucion: OrderDirection
+  fechaDeResolucion: OrderDirection
+  fechaDeResolucionYear: OrderDirection
+  fechaDeResolucionMonth: OrderDirection
+  fechaDeInicio: OrderDirection
+  fechaDeInicioYear: OrderDirection
+  fechaDeInicioMonth: OrderDirection
+  fechaFin: OrderDirection
+  fechaFinYear: OrderDirection
+  fechaFinMonth: OrderDirection
+  mineral: OrderDirection
+  unidad: OrderDirection
+  count: OrderDirection
+  countDistinct: PreciosMineralesCountDistinctOrderBy
+  sum: PreciosMineralesSumOrderBy
+  avg: PreciosMineralesSumOrderBy
+  min: PreciosMineralesMinMaxOrderBy
+  max: PreciosMineralesMinMaxOrderBy
+}
+
+extend type Query {
+  "Filas de ni93-8mm5. Sin orderBy se ordenan por el identificador interno de fila."
+  preciosMinerales(where: PreciosMineralesWhere, orderBy: [PreciosMineralesOrderBy!], limit: Int = 100, offset: Int = 0): [PreciosMinerales!]!
+  "Agregados de ni93-8mm5 agrupados por los campos escalares seleccionados."
+  preciosMineralesAggregate(where: PreciosMineralesWhere, orderBy: [PreciosMineralesGroupOrderBy!], limit: Int = 100, offset: Int = 0): [PreciosMineralesGroup!]!
+}

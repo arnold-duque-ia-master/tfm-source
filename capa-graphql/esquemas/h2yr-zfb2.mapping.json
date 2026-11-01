@@ -1,0 +1,353 @@
+{
+ "id": "h2yr-zfb2",
+ "alias": "subsidiosVivienda",
+ "type": "SubsidiosVivienda",
+ "baseWhere": null,
+ "columns": {
+  "departamento": {
+   "field": "departamento",
+   "kind": "enum",
+   "gql": "SubsidiosViviendaDepartamento",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "AMAZONAS": [
+     "AMAZONAS"
+    ],
+    "ANTIOQUIA": [
+     "ANTIOQUIA"
+    ],
+    "ARAUCA": [
+     "ARAUCA"
+    ],
+    "ARCHIPIELAGO_DE_SAN_ANDRES_PROVIDENCIA_Y_SANTA_CATALINA": [
+     "ARCHIPIÉLAGO DE SAN ANDRÉS, PROVIDENCIA Y SANTA CATALINA"
+    ],
+    "ATLANTICO": [
+     "ATLÁNTICO"
+    ],
+    "BOGOTA_D_C": [
+     "BOGOTÁ, D.C."
+    ],
+    "BOLIVAR": [
+     "BOLÍVAR"
+    ],
+    "BOYACA": [
+     "BOYACÁ"
+    ],
+    "CALDAS": [
+     "CALDAS"
+    ],
+    "CAQUETA": [
+     "CAQUETÁ"
+    ],
+    "CASANARE": [
+     "CASANARE"
+    ],
+    "CAUCA": [
+     "CAUCA"
+    ],
+    "CESAR": [
+     "CESAR"
+    ],
+    "CHOCO": [
+     "CHOCÓ"
+    ],
+    "CORDOBA": [
+     "CÓRDOBA"
+    ],
+    "CUNDINAMARCA": [
+     "CUNDINAMARCA"
+    ],
+    "GUAINIA": [
+     "GUAINÍA"
+    ],
+    "GUAVIARE": [
+     "GUAVIARE"
+    ],
+    "HUILA": [
+     "HUILA"
+    ],
+    "LA_GUAJIRA": [
+     "LA GUAJIRA"
+    ],
+    "MAGDALENA": [
+     "MAGDALENA"
+    ],
+    "META": [
+     "META"
+    ],
+    "NARINO": [
+     "NARIÑO"
+    ],
+    "NORTE_DE_SANTANDER": [
+     "NORTE DE SANTANDER"
+    ],
+    "PUTUMAYO": [
+     "PUTUMAYO"
+    ],
+    "QUINDIO": [
+     "QUINDÍO"
+    ],
+    "RISARALDA": [
+     "RISARALDA"
+    ],
+    "SANTANDER": [
+     "SANTANDER"
+    ],
+    "SUCRE": [
+     "SUCRE"
+    ],
+    "TOLIMA": [
+     "TOLIMA"
+    ],
+    "VALLE_DEL_CAUCA": [
+     "VALLE DEL CAUCA"
+    ],
+    "VAUPES": [
+     "VAUPÉS"
+    ],
+    "VICHADA": [
+     "VICHADA"
+    ]
+   }
+  },
+  "codigoDivipolaDepartamento": {
+   "field": "c_digo_divipola_departamento",
+   "kind": "string",
+   "gql": "String",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "municipio": {
+   "field": "municipio",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "codigoDivipolaMunicipio": {
+   "field": "c_digo_divipola_municipio",
+   "kind": "string",
+   "gql": "String",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "programa": {
+   "field": "programa",
+   "kind": "enum",
+   "gql": "SubsidiosViviendaPrograma",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "AHORRO_PROGRAMADO_CONTRACTUAL": [
+     "Ahorro Programado Contractual"
+    ],
+    "BOLSA_ATENTADOS_TERRORISTAS": [
+     "Bolsa Atentados terroristas"
+    ],
+    "BOLSA_CONCEJALES": [
+     "Bolsa Concejales"
+    ],
+    "BOLSA_DESASTRES_NATURALES": [
+     "Bolsa Desastres Naturales"
+    ],
+    "BOLSA_DESPLAZADOS": [
+     "Bolsa Desplazados"
+    ],
+    "BOLSA_ESFUERZO_TERRITORIAL": [
+     "Bolsa Esfuerzo Territorial"
+    ],
+    "BOLSA_ORDINARIA": [
+     "Bolsa Ordinaria"
+    ],
+    "BOLSA_RECICLADORES": [
+     "Bolsa Recicladores"
+    ],
+    "BOLSA_SALUDABLE": [
+     "Bolsa Saludable"
+    ],
+    "BOLSA_UNICA_MEJORAMIENTO": [
+     "Bolsa Única Mejoramiento"
+    ],
+    "BOLSA_UNICA_NACIONAL": [
+     "Bolsa unica Nacional"
+    ],
+    "CASA_DIGNA_VIDA_DIGNA": [
+     "Casa Digna Vida Digna"
+    ],
+    "CONCURSO_DE_ESFUERZO_TERRITORIAL_NACIONAL": [
+     "Concurso de Esfuerzo Territorial Nacional"
+    ],
+    "ESTRATEGIA_ADQUISICION": [
+     "ESTRATEGIA ADQUISICIÓN"
+    ],
+    "FENOMENO_DE_LA_NINA": [
+     "Fenómeno de la Niña"
+    ],
+    "HABILITACION_DE_TITULOS": [
+     "Habilitación de Titulos"
+    ],
+    "MACROPROYECTO": [
+     "Macroproyecto"
+    ],
+    "MI_CASA_YA": [
+     "MI CASA YA"
+    ],
+    "PROGRAMA_VIVIENDA_GRATUITA_FASE_I": [
+     "Programa Vivienda Gratuita Fase I"
+    ],
+    "PROGRAMA_VIVIENDA_GRATUITA_FASE_II": [
+     "Programa Vivienda Gratuita Fase II"
+    ],
+    "SEMILLERO_DE_PROPIETARIOS_AHORRO": [
+     "Semillero de Propietarios Ahorro"
+    ],
+    "SEMILLERO_DE_PROPIETARIOS_ARRIENDO": [
+     "Semillero de Propietarios Arriendo"
+    ],
+    "SIN_CLASIFICACION": [
+     "Sin clasificación"
+    ],
+    "SUBSIDIOS_EN_ESPECIE_Y_COMPLEMENTARIOS": [
+     "Subsidios en Especie y complementarios"
+    ],
+    "TUTELAS": [
+     "TUTELAS"
+    ],
+    "VIPA": [
+     "VIPA"
+    ]
+   }
+  },
+  "anioDeAsignacion": {
+   "field": "a_o_de_asignaci_n",
+   "kind": "int",
+   "gql": "Int",
+   "role": "time",
+   "cast": null,
+   "enum": null
+  },
+  "estadoDePostulacion": {
+   "field": "estado_de_postulaci_n",
+   "kind": "enum",
+   "gql": "SubsidiosViviendaEstadoDePostulacion",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "APTO_CON_SUBSIDIO_VENCIDO": [
+     "Apto con subsidio vencido"
+    ],
+    "ASIGNADOS": [
+     "Asignados"
+    ],
+    "ASIGNADO_CON_APLICACION_EN_MI_CASA_YA": [
+     "Asignado con Aplicación en Mi Casa Ya"
+    ],
+    "ASIGNADO_CON_APLICACION_EN_VIVIENDA_GRATUITA": [
+     "Asignado con aplicación en Vivienda Gratuita"
+    ],
+    "ASIGNADO_EN_DEMANDA_DE_NULIDAD_Y_RESTABLECIMIENTO_HABILITADOS_MI_CASA_YA": [
+     "Asignado (en demanda de nulidad y restablecimiento - Habilitados Mi Casa Ya)"
+    ],
+    "ASIGNADO_POSTERIORMENTE_BENEFICIARIO_DE_VIVIENDA_GRATUITA": [
+     "Asignado posteriormente beneficiario de Vivienda Gratuita"
+    ],
+    "ASIGNADO_SANCIONADO": [
+     "Asignado sancionado"
+    ],
+    "DIAGNOSTICO_INVIABLE_DIAGNOSTICO_NO_EFECTIVO": [
+     "Diagnóstico Inviable/Diagnóstico no Efectivo"
+    ],
+    "EN_SISTEMA_NO_EN_RESOLUCION_DEPURACION_CON_RESOLUCION": [
+     "En sistema no en resolucion depuración con resolución"
+    ],
+    "ESTADO_ANULADO": [
+     "Estado anulado"
+    ],
+    "PENDIENTE_DE_REVOCAR": [
+     "Pendiente de Revocar"
+    ],
+    "PENDIENTE_DE_SANCION_POR_FALSEDAD": [
+     "Pendiente de Sanción por Falsedad"
+    ],
+    "PERDIDA_DE_EJECUTORIEDAD_DE_ASIGNACION_DE_SFV": [
+     "Perdida de ejecutoriedad de asignación de SFV"
+    ],
+    "POSTULACION_ANULADA_POR_ERROR_DE_DIGITACION_DE_LA_CAJA": [
+     "postulación anulada  por error de digitación de la caja"
+    ],
+    "REALIZO_CAMBIO_DE_PROYECTO_HOGAR_ASIGNADO": [
+     "Realizó cambio de proyecto, hogar asignado"
+    ],
+    "RECHAZADO_MEDIANTE_PROCEDIMIENTO_ADMINISTRATIVO_SANCIONATORIO": [
+     "Rechazado mediante Procedimiento Administrativo Sancionatorio"
+    ],
+    "RENUNCIAS_AL_SUBSIDIO": [
+     "Renuncias al subsidio"
+    ],
+    "RENUNCIA_AL_SUBSIDIO_PENDIENTE_DE_RESTITUCION": [
+     "Renuncia al Subsidio - Pendiente de Restitución"
+    ],
+    "RENUNCIA_A_LA_POSTULACION": [
+     "Renuncia a la postulación"
+    ],
+    "RENUNCIA_A_LA_POSTULACION_ANTERIORMENTE_VENCIDO": [
+     "Renuncia a la postulación - Anteriormente vencido"
+    ],
+    "RENUNCIA_CON_RESTITUCION_DE_SUBSIDIO": [
+     "Renuncia con restitucion de subsidio"
+    ],
+    "RENUNCIA_EN_TRAMITE_SIN_RESTITUCION": [
+     "Renuncia en trámite sin restitución"
+    ],
+    "RESTITUCION_DE_SUBSIDIOS_NO_APLICADOS": [
+     "Restitucion de subsidios no aplicados"
+    ],
+    "RESTITUCION_SFV_COBRO_DIRECTO_FIDUCIARIA": [
+     "Restitución SFV Cobro Directo Fiduciaria"
+    ],
+    "RESTITUCION_SFV_POR_INDEMNIZACION": [
+     "Restitución SFV por Indemnización"
+    ],
+    "RESTITUCION_SFV_POR_VENCIMIENTO_VIGENCIA": [
+     "Restitución SFV por Vencimiento Vigencia"
+    ],
+    "SUBSIDIO_RESTITUIDO": [
+     "Subsidio Restituido"
+    ],
+    "SUBSIDIO_REVOCADO": [
+     "Subsidio Revocado"
+    ],
+    "SUBSIDIO_REVOCADO_CON_RESTITUCION_A_LA_DTN": [
+     "Subsidio Revocado con Restitución a la DTN"
+    ],
+    "SUBSIDIO_REVOCADO_MEDIANTE_PROCEDIMIENTO_ADMINISTRATIVO_SANCIONATORIO": [
+     "Subsidio revocado mediante procedimiento Administrativo Sancionatorio"
+    ],
+    "VENCIDO_EN_PROCESO_DE_RESTITUCION_DE_RECURSOS_A_LA_DTN": [
+     "Vencido en proceso de restitución de recursos a la DTN"
+    ]
+   }
+  },
+  "hogares": {
+   "field": "hogares",
+   "kind": "int",
+   "gql": "Int",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "valorAsignado": {
+   "field": "valor_asignado",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  }
+ }
+}

@@ -1,0 +1,243 @@
+# ---------- nxt2-39c3 ----------
+
+enum CalidadAguaIrcaDepartamento {
+  AMAZONAS
+  ANTIOQUIA
+  ARAUCA
+  ARCHIPIELAGO_DE_SAN_ANDRES_PROVIDENCIA_Y_SANTA_CATALINA
+  ATLANTICO
+  BOGOTA_D_C
+  BOLIVAR
+  BOYACA
+  CALDAS
+  CAQUETA
+  CASANARE
+  CAUCA
+  CESAR
+  CHOCO
+  CORDOBA
+  CUNDINAMARCA
+  GUAINIA
+  GUAVIARE
+  HUILA
+  LA_GUAJIRA
+  MAGDALENA
+  META
+  NARINO
+  NORTE_DE_SANTANDER
+  PUTUMAYO
+  QUINDIO
+  RISARALDA
+  SANTANDER
+  SUCRE
+  TOLIMA
+  VALLE_DEL_CAUCA
+  VAUPES
+  VICHADA
+}
+
+input CalidadAguaIrcaDepartamentoFilter {
+  eq: CalidadAguaIrcaDepartamento
+  neq: CalidadAguaIrcaDepartamento
+  in: [CalidadAguaIrcaDepartamento!]
+  nin: [CalidadAguaIrcaDepartamento!]
+  isNull: Boolean
+}
+
+enum CalidadAguaIrcaNivelDeRiesgo {
+  ALTO_RIESGO
+  BAJO_RIESGO
+  INVIABLE_SANITARIAMENTE
+  RIESGO_MEDIO
+  SIN_RIESGO
+}
+
+input CalidadAguaIrcaNivelDeRiesgoFilter {
+  eq: CalidadAguaIrcaNivelDeRiesgo
+  neq: CalidadAguaIrcaNivelDeRiesgo
+  in: [CalidadAguaIrcaNivelDeRiesgo!]
+  nin: [CalidadAguaIrcaNivelDeRiesgo!]
+  isNull: Boolean
+}
+
+enum CalidadAguaIrcaNivelDeRiesgoUrbano {
+  ALTO_RIESGO
+  BAJO_RIESGO
+  INVIABLE_SANITARIAMENTE
+  ND
+  RIESGO_MEDIO
+  SIN_RIESGO
+}
+
+input CalidadAguaIrcaNivelDeRiesgoUrbanoFilter {
+  eq: CalidadAguaIrcaNivelDeRiesgoUrbano
+  neq: CalidadAguaIrcaNivelDeRiesgoUrbano
+  in: [CalidadAguaIrcaNivelDeRiesgoUrbano!]
+  nin: [CalidadAguaIrcaNivelDeRiesgoUrbano!]
+  isNull: Boolean
+}
+
+enum CalidadAguaIrcaNivelDeRiesgoRural {
+  ALTO_RIESGO
+  BAJO_RIESGO
+  INVIABLE_SANITARIAMENTE
+  ND
+  RIESGO_MEDIO
+  SIN_RIESGO
+}
+
+input CalidadAguaIrcaNivelDeRiesgoRuralFilter {
+  eq: CalidadAguaIrcaNivelDeRiesgoRural
+  neq: CalidadAguaIrcaNivelDeRiesgoRural
+  in: [CalidadAguaIrcaNivelDeRiesgoRural!]
+  nin: [CalidadAguaIrcaNivelDeRiesgoRural!]
+  isNull: Boolean
+}
+
+"""Índice de Riesgo de la Calidad del Agua para consumo humano (IRCA) por municipio y año, total, urbano y rural. (nxt2-39c3)"""
+type CalidadAguaIrca {
+  "Código DIVIPOLA del Departamento"
+  departamentoCodigo: String
+  "Nombre del Departamento"
+  departamento: CalidadAguaIrcaDepartamento
+  "Codigo DIVIPOLA del Municipio."
+  municipioCodigo: String
+  "Nombre del Municipio."
+  municipio: String
+  "Año"
+  anio: Int
+  "Indice de Riesgo de la Calidad del Agua para Consumo Humano representa un valor porcentual calculado a partir…"
+  irca: Float
+  "Intepretación del valor IRCA de acuerdo a la Resolución 2115 de 2007."
+  nivelDeRiesgo: CalidadAguaIrcaNivelDeRiesgo
+  "IRCA calculado considerando las muestras de vigilancia de la calidad del agua potable recolectadas…"
+  ircaUrbano: Float
+  "Intepretación del valor IRCA de acuerdo a la Resolución 2115 de 2007."
+  nivelDeRiesgoUrbano: CalidadAguaIrcaNivelDeRiesgoUrbano
+  "IRCA calculado considerando las muestras de vigilancia de la calidad del agua potable recolectadas…"
+  ircaRural: Float
+  "Intepretación del valor IRCA de acuerdo a la Resolución 2115 de 2007."
+  nivelDeRiesgoRural: CalidadAguaIrcaNivelDeRiesgoRural
+}
+
+input CalidadAguaIrcaWhere {
+  _and: [CalidadAguaIrcaWhere!]
+  _or: [CalidadAguaIrcaWhere!]
+  _not: CalidadAguaIrcaWhere
+  departamentoCodigo: StringFilter
+  departamento: CalidadAguaIrcaDepartamentoFilter
+  municipioCodigo: StringFilter
+  municipio: StringFilter
+  anio: IntFilter
+  irca: FloatFilter
+  nivelDeRiesgo: CalidadAguaIrcaNivelDeRiesgoFilter
+  ircaUrbano: FloatFilter
+  nivelDeRiesgoUrbano: CalidadAguaIrcaNivelDeRiesgoUrbanoFilter
+  ircaRural: FloatFilter
+  nivelDeRiesgoRural: CalidadAguaIrcaNivelDeRiesgoRuralFilter
+}
+
+input CalidadAguaIrcaOrderBy {
+  departamentoCodigo: OrderDirection
+  departamento: OrderDirection
+  municipioCodigo: OrderDirection
+  municipio: OrderDirection
+  anio: OrderDirection
+  irca: OrderDirection
+  nivelDeRiesgo: OrderDirection
+  ircaUrbano: OrderDirection
+  nivelDeRiesgoUrbano: OrderDirection
+  ircaRural: OrderDirection
+  nivelDeRiesgoRural: OrderDirection
+}
+
+type CalidadAguaIrcaSum {
+  irca: Float
+  ircaUrbano: Float
+  ircaRural: Float
+}
+
+input CalidadAguaIrcaSumOrderBy {
+  irca: OrderDirection
+  ircaUrbano: OrderDirection
+  ircaRural: OrderDirection
+}
+
+type CalidadAguaIrcaMinMax {
+  anio: Int
+  irca: Float
+  ircaUrbano: Float
+  ircaRural: Float
+}
+
+input CalidadAguaIrcaMinMaxOrderBy {
+  anio: OrderDirection
+  irca: OrderDirection
+  ircaUrbano: OrderDirection
+  ircaRural: OrderDirection
+}
+
+type CalidadAguaIrcaCountDistinct {
+  departamentoCodigo: Int
+  departamento: Int
+  municipioCodigo: Int
+  municipio: Int
+  anio: Int
+  nivelDeRiesgo: Int
+  nivelDeRiesgoUrbano: Int
+  nivelDeRiesgoRural: Int
+}
+
+input CalidadAguaIrcaCountDistinctOrderBy {
+  departamentoCodigo: OrderDirection
+  departamento: OrderDirection
+  municipioCodigo: OrderDirection
+  municipio: OrderDirection
+  anio: OrderDirection
+  nivelDeRiesgo: OrderDirection
+  nivelDeRiesgoUrbano: OrderDirection
+  nivelDeRiesgoRural: OrderDirection
+}
+
+"""Fila de un resultado agregado de calidadAguaIrca. Los campos escalares seleccionados son las claves de agrupación."""
+type CalidadAguaIrcaGroup {
+  departamentoCodigo: String
+  departamento: CalidadAguaIrcaDepartamento
+  municipioCodigo: String
+  municipio: String
+  anio: Int
+  nivelDeRiesgo: CalidadAguaIrcaNivelDeRiesgo
+  nivelDeRiesgoUrbano: CalidadAguaIrcaNivelDeRiesgoUrbano
+  nivelDeRiesgoRural: CalidadAguaIrcaNivelDeRiesgoRural
+  "Número de filas del grupo."
+  count: Int!
+  countDistinct: CalidadAguaIrcaCountDistinct
+  sum: CalidadAguaIrcaSum
+  avg: CalidadAguaIrcaSum
+  min: CalidadAguaIrcaMinMax
+  max: CalidadAguaIrcaMinMax
+}
+
+input CalidadAguaIrcaGroupOrderBy {
+  departamentoCodigo: OrderDirection
+  departamento: OrderDirection
+  municipioCodigo: OrderDirection
+  municipio: OrderDirection
+  anio: OrderDirection
+  nivelDeRiesgo: OrderDirection
+  nivelDeRiesgoUrbano: OrderDirection
+  nivelDeRiesgoRural: OrderDirection
+  count: OrderDirection
+  countDistinct: CalidadAguaIrcaCountDistinctOrderBy
+  sum: CalidadAguaIrcaSumOrderBy
+  avg: CalidadAguaIrcaSumOrderBy
+  min: CalidadAguaIrcaMinMaxOrderBy
+  max: CalidadAguaIrcaMinMaxOrderBy
+}
+
+extend type Query {
+  "Filas de nxt2-39c3. Sin orderBy se ordenan por el identificador interno de fila."
+  calidadAguaIrca(where: CalidadAguaIrcaWhere, orderBy: [CalidadAguaIrcaOrderBy!], limit: Int = 100, offset: Int = 0): [CalidadAguaIrca!]!
+  "Agregados de nxt2-39c3 agrupados por los campos escalares seleccionados."
+  calidadAguaIrcaAggregate(where: CalidadAguaIrcaWhere, orderBy: [CalidadAguaIrcaGroupOrderBy!], limit: Int = 100, offset: Int = 0): [CalidadAguaIrcaGroup!]!
+}

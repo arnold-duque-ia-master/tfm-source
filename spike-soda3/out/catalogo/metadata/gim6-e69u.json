@@ -1,0 +1,1257 @@
+{
+ "id": "gim6-e69u",
+ "name": "Población Sistema del Subsidio Familiar",
+ "assetType": "dataset",
+ "attribution": "Superintendencia del Subsidio Familiar - SUPERSUBSIDIO, Bogotá D.C.",
+ "attributionLink": "https://www.ssf.gov.co",
+ "averageRating": 0,
+ "category": "Trabajo",
+ "createdAt": 1724859605,
+ "description": "Población del Sistema de Subsidio Familiar, desde el año 2024, que comprende datos de Empresas Afiliadas, trabajadores Afiliados a las Cajas de Compensación Familiar y Personas a Cargo de los afiliados.",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 634,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 40939574,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1730910511,
+ "publicationGroup": 19637530,
+ "publicationStage": "published",
+ "resourceName": "Supers",
+ "rowsUpdatedAt": 1769526491,
+ "rowsUpdatedBy": "w895-wad3",
+ "tableId": 19681167,
+ "totalTimesRated": 0,
+ "viewCount": 5177,
+ "viewLastModified": 1779127857,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1725380033,
+   "reviewedAutomatically": false,
+   "state": "approved",
+   "submissionId": 6603611,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1725376716,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "reviewer": {
+    "id": "vc9x-zjzh",
+    "displayName": "soporteccc"
+   },
+   "submissionDetails": {
+    "permissionType": "read"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1725380033,
+    "failureCount": 0,
+    "startedAt": 1725380033,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "w895-wad3",
+    "displayName": "Efrain Garcia Venegas"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 601283813,
+   "name": "Mes",
+   "dataTypeName": "number",
+   "description": "Mes del año",
+   "fieldName": "mes",
+   "position": 1,
+   "renderTypeName": "number",
+   "tableColumnId": 154664235,
+   "cachedContents": {
+    "non_null": "1176",
+    "largest": "12",
+    "null": "0",
+    "top": [
+     {
+      "item": "7",
+      "count": "252"
+     },
+     {
+      "item": "6",
+      "count": "252"
+     },
+     {
+      "item": "2",
+      "count": "84"
+     },
+     {
+      "item": "4",
+      "count": "84"
+     },
+     {
+      "item": "5",
+      "count": "84"
+     },
+     {
+      "item": "3",
+      "count": "84"
+     },
+     {
+      "item": "1",
+      "count": "84"
+     },
+     {
+      "item": "8",
+      "count": "84"
+     },
+     {
+      "item": "10",
+      "count": "42"
+     },
+     {
+      "item": "11",
+      "count": "42"
+     },
+     {
+      "item": "9",
+      "count": "42"
+     },
+     {
+      "item": "12",
+      "count": "42"
+     }
+    ],
+    "smallest": "1",
+    "count": "1176",
+    "cardinality": "1176"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 601283814,
+   "name": "CCF",
+   "dataTypeName": "text",
+   "description": "Caja de Compensación Familiar",
+   "fieldName": "ccf",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 154664234,
+   "cachedContents": {
+    "non_null": "1176",
+    "largest": "Caja Santandereana de Subsidio Familiar: CAJASAN",
+    "null": "0",
+    "top": [
+     {
+      "item": "Caja de Compensación Familiar del Casanare: COMFACASANARE",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar de Fenalco: Andi COMFENALCO CARTAGENA",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar de Fenalco: COMFENALCO QUINDIO",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar de la Guajira: COMFAGUAJIRA",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar del Valle del Cauca: COMFENALCO VALLE",
+      "count": "28"
+     },
+     {
+      "item": "Caja Santandereana de Subsidio Familiar: CAJASAN",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar del Choco",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar del Putumayo: COMFAMILIAR Putumayo",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar del Magdalena",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar de Córdoba COMFACOR",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar del Amazonas: CAFAMAZ",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar CAFAM",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar de Nariño",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar COMFENALCO ANTIOQUIA",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar de Barrancabermeja: CAFABA",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar COMFAMILIAR Del Atlántico",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar COMPENSAR",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar Campesina: COMCAJA",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar de Cartagena y Bolivar COMFAMILIAR",
+      "count": "28"
+     },
+     {
+      "item": "Caja de Compensación Familiar de Caldas COMFAMILIARES",
+      "count": "28"
+     }
+    ],
+    "smallest": "Caja Colombiana de Subsidio Familiar: COLSUBSIDIO",
+    "count": "1176",
+    "cardinality": "1176"
+   },
+   "format": {}
+  },
+  {
+   "id": 601283815,
+   "name": "Empresas Afiliadas",
+   "dataTypeName": "number",
+   "description": "Empresas afiliadas a la Caja bajo cualquier condición legal de acuerdo con las normas vigentes. El total de empresas afiliadas en un mes. No es un valor que se acumula.",
+   "fieldName": "empresas_afiliadas",
+   "position": 3,
+   "renderTypeName": "number",
+   "tableColumnId": 154664233,
+   "cachedContents": {
+    "non_null": "1176",
+    "largest": "231394",
+    "null": "0",
+    "top": [
+     {
+      "item": "3016",
+      "count": "6"
+     },
+     {
+      "item": "11974",
+      "count": "6"
+     },
+     {
+      "item": "1621",
+      "count": "6"
+     },
+     {
+      "item": "12512",
+      "count": "6"
+     },
+     {
+      "item": "8591",
+      "count": "6"
+     },
+     {
+      "item": "561",
+      "count": "6"
+     },
+     {
+      "item": "22341",
+      "count": "5"
+     },
+     {
+      "item": "108556",
+      "count": "5"
+     },
+     {
+      "item": "2955",
+      "count": "5"
+     },
+     {
+      "item": "18567",
+      "count": "5"
+     },
+     {
+      "item": "3592",
+      "count": "5"
+     },
+     {
+      "item": "11010",
+      "count": "5"
+     },
+     {
+      "item": "125329",
+      "count": "5"
+     },
+     {
+      "item": "8969",
+      "count": "5"
+     },
+     {
+      "item": "810",
+      "count": "5"
+     },
+     {
+      "item": "11852",
+      "count": "5"
+     },
+     {
+      "item": "11229",
+      "count": "5"
+     },
+     {
+      "item": "2024",
+      "count": "5"
+     },
+     {
+      "item": "31960",
+      "count": "5"
+     },
+     {
+      "item": "4489",
+      "count": "5"
+     }
+    ],
+    "smallest": "556",
+    "count": "1176",
+    "cardinality": "1176"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 601283818,
+   "name": "Afiliados Facultativos Independientes",
+   "dataTypeName": "number",
+   "description": "Personas que no tienen vínculo laboral con ningún empleador, y cotizan en una EPS y en un fondo de pensiones y hacen aportes del 0,6% o del 2%. Es el total de afiliados independientes en un mes. No es un valor que se acumula.",
+   "fieldName": "afiliados_facultativos",
+   "position": 4,
+   "renderTypeName": "number",
+   "tableColumnId": 154664230,
+   "cachedContents": {
+    "non_null": "1175",
+    "largest": "153906",
+    "null": "1",
+    "top": [
+     {
+      "item": "95",
+      "count": "11"
+     },
+     {
+      "item": "26",
+      "count": "10"
+     },
+     {
+      "item": "93",
+      "count": "9"
+     },
+     {
+      "item": "180",
+      "count": "9"
+     },
+     {
+      "item": "506",
+      "count": "7"
+     },
+     {
+      "item": "1250",
+      "count": "7"
+     },
+     {
+      "item": "25",
+      "count": "7"
+     },
+     {
+      "item": "520",
+      "count": "7"
+     },
+     {
+      "item": "187",
+      "count": "6"
+     },
+     {
+      "item": "0",
+      "count": "6"
+     },
+     {
+      "item": "166",
+      "count": "6"
+     },
+     {
+      "item": "779",
+      "count": "6"
+     },
+     {
+      "item": "154",
+      "count": "6"
+     },
+     {
+      "item": "193",
+      "count": "6"
+     },
+     {
+      "item": "1308",
+      "count": "6"
+     },
+     {
+      "item": "974",
+      "count": "6"
+     },
+     {
+      "item": "369",
+      "count": "6"
+     },
+     {
+      "item": "24",
+      "count": "6"
+     },
+     {
+      "item": "28",
+      "count": "6"
+     },
+     {
+      "item": "943",
+      "count": "6"
+     }
+    ],
+    "smallest": "0",
+    "count": "1176",
+    "cardinality": "1176"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 601283819,
+   "name": "Afiliados Pensionados",
+   "dataTypeName": "number",
+   "description": "Personas que reciben una asignación económica por vejez, invalidez o sobrevivencia. Con aporte del 0.6 %, del 2.0 %.o sin aporte (0%). Es el total de afiliados pensionados en un mes. No es un valor que se acumula",
+   "fieldName": "afiliados_pensionados",
+   "position": 5,
+   "renderTypeName": "number",
+   "tableColumnId": 154664229,
+   "cachedContents": {
+    "non_null": "1170",
+    "largest": "52186",
+    "null": "6",
+    "top": [
+     {
+      "item": "0",
+      "count": "37"
+     },
+     {
+      "item": "86",
+      "count": "18"
+     },
+     {
+      "item": "35",
+      "count": "17"
+     },
+     {
+      "item": "16",
+      "count": "16"
+     },
+     {
+      "item": "14",
+      "count": "16"
+     },
+     {
+      "item": "4",
+      "count": "15"
+     },
+     {
+      "item": "17",
+      "count": "14"
+     },
+     {
+      "item": "51",
+      "count": "13"
+     },
+     {
+      "item": "39",
+      "count": "11"
+     },
+     {
+      "item": "7",
+      "count": "10"
+     },
+     {
+      "item": "5",
+      "count": "10"
+     },
+     {
+      "item": "88",
+      "count": "10"
+     },
+     {
+      "item": "12",
+      "count": "9"
+     },
+     {
+      "item": "13",
+      "count": "9"
+     },
+     {
+      "item": "40",
+      "count": "8"
+     },
+     {
+      "item": "113",
+      "count": "7"
+     },
+     {
+      "item": "41",
+      "count": "7"
+     },
+     {
+      "item": "362",
+      "count": "7"
+     },
+     {
+      "item": "31",
+      "count": "7"
+     },
+     {
+      "item": "112",
+      "count": "7"
+     }
+    ],
+    "smallest": "0",
+    "count": "1176",
+    "cardinality": "1176"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 601283820,
+   "name": "Afiliados Fidelidad",
+   "dataTypeName": "number",
+   "description": "Personas que llevan más de 25 años afiliado a Cajas de Compensación Familiar. Es el total de afiliados por fidelidad en un mes. No es un valor que se acumula.",
+   "fieldName": "afiliados_fidelidad",
+   "position": 6,
+   "renderTypeName": "number",
+   "tableColumnId": 154664228,
+   "cachedContents": {
+    "non_null": "1129",
+    "largest": "74657",
+    "null": "47",
+    "top": [
+     {
+      "item": "0",
+      "count": "278"
+     },
+     {
+      "item": "1",
+      "count": "32"
+     },
+     {
+      "item": "2",
+      "count": "29"
+     },
+     {
+      "item": "8",
+      "count": "17"
+     },
+     {
+      "item": "7",
+      "count": "11"
+     },
+     {
+      "item": "34684",
+      "count": "10"
+     },
+     {
+      "item": "82",
+      "count": "10"
+     },
+     {
+      "item": "81",
+      "count": "8"
+     },
+     {
+      "item": "21",
+      "count": "6"
+     },
+     {
+      "item": "67",
+      "count": "6"
+     },
+     {
+      "item": "482",
+      "count": "6"
+     },
+     {
+      "item": "65",
+      "count": "6"
+     },
+     {
+      "item": "678",
+      "count": "6"
+     },
+     {
+      "item": "495",
+      "count": "6"
+     },
+     {
+      "item": "186",
+      "count": "6"
+     },
+     {
+      "item": "34756",
+      "count": "5"
+     },
+     {
+      "item": "42848",
+      "count": "5"
+     },
+     {
+      "item": "34616",
+      "count": "5"
+     },
+     {
+      "item": "9066",
+      "count": "5"
+     },
+     {
+      "item": "6284",
+      "count": "5"
+     }
+    ],
+    "smallest": "0",
+    "count": "1176",
+    "cardinality": "1176"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 601283827,
+   "name": "Año",
+   "dataTypeName": "text",
+   "description": "Año de reporte",
+   "fieldName": "a_o",
+   "position": 7,
+   "renderTypeName": "text",
+   "tableColumnId": 155404777,
+   "cachedContents": {
+    "non_null": "1176",
+    "largest": "2025",
+    "null": "0",
+    "top": [
+     {
+      "item": "2025",
+      "count": "672"
+     },
+     {
+      "item": "2024",
+      "count": "504"
+     }
+    ],
+    "smallest": "2024",
+    "count": "1176",
+    "cardinality": "1176"
+   },
+   "format": {}
+  },
+  {
+   "id": 601283825,
+   "name": "Cantidad de Afiliados",
+   "dataTypeName": "number",
+   "description": "Número de afiliados",
+   "fieldName": "cantidad_de_afiliados",
+   "position": 8,
+   "renderTypeName": "number",
+   "tableColumnId": 155404775,
+   "cachedContents": {
+    "non_null": "1176",
+    "largest": "1642673",
+    "null": "0",
+    "top": [
+     {
+      "item": "123485",
+      "count": "5"
+     },
+     {
+      "item": "34291",
+      "count": "5"
+     },
+     {
+      "item": "1553629",
+      "count": "5"
+     },
+     {
+      "item": "51710",
+      "count": "5"
+     },
+     {
+      "item": "110695",
+      "count": "5"
+     },
+     {
+      "item": "1509621",
+      "count": "5"
+     },
+     {
+      "item": "152383",
+      "count": "5"
+     },
+     {
+      "item": "72551",
+      "count": "5"
+     },
+     {
+      "item": "1632549",
+      "count": "5"
+     },
+     {
+      "item": "4625",
+      "count": "5"
+     },
+     {
+      "item": "23853",
+      "count": "5"
+     },
+     {
+      "item": "280611",
+      "count": "5"
+     },
+     {
+      "item": "111097",
+      "count": "5"
+     },
+     {
+      "item": "180039",
+      "count": "5"
+     },
+     {
+      "item": "177400",
+      "count": "5"
+     },
+     {
+      "item": "61054",
+      "count": "5"
+     },
+     {
+      "item": "72197",
+      "count": "5"
+     },
+     {
+      "item": "63764",
+      "count": "5"
+     },
+     {
+      "item": "24968",
+      "count": "5"
+     },
+     {
+      "item": "6485",
+      "count": "5"
+     }
+    ],
+    "smallest": "3031",
+    "count": "1176",
+    "cardinality": "1176"
+   },
+   "format": {}
+  },
+  {
+   "id": 601283824,
+   "name": "Trabajadores Empleados Dependientes",
+   "dataTypeName": "number",
+   "description": "Son aquellas personas que prestan su servicio a otra persona, natural o jurídica, bajo la figura del contrato de trabajo, por ello, existe subordinación y el pago de un salario. Es el total de afiliados dependientes en un mes. No es un valor que se acumula.",
+   "fieldName": "trabajadores_empleados_dependientes",
+   "position": 9,
+   "renderTypeName": "number",
+   "tableColumnId": 155404774,
+   "cachedContents": {
+    "non_null": "1176",
+    "largest": "1507545",
+    "null": "0",
+    "top": [
+     {
+      "item": "438714",
+      "count": "5"
+     },
+     {
+      "item": "174250",
+      "count": "5"
+     },
+     {
+      "item": "123877",
+      "count": "5"
+     },
+     {
+      "item": "213085",
+      "count": "5"
+     },
+     {
+      "item": "58864",
+      "count": "5"
+     },
+     {
+      "item": "132515",
+      "count": "5"
+     },
+     {
+      "item": "3028",
+      "count": "5"
+     },
+     {
+      "item": "65101",
+      "count": "5"
+     },
+     {
+      "item": "602025",
+      "count": "5"
+     },
+     {
+      "item": "70761",
+      "count": "5"
+     },
+     {
+      "item": "23448",
+      "count": "5"
+     },
+     {
+      "item": "170056",
+      "count": "5"
+     },
+     {
+      "item": "111509",
+      "count": "5"
+     },
+     {
+      "item": "272157",
+      "count": "5"
+     },
+     {
+      "item": "131921",
+      "count": "5"
+     },
+     {
+      "item": "1348448",
+      "count": "5"
+     },
+     {
+      "item": "116192",
+      "count": "5"
+     },
+     {
+      "item": "106456",
+      "count": "5"
+     },
+     {
+      "item": "1330261",
+      "count": "5"
+     },
+     {
+      "item": "242770",
+      "count": "5"
+     }
+    ],
+    "smallest": "3028",
+    "count": "1176",
+    "cardinality": "1176"
+   },
+   "format": {}
+  },
+  {
+   "id": 601283828,
+   "name": "No Afiliados con Derecho a Subsidios",
+   "dataTypeName": "number",
+   "description": "Son personas que ya no están afiliadas a una Caja de Compensación Familiar pero que tenían pendiente el pago del subsidio familiar por la Caja de Compensación Familiar. Son afilados dependientes y que tienen hijos u otros familiares que dependen de él, Es el total de afiliados en un mes. No es un valor que se acumula.",
+   "fieldName": "no_afiliados_con_derecho_a_subsidios",
+   "position": 10,
+   "renderTypeName": "number",
+   "tableColumnId": 155404778,
+   "cachedContents": {
+    "non_null": "1153",
+    "largest": "34664",
+    "null": "23",
+    "top": [
+     {
+      "item": "0",
+      "count": "152"
+     },
+     {
+      "item": "1256",
+      "count": "10"
+     },
+     {
+      "item": "1",
+      "count": "10"
+     },
+     {
+      "item": "2",
+      "count": "8"
+     },
+     {
+      "item": "55",
+      "count": "7"
+     },
+     {
+      "item": "49",
+      "count": "7"
+     },
+     {
+      "item": "293",
+      "count": "6"
+     },
+     {
+      "item": "51",
+      "count": "6"
+     },
+     {
+      "item": "426",
+      "count": "6"
+     },
+     {
+      "item": "235",
+      "count": "6"
+     },
+     {
+      "item": "2196",
+      "count": "6"
+     },
+     {
+      "item": "191",
+      "count": "6"
+     },
+     {
+      "item": "1150",
+      "count": "6"
+     },
+     {
+      "item": "37",
+      "count": "6"
+     },
+     {
+      "item": "1496",
+      "count": "6"
+     },
+     {
+      "item": "218",
+      "count": "6"
+     },
+     {
+      "item": "310",
+      "count": "6"
+     },
+     {
+      "item": "162",
+      "count": "6"
+     },
+     {
+      "item": "1825",
+      "count": "5"
+     },
+     {
+      "item": "4922",
+      "count": "5"
+     }
+    ],
+    "smallest": "0",
+    "count": "1176",
+    "cardinality": "1176"
+   },
+   "format": {}
+  },
+  {
+   "id": 601283826,
+   "name": "Personas a Cargo",
+   "dataTypeName": "number",
+   "description": "Son los parientes de los afiliados. Son los hijos, hijastros, hermanos huérfanos de padres, padres mayores de 60 años que convivan y dependan económicamente del trabajador. Es el total de personas a cargo en un mes. No es un valor que se acumula.",
+   "fieldName": "personas_a_cargo",
+   "position": 11,
+   "renderTypeName": "number",
+   "tableColumnId": 155404776,
+   "cachedContents": {
+    "non_null": "1176",
+    "largest": "1397617",
+    "null": "0",
+    "top": [
+     {
+      "item": "16378",
+      "count": "7"
+     },
+     {
+      "item": "19095",
+      "count": "6"
+     },
+     {
+      "item": "16376",
+      "count": "6"
+     },
+     {
+      "item": "96689",
+      "count": "5"
+     },
+     {
+      "item": "87156",
+      "count": "5"
+     },
+     {
+      "item": "103109",
+      "count": "5"
+     },
+     {
+      "item": "450052",
+      "count": "5"
+     },
+     {
+      "item": "176073",
+      "count": "5"
+     },
+     {
+      "item": "145336",
+      "count": "5"
+     },
+     {
+      "item": "172123",
+      "count": "5"
+     },
+     {
+      "item": "42196",
+      "count": "5"
+     },
+     {
+      "item": "299606",
+      "count": "5"
+     },
+     {
+      "item": "1221423",
+      "count": "5"
+     },
+     {
+      "item": "102416",
+      "count": "5"
+     },
+     {
+      "item": "42468",
+      "count": "5"
+     },
+     {
+      "item": "188613",
+      "count": "5"
+     },
+     {
+      "item": "261375",
+      "count": "5"
+     },
+     {
+      "item": "37030",
+      "count": "5"
+     },
+     {
+      "item": "208871",
+      "count": "5"
+     },
+     {
+      "item": "217821",
+      "count": "5"
+     }
+    ],
+    "smallest": "5240",
+    "count": "1176",
+    "cardinality": "1176"
+   },
+   "format": {}
+  },
+  {
+   "id": 601283823,
+   "name": "Total Población Cubierta",
+   "dataTypeName": "number",
+   "description": "Es la suma del total de afiliados más las personas a cargo afiliadas a una Caja de Compensación Familiar. Es el total de la población cubierta en un mes. No es un valor que se acumula.",
+   "fieldName": "total_poblaci_n_cubierta",
+   "position": 12,
+   "renderTypeName": "number",
+   "tableColumnId": 154664225,
+   "cachedContents": {
+    "non_null": "1176",
+    "largest": "2962064",
+    "null": "0",
+    "top": [
+     {
+      "item": "443044",
+      "count": "5"
+     },
+     {
+      "item": "159707",
+      "count": "5"
+     },
+     {
+      "item": "333579",
+      "count": "5"
+     },
+     {
+      "item": "2859112",
+      "count": "5"
+     },
+     {
+      "item": "195151",
+      "count": "5"
+     },
+     {
+      "item": "443478",
+      "count": "5"
+     },
+     {
+      "item": "299663",
+      "count": "5"
+     },
+     {
+      "item": "32653",
+      "count": "5"
+     },
+     {
+      "item": "264453",
+      "count": "5"
+     },
+     {
+      "item": "48390",
+      "count": "5"
+     },
+     {
+      "item": "601990",
+      "count": "5"
+     },
+     {
+      "item": "273247",
+      "count": "5"
+     },
+     {
+      "item": "1278734",
+      "count": "5"
+     },
+     {
+      "item": "282882",
+      "count": "5"
+     },
+     {
+      "item": "2849229",
+      "count": "5"
+     },
+     {
+      "item": "10454",
+      "count": "5"
+     },
+     {
+      "item": "565060",
+      "count": "5"
+     },
+     {
+      "item": "71629",
+      "count": "5"
+     },
+     {
+      "item": "578556",
+      "count": "5"
+     },
+     {
+      "item": "380039",
+      "count": "5"
+     }
+    ],
+    "smallest": "9577",
+    "count": "1176",
+    "cardinality": "1176"
+   },
+   "format": {}
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Superintendencia del Subsidio Familiar - SUPERSUBSIDIO, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Trabajo",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Nacional",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Mensual"
+   }
+  }
+ },
+ "owner": {
+  "id": "w895-wad3",
+  "displayName": "Efrain Garcia Venegas",
+  "screenName": "Efrain Garcia Venegas",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "w895-wad3",
+  "displayName": "Efrain Garcia Venegas",
+  "screenName": "Efrain Garcia Venegas",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "sistema del subsidio familiar"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

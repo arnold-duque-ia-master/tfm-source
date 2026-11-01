@@ -1,0 +1,80 @@
+{
+ "id": "8yi9-t44c",
+ "alias": "traficoPeajes",
+ "type": "TraficoPeajes",
+ "baseWhere": null,
+ "columns": {
+  "idPeaje": {
+   "field": "idpeaje",
+   "kind": "int",
+   "gql": "Int",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "peaje": {
+   "field": "peaje",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "categoriaTarifa": {
+   "field": "categoriatarifa",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "desde": {
+   "field": "desde",
+   "kind": "date",
+   "gql": "Date",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "hasta": {
+   "field": "hasta",
+   "kind": "date",
+   "gql": "Date",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "valorTarifa": {
+   "field": "valortarifa",
+   "kind": "int",
+   "gql": "Int",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "cantidadTrafico": {
+   "field": "cantidadtrafico",
+   "kind": "int",
+   "gql": "Int",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "cantidadEvasores": {
+   "field": "cantidadevasores",
+   "kind": "int",
+   "gql": "Int",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "cantidadExentos787": {
+   "field": "cantidadexentos787",
+   "kind": "int",
+   "gql": "Int",
+   "role": null,
+   "cast": null,
+   "enum": null
+  }
+ }
+}

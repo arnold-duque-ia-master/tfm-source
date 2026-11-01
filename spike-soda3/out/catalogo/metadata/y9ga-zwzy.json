@@ -1,0 +1,1353 @@
+{
+ "id": "y9ga-zwzy",
+ "name": "MEN_ESTADISTICAS MATRICULA POR MUNICIPIOS_ES",
+ "assetType": "dataset",
+ "attribution": "Alcaldía de Sipí, Chocó",
+ "attributionLink": "http://www.mineducacion.gov.co",
+ "averageRating": 0,
+ "category": "Educación",
+ "createdAt": 1477419467,
+ "description": "Contiene la información de  matrícula estadística de educación superior por nivel de formación y por municipios",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 11677,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 2,
+ "oid": 37660289,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1631753464,
+ "publicationGroup": 13870234,
+ "publicationStage": "published",
+ "rowsUpdatedAt": 1761746197,
+ "rowsUpdatedBy": "ymvt-n7h8",
+ "tableId": 18446969,
+ "totalTimesRated": 0,
+ "viewCount": 74777,
+ "viewLastModified": 1779123454,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1613671602,
+   "reviewedAutomatically": false,
+   "state": "approved",
+   "submissionId": 4001897,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1613593458,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "reviewer": {
+    "id": "r4qn-dwdd",
+    "displayName": "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+   },
+   "submissionDetails": {
+    "permissionType": "read"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1613671603,
+    "failureCount": 0,
+    "startedAt": 1613671602,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "ymvt-n7h8",
+    "displayName": "Ministerio de Educación Nacional"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 548241572,
+   "name": "AÑO",
+   "dataTypeName": "number",
+   "fieldName": "a_o",
+   "position": 1,
+   "renderTypeName": "number",
+   "tableColumnId": 39613815,
+   "width": 136,
+   "cachedContents": {
+    "non_null": "19618",
+    "largest": "2021",
+    "null": "0",
+    "top": [
+     {
+      "item": "2012",
+      "count": "1714"
+     },
+     {
+      "item": "2010",
+      "count": "1654"
+     },
+     {
+      "item": "2013",
+      "count": "1654"
+     },
+     {
+      "item": "2011",
+      "count": "1642"
+     },
+     {
+      "item": "2009",
+      "count": "1502"
+     },
+     {
+      "item": "2008",
+      "count": "1404"
+     },
+     {
+      "item": "2007",
+      "count": "1332"
+     },
+     {
+      "item": "2015",
+      "count": "1274"
+     },
+     {
+      "item": "2014",
+      "count": "1236"
+     },
+     {
+      "item": "2019",
+      "count": "1052"
+     },
+     {
+      "item": "2006",
+      "count": "956"
+     },
+     {
+      "item": "2017",
+      "count": "838"
+     },
+     {
+      "item": "2020",
+      "count": "820"
+     },
+     {
+      "item": "2016",
+      "count": "818"
+     },
+     {
+      "item": "2005",
+      "count": "736"
+     },
+     {
+      "item": "2018",
+      "count": "626"
+     },
+     {
+      "item": "2021",
+      "count": "360"
+     }
+    ],
+    "smallest": "2005",
+    "count": "19618",
+    "cardinality": "19618"
+   },
+   "format": {
+    "precisionStyle": "standard",
+    "noCommas": "true",
+    "align": "right"
+   }
+  },
+  {
+   "id": 548241586,
+   "name": "Código delDepartamento",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "c_digo_deldepartamento",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 139504053,
+   "width": 86,
+   "cachedContents": {
+    "non_null": "19618",
+    "largest": "99",
+    "null": "0",
+    "top": [
+     {
+      "item": "5",
+      "count": "2467"
+     },
+     {
+      "item": "25",
+      "count": "2069"
+     },
+     {
+      "item": "15",
+      "count": "1368"
+     },
+     {
+      "item": "68",
+      "count": "1075"
+     },
+     {
+      "item": "73",
+      "count": "978"
+     },
+     {
+      "item": "76",
+      "count": "918"
+     },
+     {
+      "item": "52",
+      "count": "913"
+     },
+     {
+      "item": "19",
+      "count": "898"
+     },
+     {
+      "item": "13",
+      "count": "845"
+     },
+     {
+      "item": "54",
+      "count": "737"
+     },
+     {
+      "item": "41",
+      "count": "683"
+     },
+     {
+      "item": "23",
+      "count": "661"
+     },
+     {
+      "item": "17",
+      "count": "647"
+     },
+     {
+      "item": "50",
+      "count": "540"
+     },
+     {
+      "item": "47",
+      "count": "531"
+     },
+     {
+      "item": "70",
+      "count": "447"
+     },
+     {
+      "item": "44",
+      "count": "399"
+     },
+     {
+      "item": "27",
+      "count": "393"
+     },
+     {
+      "item": "20",
+      "count": "391"
+     },
+     {
+      "item": "66",
+      "count": "369"
+     }
+    ],
+    "smallest": "-",
+    "count": "19618",
+    "cardinality": "19618"
+   },
+   "format": {}
+  },
+  {
+   "id": 548241574,
+   "name": "Nombre del Departamento",
+   "dataTypeName": "text",
+   "fieldName": "nombre_del_departamento",
+   "position": 3,
+   "renderTypeName": "text",
+   "tableColumnId": 39613817,
+   "width": 100,
+   "cachedContents": {
+    "non_null": "19618",
+    "largest": "99",
+    "null": "0",
+    "top": [
+     {
+      "item": "5",
+      "count": "2467"
+     },
+     {
+      "item": "25",
+      "count": "2069"
+     },
+     {
+      "item": "15",
+      "count": "1368"
+     },
+     {
+      "item": "68",
+      "count": "1075"
+     },
+     {
+      "item": "73",
+      "count": "978"
+     },
+     {
+      "item": "76",
+      "count": "918"
+     },
+     {
+      "item": "52",
+      "count": "913"
+     },
+     {
+      "item": "19",
+      "count": "898"
+     },
+     {
+      "item": "13",
+      "count": "845"
+     },
+     {
+      "item": "54",
+      "count": "737"
+     },
+     {
+      "item": "41",
+      "count": "683"
+     },
+     {
+      "item": "23",
+      "count": "661"
+     },
+     {
+      "item": "17",
+      "count": "647"
+     },
+     {
+      "item": "50",
+      "count": "540"
+     },
+     {
+      "item": "47",
+      "count": "531"
+     },
+     {
+      "item": "70",
+      "count": "447"
+     },
+     {
+      "item": "44",
+      "count": "399"
+     },
+     {
+      "item": "27",
+      "count": "393"
+     },
+     {
+      "item": "20",
+      "count": "391"
+     },
+     {
+      "item": "66",
+      "count": "369"
+     }
+    ],
+    "smallest": "-",
+    "count": "19618",
+    "cardinality": "19618"
+   },
+   "format": {}
+  },
+  {
+   "id": 548241585,
+   "name": "Código delMunicipio",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "c_digo_delmunicipio",
+   "position": 4,
+   "renderTypeName": "text",
+   "tableColumnId": 139504052,
+   "width": 111,
+   "cachedContents": {
+    "non_null": "19618",
+    "largest": "99773",
+    "null": "0",
+    "top": [
+     {
+      "item": "20001",
+      "count": "51"
+     },
+     {
+      "item": "52001",
+      "count": "51"
+     },
+     {
+      "item": "54001",
+      "count": "51"
+     },
+     {
+      "item": "19698",
+      "count": "51"
+     },
+     {
+      "item": "86001",
+      "count": "51"
+     },
+     {
+      "item": "25754",
+      "count": "51"
+     },
+     {
+      "item": "23417",
+      "count": "51"
+     },
+     {
+      "item": "44279",
+      "count": "51"
+     },
+     {
+      "item": "27001",
+      "count": "51"
+     },
+     {
+      "item": "44001",
+      "count": "51"
+     },
+     {
+      "item": "86568",
+      "count": "51"
+     },
+     {
+      "item": "47288",
+      "count": "51"
+     },
+     {
+      "item": "44430",
+      "count": "49"
+     },
+     {
+      "item": "44874",
+      "count": "49"
+     },
+     {
+      "item": "73443",
+      "count": "49"
+     },
+     {
+      "item": "27361",
+      "count": "49"
+     },
+     {
+      "item": "52838",
+      "count": "47"
+     },
+     {
+      "item": "47555",
+      "count": "47"
+     },
+     {
+      "item": "50226",
+      "count": "47"
+     },
+     {
+      "item": "81794",
+      "count": "47"
+     }
+    ],
+    "smallest": "-",
+    "count": "19618",
+    "cardinality": "19618"
+   },
+   "format": {
+    "precisionStyle": "standard",
+    "noCommas": "true",
+    "align": "right"
+   }
+  },
+  {
+   "id": 548241576,
+   "name": "Nombre del Municipio",
+   "dataTypeName": "text",
+   "fieldName": "nombre_del_municipio",
+   "position": 5,
+   "renderTypeName": "text",
+   "tableColumnId": 39613819,
+   "width": 170,
+   "cachedContents": {
+    "non_null": "19618",
+    "largest": "ZONA BANANERA (MAGDALENA)",
+    "null": "0",
+    "top": [
+     {
+      "item": "VILLANUEVA",
+      "count": "119"
+     },
+     {
+      "item": "ALBANIA",
+      "count": "72"
+     },
+     {
+      "item": "ARMENIA",
+      "count": "62"
+     },
+     {
+      "item": "RIOSUCIO",
+      "count": "59"
+     },
+     {
+      "item": "GRANADA",
+      "count": "55"
+     },
+     {
+      "item": "GUADALUPE",
+      "count": "52"
+     },
+     {
+      "item": "FLORENCIA",
+      "count": "52"
+     },
+     {
+      "item": "SABANALARGA",
+      "count": "51"
+     },
+     {
+      "item": "SOACHA",
+      "count": "49"
+     },
+     {
+      "item": "FONSECA",
+      "count": "49"
+     },
+     {
+      "item": "LORICA",
+      "count": "49"
+     },
+     {
+      "item": "BARBOSA",
+      "count": "49"
+     },
+     {
+      "item": "SAN FRANCISCO",
+      "count": "49"
+     },
+     {
+      "item": "PASTO",
+      "count": "49"
+     },
+     {
+      "item": "VALLEDUPAR",
+      "count": "49"
+     },
+     {
+      "item": "RIOHACHA",
+      "count": "49"
+     },
+     {
+      "item": "MOCOA",
+      "count": "49"
+     },
+     {
+      "item": "SANTANDER DE QUILICHAO",
+      "count": "48"
+     },
+     {
+      "item": "LA UNIÓN",
+      "count": "48"
+     },
+     {
+      "item": "PUERTO RICO",
+      "count": "48"
+     }
+    ],
+    "smallest": "ABEJORRAL",
+    "count": "19618",
+    "cardinality": "19618"
+   },
+   "format": {}
+  },
+  {
+   "id": 548241577,
+   "name": "TECNICA PROFESIONAL",
+   "dataTypeName": "number",
+   "description": "",
+   "fieldName": "tecnica_profesional",
+   "position": 6,
+   "renderTypeName": "number",
+   "tableColumnId": 39613820,
+   "width": 178,
+   "cachedContents": {
+    "non_null": "19618",
+    "largest": "72772",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "10892"
+     },
+     {
+      "item": "1",
+      "count": "942"
+     },
+     {
+      "item": "2",
+      "count": "278"
+     },
+     {
+      "item": "3",
+      "count": "182"
+     },
+     {
+      "item": "30",
+      "count": "161"
+     },
+     {
+      "item": "29",
+      "count": "119"
+     },
+     {
+      "item": "4",
+      "count": "109"
+     },
+     {
+      "item": "22",
+      "count": "100"
+     },
+     {
+      "item": "34",
+      "count": "99"
+     },
+     {
+      "item": "32",
+      "count": "98"
+     },
+     {
+      "item": "27",
+      "count": "96"
+     },
+     {
+      "item": "25",
+      "count": "94"
+     },
+     {
+      "item": "31",
+      "count": "94"
+     },
+     {
+      "item": "39",
+      "count": "93"
+     },
+     {
+      "item": "33",
+      "count": "89"
+     },
+     {
+      "item": "35",
+      "count": "88"
+     },
+     {
+      "item": "37",
+      "count": "82"
+     },
+     {
+      "item": "5",
+      "count": "81"
+     },
+     {
+      "item": "23",
+      "count": "79"
+     },
+     {
+      "item": "6",
+      "count": "76"
+     }
+    ],
+    "smallest": "0",
+    "count": "19618",
+    "cardinality": "19618"
+   },
+   "format": {}
+  },
+  {
+   "id": 548241578,
+   "name": "TECNOLOGICA",
+   "dataTypeName": "number",
+   "fieldName": "tecnologica",
+   "position": 7,
+   "renderTypeName": "number",
+   "tableColumnId": 39613821,
+   "width": 97,
+   "cachedContents": {
+    "non_null": "19618",
+    "largest": "254058",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "6448"
+     },
+     {
+      "item": "1",
+      "count": "367"
+     },
+     {
+      "item": "29",
+      "count": "183"
+     },
+     {
+      "item": "32",
+      "count": "181"
+     },
+     {
+      "item": "30",
+      "count": "180"
+     },
+     {
+      "item": "26",
+      "count": "178"
+     },
+     {
+      "item": "31",
+      "count": "168"
+     },
+     {
+      "item": "27",
+      "count": "164"
+     },
+     {
+      "item": "35",
+      "count": "156"
+     },
+     {
+      "item": "34",
+      "count": "155"
+     },
+     {
+      "item": "22",
+      "count": "152"
+     },
+     {
+      "item": "21",
+      "count": "152"
+     },
+     {
+      "item": "28",
+      "count": "140"
+     },
+     {
+      "item": "25",
+      "count": "140"
+     },
+     {
+      "item": "33",
+      "count": "140"
+     },
+     {
+      "item": "37",
+      "count": "131"
+     },
+     {
+      "item": "19",
+      "count": "128"
+     },
+     {
+      "item": "24",
+      "count": "118"
+     },
+     {
+      "item": "38",
+      "count": "118"
+     },
+     {
+      "item": "18",
+      "count": "116"
+     }
+    ],
+    "smallest": "0",
+    "count": "19618",
+    "cardinality": "19618"
+   },
+   "format": {}
+  },
+  {
+   "id": 548241579,
+   "name": "UNIVERSITARIA",
+   "dataTypeName": "number",
+   "fieldName": "universitaria",
+   "position": 8,
+   "renderTypeName": "number",
+   "tableColumnId": 39613822,
+   "width": 121,
+   "cachedContents": {
+    "non_null": "19618",
+    "largest": "525513",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "8854"
+     },
+     {
+      "item": "1",
+      "count": "1294"
+     },
+     {
+      "item": "2",
+      "count": "524"
+     },
+     {
+      "item": "3",
+      "count": "231"
+     },
+     {
+      "item": "4",
+      "count": "193"
+     },
+     {
+      "item": "6",
+      "count": "132"
+     },
+     {
+      "item": "5",
+      "count": "114"
+     },
+     {
+      "item": "25",
+      "count": "109"
+     },
+     {
+      "item": "17",
+      "count": "108"
+     },
+     {
+      "item": "15",
+      "count": "103"
+     },
+     {
+      "item": "7",
+      "count": "94"
+     },
+     {
+      "item": "24",
+      "count": "87"
+     },
+     {
+      "item": "16",
+      "count": "86"
+     },
+     {
+      "item": "20",
+      "count": "85"
+     },
+     {
+      "item": "28",
+      "count": "85"
+     },
+     {
+      "item": "26",
+      "count": "83"
+     },
+     {
+      "item": "11",
+      "count": "82"
+     },
+     {
+      "item": "21",
+      "count": "81"
+     },
+     {
+      "item": "19",
+      "count": "81"
+     },
+     {
+      "item": "18",
+      "count": "80"
+     }
+    ],
+    "smallest": "0",
+    "count": "19618",
+    "cardinality": "19618"
+   },
+   "format": {}
+  },
+  {
+   "id": 548241580,
+   "name": "ESPECIALIZACION",
+   "dataTypeName": "number",
+   "fieldName": "especializacion",
+   "position": 9,
+   "renderTypeName": "number",
+   "tableColumnId": 39613823,
+   "width": 92,
+   "cachedContents": {
+    "non_null": "19618",
+    "largest": "56147",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "16092"
+     },
+     {
+      "item": "1",
+      "count": "280"
+     },
+     {
+      "item": "2",
+      "count": "105"
+     },
+     {
+      "item": "3",
+      "count": "90"
+     },
+     {
+      "item": "5",
+      "count": "62"
+     },
+     {
+      "item": "20",
+      "count": "56"
+     },
+     {
+      "item": "17",
+      "count": "56"
+     },
+     {
+      "item": "24",
+      "count": "55"
+     },
+     {
+      "item": "21",
+      "count": "55"
+     },
+     {
+      "item": "25",
+      "count": "54"
+     },
+     {
+      "item": "23",
+      "count": "54"
+     },
+     {
+      "item": "22",
+      "count": "52"
+     },
+     {
+      "item": "8",
+      "count": "48"
+     },
+     {
+      "item": "26",
+      "count": "47"
+     },
+     {
+      "item": "29",
+      "count": "47"
+     },
+     {
+      "item": "12",
+      "count": "46"
+     },
+     {
+      "item": "27",
+      "count": "46"
+     },
+     {
+      "item": "32",
+      "count": "46"
+     },
+     {
+      "item": "6",
+      "count": "45"
+     },
+     {
+      "item": "15",
+      "count": "44"
+     }
+    ],
+    "smallest": "0",
+    "count": "19618",
+    "cardinality": "19618"
+   },
+   "format": {}
+  },
+  {
+   "id": 548241581,
+   "name": "MAESTRIA",
+   "dataTypeName": "number",
+   "fieldName": "maestria",
+   "position": 10,
+   "renderTypeName": "number",
+   "tableColumnId": 39613824,
+   "width": 77,
+   "cachedContents": {
+    "non_null": "19618",
+    "largest": "31302",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "17914"
+     },
+     {
+      "item": "1",
+      "count": "155"
+     },
+     {
+      "item": "2",
+      "count": "74"
+     },
+     {
+      "item": "3",
+      "count": "60"
+     },
+     {
+      "item": "4",
+      "count": "38"
+     },
+     {
+      "item": "6",
+      "count": "30"
+     },
+     {
+      "item": "5",
+      "count": "27"
+     },
+     {
+      "item": "7",
+      "count": "23"
+     },
+     {
+      "item": "14",
+      "count": "19"
+     },
+     {
+      "item": "21",
+      "count": "19"
+     },
+     {
+      "item": "9",
+      "count": "19"
+     },
+     {
+      "item": "10",
+      "count": "18"
+     },
+     {
+      "item": "12",
+      "count": "18"
+     },
+     {
+      "item": "13",
+      "count": "17"
+     },
+     {
+      "item": "11",
+      "count": "16"
+     },
+     {
+      "item": "15",
+      "count": "16"
+     },
+     {
+      "item": "17",
+      "count": "16"
+     },
+     {
+      "item": "16",
+      "count": "14"
+     },
+     {
+      "item": "22",
+      "count": "14"
+     },
+     {
+      "item": "33",
+      "count": "14"
+     }
+    ],
+    "smallest": "0",
+    "count": "19618",
+    "cardinality": "19618"
+   },
+   "format": {}
+  },
+  {
+   "id": 548241582,
+   "name": "DOCTORADO",
+   "dataTypeName": "number",
+   "fieldName": "doctorado",
+   "position": 11,
+   "renderTypeName": "number",
+   "tableColumnId": 39613825,
+   "width": 72,
+   "cachedContents": {
+    "non_null": "19618",
+    "largest": "2410",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "19041"
+     },
+     {
+      "item": "1",
+      "count": "23"
+     },
+     {
+      "item": "10",
+      "count": "20"
+     },
+     {
+      "item": "9",
+      "count": "15"
+     },
+     {
+      "item": "11",
+      "count": "12"
+     },
+     {
+      "item": "13",
+      "count": "12"
+     },
+     {
+      "item": "7",
+      "count": "12"
+     },
+     {
+      "item": "3",
+      "count": "10"
+     },
+     {
+      "item": "6",
+      "count": "10"
+     },
+     {
+      "item": "31",
+      "count": "10"
+     },
+     {
+      "item": "12",
+      "count": "10"
+     },
+     {
+      "item": "14",
+      "count": "8"
+     },
+     {
+      "item": "8",
+      "count": "8"
+     },
+     {
+      "item": "16",
+      "count": "8"
+     },
+     {
+      "item": "25",
+      "count": "7"
+     },
+     {
+      "item": "28",
+      "count": "6"
+     },
+     {
+      "item": "15",
+      "count": "6"
+     },
+     {
+      "item": "158",
+      "count": "6"
+     },
+     {
+      "item": "44",
+      "count": "6"
+     },
+     {
+      "item": "27",
+      "count": "6"
+     }
+    ],
+    "smallest": "0",
+    "count": "19618",
+    "cardinality": "19618"
+   },
+   "format": {}
+  },
+  {
+   "id": 548241584,
+   "name": "IES CON OFERTA",
+   "dataTypeName": "number",
+   "description": "Número de Instituciones de Educación Superior (IES) con oferta de programas académicos en el municipio.",
+   "fieldName": "ies_con_oferta",
+   "position": 13,
+   "renderTypeName": "number",
+   "tableColumnId": 39613827,
+   "width": 92,
+   "cachedContents": {
+    "non_null": "19618",
+    "largest": "133",
+    "null": "0",
+    "top": [
+     {
+      "item": "1",
+      "count": "11085"
+     },
+     {
+      "item": "2",
+      "count": "3969"
+     },
+     {
+      "item": "3",
+      "count": "1696"
+     },
+     {
+      "item": "4",
+      "count": "799"
+     },
+     {
+      "item": "5",
+      "count": "392"
+     },
+     {
+      "item": "6",
+      "count": "306"
+     },
+     {
+      "item": "7",
+      "count": "235"
+     },
+     {
+      "item": "8",
+      "count": "171"
+     },
+     {
+      "item": "9",
+      "count": "139"
+     },
+     {
+      "item": "11",
+      "count": "84"
+     },
+     {
+      "item": "10",
+      "count": "67"
+     },
+     {
+      "item": "16",
+      "count": "62"
+     },
+     {
+      "item": "13",
+      "count": "62"
+     },
+     {
+      "item": "12",
+      "count": "58"
+     },
+     {
+      "item": "14",
+      "count": "57"
+     },
+     {
+      "item": "17",
+      "count": "51"
+     },
+     {
+      "item": "15",
+      "count": "41"
+     },
+     {
+      "item": "21",
+      "count": "31"
+     },
+     {
+      "item": "20",
+      "count": "26"
+     },
+     {
+      "item": "18",
+      "count": "24"
+     }
+    ],
+    "smallest": "1",
+    "count": "19618",
+    "cardinality": "19618"
+   },
+   "format": {}
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Ministerio de Educación Nacional - MinEducación, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Educación",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Nacional",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Anual"
+   }
+  }
+ },
+ "owner": {
+  "id": "ymvt-n7h8",
+  "displayName": "Ministerio de Educación Nacional",
+  "profileImageUrlLarge": "/api/users/ymvt-n7h8/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/ymvt-n7h8/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/ymvt-n7h8/profile_images/TINY",
+  "screenName": "Ministerio de Educación Nacional",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "ymvt-n7h8",
+  "displayName": "Ministerio de Educación Nacional",
+  "profileImageUrlLarge": "/api/users/ymvt-n7h8/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/ymvt-n7h8/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/ymvt-n7h8/profile_images/TINY",
+  "screenName": "Ministerio de Educación Nacional",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "educación superior",
+  "matrícula",
+  "municipios"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

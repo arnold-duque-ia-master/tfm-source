@@ -1,0 +1,267 @@
+{
+ "id": "nxt2-39c3",
+ "alias": "calidadAguaIrca",
+ "type": "CalidadAguaIrca",
+ "baseWhere": "municipiocodigo != '#TODOS'",
+ "columns": {
+  "departamentoCodigo": {
+   "field": "departamentocodigo",
+   "kind": "string",
+   "gql": "String",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "departamento": {
+   "field": "departamento",
+   "kind": "enum",
+   "gql": "CalidadAguaIrcaDepartamento",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "AMAZONAS": [
+     "Amazonas"
+    ],
+    "ANTIOQUIA": [
+     "Antioquia"
+    ],
+    "ARAUCA": [
+     "Arauca"
+    ],
+    "ARCHIPIELAGO_DE_SAN_ANDRES_PROVIDENCIA_Y_SANTA_CATALINA": [
+     "Archipiélago de San Andrés, Providencia Y Santa Catalina",
+     "Archipiélago de San Andrés, Providencia y Santa Catalina"
+    ],
+    "ATLANTICO": [
+     "Atlántico"
+    ],
+    "BOGOTA_D_C": [
+     "Bogotá, D.C."
+    ],
+    "BOLIVAR": [
+     "Bolívar"
+    ],
+    "BOYACA": [
+     "Boyacá"
+    ],
+    "CALDAS": [
+     "Caldas"
+    ],
+    "CAQUETA": [
+     "Caquetá"
+    ],
+    "CASANARE": [
+     "Casanare"
+    ],
+    "CAUCA": [
+     "Cauca"
+    ],
+    "CESAR": [
+     "Cesar"
+    ],
+    "CHOCO": [
+     "Chocó"
+    ],
+    "CORDOBA": [
+     "Córdoba"
+    ],
+    "CUNDINAMARCA": [
+     "Cundinamarca"
+    ],
+    "GUAINIA": [
+     "Guainía"
+    ],
+    "GUAVIARE": [
+     "Guaviare"
+    ],
+    "HUILA": [
+     "Huila"
+    ],
+    "LA_GUAJIRA": [
+     "La Guajira"
+    ],
+    "MAGDALENA": [
+     "Magdalena"
+    ],
+    "META": [
+     "Meta"
+    ],
+    "NARINO": [
+     "Nariño"
+    ],
+    "NORTE_DE_SANTANDER": [
+     "Norte de Santander"
+    ],
+    "PUTUMAYO": [
+     "Putumayo"
+    ],
+    "QUINDIO": [
+     "Quindío"
+    ],
+    "RISARALDA": [
+     "Risaralda"
+    ],
+    "SANTANDER": [
+     "Santander"
+    ],
+    "SUCRE": [
+     "Sucre"
+    ],
+    "TOLIMA": [
+     "Tolima"
+    ],
+    "VALLE_DEL_CAUCA": [
+     "Valle del Cauca"
+    ],
+    "VAUPES": [
+     "Vaupés"
+    ],
+    "VICHADA": [
+     "Vichada"
+    ]
+   }
+  },
+  "municipioCodigo": {
+   "field": "municipiocodigo",
+   "kind": "string",
+   "gql": "String",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "municipio": {
+   "field": "municipio",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "anio": {
+   "field": "a_o",
+   "kind": "int",
+   "gql": "Int",
+   "role": "time",
+   "cast": null,
+   "enum": null
+  },
+  "irca": {
+   "field": "irca",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "nivelDeRiesgo": {
+   "field": "nivel_de_riesgo",
+   "kind": "enum",
+   "gql": "CalidadAguaIrcaNivelDeRiesgo",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "ALTO_RIESGO": [
+     "Alto riesgo",
+     "Riesgo alto"
+    ],
+    "BAJO_RIESGO": [
+     "Bajo riesgo",
+     "Riesgo bajo"
+    ],
+    "INVIABLE_SANITARIAMENTE": [
+     "Inviable sanitariamente"
+    ],
+    "RIESGO_MEDIO": [
+     "Riesgo medio"
+    ],
+    "SIN_RIESGO": [
+     "Sin riesgo"
+    ]
+   }
+  },
+  "ircaUrbano": {
+   "field": "ircaurbano",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": {
+    "type": "Float",
+    "nullTokens": [
+     "ND"
+    ]
+   },
+   "enum": null
+  },
+  "nivelDeRiesgoUrbano": {
+   "field": "nivel_de_riesgo_urbano",
+   "kind": "enum",
+   "gql": "CalidadAguaIrcaNivelDeRiesgoUrbano",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "ALTO_RIESGO": [
+     "Alto riesgo",
+     "Riesgo alto"
+    ],
+    "BAJO_RIESGO": [
+     "Bajo riesgo",
+     "Riesgo bajo"
+    ],
+    "INVIABLE_SANITARIAMENTE": [
+     "Inviable sanitariamente"
+    ],
+    "ND": [
+     "ND"
+    ],
+    "RIESGO_MEDIO": [
+     "Riesgo medio"
+    ],
+    "SIN_RIESGO": [
+     "Sin riesgo"
+    ]
+   }
+  },
+  "ircaRural": {
+   "field": "ircarural",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": {
+    "type": "Float",
+    "nullTokens": [
+     "ND"
+    ]
+   },
+   "enum": null
+  },
+  "nivelDeRiesgoRural": {
+   "field": "nivel_de_riesgo_rural",
+   "kind": "enum",
+   "gql": "CalidadAguaIrcaNivelDeRiesgoRural",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "ALTO_RIESGO": [
+     "Alto riesgo",
+     "Riesgo alto"
+    ],
+    "BAJO_RIESGO": [
+     "Bajo riesgo",
+     "Riesgo bajo"
+    ],
+    "INVIABLE_SANITARIAMENTE": [
+     "Inviable sanitariamente"
+    ],
+    "ND": [
+     "ND"
+    ],
+    "RIESGO_MEDIO": [
+     "Riesgo medio"
+    ],
+    "SIN_RIESGO": [
+     "Sin riesgo"
+    ]
+   }
+  }
+ }
+}

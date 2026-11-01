@@ -1,0 +1,1042 @@
+{
+ "id": "xyy7-rn7p",
+ "name": "Quejas interpuestas por los consumidores financieros en contra de las entidades vigiladas en la plataforma Smartsupervision",
+ "assetType": "dataset",
+ "attribution": "Superintendencia Financiera de Colombia - SUPERFINANCIERA, Bogotá D.C.",
+ "attributionLink": "https://www.superfinanciera.gov.co",
+ "averageRating": 0,
+ "category": "Hacienda y Crédito Público",
+ "createdAt": 1686070174,
+ "description": "Smartsupervision es un desarrollo tecnológico que permite la recepción y almacenamiento de las quejas de los consumidores financieros respecto de su interacción con los productos financieros ofrecidos por las entidades que vigila la Superintendencia Financiera de Colombia (SFC). En este conjunto de datos se presenta la cantidad de quejas mensuales recibidas en cada una de las instancias de recepción, mostrando variables adicionales, tales como: año y mes de recepción, el tipo de entidad, el código de la entidad, el motivo principal de la queja, el producto principal de la misma, el departamento y el municipio reportados por el consumidor financiero en la queja y que son transmitidos a la SFC mediante los formatos 410 y 411.",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 1037,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 39653662,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1686070628,
+ "publicationGroup": 19173217,
+ "publicationStage": "published",
+ "rowsUpdatedAt": 1792767432,
+ "rowsUpdatedBy": "3vnp-bbcq",
+ "tableId": 19173217,
+ "totalTimesRated": 0,
+ "viewCount": 4818,
+ "viewLastModified": 1792767364,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1686251176,
+   "reviewedAutomatically": false,
+   "state": "approved",
+   "submissionId": 5557957,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1686247645,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "reviewer": {
+    "id": "vc9x-zjzh",
+    "displayName": "soporteccc"
+   },
+   "submissionDetails": {
+    "permissionType": "read"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1686251177,
+    "failureCount": 0,
+    "startedAt": 1686251176,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "3vnp-bbcq",
+    "displayName": "Superintendencia Financiera de Colombia"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 576581806,
+   "name": "Año_Creacion",
+   "dataTypeName": "number",
+   "description": "",
+   "fieldName": "a_o_creacion",
+   "position": 1,
+   "renderTypeName": "number",
+   "tableColumnId": 147115649,
+   "cachedContents": {
+    "non_null": "1400425",
+    "largest": "2026",
+    "null": "0",
+    "top": [
+     {
+      "item": "2025",
+      "count": "405973"
+     },
+     {
+      "item": "2024",
+      "count": "377554"
+     },
+     {
+      "item": "2023",
+      "count": "362895"
+     },
+     {
+      "item": "2026",
+      "count": "254003"
+     }
+    ],
+    "smallest": "2023",
+    "count": "1400425",
+    "cardinality": "1400425"
+   },
+   "format": {
+    "noCommas": "true",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 576581807,
+   "name": "Mes_Creacion",
+   "dataTypeName": "number",
+   "description": "",
+   "fieldName": "mes_creacion",
+   "position": 2,
+   "renderTypeName": "number",
+   "tableColumnId": 147115650,
+   "cachedContents": {
+    "non_null": "1400425",
+    "largest": "12",
+    "null": "0",
+    "top": [
+     {
+      "item": "7",
+      "count": "134350"
+     },
+     {
+      "item": "5",
+      "count": "134073"
+     },
+     {
+      "item": "3",
+      "count": "133123"
+     },
+     {
+      "item": "8",
+      "count": "130581"
+     },
+     {
+      "item": "4",
+      "count": "130387"
+     },
+     {
+      "item": "1",
+      "count": "127768"
+     },
+     {
+      "item": "6",
+      "count": "126532"
+     },
+     {
+      "item": "10",
+      "count": "100502"
+     },
+     {
+      "item": "9",
+      "count": "98268"
+     },
+     {
+      "item": "11",
+      "count": "95198"
+     },
+     {
+      "item": "12",
+      "count": "95057"
+     },
+     {
+      "item": "2",
+      "count": "94586"
+     }
+    ],
+    "smallest": "1",
+    "count": "1400425",
+    "cardinality": "1400425"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 576581808,
+   "name": "Tipo_Entidad",
+   "dataTypeName": "number",
+   "description": "",
+   "fieldName": "tipo_entidad",
+   "position": 3,
+   "renderTypeName": "number",
+   "tableColumnId": 147115651,
+   "cachedContents": {
+    "non_null": "1400425",
+    "largest": "401",
+    "null": "0",
+    "top": [
+     {
+      "item": "1",
+      "count": "801444"
+     },
+     {
+      "item": "14",
+      "count": "167582"
+     },
+     {
+      "item": "13",
+      "count": "164941"
+     },
+     {
+      "item": "4",
+      "count": "55008"
+     },
+     {
+      "item": "25",
+      "count": "54606"
+     },
+     {
+      "item": "23",
+      "count": "45185"
+     },
+     {
+      "item": "22",
+      "count": "33721"
+     },
+     {
+      "item": "5",
+      "count": "32192"
+     },
+     {
+      "item": "128",
+      "count": "13992"
+     },
+     {
+      "item": "15",
+      "count": "8449"
+     },
+     {
+      "item": "32",
+      "count": "8317"
+     },
+     {
+      "item": "127",
+      "count": "7631"
+     },
+     {
+      "item": "85",
+      "count": "3778"
+     },
+     {
+      "item": "11",
+      "count": "1247"
+     },
+     {
+      "item": "118",
+      "count": "1044"
+     },
+     {
+      "item": "6",
+      "count": "467"
+     },
+     {
+      "item": "10",
+      "count": "438"
+     },
+     {
+      "item": "2",
+      "count": "250"
+     },
+     {
+      "item": "82",
+      "count": "79"
+     },
+     {
+      "item": "142",
+      "count": "21"
+     }
+    ],
+    "smallest": "1",
+    "count": "1400425",
+    "cardinality": "1400425"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 576581809,
+   "name": "Codigo_Entidad",
+   "dataTypeName": "number",
+   "description": "",
+   "fieldName": "codigo_entidad",
+   "position": 4,
+   "renderTypeName": "number",
+   "tableColumnId": 147115652,
+   "cachedContents": {
+    "non_null": "1400425",
+    "largest": "157",
+    "null": "0",
+    "top": [
+     {
+      "item": "7",
+      "count": "229296"
+     },
+     {
+      "item": "39",
+      "count": "106031"
+     },
+     {
+      "item": "13",
+      "count": "96100"
+     },
+     {
+      "item": "43",
+      "count": "78923"
+     },
+     {
+      "item": "11",
+      "count": "65850"
+     },
+     {
+      "item": "2",
+      "count": "62401"
+     },
+     {
+      "item": "14",
+      "count": "57379"
+     },
+     {
+      "item": "42",
+      "count": "49475"
+     },
+     {
+      "item": "1",
+      "count": "41608"
+     },
+     {
+      "item": "23",
+      "count": "36096"
+     },
+     {
+      "item": "6",
+      "count": "36019"
+     },
+     {
+      "item": "8",
+      "count": "31444"
+     },
+     {
+      "item": "26",
+      "count": "29786"
+     },
+     {
+      "item": "18",
+      "count": "29170"
+     },
+     {
+      "item": "49",
+      "count": "27454"
+     },
+     {
+      "item": "12",
+      "count": "24043"
+     },
+     {
+      "item": "3",
+      "count": "23875"
+     },
+     {
+      "item": "30",
+      "count": "23217"
+     },
+     {
+      "item": "54",
+      "count": "22195"
+     },
+     {
+      "item": "33",
+      "count": "21284"
+     }
+    ],
+    "smallest": "1",
+    "count": "1400425",
+    "cardinality": "1400425"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 576581810,
+   "name": "Instancia_Recepcion",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "instancia_recepcion",
+   "position": 5,
+   "renderTypeName": "text",
+   "tableColumnId": 147115653,
+   "cachedContents": {
+    "non_null": "1400425",
+    "largest": "Superintendencia Financiera de Colombia",
+    "null": "0",
+    "top": [
+     {
+      "item": "Entidad vigilada",
+      "count": "1013998"
+     },
+     {
+      "item": "Superintendencia Financiera de Colombia",
+      "count": "245388"
+     },
+     {
+      "item": "Defensor del consumidor financiero",
+      "count": "96806"
+     },
+     {
+      "item": "Otra (remisión por competencia)",
+      "count": "44233"
+     }
+    ],
+    "smallest": "Defensor del consumidor financiero",
+    "count": "1400425",
+    "cardinality": "1400425"
+   },
+   "format": {}
+  },
+  {
+   "id": 576581811,
+   "name": "Motivo",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "motivo",
+   "position": 6,
+   "renderTypeName": "text",
+   "tableColumnId": 147115654,
+   "cachedContents": {
+    "non_null": "1400425",
+    "largest": "Vinculación no autorizada",
+    "null": "0",
+    "top": [
+     {
+      "item": "Transacción no reconocida",
+      "count": "121225"
+     },
+     {
+      "item": "Otros motivos",
+      "count": "63927"
+     },
+     {
+      "item": "Transacción mal aplicada",
+      "count": "58749"
+     },
+     {
+      "item": "No disponibilidad o fallas de los canales de atención",
+      "count": "54755"
+     },
+     {
+      "item": "Revisión y/o liquidación de productos",
+      "count": "53918"
+     },
+     {
+      "item": "Dificultad o imposibilidad para realizar transacciones o consulta de información por el canal",
+      "count": "46318"
+     },
+     {
+      "item": "Inconsistencias en el movimiento y saldo total del producto",
+      "count": "40590"
+     },
+     {
+      "item": "Demora o no aplicación del pago",
+      "count": "36569"
+     },
+     {
+      "item": "Vinculación no autorizada",
+      "count": "34127"
+     },
+     {
+      "item": "Reporte injustificado a centrales de riesgo",
+      "count": "32095"
+     },
+     {
+      "item": "Inconformidad con la definición, autorización, dictamen o diagnóstico",
+      "count": "25995"
+     },
+     {
+      "item": "Información o asesoría incompleta y/o errada",
+      "count": "25064"
+     },
+     {
+      "item": "Demora o no devolución de saldos, aportes o primas",
+      "count": "24766"
+     },
+     {
+      "item": "Inconformidades relacionadas con el proceso de cobranza",
+      "count": "23169"
+     },
+     {
+      "item": "Demora en el pago de la indemnización o suma asegurada",
+      "count": "21054"
+     },
+     {
+      "item": "Error en la facturación o cobro no pactado",
+      "count": "20461"
+     },
+     {
+      "item": "Demora en la atención o en el servicio requerido",
+      "count": "19824"
+     },
+     {
+      "item": "Fallas o inoportunidad en el proceso de vinculación",
+      "count": "19418"
+     },
+     {
+      "item": "Inconformidad con el servicio prestado por el proveedor",
+      "count": "17452"
+     },
+     {
+      "item": "Presunta suplantación de personas",
+      "count": "17412"
+     }
+    ],
+    "smallest": "Acreditación del subsidio al aporte en pensión- Inconformidad o ausencia del proceso de acreditación del subsidio",
+    "count": "1400425",
+    "cardinality": "1400425"
+   },
+   "format": {}
+  },
+  {
+   "id": 576581812,
+   "name": "Producto",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "producto",
+   "position": 7,
+   "renderTypeName": "text",
+   "tableColumnId": 147115655,
+   "cachedContents": {
+    "non_null": "1400425",
+    "largest": "Vigilancia de bienes dados en garantía",
+    "null": "0",
+    "top": [
+     {
+      "item": "Cuenta de ahorro",
+      "count": "226450"
+     },
+     {
+      "item": "Depósitos de bajo monto (Capítulo I del Título 15 del Decreto 2555 de 2010)",
+      "count": "172021"
+     },
+     {
+      "item": "Tarjetas de crédito",
+      "count": "165975"
+     },
+     {
+      "item": "Creditos de consumo",
+      "count": "95455"
+     },
+     {
+      "item": "Seguro de riesgos laborales",
+      "count": "73270"
+     },
+     {
+      "item": "Pensiones obligatorias - Vejez",
+      "count": "69639"
+     },
+     {
+      "item": "Seguro de automóviles",
+      "count": "67248"
+     },
+     {
+      "item": "Otros productos de Establecimientos de Crédito y SEDPE",
+      "count": "66864"
+     },
+     {
+      "item": "Créditos comerciales",
+      "count": "50985"
+     },
+     {
+      "item": "Créditos de vivienda",
+      "count": "46767"
+     },
+     {
+      "item": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+      "count": "32036"
+     },
+     {
+      "item": "Microcrédito",
+      "count": "29052"
+     },
+     {
+      "item": "Seguro de accidentes personales",
+      "count": "26134"
+     },
+     {
+      "item": "Seguro de vida individual",
+      "count": "25041"
+     },
+     {
+      "item": "Seguro de vida grupo",
+      "count": "24715"
+     },
+     {
+      "item": "Seguro de salud",
+      "count": "21687"
+     },
+     {
+      "item": "Otros productos de seguros",
+      "count": "18747"
+     },
+     {
+      "item": "Cesantías",
+      "count": "18674"
+     },
+     {
+      "item": "Cuenta corriente",
+      "count": "17947"
+     },
+     {
+      "item": "Seguro de hogar",
+      "count": "11289"
+     }
+    ],
+    "smallest": "Administración de portafolio de terceros",
+    "count": "1400425",
+    "cardinality": "1400425"
+   },
+   "format": {}
+  },
+  {
+   "id": 576581813,
+   "name": "Departamento",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "departamento",
+   "position": 8,
+   "renderTypeName": "text",
+   "tableColumnId": 147115656,
+   "cachedContents": {
+    "non_null": "1395268",
+    "largest": "VICHADA",
+    "null": "5157",
+    "top": [
+     {
+      "item": "BOGOTÁ, D.C.",
+      "count": "277392"
+     },
+     {
+      "item": "ANTIOQUIA",
+      "count": "198834"
+     },
+     {
+      "item": "VALLE DEL CAUCA",
+      "count": "126138"
+     },
+     {
+      "item": "CUNDINAMARCA",
+      "count": "117651"
+     },
+     {
+      "item": "SANTANDER",
+      "count": "76045"
+     },
+     {
+      "item": "ATLÁNTICO",
+      "count": "63801"
+     },
+     {
+      "item": "BOYACÁ",
+      "count": "44741"
+     },
+     {
+      "item": "TOLIMA",
+      "count": "43277"
+     },
+     {
+      "item": "BOLÍVAR",
+      "count": "40114"
+     },
+     {
+      "item": "NORTE DE SANTANDER",
+      "count": "34388"
+     },
+     {
+      "item": "RISARALDA",
+      "count": "33808"
+     },
+     {
+      "item": "HUILA",
+      "count": "32705"
+     },
+     {
+      "item": "META",
+      "count": "32431"
+     },
+     {
+      "item": "CALDAS",
+      "count": "31756"
+     },
+     {
+      "item": "MAGDALENA",
+      "count": "28399"
+     },
+     {
+      "item": "CESAR",
+      "count": "28226"
+     },
+     {
+      "item": "CÓRDOBA",
+      "count": "27150"
+     },
+     {
+      "item": "NARIÑO",
+      "count": "26938"
+     },
+     {
+      "item": "CAUCA",
+      "count": "26560"
+     },
+     {
+      "item": "QUINDÍO",
+      "count": "20392"
+     }
+    ],
+    "smallest": "AMAZONAS",
+    "count": "1400425",
+    "cardinality": "1400425"
+   },
+   "format": {}
+  },
+  {
+   "id": 576581814,
+   "name": "Municipio",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "municipio",
+   "position": 9,
+   "renderTypeName": "text",
+   "tableColumnId": 147115657,
+   "cachedContents": {
+    "non_null": "1395268",
+    "largest": "ZONA BANANERA",
+    "null": "5157",
+    "top": [
+     {
+      "item": "BOGOTÁ, D.C.",
+      "count": "277392"
+     },
+     {
+      "item": "MEDELLÍN",
+      "count": "81956"
+     },
+     {
+      "item": "CALI",
+      "count": "60529"
+     },
+     {
+      "item": "BARRANQUILLA",
+      "count": "39420"
+     },
+     {
+      "item": "BUCARAMANGA",
+      "count": "27989"
+     },
+     {
+      "item": "CARTAGENA DE INDIAS",
+      "count": "23849"
+     },
+     {
+      "item": "IBAGUÉ",
+      "count": "21647"
+     },
+     {
+      "item": "PEREIRA",
+      "count": "21516"
+     },
+     {
+      "item": "VILLAVICENCIO",
+      "count": "17529"
+     },
+     {
+      "item": "MANIZALES",
+      "count": "17292"
+     },
+     {
+      "item": "SAN JOSÉ DE CÚCUTA",
+      "count": "16681"
+     },
+     {
+      "item": "ARMENIA",
+      "count": "15638"
+     },
+     {
+      "item": "SANTA MARTA",
+      "count": "15412"
+     },
+     {
+      "item": "NEIVA",
+      "count": "15337"
+     },
+     {
+      "item": "VALLEDUPAR",
+      "count": "13433"
+     },
+     {
+      "item": "SOACHA",
+      "count": "13249"
+     },
+     {
+      "item": "BELLO",
+      "count": "12742"
+     },
+     {
+      "item": "PASTO",
+      "count": "12404"
+     },
+     {
+      "item": "ENVIGADO",
+      "count": "12335"
+     },
+     {
+      "item": "POPAYÁN",
+      "count": "12196"
+     }
+    ],
+    "smallest": "ABEJORRAL",
+    "count": "1400425",
+    "cardinality": "1400425"
+   },
+   "format": {}
+  },
+  {
+   "id": 576581815,
+   "name": "Cantidad_quejas_recibidas",
+   "dataTypeName": "number",
+   "description": "",
+   "fieldName": "cantidad_quejas_recibidas",
+   "position": 10,
+   "renderTypeName": "number",
+   "tableColumnId": 147115658,
+   "cachedContents": {
+    "non_null": "1400425",
+    "largest": "37366",
+    "null": "0",
+    "top": [
+     {
+      "item": "1",
+      "count": "935215"
+     },
+     {
+      "item": "2",
+      "count": "181333"
+     },
+     {
+      "item": "3",
+      "count": "76343"
+     },
+     {
+      "item": "4",
+      "count": "43278"
+     },
+     {
+      "item": "5",
+      "count": "27503"
+     },
+     {
+      "item": "6",
+      "count": "19461"
+     },
+     {
+      "item": "7",
+      "count": "14528"
+     },
+     {
+      "item": "8",
+      "count": "10954"
+     },
+     {
+      "item": "9",
+      "count": "8762"
+     },
+     {
+      "item": "10",
+      "count": "7098"
+     },
+     {
+      "item": "11",
+      "count": "6027"
+     },
+     {
+      "item": "12",
+      "count": "4992"
+     },
+     {
+      "item": "13",
+      "count": "4237"
+     },
+     {
+      "item": "14",
+      "count": "3770"
+     },
+     {
+      "item": "15",
+      "count": "3346"
+     },
+     {
+      "item": "16",
+      "count": "2834"
+     },
+     {
+      "item": "17",
+      "count": "2661"
+     },
+     {
+      "item": "18",
+      "count": "2341"
+     },
+     {
+      "item": "19",
+      "count": "2107"
+     },
+     {
+      "item": "20",
+      "count": "1974"
+     }
+    ],
+    "smallest": "1",
+    "count": "1400425",
+    "cardinality": "1400425"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "noCommas": "true"
+   }
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "jsonQuery": {
+   "order": [
+    {
+     "columnFieldName": "a_o_creacion",
+     "ascending": false
+    },
+    {
+     "columnFieldName": "mes_creacion",
+     "ascending": false
+    }
+   ]
+  },
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Superintendencia Financiera de Colombia - SUPERFINANCIERA, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Hacienda y Crédito Público",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Nacional",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Mensual"
+   }
+  },
+  "availableDisplayTypes": [
+   "table",
+   "fatrow",
+   "page"
+  ]
+ },
+ "owner": {
+  "id": "3vnp-bbcq",
+  "displayName": "Superintendencia Financiera de Colombia",
+  "profileImageUrlLarge": "/api/users/3vnp-bbcq/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/3vnp-bbcq/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/3vnp-bbcq/profile_images/TINY",
+  "screenName": "Superintendencia Financiera de Colombia",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {
+  "orderBys": [
+   {
+    "ascending": false,
+    "expression": {
+     "columnId": 576581806,
+     "type": "column"
+    }
+   },
+   {
+    "ascending": false,
+    "expression": {
+     "columnId": 576581807,
+     "type": "column"
+    }
+   }
+  ]
+ },
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "3vnp-bbcq",
+  "displayName": "Superintendencia Financiera de Colombia",
+  "profileImageUrlLarge": "/api/users/3vnp-bbcq/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/3vnp-bbcq/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/3vnp-bbcq/profile_images/TINY",
+  "screenName": "Superintendencia Financiera de Colombia",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "quejas",
+  "producto",
+  "motivo",
+  "departamento",
+  "sistema financiero"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

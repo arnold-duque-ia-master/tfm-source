@@ -1,0 +1,153 @@
+{
+ "id": "gcq5-hvdx",
+ "perfilado": "2026-11-01",
+ "filas": 2877,
+ "columnas": {
+  "codigo_dane_departamento": {
+   "tipo": "number",
+   "min": "99",
+   "max": "99",
+   "no_nulos": 2877,
+   "entero": true
+  },
+  "departamento": {
+   "tipo": "text",
+   "distintos": 1,
+   "no_nulos": 2877,
+   "valores": [
+    "VICHADA"
+   ],
+   "frac_numerica_top50": 0.0,
+   "ceros_a_la_izquierda": false
+  },
+  "codigo_dane_municipio": {
+   "tipo": "number",
+   "min": "99001",
+   "max": "99773",
+   "no_nulos": 2877,
+   "entero": true
+  },
+  "municipio": {
+   "tipo": "text",
+   "distintos": 4,
+   "no_nulos": 2877,
+   "valores": [
+    "CUMARIBO",
+    "LA PRIMAVERA",
+    "PUERTO CARREÑO",
+    "SANTA ROSALÍA"
+   ],
+   "frac_numerica_top50": 0.0,
+   "ceros_a_la_izquierda": false
+  },
+  "vereda": {
+   "tipo": "text",
+   "distintos": 100,
+   "no_nulos": 2877,
+   "frac_numerica_top50": 0.0,
+   "ceros_a_la_izquierda": false
+  },
+  "predio": {
+   "tipo": "text",
+   "distintos": 1117,
+   "no_nulos": 2877,
+   "frac_numerica_top50": 0.0,
+   "ceros_a_la_izquierda": false
+  },
+  "tenencia": {
+   "tipo": "text",
+   "distintos": 6,
+   "no_nulos": 2877,
+   "valores": [
+    "ARRENDADO",
+    "OTRO",
+    "POSEEDOR",
+    "PROPIO",
+    "TENEDOR",
+    "TERRITORIO COLECTIVO"
+   ],
+   "frac_numerica_top50": 0.0,
+   "ceros_a_la_izquierda": false
+  },
+  "ruv": {
+   "tipo": "number",
+   "min": "1454171",
+   "max": "10999123",
+   "no_nulos": 2877,
+   "entero": true
+  },
+  "fecha_ruv": {
+   "tipo": "calendar_date",
+   "min": "2024-10-28T00:00:00.000",
+   "max": "2024-12-16T00:00:00.000",
+   "no_nulos": 2877,
+   "con_hora": false
+  },
+  "vigencia": {
+   "tipo": "number",
+   "min": "2024",
+   "max": "2024",
+   "no_nulos": 2877,
+   "entero": true
+  },
+  "ciclo_vacunacion": {
+   "tipo": "text",
+   "distintos": 1,
+   "no_nulos": 2877,
+   "valores": [
+    "Ciclo II - 2024"
+   ],
+   "frac_numerica_top50": 0.0,
+   "ceros_a_la_izquierda": false
+  },
+  "longitud": {
+   "tipo": "number",
+   "min": "-71.07572833",
+   "max": "-67.43396619",
+   "no_nulos": 2823,
+   "entero": false
+  },
+  "latitud": {
+   "tipo": "number",
+   "min": "3.54071167",
+   "max": "6.29869752",
+   "no_nulos": 2823,
+   "entero": false
+  },
+  "total_aftosa": {
+   "tipo": "number",
+   "min": "0",
+   "max": "5071",
+   "no_nulos": 2877,
+   "entero": true
+  },
+  "equinos": {
+   "tipo": "number",
+   "min": "0",
+   "max": "87",
+   "no_nulos": 2877,
+   "entero": true
+  },
+  "porcinos": {
+   "tipo": "number",
+   "min": "0",
+   "max": "58",
+   "no_nulos": 2877,
+   "entero": true
+  },
+  "ovinos": {
+   "tipo": "number",
+   "min": "0",
+   "max": "60",
+   "no_nulos": 2877,
+   "entero": true
+  },
+  "caprinos": {
+   "tipo": "number",
+   "min": "0",
+   "max": "188",
+   "no_nulos": 2877,
+   "entero": true
+  }
+ }
+}

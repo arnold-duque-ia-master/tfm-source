@@ -1,0 +1,1440 @@
+{
+ "id": "7atu-2b28",
+ "name": "Tráfico de pasajeros y carga férreo en Colombia",
+ "assetType": "dataset",
+ "attribution": "Superintendencia de Transporte - SUPERTRANSPORTE, Bogotá D.C.",
+ "attributionLink": "https://www.datos.gov.co/d/7atu-2b28",
+ "averageRating": 0,
+ "category": "Transporte",
+ "createdAt": 1616299628,
+ "description": "Presenta la cantidad de pasajeros y carga movilizada a través de las vías férreas a nivel nacional en Colombia a partir del 1ero de enero de 2018.",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 911,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 38125009,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1642779194,
+ "publicationGroup": 18154941,
+ "publicationStage": "published",
+ "rowsUpdatedAt": 1793527530,
+ "rowsUpdatedBy": "e53y-7yga",
+ "tableId": 18573782,
+ "totalTimesRated": 0,
+ "viewCount": 6404,
+ "viewLastModified": 1779128775,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1633739956,
+   "reviewedAutomatically": false,
+   "state": "approved",
+   "submissionId": 4379233,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1633739917,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "reviewer": {
+    "id": "r4qn-dwdd",
+    "displayName": "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+   },
+   "submissionDetails": {
+    "permissionType": "read"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1633739956,
+    "failureCount": 0,
+    "startedAt": 1633739956,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "r4qn-dwdd",
+    "displayName": "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 554648209,
+   "name": "FECHA_OPERACION",
+   "dataTypeName": "calendar_date",
+   "description": "Fecha en la cual se realiza una operación desde un origen y hasta un destino",
+   "fieldName": "fecha_operacion",
+   "position": 1,
+   "renderTypeName": "calendar_date",
+   "tableColumnId": 139309081,
+   "cachedContents": {
+    "non_null": "101322",
+    "largest": "2026-09-27T00:00:00.000",
+    "null": "0",
+    "top": [
+     {
+      "item": "2023-04-25T00:00:00.000",
+      "count": "103"
+     },
+     {
+      "item": "2023-04-24T00:00:00.000",
+      "count": "90"
+     },
+     {
+      "item": "2023-04-18T00:00:00.000",
+      "count": "90"
+     },
+     {
+      "item": "2023-04-17T00:00:00.000",
+      "count": "89"
+     },
+     {
+      "item": "2018-03-23T00:00:00.000",
+      "count": "86"
+     },
+     {
+      "item": "2023-04-27T00:00:00.000",
+      "count": "85"
+     },
+     {
+      "item": "2023-04-19T00:00:00.000",
+      "count": "82"
+     },
+     {
+      "item": "2019-04-10T00:00:00.000",
+      "count": "81"
+     },
+     {
+      "item": "2023-04-26T00:00:00.000",
+      "count": "80"
+     },
+     {
+      "item": "2023-04-10T00:00:00.000",
+      "count": "80"
+     },
+     {
+      "item": "2019-11-30T00:00:00.000",
+      "count": "79"
+     },
+     {
+      "item": "2019-09-27T00:00:00.000",
+      "count": "78"
+     },
+     {
+      "item": "2023-04-21T00:00:00.000",
+      "count": "78"
+     },
+     {
+      "item": "2023-03-31T00:00:00.000",
+      "count": "77"
+     },
+     {
+      "item": "2023-04-14T00:00:00.000",
+      "count": "77"
+     },
+     {
+      "item": "2023-04-13T00:00:00.000",
+      "count": "77"
+     },
+     {
+      "item": "2023-03-30T00:00:00.000",
+      "count": "77"
+     },
+     {
+      "item": "2023-04-12T00:00:00.000",
+      "count": "77"
+     },
+     {
+      "item": "2023-04-20T00:00:00.000",
+      "count": "77"
+     },
+     {
+      "item": "2023-04-11T00:00:00.000",
+      "count": "76"
+     }
+    ],
+    "smallest": "2018-01-01T00:00:00.000",
+    "count": "101322",
+    "cardinality": "101322"
+   },
+   "format": {}
+  },
+  {
+   "id": 554648210,
+   "name": "CONCESION",
+   "dataTypeName": "text",
+   "description": "Contrato que otorga en concesión una construcción, rehabilitación-reconstrucción, conservación, operación y explotación de la infraestructura de transporte férreo",
+   "fieldName": "concesion",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 139309082,
+   "cachedContents": {
+    "non_null": "101322",
+    "largest": "FENOCO S.A",
+    "null": "0",
+    "top": [
+     {
+      "item": "CONSORCIO IBINES FERREO",
+      "count": "64263"
+     },
+     {
+      "item": "FENOCO S.A",
+      "count": "37059"
+     }
+    ],
+    "smallest": "CONSORCIO IBINES FERREO",
+    "count": "101322",
+    "cardinality": "101322"
+   },
+   "format": {}
+  },
+  {
+   "id": 554648211,
+   "name": "OPERADOR",
+   "dataTypeName": "text",
+   "description": "Empresa con maquina que se limita a transportar carga, transitando en una infraestructura de otra empresa concesionada o no concesionada",
+   "fieldName": "operador",
+   "position": 3,
+   "renderTypeName": "text",
+   "tableColumnId": 139309083,
+   "cachedContents": {
+    "non_null": "101322",
+    "largest": "TURISTREN SAS",
+    "null": "0",
+    "top": [
+     {
+      "item": "TURISTREN SAS",
+      "count": "58152"
+     },
+     {
+      "item": "DRUMMOND",
+      "count": "29061"
+     },
+     {
+      "item": "COOPSERCOL",
+      "count": "5691"
+     },
+     {
+      "item": "CI PRODECO",
+      "count": "5280"
+     },
+     {
+      "item": "CNR",
+      "count": "2718"
+     },
+     {
+      "item": "TRANS ARCO SAS",
+      "count": "420"
+     }
+    ],
+    "smallest": "CI PRODECO",
+    "count": "101322",
+    "cardinality": "101322"
+   },
+   "format": {}
+  },
+  {
+   "id": 554648212,
+   "name": "MUNICIPIO_ORIGEN",
+   "dataTypeName": "text",
+   "description": "Municipio en el cual inicia una operación de transporte férreo",
+   "fieldName": "municipio_origen",
+   "position": 4,
+   "renderTypeName": "text",
+   "tableColumnId": 139309084,
+   "cachedContents": {
+    "non_null": "101322",
+    "largest": "ZIPAQUIRÁ",
+    "null": "0",
+    "top": [
+     {
+      "item": "BOGOTÁ, DISTRITO CAPITAL",
+      "count": "28800"
+     },
+     {
+      "item": "BECERRIL",
+      "count": "21123"
+     },
+     {
+      "item": "ZIPAQUIRÁ",
+      "count": "14538"
+     },
+     {
+      "item": "CHÍA",
+      "count": "13722"
+     },
+     {
+      "item": "LA LOMA",
+      "count": "9868"
+     },
+     {
+      "item": "EL PASO",
+      "count": "5182"
+     },
+     {
+      "item": "BARRANCABERMEJA",
+      "count": "3562"
+     },
+     {
+      "item": "PUERTO BERRÍO",
+      "count": "1159"
+     },
+     {
+      "item": "PUERTO PARRA",
+      "count": "776"
+     },
+     {
+      "item": "PUERTO WILCHES KILOMETRO 16",
+      "count": "614"
+     },
+     {
+      "item": "BUTURAMA",
+      "count": "415"
+     },
+     {
+      "item": "CAJICÁ",
+      "count": "336"
+     },
+     {
+      "item": "SOGAMOSO",
+      "count": "288"
+     },
+     {
+      "item": "PAIPA",
+      "count": "288"
+     },
+     {
+      "item": "LA DORADA",
+      "count": "191"
+     },
+     {
+      "item": "NEMOCÓN",
+      "count": "180"
+     },
+     {
+      "item": "GAMARRA",
+      "count": "97"
+     },
+     {
+      "item": "CHIRIGUANÁ",
+      "count": "64"
+     },
+     {
+      "item": "SANTA MARTA, DISTRITO TURÍSTICO, CULTURAL E HISTÓRICO",
+      "count": "48"
+     },
+     {
+      "item": "CURUMANÍ",
+      "count": "26"
+     }
+    ],
+    "smallest": "BARRANCABERMEJA",
+    "count": "101322",
+    "cardinality": "101322"
+   },
+   "format": {}
+  },
+  {
+   "id": 554648213,
+   "name": "LATITUD_ORIGEN",
+   "dataTypeName": "number",
+   "description": "Ubicación geografica en grados, minutos y segundos,  del municipio de origen de norte a sur",
+   "fieldName": "latitud_origen",
+   "position": 5,
+   "renderTypeName": "number",
+   "tableColumnId": 139309085,
+   "cachedContents": {
+    "non_null": "101322",
+    "largest": "11.2294335041",
+    "null": "0",
+    "top": [
+     {
+      "item": "4.65017303026",
+      "count": "28800"
+     },
+     {
+      "item": "9.70460611578",
+      "count": "21123"
+     },
+     {
+      "item": "5.02547168537",
+      "count": "14538"
+     },
+     {
+      "item": "4.86606542368",
+      "count": "13722"
+     },
+     {
+      "item": "9.61837950111",
+      "count": "9868"
+     },
+     {
+      "item": "9.668470391",
+      "count": "5182"
+     },
+     {
+      "item": "7.06496386399",
+      "count": "3562"
+     },
+     {
+      "item": "6.48704114044",
+      "count": "1159"
+     },
+     {
+      "item": "6.65080670207",
+      "count": "776"
+     },
+     {
+      "item": "7.27501090773",
+      "count": "614"
+     },
+     {
+      "item": "8.22783906692",
+      "count": "415"
+     },
+     {
+      "item": "4.92080905869",
+      "count": "336"
+     },
+     {
+      "item": "5.72568939005",
+      "count": "288"
+     },
+     {
+      "item": "5.77994187022",
+      "count": "288"
+     },
+     {
+      "item": "5.44440609816",
+      "count": "191"
+     },
+     {
+      "item": "5.06736463787",
+      "count": "180"
+     },
+     {
+      "item": "8.32044905058",
+      "count": "97"
+     },
+     {
+      "item": "9.36118961071",
+      "count": "64"
+     },
+     {
+      "item": "11.2294335041",
+      "count": "48"
+     },
+     {
+      "item": "9.20181059219",
+      "count": "26"
+     }
+    ],
+    "smallest": "4.65017303026",
+    "count": "101322",
+    "cardinality": "101322"
+   },
+   "format": {}
+  },
+  {
+   "id": 554648214,
+   "name": "LONGITUD_ORIGEN",
+   "dataTypeName": "number",
+   "description": "Ubicación geografica en grados, minutos y segundos, del municipio de origen de este a oeste",
+   "fieldName": "longitud_origen",
+   "position": 6,
+   "renderTypeName": "number",
+   "tableColumnId": 139309086,
+   "cachedContents": {
+    "non_null": "101322",
+    "largest": "-72.9230476859",
+    "null": "0",
+    "top": [
+     {
+      "item": "-74.1073590032",
+      "count": "28800"
+     },
+     {
+      "item": "-73.2792316745",
+      "count": "21123"
+     },
+     {
+      "item": "-73.9944712419",
+      "count": "14538"
+     },
+     {
+      "item": "-74.0503468211",
+      "count": "13722"
+     },
+     {
+      "item": "-73.6006838538",
+      "count": "9868"
+     },
+     {
+      "item": "-73.7417884838",
+      "count": "5182"
+     },
+     {
+      "item": "-73.8499569753",
+      "count": "3562"
+     },
+     {
+      "item": "-74.4099455275",
+      "count": "1159"
+     },
+     {
+      "item": "-74.0560942894",
+      "count": "776"
+     },
+     {
+      "item": "-73.7660688342",
+      "count": "614"
+     },
+     {
+      "item": "-73.6948581902",
+      "count": "415"
+     },
+     {
+      "item": "-74.0234539659",
+      "count": "336"
+     },
+     {
+      "item": "-73.1179168833",
+      "count": "288"
+     },
+     {
+      "item": "-72.9230476859",
+      "count": "288"
+     },
+     {
+      "item": "-74.6582056212",
+      "count": "191"
+     },
+     {
+      "item": "-73.8796297366",
+      "count": "180"
+     },
+     {
+      "item": "-73.7437599973",
+      "count": "97"
+     },
+     {
+      "item": "-73.6001444386",
+      "count": "64"
+     },
+     {
+      "item": "-74.1908941206",
+      "count": "48"
+     },
+     {
+      "item": "-73.5409865164",
+      "count": "26"
+     }
+    ],
+    "smallest": "-74.6582056212",
+    "count": "101322",
+    "cardinality": "101322"
+   },
+   "format": {}
+  },
+  {
+   "id": 554648215,
+   "name": "MUNICIPIO_DESTINO",
+   "dataTypeName": "text",
+   "description": "Municipio en el cual finaliza una operación de transporte férreo",
+   "fieldName": "municipio_destino",
+   "position": 7,
+   "renderTypeName": "text",
+   "tableColumnId": 139309087,
+   "cachedContents": {
+    "non_null": "101322",
+    "largest": "ZIPAQUIRÁ",
+    "null": "0",
+    "top": [
+     {
+      "item": "CIÉNAGA",
+      "count": "34356"
+     },
+     {
+      "item": "BOGOTÁ, DISTRITO CAPITAL",
+      "count": "28764"
+     },
+     {
+      "item": "ZIPAQUIRÁ",
+      "count": "14622"
+     },
+     {
+      "item": "CHÍA",
+      "count": "13674"
+     },
+     {
+      "item": "CORDOBITA",
+      "count": "2435"
+     },
+     {
+      "item": "BARRANCABERMEJA",
+      "count": "2129"
+     },
+     {
+      "item": "PUERTO PARRA",
+      "count": "1548"
+     },
+     {
+      "item": "PUERTO BERRÍO",
+      "count": "1548"
+     },
+     {
+      "item": "LA SIERRA",
+      "count": "420"
+     },
+     {
+      "item": "CAJICÁ",
+      "count": "336"
+     },
+     {
+      "item": "PAIPA",
+      "count": "288"
+     },
+     {
+      "item": "SOGAMOSO",
+      "count": "288"
+     },
+     {
+      "item": "PUERTO WILCHES KILOMETRO 16",
+      "count": "242"
+     },
+     {
+      "item": "GARCÍA CADENA",
+      "count": "224"
+     },
+     {
+      "item": "NEMOCÓN",
+      "count": "180"
+     },
+     {
+      "item": "LA DORADA",
+      "count": "111"
+     },
+     {
+      "item": "CHIRIGUANÁ",
+      "count": "48"
+     },
+     {
+      "item": "SANTA MARTA, DISTRITO TURÍSTICO, CULTURAL E HISTÓRICO",
+      "count": "47"
+     },
+     {
+      "item": "BUTURAMA",
+      "count": "41"
+     },
+     {
+      "item": "ESTACIÓN CHIRIGUANÁ",
+      "count": "19"
+     }
+    ],
+    "smallest": "BARRANCABERMEJA",
+    "count": "101322",
+    "cardinality": "101322"
+   },
+   "format": {}
+  },
+  {
+   "id": 554648216,
+   "name": "LATITUD_DESTINO",
+   "dataTypeName": "number",
+   "description": "Ubicación geografica en grados, minutos y segundos, del municipio de destino de norte a sur",
+   "fieldName": "latitud_destino",
+   "position": 8,
+   "renderTypeName": "number",
+   "tableColumnId": 139309088,
+   "cachedContents": {
+    "non_null": "101322",
+    "largest": "11.2294335041",
+    "null": "0",
+    "top": [
+     {
+      "item": "11.0066568813",
+      "count": "34356"
+     },
+     {
+      "item": "4.65017303026",
+      "count": "28764"
+     },
+     {
+      "item": "5.02547168537",
+      "count": "14622"
+     },
+     {
+      "item": "4.86606542368",
+      "count": "13674"
+     },
+     {
+      "item": "11.0215163543",
+      "count": "2435"
+     },
+     {
+      "item": "7.06496386399",
+      "count": "2129"
+     },
+     {
+      "item": "6.65080670207",
+      "count": "1548"
+     },
+     {
+      "item": "6.48704114044",
+      "count": "1548"
+     },
+     {
+      "item": "6.21948108928",
+      "count": "420"
+     },
+     {
+      "item": "4.92080905869",
+      "count": "336"
+     },
+     {
+      "item": "5.72568939005",
+      "count": "288"
+     },
+     {
+      "item": "5.77994187022",
+      "count": "288"
+     },
+     {
+      "item": "7.27501090773",
+      "count": "242"
+     },
+     {
+      "item": "7.31175710411",
+      "count": "224"
+     },
+     {
+      "item": "5.06736463787",
+      "count": "180"
+     },
+     {
+      "item": "5.44440609816",
+      "count": "111"
+     },
+     {
+      "item": "9.36118961071",
+      "count": "48"
+     },
+     {
+      "item": "11.2294335041",
+      "count": "47"
+     },
+     {
+      "item": "8.22783906692",
+      "count": "41"
+     },
+     {
+      "item": "9.3651360301",
+      "count": "19"
+     }
+    ],
+    "smallest": "4.65017303026",
+    "count": "101322",
+    "cardinality": "101322"
+   },
+   "format": {}
+  },
+  {
+   "id": 554648217,
+   "name": "LONGITUD_DESTINO",
+   "dataTypeName": "number",
+   "description": "Ubicación geografica en grados, minutos y segundos, del municipio de destino de este a oeste",
+   "fieldName": "longitud_destino",
+   "position": 9,
+   "renderTypeName": "number",
+   "tableColumnId": 139309089,
+   "cachedContents": {
+    "non_null": "101322",
+    "largest": "-72.9230476859",
+    "null": "0",
+    "top": [
+     {
+      "item": "-74.2412861592",
+      "count": "34356"
+     },
+     {
+      "item": "-74.1073590032",
+      "count": "28764"
+     },
+     {
+      "item": "-73.9944712419",
+      "count": "14622"
+     },
+     {
+      "item": "-74.0503468211",
+      "count": "13674"
+     },
+     {
+      "item": "-74.2087088863",
+      "count": "2435"
+     },
+     {
+      "item": "-73.8499569753",
+      "count": "2129"
+     },
+     {
+      "item": "-74.0560942894",
+      "count": "1548"
+     },
+     {
+      "item": "-74.4099455275",
+      "count": "1548"
+     },
+     {
+      "item": "-74.5716887665",
+      "count": "420"
+     },
+     {
+      "item": "-74.0234539659",
+      "count": "336"
+     },
+     {
+      "item": "-73.1179168833",
+      "count": "288"
+     },
+     {
+      "item": "-72.9230476859",
+      "count": "288"
+     },
+     {
+      "item": "-73.7660688342",
+      "count": "242"
+     },
+     {
+      "item": "-73.7930382211",
+      "count": "224"
+     },
+     {
+      "item": "-73.8796297366",
+      "count": "180"
+     },
+     {
+      "item": "-74.6582056212",
+      "count": "111"
+     },
+     {
+      "item": "-73.6001444386",
+      "count": "48"
+     },
+     {
+      "item": "-74.1908941206",
+      "count": "47"
+     },
+     {
+      "item": "-73.6948581902",
+      "count": "41"
+     },
+     {
+      "item": "-73.5653004569",
+      "count": "19"
+     }
+    ],
+    "smallest": "-74.6582056212",
+    "count": "101322",
+    "cardinality": "101322"
+   },
+   "format": {}
+  },
+  {
+   "id": 554648218,
+   "name": "TIPO_CARGA",
+   "dataTypeName": "text",
+   "description": "Especificación de tipo de carga que  transporta un operador sobre una vía férrea; puede ser: personas o mercancía",
+   "fieldName": "tipo_carga",
+   "position": 10,
+   "renderTypeName": "text",
+   "tableColumnId": 139309090,
+   "cachedContents": {
+    "non_null": "101322",
+    "largest": "PASAJEROS",
+    "null": "0",
+    "top": [
+     {
+      "item": "PASAJEROS",
+      "count": "58572"
+     },
+     {
+      "item": "CARBON AL",
+      "count": "36776"
+     },
+     {
+      "item": "GENERAL",
+      "count": "5952"
+     },
+     {
+      "item": "CONTENEDO",
+      "count": "22"
+     }
+    ],
+    "smallest": "CARBON AL",
+    "count": "101322",
+    "cardinality": "101322"
+   },
+   "format": {}
+  },
+  {
+   "id": 554648219,
+   "name": "PRODUCTO",
+   "dataTypeName": "text",
+   "description": "Especificación más detallada del tipo de carga por lo general en mercancia",
+   "fieldName": "producto",
+   "position": 11,
+   "renderTypeName": "text",
+   "tableColumnId": 139309091,
+   "cachedContents": {
+    "non_null": "101322",
+    "largest": "TRA",
+    "null": "0",
+    "top": [
+     {
+      "item": "N/A",
+      "count": "58572"
+     },
+     {
+      "item": "CAR",
+      "count": "36876"
+     },
+     {
+      "item": "BUL",
+      "count": "5691"
+     },
+     {
+      "item": "GEN",
+      "count": "148"
+     },
+     {
+      "item": "CON",
+      "count": "22"
+     },
+     {
+      "item": "0",
+      "count": "12"
+     },
+     {
+      "item": "TRA",
+      "count": "1"
+     }
+    ],
+    "smallest": "0",
+    "count": "101322",
+    "cardinality": "101322"
+   },
+   "format": {}
+  },
+  {
+   "id": 554648220,
+   "name": "PESO",
+   "dataTypeName": "number",
+   "description": "Cantidad de masa que podría pesar un vagón, la medida puede ser en kilogramos o toneladas",
+   "fieldName": "peso",
+   "position": 12,
+   "renderTypeName": "number",
+   "tableColumnId": 139309092,
+   "cachedContents": {
+    "non_null": "101322",
+    "largest": "9141",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "59898"
+     },
+     {
+      "item": "1.5",
+      "count": "2251"
+     },
+     {
+      "item": "1",
+      "count": "2228"
+     },
+     {
+      "item": "0.5",
+      "count": "769"
+     },
+     {
+      "item": "7506",
+      "count": "477"
+     },
+     {
+      "item": "7502",
+      "count": "463"
+     },
+     {
+      "item": "7504",
+      "count": "456"
+     },
+     {
+      "item": "7501",
+      "count": "453"
+     },
+     {
+      "item": "7503",
+      "count": "452"
+     },
+     {
+      "item": "7507",
+      "count": "451"
+     },
+     {
+      "item": "7505",
+      "count": "435"
+     },
+     {
+      "item": "7508",
+      "count": "411"
+     },
+     {
+      "item": "7500",
+      "count": "409"
+     },
+     {
+      "item": "7509",
+      "count": "399"
+     },
+     {
+      "item": "7512",
+      "count": "396"
+     },
+     {
+      "item": "7511",
+      "count": "396"
+     },
+     {
+      "item": "7496",
+      "count": "389"
+     },
+     {
+      "item": "7510",
+      "count": "387"
+     },
+     {
+      "item": "7497",
+      "count": "386"
+     },
+     {
+      "item": "7518",
+      "count": "373"
+     }
+    ],
+    "smallest": "0",
+    "count": "101322",
+    "cardinality": "101322"
+   },
+   "format": {}
+  },
+  {
+   "id": 554648221,
+   "name": "RED",
+   "dataTypeName": "text",
+   "description": "La red ferroviaria es la infraestructura que se compone de instalaciones ferroviarias que cuentan con electrificación, señalización, seguridad, comunicaciones y caminos de servicio, que permiten acceder a la vía y a las instalaciones ferroviarias.",
+   "fieldName": "red",
+   "position": 13,
+   "renderTypeName": "text",
+   "tableColumnId": 139309093,
+   "cachedContents": {
+    "non_null": "101322",
+    "largest": "PUBLICO",
+    "null": "0",
+    "top": [
+     {
+      "item": "PUBLICO",
+      "count": "101322"
+     }
+    ],
+    "smallest": "PUBLICO",
+    "count": "101322",
+    "cardinality": "101322"
+   },
+   "format": {}
+  },
+  {
+   "id": 554648222,
+   "name": "VAGONES_CARGA",
+   "dataTypeName": "number",
+   "description": "Vehículo ferroviario utilizado para transportar mercancías.",
+   "fieldName": "vagones_carga",
+   "position": 14,
+   "renderTypeName": "number",
+   "tableColumnId": 139309094,
+   "cachedContents": {
+    "non_null": "101322",
+    "largest": "1580",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "62338"
+     },
+     {
+      "item": "150",
+      "count": "29398"
+     },
+     {
+      "item": "148",
+      "count": "3088"
+     },
+     {
+      "item": "1",
+      "count": "2678"
+     },
+     {
+      "item": "147",
+      "count": "1831"
+     },
+     {
+      "item": "146",
+      "count": "296"
+     },
+     {
+      "item": "102",
+      "count": "180"
+     },
+     {
+      "item": "145",
+      "count": "154"
+     },
+     {
+      "item": "2",
+      "count": "135"
+     },
+     {
+      "item": "90",
+      "count": "116"
+     },
+     {
+      "item": "105",
+      "count": "81"
+     },
+     {
+      "item": "104",
+      "count": "81"
+     },
+     {
+      "item": "144",
+      "count": "73"
+     },
+     {
+      "item": "149",
+      "count": "72"
+     },
+     {
+      "item": "100",
+      "count": "68"
+     },
+     {
+      "item": "143",
+      "count": "62"
+     },
+     {
+      "item": "142",
+      "count": "58"
+     },
+     {
+      "item": "50",
+      "count": "31"
+     },
+     {
+      "item": "103",
+      "count": "26"
+     },
+     {
+      "item": "140",
+      "count": "24"
+     }
+    ],
+    "smallest": "0",
+    "count": "101322",
+    "cardinality": "101322"
+   },
+   "format": {}
+  },
+  {
+   "id": 554648223,
+   "name": "VAGONES_PASAJEROS",
+   "dataTypeName": "number",
+   "description": "Vehículo ferroviario utilizado para transportar personas.",
+   "fieldName": "vagones_pasajeros",
+   "position": 15,
+   "renderTypeName": "number",
+   "tableColumnId": 139309095,
+   "cachedContents": {
+    "non_null": "101322",
+    "largest": "192",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "39075"
+     },
+     {
+      "item": "4",
+      "count": "10748"
+     },
+     {
+      "item": "9",
+      "count": "9558"
+     },
+     {
+      "item": "3",
+      "count": "8704"
+     },
+     {
+      "item": "6",
+      "count": "4968"
+     },
+     {
+      "item": "5",
+      "count": "4644"
+     },
+     {
+      "item": "10",
+      "count": "3096"
+     },
+     {
+      "item": "1",
+      "count": "3001"
+     },
+     {
+      "item": "2",
+      "count": "2906"
+     },
+     {
+      "item": "13",
+      "count": "2304"
+     },
+     {
+      "item": "8",
+      "count": "2208"
+     },
+     {
+      "item": "7",
+      "count": "2094"
+     },
+     {
+      "item": "11",
+      "count": "1620"
+     },
+     {
+      "item": "12",
+      "count": "1524"
+     },
+     {
+      "item": "16",
+      "count": "996"
+     },
+     {
+      "item": "18",
+      "count": "828"
+     },
+     {
+      "item": "19",
+      "count": "804"
+     },
+     {
+      "item": "17",
+      "count": "768"
+     },
+     {
+      "item": "14",
+      "count": "660"
+     },
+     {
+      "item": "15",
+      "count": "624"
+     }
+    ],
+    "smallest": "0",
+    "count": "101322",
+    "cardinality": "101322"
+   },
+   "format": {}
+  },
+  {
+   "id": 554648224,
+   "name": "CANTIDAD_PASAJEROS",
+   "dataTypeName": "number",
+   "description": "Número de personas que se transportan dentro de un vehículo ferroviario desde un origen y hasta un destino.",
+   "fieldName": "cantidad_pasajeros",
+   "position": 16,
+   "renderTypeName": "number",
+   "tableColumnId": 139309096,
+   "cachedContents": {
+    "non_null": "101322",
+    "largest": "1450",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "37790"
+     },
+     {
+      "item": "74",
+      "count": "389"
+     },
+     {
+      "item": "78",
+      "count": "292"
+     },
+     {
+      "item": "80",
+      "count": "286"
+     },
+     {
+      "item": "63",
+      "count": "253"
+     },
+     {
+      "item": "66",
+      "count": "252"
+     },
+     {
+      "item": "72",
+      "count": "242"
+     },
+     {
+      "item": "85",
+      "count": "241"
+     },
+     {
+      "item": "51",
+      "count": "241"
+     },
+     {
+      "item": "60",
+      "count": "240"
+     },
+     {
+      "item": "82",
+      "count": "239"
+     },
+     {
+      "item": "600",
+      "count": "234"
+     },
+     {
+      "item": "77",
+      "count": "231"
+     },
+     {
+      "item": "62",
+      "count": "230"
+     },
+     {
+      "item": "64",
+      "count": "229"
+     },
+     {
+      "item": "69",
+      "count": "227"
+     },
+     {
+      "item": "75",
+      "count": "226"
+     },
+     {
+      "item": "76",
+      "count": "225"
+     },
+     {
+      "item": "90",
+      "count": "224"
+     },
+     {
+      "item": "81",
+      "count": "224"
+     }
+    ],
+    "smallest": "0",
+    "count": "101322",
+    "cardinality": "101322"
+   },
+   "format": {}
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Superintendencia de Transporte - SUPERTRANSPORTE, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Transporte",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Nacional",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Mensual"
+   }
+  }
+ },
+ "owner": {
+  "id": "e53y-7yga",
+  "displayName": "datosabiertos@supertransporte.gov.co",
+  "profileImageUrlLarge": "/api/users/e53y-7yga/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/e53y-7yga/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/e53y-7yga/profile_images/TINY",
+  "screenName": "datosabiertos@supertransporte.gov.co",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "e53y-7yga",
+  "displayName": "datosabiertos@supertransporte.gov.co",
+  "profileImageUrlLarge": "/api/users/e53y-7yga/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/e53y-7yga/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/e53y-7yga/profile_images/TINY",
+  "screenName": "datosabiertos@supertransporte.gov.co",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "carga ferrea",
+  "pasajeros ferreo",
+  "transporte ferreo",
+  "colombia",
+  "transporte",
+  "supertransporte"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

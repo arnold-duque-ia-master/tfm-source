@@ -1,0 +1,80 @@
+{
+ "id": "ni93-8mm5",
+ "alias": "preciosMinerales",
+ "type": "PreciosMinerales",
+ "baseWhere": null,
+ "columns": {
+  "noResolucion": {
+   "field": "resolucion",
+   "kind": "int",
+   "gql": "Int",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "fechaDeResolucion": {
+   "field": "fecha_de_resolucion",
+   "kind": "date",
+   "gql": "Date",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "fechaDeInicio": {
+   "field": "fecha_inicio",
+   "kind": "date",
+   "gql": "Date",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "fechaFin": {
+   "field": "fecha_fin",
+   "kind": "date",
+   "gql": "Date",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "mineral": {
+   "field": "mineral",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "precio": {
+   "field": "precio",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "unidad": {
+   "field": "unidad",
+   "kind": "enum",
+   "gql": "PreciosMineralesUnidad",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "GRS": [
+     "Grs"
+    ],
+    "KG": [
+     "kg"
+    ],
+    "LB": [
+     "Lb"
+    ],
+    "M3": [
+     "m3"
+    ],
+    "TON": [
+     "Ton"
+    ]
+   }
+  }
+ }
+}

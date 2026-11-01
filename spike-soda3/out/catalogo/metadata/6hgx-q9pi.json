@@ -1,0 +1,3089 @@
+{
+ "id": "6hgx-q9pi",
+ "name": "Proyectos de Investigación e Innovación evaluados y aprobados desde el año 2009",
+ "assetType": "dataset",
+ "attribution": "Ministerio de Ciencia, Tecnología e Innovación - MinCiencias, Bogotá D.C.",
+ "attributionLink": "http://www.minciencias.gov.co/",
+ "averageRating": 0,
+ "category": "Ciencia, Tecnología e Innovación",
+ "createdAt": 1627535920,
+ "description": "Contiene información de los proyectos de investigación e innovación registrados en el Sistema de Gestión de Proyectos - SIGP del Ministerio de Ciencia, Tecnología e Innovación, evaluados por pares evaluadores y paneles de expertos y aprobados desde el año 2009 a Junio de 2021.",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 4082,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 37493867,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1627541467,
+ "publicationGroup": 18400550,
+ "publicationStage": "published",
+ "rowsUpdatedAt": 1777326669,
+ "rowsUpdatedBy": "8mf8-8qap",
+ "tableId": 18400550,
+ "totalTimesRated": 0,
+ "viewCount": 10330,
+ "viewLastModified": 1779130717,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1628096076,
+   "reviewedAutomatically": false,
+   "state": "approved",
+   "submissionId": 3873513,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1627541635,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "reviewer": {
+    "id": "r4qn-dwdd",
+    "displayName": "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+   },
+   "submissionDetails": {
+    "permissionType": "read"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1628096076,
+    "failureCount": 0,
+    "startedAt": 1628096076,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "f9yv-tter",
+    "displayName": "Ministerio de Ciencia, Tecnología e Innovación"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 545659566,
+   "name": "PROYECTO_ID",
+   "dataTypeName": "text",
+   "description": "Identificación interna del proyecto",
+   "fieldName": "proyecto_id",
+   "position": 1,
+   "renderTypeName": "text",
+   "tableColumnId": 138912577,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "90097",
+    "null": "0",
+    "top": [
+     {
+      "item": "54756",
+      "count": "2"
+     },
+     {
+      "item": "54671",
+      "count": "2"
+     },
+     {
+      "item": "54652",
+      "count": "2"
+     },
+     {
+      "item": "54797",
+      "count": "2"
+     },
+     {
+      "item": "54820",
+      "count": "2"
+     },
+     {
+      "item": "54630",
+      "count": "2"
+     },
+     {
+      "item": "54667",
+      "count": "2"
+     },
+     {
+      "item": "54941",
+      "count": "2"
+     },
+     {
+      "item": "54906",
+      "count": "2"
+     },
+     {
+      "item": "54890",
+      "count": "2"
+     },
+     {
+      "item": "54745",
+      "count": "2"
+     },
+     {
+      "item": "54846",
+      "count": "2"
+     },
+     {
+      "item": "54840",
+      "count": "2"
+     },
+     {
+      "item": "54884",
+      "count": "2"
+     },
+     {
+      "item": "54778",
+      "count": "2"
+     },
+     {
+      "item": "57065",
+      "count": "1"
+     },
+     {
+      "item": "45898",
+      "count": "1"
+     },
+     {
+      "item": "35325",
+      "count": "1"
+     },
+     {
+      "item": "68048",
+      "count": "1"
+     },
+     {
+      "item": "37722",
+      "count": "1"
+     }
+    ],
+    "smallest": "30367",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659565,
+   "name": "CONVOCATORIA_ID",
+   "dataTypeName": "text",
+   "description": "Identificación de la convocatoria",
+   "fieldName": "convocatoria_id",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 138912576,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "-604",
+    "null": "0",
+    "top": [
+     {
+      "item": "11204",
+      "count": "339"
+     },
+     {
+      "item": "11168",
+      "count": "302"
+     },
+     {
+      "item": "11157",
+      "count": "151"
+     },
+     {
+      "item": "11340",
+      "count": "147"
+     },
+     {
+      "item": "11259",
+      "count": "145"
+     },
+     {
+      "item": "11144",
+      "count": "124"
+     },
+     {
+      "item": "11423",
+      "count": "108"
+     },
+     {
+      "item": "11382",
+      "count": "106"
+     },
+     {
+      "item": "11295",
+      "count": "94"
+     },
+     {
+      "item": "11269",
+      "count": "86"
+     },
+     {
+      "item": "11396",
+      "count": "83"
+     },
+     {
+      "item": "11324",
+      "count": "78"
+     },
+     {
+      "item": "11165",
+      "count": "71"
+     },
+     {
+      "item": "11195",
+      "count": "57"
+     },
+     {
+      "item": "11148",
+      "count": "56"
+     },
+     {
+      "item": "11305",
+      "count": "48"
+     },
+     {
+      "item": "11323",
+      "count": "44"
+     },
+     {
+      "item": "11115",
+      "count": "44"
+     },
+     {
+      "item": "11160",
+      "count": "42"
+     },
+     {
+      "item": "11274",
+      "count": "35"
+     }
+    ],
+    "smallest": "11115",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659583,
+   "name": "ANO_CONVOCATORIA",
+   "dataTypeName": "number",
+   "description": "Año de la convocatoria",
+   "fieldName": "ano_convocatoria",
+   "position": 3,
+   "renderTypeName": "number",
+   "tableColumnId": 138912594,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "2021",
+    "null": "0",
+    "top": [
+     {
+      "item": "2010",
+      "count": "639"
+     },
+     {
+      "item": "2012",
+      "count": "561"
+     },
+     {
+      "item": "2014",
+      "count": "334"
+     },
+     {
+      "item": "2009",
+      "count": "272"
+     },
+     {
+      "item": "2015",
+      "count": "255"
+     },
+     {
+      "item": "2018",
+      "count": "224"
+     },
+     {
+      "item": "2019",
+      "count": "175"
+     },
+     {
+      "item": "2017",
+      "count": "172"
+     },
+     {
+      "item": "2016",
+      "count": "147"
+     },
+     {
+      "item": "2011",
+      "count": "97"
+     },
+     {
+      "item": "2013",
+      "count": "92"
+     },
+     {
+      "item": "2008",
+      "count": "89"
+     },
+     {
+      "item": "2021",
+      "count": "58"
+     },
+     {
+      "item": "2020",
+      "count": "39"
+     },
+     {
+      "item": "2007",
+      "count": "1"
+     }
+    ],
+    "smallest": "2007",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659582,
+   "name": "DESC_CONVOCATORIA",
+   "dataTypeName": "text",
+   "description": "Descripción de la convocatoria",
+   "fieldName": "desc_convocatoria",
+   "position": 4,
+   "renderTypeName": "text",
+   "tableColumnId": 138912593,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "CENTRO NACIONAL DE SECUENCIACION GENOMICA",
+    "null": "0",
+    "top": [
+     {
+      "item": "569 - 2012 BANCO DE PROYECTOS ELEGIBLES DE CTeI",
+      "count": "339"
+     },
+     {
+      "item": "521-2010 Banco de Proyectos de Investigacion Cientifica o Tecnologica - ano 2010",
+      "count": "302"
+     },
+     {
+      "item": "502-2010 BANCO DE PROYECTOS Y PROGRAMAS IDI - MODALIDAD COFINANCIACION - 2010",
+      "count": "151"
+     },
+     {
+      "item": "777-2017 CONVOCATORIA PARA PROYECTOS DE CIENCIA TECNOLOGIA E INNOVACION EN SALUD 2017",
+      "count": "147"
+     },
+     {
+      "item": "658-2014 CONVOCATORIA PARA PROYECTOS DE INVESTIGACION EN CIENCIAS BASICAS",
+      "count": "145"
+     },
+     {
+      "item": "489-2009 CONFORMACION DEL BANCO DE PROYECTOS DE INVESTIGACION ELEGIBLES - ANO 2009",
+      "count": "124"
+     },
+     {
+      "item": "844-2019 CONVOCATORIA PACTO PARA LA GENERACION DE NUEVO CONOCIMIENTO A TRAVES DE PROYECTOS DE INVEST",
+      "count": "108"
+     },
+     {
+      "item": "807 - 2018 CONVOCATORIA PARA PROYECTOS DE CIENCIA TECNOLOGIA E INNOVACION EN SALUD 2018",
+      "count": "106"
+     },
+     {
+      "item": "712-2015 CONVOCATORIA PARA PROYECTOS DE INVESTIGACION EN CIENCIAS BASICAS",
+      "count": "94"
+     },
+     {
+      "item": "657-2014 CONVOCATORIA PARA PROYECTOS DE CIENCIA TECNOLOGIA E INNOVACION EN SALUD",
+      "count": "86"
+     },
+     {
+      "item": "808-2018 PROYECTOS DE CIENCIA TECNOLOGIA E INNOVACION Y SU CONTRIBUCION A LOS RETOS DE PAIS",
+      "count": "83"
+     },
+     {
+      "item": "744 - CONVOCATORIA PARA PROYECTOS DE CIENCIA TECNOLOGIA E INNOVACION EN SALUD - 2016",
+      "count": "78"
+     },
+     {
+      "item": "519-2010 BANCO PROYECTOS EN SALUD - NACIONAL",
+      "count": "71"
+     },
+     {
+      "item": "562 - 2012 BANCO DE PROGRAMAS Y PROYECTOS IDI - MODALIDAD COFINANCIACION",
+      "count": "57"
+     },
+     {
+      "item": "493-2009 BANCO PROYECTOS EN SALUD - NACIONAL",
+      "count": "56"
+     },
+     {
+      "item": "715 - 2015 CONVOCATORIA PARA PROYECTOS DE INVESTIGACION Y DESARROLLO EN INGENIERIAS - 2015",
+      "count": "48"
+     },
+     {
+      "item": "745- CONVOCATORIA PARA PROYECTOS DE CTeI Y SU CONTRIBUCION A LOS RETOS DE PAIS - 2016",
+      "count": "44"
+     },
+     {
+      "item": "454/08 - PROYECTOS INVESTIGACION-INNOVACION Y DESARROLLO-COFINANCIACION-ANO 2008-2009",
+      "count": "44"
+     },
+     {
+      "item": "508-2010 BANCO DE PROYECTOS ESTANDARIZACION Y ACREDITACION DE LABORATORIOS",
+      "count": "42"
+     },
+     {
+      "item": "669-2014 CONVOCATORIA PARA APOYAR PROYECTOS DE INVESTIGACION Y DESARROLLO EN INGENIERIAS - 2014",
+      "count": "35"
+     }
+    ],
+    "smallest": "1002-2019 FORTALECIMIENTO CENTROS AUTONOMOS DE INVESTIGACION E INSTITUTOS O CENTROS PUBLICOS DE ID",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659564,
+   "name": "CODIGO_PROYECTO",
+   "dataTypeName": "text",
+   "description": "Código del proyecto",
+   "fieldName": "codigo_proyecto",
+   "position": 5,
+   "renderTypeName": "text",
+   "tableColumnId": 138912575,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "958790586259",
+    "null": "0",
+    "top": [
+     {
+      "item": "122874455684",
+      "count": "2"
+     },
+     {
+      "item": "210474455553",
+      "count": "2"
+     },
+     {
+      "item": "210474455818",
+      "count": "2"
+     },
+     {
+      "item": "212074455505",
+      "count": "2"
+     },
+     {
+      "item": "130874455696",
+      "count": "2"
+     },
+     {
+      "item": "111574455885",
+      "count": "2"
+     },
+     {
+      "item": "111574455028",
+      "count": "2"
+     },
+     {
+      "item": "111274455774",
+      "count": "2"
+     },
+     {
+      "item": "111574455595",
+      "count": "2"
+     },
+     {
+      "item": "111374455483",
+      "count": "2"
+     },
+     {
+      "item": "121974455231",
+      "count": "2"
+     },
+     {
+      "item": "110774455079",
+      "count": "2"
+     },
+     {
+      "item": "130874455642",
+      "count": "2"
+     },
+     {
+      "item": "651774455193",
+      "count": "2"
+     },
+     {
+      "item": "121074455786",
+      "count": "2"
+     },
+     {
+      "item": "110350227600",
+      "count": "1"
+     },
+     {
+      "item": "900186675906",
+      "count": "1"
+     },
+     {
+      "item": "126780763345",
+      "count": "1"
+     },
+     {
+      "item": "120465944147",
+      "count": "1"
+     },
+     {
+      "item": "622172553374",
+      "count": "1"
+     }
+    ],
+    "smallest": "000000025043",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659581,
+   "name": "TITULO_PROYECTO",
+   "dataTypeName": "text",
+   "description": "Titulo del proyecto",
+   "fieldName": "titulo_proyecto",
+   "position": 6,
+   "renderTypeName": "text",
+   "tableColumnId": 138912592,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "ZONIFICACI¿N AGROCLIMATICA DEL SISTEMA DE GANADERIA DEL VALLE DE UBATE Y CHIQUINQUIRA Y LA REGI¿N DEL ALTO CHICAMOCHA",
+    "null": "0",
+    "top": [
+     {
+      "item": "Estudio del efecto de la infeccion por virus ZIKA sobre la citomorfologia la neurobioquimica y el neurodesarrollo en modelos in vivo e in vitro",
+      "count": "2"
+     },
+     {
+      "item": "MOLECULAS SINTETICAS CON POTENCIAL ANTI-DENGUE COMO UNA ALTERNATIVA PARA EL CONTROL DE LA INFECCION IN VITRO POR VIRUS ZIKA",
+      "count": "2"
+     },
+     {
+      "item": "Impacto del incremento de los niveles de luminosidad en el salon de clases y del tiempo empleado en actividades al aire libre durante el recreo en la progresion de la miopia en ninos en edad escolar en Bucaramanga Colombia",
+      "count": "2"
+     },
+     {
+      "item": "Asociacion entre la proteasa RgpA y la enzima asociada a procesos de citrulinacion PPAD de Porphyromonas gingivalis y su impacto en pacientes con artritis reumatoide.",
+      "count": "2"
+     },
+     {
+      "item": "Estudio magneto-reologico de suspensiones de fibras de celulosa modificadas con nanoparticulas magneticas para la obtencion de papel magnetico",
+      "count": "2"
+     },
+     {
+      "item": "Evaluacion del papel de la vitamina D en la expresion de receptores tipo Toll citoquinas y microRNA en respuesta a la infeccion por los virus Chikungunya y Zika",
+      "count": "2"
+     },
+     {
+      "item": "Competencia vectorial de cepas de Stegomyia aegypti L. y Stegomyia albopicta S. (Diptera Culicidae) ante la infeccion con cepas los virus dengue 2 zika y chikungunya circulantes en Colombia",
+      "count": "2"
+     },
+     {
+      "item": "Evaluacion de un producto recombinante de Ascaris lumbricoides con capacidad inmunomoduladora en el tratamiento de artritis reumatoide y lupus eritematoso sistemico",
+      "count": "2"
+     },
+     {
+      "item": "Prediccion y evaluacion de peptidos inhibidores de proteinas ROP cinasas de Toxoplasma gondii como posible estrategia anti-toxoplasma.",
+      "count": "2"
+     },
+     {
+      "item": "Programa Estrategico Diseno e implementacion de modelos de gestion para mejoramiento de la eficiencia operativa en Mundial Logistics Service S.A. (MLS) y Comercial Plastider S.A.",
+      "count": "2"
+     },
+     {
+      "item": "CARACTERIZACION EPIDEMIOLOGICA DE LA LEPTOSPIROSIS HUMANA EN EL DEPARTAMENTO DE CORDOBA FORTALECIMIENTO DEL DIAGNOSTICO VIGILANCIA Y CONTROL",
+      "count": "2"
+     },
+     {
+      "item": "EVALUACION DE LA TOXICIDAD in vitro DEL MATERIAL PARTICULADO Y EL EFECTO EN LA SALUD DE TRABAJADORES INFORMALES DEL CENTRO DE MEDELLIN",
+      "count": "2"
+     },
+     {
+      "item": "Sindrome febril por arbovirus en ninos de Cali-Colombia diagnostico integrado y herramientas para la clasificacion de la severidad",
+      "count": "2"
+     },
+     {
+      "item": "Susceptibilidad a Anfotericina B en aislamientos clinicos de especies de Leishmania y en aislamientos expuestos a Miltefosina",
+      "count": "2"
+     },
+     {
+      "item": "Salud ambiental en 5 departamentos de la region central de Colombia carga de enfermedad y costos de la atencion en salud.",
+      "count": "2"
+     },
+     {
+      "item": "Determinacion de la carga atribuible de la enfermedad por contaminacion del aire urbano y sus costos economicos para la ciudad de Medellin 2010-2015",
+      "count": "2"
+     },
+     {
+      "item": "Biomarcadores genotoxicos in vitro para evaluar calidad y seguridad de material particulado total proveniente de diesel mezclado con alcoholes",
+      "count": "2"
+     },
+     {
+      "item": "DINOFLAGELADOS TECADOS DE AGUAS CONTINENTALES LENITICAS COLOMBIANAS ASPECTOS TAXONOMICOS MOLECULARES Y ECOLOGICOS",
+      "count": "2"
+     },
+     {
+      "item": "CEU CAJERO ELECTRONICO UNIVERSAL - SOLUCIONES INTEGRADAS",
+      "count": "2"
+     },
+     {
+      "item": "Efecto de la carbonilacion de ankirina R por 4-hidroxi-2-nonenal sobre la formacion de complejos de proteinas de membrana de eritrocitos humanos",
+      "count": "1"
+     }
+    ],
+    "smallest": "10 ENCUENTRO COLOMBIANO DE MATEMATICA EDUCATIVA",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659563,
+   "name": "FECHA_REGISTRO",
+   "dataTypeName": "calendar_date",
+   "description": "Fecha de registro del proyecto",
+   "fieldName": "fecha_registro",
+   "position": 7,
+   "renderTypeName": "calendar_date",
+   "tableColumnId": 138912574,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "2021-10-19T16:24:25.000",
+    "null": "0",
+    "top": [
+     {
+      "item": "2009-06-30T15:21:41.000",
+      "count": "4"
+     },
+     {
+      "item": "2010-10-15T17:08:37.000",
+      "count": "4"
+     },
+     {
+      "item": "2010-07-21T16:27:26.000",
+      "count": "4"
+     },
+     {
+      "item": "2010-10-15T18:53:55.000",
+      "count": "4"
+     },
+     {
+      "item": "2010-10-15T09:02:04.000",
+      "count": "3"
+     },
+     {
+      "item": "2010-07-21T16:32:27.000",
+      "count": "3"
+     },
+     {
+      "item": "2010-10-15T16:48:35.000",
+      "count": "3"
+     },
+     {
+      "item": "2012-05-30T13:51:35.000",
+      "count": "3"
+     },
+     {
+      "item": "2009-06-30T15:16:40.000",
+      "count": "3"
+     },
+     {
+      "item": "2010-10-15T15:38:22.000",
+      "count": "3"
+     },
+     {
+      "item": "2010-10-15T13:02:53.000",
+      "count": "2"
+     },
+     {
+      "item": "2010-10-15T10:07:17.000",
+      "count": "2"
+     },
+     {
+      "item": "2016-05-24T00:09:13.000",
+      "count": "2"
+     },
+     {
+      "item": "2012-06-01T14:22:02.000",
+      "count": "2"
+     },
+     {
+      "item": "2010-10-19T12:36:04.000",
+      "count": "2"
+     },
+     {
+      "item": "2010-10-15T14:38:10.000",
+      "count": "2"
+     },
+     {
+      "item": "2010-10-15T19:19:00.000",
+      "count": "2"
+     },
+     {
+      "item": "2009-05-04T14:31:51.000",
+      "count": "2"
+     },
+     {
+      "item": "2009-06-30T11:35:57.000",
+      "count": "2"
+     },
+     {
+      "item": "2010-10-14T19:59:43.000",
+      "count": "2"
+     }
+    ],
+    "smallest": "2009-01-16T09:03:55.000",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {
+    "view": "date_dmy",
+    "align": "left"
+   }
+  },
+  {
+   "id": 545659562,
+   "name": "FECHA_APROBACION",
+   "dataTypeName": "calendar_date",
+   "description": "Fecha de aprobación del proyecto",
+   "fieldName": "fecha_aprobacion",
+   "position": 8,
+   "renderTypeName": "calendar_date",
+   "tableColumnId": 138912573,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "2021-10-23T00:00:00.000",
+    "null": "0",
+    "top": [
+     {
+      "item": "1900-01-01T00:03:44.000",
+      "count": "183"
+     },
+     {
+      "item": "2010-12-15T00:00:00.000",
+      "count": "134"
+     },
+     {
+      "item": "2010-12-07T00:00:00.000",
+      "count": "107"
+     },
+     {
+      "item": "2018-10-09T00:00:00.000",
+      "count": "106"
+     },
+     {
+      "item": "2017-10-10T00:00:00.000",
+      "count": "94"
+     },
+     {
+      "item": "2014-11-24T00:00:00.000",
+      "count": "87"
+     },
+     {
+      "item": "2014-09-11T00:00:00.000",
+      "count": "86"
+     },
+     {
+      "item": "2018-12-21T00:00:00.000",
+      "count": "80"
+     },
+     {
+      "item": "2009-09-16T00:00:00.000",
+      "count": "80"
+     },
+     {
+      "item": "2010-12-14T00:00:00.000",
+      "count": "65"
+     },
+     {
+      "item": "2019-10-17T00:00:00.000",
+      "count": "62"
+     },
+     {
+      "item": "2018-03-12T00:00:00.000",
+      "count": "52"
+     },
+     {
+      "item": "2020-03-06T00:00:00.000",
+      "count": "52"
+     },
+     {
+      "item": "2015-12-15T00:00:00.000",
+      "count": "50"
+     },
+     {
+      "item": "2013-02-27T00:00:00.000",
+      "count": "46"
+     },
+     {
+      "item": "2016-09-28T00:00:00.000",
+      "count": "46"
+     },
+     {
+      "item": "2012-11-09T00:00:00.000",
+      "count": "37"
+     },
+     {
+      "item": "2011-01-27T00:00:00.000",
+      "count": "32"
+     },
+     {
+      "item": "2010-12-16T00:00:00.000",
+      "count": "31"
+     },
+     {
+      "item": "2016-03-07T00:00:00.000",
+      "count": "30"
+     }
+    ],
+    "smallest": "1900-01-01T00:03:44.000",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {
+    "view": "date_dmy"
+   }
+  },
+  {
+   "id": 545659580,
+   "name": "ENTIDAD_EJECUTA",
+   "dataTypeName": "text",
+   "description": "Nombre de la entidad ejecutora del proyecto",
+   "fieldName": "entidad_ejecuta",
+   "position": 9,
+   "renderTypeName": "text",
+   "tableColumnId": 138912591,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "UT Programa Intervenciones en salud orientadas por la APS y reduccion de la carga de trastornos mentales generadores de mayor cronicidad y discapacidad",
+    "null": "0",
+    "top": [
+     {
+      "item": "UNIVERSIDAD DE ANTIOQUIA - UDEA",
+      "count": "339"
+     },
+     {
+      "item": "UNIVERSIDAD NACIONAL DE COLOMBIA - SEDE BOGOTA",
+      "count": "270"
+     },
+     {
+      "item": "UNIVERSIDAD DEL VALLE - UNIVALLE",
+      "count": "130"
+     },
+     {
+      "item": "UNIVERSIDAD DE ANTIOQUIA",
+      "count": "110"
+     },
+     {
+      "item": "UNIVERSIDAD NACIONAL DE COLOMBIA - SEDE MEDELLIN",
+      "count": "90"
+     },
+     {
+      "item": "PONTIFICIA UNIVERSIDAD JAVERIANA - PUJ - SEDE BOGOTA",
+      "count": "88"
+     },
+     {
+      "item": "UNIVERSIDAD DE LOS ANDES - UNIANDES",
+      "count": "86"
+     },
+     {
+      "item": "UNIVERSIDAD INDUSTRIAL DE SANTANDER - UIS",
+      "count": "85"
+     },
+     {
+      "item": "UNIVERSIDAD DEL NORTE - UNINORTE",
+      "count": "70"
+     },
+     {
+      "item": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "count": "61"
+     },
+     {
+      "item": "UNIVERSIDAD DE CARTAGENA",
+      "count": "58"
+     },
+     {
+      "item": "UNIVERSIDAD DEL CAUCA - UNICAUCA",
+      "count": "41"
+     },
+     {
+      "item": "UNIVERSIDAD EAFIT",
+      "count": "41"
+     },
+     {
+      "item": "UNIVERSIDAD PONTIFICIA BOLIVARIANA - SEDE MEDELLIN",
+      "count": "37"
+     },
+     {
+      "item": "UNIVERSIDAD TECNOLOGICA DE PEREIRA - UTP",
+      "count": "35"
+     },
+     {
+      "item": "CORPORACION COLOMBIANA DE INVESTIGACION AGROPECUARIA - CORPOICA",
+      "count": "30"
+     },
+     {
+      "item": "CORPORACION PARA INVESTIGACIONES BIOLOGICAS - CIB",
+      "count": "29"
+     },
+     {
+      "item": "FUNDACION CARDIOVASCULAR DE COLOMBIA - FCV",
+      "count": "27"
+     },
+     {
+      "item": "UNIVERSIDAD ICESI",
+      "count": "27"
+     },
+     {
+      "item": "UNIVERSIDAD DEL QUINDIO - UNIQUINDIO",
+      "count": "26"
+     }
+    ],
+    "smallest": "AGROINDUSTRIAS TACAY S.A.S",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659579,
+   "name": "TIPO_FINANCIACION",
+   "dataTypeName": "text",
+   "description": "Código del tipo de financiación del proyecto",
+   "fieldName": "tipo_financiacion",
+   "position": 10,
+   "renderTypeName": "text",
+   "tableColumnId": 138912590,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "RT",
+    "null": "0",
+    "top": [
+     {
+      "item": "RC",
+      "count": "2222"
+     },
+     {
+      "item": "CF",
+      "count": "413"
+     },
+     {
+      "item": "RCP",
+      "count": "390"
+     },
+     {
+      "item": "RCMINTIC",
+      "count": "28"
+     },
+     {
+      "item": "AT",
+      "count": "28"
+     },
+     {
+      "item": "RO",
+      "count": "22"
+     },
+     {
+      "item": "RCGP",
+      "count": "22"
+     },
+     {
+      "item": "MX",
+      "count": "7"
+     },
+     {
+      "item": "RCI",
+      "count": "6"
+     },
+     {
+      "item": "CFASOC",
+      "count": "5"
+     },
+     {
+      "item": "RCDS",
+      "count": "3"
+     },
+     {
+      "item": "RT",
+      "count": "2"
+     },
+     {
+      "item": "RCAC",
+      "count": "2"
+     },
+     {
+      "item": "CE",
+      "count": "2"
+     },
+     {
+      "item": "INOVA",
+      "count": "2"
+     },
+     {
+      "item": "RCCONSUL",
+      "count": "1"
+     }
+    ],
+    "smallest": "AT",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659578,
+   "name": "DESC_FINANCIACION",
+   "dataTypeName": "text",
+   "description": "Descripción del tipo de financiación del proyecto",
+   "fieldName": "desc_financiacion",
+   "position": 11,
+   "renderTypeName": "text",
+   "tableColumnId": 138912589,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "RIESGO TECNOLOGICO COMPARTIDO",
+    "null": "0",
+    "top": [
+     {
+      "item": "RECUPERACION CONTINGENTE",
+      "count": "2164"
+     },
+     {
+      "item": "COFINANCIACION",
+      "count": "413"
+     },
+     {
+      "item": "RECUPERACION CONTINGENTE CTeI",
+      "count": "390"
+     },
+     {
+      "item": "RECUPERACIÓN CONTINGENTE",
+      "count": "58"
+     },
+     {
+      "item": "ASISTENCIA TECNICA",
+      "count": "28"
+     },
+     {
+      "item": "RECUPERACION CONTINGENTE MINTIC",
+      "count": "28"
+     },
+     {
+      "item": "REEMBOLSO OBLIGATORIO",
+      "count": "22"
+     },
+     {
+      "item": "RECUPERACION CONTINGENTE GESTION PUBLICA",
+      "count": "22"
+     },
+     {
+      "item": "MIXTO",
+      "count": "7"
+     },
+     {
+      "item": "RECUPERACION CONTINGENTE INNOVACION",
+      "count": "6"
+     },
+     {
+      "item": "COFINANCIACION ASOCIATIVA",
+      "count": "5"
+     },
+     {
+      "item": "RECUPERACION CONTINGENTE DIALOGO DE SABERES",
+      "count": "3"
+     },
+     {
+      "item": "RIESGO TECNOLOGICO COMPARTIDO",
+      "count": "2"
+     },
+     {
+      "item": "COFINANCIACION EMPRESAS",
+      "count": "2"
+     },
+     {
+      "item": "INCENTIVO A LA INNOVACION TECNOLOGICA",
+      "count": "2"
+     },
+     {
+      "item": "RECUPERACION CONTINGENTE ARTE Y CULTURA",
+      "count": "2"
+     },
+     {
+      "item": "RECUPERACION CONTINGENTE CONSULTORIA",
+      "count": "1"
+     }
+    ],
+    "smallest": "ASISTENCIA TECNICA",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659560,
+   "name": "COD_PROG_CTI",
+   "dataTypeName": "text",
+   "description": "Identificador del programa de CTeI al que se presentó el proyecto",
+   "fieldName": "cod_prog_cti",
+   "position": 12,
+   "renderTypeName": "text",
+   "tableColumnId": 138912571,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "9",
+    "null": "0",
+    "top": [
+     {
+      "item": "154",
+      "count": "554"
+     },
+     {
+      "item": "5",
+      "count": "474"
+     },
+     {
+      "item": "9",
+      "count": "405"
+     },
+     {
+      "item": "18",
+      "count": "246"
+     },
+     {
+      "item": "17",
+      "count": "205"
+     },
+     {
+      "item": "16",
+      "count": "160"
+     },
+     {
+      "item": "19",
+      "count": "131"
+     },
+     {
+      "item": "1",
+      "count": "129"
+     },
+     {
+      "item": "6",
+      "count": "95"
+     },
+     {
+      "item": "4",
+      "count": "92"
+     },
+     {
+      "item": "7",
+      "count": "86"
+     },
+     {
+      "item": "369",
+      "count": "77"
+     },
+     {
+      "item": "160",
+      "count": "75"
+     },
+     {
+      "item": "8",
+      "count": "62"
+     },
+     {
+      "item": "370",
+      "count": "59"
+     },
+     {
+      "item": "105",
+      "count": "58"
+     },
+     {
+      "item": "38",
+      "count": "31"
+     },
+     {
+      "item": "142",
+      "count": "29"
+     },
+     {
+      "item": "371",
+      "count": "26"
+     },
+     {
+      "item": "151",
+      "count": "25"
+     }
+    ],
+    "smallest": "1",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659577,
+   "name": "NME_PROG_CTI",
+   "dataTypeName": "text",
+   "description": "Nombre del programa de CTeI al que se presentó el proyecto",
+   "fieldName": "nme_prog_cti",
+   "position": 13,
+   "renderTypeName": "text",
+   "tableColumnId": 138912588,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "REGIONALIZACION PROYECTOS",
+    "null": "0",
+    "top": [
+     {
+      "item": "PROGRAMA NACIONAL DE CIENCIA TECNOLOGIA E INNOVACION EN SALUD",
+      "count": "554"
+     },
+     {
+      "item": "PROGRAMA NACIONAL EN CIENCIAS BASICAS",
+      "count": "474"
+     },
+     {
+      "item": "PROGRAMA NACIONAL DE CIENCIA Y TECNOLOGIA DE LA SALUD",
+      "count": "405"
+     },
+     {
+      "item": "PROGRAMA NACIONAL DE DESARROLLO TECNOLOGICO INDUSTRIAL Y CALIDAD",
+      "count": "246"
+     },
+     {
+      "item": "PROGRAMA NACIONAL DE CIENCIA Y TECNOLOGIA AGROPECUARIA",
+      "count": "205"
+     },
+     {
+      "item": "PROGRAMA NACIONAL DE ELECTRONICA TELECOMUNICACIONES E INFORMATICA",
+      "count": "160"
+     },
+     {
+      "item": "PROGRAMA NACIONAL DE INVESTIGACION EN ENERGIA Y MINERIA",
+      "count": "131"
+     },
+     {
+      "item": "PROGRAMA NACIONAL DE CIENCIA TECNOLOGIA E INNOVACION EN AMBIENTE BIODIVERSIDAD Y HABITAT",
+      "count": "129"
+     },
+     {
+      "item": "PROGRAMA NACIONAL DE CIENCIAS DEL MAR Y LOS RECURSOS HIDROBIOLOGICOS",
+      "count": "95"
+     },
+     {
+      "item": "PROGRAMA NACIONAL DE CIENCIAS SOCIALES Y HUMANAS",
+      "count": "92"
+     },
+     {
+      "item": "PROGRAMA NACIONAL DE BIOTECNOLOGIA",
+      "count": "86"
+     },
+     {
+      "item": "PROGRAMA NACIONAL DE CIENCIA TECNOLOGIA E INNOVACION EN INGENIERIA",
+      "count": "77"
+     },
+     {
+      "item": "FOMENTO A LA INVESTIGACION",
+      "count": "75"
+     },
+     {
+      "item": "PROGRAMA NACIONAL DE ESTUDIOS CIENTIFICOS EN EDUCACION",
+      "count": "62"
+     },
+     {
+      "item": "PROGRAMA NACIONAL DE CIENCIA TECNOLOGIA E INNOVACION EN CIENCIAS AGROPECUARIAS",
+      "count": "59"
+     },
+     {
+      "item": "APROPIACION SOCIAL DE LA CTI",
+      "count": "31"
+     },
+     {
+      "item": "ASISTENCIA TECNICA A PLANES DE NEGOCIO",
+      "count": "29"
+     },
+     {
+      "item": "PROGRAMA NACIONAL DE CIENCIA TECNOLOGIA E INNOVACION EN AMBIENTE OCEANOS Y BIODIVERSIDAD",
+      "count": "26"
+     },
+     {
+      "item": "REGIONALIZACION PROYECTOS",
+      "count": "25"
+     },
+     {
+      "item": "DIR EQUIPO GENERACIÓN DE CONOCIMIENTO / SALUD",
+      "count": "23"
+     }
+    ],
+    "smallest": "APROPIACION SOCIAL DE LA CTI",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659561,
+   "name": "COD_AREA_TEMATICA",
+   "dataTypeName": "text",
+   "description": "Código del área temática del proyecto",
+   "fieldName": "cod_area_tematica",
+   "position": 14,
+   "renderTypeName": "text",
+   "tableColumnId": 138912572,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "X",
+    "null": "0",
+    "top": [
+     {
+      "item": "X",
+      "count": "1249"
+     },
+     {
+      "item": "10764",
+      "count": "84"
+     },
+     {
+      "item": "10763",
+      "count": "61"
+     },
+     {
+      "item": "11395",
+      "count": "57"
+     },
+     {
+      "item": "11666",
+      "count": "44"
+     },
+     {
+      "item": "51",
+      "count": "44"
+     },
+     {
+      "item": "213",
+      "count": "39"
+     },
+     {
+      "item": "10813",
+      "count": "37"
+     },
+     {
+      "item": "11664",
+      "count": "35"
+     },
+     {
+      "item": "11665",
+      "count": "34"
+     },
+     {
+      "item": "11440",
+      "count": "32"
+     },
+     {
+      "item": "25",
+      "count": "32"
+     },
+     {
+      "item": "11681",
+      "count": "32"
+     },
+     {
+      "item": "10666",
+      "count": "31"
+     },
+     {
+      "item": "65",
+      "count": "31"
+     },
+     {
+      "item": "5",
+      "count": "30"
+     },
+     {
+      "item": "10299",
+      "count": "29"
+     },
+     {
+      "item": "300",
+      "count": "29"
+     },
+     {
+      "item": "11624",
+      "count": "27"
+     },
+     {
+      "item": "3",
+      "count": "27"
+     }
+    ],
+    "smallest": "1",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659576,
+   "name": "AREA_TEMATICA",
+   "dataTypeName": "text",
+   "description": "Nombre del área temática del proyecto",
+   "fieldName": "area_tematica",
+   "position": 15,
+   "renderTypeName": "text",
+   "tableColumnId": 138912587,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "ZOONOSIS",
+    "null": "0",
+    "top": [
+     {
+      "item": "No disponible",
+      "count": "1203"
+     },
+     {
+      "item": "INVESTIGACION BASICA ORIENTADA",
+      "count": "84"
+     },
+     {
+      "item": "ENFERMEDADES CRONICAS NO TRANSMISIBLES",
+      "count": "69"
+     },
+     {
+      "item": "INVESTIGACION FUNDAMENTAL",
+      "count": "61"
+     },
+     {
+      "item": "SALUD AMBIENTAL",
+      "count": "59"
+     },
+     {
+      "item": "Basicas biomedicas",
+      "count": "50"
+     },
+     {
+      "item": "ENFERMEDADES HUERFANAS AUTOINMUNES Y NEURODEGENERATIVAS.",
+      "count": "44"
+     },
+     {
+      "item": "INFORMATICA",
+      "count": "44"
+     },
+     {
+      "item": "ENFERMEDADES TRANSMISIBLES",
+      "count": "39"
+     },
+     {
+      "item": "CONDICIONES CRONICAS NO TRANSMISIBLES.",
+      "count": "35"
+     },
+     {
+      "item": "CONDICIONES TRANSMISIBLES E INFECCIOSAS.",
+      "count": "34"
+     },
+     {
+      "item": "SALUD MATERNA Y PERINATAL",
+      "count": "33"
+     },
+     {
+      "item": "CIENCIAS BASICAS BIOMEDICAS",
+      "count": "32"
+     },
+     {
+      "item": "AUTOPARTES",
+      "count": "32"
+     },
+     {
+      "item": "Estructura y funcion de ecosistemas",
+      "count": "32"
+     },
+     {
+      "item": "ALIMENTACION Y NUTRICION",
+      "count": "31"
+     },
+     {
+      "item": "DISENO Y DESARROLLO DE NUEVOS PRODUCTOS",
+      "count": "31"
+     },
+     {
+      "item": "SOFTWARE Y TECNOLOGIAS DE INFORMACION Y COMUNICACIONES",
+      "count": "30"
+     },
+     {
+      "item": "Fisica",
+      "count": "27"
+     },
+     {
+      "item": "ENFERMEDADES CRONICAS NO TRANSMISIBLES-CARDIO-CEREBRO-VASCULAR-METABOLICO",
+      "count": "27"
+     }
+    ],
+    "smallest": "1. CALIDAD AMBIENTAL MARINA. CALIDAD AMBIENTAL DE AGUAS COSTERAS",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659575,
+   "name": "COD_AREA_CIENCIA",
+   "dataTypeName": "text",
+   "description": "Código del área de ciencia asociada al proyecto",
+   "fieldName": "cod_area_ciencia",
+   "position": 16,
+   "renderTypeName": "text",
+   "tableColumnId": 138912586,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "X",
+    "null": "0",
+    "top": [
+     {
+      "item": "X",
+      "count": "2984"
+     },
+     {
+      "item": "2",
+      "count": "41"
+     },
+     {
+      "item": "33",
+      "count": "28"
+     },
+     {
+      "item": "23",
+      "count": "16"
+     },
+     {
+      "item": "11",
+      "count": "14"
+     },
+     {
+      "item": "22",
+      "count": "10"
+     },
+     {
+      "item": "53",
+      "count": "9"
+     },
+     {
+      "item": "41",
+      "count": "7"
+     },
+     {
+      "item": "5",
+      "count": "7"
+     },
+     {
+      "item": "52",
+      "count": "6"
+     },
+     {
+      "item": "15",
+      "count": "6"
+     },
+     {
+      "item": "14",
+      "count": "5"
+     },
+     {
+      "item": "9",
+      "count": "4"
+     },
+     {
+      "item": "42",
+      "count": "3"
+     },
+     {
+      "item": "13",
+      "count": "2"
+     },
+     {
+      "item": "3",
+      "count": "2"
+     },
+     {
+      "item": "4",
+      "count": "2"
+     },
+     {
+      "item": "12",
+      "count": "2"
+     },
+     {
+      "item": "61",
+      "count": "2"
+     },
+     {
+      "item": "0",
+      "count": "1"
+     }
+    ],
+    "smallest": "0",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659574,
+   "name": "NME_AREA_CIENCIA",
+   "dataTypeName": "text",
+   "description": "Descripción del área de ciencia asociada al proyecto",
+   "fieldName": "nme_area_ciencia",
+   "position": 17,
+   "renderTypeName": "text",
+   "tableColumnId": 138912585,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "No disponible",
+    "null": "0",
+    "top": [
+     {
+      "item": "No disponible",
+      "count": "2984"
+     },
+     {
+      "item": "2 INGENIERIA Y TECNOLOGIA",
+      "count": "41"
+     },
+     {
+      "item": "33 CIENCIAS DE LA SALUD",
+      "count": "28"
+     },
+     {
+      "item": "23 OTRAS CIENCIAS DE LA INGENIERIA",
+      "count": "16"
+     },
+     {
+      "item": "11 MATEMATICAS E INFORMATICA",
+      "count": "14"
+     },
+     {
+      "item": "22 INGENIERIA ELECTRICA ELECTRONICA",
+      "count": "10"
+     },
+     {
+      "item": "53 CIENCIAS DE LA EDUCACION",
+      "count": "9"
+     },
+     {
+      "item": "5 CIENCIAS SOCIALES",
+      "count": "7"
+     },
+     {
+      "item": "41 AGRICULTURA SELVICULTURA PESCA Y AFINES",
+      "count": "7"
+     },
+     {
+      "item": "52 ECONOMIA",
+      "count": "6"
+     },
+     {
+      "item": "15 CIENCIAS BIOLOGICAS",
+      "count": "6"
+     },
+     {
+      "item": "14 CIENCIAS DE LA TIERRA Y DEL MEDIO AMBIENTE",
+      "count": "5"
+     },
+     {
+      "item": "N. A.",
+      "count": "4"
+     },
+     {
+      "item": "42 MEDICINA VETERINARIA",
+      "count": "3"
+     },
+     {
+      "item": "3 CIENCIAS MEDICAS",
+      "count": "2"
+     },
+     {
+      "item": "13 CIENCIAS QUIMICAS",
+      "count": "2"
+     },
+     {
+      "item": "61 HISTORIA",
+      "count": "2"
+     },
+     {
+      "item": "12 CIENCIAS FISICAS",
+      "count": "2"
+     },
+     {
+      "item": "4 CIENCIAS AGRICOLAS",
+      "count": "2"
+     },
+     {
+      "item": "51 PSICOLOGIA",
+      "count": "1"
+     }
+    ],
+    "smallest": "11 MATEMATICAS E INFORMATICA",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659573,
+   "name": "ESTADO_PROYECTO",
+   "dataTypeName": "text",
+   "description": "Descripción del estado del proyecto",
+   "fieldName": "estado_proyecto",
+   "position": 18,
+   "renderTypeName": "text",
+   "tableColumnId": 138912584,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "SIN RECURSOS",
+    "null": "0",
+    "top": [
+     {
+      "item": "CODIFICADO",
+      "count": "956"
+     },
+     {
+      "item": "APROBADO",
+      "count": "828"
+     },
+     {
+      "item": "EJECUCION",
+      "count": "653"
+     },
+     {
+      "item": "POR ELABORAR CONTRATO",
+      "count": "226"
+     },
+     {
+      "item": "POR EVALUAR",
+      "count": "161"
+     },
+     {
+      "item": "SIN RECURSOS",
+      "count": "131"
+     },
+     {
+      "item": "LIQUIDADO",
+      "count": "49"
+     },
+     {
+      "item": "FINALIZADO",
+      "count": "36"
+     },
+     {
+      "item": "LIQUIDADO A PAZ Y SALVO",
+      "count": "30"
+     },
+     {
+      "item": "POR LIQUIDAR",
+      "count": "24"
+     },
+     {
+      "item": "EVALUADO",
+      "count": "21"
+     },
+     {
+      "item": "LIQUIDADO INFORME SECRETARIAL",
+      "count": "12"
+     },
+     {
+      "item": "NEGADO",
+      "count": "10"
+     },
+     {
+      "item": "APROBADO MEN-CINTEL",
+      "count": "5"
+     },
+     {
+      "item": "REVISADO",
+      "count": "5"
+     },
+     {
+      "item": "RETIRADO POR MINCIENCIAS",
+      "count": "3"
+     },
+     {
+      "item": "RETIRADO POR BENEFICIARIO",
+      "count": "2"
+     },
+     {
+      "item": "LEGALIZADO",
+      "count": "1"
+     },
+     {
+      "item": "RETIRADO",
+      "count": "1"
+     },
+     {
+      "item": "DEVUELTO",
+      "count": "1"
+     }
+    ],
+    "smallest": "APROBADO",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659559,
+   "name": "COD_DANE_CIUDAD_ENTIDAD",
+   "dataTypeName": "text",
+   "description": "Código DANE de la ciudad de la entidad que presentó el proyecto",
+   "fieldName": "cod_dane_ciudad_entidad",
+   "position": 19,
+   "renderTypeName": "text",
+   "tableColumnId": 138912570,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "94001",
+    "null": "0",
+    "top": [
+     {
+      "item": "11001",
+      "count": "1029"
+     },
+     {
+      "item": "05001",
+      "count": "789"
+     },
+     {
+      "item": "76001",
+      "count": "265"
+     },
+     {
+      "item": "68001",
+      "count": "192"
+     },
+     {
+      "item": "08001",
+      "count": "118"
+     },
+     {
+      "item": "13001",
+      "count": "90"
+     },
+     {
+      "item": "17001",
+      "count": "72"
+     },
+     {
+      "item": "19001",
+      "count": "53"
+     },
+     {
+      "item": "66001",
+      "count": "50"
+     },
+     {
+      "item": "47001",
+      "count": "44"
+     },
+     {
+      "item": "05360",
+      "count": "40"
+     },
+     {
+      "item": "25473",
+      "count": "35"
+     },
+     {
+      "item": "15001",
+      "count": "34"
+     },
+     {
+      "item": "63001",
+      "count": "30"
+     },
+     {
+      "item": "52001",
+      "count": "28"
+     },
+     {
+      "item": "25175",
+      "count": "28"
+     },
+     {
+      "item": "73001",
+      "count": "25"
+     },
+     {
+      "item": "23001",
+      "count": "23"
+     },
+     {
+      "item": "00000",
+      "count": "22"
+     },
+     {
+      "item": "68276",
+      "count": "18"
+     }
+    ],
+    "smallest": "00000",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659572,
+   "name": "NME_CIUDAD_ENTIDAD",
+   "dataTypeName": "text",
+   "description": "Descripción de la ciudad de la entidad que presentó el proyecto",
+   "fieldName": "nme_ciudad_entidad",
+   "position": 20,
+   "renderTypeName": "text",
+   "tableColumnId": 138912583,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "YUMBO",
+    "null": "0",
+    "top": [
+     {
+      "item": "BOGOTA D.C.",
+      "count": "1029"
+     },
+     {
+      "item": "MEDELLIN",
+      "count": "789"
+     },
+     {
+      "item": "CALI",
+      "count": "265"
+     },
+     {
+      "item": "BUCARAMANGA",
+      "count": "192"
+     },
+     {
+      "item": "BARRANQUILLA",
+      "count": "118"
+     },
+     {
+      "item": "CARTAGENA DE INDIAS",
+      "count": "90"
+     },
+     {
+      "item": "MANIZALES",
+      "count": "72"
+     },
+     {
+      "item": "POPAYAN",
+      "count": "53"
+     },
+     {
+      "item": "PEREIRA",
+      "count": "50"
+     },
+     {
+      "item": "SANTA MARTA",
+      "count": "44"
+     },
+     {
+      "item": "ITAGUI",
+      "count": "40"
+     },
+     {
+      "item": "MOSQUERA",
+      "count": "35"
+     },
+     {
+      "item": "TUNJA",
+      "count": "34"
+     },
+     {
+      "item": "ARMENIA",
+      "count": "31"
+     },
+     {
+      "item": "CHIA",
+      "count": "28"
+     },
+     {
+      "item": "PASTO",
+      "count": "28"
+     },
+     {
+      "item": "IBAGUE",
+      "count": "25"
+     },
+     {
+      "item": "MONTERIA",
+      "count": "23"
+     },
+     {
+      "item": "No disponible",
+      "count": "22"
+     },
+     {
+      "item": "FLORIDABLANCA",
+      "count": "18"
+     }
+    ],
+    "smallest": "ARMENIA",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659558,
+   "name": "COD_DANE_DEPTO_ENTIDAD",
+   "dataTypeName": "text",
+   "description": "Código DANE del departamento de la entidad que presentó el proyecto",
+   "fieldName": "cod_dane_depto_entidad",
+   "position": 21,
+   "renderTypeName": "text",
+   "tableColumnId": 138912569,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "94",
+    "null": "0",
+    "top": [
+     {
+      "item": "11",
+      "count": "1029"
+     },
+     {
+      "item": "05",
+      "count": "867"
+     },
+     {
+      "item": "76",
+      "count": "279"
+     },
+     {
+      "item": "68",
+      "count": "219"
+     },
+     {
+      "item": "08",
+      "count": "123"
+     },
+     {
+      "item": "13",
+      "count": "91"
+     },
+     {
+      "item": "17",
+      "count": "85"
+     },
+     {
+      "item": "25",
+      "count": "70"
+     },
+     {
+      "item": "66",
+      "count": "53"
+     },
+     {
+      "item": "19",
+      "count": "53"
+     },
+     {
+      "item": "47",
+      "count": "44"
+     },
+     {
+      "item": "15",
+      "count": "35"
+     },
+     {
+      "item": "63",
+      "count": "30"
+     },
+     {
+      "item": "52",
+      "count": "28"
+     },
+     {
+      "item": "73",
+      "count": "26"
+     },
+     {
+      "item": "23",
+      "count": "23"
+     },
+     {
+      "item": "00",
+      "count": "22"
+     },
+     {
+      "item": "18",
+      "count": "17"
+     },
+     {
+      "item": "41",
+      "count": "14"
+     },
+     {
+      "item": "54",
+      "count": "13"
+     }
+    ],
+    "smallest": "00",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659571,
+   "name": "NME_DEPTO_ENTIDAD",
+   "dataTypeName": "text",
+   "description": "Descripción del departamento de la entidad que presentó el proyecto",
+   "fieldName": "nme_depto_entidad",
+   "position": 22,
+   "renderTypeName": "text",
+   "tableColumnId": 138912582,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "VALLE DEL CAUCA",
+    "null": "0",
+    "top": [
+     {
+      "item": "BOGOTA D.C.",
+      "count": "1029"
+     },
+     {
+      "item": "ANTIOQUIA",
+      "count": "867"
+     },
+     {
+      "item": "VALLE DEL CAUCA",
+      "count": "279"
+     },
+     {
+      "item": "SANTANDER",
+      "count": "219"
+     },
+     {
+      "item": "ATLANTICO",
+      "count": "123"
+     },
+     {
+      "item": "BOLIVAR",
+      "count": "91"
+     },
+     {
+      "item": "CALDAS",
+      "count": "85"
+     },
+     {
+      "item": "CUNDINAMARCA",
+      "count": "70"
+     },
+     {
+      "item": "CAUCA",
+      "count": "53"
+     },
+     {
+      "item": "RISARALDA",
+      "count": "53"
+     },
+     {
+      "item": "MAGDALENA",
+      "count": "44"
+     },
+     {
+      "item": "BOYACA",
+      "count": "35"
+     },
+     {
+      "item": "QUINDIO",
+      "count": "30"
+     },
+     {
+      "item": "NARINO",
+      "count": "28"
+     },
+     {
+      "item": "TOLIMA",
+      "count": "26"
+     },
+     {
+      "item": "CORDOBA",
+      "count": "23"
+     },
+     {
+      "item": "No disponible",
+      "count": "22"
+     },
+     {
+      "item": "CAQUETA",
+      "count": "17"
+     },
+     {
+      "item": "HUILA",
+      "count": "14"
+     },
+     {
+      "item": "NORTE DE SANTANDER",
+      "count": "13"
+     }
+    ],
+    "smallest": "AMAZONAS",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659557,
+   "name": "COD_DANE_CIUDAD_PRY",
+   "dataTypeName": "text",
+   "description": "Código DANE de la ciudad de ejecución del proyecto",
+   "fieldName": "cod_dane_ciudad_pry",
+   "position": 23,
+   "renderTypeName": "text",
+   "tableColumnId": 138912568,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "99001",
+    "null": "0",
+    "top": [
+     {
+      "item": "11001",
+      "count": "924"
+     },
+     {
+      "item": "05001",
+      "count": "773"
+     },
+     {
+      "item": "76001",
+      "count": "244"
+     },
+     {
+      "item": "68001",
+      "count": "150"
+     },
+     {
+      "item": "08001",
+      "count": "113"
+     },
+     {
+      "item": "13001",
+      "count": "87"
+     },
+     {
+      "item": "17001",
+      "count": "76"
+     },
+     {
+      "item": "66001",
+      "count": "54"
+     },
+     {
+      "item": "47001",
+      "count": "51"
+     },
+     {
+      "item": "19001",
+      "count": "48"
+     },
+     {
+      "item": "68276",
+      "count": "40"
+     },
+     {
+      "item": "63001",
+      "count": "34"
+     },
+     {
+      "item": "52001",
+      "count": "29"
+     },
+     {
+      "item": "15001",
+      "count": "28"
+     },
+     {
+      "item": "05360",
+      "count": "25"
+     },
+     {
+      "item": "05042",
+      "count": "25"
+     },
+     {
+      "item": "73001",
+      "count": "23"
+     },
+     {
+      "item": "25175",
+      "count": "22"
+     },
+     {
+      "item": "76520",
+      "count": "22"
+     },
+     {
+      "item": "23001",
+      "count": "22"
+     }
+    ],
+    "smallest": "00000",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659570,
+   "name": "NME_CIUDAD_PRY",
+   "dataTypeName": "text",
+   "description": "Descripción de la ciudad de ejecución del proyecto",
+   "fieldName": "nme_ciudad_pry",
+   "position": 24,
+   "renderTypeName": "text",
+   "tableColumnId": 138912581,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "ZAMBRANO",
+    "null": "0",
+    "top": [
+     {
+      "item": "BOGOTA D.C.",
+      "count": "924"
+     },
+     {
+      "item": "MEDELLIN",
+      "count": "773"
+     },
+     {
+      "item": "CALI",
+      "count": "244"
+     },
+     {
+      "item": "BUCARAMANGA",
+      "count": "150"
+     },
+     {
+      "item": "BARRANQUILLA",
+      "count": "113"
+     },
+     {
+      "item": "CARTAGENA DE INDIAS",
+      "count": "87"
+     },
+     {
+      "item": "MANIZALES",
+      "count": "76"
+     },
+     {
+      "item": "PEREIRA",
+      "count": "54"
+     },
+     {
+      "item": "SANTA MARTA",
+      "count": "51"
+     },
+     {
+      "item": "POPAYAN",
+      "count": "48"
+     },
+     {
+      "item": "FLORIDABLANCA",
+      "count": "40"
+     },
+     {
+      "item": "ARMENIA",
+      "count": "34"
+     },
+     {
+      "item": "PASTO",
+      "count": "29"
+     },
+     {
+      "item": "TUNJA",
+      "count": "28"
+     },
+     {
+      "item": "SANTA FE DE ANTIOQUIA",
+      "count": "25"
+     },
+     {
+      "item": "ITAGUI",
+      "count": "25"
+     },
+     {
+      "item": "IBAGUE",
+      "count": "23"
+     },
+     {
+      "item": "CHIA",
+      "count": "22"
+     },
+     {
+      "item": "MONTERIA",
+      "count": "22"
+     },
+     {
+      "item": "PALMIRA",
+      "count": "22"
+     }
+    ],
+    "smallest": "ACACIAS",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659556,
+   "name": "COD_DANE_DEPTO_PRY",
+   "dataTypeName": "text",
+   "description": "Código DANE del departamento de ejecución del proyecto",
+   "fieldName": "cod_dane_depto_pry",
+   "position": 25,
+   "renderTypeName": "text",
+   "tableColumnId": 138912567,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "99",
+    "null": "0",
+    "top": [
+     {
+      "item": "11",
+      "count": "924"
+     },
+     {
+      "item": "05",
+      "count": "884"
+     },
+     {
+      "item": "76",
+      "count": "278"
+     },
+     {
+      "item": "68",
+      "count": "224"
+     },
+     {
+      "item": "08",
+      "count": "120"
+     },
+     {
+      "item": "17",
+      "count": "91"
+     },
+     {
+      "item": "13",
+      "count": "90"
+     },
+     {
+      "item": "19",
+      "count": "59"
+     },
+     {
+      "item": "66",
+      "count": "57"
+     },
+     {
+      "item": "25",
+      "count": "53"
+     },
+     {
+      "item": "47",
+      "count": "52"
+     },
+     {
+      "item": "15",
+      "count": "42"
+     },
+     {
+      "item": "52",
+      "count": "37"
+     },
+     {
+      "item": "63",
+      "count": "36"
+     },
+     {
+      "item": "73",
+      "count": "28"
+     },
+     {
+      "item": "23",
+      "count": "25"
+     },
+     {
+      "item": "18",
+      "count": "21"
+     },
+     {
+      "item": "00",
+      "count": "21"
+     },
+     {
+      "item": "41",
+      "count": "18"
+     },
+     {
+      "item": "50",
+      "count": "14"
+     }
+    ],
+    "smallest": "00",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659569,
+   "name": "NME_DEPTO_PRY",
+   "dataTypeName": "text",
+   "description": "Descripción del departamento de ejecución del proyecto",
+   "fieldName": "nme_depto_pry",
+   "position": 26,
+   "renderTypeName": "text",
+   "tableColumnId": 138912580,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "VICHADA",
+    "null": "0",
+    "top": [
+     {
+      "item": "BOGOTA D.C.",
+      "count": "924"
+     },
+     {
+      "item": "ANTIOQUIA",
+      "count": "884"
+     },
+     {
+      "item": "VALLE DEL CAUCA",
+      "count": "278"
+     },
+     {
+      "item": "SANTANDER",
+      "count": "224"
+     },
+     {
+      "item": "ATLANTICO",
+      "count": "120"
+     },
+     {
+      "item": "CALDAS",
+      "count": "91"
+     },
+     {
+      "item": "BOLIVAR",
+      "count": "90"
+     },
+     {
+      "item": "CAUCA",
+      "count": "59"
+     },
+     {
+      "item": "RISARALDA",
+      "count": "57"
+     },
+     {
+      "item": "CUNDINAMARCA",
+      "count": "53"
+     },
+     {
+      "item": "MAGDALENA",
+      "count": "52"
+     },
+     {
+      "item": "BOYACA",
+      "count": "42"
+     },
+     {
+      "item": "NARINO",
+      "count": "37"
+     },
+     {
+      "item": "QUINDIO",
+      "count": "36"
+     },
+     {
+      "item": "TOLIMA",
+      "count": "28"
+     },
+     {
+      "item": "CORDOBA",
+      "count": "25"
+     },
+     {
+      "item": "No disponible",
+      "count": "21"
+     },
+     {
+      "item": "CAQUETA",
+      "count": "21"
+     },
+     {
+      "item": "HUILA",
+      "count": "18"
+     },
+     {
+      "item": "NORTE DE SANTANDER",
+      "count": "14"
+     }
+    ],
+    "smallest": "AMAZONAS",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659568,
+   "name": "TPO_PROYECTO",
+   "dataTypeName": "text",
+   "description": "Código tipo proyecto",
+   "fieldName": "tpo_proyecto",
+   "position": 27,
+   "renderTypeName": "text",
+   "tableColumnId": 138912579,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "R",
+    "null": "0",
+    "top": [
+     {
+      "item": "P",
+      "count": "3122"
+     },
+     {
+      "item": "R",
+      "count": "33"
+     }
+    ],
+    "smallest": "P",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659567,
+   "name": "NME_TIPO_PROYECTO",
+   "dataTypeName": "text",
+   "description": "Descripción tipo de proyecto",
+   "fieldName": "nme_tipo_proyecto",
+   "position": 28,
+   "renderTypeName": "text",
+   "tableColumnId": 138912578,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "Proyecto",
+    "null": "0",
+    "top": [
+     {
+      "item": "Proyecto",
+      "count": "3116"
+     },
+     {
+      "item": "Programa",
+      "count": "39"
+     }
+    ],
+    "smallest": "Programa",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {}
+  },
+  {
+   "id": 545659553,
+   "name": "MONTO_FINANCIADO_AP",
+   "dataTypeName": "number",
+   "description": "Monto financiado aprobado",
+   "fieldName": "monto_financiado_ap",
+   "position": 29,
+   "renderTypeName": "number",
+   "tableColumnId": 138912564,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "10348189580",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "301"
+     },
+     {
+      "item": "200000000",
+      "count": "118"
+     },
+     {
+      "item": "350000000",
+      "count": "29"
+     },
+     {
+      "item": "107323830",
+      "count": "13"
+     },
+     {
+      "item": "300000000",
+      "count": "12"
+     },
+     {
+      "item": "250000000",
+      "count": "11"
+     },
+     {
+      "item": "100000000",
+      "count": "10"
+     },
+     {
+      "item": "189062600",
+      "count": "9"
+     },
+     {
+      "item": "199999999",
+      "count": "8"
+     },
+     {
+      "item": "15000000",
+      "count": "8"
+     },
+     {
+      "item": "199820000",
+      "count": "7"
+     },
+     {
+      "item": "495576098",
+      "count": "7"
+     },
+     {
+      "item": "241910950",
+      "count": "7"
+     },
+     {
+      "item": "196000000",
+      "count": "6"
+     },
+     {
+      "item": "192142400",
+      "count": "6"
+     },
+     {
+      "item": "150000000",
+      "count": "6"
+     },
+     {
+      "item": "349970250",
+      "count": "5"
+     },
+     {
+      "item": "198378000",
+      "count": "5"
+     },
+     {
+      "item": "180000000",
+      "count": "5"
+     },
+     {
+      "item": "199480100",
+      "count": "5"
+     }
+    ],
+    "smallest": "0",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {
+    "precisionStyle": "currency",
+    "align": "right"
+   }
+  },
+  {
+   "id": 545659554,
+   "name": "MONTO_CONTRAPARTIDA_AP",
+   "dataTypeName": "number",
+   "description": "Monto contrapartida aprobado",
+   "fieldName": "monto_contrapartida_ap",
+   "position": 30,
+   "renderTypeName": "number",
+   "tableColumnId": 138912565,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "8580000000",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "341"
+     },
+     {
+      "item": "71549226",
+      "count": "13"
+     },
+     {
+      "item": "60000000",
+      "count": "7"
+     },
+     {
+      "item": "20000000",
+      "count": "5"
+     },
+     {
+      "item": "150000000",
+      "count": "5"
+     },
+     {
+      "item": "151000000",
+      "count": "5"
+     },
+     {
+      "item": "200000000",
+      "count": "4"
+     },
+     {
+      "item": "120000000",
+      "count": "4"
+     },
+     {
+      "item": "105000000",
+      "count": "4"
+     },
+     {
+      "item": "220000000",
+      "count": "4"
+     },
+     {
+      "item": "50000000",
+      "count": "3"
+     },
+     {
+      "item": "157000000",
+      "count": "3"
+     },
+     {
+      "item": "85714286",
+      "count": "3"
+     },
+     {
+      "item": "40000000",
+      "count": "2"
+     },
+     {
+      "item": "128000000",
+      "count": "2"
+     },
+     {
+      "item": "138400000",
+      "count": "2"
+     },
+     {
+      "item": "136000000",
+      "count": "2"
+     },
+     {
+      "item": "212000000",
+      "count": "2"
+     },
+     {
+      "item": "37000000",
+      "count": "2"
+     },
+     {
+      "item": "112500000",
+      "count": "2"
+     }
+    ],
+    "smallest": "0",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {
+    "precisionStyle": "currency",
+    "align": "right"
+   }
+  },
+  {
+   "id": 545659555,
+   "name": "MONTO_TOTAL_AP",
+   "dataTypeName": "number",
+   "description": "Monto total aprobado",
+   "fieldName": "monto_total_ap",
+   "position": 31,
+   "renderTypeName": "number",
+   "tableColumnId": 138912566,
+   "cachedContents": {
+    "non_null": "3155",
+    "largest": "16614000000",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "301"
+     },
+     {
+      "item": "178873056",
+      "count": "13"
+     },
+     {
+      "item": "200000000",
+      "count": "9"
+     },
+     {
+      "item": "189062600",
+      "count": "9"
+     },
+     {
+      "item": "500000000",
+      "count": "5"
+     },
+     {
+      "item": "172000000",
+      "count": "3"
+     },
+     {
+      "item": "100000000",
+      "count": "3"
+     },
+     {
+      "item": "285714286",
+      "count": "3"
+     },
+     {
+      "item": "377000000",
+      "count": "2"
+     },
+     {
+      "item": "220000000",
+      "count": "2"
+     },
+     {
+      "item": "192067000",
+      "count": "2"
+     },
+     {
+      "item": "1999965850",
+      "count": "2"
+     },
+     {
+      "item": "240000000",
+      "count": "2"
+     },
+     {
+      "item": "650000000",
+      "count": "2"
+     },
+     {
+      "item": "300000000",
+      "count": "2"
+     },
+     {
+      "item": "820700000",
+      "count": "2"
+     },
+     {
+      "item": "621800000",
+      "count": "2"
+     },
+     {
+      "item": "420000000",
+      "count": "2"
+     },
+     {
+      "item": "405000000",
+      "count": "2"
+     },
+     {
+      "item": "351000000",
+      "count": "2"
+     }
+    ],
+    "smallest": "0",
+    "count": "3155",
+    "cardinality": "3155"
+   },
+   "format": {
+    "precisionStyle": "currency",
+    "align": "right"
+   }
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Ministerio de Ciencia, Tecnología e Innovación - MinCiencias, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Ciencia, Tecnología e Innovación",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Nacional",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Anual"
+   }
+  }
+ },
+ "owner": {
+  "id": "8mf8-8qap",
+  "displayName": "Ministerio de Ciencia, Técnología e Información",
+  "screenName": "Ministerio de Ciencia, Técnología e Información",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "8mf8-8qap",
+  "displayName": "Ministerio de Ciencia, Técnología e Información",
+  "screenName": "Ministerio de Ciencia, Técnología e Información",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "minciencias",
+  "proyectos de investigación e innovación",
+  "areas de conocimiento",
+  "área temática"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

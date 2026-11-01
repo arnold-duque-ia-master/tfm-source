@@ -1,0 +1,1473 @@
+{
+ "id": "3ebi-d83g",
+ "name": "Estado de la prestación del servicio de energía en Zonas No Interconectadas",
+ "assetType": "dataset",
+ "attribution": "Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas no Interconectadas - IPSE, Bogotá D.C.",
+ "attributionLink": "https://ipse.gov.co/",
+ "averageRating": 0,
+ "category": "Minas y Energía",
+ "createdAt": 1590080085,
+ "description": "Indica el estado de la prestación del servicio de energía en ZNI, para las localidades que hoy cuentan con este sistema de seguimiento.",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 2977,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 34206313,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1590080734,
+ "publicationGroup": 17145026,
+ "publicationStage": "published",
+ "rowsUpdatedAt": 1793398874,
+ "rowsUpdatedBy": "swxb-zyht",
+ "tableId": 17145026,
+ "totalTimesRated": 0,
+ "viewCount": 19319,
+ "viewLastModified": 1793398873,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1652444282,
+   "reviewedAutomatically": false,
+   "state": "approved",
+   "submissionId": 4690004,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1652285014,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "reviewer": {
+    "id": "vc9x-zjzh",
+    "displayName": "soporteccc"
+   },
+   "submissionDetails": {
+    "permissionType": "read"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1652444282,
+    "failureCount": 0,
+    "startedAt": 1652444282,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "swxb-zyht",
+    "displayName": "CNM - IPSE"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 469278578,
+   "name": "ID DEPATAMENTO",
+   "dataTypeName": "text",
+   "description": "ID DEPATAMENTO",
+   "fieldName": "id_dpto",
+   "position": 1,
+   "renderTypeName": "text",
+   "tableColumnId": 102365134,
+   "cachedContents": {
+    "non_null": "7091",
+    "largest": "99",
+    "null": "0",
+    "top": [
+     {
+      "item": "27",
+      "count": "2420"
+     },
+     {
+      "item": "52",
+      "count": "1139"
+     },
+     {
+      "item": "19",
+      "count": "851"
+     },
+     {
+      "item": "76",
+      "count": "480"
+     },
+     {
+      "item": "18",
+      "count": "301"
+     },
+     {
+      "item": "99",
+      "count": "257"
+     },
+     {
+      "item": "94",
+      "count": "234"
+     },
+     {
+      "item": "97",
+      "count": "223"
+     },
+     {
+      "item": "91",
+      "count": "208"
+     },
+     {
+      "item": "13",
+      "count": "180"
+     },
+     {
+      "item": "88",
+      "count": "137"
+     },
+     {
+      "item": "86",
+      "count": "129"
+     },
+     {
+      "item": "5",
+      "count": "123"
+     },
+     {
+      "item": "95",
+      "count": "92"
+     },
+     {
+      "item": "47",
+      "count": "80"
+     },
+     {
+      "item": "50",
+      "count": "76"
+     },
+     {
+      "item": "44",
+      "count": "70"
+     },
+     {
+      "item": "05",
+      "count": "60"
+     },
+     {
+      "item": "85",
+      "count": "30"
+     },
+     {
+      "item": "0",
+      "count": "1"
+     }
+    ],
+    "smallest": "0",
+    "count": "7091",
+    "cardinality": "7091"
+   },
+   "format": {}
+  },
+  {
+   "id": 469278587,
+   "name": "DEPARTAMENTO",
+   "dataTypeName": "text",
+   "description": "DEPARTAMENTO",
+   "fieldName": "dpto",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 102365143,
+   "cachedContents": {
+    "non_null": "7091",
+    "largest": "VICHADA",
+    "null": "0",
+    "top": [
+     {
+      "item": "CHOCÓ",
+      "count": "2318"
+     },
+     {
+      "item": "NARIÑO",
+      "count": "1139"
+     },
+     {
+      "item": "CAUCA",
+      "count": "852"
+     },
+     {
+      "item": "VALLE DEL CAUCA",
+      "count": "480"
+     },
+     {
+      "item": "CAQUETÁ",
+      "count": "298"
+     },
+     {
+      "item": "VICHADA",
+      "count": "257"
+     },
+     {
+      "item": "GUAINÍA",
+      "count": "232"
+     },
+     {
+      "item": "VAUPÉS",
+      "count": "221"
+     },
+     {
+      "item": "AMAZONAS",
+      "count": "208"
+     },
+     {
+      "item": "ANTIOQUIA",
+      "count": "183"
+     },
+     {
+      "item": "BOLÍVAR",
+      "count": "177"
+     },
+     {
+      "item": "PUTUMAYO",
+      "count": "129"
+     },
+     {
+      "item": "CHOCO",
+      "count": "102"
+     },
+     {
+      "item": "GUAVIARE",
+      "count": "92"
+     },
+     {
+      "item": "MAGDALENA",
+      "count": "80"
+     },
+     {
+      "item": "META",
+      "count": "76"
+     },
+     {
+      "item": "LA GUAJIRA",
+      "count": "70"
+     },
+     {
+      "item": "ARCHIPIÉLAGO DE SAN ANDRÉS, PROVIDENCIA Y SANTA CATALINA",
+      "count": "65"
+     },
+     {
+      "item": "ARCHIPIÉLAGO DE SAN ANDRÉS y PROVIDENCIA",
+      "count": "48"
+     },
+     {
+      "item": "CASANARE",
+      "count": "30"
+     }
+    ],
+    "smallest": "AMAZONAS",
+    "count": "7091",
+    "cardinality": "7091"
+   },
+   "format": {}
+  },
+  {
+   "id": 469278563,
+   "name": "ID MUNICIPIO",
+   "dataTypeName": "text",
+   "description": "ID MUNICIPIO",
+   "fieldName": "id_mpio",
+   "position": 3,
+   "renderTypeName": "text",
+   "tableColumnId": 102365133,
+   "cachedContents": {
+    "non_null": "7091",
+    "largest": "99773",
+    "null": "0",
+    "top": [
+     {
+      "item": "76109",
+      "count": "480"
+     },
+     {
+      "item": "19809",
+      "count": "436"
+     },
+     {
+      "item": "27077",
+      "count": "413"
+     },
+     {
+      "item": "27495",
+      "count": "353"
+     },
+     {
+      "item": "52390",
+      "count": "317"
+     },
+     {
+      "item": "19418",
+      "count": "278"
+     },
+     {
+      "item": "27099",
+      "count": "270"
+     },
+     {
+      "item": "52250",
+      "count": "256"
+     },
+     {
+      "item": "52835",
+      "count": "233"
+     },
+     {
+      "item": "27800",
+      "count": "228"
+     },
+     {
+      "item": "27075",
+      "count": "202"
+     },
+     {
+      "item": "27025",
+      "count": "188"
+     },
+     {
+      "item": "18753",
+      "count": "181"
+     },
+     {
+      "item": "13001",
+      "count": "180"
+     },
+     {
+      "item": "27372",
+      "count": "160"
+     },
+     {
+      "item": "27006",
+      "count": "158"
+     },
+     {
+      "item": "27425",
+      "count": "146"
+     },
+     {
+      "item": "19318",
+      "count": "138"
+     },
+     {
+      "item": "94001",
+      "count": "135"
+     },
+     {
+      "item": "52696",
+      "count": "132"
+     }
+    ],
+    "smallest": "05873",
+    "count": "7091",
+    "cardinality": "7091"
+   },
+   "format": {}
+  },
+  {
+   "id": 469278586,
+   "name": "MUNICIPIO",
+   "dataTypeName": "text",
+   "description": "MUNICIPIO",
+   "fieldName": "mpio",
+   "position": 4,
+   "renderTypeName": "text",
+   "tableColumnId": 102365142,
+   "cachedContents": {
+    "non_null": "7091",
+    "largest": "VIGÍA DEL FUERTE",
+    "null": "0",
+    "top": [
+     {
+      "item": "BUENAVENTURA",
+      "count": "480"
+     },
+     {
+      "item": "TIMBIQUÍ",
+      "count": "431"
+     },
+     {
+      "item": "NUQUÍ",
+      "count": "351"
+     },
+     {
+      "item": "LA TOLA",
+      "count": "317"
+     },
+     {
+      "item": "BAJO BAUDÓ",
+      "count": "309"
+     },
+     {
+      "item": "LÓPEZ DE MICAY",
+      "count": "261"
+     },
+     {
+      "item": "EL CHARCO",
+      "count": "256"
+     },
+     {
+      "item": "SAN ANDRÉS DE TUMACO",
+      "count": "225"
+     },
+     {
+      "item": "UNGUÍA",
+      "count": "222"
+     },
+     {
+      "item": "VIGÍA DEL FUERTE",
+      "count": "182"
+     },
+     {
+      "item": "SAN VICENTE DEL CAGUÁN",
+      "count": "179"
+     },
+     {
+      "item": "CARTAGENA DE INDIAS",
+      "count": "170"
+     },
+     {
+      "item": "ACANDÍ",
+      "count": "154"
+     },
+     {
+      "item": "ALTO BAUDO",
+      "count": "146"
+     },
+     {
+      "item": "GUAPI",
+      "count": "138"
+     },
+     {
+      "item": "BOJAYÁ",
+      "count": "138"
+     },
+     {
+      "item": "INÍRIDA",
+      "count": "134"
+     },
+     {
+      "item": "JURADO",
+      "count": "132"
+     },
+     {
+      "item": "BOJAYÁ (BELLAVISTA)",
+      "count": "129"
+     },
+     {
+      "item": "PUERTO CARREÑO",
+      "count": "126"
+     }
+    ],
+    "smallest": "ACANDI",
+    "count": "7091",
+    "cardinality": "7091"
+   },
+   "format": {}
+  },
+  {
+   "id": 469278539,
+   "name": "ID LOCALIDAD",
+   "dataTypeName": "text",
+   "description": "ID LOCALIDAD",
+   "fieldName": "id_localidad",
+   "position": 5,
+   "renderTypeName": "text",
+   "tableColumnId": 102365132,
+   "cachedContents": {
+    "non_null": "7091",
+    "largest": "99773000",
+    "null": "0",
+    "top": [
+     {
+      "item": "19809003",
+      "count": "95"
+     },
+     {
+      "item": "27250000",
+      "count": "82"
+     },
+     {
+      "item": "27800001",
+      "count": "81"
+     },
+     {
+      "item": "27006000",
+      "count": "81"
+     },
+     {
+      "item": "47189018",
+      "count": "80"
+     },
+     {
+      "item": "27425000",
+      "count": "80"
+     },
+     {
+      "item": "18753002",
+      "count": "80"
+     },
+     {
+      "item": "27025000",
+      "count": "79"
+     },
+     {
+      "item": "52835055",
+      "count": "79"
+     },
+     {
+      "item": "27075001",
+      "count": "78"
+     },
+     {
+      "item": "18150001",
+      "count": "77"
+     },
+     {
+      "item": "76109028",
+      "count": "77"
+     },
+     {
+      "item": "97001000",
+      "count": "77"
+     },
+     {
+      "item": "27077000",
+      "count": "76"
+     },
+     {
+      "item": "50325000",
+      "count": "76"
+     },
+     {
+      "item": "76109032",
+      "count": "75"
+     },
+     {
+      "item": "27800005",
+      "count": "74"
+     },
+     {
+      "item": "27099000",
+      "count": "74"
+     },
+     {
+      "item": "99001000",
+      "count": "73"
+     },
+     {
+      "item": "97666000",
+      "count": "73"
+     }
+    ],
+    "smallest": "05873001",
+    "count": "7091",
+    "cardinality": "7091"
+   },
+   "format": {}
+  },
+  {
+   "id": 469278585,
+   "name": "LOCALIDAD",
+   "dataTypeName": "text",
+   "description": "LOCALIDAD",
+   "fieldName": "localidad",
+   "position": 6,
+   "renderTypeName": "text",
+   "tableColumnId": 102365141,
+   "cachedContents": {
+    "non_null": "7091",
+    "largest": "ZARAGOZA (LÓPEZ (MICAY) - CAUCA)",
+    "null": "0",
+    "top": [
+     {
+      "item": "PALMOR (CIÉNAGA - MAGDALENA)",
+      "count": "66"
+     },
+     {
+      "item": "GUACAMAYAS (SAN VICENTE DEL CAGUÁN - CAQUETÁ)",
+      "count": "65"
+     },
+     {
+      "item": "PUERTO CARREÑO (PUERTO CARREÑO - VICHADA)",
+      "count": "64"
+     },
+     {
+      "item": "MULATOS (LA TOLA - NARIÑO)",
+      "count": "63"
+     },
+     {
+      "item": "ACANDÍ (ACANDÍ - CHOCÓ)",
+      "count": "62"
+     },
+     {
+      "item": "SAN FRANCISCO NAYA (BUENAVENTURA - VALLE DEL CAUCA)",
+      "count": "62"
+     },
+     {
+      "item": "MITÚ (MITÚ - VAUPÉS)",
+      "count": "62"
+     },
+     {
+      "item": "COTEJE (TIMBIQUÍ - CAUCA)",
+      "count": "61"
+     },
+     {
+      "item": "TARAIRA (TARAIRA - VAUPÉS)",
+      "count": "60"
+     },
+     {
+      "item": "PUERTO MERIZALDE (BUENAVENTURA - VALLE DEL CAUCA)",
+      "count": "60"
+     },
+     {
+      "item": "TITUMATE (UNGUÍA - CHOCÓ)",
+      "count": "59"
+     },
+     {
+      "item": "UNGUÍA (UNGUÍA - CHOCÓ)",
+      "count": "59"
+     },
+     {
+      "item": "PUERTO NARIÑO (PUERTO NARIÑO - AMAZONAS)",
+      "count": "58"
+     },
+     {
+      "item": "MIRAFLORES (MIRAFLORES - GUAVIARE)",
+      "count": "58"
+     },
+     {
+      "item": "CARURÚ (CARURÚ - VAUPÉS)",
+      "count": "58"
+     },
+     {
+      "item": "LETICIA (LETICIA - AMAZONAS)",
+      "count": "58"
+     },
+     {
+      "item": "LIMONES (GUAPI - CAUCA)",
+      "count": "56"
+     },
+     {
+      "item": "EL VALLE (BAHÍA SOLANO - CHOCÓ)",
+      "count": "55"
+     },
+     {
+      "item": "INÍRIDA (INÍRIDA - GUAINÍA)",
+      "count": "55"
+     },
+     {
+      "item": "BALBOA (UNGUÍA - CHOCÓ)",
+      "count": "54"
+     }
+    ],
+    "smallest": "ACANDÍ",
+    "count": "7091",
+    "cardinality": "7091"
+   },
+   "format": {}
+  },
+  {
+   "id": 469278538,
+   "name": "AÑO SERVICIO",
+   "dataTypeName": "text",
+   "description": "AÑO SERVICIO",
+   "fieldName": "anio",
+   "position": 7,
+   "renderTypeName": "text",
+   "tableColumnId": 102365131,
+   "cachedContents": {
+    "non_null": "7091",
+    "largest": "2026",
+    "null": "0",
+    "top": [
+     {
+      "item": "2025",
+      "count": "1512"
+     },
+     {
+      "item": "2026",
+      "count": "988"
+     },
+     {
+      "item": "2021",
+      "count": "984"
+     },
+     {
+      "item": "2020",
+      "count": "925"
+     },
+     {
+      "item": "2022",
+      "count": "907"
+     },
+     {
+      "item": "2024",
+      "count": "893"
+     },
+     {
+      "item": "2023",
+      "count": "882"
+     }
+    ],
+    "smallest": "2020",
+    "count": "7091",
+    "cardinality": "7091"
+   },
+   "format": {}
+  },
+  {
+   "id": 469278537,
+   "name": "MES SERVICIO",
+   "dataTypeName": "text",
+   "description": "MES SERVICIO",
+   "fieldName": "mes",
+   "position": 8,
+   "renderTypeName": "text",
+   "tableColumnId": 102365130,
+   "cachedContents": {
+    "non_null": "7091",
+    "largest": "9",
+    "null": "0",
+    "top": [
+     {
+      "item": "2",
+      "count": "647"
+     },
+     {
+      "item": "1",
+      "count": "646"
+     },
+     {
+      "item": "9",
+      "count": "642"
+     },
+     {
+      "item": "3",
+      "count": "641"
+     },
+     {
+      "item": "8",
+      "count": "629"
+     },
+     {
+      "item": "5",
+      "count": "612"
+     },
+     {
+      "item": "7",
+      "count": "610"
+     },
+     {
+      "item": "4",
+      "count": "604"
+     },
+     {
+      "item": "6",
+      "count": "569"
+     },
+     {
+      "item": "12",
+      "count": "503"
+     },
+     {
+      "item": "11",
+      "count": "499"
+     },
+     {
+      "item": "10",
+      "count": "489"
+     }
+    ],
+    "smallest": "1",
+    "count": "7091",
+    "cardinality": "7091"
+   },
+   "format": {}
+  },
+  {
+   "id": 469278584,
+   "name": "ENERGÍA ACTIVA",
+   "dataTypeName": "number",
+   "description": "ENERGÍA ACTIVA",
+   "fieldName": "energia_activa",
+   "position": 9,
+   "renderTypeName": "number",
+   "tableColumnId": 102365140,
+   "cachedContents": {
+    "non_null": "7091",
+    "largest": "21430420",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "154"
+     },
+     {
+      "item": "3516",
+      "count": "5"
+     },
+     {
+      "item": "380",
+      "count": "4"
+     },
+     {
+      "item": "5274",
+      "count": "4"
+     },
+     {
+      "item": "4252",
+      "count": "4"
+     },
+     {
+      "item": "3677",
+      "count": "4"
+     },
+     {
+      "item": "6188",
+      "count": "4"
+     },
+     {
+      "item": "4910",
+      "count": "4"
+     },
+     {
+      "item": "5262",
+      "count": "4"
+     },
+     {
+      "item": "399",
+      "count": "4"
+     },
+     {
+      "item": "4947",
+      "count": "4"
+     },
+     {
+      "item": "5736",
+      "count": "4"
+     },
+     {
+      "item": "3721",
+      "count": "4"
+     },
+     {
+      "item": "3110",
+      "count": "4"
+     },
+     {
+      "item": "293",
+      "count": "3"
+     },
+     {
+      "item": "4221",
+      "count": "3"
+     },
+     {
+      "item": "3459",
+      "count": "3"
+     },
+     {
+      "item": "5924",
+      "count": "3"
+     },
+     {
+      "item": "8896",
+      "count": "3"
+     },
+     {
+      "item": "8950",
+      "count": "3"
+     }
+    ],
+    "smallest": "0",
+    "count": "7091",
+    "cardinality": "7091"
+   },
+   "format": {}
+  },
+  {
+   "id": 469278583,
+   "name": "ENERGÍA REACTIVA",
+   "dataTypeName": "number",
+   "description": "ENERGÍA REACTIVA",
+   "fieldName": "energia_reactiva",
+   "position": 10,
+   "renderTypeName": "number",
+   "tableColumnId": 102365139,
+   "cachedContents": {
+    "non_null": "7091",
+    "largest": "5435213",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "213"
+     },
+     {
+      "item": "7",
+      "count": "8"
+     },
+     {
+      "item": "338",
+      "count": "6"
+     },
+     {
+      "item": "2037",
+      "count": "6"
+     },
+     {
+      "item": "6",
+      "count": "5"
+     },
+     {
+      "item": "185",
+      "count": "5"
+     },
+     {
+      "item": "1463",
+      "count": "5"
+     },
+     {
+      "item": "1134",
+      "count": "5"
+     },
+     {
+      "item": "404",
+      "count": "5"
+     },
+     {
+      "item": "522",
+      "count": "5"
+     },
+     {
+      "item": "31",
+      "count": "5"
+     },
+     {
+      "item": "1244",
+      "count": "5"
+     },
+     {
+      "item": "423",
+      "count": "5"
+     },
+     {
+      "item": "189",
+      "count": "5"
+     },
+     {
+      "item": "354",
+      "count": "5"
+     },
+     {
+      "item": "519",
+      "count": "5"
+     },
+     {
+      "item": "1221",
+      "count": "5"
+     },
+     {
+      "item": "2215",
+      "count": "5"
+     },
+     {
+      "item": "1137",
+      "count": "5"
+     },
+     {
+      "item": "390",
+      "count": "5"
+     }
+    ],
+    "smallest": "0",
+    "count": "7091",
+    "cardinality": "7091"
+   },
+   "format": {}
+  },
+  {
+   "id": 469278582,
+   "name": "POTENCIA MÁXIMA",
+   "dataTypeName": "number",
+   "description": "POTENCIA MÁXIMA",
+   "fieldName": "potencia_maxima",
+   "position": 11,
+   "renderTypeName": "number",
+   "tableColumnId": 102365138,
+   "cachedContents": {
+    "non_null": "6994",
+    "largest": "314570801",
+    "null": "97",
+    "top": [
+     {
+      "item": "0.00",
+      "count": "48"
+     },
+     {
+      "item": "64.00",
+      "count": "43"
+     },
+     {
+      "item": "60.80",
+      "count": "36"
+     },
+     {
+      "item": "56.00",
+      "count": "33"
+     },
+     {
+      "item": "57.60",
+      "count": "29"
+     },
+     {
+      "item": "25.60",
+      "count": "29"
+     },
+     {
+      "item": "60.00",
+      "count": "26"
+     },
+     {
+      "item": "32.00",
+      "count": "25"
+     },
+     {
+      "item": "80.00",
+      "count": "24"
+     },
+     {
+      "item": "40.00",
+      "count": "24"
+     },
+     {
+      "item": "28.80",
+      "count": "23"
+     },
+     {
+      "item": "48.00",
+      "count": "20"
+     },
+     {
+      "item": "55.20",
+      "count": "19"
+     },
+     {
+      "item": "36.00",
+      "count": "19"
+     },
+     {
+      "item": "96.00",
+      "count": "19"
+     },
+     {
+      "item": "88.00",
+      "count": "18"
+     },
+     {
+      "item": "35.20",
+      "count": "18"
+     },
+     {
+      "item": "105.60",
+      "count": "17"
+     },
+     {
+      "item": "22.40",
+      "count": "17"
+     },
+     {
+      "item": "50.40",
+      "count": "15"
+     }
+    ],
+    "smallest": "0.00",
+    "count": "7091",
+    "cardinality": "7091"
+   },
+   "format": {}
+  },
+  {
+   "id": 469278581,
+   "name": "DÍA DE DEMANDA MÁXIMA",
+   "dataTypeName": "text",
+   "description": "DÍA DE DEMANDA MÁXIMA",
+   "fieldName": "dia_demanda_maxima",
+   "position": 12,
+   "renderTypeName": "text",
+   "tableColumnId": 102365137,
+   "cachedContents": {
+    "non_null": "6993",
+    "largest": "Viernes",
+    "null": "98",
+    "top": [
+     {
+      "item": "sábado",
+      "count": "1016"
+     },
+     {
+      "item": "jueves",
+      "count": "970"
+     },
+     {
+      "item": "viernes",
+      "count": "887"
+     },
+     {
+      "item": "miércoles",
+      "count": "882"
+     },
+     {
+      "item": "martes",
+      "count": "774"
+     },
+     {
+      "item": "lunes",
+      "count": "744"
+     },
+     {
+      "item": "domingo",
+      "count": "633"
+     },
+     {
+      "item": "Viernes",
+      "count": "178"
+     },
+     {
+      "item": "Miércoles",
+      "count": "167"
+     },
+     {
+      "item": "Martes",
+      "count": "151"
+     },
+     {
+      "item": "Sábado",
+      "count": "149"
+     },
+     {
+      "item": "Jueves",
+      "count": "141"
+     },
+     {
+      "item": "Lunes",
+      "count": "134"
+     },
+     {
+      "item": "Domingo",
+      "count": "111"
+     },
+     {
+      "item": "Miercoles",
+      "count": "35"
+     },
+     {
+      "item": "Sabado",
+      "count": "21"
+     }
+    ],
+    "smallest": "domingo",
+    "count": "7091",
+    "cardinality": "7091"
+   },
+   "format": {}
+  },
+  {
+   "id": 469278580,
+   "name": "FECHA DE DEMANDA MÁXIMA",
+   "dataTypeName": "calendar_date",
+   "description": "FECHA DE DEMANDA MÁXIMA",
+   "fieldName": "fecha_demanda_maxima",
+   "position": 13,
+   "renderTypeName": "calendar_date",
+   "tableColumnId": 102365136,
+   "cachedContents": {
+    "non_null": "6994",
+    "largest": "2026-09-30T21:00:00.000",
+    "null": "97",
+    "top": [
+     {
+      "item": "2025-12-31T19:45:00.000",
+      "count": "5"
+     },
+     {
+      "item": "2020-12-31T19:45:00.000",
+      "count": "5"
+     },
+     {
+      "item": "2022-12-31T19:15:00.000",
+      "count": "5"
+     },
+     {
+      "item": "2024-05-01T12:00:00.000",
+      "count": "5"
+     },
+     {
+      "item": "2020-12-31T19:00:00.000",
+      "count": "4"
+     },
+     {
+      "item": "2023-12-01T00:00:00.000",
+      "count": "4"
+     },
+     {
+      "item": "2025-08-01T19:00:00.000",
+      "count": "4"
+     },
+     {
+      "item": "2021-09-18T18:45:00.000",
+      "count": "4"
+     },
+     {
+      "item": "2021-10-28T19:00:00.000",
+      "count": "4"
+     },
+     {
+      "item": "2024-06-01T19:00:00.000",
+      "count": "4"
+     },
+     {
+      "item": "2021-08-02T19:15:00.000",
+      "count": "4"
+     },
+     {
+      "item": "2023-01-01T00:00:00.000",
+      "count": "4"
+     },
+     {
+      "item": "2024-09-01T00:00:00.000",
+      "count": "4"
+     },
+     {
+      "item": "2024-10-26T18:30:00.000",
+      "count": "4"
+     },
+     {
+      "item": "2024-11-06T18:30:00.000",
+      "count": "3"
+     },
+     {
+      "item": "2021-04-24T20:00:00.000",
+      "count": "3"
+     },
+     {
+      "item": "2025-07-17T19:15:00.000",
+      "count": "3"
+     },
+     {
+      "item": "2025-12-24T19:30:00.000",
+      "count": "3"
+     },
+     {
+      "item": "2025-03-01T18:30:00.000",
+      "count": "3"
+     },
+     {
+      "item": "2025-06-18T19:00:00.000",
+      "count": "3"
+     }
+    ],
+    "smallest": "2020-01-02T19:30:00.000",
+    "count": "7091",
+    "cardinality": "7091"
+   },
+   "format": {}
+  },
+  {
+   "id": 469278579,
+   "name": "PROMEDIO DIARIO EN HORAS",
+   "dataTypeName": "number",
+   "description": "PROMEDIO DIARIO EN HORAS",
+   "fieldName": "prom_diario_horas",
+   "position": 14,
+   "renderTypeName": "number",
+   "tableColumnId": 102365135,
+   "cachedContents": {
+    "non_null": "7091",
+    "largest": "2400",
+    "null": "0",
+    "top": [
+     {
+      "item": "24",
+      "count": "425"
+     },
+     {
+      "item": "0",
+      "count": "160"
+     },
+     {
+      "item": "23.59",
+      "count": "60"
+     },
+     {
+      "item": "23.58",
+      "count": "40"
+     },
+     {
+      "item": "23.57",
+      "count": "30"
+     },
+     {
+      "item": "8",
+      "count": "23"
+     },
+     {
+      "item": "10.15",
+      "count": "23"
+     },
+     {
+      "item": "23.54",
+      "count": "22"
+     },
+     {
+      "item": "23.98",
+      "count": "22"
+     },
+     {
+      "item": "23.51",
+      "count": "20"
+     },
+     {
+      "item": "23.56",
+      "count": "19"
+     },
+     {
+      "item": "23.55",
+      "count": "18"
+     },
+     {
+      "item": "6.27",
+      "count": "18"
+     },
+     {
+      "item": "23.52",
+      "count": "18"
+     },
+     {
+      "item": "6.3",
+      "count": "17"
+     },
+     {
+      "item": "6.15",
+      "count": "17"
+     },
+     {
+      "item": "6.2",
+      "count": "16"
+     },
+     {
+      "item": "2400",
+      "count": "16"
+     },
+     {
+      "item": "23.53",
+      "count": "16"
+     },
+     {
+      "item": "7",
+      "count": "16"
+     }
+    ],
+    "smallest": "0",
+    "count": "7091",
+    "cardinality": "7091"
+   },
+   "format": {}
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas no Interconectadas - IPSE, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Minas y Energía",
+    "Área o dependencia": "Grupo de Seguimiento",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Nacional",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Trimestral"
+   }
+  },
+  "availableDisplayTypes": [
+   "table",
+   "fatrow",
+   "page"
+  ]
+ },
+ "owner": {
+  "id": "swxb-zyht",
+  "displayName": "CNM - IPSE",
+  "profileImageUrlLarge": "/api/users/swxb-zyht/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/swxb-zyht/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/swxb-zyht/profile_images/TINY",
+  "screenName": "CNM - IPSE",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "swxb-zyht",
+  "displayName": "CNM - IPSE",
+  "profileImageUrlLarge": "/api/users/swxb-zyht/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/swxb-zyht/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/swxb-zyht/profile_images/TINY",
+  "screenName": "CNM - IPSE",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "departamento",
+  "municipio",
+  "localidad",
+  "capacidad instalada",
+  "potencia maxima",
+  "demanda mensual",
+  "demanda promedio",
+  "zni",
+  "energía",
+  "minas",
+  "telemetria",
+  "energia",
+  "localidades",
+  "fazni",
+  "ipse"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

@@ -1,0 +1,637 @@
+{
+ "id": "26um-zdwn",
+ "name": "PRIMERAS CAUSAS DE MORBILIDAD",
+ "assetType": "dataset",
+ "attribution": "E.S.E. Instituto de Salud de Bucaramanga, Santander",
+ "attributionLink": "https://www.datos.gov.co/d/26um-zdwn",
+ "averageRating": 0,
+ "category": "Salud y Protección Social",
+ "createdAt": 1590786319,
+ "description": "INCLUYE PRIMERAS CAUSAS DE MORBILIDAD   POR CONSULTA POR URGENCIAS DE COLOMBIANOS,PRIMERAS CAUSAS  DE MORBILIDAD DE ATENCIÓN EN URGENCIAS,CAUSAS DE MORBILIDAD  POR URGENCIAS DE CIUDADANOS  VENEZOLANOS,PRIMERAS CAUSAS  DE MORBILIDAD DE ATENCIÓN EN HOSPITALIZACIÓN,PRIMERAS CAUSA DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA PRIMERA INFANCIA,PRIMERAS CAUSAS DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA INFANCIA,PRIMERAS CAUSAS DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA ADOLESCENCIA,PRIMERAS CAUSAS DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA JUVENTUD,PRIMERAS CAUSAS DE MORBILIDAD POR CONSULTA EXTERNA  POR CICLO DE VIDA ADULTEZ,PRIMERAS CAUSAS DE MORBILIDAD  CONSULTA EXTERNA  POR CICLO DE VIDA  VEJEZ",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 1090,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 34283392,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1590786761,
+ "publicationGroup": 17177291,
+ "publicationStage": "published",
+ "rowsUpdatedAt": 1792510249,
+ "rowsUpdatedBy": "ruwv-gshb",
+ "tableId": 17177291,
+ "totalTimesRated": 0,
+ "viewCount": 15571,
+ "viewLastModified": 1792510248,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1606334396,
+   "reviewedAutomatically": false,
+   "state": "approved",
+   "submissionId": 2954630,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1606332267,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "reviewer": {
+    "id": "r4qn-dwdd",
+    "displayName": "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+   },
+   "submissionDetails": {
+    "permissionType": "read"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1606334398,
+    "failureCount": 0,
+    "startedAt": 1606334396,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "ruwv-gshb",
+    "displayName": "ISABU"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 471183763,
+   "name": "AÑO",
+   "dataTypeName": "number",
+   "description": "Informa el año de Reporte",
+   "fieldName": "a_o",
+   "position": 1,
+   "renderTypeName": "number",
+   "tableColumnId": 103368894,
+   "cachedContents": {
+    "non_null": "3441",
+    "largest": "2026",
+    "null": "1",
+    "top": [
+     {
+      "item": "2022",
+      "count": "681"
+     },
+     {
+      "item": "2025",
+      "count": "672"
+     },
+     {
+      "item": "2021",
+      "count": "576"
+     },
+     {
+      "item": "2024",
+      "count": "559"
+     },
+     {
+      "item": "2023",
+      "count": "505"
+     },
+     {
+      "item": "2026",
+      "count": "448"
+     }
+    ],
+    "smallest": "2021",
+    "count": "3442",
+    "cardinality": "3442"
+   },
+   "format": {}
+  },
+  {
+   "id": 471183764,
+   "name": "TRIMESTRE",
+   "dataTypeName": "text",
+   "description": "Informa el Trimestre de presentación del Reporte",
+   "fieldName": "trimestre",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 103368895,
+   "cachedContents": {
+    "non_null": "3441",
+    "largest": "TERCER TRIMESTRE",
+    "null": "1",
+    "top": [
+     {
+      "item": "PRIMER TRIMESTRE",
+      "count": "868"
+     },
+     {
+      "item": "SEGUNDO TRIMESTRE",
+      "count": "828"
+     },
+     {
+      "item": "CUARTO TRIMESTRE",
+      "count": "805"
+     },
+     {
+      "item": "TERCER TRIMESTRE",
+      "count": "757"
+     },
+     {
+      "item": "SEGUNDO",
+      "count": "102"
+     },
+     {
+      "item": "PRIMER",
+      "count": "81"
+     }
+    ],
+    "smallest": "CUARTO TRIMESTRE",
+    "count": "3442",
+    "cardinality": "3442"
+   },
+   "format": {}
+  },
+  {
+   "id": 471183765,
+   "name": "MES",
+   "dataTypeName": "text",
+   "description": "Identifica el mes de reporte",
+   "fieldName": "mes",
+   "position": 3,
+   "renderTypeName": "text",
+   "tableColumnId": 103368896,
+   "cachedContents": {
+    "non_null": "3441",
+    "largest": "SEPTIEMBRE",
+    "null": "1",
+    "top": [
+     {
+      "item": "MAYO",
+      "count": "364"
+     },
+     {
+      "item": "MARZO",
+      "count": "329"
+     },
+     {
+      "item": "ENERO",
+      "count": "326"
+     },
+     {
+      "item": "DICIEMBRE",
+      "count": "307"
+     },
+     {
+      "item": "FEBRERO",
+      "count": "306"
+     },
+     {
+      "item": "JUNIO",
+      "count": "304"
+     },
+     {
+      "item": "AGOSTO",
+      "count": "300"
+     },
+     {
+      "item": "NOVIEMBRE",
+      "count": "280"
+     },
+     {
+      "item": "ABRIL",
+      "count": "274"
+     },
+     {
+      "item": "OCTUBRE",
+      "count": "234"
+     },
+     {
+      "item": "JULIO",
+      "count": "213"
+     },
+     {
+      "item": "SEPTIEMBRE",
+      "count": "204"
+     }
+    ],
+    "smallest": "ABRIL",
+    "count": "3442",
+    "cardinality": "3442"
+   },
+   "format": {}
+  },
+  {
+   "id": 471183766,
+   "name": "TIPO",
+   "dataTypeName": "text",
+   "description": "Informa el tipo de PRIMERA CAUSAS DE MORBILIDAD POR CONSULTA en URGENCIAS ",
+   "fieldName": "tipo",
+   "position": 4,
+   "renderTypeName": "text",
+   "tableColumnId": 103368897,
+   "cachedContents": {
+    "non_null": "3441",
+    "largest": "PRIMERAS CAUSAS DE MORBILIDAD CONSULTA EXTERNA",
+    "null": "1",
+    "top": [
+     {
+      "item": "PRIMERA CAUSAS  DE MORBILIDAD POR CONSULTA URGENCIAS",
+      "count": "1752"
+     },
+     {
+      "item": "PRIMERAS CAUSAS DE MORBILIDAD CONSULTA EXTERNA",
+      "count": "1689"
+     }
+    ],
+    "smallest": "PRIMERA CAUSAS  DE MORBILIDAD POR CONSULTA URGENCIAS",
+    "count": "3442",
+    "cardinality": "3442"
+   },
+   "format": {}
+  },
+  {
+   "id": 471183767,
+   "name": "CODIGO DIAGNOSTICO",
+   "dataTypeName": "text",
+   "description": "nforma clasificación de códigos internacionales de enfermedades",
+   "fieldName": "codigo_diagnostico",
+   "position": 5,
+   "renderTypeName": "text",
+   "tableColumnId": 103368898,
+   "cachedContents": {
+    "non_null": "3442",
+    "largest": "Z598",
+    "null": "0",
+    "top": [
+     {
+      "item": "R104",
+      "count": "124"
+     },
+     {
+      "item": "N390",
+      "count": "124"
+     },
+     {
+      "item": "I10X",
+      "count": "115"
+     },
+     {
+      "item": "N40X",
+      "count": "106"
+     },
+     {
+      "item": "J00X",
+      "count": "102"
+     },
+     {
+      "item": "R102",
+      "count": "92"
+     },
+     {
+      "item": "N939",
+      "count": "86"
+     },
+     {
+      "item": "A09X",
+      "count": "86"
+     },
+     {
+      "item": "R51X",
+      "count": "77"
+     },
+     {
+      "item": "L031",
+      "count": "71"
+     },
+     {
+      "item": "R509",
+      "count": "68"
+     },
+     {
+      "item": "M545",
+      "count": "65"
+     },
+     {
+      "item": "J459",
+      "count": "65"
+     },
+     {
+      "item": "E109",
+      "count": "63"
+     },
+     {
+      "item": "E119",
+      "count": "62"
+     },
+     {
+      "item": "E669",
+      "count": "60"
+     },
+     {
+      "item": "M255",
+      "count": "60"
+     },
+     {
+      "item": "N23X",
+      "count": "60"
+     },
+     {
+      "item": "E039",
+      "count": "60"
+     },
+     {
+      "item": "B829",
+      "count": "60"
+     }
+    ],
+    "smallest": "A090",
+    "count": "3442",
+    "cardinality": "3442"
+   },
+   "format": {}
+  },
+  {
+   "id": 471183797,
+   "name": "DESCRIPCION",
+   "dataTypeName": "text",
+   "description": "Informa el nombre de clasificación de códigos internacionales de enfermedades",
+   "fieldName": "descripcion",
+   "position": 6,
+   "renderTypeName": "text",
+   "tableColumnId": 103368928,
+   "cachedContents": {
+    "non_null": "3442",
+    "largest": "VIOLENCIA FISICA",
+    "null": "0",
+    "top": [
+     {
+      "item": "OTROS DOLORES ABDOMINALES Y LOS NO ESPECIFICADOS",
+      "count": "124"
+     },
+     {
+      "item": "INFECCION DE VIAS URINARIAS, SITIO NO ESPECIFICADO",
+      "count": "124"
+     },
+     {
+      "item": "HIPERTENSION ESENCIAL (PRIMARIA)",
+      "count": "115"
+     },
+     {
+      "item": "HIPERPLASIA DE LA PROSTATA",
+      "count": "106"
+     },
+     {
+      "item": "RINOFARINGITIS AGUDA (RESFRIADO COMUN)",
+      "count": "102"
+     },
+     {
+      "item": "DOLOR PELVICO Y PERINEAL",
+      "count": "92"
+     },
+     {
+      "item": "HEMORRAGIA VAGINAL Y UTERINA ANORMAL, NO ESPECIFICADA",
+      "count": "86"
+     },
+     {
+      "item": "DIARREA Y GASTROENTERITIS DE PRESUNTO ORIGEN INFECCIOSO",
+      "count": "86"
+     },
+     {
+      "item": "CEFALEA",
+      "count": "77"
+     },
+     {
+      "item": "CELULITIS DE OTRAS PARTES DE LOS MIEMBROS",
+      "count": "71"
+     },
+     {
+      "item": "FIEBRE, NO ESPECIFICADA",
+      "count": "68"
+     },
+     {
+      "item": "LUMBAGO NO ESPECIFICADO",
+      "count": "65"
+     },
+     {
+      "item": "ASMA, NO ESPECIFICADA",
+      "count": "65"
+     },
+     {
+      "item": "DIABETES MELLITUS INSULINODEPENDIENTE SIN MENCION DE COMPLICACION",
+      "count": "63"
+     },
+     {
+      "item": "DIABETES MELLITUS NO INSULINODEPENDIENTE SIN MENCION DE COMPLICACION",
+      "count": "62"
+     },
+     {
+      "item": "COLICO RENAL, NO ESPECIFICADO",
+      "count": "60"
+     },
+     {
+      "item": "DOLOR EN ARTICULACION",
+      "count": "60"
+     },
+     {
+      "item": "HIPOTIROIDISMO, NO ESPECIFICADO",
+      "count": "60"
+     },
+     {
+      "item": "OBESIDAD, NO ESPECIFICADA",
+      "count": "60"
+     },
+     {
+      "item": "PARASITOSIS INTESTINAL, SIN OTRA ESPECIFICACION",
+      "count": "60"
+     }
+    ],
+    "smallest": "ABSCESO PERIAPICAL SIN FISTULA",
+    "count": "3442",
+    "cardinality": "3442"
+   },
+   "format": {}
+  },
+  {
+   "id": 471183798,
+   "name": "TOTAL",
+   "dataTypeName": "number",
+   "description": "Informa las primeras causas de morbilidad de diagnóstico de CIE-10, con mayor número de consultas",
+   "fieldName": "total",
+   "position": 7,
+   "renderTypeName": "number",
+   "tableColumnId": 103368929,
+   "cachedContents": {
+    "non_null": "3442",
+    "largest": "4183",
+    "null": "0",
+    "top": [
+     {
+      "item": "30",
+      "count": "47"
+     },
+     {
+      "item": "31",
+      "count": "39"
+     },
+     {
+      "item": "33",
+      "count": "38"
+     },
+     {
+      "item": "29",
+      "count": "37"
+     },
+     {
+      "item": "36",
+      "count": "37"
+     },
+     {
+      "item": "38",
+      "count": "35"
+     },
+     {
+      "item": "42",
+      "count": "34"
+     },
+     {
+      "item": "41",
+      "count": "33"
+     },
+     {
+      "item": "43",
+      "count": "32"
+     },
+     {
+      "item": "37",
+      "count": "31"
+     },
+     {
+      "item": "48",
+      "count": "31"
+     },
+     {
+      "item": "47",
+      "count": "31"
+     },
+     {
+      "item": "39",
+      "count": "31"
+     },
+     {
+      "item": "28",
+      "count": "30"
+     },
+     {
+      "item": "45",
+      "count": "30"
+     },
+     {
+      "item": "27",
+      "count": "28"
+     },
+     {
+      "item": "44",
+      "count": "27"
+     },
+     {
+      "item": "50",
+      "count": "27"
+     },
+     {
+      "item": "59",
+      "count": "27"
+     },
+     {
+      "item": "34",
+      "count": "27"
+     }
+    ],
+    "smallest": "20",
+    "count": "3442",
+    "cardinality": "3442"
+   },
+   "format": {}
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bucaramanga",
+    "Nombre de la Entidad": "E.S.E. Instituto de Salud de Bucaramanga, Santander",
+    "DIVIPOLA Municipio": "68001",
+    "Orden": "Territorial",
+    "Sector": "Salud",
+    "Área o dependencia": "Sa",
+    "Departamento": "Santander"
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Municipal",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Mensual"
+   }
+  },
+  "availableDisplayTypes": [
+   "table",
+   "fatrow",
+   "page"
+  ]
+ },
+ "owner": {
+  "id": "ruwv-gshb",
+  "displayName": "ISABU",
+  "profileImageUrlLarge": "/api/users/ruwv-gshb/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/ruwv-gshb/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/ruwv-gshb/profile_images/TINY",
+  "screenName": "ISABU",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "ruwv-gshb",
+  "displayName": "ISABU",
+  "profileImageUrlLarge": "/api/users/ruwv-gshb/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/ruwv-gshb/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/ruwv-gshb/profile_images/TINY",
+  "screenName": "ISABU",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "morbilidad",
+  "causas"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

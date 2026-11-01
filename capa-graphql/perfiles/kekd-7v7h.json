@@ -1,0 +1,346 @@
+{
+ "id": "kekd-7v7h",
+ "perfilado": "2026-11-01",
+ "filas": 30665,
+ "columnas": {
+  "id_estacion": {
+   "tipo": "number",
+   "min": "8198",
+   "max": "99999",
+   "no_nulos": 30665,
+   "entero": true
+  },
+  "autoridad_ambiental": {
+   "tipo": "text",
+   "distintos": 31,
+   "no_nulos": 30665,
+   "valores": [
+    "AMB",
+    "AMVA",
+    "CAM",
+    "CAR",
+    "CAR DEL CANAL DEL DIQUE",
+    "CARDER",
+    "CARDIQUE",
+    "CDMB",
+    "CODECHOCÓ",
+    "CORANTIOQUIA",
+    "CORMACARENA",
+    "CORNARE",
+    "CORPAMAG",
+    "CORPOBOYACA",
+    "CORPOCALDAS",
+    "CORPOCESAR",
+    "CORPOGUAJIRA",
+    "CORPONARIÑO",
+    "CORPONOR",
+    "CORPORINOQUIA",
+    "CORTOLIMA",
+    "CRA",
+    "CRC",
+    "CRQ",
+    "CVC",
+    "CVS",
+    "DAGMA",
+    "EPA BARRANQUILLA",
+    "EPA Cartagena",
+    "EPA CARTAGENA",
+    "SDA"
+   ],
+   "frac_numerica_top50": 0.0,
+   "ceros_a_la_izquierda": false
+  },
+  "estaci_n": {
+   "tipo": "text",
+   "distintos": 668,
+   "no_nulos": 30665,
+   "frac_numerica_top50": 0.0,
+   "ceros_a_la_izquierda": false
+  },
+  "latitud": {
+   "tipo": "number",
+   "min": "1.216489",
+   "max": "12.23",
+   "no_nulos": 30665,
+   "entero": false
+  },
+  "longitud": {
+   "tipo": "number",
+   "min": "-77.283628",
+   "max": "-70.7438889",
+   "no_nulos": 30665,
+   "entero": false
+  },
+  "variable": {
+   "tipo": "text",
+   "distintos": 20,
+   "no_nulos": 30665,
+   "valores": [
+    "CO",
+    "DViento",
+    "HAire",
+    "HAire10",
+    "HAire2",
+    "NO",
+    "NO2",
+    "O3",
+    "P",
+    "PLiquida",
+    "PM10",
+    "PM2.5",
+    "PST",
+    "RGlobal",
+    "RUVb",
+    "SO2",
+    "TAire",
+    "TAire10",
+    "TAire2",
+    "VViento"
+   ],
+   "frac_numerica_top50": 0.0,
+   "ceros_a_la_izquierda": false
+  },
+  "unidades": {
+   "tipo": "text",
+   "distintos": 9,
+   "no_nulos": 30665,
+   "valores": [
+    "Celsius",
+    "deg",
+    "MEDh",
+    "mm",
+    "mmHg",
+    "ms",
+    "perc",
+    "ugm3",
+    "Wm2"
+   ],
+   "frac_numerica_top50": 0.0,
+   "ceros_a_la_izquierda": false
+  },
+  "tiempo_de_exposici_n_horas": {
+   "tipo": "number",
+   "min": "1",
+   "max": "24",
+   "no_nulos": 30665,
+   "entero": true
+  },
+  "a_o": {
+   "tipo": "number",
+   "min": "2011",
+   "max": "2025",
+   "no_nulos": 30665,
+   "entero": true
+  },
+  "promedio": {
+   "tipo": "number",
+   "min": "0.1",
+   "max": "3294.8",
+   "no_nulos": 30665,
+   "entero": false
+  },
+  "suma": {
+   "tipo": "number",
+   "min": "0.67",
+   "max": "18833001.22",
+   "no_nulos": 30665,
+   "entero": false
+  },
+  "no_de_datos": {
+   "tipo": "number",
+   "min": "1",
+   "max": "8783",
+   "no_nulos": 30665,
+   "entero": true
+  },
+  "representatividad_temporal": {
+   "tipo": "text",
+   "distintos": 215,
+   "no_nulos": 30591,
+   "frac_numerica_top50": 1.0,
+   "ceros_a_la_izquierda": false
+  },
+  "excedencias_limite_actual": {
+   "tipo": "text",
+   "distintos": 703,
+   "no_nulos": 30665,
+   "frac_numerica_top50": 1.0,
+   "ceros_a_la_izquierda": false
+  },
+  "porcentaje_excedencias_limite": {
+   "tipo": "text",
+   "distintos": 1789,
+   "no_nulos": 30665,
+   "frac_numerica_top50": 1.0,
+   "ceros_a_la_izquierda": false
+  },
+  "mediana": {
+   "tipo": "number",
+   "min": "0",
+   "max": "3572.6",
+   "no_nulos": 30665,
+   "entero": false
+  },
+  "percentil_98": {
+   "tipo": "number",
+   "min": "0",
+   "max": "39246",
+   "no_nulos": 30665,
+   "entero": false
+  },
+  "m_ximo": {
+   "tipo": "number",
+   "min": "0.2",
+   "max": "733378",
+   "no_nulos": 30665,
+   "entero": false
+  },
+  "fechas_horas_del_m_ximo": {
+   "tipo": "text",
+   "distintos": 10915,
+   "no_nulos": 30665,
+   "frac_numerica_top50": 0.18,
+   "no_numericos_top50": [
+    "01/07/2016 01:00:00 - 01/07/2016 02:00:00 - 01/07/2016 03:00:00 - 01/07/2016 04:00:00 - 01/07/2016 05:00:00 - 01/07/2016 06:00:00 - 01/07/2016 07:00:00 - 01/07/2016 08:00:00 - 01/07/2016 09:00:00 - 01/07/2016 10:00:00 - 01/07/2016 11:00:00 - 01/07/2016 12:00:00 - 01/07/2016 13:00:00 - 01/07/2016 14:00:00 - 01/07/2016 15:00:00 - 01/07/2016 16:00:00 - 01/07/2016 17:00:00 - 01/07/2016 18:00:00 - 01/07/2016 19:00:00 - 01/07/2016 20:00:00 - 01/07/2016 21:00:00 - 01/07/2016 22:00:00 - 01/07/2016 23:00:00 - 02/07/2016 00:00:00 - 02/07/2016 01:00:00 - 02/07/2016 02:00:00 - 02/07/2016 03:00:00 - 02/07/2016 04:00:00 - 02/07/2016 05:00:00 - 02/07/2016 06:00:00 - 02/07/2016 07:00:00 - 02/07/2016 08:00:00 - 02/07/2016 09:00:00 - 02/07/2016 10:00:00 - 02/07/2016 11:00:00 - 02/07/2016 12:00:00 - 02/07/2016 13:00:00 - 02/07/2016 14:00:00 - 02/07/2016 15:00:00 - 02/07/2016 16:00:00 - 02/07/2016 17:00:00 - 02/07/2016 18:00:00 - 02/07/2016 19:00:00 - 02/07/2016 20:00:00 - 02/07/2016 21:00:00 - 02/07/2016 22:00:00 - 02/07/2016 23:00:00",
+    "19/03/2020 12:00",
+    "6/03/2021 12:00",
+    "28/03/2019 0:00",
+    "24/06/2020 12:00",
+    "01/07/2016 00:00:00 - 02/07/2016 00:00:00",
+    "6/03/2018 0:00",
+    "1/01/2017 0:00",
+    "24/06/2020",
+    "27/06/2014 0:00"
+   ],
+   "ceros_a_la_izquierda": false
+  },
+  "m_nimo": {
+   "tipo": "number",
+   "min": "-35.7",
+   "max": "1321.61",
+   "no_nulos": 30665,
+   "entero": false
+  },
+  "fechas_horas_del_m_nimo": {
+   "tipo": "text",
+   "distintos": 11568,
+   "no_nulos": 30665,
+   "frac_numerica_top50": 0.16,
+   "no_numericos_top50": [
+    "01/07/2016 01:00:00 - 01/07/2016 02:00:00 - 01/07/2016 03:00:00 - 01/07/2016 04:00:00 - 01/07/2016 05:00:00 - 01/07/2016 06:00:00 - 01/07/2016 07:00:00 - 01/07/2016 08:00:00 - 01/07/2016 09:00:00 - 01/07/2016 10:00:00 - 01/07/2016 11:00:00 - 01/07/2016 12:00:00 - 01/07/2016 13:00:00 - 01/07/2016 14:00:00 - 01/07/2016 15:00:00 - 01/07/2016 16:00:00 - 01/07/2016 17:00:00 - 01/07/2016 18:00:00 - 01/07/2016 19:00:00 - 01/07/2016 20:00:00 - 01/07/2016 21:00:00 - 01/07/2016 22:00:00 - 01/07/2016 23:00:00 - 02/07/2016 00:00:00 - 02/07/2016 01:00:00 - 02/07/2016 02:00:00 - 02/07/2016 03:00:00 - 02/07/2016 04:00:00 - 02/07/2016 05:00:00 - 02/07/2016 06:00:00 - 02/07/2016 07:00:00 - 02/07/2016 08:00:00 - 02/07/2016 09:00:00 - 02/07/2016 10:00:00 - 02/07/2016 11:00:00 - 02/07/2016 12:00:00 - 02/07/2016 13:00:00 - 02/07/2016 14:00:00 - 02/07/2016 15:00:00 - 02/07/2016 16:00:00 - 02/07/2016 17:00:00 - 02/07/2016 18:00:00 - 02/07/2016 19:00:00 - 02/07/2016 20:00:00 - 02/07/2016 21:00:00 - 02/07/2016 22:00:00 - 02/07/2016 23:00:00",
+    "01/07/2016 00:00:00 - 02/07/2016 00:00:00",
+    "9/10/2014 0:00",
+    "11/01/2021 12:00",
+    "10/05/2016 0:00",
+    "30/04/2021 12:00",
+    "3/06/2020 12:00",
+    "12/03/2021 12:00",
+    "17/02/2020 12:00",
+    "26/12/2020 12:00"
+   ],
+   "ceros_a_la_izquierda": false
+  },
+  "d_as_de_excedencias": {
+   "tipo": "number",
+   "min": "0",
+   "max": "327",
+   "no_nulos": 30665,
+   "entero": true
+  },
+  "c_digo_del_departamento": {
+   "tipo": "number",
+   "min": "5",
+   "max": "85",
+   "no_nulos": 30665,
+   "entero": true
+  },
+  "nombre_del_departamento": {
+   "tipo": "text",
+   "distintos": 49,
+   "no_nulos": 30665,
+   "valores": [
+    "Antioquia",
+    "ANTIOQUIA",
+    "ARAUCA",
+    "ATLANTICO",
+    "Atlántico",
+    "ATLÁNTICO",
+    "BOGOTA, D.C.",
+    "Bogotá, D.C.",
+    "BOGOTÁ, D.C.",
+    "Bolívar",
+    "BOLÍVAR",
+    "BOYACA",
+    "Boyacá",
+    "BOYACÁ",
+    "Caldas",
+    "CALDAS",
+    "CASANARE",
+    "Cauca",
+    "CAUCA",
+    "Cesar",
+    "CESAR",
+    "CHOCÓ",
+    "CORDOBA",
+    "Córdoba",
+    "CÓRDOBA",
+    "Cundinamarca",
+    "CUNDINAMARCA",
+    "Huila",
+    "HUILA",
+    "La Guajira",
+    "LA GUAJIRA",
+    "Magdalena",
+    "MAGDALENA",
+    "Meta",
+    "META",
+    "NARIÑO",
+    "Norte de Santander",
+    "NORTE DE SANTANDER",
+    "QUINDIO",
+    "Quindío",
+    "QUINDÍO",
+    "Risaralda",
+    "RISARALDA",
+    "Santander",
+    "SANTANDER",
+    "Tolima",
+    "TOLIMA",
+    "Valle del Cauca",
+    "VALLE DEL CAUCA"
+   ],
+   "frac_numerica_top50": 0.0,
+   "ceros_a_la_izquierda": false
+  },
+  "c_digo_del_municipio": {
+   "tipo": "text",
+   "distintos": 367,
+   "no_nulos": 30663,
+   "frac_numerica_top50": 1.0,
+   "ceros_a_la_izquierda": false
+  },
+  "nombre_del_municipio": {
+   "tipo": "text",
+   "distintos": 344,
+   "no_nulos": 30665,
+   "frac_numerica_top50": 0.0,
+   "ceros_a_la_izquierda": false
+  },
+  "tipo_de_estaci_n": {
+   "tipo": "text",
+   "distintos": 4,
+   "no_nulos": 30665,
+   "valores": [
+    "Fija",
+    "Indicativa",
+    "NA",
+    "N/A"
+   ],
+   "frac_numerica_top50": 0.0,
+   "ceros_a_la_izquierda": false
+  },
+  "ubicacion": {
+   "tipo": "point"
+  }
+ }
+}

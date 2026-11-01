@@ -1,0 +1,1440 @@
+{
+  "id": "gcq5-hvdx",
+  "name": "Registros de Vacunación contra Fiebre Aftosa y Especies Asociadas en el Departamento del Vichada",
+  "assetType": "dataset",
+  "attribution": "Secretaria de agricultura y desarrollo rural del Vichada",
+  "attributionLink": "https://www.vichada.gov.co/datos-abiertos-421696/registros-de-vacunacion-pecuaria-fiebre-aftosa-por-vereda",
+  "averageRating": 0,
+  "category": "Agricultura y Desarrollo Rural",
+  "createdAt": 1789137121,
+  "description": "Contiene el consolidado oficial de los registros de vacunación animal contra la Fiebre Aftosa, así como el inventario de especies pecuarias complementarias (bovinos protegidos, équidos, porcinos, ovinos y caprinos) en los predios ganaderos de los cuatro municipios del departamento del Vichada (Cumaribo, La Primavera, Puerto Carreño y Santa Rosalía). Incluye variables de ubicación geográfica (vereda, coordenadas WGS84 depuradas), régimen de tenencia del predio, identificador de Registro Único de Vacunación (RUV), fecha de expedición, vigencia y ciclo de vacunación respectivo. Información anonimizada en estricto cumplimiento de la Ley 1581 de 2012 y directrices de Gobierno Digital de MinTIC.\n\n«Tu opinión es fundamental para nosotros. ¿Utilizaste este conjunto de datos? Califícalo aquí: <a href=\"https://forms.gle/NZ2YAj1pggJw2ZLH9\" target=\"_blank\">Encuesta de Satisfacción y Uso de Datos Abiertos – Gobernación del Vichada </a>»",
+  "diciBackend": false,
+  "displayType": "table",
+  "downloadCount": 86,
+  "hideFromCatalog": false,
+  "hideFromDataJson": false,
+  "licenseId": "CC_40_BY",
+  "locked": false,
+  "newBackend": true,
+  "numberOfComments": 0,
+  "oid": 42493521,
+  "provenance": "official",
+  "publicationAppendEnabled": false,
+  "publicationDate": 1789138681,
+  "publicationGroup": 20576968,
+  "publicationStage": "published",
+  "rowsUpdatedAt": 1789138669,
+  "rowsUpdatedBy": "5z2v-mv2w",
+  "tableId": 20576968,
+  "totalTimesRated": 0,
+  "viewCount": 440,
+  "viewLastModified": 1791391531,
+  "viewType": "tabular",
+  "approvals": [
+    {
+      "reviewedAt": 1789142218,
+      "reviewedAutomatically": false,
+      "state": "approved",
+      "submissionId": 7682049,
+      "submissionObject": "public_audience_request",
+      "submissionOutcome": "change_audience",
+      "submittedAt": 1789138681,
+      "targetAudience": "public",
+      "workflowId": 2188,
+      "reviewer": {
+        "id": "r4qn-dwdd",
+        "displayName": "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+      },
+      "submissionDetails": {
+        "permissionType": "READ"
+      },
+      "submissionOutcomeApplication": {
+        "endedAt": 1789142218,
+        "failureCount": 0,
+        "startedAt": 1789142218,
+        "status": "success"
+      },
+      "submitter": {
+        "id": "5z2v-mv2w",
+        "displayName": "Gobernación de Vichada"
+      }
+    }
+  ],
+  "clientContext": {
+    "clientContextVariables": [],
+    "inheritedVariables": {}
+  },
+  "columns": [
+    {
+      "id": 643754318,
+      "name": "CODIGO_DANE_DEPARTAMENTO",
+      "dataTypeName": "number",
+      "description": "Código numérico de dos dígitos asignado por el DANE en la codificación DIVIPOLA al departamento del Vichada (99).",
+      "fieldName": "codigo_dane_departamento",
+      "position": 1,
+      "renderTypeName": "number",
+      "tableColumnId": 171321127,
+      "cachedContents": {
+        "non_null": "2877",
+        "largest": "99",
+        "null": "0",
+        "top": [
+          {
+            "item": "99",
+            "count": "2877"
+          }
+        ],
+        "smallest": "99",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 643754317,
+      "name": "DEPARTAMENTO",
+      "dataTypeName": "text",
+      "description": "Nombre oficial del departamento de Colombia donde se localiza el predio pecuario (VICHADA).",
+      "fieldName": "departamento",
+      "position": 2,
+      "renderTypeName": "text",
+      "tableColumnId": 171321126,
+      "cachedContents": {
+        "non_null": "2877",
+        "largest": "VICHADA",
+        "null": "0",
+        "top": [
+          {
+            "item": "VICHADA",
+            "count": "2877"
+          }
+        ],
+        "smallest": "VICHADA",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {}
+    },
+    {
+      "id": 643754316,
+      "name": "CODIGO_DANE_MUNICIPIO",
+      "dataTypeName": "number",
+      "description": "Código numérico oficial de cinco dígitos DIVIPOLA asignado por el DANE a la entidad municipal.",
+      "fieldName": "codigo_dane_municipio",
+      "position": 3,
+      "renderTypeName": "number",
+      "tableColumnId": 171321125,
+      "cachedContents": {
+        "non_null": "2877",
+        "largest": "99773",
+        "null": "0",
+        "top": [
+          {
+            "item": "99524",
+            "count": "1337"
+          },
+          {
+            "item": "99773",
+            "count": "765"
+          },
+          {
+            "item": "99624",
+            "count": "495"
+          },
+          {
+            "item": "99001",
+            "count": "280"
+          }
+        ],
+        "smallest": "99001",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 643754315,
+      "name": "MUNICIPIO",
+      "dataTypeName": "text",
+      "description": "Nombre del municipio del departamento del Vichada donde se ejecutó la jornada de vacunación.",
+      "fieldName": "municipio",
+      "position": 4,
+      "renderTypeName": "text",
+      "tableColumnId": 171321124,
+      "cachedContents": {
+        "non_null": "2877",
+        "largest": "SANTA ROSALÍA",
+        "null": "0",
+        "top": [
+          {
+            "item": "LA PRIMAVERA",
+            "count": "1337"
+          },
+          {
+            "item": "CUMARIBO",
+            "count": "765"
+          },
+          {
+            "item": "SANTA ROSALÍA",
+            "count": "495"
+          },
+          {
+            "item": "PUERTO CARREÑO",
+            "count": "280"
+          }
+        ],
+        "smallest": "CUMARIBO",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {}
+    },
+    {
+      "id": 643754314,
+      "name": "VEREDA",
+      "dataTypeName": "text",
+      "description": "División territorial rural o sector veredal en el que se encuentra ubicado el predio ganadero.",
+      "fieldName": "vereda",
+      "position": 5,
+      "renderTypeName": "text",
+      "tableColumnId": 171321123,
+      "cachedContents": {
+        "non_null": "2877",
+        "largest": "WERIMA",
+        "null": "0",
+        "top": [
+          {
+            "item": "SANTA BARBARA",
+            "count": "270"
+          },
+          {
+            "item": "MATIYURE",
+            "count": "174"
+          },
+          {
+            "item": "NUEVA ANTIOQUIA",
+            "count": "134"
+          },
+          {
+            "item": "PAVANAY",
+            "count": "120"
+          },
+          {
+            "item": "FLOR AMARILLO",
+            "count": "88"
+          },
+          {
+            "item": "AGUAS CLARAS",
+            "count": "83"
+          },
+          {
+            "item": "CANTA CLARO",
+            "count": "79"
+          },
+          {
+            "item": "ARACOMBIA",
+            "count": "69"
+          },
+          {
+            "item": "EL VIENTO",
+            "count": "67"
+          },
+          {
+            "item": "EL TRIUNFO",
+            "count": "66"
+          },
+          {
+            "item": "RESGUARDO",
+            "count": "56"
+          },
+          {
+            "item": "SOLEDAD",
+            "count": "54"
+          },
+          {
+            "item": "LLANO ALTO",
+            "count": "53"
+          },
+          {
+            "item": "BORDEREÑO",
+            "count": "50"
+          },
+          {
+            "item": "MATA GRANDE",
+            "count": "48"
+          },
+          {
+            "item": "LIDA SIRIPIANA",
+            "count": "48"
+          },
+          {
+            "item": "LA PRADERA",
+            "count": "46"
+          },
+          {
+            "item": "SANTA CECILIA",
+            "count": "45"
+          },
+          {
+            "item": "BALSA",
+            "count": "45"
+          },
+          {
+            "item": "GUACACIAS",
+            "count": "45"
+          }
+        ],
+        "smallest": "AÁREA MUNICIPAL",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {}
+    },
+    {
+      "id": 643754313,
+      "name": "PREDIO",
+      "dataTypeName": "text",
+      "description": "Denominación o nombre comercial/catastral con el cual se identifica la finca, hato o predio pecuario.",
+      "fieldName": "predio",
+      "position": 6,
+      "renderTypeName": "text",
+      "tableColumnId": 171321122,
+      "cachedContents": {
+        "non_null": "2877",
+        "largest": "ZURINAN",
+        "null": "0",
+        "top": [
+          {
+            "item": "RESGUARDO SANTA ROSALIA",
+            "count": "56"
+          },
+          {
+            "item": "LA FORTUNA",
+            "count": "29"
+          },
+          {
+            "item": "LA ESPERANZA",
+            "count": "27"
+          },
+          {
+            "item": "EL TESORO",
+            "count": "22"
+          },
+          {
+            "item": "RESGUARDO CAMPO ALEGRE Y RIPIALITO",
+            "count": "20"
+          },
+          {
+            "item": "BONANZA",
+            "count": "18"
+          },
+          {
+            "item": "EL TRIUNFO",
+            "count": "17"
+          },
+          {
+            "item": "EL PARAISO",
+            "count": "16"
+          },
+          {
+            "item": "LAS BRISAS",
+            "count": "16"
+          },
+          {
+            "item": "PUERTO RICO",
+            "count": "16"
+          },
+          {
+            "item": "SAN FELIPE",
+            "count": "16"
+          },
+          {
+            "item": "LA RIQUESA",
+            "count": "16"
+          },
+          {
+            "item": "SANTA HELENA",
+            "count": "15"
+          },
+          {
+            "item": "LAS ACACIAS",
+            "count": "15"
+          },
+          {
+            "item": "BUENA VISTA",
+            "count": "14"
+          },
+          {
+            "item": "CHAPARRAL",
+            "count": "14"
+          },
+          {
+            "item": "EL DIAMANTE",
+            "count": "14"
+          },
+          {
+            "item": "ARBOLITO",
+            "count": "13"
+          },
+          {
+            "item": "PELELOJO",
+            "count": "13"
+          },
+          {
+            "item": "PROGRESO",
+            "count": "12"
+          }
+        ],
+        "smallest": "ABEJAS",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {}
+    },
+    {
+      "id": 643754312,
+      "name": "TENENCIA",
+      "dataTypeName": "text",
+      "description": "Condición jurídica de ocupación o explotación del predio (Propio, Arrendado, Poseedor, Tenedor, Territorio Colectivo u Otro).",
+      "fieldName": "tenencia",
+      "position": 7,
+      "renderTypeName": "text",
+      "tableColumnId": 171321121,
+      "cachedContents": {
+        "non_null": "2877",
+        "largest": "TERRITORIO COLECTIVO",
+        "null": "0",
+        "top": [
+          {
+            "item": "PROPIO",
+            "count": "1758"
+          },
+          {
+            "item": "ARRENDADO",
+            "count": "813"
+          },
+          {
+            "item": "TENEDOR",
+            "count": "118"
+          },
+          {
+            "item": "TERRITORIO COLECTIVO",
+            "count": "99"
+          },
+          {
+            "item": "POSEEDOR",
+            "count": "88"
+          },
+          {
+            "item": "OTRO",
+            "count": "1"
+          }
+        ],
+        "smallest": "ARRENDADO",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {}
+    },
+    {
+      "id": 643754311,
+      "name": "RUV",
+      "dataTypeName": "number",
+      "description": "Número del Registro Único de Vacunación emitido oficialmente como soporte de la inoculación animal por Fedegán e ICA.",
+      "fieldName": "ruv",
+      "position": 8,
+      "renderTypeName": "number",
+      "tableColumnId": 171321120,
+      "cachedContents": {
+        "non_null": "2877",
+        "largest": "10999123",
+        "null": "0",
+        "top": [
+          {
+            "item": "10962276",
+            "count": "1"
+          },
+          {
+            "item": "10274862",
+            "count": "1"
+          },
+          {
+            "item": "10580335",
+            "count": "1"
+          },
+          {
+            "item": "10712421",
+            "count": "1"
+          },
+          {
+            "item": "10837468",
+            "count": "1"
+          },
+          {
+            "item": "10703178",
+            "count": "1"
+          },
+          {
+            "item": "10472763",
+            "count": "1"
+          },
+          {
+            "item": "10964291",
+            "count": "1"
+          },
+          {
+            "item": "10403895",
+            "count": "1"
+          },
+          {
+            "item": "10920277",
+            "count": "1"
+          },
+          {
+            "item": "10710045",
+            "count": "1"
+          },
+          {
+            "item": "10398981",
+            "count": "1"
+          },
+          {
+            "item": "10686045",
+            "count": "1"
+          },
+          {
+            "item": "10942949",
+            "count": "1"
+          },
+          {
+            "item": "10865683",
+            "count": "1"
+          },
+          {
+            "item": "10399708",
+            "count": "1"
+          },
+          {
+            "item": "10525419",
+            "count": "1"
+          },
+          {
+            "item": "10399665",
+            "count": "1"
+          },
+          {
+            "item": "10945950",
+            "count": "1"
+          },
+          {
+            "item": "10287286",
+            "count": "1"
+          }
+        ],
+        "smallest": "1454171",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 643754310,
+      "name": "FECHA_RUV",
+      "dataTypeName": "calendar_date",
+      "description": "Fecha de expedición del RUV y aplicación del biológico en el predio, en formato estándar AAAA-MM-DD.",
+      "fieldName": "fecha_ruv",
+      "position": 9,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 171321119,
+      "cachedContents": {
+        "non_null": "2877",
+        "largest": "2024-12-16T00:00:00.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2024-12-09T00:00:00.000",
+            "count": "99"
+          },
+          {
+            "item": "2024-11-21T00:00:00.000",
+            "count": "93"
+          },
+          {
+            "item": "2024-11-23T00:00:00.000",
+            "count": "93"
+          },
+          {
+            "item": "2024-11-22T00:00:00.000",
+            "count": "91"
+          },
+          {
+            "item": "2024-11-30T00:00:00.000",
+            "count": "90"
+          },
+          {
+            "item": "2024-11-27T00:00:00.000",
+            "count": "88"
+          },
+          {
+            "item": "2024-12-02T00:00:00.000",
+            "count": "85"
+          },
+          {
+            "item": "2024-11-20T00:00:00.000",
+            "count": "84"
+          },
+          {
+            "item": "2024-11-29T00:00:00.000",
+            "count": "80"
+          },
+          {
+            "item": "2024-12-06T00:00:00.000",
+            "count": "80"
+          },
+          {
+            "item": "2024-11-09T00:00:00.000",
+            "count": "80"
+          },
+          {
+            "item": "2024-11-12T00:00:00.000",
+            "count": "79"
+          },
+          {
+            "item": "2024-12-10T00:00:00.000",
+            "count": "75"
+          },
+          {
+            "item": "2024-11-07T00:00:00.000",
+            "count": "74"
+          },
+          {
+            "item": "2024-11-13T00:00:00.000",
+            "count": "73"
+          },
+          {
+            "item": "2024-12-12T00:00:00.000",
+            "count": "73"
+          },
+          {
+            "item": "2024-10-31T00:00:00.000",
+            "count": "72"
+          },
+          {
+            "item": "2024-12-03T00:00:00.000",
+            "count": "72"
+          },
+          {
+            "item": "2024-11-28T00:00:00.000",
+            "count": "71"
+          },
+          {
+            "item": "2024-12-07T00:00:00.000",
+            "count": "71"
+          }
+        ],
+        "smallest": "2024-10-28T00:00:00.000",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {}
+    },
+    {
+      "id": 643754309,
+      "name": "VIGENCIA",
+      "dataTypeName": "number",
+      "description": "Año fiscal y calendario al que corresponde la ejecución de las jornadas de vacunación pecuaria reportadas.",
+      "fieldName": "vigencia",
+      "position": 10,
+      "renderTypeName": "number",
+      "tableColumnId": 171321118,
+      "cachedContents": {
+        "non_null": "2877",
+        "largest": "2024",
+        "null": "0",
+        "top": [
+          {
+            "item": "2024",
+            "count": "2877"
+          }
+        ],
+        "smallest": "2024",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 643754308,
+      "name": "CICLO_VACUNACION",
+      "dataTypeName": "text",
+      "description": "Etapa o ciclo oficial del calendario sanitario animal fijado por el Instituto Colombiano Agropecuario (ICA).",
+      "fieldName": "ciclo_vacunacion",
+      "position": 11,
+      "renderTypeName": "text",
+      "tableColumnId": 171321117,
+      "cachedContents": {
+        "non_null": "2877",
+        "largest": "Ciclo II - 2024",
+        "null": "0",
+        "top": [
+          {
+            "item": "Ciclo II - 2024",
+            "count": "2877"
+          }
+        ],
+        "smallest": "Ciclo II - 2024",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {}
+    },
+    {
+      "id": 643754307,
+      "name": "LONGITUD",
+      "dataTypeName": "number",
+      "description": "Coordenada geográfica decimal de longitud en el sistema de referencia WGS84 para la ubicación espacial del predio.",
+      "fieldName": "longitud",
+      "position": 12,
+      "renderTypeName": "number",
+      "tableColumnId": 171321116,
+      "cachedContents": {
+        "non_null": "2823",
+        "largest": "-67.43396619",
+        "null": "54",
+        "top": [
+          {
+            "item": "-70.89827958",
+            "count": "37"
+          },
+          {
+            "item": "-69.70063833",
+            "count": "20"
+          },
+          {
+            "item": "-70.393865",
+            "count": "16"
+          },
+          {
+            "item": "-70.8571465",
+            "count": "14"
+          },
+          {
+            "item": "-70.8597477",
+            "count": "11"
+          },
+          {
+            "item": "-69.31274203",
+            "count": "9"
+          },
+          {
+            "item": "-70.79488833",
+            "count": "9"
+          },
+          {
+            "item": "-70.56092167",
+            "count": "9"
+          },
+          {
+            "item": "-69.245",
+            "count": "9"
+          },
+          {
+            "item": "-69.88556667",
+            "count": "9"
+          },
+          {
+            "item": "-70.71757833",
+            "count": "8"
+          },
+          {
+            "item": "-69.23603928",
+            "count": "8"
+          },
+          {
+            "item": "-70.20642333",
+            "count": "8"
+          },
+          {
+            "item": "-69.86206206",
+            "count": "8"
+          },
+          {
+            "item": "-70.3987454",
+            "count": "8"
+          },
+          {
+            "item": "-70.49894667",
+            "count": "8"
+          },
+          {
+            "item": "-70.62068167",
+            "count": "8"
+          },
+          {
+            "item": "-68.204655",
+            "count": "8"
+          },
+          {
+            "item": "-70.64171167",
+            "count": "8"
+          },
+          {
+            "item": "-70.41326589",
+            "count": "8"
+          }
+        ],
+        "smallest": "-71.07572833",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 643754306,
+      "name": "LATITUD",
+      "dataTypeName": "number",
+      "description": "Coordenada geográfica decimal de latitud en el sistema de referencia WGS84 para la ubicación espacial del predio.",
+      "fieldName": "latitud",
+      "position": 13,
+      "renderTypeName": "number",
+      "tableColumnId": 171321115,
+      "cachedContents": {
+        "non_null": "2823",
+        "largest": "6.29869752",
+        "null": "54",
+        "top": [
+          {
+            "item": "5.09613042",
+            "count": "37"
+          },
+          {
+            "item": "5.94935",
+            "count": "20"
+          },
+          {
+            "item": "5.498455",
+            "count": "16"
+          },
+          {
+            "item": "5.1423453",
+            "count": "14"
+          },
+          {
+            "item": "5.1380906",
+            "count": "11"
+          },
+          {
+            "item": "5.3842436",
+            "count": "9"
+          },
+          {
+            "item": "5.20094833",
+            "count": "9"
+          },
+          {
+            "item": "5.306505",
+            "count": "9"
+          },
+          {
+            "item": "5.61655667",
+            "count": "9"
+          },
+          {
+            "item": "5.4945408",
+            "count": "8"
+          },
+          {
+            "item": "5.13927",
+            "count": "8"
+          },
+          {
+            "item": "5.488277",
+            "count": "8"
+          },
+          {
+            "item": "4.98663143",
+            "count": "8"
+          },
+          {
+            "item": "6.16299833",
+            "count": "8"
+          },
+          {
+            "item": "5.48819563",
+            "count": "8"
+          },
+          {
+            "item": "5.63550025",
+            "count": "8"
+          },
+          {
+            "item": "5.82733918",
+            "count": "8"
+          },
+          {
+            "item": "5.37331667",
+            "count": "8"
+          },
+          {
+            "item": "5.07682667",
+            "count": "8"
+          },
+          {
+            "item": "4.94363",
+            "count": "8"
+          }
+        ],
+        "smallest": "3.54071167",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 643754305,
+      "name": "TOTAL_AFTOSA",
+      "dataTypeName": "number",
+      "description": "Cantidad total de cabezas de ganado bovino y bufalino efectivamente vacunadas contra Fiebre Aftosa en el predio.",
+      "fieldName": "total_aftosa",
+      "position": 14,
+      "renderTypeName": "number",
+      "tableColumnId": 171321114,
+      "cachedContents": {
+        "non_null": "2877",
+        "largest": "5071",
+        "null": "0",
+        "top": [
+          {
+            "item": "10",
+            "count": "80"
+          },
+          {
+            "item": "7",
+            "count": "77"
+          },
+          {
+            "item": "5",
+            "count": "74"
+          },
+          {
+            "item": "6",
+            "count": "74"
+          },
+          {
+            "item": "3",
+            "count": "72"
+          },
+          {
+            "item": "4",
+            "count": "71"
+          },
+          {
+            "item": "2",
+            "count": "67"
+          },
+          {
+            "item": "17",
+            "count": "62"
+          },
+          {
+            "item": "30",
+            "count": "62"
+          },
+          {
+            "item": "8",
+            "count": "57"
+          },
+          {
+            "item": "20",
+            "count": "57"
+          },
+          {
+            "item": "14",
+            "count": "53"
+          },
+          {
+            "item": "9",
+            "count": "52"
+          },
+          {
+            "item": "12",
+            "count": "50"
+          },
+          {
+            "item": "11",
+            "count": "49"
+          },
+          {
+            "item": "25",
+            "count": "48"
+          },
+          {
+            "item": "18",
+            "count": "48"
+          },
+          {
+            "item": "15",
+            "count": "48"
+          },
+          {
+            "item": "24",
+            "count": "46"
+          },
+          {
+            "item": "13",
+            "count": "42"
+          }
+        ],
+        "smallest": "0",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 643754304,
+      "name": "EQUINOS",
+      "dataTypeName": "number",
+      "description": "Censo de animales de la especie équida (caballos, yeguas, mulares y asnales) registrados en el predio pecuario.",
+      "fieldName": "equinos",
+      "position": 15,
+      "renderTypeName": "number",
+      "tableColumnId": 171321113,
+      "cachedContents": {
+        "non_null": "2877",
+        "largest": "87",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "2249"
+          },
+          {
+            "item": "1",
+            "count": "119"
+          },
+          {
+            "item": "2",
+            "count": "112"
+          },
+          {
+            "item": "3",
+            "count": "62"
+          },
+          {
+            "item": "4",
+            "count": "47"
+          },
+          {
+            "item": "5",
+            "count": "41"
+          },
+          {
+            "item": "8",
+            "count": "27"
+          },
+          {
+            "item": "10",
+            "count": "26"
+          },
+          {
+            "item": "6",
+            "count": "25"
+          },
+          {
+            "item": "9",
+            "count": "24"
+          },
+          {
+            "item": "7",
+            "count": "17"
+          },
+          {
+            "item": "11",
+            "count": "16"
+          },
+          {
+            "item": "12",
+            "count": "12"
+          },
+          {
+            "item": "14",
+            "count": "11"
+          },
+          {
+            "item": "13",
+            "count": "11"
+          },
+          {
+            "item": "20",
+            "count": "7"
+          },
+          {
+            "item": "15",
+            "count": "7"
+          },
+          {
+            "item": "18",
+            "count": "7"
+          },
+          {
+            "item": "21",
+            "count": "6"
+          },
+          {
+            "item": "24",
+            "count": "5"
+          }
+        ],
+        "smallest": "0",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 643754303,
+      "name": "PORCINOS",
+      "dataTypeName": "number",
+      "description": "Censo total de ganado porcino registrado en las instalaciones del predio durante la jornada sanitaria.",
+      "fieldName": "porcinos",
+      "position": 16,
+      "renderTypeName": "number",
+      "tableColumnId": 171321112,
+      "cachedContents": {
+        "non_null": "2877",
+        "largest": "58",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "2744"
+          },
+          {
+            "item": "2",
+            "count": "21"
+          },
+          {
+            "item": "3",
+            "count": "16"
+          },
+          {
+            "item": "5",
+            "count": "15"
+          },
+          {
+            "item": "4",
+            "count": "11"
+          },
+          {
+            "item": "1",
+            "count": "10"
+          },
+          {
+            "item": "8",
+            "count": "8"
+          },
+          {
+            "item": "6",
+            "count": "6"
+          },
+          {
+            "item": "12",
+            "count": "6"
+          },
+          {
+            "item": "15",
+            "count": "5"
+          },
+          {
+            "item": "20",
+            "count": "4"
+          },
+          {
+            "item": "10",
+            "count": "4"
+          },
+          {
+            "item": "25",
+            "count": "4"
+          },
+          {
+            "item": "7",
+            "count": "3"
+          },
+          {
+            "item": "30",
+            "count": "3"
+          },
+          {
+            "item": "9",
+            "count": "3"
+          },
+          {
+            "item": "13",
+            "count": "2"
+          },
+          {
+            "item": "40",
+            "count": "1"
+          },
+          {
+            "item": "35",
+            "count": "1"
+          },
+          {
+            "item": "19",
+            "count": "1"
+          }
+        ],
+        "smallest": "0",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 643754302,
+      "name": "OVINOS",
+      "dataTypeName": "number",
+      "description": "Censo de animales de la especie ovina registrados en el predio pecuario.",
+      "fieldName": "ovinos",
+      "position": 17,
+      "renderTypeName": "number",
+      "tableColumnId": 171321111,
+      "cachedContents": {
+        "non_null": "2877",
+        "largest": "60",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "2849"
+          },
+          {
+            "item": "2",
+            "count": "3"
+          },
+          {
+            "item": "7",
+            "count": "3"
+          },
+          {
+            "item": "1",
+            "count": "2"
+          },
+          {
+            "item": "17",
+            "count": "2"
+          },
+          {
+            "item": "6",
+            "count": "2"
+          },
+          {
+            "item": "30",
+            "count": "2"
+          },
+          {
+            "item": "13",
+            "count": "1"
+          },
+          {
+            "item": "14",
+            "count": "1"
+          },
+          {
+            "item": "60",
+            "count": "1"
+          },
+          {
+            "item": "46",
+            "count": "1"
+          },
+          {
+            "item": "15",
+            "count": "1"
+          },
+          {
+            "item": "16",
+            "count": "1"
+          },
+          {
+            "item": "54",
+            "count": "1"
+          },
+          {
+            "item": "10",
+            "count": "1"
+          },
+          {
+            "item": "4",
+            "count": "1"
+          },
+          {
+            "item": "59",
+            "count": "1"
+          },
+          {
+            "item": "45",
+            "count": "1"
+          },
+          {
+            "item": "8",
+            "count": "1"
+          },
+          {
+            "item": "55",
+            "count": "1"
+          }
+        ],
+        "smallest": "0",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 643754301,
+      "name": "CAPRINOS",
+      "dataTypeName": "number",
+      "description": "Censo total de ganado caprino registrado en el predio pecuario durante la visita.",
+      "fieldName": "caprinos",
+      "position": 18,
+      "renderTypeName": "number",
+      "tableColumnId": 171321110,
+      "cachedContents": {
+        "non_null": "2877",
+        "largest": "188",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "2874"
+          },
+          {
+            "item": "7",
+            "count": "1"
+          },
+          {
+            "item": "1",
+            "count": "1"
+          },
+          {
+            "item": "188",
+            "count": "1"
+          }
+        ],
+        "smallest": "0",
+        "count": "2877",
+        "cardinality": "2877"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    }
+  ],
+  "grants": [
+    {
+      "inherited": false,
+      "type": "viewer",
+      "flags": [
+        "public"
+      ]
+    }
+  ],
+  "license": {
+    "name": "Creative Commons Attribution 4.0 International",
+    "logoUrl": "images/licenses/cc30by.png",
+    "termsLink": "http://creativecommons.org/licenses/by/4.0/legalcode"
+  },
+  "metadata": {
+    "custom_fields": {
+      "Información de la Entidad": {
+        "Municipio": "Puerto Carreño",
+        "Nombre de la Entidad": "Gobernación de Vichada, Vichada",
+        "DIVIPOLA Municipio": "99001",
+        "Orden": "Territorial",
+        "Área o dependencia": "Área de TI",
+        "Departamento": "Vichada"
+      },
+      "Información de Datos": {
+        "Cobertura Geográfica": "Departamental",
+        "Idioma": "Español",
+        "Frecuencia de Actualización": "Semestral"
+      }
+    },
+    "availableDisplayTypes": [
+      "table",
+      "fatrow",
+      "page"
+    ]
+  },
+  "owner": {
+    "id": "5z2v-mv2w",
+    "displayName": "Gobernación de Vichada",
+    "profileImageUrlLarge": "/api/users/5z2v-mv2w/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/5z2v-mv2w/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/5z2v-mv2w/profile_images/TINY",
+    "screenName": "Gobernación de Vichada",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "query": {},
+  "rights": [
+    "read"
+  ],
+  "tableAuthor": {
+    "id": "5z2v-mv2w",
+    "displayName": "Gobernación de Vichada",
+    "profileImageUrlLarge": "/api/users/5z2v-mv2w/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/5z2v-mv2w/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/5z2v-mv2w/profile_images/TINY",
+    "screenName": "Gobernación de Vichada",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "flags": [
+    "default",
+    "ownerMayBeContacted",
+    "restorable",
+    "restorePossibleForType"
+  ]
+}

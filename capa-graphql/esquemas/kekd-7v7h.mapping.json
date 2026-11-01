@@ -1,0 +1,507 @@
+{
+ "id": "kekd-7v7h",
+ "alias": "calidadAire",
+ "type": "CalidadAire",
+ "baseWhere": null,
+ "columns": {
+  "idEstacion": {
+   "field": "id_estacion",
+   "kind": "int",
+   "gql": "Int",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "autoridadAmbiental": {
+   "field": "autoridad_ambiental",
+   "kind": "enum",
+   "gql": "CalidadAireAutoridadAmbiental",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "AMB": [
+     "AMB"
+    ],
+    "AMVA": [
+     "AMVA"
+    ],
+    "CAM": [
+     "CAM"
+    ],
+    "CAR": [
+     "CAR"
+    ],
+    "CARDER": [
+     "CARDER"
+    ],
+    "CARDIQUE": [
+     "CARDIQUE"
+    ],
+    "CAR_DEL_CANAL_DEL_DIQUE": [
+     "CAR DEL CANAL DEL DIQUE"
+    ],
+    "CDMB": [
+     "CDMB"
+    ],
+    "CODECHOCO": [
+     "CODECHOCÓ"
+    ],
+    "CORANTIOQUIA": [
+     "CORANTIOQUIA"
+    ],
+    "CORMACARENA": [
+     "CORMACARENA"
+    ],
+    "CORNARE": [
+     "CORNARE"
+    ],
+    "CORPAMAG": [
+     "CORPAMAG"
+    ],
+    "CORPOBOYACA": [
+     "CORPOBOYACA"
+    ],
+    "CORPOCALDAS": [
+     "CORPOCALDAS"
+    ],
+    "CORPOCESAR": [
+     "CORPOCESAR"
+    ],
+    "CORPOGUAJIRA": [
+     "CORPOGUAJIRA"
+    ],
+    "CORPONARINO": [
+     "CORPONARIÑO"
+    ],
+    "CORPONOR": [
+     "CORPONOR"
+    ],
+    "CORPORINOQUIA": [
+     "CORPORINOQUIA"
+    ],
+    "CORTOLIMA": [
+     "CORTOLIMA"
+    ],
+    "CRA": [
+     "CRA"
+    ],
+    "CRC": [
+     "CRC"
+    ],
+    "CRQ": [
+     "CRQ"
+    ],
+    "CVC": [
+     "CVC"
+    ],
+    "CVS": [
+     "CVS"
+    ],
+    "DAGMA": [
+     "DAGMA"
+    ],
+    "EPA_BARRANQUILLA": [
+     "EPA BARRANQUILLA"
+    ],
+    "EPA_CARTAGENA": [
+     "EPA CARTAGENA",
+     "EPA Cartagena"
+    ],
+    "SDA": [
+     "SDA"
+    ]
+   }
+  },
+  "estacion": {
+   "field": "estaci_n",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "latitud": {
+   "field": "latitud",
+   "kind": "float",
+   "gql": "Float",
+   "role": "geo",
+   "cast": null,
+   "enum": null
+  },
+  "longitud": {
+   "field": "longitud",
+   "kind": "float",
+   "gql": "Float",
+   "role": "geo",
+   "cast": null,
+   "enum": null
+  },
+  "variable": {
+   "field": "variable",
+   "kind": "enum",
+   "gql": "CalidadAireVariable",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "CO": [
+     "CO"
+    ],
+    "DVIENTO": [
+     "DViento"
+    ],
+    "HAIRE": [
+     "HAire"
+    ],
+    "HAIRE10": [
+     "HAire10"
+    ],
+    "HAIRE2": [
+     "HAire2"
+    ],
+    "NO": [
+     "NO"
+    ],
+    "NO2": [
+     "NO2"
+    ],
+    "O3": [
+     "O3"
+    ],
+    "P": [
+     "P"
+    ],
+    "PLIQUIDA": [
+     "PLiquida"
+    ],
+    "PM10": [
+     "PM10"
+    ],
+    "PM2_5": [
+     "PM2.5"
+    ],
+    "PST": [
+     "PST"
+    ],
+    "RGLOBAL": [
+     "RGlobal"
+    ],
+    "RUVB": [
+     "RUVb"
+    ],
+    "SO2": [
+     "SO2"
+    ],
+    "TAIRE": [
+     "TAire"
+    ],
+    "TAIRE10": [
+     "TAire10"
+    ],
+    "TAIRE2": [
+     "TAire2"
+    ],
+    "VVIENTO": [
+     "VViento"
+    ]
+   }
+  },
+  "unidades": {
+   "field": "unidades",
+   "kind": "enum",
+   "gql": "CalidadAireUnidades",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "CELSIUS": [
+     "Celsius"
+    ],
+    "DEG": [
+     "deg"
+    ],
+    "MEDH": [
+     "MEDh"
+    ],
+    "MM": [
+     "mm"
+    ],
+    "MMHG": [
+     "mmHg"
+    ],
+    "MS": [
+     "ms"
+    ],
+    "PERC": [
+     "perc"
+    ],
+    "UGM3": [
+     "ugm3"
+    ],
+    "WM2": [
+     "Wm2"
+    ]
+   }
+  },
+  "tiempoDeExposicionHoras": {
+   "field": "tiempo_de_exposici_n_horas",
+   "kind": "int",
+   "gql": "Int",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "anio": {
+   "field": "a_o",
+   "kind": "int",
+   "gql": "Int",
+   "role": "time",
+   "cast": null,
+   "enum": null
+  },
+  "promedio": {
+   "field": "promedio",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "suma": {
+   "field": "suma",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "noDeDatos": {
+   "field": "no_de_datos",
+   "kind": "int",
+   "gql": "Int",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "representatividadTemporal": {
+   "field": "representatividad_temporal",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": {
+    "type": "Float",
+    "nullTokens": [
+     "N/A"
+    ]
+   },
+   "enum": null
+  },
+  "excedenciasLimiteActual": {
+   "field": "excedencias_limite_actual",
+   "kind": "int",
+   "gql": "Int",
+   "role": null,
+   "cast": {
+    "type": "Int"
+   },
+   "enum": null
+  },
+  "porcentajeExcedenciasLimiteActual": {
+   "field": "porcentaje_excedencias_limite",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": {
+    "type": "Float"
+   },
+   "enum": null
+  },
+  "mediana": {
+   "field": "mediana",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "percentil98": {
+   "field": "percentil_98",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "maximo": {
+   "field": "m_ximo",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "minimo": {
+   "field": "m_nimo",
+   "kind": "float",
+   "gql": "Float",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "diasDeExcedencias": {
+   "field": "d_as_de_excedencias",
+   "kind": "int",
+   "gql": "Int",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "codigoDelDepartamento": {
+   "field": "c_digo_del_departamento",
+   "kind": "int",
+   "gql": "Int",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "nombreDelDepartamento": {
+   "field": "nombre_del_departamento",
+   "kind": "enum",
+   "gql": "CalidadAireNombreDelDepartamento",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "ANTIOQUIA": [
+     "ANTIOQUIA",
+     "Antioquia"
+    ],
+    "ARAUCA": [
+     "ARAUCA"
+    ],
+    "ATLANTICO": [
+     "ATLANTICO",
+     "ATLÁNTICO",
+     "Atlántico"
+    ],
+    "BOGOTA_D_C": [
+     "BOGOTA, D.C.",
+     "BOGOTÁ, D.C.",
+     "Bogotá, D.C."
+    ],
+    "BOLIVAR": [
+     "BOLÍVAR",
+     "Bolívar"
+    ],
+    "BOYACA": [
+     "BOYACA",
+     "BOYACÁ",
+     "Boyacá"
+    ],
+    "CALDAS": [
+     "CALDAS",
+     "Caldas"
+    ],
+    "CASANARE": [
+     "CASANARE"
+    ],
+    "CAUCA": [
+     "CAUCA",
+     "Cauca"
+    ],
+    "CESAR": [
+     "CESAR",
+     "Cesar"
+    ],
+    "CHOCO": [
+     "CHOCÓ"
+    ],
+    "CORDOBA": [
+     "CORDOBA",
+     "CÓRDOBA",
+     "Córdoba"
+    ],
+    "CUNDINAMARCA": [
+     "CUNDINAMARCA",
+     "Cundinamarca"
+    ],
+    "HUILA": [
+     "HUILA",
+     "Huila"
+    ],
+    "LA_GUAJIRA": [
+     "LA GUAJIRA",
+     "La Guajira"
+    ],
+    "MAGDALENA": [
+     "MAGDALENA",
+     "Magdalena"
+    ],
+    "META": [
+     "META",
+     "Meta"
+    ],
+    "NARINO": [
+     "NARIÑO"
+    ],
+    "NORTE_DE_SANTANDER": [
+     "NORTE DE SANTANDER",
+     "Norte de Santander"
+    ],
+    "QUINDIO": [
+     "QUINDIO",
+     "QUINDÍO",
+     "Quindío"
+    ],
+    "RISARALDA": [
+     "RISARALDA",
+     "Risaralda"
+    ],
+    "SANTANDER": [
+     "SANTANDER",
+     "Santander"
+    ],
+    "TOLIMA": [
+     "TOLIMA",
+     "Tolima"
+    ],
+    "VALLE_DEL_CAUCA": [
+     "VALLE DEL CAUCA",
+     "Valle del Cauca"
+    ]
+   }
+  },
+  "codigoDelMunicipio": {
+   "field": "c_digo_del_municipio",
+   "kind": "string",
+   "gql": "String",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "nombreDelMunicipio": {
+   "field": "nombre_del_municipio",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "tipoDeEstacion": {
+   "field": "tipo_de_estaci_n",
+   "kind": "enum",
+   "gql": "CalidadAireTipoDeEstacion",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "FIJA": [
+     "Fija"
+    ],
+    "INDICATIVA": [
+     "Indicativa"
+    ],
+    "NA": [
+     "N/A",
+     "NA"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,1051 @@
+{
+ "id": "8yi9-t44c",
+ "name": "Tráfico Vehicular ANI",
+ "assetType": "dataset",
+ "attribution": "Agencia Nacional de Infraestructura - ANI, Bogotá D.C.",
+ "attributionLink": "https://www.ani.gov.co",
+ "averageRating": 0,
+ "category": "Transporte",
+ "createdAt": 1616592271,
+ "description": "Registro de tráfico de vehículos que circulan en los peajes de la ANI.",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 4011,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 36784251,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1616592416,
+ "publicationGroup": 18164128,
+ "publicationStage": "published",
+ "rowsUpdatedAt": 1788379877,
+ "rowsUpdatedBy": "vnfh-vh47",
+ "tableId": 18164128,
+ "totalTimesRated": 0,
+ "viewCount": 44162,
+ "viewLastModified": 1788379849,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1616593135,
+   "reviewedAutomatically": false,
+   "state": "approved",
+   "submissionId": 3412233,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1616592416,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "reviewer": {
+    "id": "r4qn-dwdd",
+    "displayName": "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+   },
+   "submissionDetails": {
+    "permissionType": "READ"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1616593135,
+    "failureCount": 0,
+    "startedAt": 1616593135,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "vnfh-vh47",
+    "displayName": "ANI"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 531763766,
+   "name": "IdPeaje",
+   "dataTypeName": "number",
+   "description": "",
+   "fieldName": "idpeaje",
+   "position": 1,
+   "renderTypeName": "number",
+   "tableColumnId": 133845432,
+   "cachedContents": {
+    "non_null": "149944",
+    "largest": "221",
+    "null": "0",
+    "top": [
+     {
+      "item": "45",
+      "count": "1869"
+     },
+     {
+      "item": "83",
+      "count": "1857"
+     },
+     {
+      "item": "15",
+      "count": "1852"
+     },
+     {
+      "item": "9",
+      "count": "1738"
+     },
+     {
+      "item": "20",
+      "count": "1700"
+     },
+     {
+      "item": "10",
+      "count": "1681"
+     },
+     {
+      "item": "64",
+      "count": "1664"
+     },
+     {
+      "item": "40",
+      "count": "1609"
+     },
+     {
+      "item": "12",
+      "count": "1608"
+     },
+     {
+      "item": "23",
+      "count": "1513"
+     },
+     {
+      "item": "52",
+      "count": "1498"
+     },
+     {
+      "item": "33",
+      "count": "1490"
+     },
+     {
+      "item": "2",
+      "count": "1490"
+     },
+     {
+      "item": "35",
+      "count": "1479"
+     },
+     {
+      "item": "39",
+      "count": "1445"
+     },
+     {
+      "item": "50",
+      "count": "1441"
+     },
+     {
+      "item": "21",
+      "count": "1417"
+     },
+     {
+      "item": "66",
+      "count": "1389"
+     },
+     {
+      "item": "99",
+      "count": "1387"
+     },
+     {
+      "item": "107",
+      "count": "1387"
+     }
+    ],
+    "smallest": "1",
+    "count": "149944",
+    "cardinality": "149944"
+   },
+   "format": {}
+  },
+  {
+   "id": 531763767,
+   "name": "Peaje",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "peaje",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 133845433,
+   "cachedContents": {
+    "non_null": "149944",
+    "largest": "ZARAGOZA",
+    "null": "0",
+    "top": [
+     {
+      "item": "PURGATORIO",
+      "count": "1869"
+     },
+     {
+      "item": "TUTA",
+      "count": "1857"
+     },
+     {
+      "item": "SIBERIA",
+      "count": "1852"
+     },
+     {
+      "item": "BOQUERÓN I",
+      "count": "1738"
+     },
+     {
+      "item": "NARANJAL",
+      "count": "1700"
+     },
+     {
+      "item": "BOQUERÓN II",
+      "count": "1681"
+     },
+     {
+      "item": "PARAGUACHÓN",
+      "count": "1664"
+     },
+     {
+      "item": "LAS PALMAS",
+      "count": "1609"
+     },
+     {
+      "item": "LOS PATIOS",
+      "count": "1608"
+     },
+     {
+      "item": "EL ROBLE",
+      "count": "1513"
+     },
+     {
+      "item": "NEIVA",
+      "count": "1498"
+     },
+     {
+      "item": "CHICORAL",
+      "count": "1490"
+     },
+     {
+      "item": "PAVAS",
+      "count": "1490"
+     },
+     {
+      "item": "SAN BERNARDO",
+      "count": "1479"
+     },
+     {
+      "item": "AMAGÁ",
+      "count": "1445"
+     },
+     {
+      "item": "CAIMANERA",
+      "count": "1441"
+     },
+     {
+      "item": "PIPIRAL",
+      "count": "1417"
+     },
+     {
+      "item": "LA LOMA",
+      "count": "1389"
+     },
+     {
+      "item": "TUCURINCA",
+      "count": "1387"
+     },
+     {
+      "item": "EL COPEY",
+      "count": "1387"
+     }
+    ],
+    "smallest": "ABURRÁ",
+    "count": "149944",
+    "cardinality": "149944"
+   },
+   "format": {}
+  },
+  {
+   "id": 531763768,
+   "name": "CategoriaTarifa",
+   "dataTypeName": "text",
+   "description": "",
+   "fieldName": "categoriatarifa",
+   "position": 3,
+   "renderTypeName": "text",
+   "tableColumnId": 133845434,
+   "cachedContents": {
+    "non_null": "149944",
+    "largest": "VIIIE",
+    "null": "0",
+    "top": [
+     {
+      "item": "V",
+      "count": "16535"
+     },
+     {
+      "item": "II",
+      "count": "16531"
+     },
+     {
+      "item": "I",
+      "count": "16520"
+     },
+     {
+      "item": "III",
+      "count": "16513"
+     },
+     {
+      "item": "IV",
+      "count": "16420"
+     },
+     {
+      "item": "VI",
+      "count": "9185"
+     },
+     {
+      "item": "IE",
+      "count": "8933"
+     },
+     {
+      "item": "VII",
+      "count": "8748"
+     },
+     {
+      "item": "EG",
+      "count": "7000"
+     },
+     {
+      "item": "ER",
+      "count": "6949"
+     },
+     {
+      "item": "EA",
+      "count": "6892"
+     },
+     {
+      "item": "IIE",
+      "count": "6274"
+     },
+     {
+      "item": "IIIE",
+      "count": "2572"
+     },
+     {
+      "item": "IVE",
+      "count": "2140"
+     },
+     {
+      "item": "POLCA",
+      "count": "1357"
+     },
+     {
+      "item": "IEE",
+      "count": "1113"
+     },
+     {
+      "item": "EC",
+      "count": "1102"
+     },
+     {
+      "item": "VE",
+      "count": "983"
+     },
+     {
+      "item": "IEEE",
+      "count": "701"
+     },
+     {
+      "item": "IIE1",
+      "count": "517"
+     }
+    ],
+    "smallest": "E1-II",
+    "count": "149944",
+    "cardinality": "149944"
+   },
+   "format": {}
+  },
+  {
+   "id": 531763769,
+   "name": "Desde",
+   "dataTypeName": "calendar_date",
+   "description": "",
+   "fieldName": "desde",
+   "position": 4,
+   "renderTypeName": "calendar_date",
+   "tableColumnId": 133845435,
+   "cachedContents": {
+    "non_null": "149944",
+    "largest": "2026-05-01T00:00:00.000",
+    "null": "0",
+    "top": [
+     {
+      "item": "2024-01-01T00:00:00.000",
+      "count": "1241"
+     },
+     {
+      "item": "2023-11-01T00:00:00.000",
+      "count": "1238"
+     },
+     {
+      "item": "2023-12-01T00:00:00.000",
+      "count": "1236"
+     },
+     {
+      "item": "2025-03-01T00:00:00.000",
+      "count": "1216"
+     },
+     {
+      "item": "2024-03-01T00:00:00.000",
+      "count": "1216"
+     },
+     {
+      "item": "2025-02-01T00:00:00.000",
+      "count": "1214"
+     },
+     {
+      "item": "2026-05-01T00:00:00.000",
+      "count": "1210"
+     },
+     {
+      "item": "2025-04-01T00:00:00.000",
+      "count": "1210"
+     },
+     {
+      "item": "2024-02-01T00:00:00.000",
+      "count": "1208"
+     },
+     {
+      "item": "2026-04-01T00:00:00.000",
+      "count": "1207"
+     },
+     {
+      "item": "2026-03-01T00:00:00.000",
+      "count": "1207"
+     },
+     {
+      "item": "2023-10-01T00:00:00.000",
+      "count": "1206"
+     },
+     {
+      "item": "2025-01-01T00:00:00.000",
+      "count": "1206"
+     },
+     {
+      "item": "2024-12-01T00:00:00.000",
+      "count": "1205"
+     },
+     {
+      "item": "2024-11-01T00:00:00.000",
+      "count": "1204"
+     },
+     {
+      "item": "2026-01-01T00:00:00.000",
+      "count": "1204"
+     },
+     {
+      "item": "2026-02-01T00:00:00.000",
+      "count": "1201"
+     },
+     {
+      "item": "2023-08-01T00:00:00.000",
+      "count": "1200"
+     },
+     {
+      "item": "2024-10-01T00:00:00.000",
+      "count": "1200"
+     },
+     {
+      "item": "2023-09-01T00:00:00.000",
+      "count": "1200"
+     }
+    ],
+    "smallest": "2014-01-01T00:00:00.000",
+    "count": "149944",
+    "cardinality": "149944"
+   },
+   "format": {}
+  },
+  {
+   "id": 531763770,
+   "name": "Hasta",
+   "dataTypeName": "calendar_date",
+   "description": "",
+   "fieldName": "hasta",
+   "position": 5,
+   "renderTypeName": "calendar_date",
+   "tableColumnId": 133845436,
+   "cachedContents": {
+    "non_null": "149944",
+    "largest": "2026-05-31T00:00:00.000",
+    "null": "0",
+    "top": [
+     {
+      "item": "2024-01-31T00:00:00.000",
+      "count": "1241"
+     },
+     {
+      "item": "2023-11-30T00:00:00.000",
+      "count": "1238"
+     },
+     {
+      "item": "2023-12-31T00:00:00.000",
+      "count": "1236"
+     },
+     {
+      "item": "2025-03-31T00:00:00.000",
+      "count": "1216"
+     },
+     {
+      "item": "2024-03-31T00:00:00.000",
+      "count": "1216"
+     },
+     {
+      "item": "2025-02-28T00:00:00.000",
+      "count": "1214"
+     },
+     {
+      "item": "2026-05-31T00:00:00.000",
+      "count": "1210"
+     },
+     {
+      "item": "2025-04-30T00:00:00.000",
+      "count": "1210"
+     },
+     {
+      "item": "2024-02-29T00:00:00.000",
+      "count": "1208"
+     },
+     {
+      "item": "2026-04-30T00:00:00.000",
+      "count": "1207"
+     },
+     {
+      "item": "2026-03-31T00:00:00.000",
+      "count": "1207"
+     },
+     {
+      "item": "2023-10-31T00:00:00.000",
+      "count": "1206"
+     },
+     {
+      "item": "2025-01-31T00:00:00.000",
+      "count": "1206"
+     },
+     {
+      "item": "2024-12-31T00:00:00.000",
+      "count": "1205"
+     },
+     {
+      "item": "2024-11-30T00:00:00.000",
+      "count": "1204"
+     },
+     {
+      "item": "2026-01-31T00:00:00.000",
+      "count": "1204"
+     },
+     {
+      "item": "2026-02-28T00:00:00.000",
+      "count": "1201"
+     },
+     {
+      "item": "2023-08-31T00:00:00.000",
+      "count": "1200"
+     },
+     {
+      "item": "2024-10-31T00:00:00.000",
+      "count": "1200"
+     },
+     {
+      "item": "2023-09-30T00:00:00.000",
+      "count": "1200"
+     }
+    ],
+    "smallest": "2014-01-31T00:00:00.000",
+    "count": "149944",
+    "cardinality": "149944"
+   },
+   "format": {}
+  },
+  {
+   "id": 531763795,
+   "name": "ValorTarifa",
+   "dataTypeName": "number",
+   "description": "",
+   "fieldName": "valortarifa",
+   "position": 6,
+   "renderTypeName": "number",
+   "tableColumnId": 133845437,
+   "cachedContents": {
+    "non_null": "149944",
+    "largest": "195200",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "6279"
+     },
+     {
+      "item": "8400",
+      "count": "1523"
+     },
+     {
+      "item": "7100",
+      "count": "1465"
+     },
+     {
+      "item": "9600",
+      "count": "1364"
+     },
+     {
+      "item": "200",
+      "count": "1296"
+     },
+     {
+      "item": "2000",
+      "count": "1208"
+     },
+     {
+      "item": "9300",
+      "count": "1132"
+     },
+     {
+      "item": "8700",
+      "count": "1096"
+     },
+     {
+      "item": "9100",
+      "count": "1057"
+     },
+     {
+      "item": "8100",
+      "count": "1057"
+     },
+     {
+      "item": "7900",
+      "count": "1044"
+     },
+     {
+      "item": "9200",
+      "count": "1040"
+     },
+     {
+      "item": "7200",
+      "count": "1034"
+     },
+     {
+      "item": "7700",
+      "count": "1008"
+     },
+     {
+      "item": "7400",
+      "count": "990"
+     },
+     {
+      "item": "9000",
+      "count": "905"
+     },
+     {
+      "item": "6000",
+      "count": "904"
+     },
+     {
+      "item": "8500",
+      "count": "886"
+     },
+     {
+      "item": "8000",
+      "count": "874"
+     },
+     {
+      "item": "8300",
+      "count": "857"
+     }
+    ],
+    "smallest": "0",
+    "count": "149944",
+    "cardinality": "149944"
+   },
+   "format": {}
+  },
+  {
+   "id": 531763796,
+   "name": "CantidadTrafico",
+   "dataTypeName": "number",
+   "description": "",
+   "fieldName": "cantidadtrafico",
+   "position": 7,
+   "renderTypeName": "number",
+   "tableColumnId": 133845438,
+   "cachedContents": {
+    "non_null": "149944",
+    "largest": "1124159",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "3899"
+     },
+     {
+      "item": "1",
+      "count": "761"
+     },
+     {
+      "item": "2",
+      "count": "681"
+     },
+     {
+      "item": "4",
+      "count": "508"
+     },
+     {
+      "item": "3",
+      "count": "493"
+     },
+     {
+      "item": "6",
+      "count": "473"
+     },
+     {
+      "item": "10",
+      "count": "407"
+     },
+     {
+      "item": "8",
+      "count": "402"
+     },
+     {
+      "item": "5",
+      "count": "402"
+     },
+     {
+      "item": "7",
+      "count": "377"
+     },
+     {
+      "item": "9",
+      "count": "351"
+     },
+     {
+      "item": "11",
+      "count": "345"
+     },
+     {
+      "item": "14",
+      "count": "341"
+     },
+     {
+      "item": "12",
+      "count": "337"
+     },
+     {
+      "item": "13",
+      "count": "313"
+     },
+     {
+      "item": "22",
+      "count": "312"
+     },
+     {
+      "item": "16",
+      "count": "310"
+     },
+     {
+      "item": "15",
+      "count": "309"
+     },
+     {
+      "item": "17",
+      "count": "296"
+     },
+     {
+      "item": "18",
+      "count": "293"
+     }
+    ],
+    "smallest": "0",
+    "count": "149944",
+    "cardinality": "149944"
+   },
+   "format": {}
+  },
+  {
+   "id": 531763797,
+   "name": "CantidadEvasores",
+   "dataTypeName": "number",
+   "description": "",
+   "fieldName": "cantidadevasores",
+   "position": 8,
+   "renderTypeName": "number",
+   "tableColumnId": 133845439,
+   "cachedContents": {
+    "non_null": "149944",
+    "largest": "273071",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "148063"
+     },
+     {
+      "item": "1",
+      "count": "948"
+     },
+     {
+      "item": "2",
+      "count": "283"
+     },
+     {
+      "item": "3",
+      "count": "173"
+     },
+     {
+      "item": "4",
+      "count": "80"
+     },
+     {
+      "item": "5",
+      "count": "65"
+     },
+     {
+      "item": "6",
+      "count": "46"
+     },
+     {
+      "item": "7",
+      "count": "33"
+     },
+     {
+      "item": "8",
+      "count": "31"
+     },
+     {
+      "item": "9",
+      "count": "20"
+     },
+     {
+      "item": "10",
+      "count": "12"
+     },
+     {
+      "item": "11",
+      "count": "12"
+     },
+     {
+      "item": "14",
+      "count": "12"
+     },
+     {
+      "item": "12",
+      "count": "8"
+     },
+     {
+      "item": "18",
+      "count": "8"
+     },
+     {
+      "item": "16",
+      "count": "6"
+     },
+     {
+      "item": "19",
+      "count": "5"
+     },
+     {
+      "item": "15",
+      "count": "5"
+     },
+     {
+      "item": "17",
+      "count": "4"
+     },
+     {
+      "item": "31",
+      "count": "4"
+     }
+    ],
+    "smallest": "0",
+    "count": "149944",
+    "cardinality": "149944"
+   },
+   "format": {}
+  },
+  {
+   "id": 531763798,
+   "name": "CantidadExentos787",
+   "dataTypeName": "number",
+   "description": "",
+   "fieldName": "cantidadexentos787",
+   "position": 9,
+   "renderTypeName": "number",
+   "tableColumnId": 133845440,
+   "cachedContents": {
+    "non_null": "149944",
+    "largest": "101300",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "80652"
+     },
+     {
+      "item": "2",
+      "count": "5126"
+     },
+     {
+      "item": "1",
+      "count": "4879"
+     },
+     {
+      "item": "4",
+      "count": "2831"
+     },
+     {
+      "item": "3",
+      "count": "2495"
+     },
+     {
+      "item": "6",
+      "count": "1765"
+     },
+     {
+      "item": "5",
+      "count": "1662"
+     },
+     {
+      "item": "8",
+      "count": "1342"
+     },
+     {
+      "item": "7",
+      "count": "1207"
+     },
+     {
+      "item": "9",
+      "count": "993"
+     },
+     {
+      "item": "10",
+      "count": "982"
+     },
+     {
+      "item": "12",
+      "count": "785"
+     },
+     {
+      "item": "11",
+      "count": "748"
+     },
+     {
+      "item": "14",
+      "count": "652"
+     },
+     {
+      "item": "13",
+      "count": "602"
+     },
+     {
+      "item": "16",
+      "count": "524"
+     },
+     {
+      "item": "15",
+      "count": "515"
+     },
+     {
+      "item": "18",
+      "count": "496"
+     },
+     {
+      "item": "17",
+      "count": "451"
+     },
+     {
+      "item": "20",
+      "count": "446"
+     }
+    ],
+    "smallest": "0",
+    "count": "149944",
+    "cardinality": "149944"
+   },
+   "format": {}
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Agencia Nacional de Infraestructura - ANI, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Transporte",
+    "Área o dependencia": "Vicepresidencia de Planeación Riesgos y Entorno",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Nacional",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Semestral"
+   }
+  },
+  "availableDisplayTypes": [
+   "table",
+   "fatrow",
+   "page"
+  ]
+ },
+ "owner": {
+  "id": "vnfh-vh47",
+  "displayName": "ANI",
+  "profileImageUrlLarge": "/api/users/vnfh-vh47/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/vnfh-vh47/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/vnfh-vh47/profile_images/TINY",
+  "screenName": "ANI",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "vnfh-vh47",
+  "displayName": "ANI",
+  "profileImageUrlLarge": "/api/users/vnfh-vh47/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/vnfh-vh47/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/vnfh-vh47/profile_images/TINY",
+  "screenName": "ANI",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

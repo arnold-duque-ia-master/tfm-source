@@ -1,0 +1,674 @@
+{
+ "id": "ekup-y869",
+ "name": "Tarifas de gas natural para hogares - EPM",
+ "assetType": "dataset",
+ "attribution": "E.S.P. Empresas Públicas de Medellín - EPM, Antioquia",
+ "attributionLink": "https://www.epm.com.co/clientesyusuarios/gas/tarifas-gas/",
+ "averageRating": 0,
+ "category": "Minas y Energía",
+ "createdAt": 1484258822,
+ "description": "Este conjunto de datos muestra, mes a mes, cuánto ha cobrado EPM por el servicio de gas natural en los hogares, según el estrato socioeconómico.\n\nLa información va desde enero de 2020 hasta noviembre de 2026 e incluye dos tipos de cobros:\n\n1. Cargo fijo: un valor que se paga siempre, sin importar cuánto gas se consuma.\n\n2. Cargo por consumo: un valor que cambia según cuánto gas se use.\n\nTodos los valores están en pesos colombianos por metro cúbico (m3) de gas natural.\n\nEstas tarifas se calculan siguiendo las reglas de la Comisión de Regulación de Energía y Gas (CREG), en particular la Resolución 011 de 2003.",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 1341,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 42544436,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1789677997,
+ "publicationGroup": 13996790,
+ "publicationStage": "published",
+ "rowsUpdatedAt": 1793138915,
+ "rowsUpdatedBy": "2hkq-c8bw",
+ "tableId": 20603929,
+ "totalTimesRated": 0,
+ "viewCount": 52252,
+ "viewLastModified": 1793138914,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1532727811,
+   "reviewedAutomatically": true,
+   "state": "approved",
+   "submissionId": 7717833,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1532727811,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "submissionDetails": {
+    "permissionType": "READ"
+   },
+   "submissionOutcomeApplication": {
+    "failureCount": 0,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "2hkq-c8bw",
+    "displayName": "EPM"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 645372417,
+   "name": "Sector",
+   "dataTypeName": "text",
+   "description": "El rango 1 comprende consumos desde 0 y 100.000m3/mes- El rango 2 comprende consumos desde 100.000 y 400.000m3/mes",
+   "fieldName": "sector",
+   "position": 1,
+   "renderTypeName": "text",
+   "tableColumnId": 42712758,
+   "width": 172,
+   "cachedContents": {
+    "non_null": "664",
+    "largest": "Residencial",
+    "null": "0",
+    "top": [
+     {
+      "item": "Residencial",
+      "count": "498"
+     },
+     {
+      "item": "No Residencial",
+      "count": "166"
+     }
+    ],
+    "smallest": "No Residencial",
+    "count": "664",
+    "cardinality": "664"
+   },
+   "format": {}
+  },
+  {
+   "id": 645372418,
+   "name": "Estrato",
+   "dataTypeName": "text",
+   "description": "Estrato 1 Bajo - bajo Estrato 2 Bajo Estrato 3 Medio - bajo Estrato 4 Medio Estrato 5 Medio - alto Estrato 6 Alto",
+   "fieldName": "estrato",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 42712760,
+   "width": 184,
+   "cachedContents": {
+    "non_null": "664",
+    "largest": "Rango 1 industrial, comercial y otros",
+    "null": "0",
+    "top": [
+     {
+      "item": "4",
+      "count": "83"
+     },
+     {
+      "item": "6",
+      "count": "83"
+     },
+     {
+      "item": "3",
+      "count": "83"
+     },
+     {
+      "item": "2",
+      "count": "83"
+     },
+     {
+      "item": "5",
+      "count": "83"
+     },
+     {
+      "item": "1",
+      "count": "83"
+     },
+     {
+      "item": "Rango 1 Cogenración, Autogeneración, oficiales y exentos",
+      "count": "43"
+     },
+     {
+      "item": "Rango 1 industrial, comercial y otros",
+      "count": "43"
+     },
+     {
+      "item": "Rango 1  industrial, comercial, oficiales, especiales y otros, con contribución",
+      "count": "40"
+     },
+     {
+      "item": "Rango 1  industrial, comercial, oficiales, especiales y otros, sin contribución",
+      "count": "40"
+     }
+    ],
+    "smallest": "1",
+    "count": "664",
+    "cardinality": "664"
+   },
+   "format": {}
+  },
+  {
+   "id": 645372419,
+   "name": "Cargo Fijo",
+   "dataTypeName": "number",
+   "description": "Cargo fijo ($/Usuario)",
+   "fieldName": "cargo_fijo",
+   "position": 3,
+   "renderTypeName": "number",
+   "tableColumnId": 42712761,
+   "width": 220,
+   "cachedContents": {
+    "non_null": "664",
+    "largest": "5280.10",
+    "null": "0",
+    "top": [
+     {
+      "item": "0.00",
+      "count": "166"
+     },
+     {
+      "item": "3875.66",
+      "count": "9"
+     },
+     {
+      "item": "3194.61",
+      "count": "9"
+     },
+     {
+      "item": "4293.48",
+      "count": "6"
+     },
+     {
+      "item": "3223.46",
+      "count": "6"
+     },
+     {
+      "item": "4185.44",
+      "count": "6"
+     },
+     {
+      "item": "4349.85",
+      "count": "6"
+     },
+     {
+      "item": "3559.06",
+      "count": "6"
+     },
+     {
+      "item": "3833.53",
+      "count": "6"
+     },
+     {
+      "item": "4650.79",
+      "count": "6"
+     },
+     {
+      "item": "4051.54",
+      "count": "6"
+     },
+     {
+      "item": "3147.07",
+      "count": "6"
+     },
+     {
+      "item": "3499.34",
+      "count": "6"
+     },
+     {
+      "item": "4033.49",
+      "count": "6"
+     },
+     {
+      "item": "3241.93",
+      "count": "6"
+     },
+     {
+      "item": "4199.21",
+      "count": "4"
+     },
+     {
+      "item": "3890.32",
+      "count": "4"
+     },
+     {
+      "item": "4840.19",
+      "count": "4"
+     },
+     {
+      "item": "4861.85",
+      "count": "4"
+     },
+     {
+      "item": "5022.53",
+      "count": "4"
+     }
+    ],
+    "smallest": "0.00",
+    "count": "664",
+    "cardinality": "664"
+   },
+   "format": {
+    "precisionStyle": "currency",
+    "currencyStyle": "COP",
+    "precision": "2"
+   }
+  },
+  {
+   "id": 645372420,
+   "name": "Cargo por Consumo Menor",
+   "dataTypeName": "number",
+   "description": "Cargo por consumo ($/m3) de 0 - 20m3",
+   "fieldName": "cargo_por_consumo_menor",
+   "position": 4,
+   "renderTypeName": "number",
+   "tableColumnId": 42712763,
+   "width": 376,
+   "cachedContents": {
+    "non_null": "664",
+    "largest": "4550.94",
+    "null": "0",
+    "top": [
+     {
+      "item": "2015.64",
+      "count": "6"
+     },
+     {
+      "item": "2384.49",
+      "count": "6"
+     },
+     {
+      "item": "2418.77",
+      "count": "6"
+     },
+     {
+      "item": "2861.39",
+      "count": "6"
+     },
+     {
+      "item": "3269.10",
+      "count": "4"
+     },
+     {
+      "item": "2399.88",
+      "count": "4"
+     },
+     {
+      "item": "2416.46",
+      "count": "4"
+     },
+     {
+      "item": "3892.38",
+      "count": "4"
+     },
+     {
+      "item": "2358.44",
+      "count": "4"
+     },
+     {
+      "item": "2052.61",
+      "count": "4"
+     },
+     {
+      "item": "2467.32",
+      "count": "4"
+     },
+     {
+      "item": "2263.80",
+      "count": "4"
+     },
+     {
+      "item": "3304.56",
+      "count": "4"
+     },
+     {
+      "item": "2879.86",
+      "count": "4"
+     },
+     {
+      "item": "2830.13",
+      "count": "4"
+     },
+     {
+      "item": "2899.75",
+      "count": "4"
+     },
+     {
+      "item": "3922.92",
+      "count": "4"
+     },
+     {
+      "item": "1985.19",
+      "count": "4"
+     },
+     {
+      "item": "2382.23",
+      "count": "4"
+     },
+     {
+      "item": "2753.80",
+      "count": "4"
+     }
+    ],
+    "smallest": "804.82",
+    "count": "664",
+    "cardinality": "664"
+   },
+   "format": {
+    "precisionStyle": "currency",
+    "currencyStyle": "USD",
+    "precision": "2"
+   }
+  },
+  {
+   "id": 645372421,
+   "name": "Cargo por Consumo Mayor",
+   "dataTypeName": "number",
+   "description": "Cargo por consumo ($/m3) mayor a 20m3",
+   "fieldName": "cargo_por_consumo_mayor",
+   "position": 5,
+   "renderTypeName": "number",
+   "tableColumnId": 42712765,
+   "width": 376,
+   "cachedContents": {
+    "non_null": "664",
+    "largest": "4550.94",
+    "null": "0",
+    "top": [
+     {
+      "item": "2384.49",
+      "count": "12"
+     },
+     {
+      "item": "2015.64",
+      "count": "12"
+     },
+     {
+      "item": "2753.80",
+      "count": "8"
+     },
+     {
+      "item": "3269.10",
+      "count": "8"
+     },
+     {
+      "item": "3243.65",
+      "count": "8"
+     },
+     {
+      "item": "1985.19",
+      "count": "8"
+     },
+     {
+      "item": "2358.44",
+      "count": "8"
+     },
+     {
+      "item": "2052.61",
+      "count": "8"
+     },
+     {
+      "item": "2416.46",
+      "count": "8"
+     },
+     {
+      "item": "1886.50",
+      "count": "8"
+     },
+     {
+      "item": "2467.32",
+      "count": "8"
+     },
+     {
+      "item": "2399.88",
+      "count": "8"
+     },
+     {
+      "item": "2418.77",
+      "count": "6"
+     },
+     {
+      "item": "2861.39",
+      "count": "6"
+     },
+     {
+      "item": "1709.03",
+      "count": "4"
+     },
+     {
+      "item": "2477.79",
+      "count": "4"
+     },
+     {
+      "item": "2726.52",
+      "count": "4"
+     },
+     {
+      "item": "2522.95",
+      "count": "4"
+     },
+     {
+      "item": "2899.75",
+      "count": "4"
+     },
+     {
+      "item": "2830.13",
+      "count": "4"
+     }
+    ],
+    "smallest": "1418.44",
+    "count": "664",
+    "cardinality": "664"
+   },
+   "format": {
+    "precisionStyle": "currency",
+    "currencyStyle": "USD",
+    "precision": "2"
+   }
+  },
+  {
+   "id": 645372424,
+   "name": "Año",
+   "dataTypeName": "number",
+   "description": "año",
+   "fieldName": "year",
+   "position": 6,
+   "renderTypeName": "number",
+   "tableColumnId": 171802932,
+   "width": 100,
+   "cachedContents": {
+    "non_null": "664",
+    "largest": "2026",
+    "null": "0",
+    "top": [
+     {
+      "item": "2022",
+      "count": "96"
+     },
+     {
+      "item": "2020",
+      "count": "96"
+     },
+     {
+      "item": "2021",
+      "count": "96"
+     },
+     {
+      "item": "2024",
+      "count": "96"
+     },
+     {
+      "item": "2023",
+      "count": "96"
+     },
+     {
+      "item": "2025",
+      "count": "96"
+     },
+     {
+      "item": "2026",
+      "count": "88"
+     }
+    ],
+    "smallest": "2020",
+    "count": "664",
+    "cardinality": "664"
+   },
+   "format": {}
+  },
+  {
+   "id": 645372423,
+   "name": "Mes",
+   "dataTypeName": "text",
+   "description": "mes",
+   "fieldName": "mes",
+   "position": 7,
+   "renderTypeName": "text",
+   "tableColumnId": 44188458,
+   "width": 100,
+   "cachedContents": {
+    "non_null": "664",
+    "largest": "septiembre",
+    "null": "0",
+    "top": [
+     {
+      "item": "mayo",
+      "count": "56"
+     },
+     {
+      "item": "abril",
+      "count": "56"
+     },
+     {
+      "item": "marzo",
+      "count": "56"
+     },
+     {
+      "item": "febrero",
+      "count": "56"
+     },
+     {
+      "item": "julio",
+      "count": "56"
+     },
+     {
+      "item": "noviembre",
+      "count": "56"
+     },
+     {
+      "item": "agosto",
+      "count": "56"
+     },
+     {
+      "item": "enero",
+      "count": "56"
+     },
+     {
+      "item": "junio",
+      "count": "56"
+     },
+     {
+      "item": "octubre",
+      "count": "56"
+     },
+     {
+      "item": "septiembre",
+      "count": "56"
+     },
+     {
+      "item": "diciembre",
+      "count": "48"
+     }
+    ],
+    "smallest": "abril",
+    "count": "664",
+    "cardinality": "664"
+   },
+   "format": {}
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Medellín",
+    "Nombre de la Entidad": "E.S.P. Empresas Públicas de Medellín - EPM, Antioquia",
+    "DIVIPOLA Municipio": "5001",
+    "Orden": "Territorial",
+    "Sector": "Ambiente y Desarrollo Sostenible",
+    "Área o dependencia": "Dependencia de Gas",
+    "Departamento": "Antioquia"
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Departamental",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Mensual"
+   }
+  },
+  "availableDisplayTypes": [
+   "table",
+   "fatrow",
+   "page"
+  ]
+ },
+ "owner": {
+  "id": "2hkq-c8bw",
+  "displayName": "EPM",
+  "profileImageUrlLarge": "/api/users/2hkq-c8bw/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/2hkq-c8bw/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/2hkq-c8bw/profile_images/TINY",
+  "screenName": "EPM",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "2hkq-c8bw",
+  "displayName": "EPM",
+  "profileImageUrlLarge": "/api/users/2hkq-c8bw/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/2hkq-c8bw/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/2hkq-c8bw/profile_images/TINY",
+  "screenName": "EPM",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "tarifa",
+  "gas",
+  "gas natural",
+  "hogares",
+  "epm.",
+  "servicios públicos"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

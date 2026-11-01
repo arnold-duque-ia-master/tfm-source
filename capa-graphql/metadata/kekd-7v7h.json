@@ -1,0 +1,2967 @@
+{
+ "id": "kekd-7v7h",
+ "name": "Calidad del Aire en Colombia (Promedio Anual)",
+ "assetType": "dataset",
+ "attribution": "Instituto de Hidrología, Meteorología y Estudios Ambientales - IDEAM, Bogotá D.C.",
+ "attributionLink": "http://sisaire.ideam.gov.co/ideam-sisaire-web/publicaciones.xhtml?clase=DOCUMENTOS",
+ "averageRating": 0,
+ "category": "Ambiente y Desarrollo Sostenible",
+ "createdAt": 1733913780,
+ "description": "Base de datos de calidad del aire, la cual recopila el Instituto de Hidrología, Meteorología y Estudios Ambientales – IDEAM, en el marco de la Operación Estadísticas de Monitoreo y Seguimiento de la Calidad del Aire. Este consolidado considera los promedios anuales de contaminantes atmosféricos y de parámetros meteorológicos determinados a partir de los Sistemas de Monitoreo de Calidad del Aire - SVCA operados por las Corporaciones Autónomas Regionales, las Corporaciones para el Desarrollo Sostenible, las Autoridades Ambientales de los Grandes Centros Urbanos y las entidades a las que se refiere el artículo 13 de la Ley 768 de 2002, las cuales, en la jurisdicción de su competencia, tienen la obligación de reportar la información de calidad del aire, meteorológica y de ruido al Subsistema de Información sobre Calidad del Aire - SISAIRE, el cual es administrado por el IDEAM. Lo anterior, en cumplimiento de lo establecido en la Resolución 651 de 2010.\n\nEl Instituto de Hidrología, Meteorología y Estudios Ambientales – IDEAM no se responsabiliza de la interpretación dada por terceros a la información suministrada y pone este material a disposición de los usuarios en forma individual, estando vedada toda comercialización o usufructo de la información aquí contenida.",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 2764,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 41321760,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1747166121,
+ "publicationGroup": 19712858,
+ "publicationStage": "published",
+ "resourceName": "Sisaire",
+ "rowsUpdatedAt": 1792422278,
+ "rowsUpdatedBy": "xac7-ivuv",
+ "tableId": 19893162,
+ "totalTimesRated": 0,
+ "viewCount": 12635,
+ "viewLastModified": 1792422240,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1736526326,
+   "reviewedAutomatically": false,
+   "state": "approved",
+   "submissionId": 6884143,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1736526297,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "reviewer": {
+    "id": "r4qn-dwdd",
+    "displayName": "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+   },
+   "submissionDetails": {
+    "permissionType": "read"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1736526326,
+    "failureCount": 0,
+    "startedAt": 1736526326,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "r4qn-dwdd",
+    "displayName": "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 609971548,
+   "name": "ID Estacion",
+   "dataTypeName": "number",
+   "description": "Identificador único asignado por el Subsistema de Información sobre Calidad del Aire - SISAIRE a cada estación de monitoreo.",
+   "fieldName": "id_estacion",
+   "position": 1,
+   "renderTypeName": "number",
+   "tableColumnId": 155856578,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "99999",
+    "null": "0",
+    "top": [
+     {
+      "item": "99999",
+      "count": "1176"
+     },
+     {
+      "item": "8214",
+      "count": "554"
+     },
+     {
+      "item": "8213",
+      "count": "552"
+     },
+     {
+      "item": "8219",
+      "count": "523"
+     },
+     {
+      "item": "8208",
+      "count": "503"
+     },
+     {
+      "item": "8211",
+      "count": "492"
+     },
+     {
+      "item": "8218",
+      "count": "489"
+     },
+     {
+      "item": "8216",
+      "count": "484"
+     },
+     {
+      "item": "28202",
+      "count": "442"
+     },
+     {
+      "item": "9023",
+      "count": "419"
+     },
+     {
+      "item": "8210",
+      "count": "418"
+     },
+     {
+      "item": "29511",
+      "count": "393"
+     },
+     {
+      "item": "29502",
+      "count": "369"
+     },
+     {
+      "item": "8207",
+      "count": "353"
+     },
+     {
+      "item": "29493",
+      "count": "345"
+     },
+     {
+      "item": "31827",
+      "count": "338"
+     },
+     {
+      "item": "8986",
+      "count": "330"
+     },
+     {
+      "item": "30004",
+      "count": "326"
+     },
+     {
+      "item": "30110",
+      "count": "326"
+     },
+     {
+      "item": "29507",
+      "count": "322"
+     }
+    ],
+    "smallest": "8198",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971549,
+   "name": "Autoridad Ambiental",
+   "dataTypeName": "text",
+   "description": "Autoridad Ambiental encargada de operar el Sistema de Vigilancia de la Calidad del Aire en la jurisdicción donde se ubica la estación de monitoreo.",
+   "fieldName": "autoridad_ambiental",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 155856577,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "SDA",
+    "null": "0",
+    "top": [
+     {
+      "item": "SDA",
+      "count": "6482"
+     },
+     {
+      "item": "AMVA",
+      "count": "5944"
+     },
+     {
+      "item": "CORANTIOQUIA",
+      "count": "2444"
+     },
+     {
+      "item": "CAR",
+      "count": "2325"
+     },
+     {
+      "item": "DAGMA",
+      "count": "2028"
+     },
+     {
+      "item": "CORPOBOYACA",
+      "count": "1632"
+     },
+     {
+      "item": "CDMB",
+      "count": "1490"
+     },
+     {
+      "item": "CORPOCESAR",
+      "count": "1116"
+     },
+     {
+      "item": "CORPAMAG",
+      "count": "1082"
+     },
+     {
+      "item": "CVC",
+      "count": "1054"
+     },
+     {
+      "item": "EPA BARRANQUILLA",
+      "count": "804"
+     },
+     {
+      "item": "CORPOGUAJIRA",
+      "count": "788"
+     },
+     {
+      "item": "CORNARE",
+      "count": "604"
+     },
+     {
+      "item": "CORMACARENA",
+      "count": "517"
+     },
+     {
+      "item": "AMB",
+      "count": "492"
+     },
+     {
+      "item": "CRC",
+      "count": "295"
+     },
+     {
+      "item": "CORPOCALDAS",
+      "count": "250"
+     },
+     {
+      "item": "CVS",
+      "count": "200"
+     },
+     {
+      "item": "CARDER",
+      "count": "194"
+     },
+     {
+      "item": "CORPONOR",
+      "count": "155"
+     }
+    ],
+    "smallest": "AMB",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {}
+  },
+  {
+   "id": 609971550,
+   "name": "Estación",
+   "dataTypeName": "text",
+   "description": "Nombre específico que se designa a la estación de monitoreo de calidad del aire.",
+   "fieldName": "estaci_n",
+   "position": 3,
+   "renderTypeName": "text",
+   "tableColumnId": 155856576,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "ZUANA",
+    "null": "0",
+    "top": [
+     {
+      "item": "KENNEDY",
+      "count": "553"
+     },
+     {
+      "item": "C. ALTO RENDIMIENTO",
+      "count": "552"
+     },
+     {
+      "item": "TUNAL",
+      "count": "520"
+     },
+     {
+      "item": "LAS FERIAS",
+      "count": "503"
+     },
+     {
+      "item": "GUAYMARAL",
+      "count": "492"
+     },
+     {
+      "item": "CARVAJAL - SEVILLANA",
+      "count": "489"
+     },
+     {
+      "item": "PUENTE ARANDA",
+      "count": "484"
+     },
+     {
+      "item": "SAN CRISTÓBAL",
+      "count": "442"
+     },
+     {
+      "item": "POLITÉCNICO JIC",
+      "count": "419"
+     },
+     {
+      "item": "SUBA",
+      "count": "418"
+     },
+     {
+      "item": "I.E. CONCEJO MUNICIPAL",
+      "count": "388"
+     },
+     {
+      "item": "U. SAN BUENAVENTURA",
+      "count": "367"
+     },
+     {
+      "item": "USAQUÉN",
+      "count": "353"
+     },
+     {
+      "item": "CASA JUSTICIA",
+      "count": "342"
+     },
+     {
+      "item": "LA FLORA",
+      "count": "330"
+     },
+     {
+      "item": "FONTIBÓN",
+      "count": "326"
+     },
+     {
+      "item": "ERA OBRERO",
+      "count": "326"
+     },
+     {
+      "item": "COMPARTIR",
+      "count": "326"
+     },
+     {
+      "item": "U. NAL - NÚCLEO EL VOLADOR",
+      "count": "322"
+     },
+     {
+      "item": "CORPORACIÓN LASALLISTA",
+      "count": "314"
+     }
+    ],
+    "smallest": "ACOPI",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {}
+  },
+  {
+   "id": 609971551,
+   "name": "Latitud",
+   "dataTypeName": "number",
+   "description": "Coordenada geográfica que indica la latitud de la ubicación de la estación (Sistema de referencia espacial MAGNA- SIRGAS)",
+   "fieldName": "latitud",
+   "position": 4,
+   "renderTypeName": "number",
+   "tableColumnId": 155856575,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "12.23",
+    "null": "0",
+    "top": [
+     {
+      "item": "4.62505",
+      "count": "554"
+     },
+     {
+      "item": "4.658467",
+      "count": "552"
+     },
+     {
+      "item": "4.6907",
+      "count": "503"
+     },
+     {
+      "item": "4.595617",
+      "count": "489"
+     },
+     {
+      "item": "4.631767",
+      "count": "484"
+     },
+     {
+      "item": "6.211806",
+      "count": "423"
+     },
+     {
+      "item": "6.330697",
+      "count": "369"
+     },
+     {
+      "item": "4.576283",
+      "count": "368"
+     },
+     {
+      "item": "4.71035",
+      "count": "353"
+     },
+     {
+      "item": "4.783733",
+      "count": "324"
+     },
+     {
+      "item": "4.57265",
+      "count": "312"
+     },
+     {
+      "item": "4.76135",
+      "count": "284"
+     },
+     {
+      "item": "6.266139",
+      "count": "284"
+     },
+     {
+      "item": "6.17125",
+      "count": "276"
+     },
+     {
+      "item": "6.378517",
+      "count": "252"
+     },
+     {
+      "item": "6.188444",
+      "count": "232"
+     },
+     {
+      "item": "7.106365",
+      "count": "226"
+     },
+     {
+      "item": "6.101972",
+      "count": "222"
+     },
+     {
+      "item": "3.490514",
+      "count": "214"
+     },
+     {
+      "item": "4.108056",
+      "count": "213"
+     }
+    ],
+    "smallest": "1.216489",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971552,
+   "name": "Longitud",
+   "dataTypeName": "number",
+   "description": "Coordenada geográfica que indica la longitud de la ubicación de la estación (Sistema de referencia espacial MAGNA- SIRGAS)",
+   "fieldName": "longitud",
+   "position": 5,
+   "renderTypeName": "number",
+   "tableColumnId": 155856574,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "-70.7438889",
+    "null": "0",
+    "top": [
+     {
+      "item": "-74.083967",
+      "count": "672"
+     },
+     {
+      "item": "-74.161333",
+      "count": "554"
+     },
+     {
+      "item": "-74.082483",
+      "count": "503"
+     },
+     {
+      "item": "-74.148583",
+      "count": "489"
+     },
+     {
+      "item": "-74.117483",
+      "count": "484"
+     },
+     {
+      "item": "-75.581111",
+      "count": "451"
+     },
+     {
+      "item": "-75.568669",
+      "count": "369"
+     },
+     {
+      "item": "-74.130967",
+      "count": "368"
+     },
+     {
+      "item": "-74.030417",
+      "count": "353"
+     },
+     {
+      "item": "-74.043783",
+      "count": "324"
+     },
+     {
+      "item": "-74.0838",
+      "count": "312"
+     },
+     {
+      "item": "-75.580222",
+      "count": "284"
+     },
+     {
+      "item": "-74.093483",
+      "count": "284"
+     },
+     {
+      "item": "-75.647694",
+      "count": "276"
+     },
+     {
+      "item": "-75.443986",
+      "count": "252"
+     },
+     {
+      "item": "-75.600667",
+      "count": "232"
+     },
+     {
+      "item": "-73.123611",
+      "count": "226"
+     },
+     {
+      "item": "-75.641944",
+      "count": "222"
+     },
+     {
+      "item": "-76.521225",
+      "count": "214"
+     },
+     {
+      "item": "-73.655833",
+      "count": "213"
+     }
+    ],
+    "smallest": "-77.283628",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971553,
+   "name": "Variable",
+   "dataTypeName": "text",
+   "description": "Contaminante atmosférico o variable meteorológica que se mide en la estación de monitoreo de la calidad del aire, de acuerdo con las siguientes abreviaturas: Contaminantes atmosféricos: PM10: Material particulado menor a 10 micras. PM2.5: Material particulado menor a 2.5 micras. PST: Partículas Suspendidas Totales NO: Óxido de Nitrógeno NO2: Dióxido de Nitrógeno SO2: Dióxido de Azufre SO2_TR: Azufre Total Reducido O3: Ozono troposférico CO: Monóxido de Carbono Variables meteorológicas: VViento Velocidad del Viento DViento Dirección del viento Taire: Temperatura del aire Taire2: Temperatura del aire a 2 metros Taire10: Temperatura del aire a 10 metros Pliquida: Precipitación Liquida P: Presión atmosférica HAire: Humedad del aire HAire2: Humedad del aire a 2 m HAire10: Humedad del aire a 10 m RGlobal: Radiación Solar Global RUVb: Radiación Ultravioleta",
+   "fieldName": "variable",
+   "position": 6,
+   "renderTypeName": "text",
+   "tableColumnId": 155856573,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "VViento",
+    "null": "0",
+    "top": [
+     {
+      "item": "PM10",
+      "count": "5706"
+     },
+     {
+      "item": "PM2.5",
+      "count": "3711"
+     },
+     {
+      "item": "VViento",
+      "count": "2508"
+     },
+     {
+      "item": "DViento",
+      "count": "2198"
+     },
+     {
+      "item": "SO2",
+      "count": "2009"
+     },
+     {
+      "item": "PLiquida",
+      "count": "1854"
+     },
+     {
+      "item": "TAire2",
+      "count": "1668"
+     },
+     {
+      "item": "O3",
+      "count": "1597"
+     },
+     {
+      "item": "HAire2",
+      "count": "1386"
+     },
+     {
+      "item": "CO",
+      "count": "1363"
+     },
+     {
+      "item": "P",
+      "count": "1346"
+     },
+     {
+      "item": "NO2",
+      "count": "1239"
+     },
+     {
+      "item": "RGlobal",
+      "count": "1200"
+     },
+     {
+      "item": "HAire10",
+      "count": "722"
+     },
+     {
+      "item": "TAire10",
+      "count": "668"
+     },
+     {
+      "item": "NO",
+      "count": "580"
+     },
+     {
+      "item": "PST",
+      "count": "482"
+     },
+     {
+      "item": "HAire",
+      "count": "150"
+     },
+     {
+      "item": "TAire",
+      "count": "146"
+     },
+     {
+      "item": "RUVb",
+      "count": "132"
+     }
+    ],
+    "smallest": "CO",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {}
+  },
+  {
+   "id": 609971554,
+   "name": "Unidades",
+   "dataTypeName": "text",
+   "description": "Unidad de medida empleada para expresar el contaminante atmosférico o variable meteorológica",
+   "fieldName": "unidades",
+   "position": 7,
+   "renderTypeName": "text",
+   "tableColumnId": 155856572,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "Wm2",
+    "null": "0",
+    "top": [
+     {
+      "item": "ugm3",
+      "count": "16687"
+     },
+     {
+      "item": "ms",
+      "count": "2508"
+     },
+     {
+      "item": "Celsius",
+      "count": "2482"
+     },
+     {
+      "item": "perc",
+      "count": "2258"
+     },
+     {
+      "item": "deg",
+      "count": "2198"
+     },
+     {
+      "item": "mm",
+      "count": "1854"
+     },
+     {
+      "item": "mmHg",
+      "count": "1346"
+     },
+     {
+      "item": "Wm2",
+      "count": "1200"
+     },
+     {
+      "item": "MEDh",
+      "count": "132"
+     }
+    ],
+    "smallest": "Celsius",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {}
+  },
+  {
+   "id": 609971555,
+   "name": "Tiempo de exposición (horas)",
+   "dataTypeName": "number",
+   "description": "Período de referencia específico establecido normativamente (Resolución 2254/2017) para evaluar los niveles de inmisión o concentraciones de un contaminante atmosférico (solo aplica para contaminantes atmosféricos)",
+   "fieldName": "tiempo_de_exposici_n_horas",
+   "position": 8,
+   "renderTypeName": "number",
+   "tableColumnId": 155856571,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "24",
+    "null": "0",
+    "top": [
+     {
+      "item": "24",
+      "count": "15783"
+     },
+     {
+      "item": "1",
+      "count": "12884"
+     },
+     {
+      "item": "8",
+      "count": "1788"
+     },
+     {
+      "item": "3",
+      "count": "210"
+     }
+    ],
+    "smallest": "1",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971556,
+   "name": "Año",
+   "dataTypeName": "number",
+   "description": "Año en el que se realizó la medición en la respectiva estación.",
+   "fieldName": "a_o",
+   "position": 9,
+   "renderTypeName": "number",
+   "tableColumnId": 155856570,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "2025",
+    "null": "0",
+    "top": [
+     {
+      "item": "2022",
+      "count": "3882"
+     },
+     {
+      "item": "2021",
+      "count": "3720"
+     },
+     {
+      "item": "2020",
+      "count": "3196"
+     },
+     {
+      "item": "2017",
+      "count": "2705"
+     },
+     {
+      "item": "2018",
+      "count": "2310"
+     },
+     {
+      "item": "2016",
+      "count": "1932"
+     },
+     {
+      "item": "2019",
+      "count": "1864"
+     },
+     {
+      "item": "2013",
+      "count": "1824"
+     },
+     {
+      "item": "2015",
+      "count": "1806"
+     },
+     {
+      "item": "2014",
+      "count": "1728"
+     },
+     {
+      "item": "2012",
+      "count": "1618"
+     },
+     {
+      "item": "2011",
+      "count": "1294"
+     },
+     {
+      "item": "2025",
+      "count": "982"
+     },
+     {
+      "item": "2024",
+      "count": "951"
+     },
+     {
+      "item": "2023",
+      "count": "853"
+     }
+    ],
+    "smallest": "2011",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971557,
+   "name": "Promedio",
+   "dataTypeName": "number",
+   "description": "Promedio anual del nivel de inmisión o concentración a condiciones de referencia o estándar (std) del contaminante atmosférico o promedio anual del valor de la variable meteorológica.",
+   "fieldName": "promedio",
+   "position": 10,
+   "renderTypeName": "number",
+   "tableColumnId": 155856569,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "3294.8",
+    "null": "0",
+    "top": [
+     {
+      "item": "0.1",
+      "count": "475"
+     },
+     {
+      "item": "1",
+      "count": "364"
+     },
+     {
+      "item": "1.4",
+      "count": "218"
+     },
+     {
+      "item": "0.2",
+      "count": "209"
+     },
+     {
+      "item": "1.2",
+      "count": "184"
+     },
+     {
+      "item": "1.1",
+      "count": "180"
+     },
+     {
+      "item": "0.9",
+      "count": "177"
+     },
+     {
+      "item": "0.8",
+      "count": "174"
+     },
+     {
+      "item": "0.6",
+      "count": "154"
+     },
+     {
+      "item": "1.3",
+      "count": "150"
+     },
+     {
+      "item": "1.7",
+      "count": "149"
+     },
+     {
+      "item": "0.7",
+      "count": "146"
+     },
+     {
+      "item": "1.5",
+      "count": "146"
+     },
+     {
+      "item": "1.8",
+      "count": "140"
+     },
+     {
+      "item": "0.3",
+      "count": "136"
+     },
+     {
+      "item": "2",
+      "count": "131"
+     },
+     {
+      "item": "1.9",
+      "count": "115"
+     },
+     {
+      "item": "1.6",
+      "count": "115"
+     },
+     {
+      "item": "0.5",
+      "count": "102"
+     },
+     {
+      "item": "0.4",
+      "count": "98"
+     }
+    ],
+    "smallest": "0.1",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971558,
+   "name": "Suma",
+   "dataTypeName": "number",
+   "description": "Total acumulado anual del nivel de inmisión o concentración a condiciones de referencia o estándar (std) del contaminante atmosférico o total acumulado anual del valor de la variable meteorológica.",
+   "fieldName": "suma",
+   "position": 11,
+   "renderTypeName": "number",
+   "tableColumnId": 155856568,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "18833001.22",
+    "null": "0",
+    "top": [
+     {
+      "item": "47",
+      "count": "108"
+     },
+     {
+      "item": "2",
+      "count": "54"
+     },
+     {
+      "item": "120.4",
+      "count": "8"
+     },
+     {
+      "item": "105.02",
+      "count": "8"
+     },
+     {
+      "item": "12.99",
+      "count": "6"
+     },
+     {
+      "item": "814",
+      "count": "6"
+     },
+     {
+      "item": "1072.8",
+      "count": "6"
+     },
+     {
+      "item": "226.12",
+      "count": "6"
+     },
+     {
+      "item": "2.8",
+      "count": "6"
+     },
+     {
+      "item": "968.8",
+      "count": "6"
+     },
+     {
+      "item": "22985.52",
+      "count": "6"
+     },
+     {
+      "item": "852.4",
+      "count": "6"
+     },
+     {
+      "item": "129.47",
+      "count": "4"
+     },
+     {
+      "item": "11.94",
+      "count": "4"
+     },
+     {
+      "item": "1824",
+      "count": "4"
+     },
+     {
+      "item": "2692.28",
+      "count": "4"
+     },
+     {
+      "item": "1130.07",
+      "count": "4"
+     },
+     {
+      "item": "659.6",
+      "count": "4"
+     },
+     {
+      "item": "680.3",
+      "count": "4"
+     },
+     {
+      "item": "1031.94",
+      "count": "4"
+     }
+    ],
+    "smallest": "0.67",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971559,
+   "name": "No. de datos",
+   "dataTypeName": "number",
+   "description": "Cantidad total de datos validos recopilados durante el año de medición.",
+   "fieldName": "no_de_datos",
+   "position": 12,
+   "renderTypeName": "number",
+   "tableColumnId": 155856567,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "8783",
+    "null": "0",
+    "top": [
+     {
+      "item": "365",
+      "count": "416"
+     },
+     {
+      "item": "364",
+      "count": "278"
+     },
+     {
+      "item": "31",
+      "count": "274"
+     },
+     {
+      "item": "363",
+      "count": "265"
+     },
+     {
+      "item": "361",
+      "count": "213"
+     },
+     {
+      "item": "355",
+      "count": "172"
+     },
+     {
+      "item": "352",
+      "count": "168"
+     },
+     {
+      "item": "20",
+      "count": "167"
+     },
+     {
+      "item": "360",
+      "count": "166"
+     },
+     {
+      "item": "359",
+      "count": "165"
+     },
+     {
+      "item": "358",
+      "count": "137"
+     },
+     {
+      "item": "2",
+      "count": "134"
+     },
+     {
+      "item": "362",
+      "count": "133"
+     },
+     {
+      "item": "357",
+      "count": "132"
+     },
+     {
+      "item": "354",
+      "count": "125"
+     },
+     {
+      "item": "30",
+      "count": "124"
+     },
+     {
+      "item": "366",
+      "count": "124"
+     },
+     {
+      "item": "356",
+      "count": "122"
+     },
+     {
+      "item": "353",
+      "count": "122"
+     },
+     {
+      "item": "340",
+      "count": "121"
+     }
+    ],
+    "smallest": "1",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971560,
+   "name": "Representatividad Temporal",
+   "dataTypeName": "text",
+   "description": "Porcentaje del tiempo total de un período tiene datos válidos registrados",
+   "fieldName": "representatividad_temporal",
+   "position": 13,
+   "renderTypeName": "text",
+   "tableColumnId": 155856566,
+   "cachedContents": {
+    "non_null": "30591",
+    "largest": "N/A",
+    "null": "74",
+    "top": [
+     {
+      "item": "99",
+      "count": "906"
+     },
+     {
+      "item": "99.0",
+      "count": "755"
+     },
+     {
+      "item": "100",
+      "count": "754"
+     },
+     {
+      "item": "98",
+      "count": "698"
+     },
+     {
+      "item": "100.0",
+      "count": "676"
+     },
+     {
+      "item": "97",
+      "count": "623"
+     },
+     {
+      "item": "96",
+      "count": "584"
+     },
+     {
+      "item": "98.0",
+      "count": "562"
+     },
+     {
+      "item": "95",
+      "count": "543"
+     },
+     {
+      "item": "97.0",
+      "count": "519"
+     },
+     {
+      "item": "92",
+      "count": "475"
+     },
+     {
+      "item": "93",
+      "count": "473"
+     },
+     {
+      "item": "96.0",
+      "count": "452"
+     },
+     {
+      "item": "94",
+      "count": "431"
+     },
+     {
+      "item": "95.0",
+      "count": "414"
+     },
+     {
+      "item": "92.0",
+      "count": "403"
+     },
+     {
+      "item": "90",
+      "count": "382"
+     },
+     {
+      "item": "93.0",
+      "count": "379"
+     },
+     {
+      "item": "8",
+      "count": "375"
+     },
+     {
+      "item": "8.0",
+      "count": "361"
+     }
+    ],
+    "smallest": "0",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971577,
+   "name": "Excedencias limite actual",
+   "dataTypeName": "text",
+   "description": "Número total de veces en que el contaminante atmosférico ha superado el nivel máximo permisible vigente establecido para el respectivo tiempo de exposición durante el año de medición.",
+   "fieldName": "excedencias_limite_actual",
+   "position": 14,
+   "renderTypeName": "text",
+   "tableColumnId": 158467475,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "994",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "24645"
+     },
+     {
+      "item": "1",
+      "count": "820"
+     },
+     {
+      "item": "2",
+      "count": "455"
+     },
+     {
+      "item": "3",
+      "count": "293"
+     },
+     {
+      "item": "4",
+      "count": "224"
+     },
+     {
+      "item": "5",
+      "count": "173"
+     },
+     {
+      "item": "6",
+      "count": "149"
+     },
+     {
+      "item": "7",
+      "count": "140"
+     },
+     {
+      "item": "8",
+      "count": "127"
+     },
+     {
+      "item": "9",
+      "count": "111"
+     },
+     {
+      "item": "10",
+      "count": "93"
+     },
+     {
+      "item": "12",
+      "count": "80"
+     },
+     {
+      "item": "11",
+      "count": "80"
+     },
+     {
+      "item": "14",
+      "count": "58"
+     },
+     {
+      "item": "20",
+      "count": "57"
+     },
+     {
+      "item": "13",
+      "count": "51"
+     },
+     {
+      "item": "16",
+      "count": "48"
+     },
+     {
+      "item": "21",
+      "count": "47"
+     },
+     {
+      "item": "15",
+      "count": "47"
+     },
+     {
+      "item": "25",
+      "count": "41"
+     }
+    ],
+    "smallest": "0",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971576,
+   "name": "Porcentaje excedencias limite actual",
+   "dataTypeName": "text",
+   "description": "Proporción determinada por el número de veces en que el contaminante atmosférico ha superado el nivel máximo permisible vigente establecido para el respectivo tiempo de exposición, en relación con el número total de datos según el tiempo de exposición, durante el año de medición.",
+   "fieldName": "porcentaje_excedencias_limite",
+   "position": 15,
+   "renderTypeName": "text",
+   "tableColumnId": 158467474,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "9.98",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "13153"
+     },
+     {
+      "item": "0.0",
+      "count": "11494"
+     },
+     {
+      "item": "0.28",
+      "count": "70"
+     },
+     {
+      "item": "0.01",
+      "count": "57"
+     },
+     {
+      "item": "0.05",
+      "count": "54"
+     },
+     {
+      "item": "0.04",
+      "count": "53"
+     },
+     {
+      "item": "0.29",
+      "count": "53"
+     },
+     {
+      "item": "0.03",
+      "count": "45"
+     },
+     {
+      "item": "0.3",
+      "count": "40"
+     },
+     {
+      "item": "0.31",
+      "count": "39"
+     },
+     {
+      "item": "0.02",
+      "count": "38"
+     },
+     {
+      "item": "0.56",
+      "count": "37"
+     },
+     {
+      "item": "0.1",
+      "count": "33"
+     },
+     {
+      "item": "0.07",
+      "count": "31"
+     },
+     {
+      "item": "0.14",
+      "count": "30"
+     },
+     {
+      "item": "0.33",
+      "count": "29"
+     },
+     {
+      "item": "0.12",
+      "count": "29"
+     },
+     {
+      "item": "0.08",
+      "count": "28"
+     },
+     {
+      "item": "0.88",
+      "count": "28"
+     },
+     {
+      "item": "0.13",
+      "count": "26"
+     }
+    ],
+    "smallest": "0",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971563,
+   "name": "Mediana",
+   "dataTypeName": "number",
+   "description": "Mediana anual del nivel de inmisión o concentración a condiciones de referencia o estándar (std) del contaminante atmosférico o mediana anual del valor de la variable meteorológica",
+   "fieldName": "mediana",
+   "position": 16,
+   "renderTypeName": "number",
+   "tableColumnId": 155856563,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "3572.6",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "1405"
+     },
+     {
+      "item": "1",
+      "count": "395"
+     },
+     {
+      "item": "0.9",
+      "count": "226"
+     },
+     {
+      "item": "0.8",
+      "count": "214"
+     },
+     {
+      "item": "1.2",
+      "count": "194"
+     },
+     {
+      "item": "1.1",
+      "count": "184"
+     },
+     {
+      "item": "0.4",
+      "count": "169"
+     },
+     {
+      "item": "0.6",
+      "count": "164"
+     },
+     {
+      "item": "0.5",
+      "count": "161"
+     },
+     {
+      "item": "1.4",
+      "count": "156"
+     },
+     {
+      "item": "0.2",
+      "count": "144"
+     },
+     {
+      "item": "1.3",
+      "count": "144"
+     },
+     {
+      "item": "14",
+      "count": "134"
+     },
+     {
+      "item": "0.7",
+      "count": "128"
+     },
+     {
+      "item": "0.1",
+      "count": "128"
+     },
+     {
+      "item": "11",
+      "count": "121"
+     },
+     {
+      "item": "23",
+      "count": "119"
+     },
+     {
+      "item": "1.6",
+      "count": "117"
+     },
+     {
+      "item": "2",
+      "count": "115"
+     },
+     {
+      "item": "1.5",
+      "count": "111"
+     }
+    ],
+    "smallest": "0",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971564,
+   "name": "Percentil 98",
+   "dataTypeName": "number",
+   "description": "Medida estadística que indica el valor del contaminante atmosférico o de la variable meteorológica por debajo del cual se encuentra el 98% de los datos en el grupo durante el año de medición",
+   "fieldName": "percentil_98",
+   "position": 17,
+   "renderTypeName": "number",
+   "tableColumnId": 155856562,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "39246",
+    "null": "0",
+    "top": [
+     {
+      "item": "1",
+      "count": "256"
+     },
+     {
+      "item": "1.3",
+      "count": "116"
+     },
+     {
+      "item": "2.2",
+      "count": "108"
+     },
+     {
+      "item": "1.7",
+      "count": "108"
+     },
+     {
+      "item": "1.6",
+      "count": "106"
+     },
+     {
+      "item": "1.4",
+      "count": "104"
+     },
+     {
+      "item": "1.2",
+      "count": "104"
+     },
+     {
+      "item": "1.9",
+      "count": "103"
+     },
+     {
+      "item": "1.5",
+      "count": "102"
+     },
+     {
+      "item": "2",
+      "count": "102"
+     },
+     {
+      "item": "1.8",
+      "count": "100"
+     },
+     {
+      "item": "2.4",
+      "count": "99"
+     },
+     {
+      "item": "1.1",
+      "count": "98"
+     },
+     {
+      "item": "3.6",
+      "count": "91"
+     },
+     {
+      "item": "100",
+      "count": "90"
+     },
+     {
+      "item": "2.3",
+      "count": "78"
+     },
+     {
+      "item": "2.7",
+      "count": "78"
+     },
+     {
+      "item": "2.9",
+      "count": "74"
+     },
+     {
+      "item": "0.8",
+      "count": "74"
+     },
+     {
+      "item": "3.7",
+      "count": "72"
+     }
+    ],
+    "smallest": "0",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971565,
+   "name": "Máximo",
+   "dataTypeName": "number",
+   "description": "Valor más alto registrado del contaminante atmosférico o de la variable meteorológica durante el año de medición.",
+   "fieldName": "m_ximo",
+   "position": 18,
+   "renderTypeName": "number",
+   "tableColumnId": 155856561,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "733378",
+    "null": "0",
+    "top": [
+     {
+      "item": "360",
+      "count": "572"
+     },
+     {
+      "item": "100",
+      "count": "209"
+     },
+     {
+      "item": "359.9",
+      "count": "164"
+     },
+     {
+      "item": "1",
+      "count": "162"
+     },
+     {
+      "item": "359.8",
+      "count": "94"
+     },
+     {
+      "item": "359",
+      "count": "84"
+     },
+     {
+      "item": "1.8",
+      "count": "76"
+     },
+     {
+      "item": "2",
+      "count": "74"
+     },
+     {
+      "item": "3.1",
+      "count": "70"
+     },
+     {
+      "item": "337.5",
+      "count": "62"
+     },
+     {
+      "item": "4.9",
+      "count": "58"
+     },
+     {
+      "item": "2.5",
+      "count": "58"
+     },
+     {
+      "item": "1.6",
+      "count": "56"
+     },
+     {
+      "item": "4",
+      "count": "54"
+     },
+     {
+      "item": "1.9",
+      "count": "54"
+     },
+     {
+      "item": "99.3",
+      "count": "53"
+     },
+     {
+      "item": "2.2",
+      "count": "52"
+     },
+     {
+      "item": "88",
+      "count": "51"
+     },
+     {
+      "item": "99",
+      "count": "50"
+     },
+     {
+      "item": "1.5",
+      "count": "50"
+     }
+    ],
+    "smallest": "0.2",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971566,
+   "name": "Fechas/horas del máximo",
+   "dataTypeName": "text",
+   "description": "Fecha y hora en las que se registró el valor máximo durante el año de medición.",
+   "fieldName": "fechas_horas_del_m_ximo",
+   "position": 19,
+   "renderTypeName": "text",
+   "tableColumnId": 155856560,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "9/12/2021 8:00",
+    "null": "0",
+    "top": [
+     {
+      "item": "01/07/2016 01:00:00 - 01/07/2016 02:00:00 - 01/07/2016 03:00:00 - 01/07/2016 04:00:00 - 01/07/2016 05:00:00 - 01/07/2016 06:00:00 - 01/07/2016 07:00:00 - 01/07/2016 08:00:00 - 01/07/2016 09:00:00 - 01/07/2016 10:00:00 - 01/07/2016 11:00:00 - 01/07/2016 12:00:00 - 01/07/2016 13:00:00 - 01/07/2016 14:00:00 - 01/07/2016 15:00:00 - 01/07/2016 16:00:00 - 01/07/2016 17:00:00 - 01/07/2016 18:00:00 - 01/07/2016 19:00:00 - 01/07/2016 20:00:00 - 01/07/2016 21:00:00 - 01/07/2016 22:00:00 - 01/07/2016 23:00:00 - 02/07/2016 00:00:00 - 02/07/2016 01:00:00 - 02/07/2016 02:00:00 - 02/07/2016 03:00:00 - 02/07/2016 04:00:00 - 02/07/2016 05:00:00 - 02/07/2016 06:00:00 - 02/07/2016 07:00:00 - 02/07/2016 08:00:00 - 02/07/2016 09:00:00 - 02/07/2016 10:00:00 - 02/07/2016 11:00:00 - 02/07/2016 12:00:00 - 02/07/2016 13:00:00 - 02/07/2016 14:00:00 - 02/07/2016 15:00:00 - 02/07/2016 16:00:00 - 02/07/2016 17:00:00 - 02/07/2016 18:00:00 - 02/07/2016 19:00:00 - 02/07/2016 20:00:00 - 02/07/2016 21:00:00 - 02/07/2016 22:00:00 - 02/07/2016 23:00:00",
+      "count": "90"
+     },
+     {
+      "item": "19/03/2020 12:00",
+      "count": "82"
+     },
+     {
+      "item": "44617.5",
+      "count": "70"
+     },
+     {
+      "item": "6/03/2021 12:00",
+      "count": "64"
+     },
+     {
+      "item": "28/03/2019 0:00",
+      "count": "60"
+     },
+     {
+      "item": "24/06/2020 12:00",
+      "count": "58"
+     },
+     {
+      "item": "44702.5",
+      "count": "54"
+     },
+     {
+      "item": "44684.5",
+      "count": "54"
+     },
+     {
+      "item": "44596.5",
+      "count": "54"
+     },
+     {
+      "item": "01/07/2016 00:00:00 - 02/07/2016 00:00:00",
+      "count": "54"
+     },
+     {
+      "item": "6/03/2018 0:00",
+      "count": "50"
+     },
+     {
+      "item": "1/01/2017 0:00",
+      "count": "48"
+     },
+     {
+      "item": "24/06/2020",
+      "count": "46"
+     },
+     {
+      "item": "27/06/2014 0:00",
+      "count": "38"
+     },
+     {
+      "item": "44809.5",
+      "count": "36"
+     },
+     {
+      "item": "6/08/2013",
+      "count": "36"
+     },
+     {
+      "item": "3/06/2020 12:00",
+      "count": "36"
+     },
+     {
+      "item": "18/12/2021 12:00",
+      "count": "34"
+     },
+     {
+      "item": "23/03/2023 0:00",
+      "count": "33"
+     },
+     {
+      "item": "31/12/2019 0:00",
+      "count": "32"
+     }
+    ],
+    "smallest": "01/01/2011 04:00:00 - 18/01/2011 10:00:00 - 16/02/2011 10:00:00 - 08/03/2011 02:00:00 - 21/03/2011 22:00:00 - 31/03/2011 02:00:00 - 15/04/2011 09:00:00 - 04/05/2011 12:00:00 - 05/05/2011 23:00:00 - 25/06/2011 15:00:00 - 16/07/2011 05:00:00 - 22/08/2011 09:00:00 - 25/08/2011 02:00:00 - 30/08/2011 10:00:00 - 03/09/2011 01:00:00 - 04/09/2011 05:00:00 - 05/10/2011 05:00:00 - 25/10/2011 10:00:00 - 28/10/2011 09:00:00 - 02/12/2011 06:00:00 - 12/12/2011 09:00:00 - 15/12/2011 10:00:00 - 31/12/2011 09:00:00",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {}
+  },
+  {
+   "id": 609971567,
+   "name": "Mínimo",
+   "dataTypeName": "number",
+   "description": "Valor más bajo registrado del contaminante atmosférico o de la variable meteorológica durante el año de medición.",
+   "fieldName": "m_nimo",
+   "position": 20,
+   "renderTypeName": "number",
+   "tableColumnId": 155856559,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "1321.61",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "6166"
+     },
+     {
+      "item": "1",
+      "count": "1226"
+     },
+     {
+      "item": "0.1",
+      "count": "974"
+     },
+     {
+      "item": "0.2",
+      "count": "817"
+     },
+     {
+      "item": "0.3",
+      "count": "673"
+     },
+     {
+      "item": "0.4",
+      "count": "486"
+     },
+     {
+      "item": "0.5",
+      "count": "453"
+     },
+     {
+      "item": "0.6",
+      "count": "393"
+     },
+     {
+      "item": "0.7",
+      "count": "286"
+     },
+     {
+      "item": "0.8",
+      "count": "269"
+     },
+     {
+      "item": "2",
+      "count": "230"
+     },
+     {
+      "item": "4",
+      "count": "229"
+     },
+     {
+      "item": "1.2",
+      "count": "220"
+     },
+     {
+      "item": "1.1",
+      "count": "215"
+     },
+     {
+      "item": "0.9",
+      "count": "209"
+     },
+     {
+      "item": "114.5",
+      "count": "177"
+     },
+     {
+      "item": "3",
+      "count": "152"
+     },
+     {
+      "item": "1.3",
+      "count": "152"
+     },
+     {
+      "item": "1.5",
+      "count": "145"
+     },
+     {
+      "item": "2.2",
+      "count": "143"
+     }
+    ],
+    "smallest": "-35.7",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971568,
+   "name": "Fechas/horas del mínimo",
+   "dataTypeName": "text",
+   "description": "Fecha y hora en las que se registró el valor mínimo durante el año.",
+   "fieldName": "fechas_horas_del_m_nimo",
+   "position": 21,
+   "renderTypeName": "text",
+   "tableColumnId": 155856558,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "9/12/2023 23:00",
+    "null": "0",
+    "top": [
+     {
+      "item": "01/07/2016 01:00:00 - 01/07/2016 02:00:00 - 01/07/2016 03:00:00 - 01/07/2016 04:00:00 - 01/07/2016 05:00:00 - 01/07/2016 06:00:00 - 01/07/2016 07:00:00 - 01/07/2016 08:00:00 - 01/07/2016 09:00:00 - 01/07/2016 10:00:00 - 01/07/2016 11:00:00 - 01/07/2016 12:00:00 - 01/07/2016 13:00:00 - 01/07/2016 14:00:00 - 01/07/2016 15:00:00 - 01/07/2016 16:00:00 - 01/07/2016 17:00:00 - 01/07/2016 18:00:00 - 01/07/2016 19:00:00 - 01/07/2016 20:00:00 - 01/07/2016 21:00:00 - 01/07/2016 22:00:00 - 01/07/2016 23:00:00 - 02/07/2016 00:00:00 - 02/07/2016 01:00:00 - 02/07/2016 02:00:00 - 02/07/2016 03:00:00 - 02/07/2016 04:00:00 - 02/07/2016 05:00:00 - 02/07/2016 06:00:00 - 02/07/2016 07:00:00 - 02/07/2016 08:00:00 - 02/07/2016 09:00:00 - 02/07/2016 10:00:00 - 02/07/2016 11:00:00 - 02/07/2016 12:00:00 - 02/07/2016 13:00:00 - 02/07/2016 14:00:00 - 02/07/2016 15:00:00 - 02/07/2016 16:00:00 - 02/07/2016 17:00:00 - 02/07/2016 18:00:00 - 02/07/2016 19:00:00 - 02/07/2016 20:00:00 - 02/07/2016 21:00:00 - 02/07/2016 22:00:00 - 02/07/2016 23:00:00",
+      "count": "90"
+     },
+     {
+      "item": "01/07/2016 00:00:00 - 02/07/2016 00:00:00",
+      "count": "54"
+     },
+     {
+      "item": "9/10/2014 0:00",
+      "count": "50"
+     },
+     {
+      "item": "11/01/2021 12:00",
+      "count": "48"
+     },
+     {
+      "item": "10/05/2016 0:00",
+      "count": "46"
+     },
+     {
+      "item": "30/04/2021 12:00",
+      "count": "46"
+     },
+     {
+      "item": "3/06/2020 12:00",
+      "count": "44"
+     },
+     {
+      "item": "26/12/2020 12:00",
+      "count": "42"
+     },
+     {
+      "item": "17/02/2020 12:00",
+      "count": "42"
+     },
+     {
+      "item": "12/03/2021 12:00",
+      "count": "42"
+     },
+     {
+      "item": "44626.5",
+      "count": "40"
+     },
+     {
+      "item": "2/02/2013 0:00",
+      "count": "38"
+     },
+     {
+      "item": "22/04/2011 0:00",
+      "count": "38"
+     },
+     {
+      "item": "19/03/2015 0:00",
+      "count": "38"
+     },
+     {
+      "item": "44921.5",
+      "count": "36"
+     },
+     {
+      "item": "1/03/2021 12:00",
+      "count": "36"
+     },
+     {
+      "item": "44745.5",
+      "count": "34"
+     },
+     {
+      "item": "29/07/2013 0:00",
+      "count": "32"
+     },
+     {
+      "item": "15/06/2020 12:00",
+      "count": "32"
+     },
+     {
+      "item": "1/01/2016 0:00",
+      "count": "30"
+     }
+    ],
+    "smallest": "01/01/2011 00:00:00 - 02/01/2011 00:00:00 - 06/01/2011 00:00:00 - 11/01/2011 00:00:00 - 23/01/2011 00:00:00 - 24/01/2011 00:00:00 - 25/01/2011 00:00:00 - 01/02/2011 00:00:00 - 02/02/2011 00:00:00 - 05/02/2011 00:00:00 - 07/02/2011 00:00:00 - 14/02/2011 00:00:00 - 21/02/2011 00:00:00 - 23/02/2011 00:00:00 - 11/03/2011 00:00:00 - 12/03/2011 00:00:00 - 13/03/2011 00:00:00 - 16/03/2011 00:00:00 - 28/03/2011 00:00:00 - 29/03/2011 00:00:00 - 30/03/2011 00:00:00 - 31/03/2011 00:00:00 - 01/04/2011 00:00:00 - 21/04/2011 00:00:00 - 24/04/2011 00:00:00 - 26/04/2011 00:00:00 - 27/04/2011 00:00:00 - 30/04/2011 00:00:00 - 06/05/2011 00:00:00 - 09/05/2011 00:00:00 - 15/05/2011 00:00:00 - 17/05/2011 00:00:00 - 23/05/2011 00:00:00 - 27/05/2011 00:00:00 - 08/06/2011 00:00:00 - 09/06/2011 00:00:00 - 12/06/2011 00:00:00 - 14/06/2011 00:00:00 - 15/06/2011 00:00:00 - 21/06/2011 00:00:00 - 22/06/2011 00:00:00 - 28/06/2011 00:00:00 - 29/06/2011 00:00:00 - 09/07/2011 00:00:00 - 17/07/2011 00:00:00 - 19/07/2011 00:00:00 - 21/07/2011 00:00:00 - 23/07/2011 00:00:00 - 24/07/2011 00:00:00 - 26/07/2011 00:00:00 - 27/07/2011 00:00:00 - 05/08/2011 00:00:00 - 07/08/2011 00:00:00 - 08/08/2011 00:00:00 - 25/08/2011 00:00:00 - 27/08/2011 00:00:00 - 02/09/2011 00:00:00 - 13/09/2011 00:00:00 - 16/09/2011 00:00:00 - 17/09/2011 00:00:00 - 20/09/2011 00:00:00 - 23/09/2011 00:00:00 - 28/09/2011 00:00:00 - 29/09/2011 00:00:00 - 30/09/2011 00:00:00 - 01/10/2011 00:00:00 - 02/10/2011 00:00:00 - 21/10/2011 00:00:00 - 29/10/2011 00:00:00 - 15/12/2011 00:00:00 - 20/12/2011 00:00:00 - 23/12/2011 00:00:00 - 25/12/2011 00:00:00 - 26/12/2011 00:00:00 - 28/12/2011 00:00:00 - 29/12/2011 00:00:00 - 30/12/2011 00:00:00 - 31/12/2011 00:00:00",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {}
+  },
+  {
+   "id": 609971569,
+   "name": "Días de excedencias",
+   "dataTypeName": "number",
+   "description": "Número total de días en que el contaminante atmosférico ha superado el nivel máximo permisible vigente establecido para el respectivo tiempo de exposición durante el año de medición.",
+   "fieldName": "d_as_de_excedencias",
+   "position": 22,
+   "renderTypeName": "number",
+   "tableColumnId": 155856557,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "327",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "24647"
+     },
+     {
+      "item": "1",
+      "count": "937"
+     },
+     {
+      "item": "2",
+      "count": "492"
+     },
+     {
+      "item": "3",
+      "count": "298"
+     },
+     {
+      "item": "4",
+      "count": "268"
+     },
+     {
+      "item": "5",
+      "count": "198"
+     },
+     {
+      "item": "6",
+      "count": "188"
+     },
+     {
+      "item": "31",
+      "count": "178"
+     },
+     {
+      "item": "7",
+      "count": "171"
+     },
+     {
+      "item": "8",
+      "count": "141"
+     },
+     {
+      "item": "9",
+      "count": "124"
+     },
+     {
+      "item": "12",
+      "count": "98"
+     },
+     {
+      "item": "10",
+      "count": "91"
+     },
+     {
+      "item": "11",
+      "count": "81"
+     },
+     {
+      "item": "14",
+      "count": "71"
+     },
+     {
+      "item": "20",
+      "count": "69"
+     },
+     {
+      "item": "30",
+      "count": "64"
+     },
+     {
+      "item": "13",
+      "count": "62"
+     },
+     {
+      "item": "19",
+      "count": "62"
+     },
+     {
+      "item": "17",
+      "count": "61"
+     }
+    ],
+    "smallest": "0",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971570,
+   "name": "Código del Departamento",
+   "dataTypeName": "number",
+   "description": "Código DANE asignado al departamento.",
+   "fieldName": "c_digo_del_departamento",
+   "position": 23,
+   "renderTypeName": "number",
+   "tableColumnId": 155856556,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "85",
+    "null": "0",
+    "top": [
+     {
+      "item": "5",
+      "count": "8992"
+     },
+     {
+      "item": "11",
+      "count": "6599"
+     },
+     {
+      "item": "76",
+      "count": "3082"
+     },
+     {
+      "item": "25",
+      "count": "2056"
+     },
+     {
+      "item": "68",
+      "count": "1982"
+     },
+     {
+      "item": "15",
+      "count": "1784"
+     },
+     {
+      "item": "20",
+      "count": "1116"
+     },
+     {
+      "item": "47",
+      "count": "1082"
+     },
+     {
+      "item": "8",
+      "count": "882"
+     },
+     {
+      "item": "44",
+      "count": "788"
+     },
+     {
+      "item": "50",
+      "count": "517"
+     },
+     {
+      "item": "13",
+      "count": "378"
+     },
+     {
+      "item": "19",
+      "count": "295"
+     },
+     {
+      "item": "17",
+      "count": "250"
+     },
+     {
+      "item": "23",
+      "count": "200"
+     },
+     {
+      "item": "66",
+      "count": "194"
+     },
+     {
+      "item": "54",
+      "count": "155"
+     },
+     {
+      "item": "73",
+      "count": "109"
+     },
+     {
+      "item": "41",
+      "count": "56"
+     },
+     {
+      "item": "81",
+      "count": "50"
+     }
+    ],
+    "smallest": "5",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971571,
+   "name": "Nombre del Departamento",
+   "dataTypeName": "text",
+   "description": "Nombre del departamento",
+   "fieldName": "nombre_del_departamento",
+   "position": 24,
+   "renderTypeName": "text",
+   "tableColumnId": 155856555,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "VALLE DEL CAUCA",
+    "null": "0",
+    "top": [
+     {
+      "item": "ANTIOQUIA",
+      "count": "8486"
+     },
+     {
+      "item": "BOGOTÁ, D.C.",
+      "count": "4285"
+     },
+     {
+      "item": "VALLE DEL CAUCA",
+      "count": "2868"
+     },
+     {
+      "item": "SANTANDER",
+      "count": "1880"
+     },
+     {
+      "item": "BOGOTA, D.C.",
+      "count": "1680"
+     },
+     {
+      "item": "CUNDINAMARCA",
+      "count": "1514"
+     },
+     {
+      "item": "CESAR",
+      "count": "1048"
+     },
+     {
+      "item": "BOYACÁ",
+      "count": "1030"
+     },
+     {
+      "item": "MAGDALENA",
+      "count": "986"
+     },
+     {
+      "item": "LA GUAJIRA",
+      "count": "764"
+     },
+     {
+      "item": "ATLÁNTICO",
+      "count": "654"
+     },
+     {
+      "item": "Bogotá, D.C.",
+      "count": "634"
+     },
+     {
+      "item": "BOYACA",
+      "count": "564"
+     },
+     {
+      "item": "Cundinamarca",
+      "count": "542"
+     },
+     {
+      "item": "Antioquia",
+      "count": "506"
+     },
+     {
+      "item": "META",
+      "count": "488"
+     },
+     {
+      "item": "CAUCA",
+      "count": "290"
+     },
+     {
+      "item": "BOLÍVAR",
+      "count": "228"
+     },
+     {
+      "item": "Valle del Cauca",
+      "count": "214"
+     },
+     {
+      "item": "Boyacá",
+      "count": "190"
+     }
+    ],
+    "smallest": "Antioquia",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {}
+  },
+  {
+   "id": 609971572,
+   "name": "Código del Municipio",
+   "dataTypeName": "text",
+   "description": "Código del municipio",
+   "fieldName": "c_digo_del_municipio",
+   "position": 25,
+   "renderTypeName": "text",
+   "tableColumnId": 155856554,
+   "cachedContents": {
+    "non_null": "30663",
+    "largest": "N/A",
+    "null": "2",
+    "top": [
+     {
+      "item": "11001",
+      "count": "3620"
+     },
+     {
+      "item": "11001.0",
+      "count": "2983"
+     },
+     {
+      "item": "5001",
+      "count": "1556"
+     },
+     {
+      "item": "5001.0",
+      "count": "1358"
+     },
+     {
+      "item": "76001",
+      "count": "1044"
+     },
+     {
+      "item": "76001.0",
+      "count": "1028"
+     },
+     {
+      "item": "68001",
+      "count": "719"
+     },
+     {
+      "item": "68001.0",
+      "count": "653"
+     },
+     {
+      "item": "5360",
+      "count": "511"
+     },
+     {
+      "item": "15759",
+      "count": "507"
+     },
+     {
+      "item": "5308",
+      "count": "468"
+     },
+     {
+      "item": "5360.0",
+      "count": "466"
+     },
+     {
+      "item": "15759.0",
+      "count": "446"
+     },
+     {
+      "item": "5308.0",
+      "count": "414"
+     },
+     {
+      "item": "47001",
+      "count": "407"
+     },
+     {
+      "item": "8001",
+      "count": "350"
+     },
+     {
+      "item": "47001.0",
+      "count": "343"
+     },
+     {
+      "item": "8001.0",
+      "count": "296"
+     },
+     {
+      "item": "15491",
+      "count": "294"
+     },
+     {
+      "item": "50001",
+      "count": "273"
+     }
+    ],
+    "smallest": "11001",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 609971573,
+   "name": "Nombre del Municipio",
+   "dataTypeName": "text",
+   "description": "Nombre del municipio",
+   "fieldName": "nombre_del_municipio",
+   "position": 26,
+   "renderTypeName": "text",
+   "tableColumnId": 155856553,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "ZIPAQUIRÁ",
+    "null": "0",
+    "top": [
+     {
+      "item": "BOGOTÁ, D.C.",
+      "count": "4285"
+     },
+     {
+      "item": "CALI",
+      "count": "2056"
+     },
+     {
+      "item": "MEDELLÍN",
+      "count": "1860"
+     },
+     {
+      "item": "BOGOTA, D.C.",
+      "count": "1680"
+     },
+     {
+      "item": "BUCARAMANGA",
+      "count": "1306"
+     },
+     {
+      "item": "SOGAMOSO",
+      "count": "892"
+     },
+     {
+      "item": "MEDELLIN",
+      "count": "856"
+     },
+     {
+      "item": "GIRARDOTA",
+      "count": "828"
+     },
+     {
+      "item": "ITAGÜÍ",
+      "count": "790"
+     },
+     {
+      "item": "SANTA MARTA",
+      "count": "686"
+     },
+     {
+      "item": "BARRANQUILLA",
+      "count": "592"
+     },
+     {
+      "item": "NOBSA",
+      "count": "498"
+     },
+     {
+      "item": "VILLAVICENCIO",
+      "count": "488"
+     },
+     {
+      "item": "SABANETA",
+      "count": "458"
+     },
+     {
+      "item": "Bogotá, D.C.",
+      "count": "458"
+     },
+     {
+      "item": "BELLO",
+      "count": "448"
+     },
+     {
+      "item": "CALDAS",
+      "count": "386"
+     },
+     {
+      "item": "FLORIDABLANCA",
+      "count": "354"
+     },
+     {
+      "item": "LA JAGUA DE IBIRICO",
+      "count": "340"
+     },
+     {
+      "item": "YUMBO",
+      "count": "322"
+     }
+    ],
+    "smallest": "Agustin Codazzi",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {}
+  },
+  {
+   "id": 609971574,
+   "name": "Tipo de Estación",
+   "dataTypeName": "text",
+   "description": "Ubicación de la estación (Sistema de referencia espacial MAGNA- SIRGAS)",
+   "fieldName": "tipo_de_estaci_n",
+   "position": 27,
+   "renderTypeName": "text",
+   "tableColumnId": 155856552,
+   "cachedContents": {
+    "non_null": "30665",
+    "largest": "N/A",
+    "null": "0",
+    "top": [
+     {
+      "item": "Fija",
+      "count": "27568"
+     },
+     {
+      "item": "Indicativa",
+      "count": "3095"
+     },
+     {
+      "item": "NA",
+      "count": "1"
+     },
+     {
+      "item": "N/A",
+      "count": "1"
+     }
+    ],
+    "smallest": "Fija",
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {}
+  },
+  {
+   "id": 609971575,
+   "name": "Ubicacion",
+   "dataTypeName": "point",
+   "description": "\t Ubicación de la estación (Sistema de referencia espacial MAGNA- SIRGAS)",
+   "fieldName": "ubicacion",
+   "position": 28,
+   "renderTypeName": "point",
+   "tableColumnId": 155856551,
+   "cachedContents": {
+    "non_null": "30665",
+    "null": "0",
+    "top": [
+     {
+      "item": {
+       "coordinates": [
+        -74.161333,
+        4.62505
+       ],
+       "type": "Point"
+      },
+      "count": "554"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -74.083967,
+        4.658467
+       ],
+       "type": "Point"
+      },
+      "count": "552"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -74.082483,
+        4.6907
+       ],
+       "type": "Point"
+      },
+      "count": "503"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -74.148583,
+        4.595617
+       ],
+       "type": "Point"
+      },
+      "count": "489"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -74.117483,
+        4.631767
+       ],
+       "type": "Point"
+      },
+      "count": "484"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -75.581111,
+        6.211806
+       ],
+       "type": "Point"
+      },
+      "count": "423"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -75.568669,
+        6.330697
+       ],
+       "type": "Point"
+      },
+      "count": "369"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -74.130967,
+        4.576283
+       ],
+       "type": "Point"
+      },
+      "count": "368"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -74.030417,
+        4.71035
+       ],
+       "type": "Point"
+      },
+      "count": "353"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -74.043783,
+        4.783733
+       ],
+       "type": "Point"
+      },
+      "count": "324"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -74.0838,
+        4.57265
+       ],
+       "type": "Point"
+      },
+      "count": "312"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -75.580222,
+        6.266139
+       ],
+       "type": "Point"
+      },
+      "count": "284"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -74.093483,
+        4.76135
+       ],
+       "type": "Point"
+      },
+      "count": "284"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -75.647694,
+        6.17125
+       ],
+       "type": "Point"
+      },
+      "count": "276"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -75.443986,
+        6.378517
+       ],
+       "type": "Point"
+      },
+      "count": "252"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -75.600667,
+        6.188444
+       ],
+       "type": "Point"
+      },
+      "count": "232"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -73.123611,
+        7.106365
+       ],
+       "type": "Point"
+      },
+      "count": "226"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -75.641944,
+        6.101972
+       ],
+       "type": "Point"
+      },
+      "count": "222"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -76.521225,
+        3.490514
+       ],
+       "type": "Point"
+      },
+      "count": "214"
+     },
+     {
+      "item": {
+       "coordinates": [
+        -73.655833,
+        4.108056
+       ],
+       "type": "Point"
+      },
+      "count": "213"
+     }
+    ],
+    "count": "30665",
+    "cardinality": "30665"
+   },
+   "format": {}
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Instituto de Hidrología, Meteorología y Estudios Ambientales - IDEAM, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Ambiente y Desarrollo Sostenible",
+    "Área o dependencia": "Subdirección de Estudios Ambientales",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Nacional",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Anual"
+   }
+  },
+  "availableDisplayTypes": [
+   "table",
+   "fatrow",
+   "page"
+  ]
+ },
+ "owner": {
+  "id": "xac7-ivuv",
+  "displayName": "Oficina de Informática IDEAM",
+  "profileImageUrlLarge": "/api/users/xac7-ivuv/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/xac7-ivuv/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/xac7-ivuv/profile_images/TINY",
+  "screenName": "Oficina de Informática IDEAM",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "xac7-ivuv",
+  "displayName": "Oficina de Informática IDEAM",
+  "profileImageUrlLarge": "/api/users/xac7-ivuv/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/xac7-ivuv/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/xac7-ivuv/profile_images/TINY",
+  "screenName": "Oficina de Informática IDEAM",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "calidad del aire",
+  "atmósfera",
+  "concentración",
+  "contaminantes",
+  "datos atmosféricos",
+  "dióxido de azufre",
+  "dióxido de nitrógeno",
+  "material partículado",
+  "ozono",
+  "meteorología",
+  "sisaire",
+  "ideam",
+  "medio ambiente",
+  "ambiente sostenible"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

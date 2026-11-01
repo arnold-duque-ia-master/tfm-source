@@ -1,0 +1,74 @@
+"""Fecha ISO 8601 sin hora (AAAA-MM-DD)."""
+scalar Date
+
+"""Fecha y hora ISO 8601 sin zona horaria (AAAA-MM-DDTHH:MM:SS)."""
+scalar DateTime
+
+enum OrderDirection {
+  ASC
+  DESC
+}
+
+type Point {
+  latitude: Float
+  longitude: Float
+}
+
+input StringFilter {
+  eq: String
+  neq: String
+  in: [String!]
+  nin: [String!]
+  contains: String
+  startsWith: String
+  isNull: Boolean
+}
+
+input IntFilter {
+  eq: Int
+  neq: Int
+  gt: Int
+  gte: Int
+  lt: Int
+  lte: Int
+  in: [Int!]
+  nin: [Int!]
+  isNull: Boolean
+}
+
+input FloatFilter {
+  eq: Float
+  neq: Float
+  gt: Float
+  gte: Float
+  lt: Float
+  lte: Float
+  in: [Float!]
+  nin: [Float!]
+  isNull: Boolean
+}
+
+input DateFilter {
+  eq: Date
+  neq: Date
+  gt: Date
+  gte: Date
+  lt: Date
+  lte: Date
+  isNull: Boolean
+}
+
+input DateTimeFilter {
+  eq: DateTime
+  neq: DateTime
+  gt: DateTime
+  gte: DateTime
+  lt: DateTime
+  lte: DateTime
+  isNull: Boolean
+}
+
+input BooleanFilter {
+  eq: Boolean
+  isNull: Boolean
+}

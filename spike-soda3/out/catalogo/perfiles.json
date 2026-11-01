@@ -1,0 +1,1818 @@
+[
+ {
+  "id": "h2yr-zfb2",
+  "nombre": "Subsidios De Vivienda Asignados",
+  "entidad": "Gobernación de Risaralda, Risaralda",
+  "categoria": "Vivienda, Ciudad y Territorio",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "87095",
+  "rango": "a_o_de_asignaci_n: 2003 → 2026",
+  "columnas": [
+   [
+    "departamento",
+    "text"
+   ],
+   [
+    "c_digo_divipola_departamento",
+    "text"
+   ],
+   [
+    "municipio",
+    "text"
+   ],
+   [
+    "c_digo_divipola_municipio",
+    "text"
+   ],
+   [
+    "programa",
+    "text"
+   ],
+   [
+    "a_o_de_asignaci_n",
+    "number"
+   ],
+   [
+    "estado_de_postulaci_n",
+    "text"
+   ],
+   [
+    "hogares",
+    "number"
+   ],
+   [
+    "valor_asignado",
+    "number"
+   ]
+  ],
+  "muestra": {
+   "departamento": "META",
+   "c_digo_divipola_departamento": "50",
+   "municipio": "ACACÍAS",
+   "c_digo_divipola_municipio": "50006",
+   "programa": "MI CASA YA",
+   "a_o_de_asignaci_n": "2018",
+   "estado_de_postulaci_n": "Asignados",
+   "hogares": "3",
+   "valor_asignado": "54686940"
+  }
+ },
+ {
+  "id": "kwqa-xugj",
+  "nombre": "Estadísticas Riesgos Laborales Positiva 2026",
+  "entidad": "Positiva Compañía de Seguros, Bogotá D.C.",
+  "categoria": "Salud y Protección Social",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "62137",
+  "rango": "a_o_de_informe: 2026 → 2026",
+  "columnas": [
+   [
+    "dpto",
+    "text"
+   ],
+   [
+    "mpio",
+    "text"
+   ],
+   [
+    "codigo_de_la_arl",
+    "text"
+   ],
+   [
+    "a_o_de_informe",
+    "text"
+   ],
+   [
+    "mes_de_informe",
+    "text"
+   ],
+   [
+    "activec",
+    "text"
+   ],
+   [
+    "rela_dep",
+    "number"
+   ],
+   [
+    "rela_indep",
+    "number"
+   ],
+   [
+    "presuaccidetrasuce",
+    "number"
+   ],
+   [
+    "muertes_repor_at",
+    "number"
+   ],
+   [
+    "nuevapensioinva_r_at",
+    "number"
+   ],
+   [
+    "nuevapensioinva_r_el",
+    "number"
+   ],
+   [
+    "incapermaparciar_at",
+    "number"
+   ],
+   [
+    "incapermaparciar_el",
+    "number"
+   ]
+  ],
+  "muestra": {
+   "dpto": "ANTIOQUIA",
+   "mpio": "MEDELLIN",
+   "codigo_de_la_arl": "1423",
+   "a_o_de_informe": "2026",
+   "mes_de_informe": "08",
+   "activec": "1131201",
+   "rela_dep": "28",
+   "rela_indep": "0",
+   "presuaccidetrasuce": "0",
+   "muertes_repor_at": "0",
+   "nuevapensioinva_r_at": "0",
+   "nuevapensioinva_r_el": "0",
+   "incapermaparciar_at": "0",
+   "incapermaparciar_el": "0"
+  }
+ },
+ {
+  "id": "6cat-2gcs",
+  "nombre": "10.000 Empresas mas Grandes del País",
+  "entidad": "Superintendencia de Sociedades SuperSociedades, Bogotá D.C.",
+  "categoria": "Comercio, Industria y Turismo",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "50000",
+  "rango": "a_o_de_corte: 2021.00 → 2025.00",
+  "columnas": [
+   [
+    "nit",
+    "number"
+   ],
+   [
+    "raz_n_social",
+    "text"
+   ],
+   [
+    "supervisor",
+    "text"
+   ],
+   [
+    "regi_n",
+    "text"
+   ],
+   [
+    "departamento_domicilio",
+    "text"
+   ],
+   [
+    "ciudad_domicilio",
+    "text"
+   ],
+   [
+    "ciiu",
+    "number"
+   ],
+   [
+    "macrosector",
+    "text"
+   ],
+   [
+    "ingresos_operacionales",
+    "text"
+   ],
+   [
+    "ganancia_p_rdida",
+    "text"
+   ],
+   [
+    "total_activos",
+    "text"
+   ],
+   [
+    "total_pasivos",
+    "text"
+   ],
+   [
+    "total_patrimonio",
+    "text"
+   ],
+   [
+    "a_o_de_corte",
+    "number"
+   ]
+  ],
+  "muestra": {
+   "nit": "899999068.00",
+   "raz_n_social": "ECOPETROL S.A.",
+   "supervisor": "SUPERFINANCIERA",
+   "regi_n": "BOGOTÁ - CUNDINAMARCA",
+   "departamento_domicilio": "BOGOTA D.C.",
+   "ciudad_domicilio": "BOGOTA, D.C.",
+   "ciiu": "610",
+   "macrosector": "MINERO",
+   "ingresos_operacionales": "$ 100.59",
+   "ganancia_p_rdida": "$ 9.03",
+   "total_activos": "$ 198.11",
+   "total_pasivos": "$ 114.35",
+   "total_patrimonio": "$ 83.76",
+   "a_o_de_corte": "2025.00"
+  }
+ },
+ {
+  "id": "96sh-4v8d",
+  "nombre": "Entradas de extranjeros a Colombia",
+  "entidad": "Unidad Administrativa Especial Migración Colombia, Bogotá D.C.",
+  "categoria": "Estadísticas Nacionales",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "181186",
+  "rango": "a_o: 2012 → 2026",
+  "columnas": [
+   [
+    "a_o",
+    "text"
+   ],
+   [
+    "mes",
+    "text"
+   ],
+   [
+    "nacionalidad",
+    "text"
+   ],
+   [
+    "codigo_m49",
+    "number"
+   ],
+   [
+    "femenino",
+    "number"
+   ],
+   [
+    "masculino",
+    "number"
+   ],
+   [
+    "indefinido",
+    "number"
+   ],
+   [
+    "total",
+    "number"
+   ],
+   [
+    "ubicacion_pcm",
+    "text"
+   ]
+  ],
+  "muestra": {
+   "a_o": "2012",
+   "mes": "Enero",
+   "nacionalidad": "Albania",
+   "codigo_m49": "8",
+   "femenino": "1",
+   "masculino": "2",
+   "total": "3",
+   "ubicacion_pcm": "(4.697144,-74.140516)"
+  }
+ },
+ {
+  "id": "akpq-tuqi",
+  "nombre": "TRAMITES RADICADOS POR ACTORES DEL SISTEMA RUNT 2.0 A NIVEL NACIONAL.",
+  "entidad": "Ministerio de Transporte - MinTransporte, Bogotá D.C.",
+  "categoria": "Transporte",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "4115769",
+  "rango": "",
+  "columnas": [
+   [
+    "fecha",
+    "text"
+   ],
+   [
+    "tipo_actor",
+    "text"
+   ],
+   [
+    "nombre_municipio",
+    "text"
+   ],
+   [
+    "codigo_departamento",
+    "number"
+   ],
+   [
+    "nombre_departamento",
+    "text"
+   ],
+   [
+    "estado_tramite",
+    "text"
+   ],
+   [
+    "registro",
+    "text"
+   ],
+   [
+    "cod_tramite",
+    "number"
+   ],
+   [
+    "descripcion_del_tramite_radicado",
+    "text"
+   ],
+   [
+    "cantidad",
+    "number"
+   ]
+  ],
+  "muestra": {
+   "fecha": "1/06/2023",
+   "tipo_actor": "OT",
+   "nombre_municipio": "EL TAMBO",
+   "codigo_departamento": "19",
+   "nombre_departamento": "CAUCA",
+   "estado_tramite": "RECHAZADO",
+   "registro": "RNA",
+   "cod_tramite": "16",
+   "descripcion_del_tramite_radicado": "TRAMITE TRASPASO",
+   "cantidad": "1"
+  }
+ },
+ {
+  "id": "y9ga-zwzy",
+  "nombre": "MEN_ESTADISTICAS MATRICULA POR MUNICIPIOS_ES",
+  "entidad": "Alcaldía de Sipí, Chocó",
+  "categoria": "Educación",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "19618",
+  "rango": "a_o: 2005 → 2021",
+  "columnas": [
+   [
+    "a_o",
+    "number"
+   ],
+   [
+    "c_digo_deldepartamento",
+    "text"
+   ],
+   [
+    "nombre_del_departamento",
+    "text"
+   ],
+   [
+    "c_digo_delmunicipio",
+    "text"
+   ],
+   [
+    "nombre_del_municipio",
+    "text"
+   ],
+   [
+    "tecnica_profesional",
+    "number"
+   ],
+   [
+    "tecnologica",
+    "number"
+   ],
+   [
+    "universitaria",
+    "number"
+   ],
+   [
+    "especializacion",
+    "number"
+   ],
+   [
+    "maestria",
+    "number"
+   ],
+   [
+    "doctorado",
+    "number"
+   ],
+   [
+    "ies_con_oferta",
+    "number"
+   ]
+  ],
+  "muestra": {
+   "a_o": "2005",
+   "c_digo_deldepartamento": "11",
+   "nombre_del_departamento": "11",
+   "c_digo_delmunicipio": "11001",
+   "nombre_del_municipio": "BOGOTÁ D.C.",
+   "tecnica_profesional": "63098",
+   "tecnologica": "40178",
+   "universitaria": "279544",
+   "especializacion": "23603",
+   "maestria": "7399",
+   "doctorado": "492",
+   "ies_con_oferta": "106"
+  }
+ },
+ {
+  "id": "daed-z4fw",
+  "nombre": "FURAG",
+  "entidad": "Departamento Administrativo de la Función Pública - DAFP, Bogotá D.C.",
+  "categoria": "Función pública",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "1011662",
+  "rango": "vigencia: 2022 → 2025",
+  "columnas": [
+   [
+    "c_digo_sigep",
+    "text"
+   ],
+   [
+    "entidad",
+    "text"
+   ],
+   [
+    "sector",
+    "text"
+   ],
+   [
+    "orden",
+    "text"
+   ],
+   [
+    "vigencia",
+    "text"
+   ],
+   [
+    "grupa_par",
+    "text"
+   ],
+   [
+    "id_indice",
+    "text"
+   ],
+   [
+    "indice",
+    "text"
+   ],
+   [
+    "descripcion_indice",
+    "text"
+   ],
+   [
+    "indice_desagregado",
+    "text"
+   ],
+   [
+    "puntaje_entidad",
+    "text"
+   ],
+   [
+    "promedio_grupo_par",
+    "number"
+   ],
+   [
+    "minimo_grupo_par",
+    "number"
+   ],
+   [
+    "quintil_grupo_par",
+    "number"
+   ],
+   [
+    "percentil_grupo_par",
+    "text"
+   ],
+   [
+    "target_nacion",
+    "number"
+   ]
+  ],
+  "muestra": {
+   "c_digo_sigep": "6,418",
+   "entidad": "CORPORACION COLOMBIANA DE INVESTIGACION AGROPECUARIA",
+   "sector": "AGROPECUARIO. PESQUERO Y DE DESARROLLO RURAL",
+   "orden": "NACIONAL",
+   "vigencia": "2022",
+   "grupa_par": "NACIÓN - MIPG",
+   "id_indice": "D1",
+   "indice": "TALENTO HUMANO",
+   "descripcion_indice": "TALENTO HUMANO",
+   "indice_desagregado": "Talento Humano",
+   "puntaje_entidad": "47.66",
+   "promedio_grupo_par": "74.07782895",
+   "minimo_grupo_par": "21.76",
+   "quintil_grupo_par": "1",
+   "percentil_grupo_par": "1",
+   "target_nacion": "66.75375"
+  }
+ },
+ {
+  "id": "ekup-y869",
+  "nombre": "Tarifas de gas natural para hogares - EPM",
+  "entidad": "E.S.P. Empresas Públicas de Medellín - EPM, Antioquia",
+  "categoria": "Minas y Energía",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "664",
+  "rango": "",
+  "columnas": [
+   [
+    "sector",
+    "text"
+   ],
+   [
+    "estrato",
+    "text"
+   ],
+   [
+    "cargo_fijo",
+    "number"
+   ],
+   [
+    "cargo_por_consumo_menor",
+    "number"
+   ],
+   [
+    "cargo_por_consumo_mayor",
+    "number"
+   ],
+   [
+    "year",
+    "number"
+   ],
+   [
+    "mes",
+    "text"
+   ]
+  ],
+  "muestra": {
+   "sector": "Residencial",
+   "estrato": "1",
+   "cargo_fijo": "0.00",
+   "cargo_por_consumo_menor": "804.82",
+   "cargo_por_consumo_mayor": "1709.03",
+   "year": "2020",
+   "mes": "enero"
+  }
+ },
+ {
+  "id": "8yi9-t44c",
+  "nombre": "Tráfico Vehicular ANI",
+  "entidad": "Agencia Nacional de Infraestructura - ANI, Bogotá D.C.",
+  "categoria": "Transporte",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "149944",
+  "rango": "desde: 2014-01-01 → 2026-05-01",
+  "columnas": [
+   [
+    "idpeaje",
+    "number"
+   ],
+   [
+    "peaje",
+    "text"
+   ],
+   [
+    "categoriatarifa",
+    "text"
+   ],
+   [
+    "desde",
+    "calendar_date"
+   ],
+   [
+    "hasta",
+    "calendar_date"
+   ],
+   [
+    "valortarifa",
+    "number"
+   ],
+   [
+    "cantidadtrafico",
+    "number"
+   ],
+   [
+    "cantidadevasores",
+    "number"
+   ],
+   [
+    "cantidadexentos787",
+    "number"
+   ]
+  ],
+  "muestra": {
+   "idpeaje": "1",
+   "peaje": "ALVARADO",
+   "categoriatarifa": "I",
+   "desde": "2015-08-01T00:00:00.000",
+   "hasta": "2015-08-31T00:00:00.000",
+   "valortarifa": "7000",
+   "cantidadtrafico": "27730",
+   "cantidadevasores": "0",
+   "cantidadexentos787": "660"
+  }
+ },
+ {
+  "id": "nxt2-39c3",
+  "nombre": "Calidad del Agua para Consumo Humano en Colombia",
+  "entidad": "Instituto Nacional de Salud INS, Bogotá D.C",
+  "categoria": "Salud y Protección Social",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "19160",
+  "rango": "a_o: 2007 → 2024",
+  "columnas": [
+   [
+    "departamentocodigo",
+    "text"
+   ],
+   [
+    "departamento",
+    "text"
+   ],
+   [
+    "municipiocodigo",
+    "text"
+   ],
+   [
+    "municipio",
+    "text"
+   ],
+   [
+    "a_o",
+    "number"
+   ],
+   [
+    "irca",
+    "number"
+   ],
+   [
+    "nivel_de_riesgo",
+    "text"
+   ],
+   [
+    "ircaurbano",
+    "text"
+   ],
+   [
+    "nivel_de_riesgo_urbano",
+    "text"
+   ],
+   [
+    "ircarural",
+    "text"
+   ],
+   [
+    "nivel_de_riesgo_rural",
+    "text"
+   ]
+  ],
+  "muestra": {
+   "departamentocodigo": "05",
+   "departamento": "Antioquia",
+   "municipiocodigo": "05001",
+   "municipio": "Medellín",
+   "a_o": "2007",
+   "irca": "2.3",
+   "nivel_de_riesgo": "Sin riesgo",
+   "ircaurbano": "0.2",
+   "nivel_de_riesgo_urbano": "Sin riesgo",
+   "ircarural": "3.9",
+   "nivel_de_riesgo_rural": "Sin riesgo"
+  }
+ },
+ {
+  "id": "3ebi-d83g",
+  "nombre": "Estado de la prestación del servicio de energía en Zonas No Interconectadas",
+  "entidad": "Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas no Interconectadas - IPSE, Bogotá D.C.",
+  "categoria": "Minas y Energía",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "7091",
+  "rango": "fecha_demanda_maxima: 2020-01-02 → 2026-09-30",
+  "columnas": [
+   [
+    "id_dpto",
+    "text"
+   ],
+   [
+    "dpto",
+    "text"
+   ],
+   [
+    "id_mpio",
+    "text"
+   ],
+   [
+    "mpio",
+    "text"
+   ],
+   [
+    "id_localidad",
+    "text"
+   ],
+   [
+    "localidad",
+    "text"
+   ],
+   [
+    "anio",
+    "text"
+   ],
+   [
+    "mes",
+    "text"
+   ],
+   [
+    "energia_activa",
+    "number"
+   ],
+   [
+    "energia_reactiva",
+    "number"
+   ],
+   [
+    "potencia_maxima",
+    "number"
+   ],
+   [
+    "dia_demanda_maxima",
+    "text"
+   ],
+   [
+    "fecha_demanda_maxima",
+    "calendar_date"
+   ],
+   [
+    "prom_diario_horas",
+    "number"
+   ]
+  ],
+  "muestra": {
+   "id_dpto": "91",
+   "dpto": "AMAZONAS",
+   "id_mpio": "91001",
+   "mpio": "LETICIA",
+   "id_localidad": "91001000",
+   "localidad": "LETICIA (LETICIA - AMAZONAS)",
+   "anio": "2020",
+   "mes": "1",
+   "energia_activa": "3930642",
+   "energia_reactiva": "1251191",
+   "potencia_maxima": "7768.76",
+   "dia_demanda_maxima": "lunes",
+   "fecha_demanda_maxima": "2020-01-27T14:15:00.000",
+   "prom_diario_horas": "24"
+  }
+ },
+ {
+  "id": "uejq-wxrr",
+  "nombre": "Evaluaciones Agropecuarias Municipales – EVA. 2019 - 2025. Base Agrícola",
+  "entidad": "Unidad de Planificación de Tierras Rurales, Adecuación de Tierras y Usos Agropecuarios - UPRA, Bogotá D.C.",
+  "categoria": "Agricultura y Desarrollo Rural",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "166732",
+  "rango": "a_o: 2019 → 2025",
+  "columnas": [
+   [
+    "c_digo_dane_departamento",
+    "text"
+   ],
+   [
+    "departamento",
+    "text"
+   ],
+   [
+    "c_digo_dane_municipio",
+    "text"
+   ],
+   [
+    "municipio",
+    "text"
+   ],
+   [
+    "grupo_cultivo",
+    "text"
+   ],
+   [
+    "subgrupo",
+    "text"
+   ],
+   [
+    "cultivo",
+    "text"
+   ],
+   [
+    "desagregaci_n_cultivo",
+    "text"
+   ],
+   [
+    "a_o",
+    "number"
+   ],
+   [
+    "periodo",
+    "text"
+   ],
+   [
+    "rea_sembrada",
+    "number"
+   ],
+   [
+    "rea_cosechada",
+    "number"
+   ],
+   [
+    "producci_n",
+    "number"
+   ],
+   [
+    "rendimiento",
+    "number"
+   ],
+   [
+    "ciclo_del_cultivo",
+    "text"
+   ],
+   [
+    "estado_f_sico_del_cultivo",
+    "text"
+   ],
+   [
+    "c_digo_del_cultivo",
+    "number"
+   ],
+   [
+    "nombre_cient_fico_del_cultivo",
+    "text"
+   ]
+  ],
+  "muestra": {
+   "c_digo_dane_departamento": "05",
+   "departamento": "Antioquia",
+   "c_digo_dane_municipio": "05001",
+   "municipio": "Medellín",
+   "grupo_cultivo": "Hortalizas",
+   "subgrupo": "Hortalizas de tallo",
+   "cultivo": "Apio",
+   "desagregaci_n_cultivo": "Apio",
+   "a_o": "2021",
+   "periodo": "2021A",
+   "rea_sembrada": "8.00",
+   "rea_cosechada": "8.00",
+   "producci_n": "128.00",
+   "rendimiento": "16.00",
+   "ciclo_del_cultivo": "Transitorio",
+   "estado_f_sico_del_cultivo": "En fresco",
+   "c_digo_del_cultivo": "1050600",
+   "nombre_cient_fico_del_cultivo": "Apium graveolens"
+  }
+ },
+ {
+  "id": "26um-zdwn",
+  "nombre": "PRIMERAS CAUSAS DE MORBILIDAD",
+  "entidad": "E.S.E. Instituto de Salud de Bucaramanga, Santander",
+  "categoria": "Salud y Protección Social",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "3442",
+  "rango": "a_o: 2021 → 2026",
+  "columnas": [
+   [
+    "a_o",
+    "number"
+   ],
+   [
+    "trimestre",
+    "text"
+   ],
+   [
+    "mes",
+    "text"
+   ],
+   [
+    "tipo",
+    "text"
+   ],
+   [
+    "codigo_diagnostico",
+    "text"
+   ],
+   [
+    "descripcion",
+    "text"
+   ],
+   [
+    "total",
+    "number"
+   ]
+  ],
+  "muestra": {
+   "a_o": "2021",
+   "trimestre": "PRIMER",
+   "mes": "ENERO",
+   "tipo": "PRIMERA CAUSAS  DE MORBILIDAD POR CONSULTA URGENCIAS",
+   "codigo_diagnostico": "U072",
+   "descripcion": "USO EMERGENTE DE U07.2",
+   "total": "407"
+  }
+ },
+ {
+  "id": "ni93-8mm5",
+  "nombre": "Precios base de minerales para la Liquidación de Regalías",
+  "entidad": "Unidad de Planeación Minero Energética - UPME, Bogotá D.C.",
+  "categoria": "Minas y Energía",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "5868",
+  "rango": "fecha_de_resolucion: 1994-10-24 → 2026-06-30",
+  "columnas": [
+   [
+    "resolucion",
+    "number"
+   ],
+   [
+    "fecha_de_resolucion",
+    "calendar_date"
+   ],
+   [
+    "fecha_inicio",
+    "calendar_date"
+   ],
+   [
+    "fecha_fin",
+    "calendar_date"
+   ],
+   [
+    "mineral",
+    "text"
+   ],
+   [
+    "precio",
+    "number"
+   ],
+   [
+    "unidad",
+    "text"
+   ]
+  ],
+  "muestra": {
+   "resolucion": "477",
+   "fecha_de_resolucion": "2026-06-30T00:00:00.000",
+   "fecha_inicio": "2026-07-01T00:00:00.000",
+   "fecha_fin": "2026-09-30T00:00:00.000",
+   "mineral": "CARBÓN ANTRACITA CONSUMO INTERNO",
+   "precio": "659983.9",
+   "unidad": "Ton"
+  }
+ },
+ {
+  "id": "rtai-k9uh",
+  "nombre": "Índice de Gobierno Digital - Histórico",
+  "entidad": "Ministerio de Tecnologías de la Información y las Comunicaciones - MinTIC, Bogotá D.C.",
+  "categoria": "Ciencia, Tecnología e Innovación",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "108956",
+  "rango": "vigencia: 2018 → 2025",
+  "columnas": [
+   [
+    "c_digo_sigep",
+    "number"
+   ],
+   [
+    "entidad",
+    "text"
+   ],
+   [
+    "orden",
+    "text"
+   ],
+   [
+    "sector",
+    "text"
+   ],
+   [
+    "naturaleza_jur_dica",
+    "text"
+   ],
+   [
+    "id_departamento",
+    "number"
+   ],
+   [
+    "departamento",
+    "text"
+   ],
+   [
+    "id_municipio",
+    "number"
+   ],
+   [
+    "municipio",
+    "text"
+   ],
+   [
+    "vigencia",
+    "number"
+   ],
+   [
+    "id_ndice",
+    "text"
+   ],
+   [
+    "ndice",
+    "text"
+   ],
+   [
+    "puntaje_entidad",
+    "number"
+   ],
+   [
+    "promedio_grupo_par",
+    "number"
+   ],
+   [
+    "m_ximo_grupo_par",
+    "number"
+   ],
+   [
+    "m_nimo_grupo_par",
+    "number"
+   ],
+   [
+    "quintil_grupo_par",
+    "number"
+   ],
+   [
+    "percentil_grupo_par",
+    "number"
+   ]
+  ],
+  "muestra": {
+   "c_digo_sigep": "2",
+   "entidad": "MINISTERIO DE RELACIONES EXTERIORES",
+   "orden": "NACIONAL",
+   "sector": "RELACIONES EXTERIORES",
+   "naturaleza_jur_dica": "MINISTERIO",
+   "id_departamento": "11",
+   "departamento": "Bogotá, D. C.",
+   "id_municipio": "11001",
+   "municipio": "Bogotá, D. C.",
+   "vigencia": "2018",
+   "id_ndice": "I18",
+   "ndice": "Empoderamiento de los ciudadanos mediante un Estado abierto",
+   "puntaje_entidad": "86.9069691532102",
+   "promedio_grupo_par": "77.64677152261471",
+   "m_ximo_grupo_par": "95.3140263663563",
+   "m_nimo_grupo_par": "51.9836418289484",
+   "quintil_grupo_par": "5",
+   "percentil_grupo_par": "89"
+  }
+ },
+ {
+  "id": "kekd-7v7h",
+  "nombre": "Calidad del Aire en Colombia (Promedio Anual)",
+  "entidad": "Instituto de Hidrología, Meteorología y Estudios Ambientales - IDEAM, Bogotá D.C.",
+  "categoria": "Ambiente y Desarrollo Sostenible",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "30665",
+  "rango": "a_o: 2011 → 2025",
+  "columnas": [
+   [
+    "id_estacion",
+    "number"
+   ],
+   [
+    "autoridad_ambiental",
+    "text"
+   ],
+   [
+    "estaci_n",
+    "text"
+   ],
+   [
+    "latitud",
+    "number"
+   ],
+   [
+    "longitud",
+    "number"
+   ],
+   [
+    "variable",
+    "text"
+   ],
+   [
+    "unidades",
+    "text"
+   ],
+   [
+    "tiempo_de_exposici_n_horas",
+    "number"
+   ],
+   [
+    "a_o",
+    "number"
+   ],
+   [
+    "promedio",
+    "number"
+   ],
+   [
+    "suma",
+    "number"
+   ],
+   [
+    "no_de_datos",
+    "number"
+   ],
+   [
+    "representatividad_temporal",
+    "text"
+   ],
+   [
+    "excedencias_limite_actual",
+    "text"
+   ],
+   [
+    "porcentaje_excedencias_limite",
+    "text"
+   ],
+   [
+    "mediana",
+    "number"
+   ],
+   [
+    "percentil_98",
+    "number"
+   ],
+   [
+    "m_ximo",
+    "number"
+   ],
+   [
+    "fechas_horas_del_m_ximo",
+    "text"
+   ],
+   [
+    "m_nimo",
+    "number"
+   ],
+   [
+    "fechas_horas_del_m_nimo",
+    "text"
+   ],
+   [
+    "d_as_de_excedencias",
+    "number"
+   ],
+   [
+    "c_digo_del_departamento",
+    "number"
+   ],
+   [
+    "nombre_del_departamento",
+    "text"
+   ],
+   [
+    "c_digo_del_municipio",
+    "text"
+   ],
+   [
+    "nombre_del_municipio",
+    "text"
+   ],
+   [
+    "tipo_de_estaci_n",
+    "text"
+   ],
+   [
+    "ubicacion",
+    "point"
+   ]
+  ],
+  "muestra": {
+   "id_estacion": "9020",
+   "autoridad_ambiental": "AMVA",
+   "estaci_n": "I.E. COL. COLOMBIA",
+   "latitud": "6.378517",
+   "longitud": "-75.443986",
+   "variable": "DViento",
+   "unidades": "deg",
+   "tiempo_de_exposici_n_horas": "1",
+   "a_o": "2011",
+   "promedio": "256.8",
+   "suma": "321637.5091",
+   "no_de_datos": "1411",
+   "representatividad_temporal": "16.0",
+   "excedencias_limite_actual": "0",
+   "porcentaje_excedencias_limite": "0.0",
+   "mediana": "244.2",
+   "percentil_98": "350.8",
+   "m_ximo": "359.5",
+   "fechas_horas_del_m_ximo": "29/11/2011 1:00",
+   "m_nimo": "1.3",
+   "fechas_horas_del_m_nimo": "29/11/2011 7:00",
+   "d_as_de_excedencias": "0",
+   "c_digo_del_departamento": "5",
+   "nombre_del_departamento": "ANTIOQUIA",
+   "c_digo_del_municipio": "5308.0",
+   "nombre_del_municipio": "GIRARDOTA",
+   "tipo_de_estaci_n": "Fija",
+   "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+     -75.443986,
+     6.378517
+    ]
+   }
+  }
+ },
+ {
+  "id": "7atu-2b28",
+  "nombre": "Tráfico de pasajeros y carga férreo en Colombia",
+  "entidad": "Superintendencia de Transporte - SUPERTRANSPORTE, Bogotá D.C.",
+  "categoria": "Transporte",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "101322",
+  "rango": "fecha_operacion: 2018-01-01 → 2026-09-27",
+  "columnas": [
+   [
+    "fecha_operacion",
+    "calendar_date"
+   ],
+   [
+    "concesion",
+    "text"
+   ],
+   [
+    "operador",
+    "text"
+   ],
+   [
+    "municipio_origen",
+    "text"
+   ],
+   [
+    "latitud_origen",
+    "number"
+   ],
+   [
+    "longitud_origen",
+    "number"
+   ],
+   [
+    "municipio_destino",
+    "text"
+   ],
+   [
+    "latitud_destino",
+    "number"
+   ],
+   [
+    "longitud_destino",
+    "number"
+   ],
+   [
+    "tipo_carga",
+    "text"
+   ],
+   [
+    "producto",
+    "text"
+   ],
+   [
+    "peso",
+    "number"
+   ],
+   [
+    "red",
+    "text"
+   ],
+   [
+    "vagones_carga",
+    "number"
+   ],
+   [
+    "vagones_pasajeros",
+    "number"
+   ],
+   [
+    "cantidad_pasajeros",
+    "number"
+   ]
+  ],
+  "muestra": {
+   "fecha_operacion": "2020-07-18T00:00:00.000",
+   "concesion": "FENOCO S.A",
+   "operador": "CNR",
+   "municipio_origen": "LA LOMA",
+   "latitud_origen": "9.61837950111",
+   "longitud_origen": "-73.6006838538",
+   "municipio_destino": "CORDOBITA",
+   "latitud_destino": "11.0215163543",
+   "longitud_destino": "-74.2087088863",
+   "tipo_carga": "CARBON AL",
+   "producto": "CAR",
+   "peso": "8825",
+   "red": "PUBLICO",
+   "vagones_carga": "147",
+   "vagones_pasajeros": "0",
+   "cantidad_pasajeros": "0"
+  }
+ },
+ {
+  "id": "nsz2-kzcq",
+  "nombre": "Normales Climatológicas de Colombia",
+  "entidad": "Instituto de Hidrología, Meteorología y Estudios Ambientales - IDEAM, Bogotá D.C.",
+  "categoria": "Ambiente y Desarrollo Sostenible",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "16761",
+  "rango": "periodo: 1961-1990 → 1991-2020",
+  "columnas": [
+   [
+    "periodo",
+    "text"
+   ],
+   [
+    "par_metro",
+    "text"
+   ],
+   [
+    "c_digo",
+    "number"
+   ],
+   [
+    "categoria",
+    "text"
+   ],
+   [
+    "estaci_n",
+    "text"
+   ],
+   [
+    "municipio",
+    "text"
+   ],
+   [
+    "departamento",
+    "text"
+   ],
+   [
+    "ao",
+    "number"
+   ],
+   [
+    "altitud_m",
+    "number"
+   ],
+   [
+    "longitud",
+    "number"
+   ],
+   [
+    "latitud",
+    "number"
+   ],
+   [
+    "ene",
+    "number"
+   ],
+   [
+    "feb",
+    "number"
+   ],
+   [
+    "mar",
+    "number"
+   ],
+   [
+    "abr",
+    "number"
+   ],
+   [
+    "may",
+    "number"
+   ],
+   [
+    "jun",
+    "number"
+   ],
+   [
+    "jul",
+    "number"
+   ],
+   [
+    "ago",
+    "number"
+   ],
+   [
+    "sep",
+    "number"
+   ],
+   [
+    "oct",
+    "number"
+   ],
+   [
+    "nov",
+    "number"
+   ],
+   [
+    "dic",
+    "number"
+   ],
+   [
+    "anual",
+    "number"
+   ]
+  ],
+  "muestra": {
+   "periodo": "1991-2020",
+   "par_metro": "PRECIPITACIÓN",
+   "c_digo": "47060010",
+   "categoria": "PM",
+   "estaci_n": "El Encanto",
+   "municipio": "El Encanto",
+   "departamento": "Amazonas",
+   "ao": "7",
+   "altitud_m": "120",
+   "longitud": "-73.21",
+   "latitud": "-1.75",
+   "ene": "180.2",
+   "feb": "214.8",
+   "mar": "296.4",
+   "abr": "317.5",
+   "may": "339.3",
+   "jun": "300.2",
+   "jul": "262.2",
+   "ago": "195.4",
+   "sep": "189.4",
+   "oct": "207.5",
+   "nov": "255.5",
+   "dic": "263.7",
+   "anual": "3022.0"
+  }
+ },
+ {
+  "id": "5fct-ib9u",
+  "nombre": "Exportaciones agrícolas no tradicionales y tradicionales",
+  "entidad": "Ministerio de Agricultura y Desarrollo Rural - MinAgricultura, Bogotá D.C.",
+  "categoria": "Agricultura y Desarrollo Rural",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "544914",
+  "rango": "a_o: 2019 → 2025",
+  "columnas": [
+   [
+    "partida",
+    "number"
+   ],
+   [
+    "descripcion_partida10_dig",
+    "text"
+   ],
+   [
+    "tradici_n_productos",
+    "text"
+   ],
+   [
+    "departamento",
+    "text"
+   ],
+   [
+    "pais",
+    "text"
+   ],
+   [
+    "a_o",
+    "number"
+   ],
+   [
+    "mes",
+    "text"
+   ],
+   [
+    "exportaciones_en_valor_miles",
+    "number"
+   ],
+   [
+    "exportaciones_en_volumen",
+    "number"
+   ]
+  ],
+  "muestra": {
+   "partida": "101210000",
+   "descripcion_partida10_dig": "Caballos reproductores de raza pura, vivos",
+   "tradici_n_productos": "No tradicional",
+   "departamento": "Antioquia",
+   "pais": "China",
+   "a_o": "2019",
+   "mes": "Abril",
+   "exportaciones_en_valor_miles": "0",
+   "exportaciones_en_volumen": "0"
+  }
+ },
+ {
+  "id": "xyy7-rn7p",
+  "nombre": "Quejas interpuestas por los consumidores financieros en contra de las entidades vigiladas en la plataforma Smartsupervision",
+  "entidad": "Superintendencia Financiera de Colombia - SUPERFINANCIERA, Bogotá D.C.",
+  "categoria": "Hacienda y Crédito Público",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "1400425",
+  "rango": "a_o_creacion: 2023 → 2026",
+  "columnas": [
+   [
+    "a_o_creacion",
+    "number"
+   ],
+   [
+    "mes_creacion",
+    "number"
+   ],
+   [
+    "tipo_entidad",
+    "number"
+   ],
+   [
+    "codigo_entidad",
+    "number"
+   ],
+   [
+    "instancia_recepcion",
+    "text"
+   ],
+   [
+    "motivo",
+    "text"
+   ],
+   [
+    "producto",
+    "text"
+   ],
+   [
+    "departamento",
+    "text"
+   ],
+   [
+    "municipio",
+    "text"
+   ],
+   [
+    "cantidad_quejas_recibidas",
+    "number"
+   ]
+  ],
+  "muestra": {
+   "a_o_creacion": "2026",
+   "mes_creacion": "9",
+   "tipo_entidad": "14",
+   "codigo_entidad": "34",
+   "instancia_recepcion": "Entidad vigilada",
+   "motivo": "Error en el pago de la mesada",
+   "producto": "Seguro de pensiones Ley 100 de 1993",
+   "departamento": "ANTIOQUIA",
+   "municipio": "LA ESTRELLA",
+   "cantidad_quejas_recibidas": "1"
+  }
+ },
+ {
+  "id": "gim6-e69u",
+  "nombre": "Población Sistema del Subsidio Familiar",
+  "entidad": "Superintendencia del Subsidio Familiar - SUPERSUBSIDIO, Bogotá D.C.",
+  "categoria": "Trabajo",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "1176",
+  "rango": "a_o: 2024 → 2025",
+  "columnas": [
+   [
+    "mes",
+    "number"
+   ],
+   [
+    "ccf",
+    "text"
+   ],
+   [
+    "empresas_afiliadas",
+    "number"
+   ],
+   [
+    "afiliados_facultativos",
+    "number"
+   ],
+   [
+    "afiliados_pensionados",
+    "number"
+   ],
+   [
+    "afiliados_fidelidad",
+    "number"
+   ],
+   [
+    "a_o",
+    "text"
+   ],
+   [
+    "cantidad_de_afiliados",
+    "number"
+   ],
+   [
+    "trabajadores_empleados_dependientes",
+    "number"
+   ],
+   [
+    "no_afiliados_con_derecho_a_subsidios",
+    "number"
+   ],
+   [
+    "personas_a_cargo",
+    "number"
+   ],
+   [
+    "total_poblaci_n_cubierta",
+    "number"
+   ]
+  ],
+  "muestra": {
+   "mes": "1",
+   "ccf": "Caja de Compensación Familiar COMFENALCO ANTIOQUIA",
+   "empresas_afiliadas": "30117",
+   "afiliados_facultativos": "9426",
+   "afiliados_pensionados": "2361",
+   "afiliados_fidelidad": "2884",
+   "a_o": "2024",
+   "cantidad_de_afiliados": "438736",
+   "trabajadores_empleados_dependientes": "415453",
+   "no_afiliados_con_derecho_a_subsidios": "8612",
+   "personas_a_cargo": "447995",
+   "total_poblaci_n_cubierta": "886731"
+  }
+ },
+ {
+  "id": "6hgx-q9pi",
+  "nombre": "Proyectos de Investigación e Innovación evaluados y aprobados desde el año 2009",
+  "entidad": "Ministerio de Ciencia, Tecnología e Innovación - MinCiencias, Bogotá D.C.",
+  "categoria": "Ciencia, Tecnología e Innovación",
+  "licencia": "Creative Commons Attribution | Share Alike 4.0 International",
+  "filas": "3155",
+  "rango": "fecha_registro: 2009-01-16 → 2021-10-19",
+  "columnas": [
+   [
+    "proyecto_id",
+    "text"
+   ],
+   [
+    "convocatoria_id",
+    "text"
+   ],
+   [
+    "ano_convocatoria",
+    "number"
+   ],
+   [
+    "desc_convocatoria",
+    "text"
+   ],
+   [
+    "codigo_proyecto",
+    "text"
+   ],
+   [
+    "titulo_proyecto",
+    "text"
+   ],
+   [
+    "fecha_registro",
+    "calendar_date"
+   ],
+   [
+    "fecha_aprobacion",
+    "calendar_date"
+   ],
+   [
+    "entidad_ejecuta",
+    "text"
+   ],
+   [
+    "tipo_financiacion",
+    "text"
+   ],
+   [
+    "desc_financiacion",
+    "text"
+   ],
+   [
+    "cod_prog_cti",
+    "text"
+   ],
+   [
+    "nme_prog_cti",
+    "text"
+   ],
+   [
+    "cod_area_tematica",
+    "text"
+   ],
+   [
+    "area_tematica",
+    "text"
+   ],
+   [
+    "cod_area_ciencia",
+    "text"
+   ],
+   [
+    "nme_area_ciencia",
+    "text"
+   ],
+   [
+    "estado_proyecto",
+    "text"
+   ],
+   [
+    "cod_dane_ciudad_entidad",
+    "text"
+   ],
+   [
+    "nme_ciudad_entidad",
+    "text"
+   ],
+   [
+    "cod_dane_depto_entidad",
+    "text"
+   ],
+   [
+    "nme_depto_entidad",
+    "text"
+   ],
+   [
+    "cod_dane_ciudad_pry",
+    "text"
+   ],
+   [
+    "nme_ciudad_pry",
+    "text"
+   ],
+   [
+    "cod_dane_depto_pry",
+    "text"
+   ],
+   [
+    "nme_depto_pry",
+    "text"
+   ],
+   [
+    "tpo_proyecto",
+    "text"
+   ],
+   [
+    "nme_tipo_proyecto",
+    "text"
+   ],
+   [
+    "monto_financiado_ap",
+    "number"
+   ],
+   [
+    "monto_contrapartida_ap",
+    "number"
+   ],
+   [
+    "monto_total_ap",
+    "number"
+   ]
+  ],
+  "muestra": {
+   "proyecto_id": "54756",
+   "convocatoria_id": "11324",
+   "ano_convocatoria": "2016",
+   "desc_convocatoria": "744 - CONVOCATORIA PARA PROYECTOS DE CIENCIA TECNOLOGIA E INNOVACION EN SALUD - 2016",
+   "codigo_proyecto": "212074455505",
+   "titulo_proyecto": "Susceptibilidad a Anfotericina B en aislamientos clinicos de especies de Leishmania y en aislamientos expuestos a Miltefosina",
+   "fecha_registro": "2016-05-24T12:55:26.000",
+   "fecha_aprobacion": "2017-03-31T00:00:00.000",
+   "entidad_ejecuta": "No disponible",
+   "tipo_financiacion": "RC",
+   "desc_financiacion": "RECUPERACION CONTINGENTE",
+   "cod_prog_cti": "154",
+   "nme_prog_cti": "PROGRAMA NACIONAL DE CIENCIA TECNOLOGIA E INNOVACION EN SALUD",
+   "cod_area_tematica": "11629",
+   "area_tematica": "ENFERMEDADES INFECCIOSAS-ENFERMEDADES TRANSMITIDAS POR VECTORES - ETV.",
+   "cod_area_ciencia": "X",
+   "nme_area_ciencia": "No disponible",
+   "estado_proyecto": "CODIFICADO",
+   "cod_dane_ciudad_entidad": "00000",
+   "nme_ciudad_entidad": "No disponible",
+   "cod_dane_depto_entidad": "00",
+   "nme_depto_entidad": "No disponible",
+   "cod_dane_ciudad_pry": "11001",
+   "nme_ciudad_pry": "BOGOTA D.C.",
+   "cod_dane_depto_pry": "11",
+   "nme_depto_pry": "BOGOTA D.C.",
+   "tpo_proyecto": "P",
+   "nme_tipo_proyecto": "Proyecto",
+   "monto_financiado_ap": "0",
+   "monto_contrapartida_ap": "0",
+   "monto_total_ap": "0"
+  }
+ }
+]

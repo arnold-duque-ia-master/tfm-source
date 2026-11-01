@@ -1,0 +1,142 @@
+# ---------- 8yi9-t44c ----------
+
+"""Tráfico vehicular mensual en los peajes de la ANI por categoría de tarifa. Cada fila cubre el periodo entre desde y hasta. (8yi9-t44c)"""
+type TraficoPeajes {
+  idPeaje: Int
+  peaje: String
+  categoriaTarifa: String
+  desde: Date
+  hasta: Date
+  valorTarifa: Int
+  cantidadTrafico: Int
+  cantidadEvasores: Int
+  cantidadExentos787: Int
+}
+
+input TraficoPeajesWhere {
+  _and: [TraficoPeajesWhere!]
+  _or: [TraficoPeajesWhere!]
+  _not: TraficoPeajesWhere
+  idPeaje: IntFilter
+  peaje: StringFilter
+  categoriaTarifa: StringFilter
+  desde: DateFilter
+  desdeYear: IntFilter
+  desdeMonth: IntFilter
+  hasta: DateFilter
+  hastaYear: IntFilter
+  hastaMonth: IntFilter
+  valorTarifa: IntFilter
+  cantidadTrafico: IntFilter
+  cantidadEvasores: IntFilter
+  cantidadExentos787: IntFilter
+}
+
+input TraficoPeajesOrderBy {
+  idPeaje: OrderDirection
+  peaje: OrderDirection
+  categoriaTarifa: OrderDirection
+  desde: OrderDirection
+  hasta: OrderDirection
+  valorTarifa: OrderDirection
+  cantidadTrafico: OrderDirection
+  cantidadEvasores: OrderDirection
+  cantidadExentos787: OrderDirection
+}
+
+type TraficoPeajesSum {
+  valorTarifa: Float
+  cantidadTrafico: Float
+  cantidadEvasores: Float
+  cantidadExentos787: Float
+}
+
+input TraficoPeajesSumOrderBy {
+  valorTarifa: OrderDirection
+  cantidadTrafico: OrderDirection
+  cantidadEvasores: OrderDirection
+  cantidadExentos787: OrderDirection
+}
+
+type TraficoPeajesMinMax {
+  desde: Date
+  hasta: Date
+  valorTarifa: Int
+  cantidadTrafico: Int
+  cantidadEvasores: Int
+  cantidadExentos787: Int
+}
+
+input TraficoPeajesMinMaxOrderBy {
+  desde: OrderDirection
+  hasta: OrderDirection
+  valorTarifa: OrderDirection
+  cantidadTrafico: OrderDirection
+  cantidadEvasores: OrderDirection
+  cantidadExentos787: OrderDirection
+}
+
+type TraficoPeajesCountDistinct {
+  idPeaje: Int
+  peaje: Int
+  categoriaTarifa: Int
+  desde: Int
+  hasta: Int
+}
+
+input TraficoPeajesCountDistinctOrderBy {
+  idPeaje: OrderDirection
+  peaje: OrderDirection
+  categoriaTarifa: OrderDirection
+  desde: OrderDirection
+  hasta: OrderDirection
+}
+
+"""Fila de un resultado agregado de traficoPeajes. Los campos escalares seleccionados son las claves de agrupación."""
+type TraficoPeajesGroup {
+  idPeaje: Int
+  peaje: String
+  categoriaTarifa: String
+  desde: Date
+  "Año de desde."
+  desdeYear: Int
+  "Mes (1-12) de desde."
+  desdeMonth: Int
+  hasta: Date
+  "Año de hasta."
+  hastaYear: Int
+  "Mes (1-12) de hasta."
+  hastaMonth: Int
+  "Número de filas del grupo."
+  count: Int!
+  countDistinct: TraficoPeajesCountDistinct
+  sum: TraficoPeajesSum
+  avg: TraficoPeajesSum
+  min: TraficoPeajesMinMax
+  max: TraficoPeajesMinMax
+}
+
+input TraficoPeajesGroupOrderBy {
+  idPeaje: OrderDirection
+  peaje: OrderDirection
+  categoriaTarifa: OrderDirection
+  desde: OrderDirection
+  desdeYear: OrderDirection
+  desdeMonth: OrderDirection
+  hasta: OrderDirection
+  hastaYear: OrderDirection
+  hastaMonth: OrderDirection
+  count: OrderDirection
+  countDistinct: TraficoPeajesCountDistinctOrderBy
+  sum: TraficoPeajesSumOrderBy
+  avg: TraficoPeajesSumOrderBy
+  min: TraficoPeajesMinMaxOrderBy
+  max: TraficoPeajesMinMaxOrderBy
+}
+
+extend type Query {
+  "Filas de 8yi9-t44c. Sin orderBy se ordenan por el identificador interno de fila."
+  traficoPeajes(where: TraficoPeajesWhere, orderBy: [TraficoPeajesOrderBy!], limit: Int = 100, offset: Int = 0): [TraficoPeajes!]!
+  "Agregados de 8yi9-t44c agrupados por los campos escalares seleccionados."
+  traficoPeajesAggregate(where: TraficoPeajesWhere, orderBy: [TraficoPeajesGroupOrderBy!], limit: Int = 100, offset: Int = 0): [TraficoPeajesGroup!]!
+}

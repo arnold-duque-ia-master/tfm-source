@@ -1,0 +1,1204 @@
+{
+ "id": "kwqa-xugj",
+ "name": "Estadísticas Riesgos Laborales Positiva 2026",
+ "assetType": "dataset",
+ "attribution": "Positiva Compañía de Seguros, Bogotá D.C.",
+ "attributionLink": "http://www.positiva.gov.co",
+ "averageRating": 0,
+ "category": "Salud y Protección Social",
+ "createdAt": 1501857842,
+ "description": "Contiene las estadísticas por número de casos mensuales en el ramo de riesgos laborales de Positiva Compañía de Seguros, se cuenta con el número de accidentes de trabajo, enfermedades laborales, incapacidades permanentes parciales, muertos calificados por Enfermedad Laboral y por Accidentes de Trabajo.",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 6381,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "indexUpdatedAt": 1545949112,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 29468341,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1533920159,
+ "publicationGroup": 14377353,
+ "publicationStage": "published",
+ "rowsUpdatedAt": 1790711379,
+ "rowsUpdatedBy": "pnsj-mmua",
+ "tableId": 15442692,
+ "totalTimesRated": 0,
+ "viewCount": 130174,
+ "viewLastModified": 1790711374,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1533920159,
+   "reviewedAutomatically": true,
+   "state": "approved",
+   "submissionId": 842586,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1533920159,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "submissionDetails": {
+    "permissionType": "READ"
+   },
+   "submissionOutcomeApplication": {
+    "failureCount": 0,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "pnsj-mmua",
+    "displayName": "Positiva Compañía de Seguros S.A."
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 370642325,
+   "name": "DPTO",
+   "dataTypeName": "text",
+   "description": "Departamento de Colombia",
+   "fieldName": "dpto",
+   "position": 1,
+   "renderTypeName": "text",
+   "tableColumnId": 51415231,
+   "width": 148,
+   "cachedContents": {
+    "largest": "VICHADA",
+    "non_null": "62137",
+    "null": "0",
+    "top": [
+     {
+      "item": "ANTIOQUIA",
+      "count": "7536"
+     },
+     {
+      "item": "CUNDINAMARCA",
+      "count": "7036"
+     },
+     {
+      "item": "BOYACA",
+      "count": "4476"
+     },
+     {
+      "item": "VALLE DEL CAUCA",
+      "count": "4109"
+     },
+     {
+      "item": "SANTANDER",
+      "count": "3792"
+     },
+     {
+      "item": "HUILA",
+      "count": "2239"
+     },
+     {
+      "item": "TOLIMA",
+      "count": "2225"
+     },
+     {
+      "item": "NARIÑO",
+      "count": "2190"
+     },
+     {
+      "item": "N. DE SANTANDER",
+      "count": "2057"
+     },
+     {
+      "item": "CAUCA",
+      "count": "2049"
+     },
+     {
+      "item": "META",
+      "count": "1954"
+     },
+     {
+      "item": "CESAR",
+      "count": "1843"
+     },
+     {
+      "item": "CASANARE",
+      "count": "1738"
+     },
+     {
+      "item": "CALDAS",
+      "count": "1713"
+     },
+     {
+      "item": "CORDOBA",
+      "count": "1655"
+     },
+     {
+      "item": "BOLIVAR",
+      "count": "1491"
+     },
+     {
+      "item": "MAGDALENA",
+      "count": "1380"
+     },
+     {
+      "item": "ATLANTICO",
+      "count": "1335"
+     },
+     {
+      "item": "SUCRE",
+      "count": "1311"
+     },
+     {
+      "item": "PUTUMAYO",
+      "count": "1307"
+     }
+    ],
+    "smallest": "AMAZONAS",
+    "not_null": "45194",
+    "count": "62137",
+    "cardinality": "62137"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 370642326,
+   "name": "MPIO",
+   "dataTypeName": "text",
+   "description": "Municipio de Colombia",
+   "fieldName": "mpio",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 51415232,
+   "width": 116,
+   "cachedContents": {
+    "largest": "ZONA BANANERA",
+    "non_null": "62137",
+    "null": "0",
+    "top": [
+     {
+      "item": "BOGOTA, D.C.",
+      "count": "883"
+     },
+     {
+      "item": "MEDELLIN",
+      "count": "706"
+     },
+     {
+      "item": "CALI",
+      "count": "665"
+     },
+     {
+      "item": "BUCARAMANGA",
+      "count": "572"
+     },
+     {
+      "item": "BARRANQUILLA",
+      "count": "564"
+     },
+     {
+      "item": "CUCUTA",
+      "count": "553"
+     },
+     {
+      "item": "NEIVA",
+      "count": "497"
+     },
+     {
+      "item": "IBAGUE",
+      "count": "491"
+     },
+     {
+      "item": "CARTAGENA",
+      "count": "485"
+     },
+     {
+      "item": "VILLAVICENCIO",
+      "count": "477"
+     },
+     {
+      "item": "MANIZALES",
+      "count": "472"
+     },
+     {
+      "item": "POPAYAN",
+      "count": "464"
+     },
+     {
+      "item": "PEREIRA",
+      "count": "458"
+     },
+     {
+      "item": "PASTO",
+      "count": "457"
+     },
+     {
+      "item": "VALLEDUPAR",
+      "count": "456"
+     },
+     {
+      "item": "YOPAL",
+      "count": "451"
+     },
+     {
+      "item": "ARMENIA",
+      "count": "446"
+     },
+     {
+      "item": "SANTA MARTA",
+      "count": "444"
+     },
+     {
+      "item": "MONTERIA",
+      "count": "418"
+     },
+     {
+      "item": "TUNJA",
+      "count": "411"
+     }
+    ],
+    "smallest": "ABEJORRAL",
+    "not_null": "45194",
+    "count": "62137",
+    "cardinality": "62137"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 370642328,
+   "name": "CODIGO_DE_LA_ARL",
+   "dataTypeName": "text",
+   "description": "Código de la administradora de riesgos laborales",
+   "fieldName": "codigo_de_la_arl",
+   "position": 3,
+   "renderTypeName": "text",
+   "tableColumnId": 51415233,
+   "width": 117,
+   "cachedContents": {
+    "largest": "1423",
+    "non_null": "62137",
+    "null": "0",
+    "top": [
+     {
+      "item": "1423",
+      "count": "62137"
+     }
+    ],
+    "smallest": "1423",
+    "not_null": "45194",
+    "count": "62137",
+    "cardinality": "62137"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 370642329,
+   "name": "AÑO_DE_INFORME",
+   "dataTypeName": "text",
+   "description": "Año del informe de la data publicada",
+   "fieldName": "a_o_de_informe",
+   "position": 4,
+   "renderTypeName": "text",
+   "tableColumnId": 51415234,
+   "width": 140,
+   "cachedContents": {
+    "largest": "2026",
+    "non_null": "62137",
+    "null": "0",
+    "top": [
+     {
+      "item": "2026",
+      "count": "62137"
+     }
+    ],
+    "smallest": "2026",
+    "not_null": "45194",
+    "count": "62137",
+    "cardinality": "62137"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 370642330,
+   "name": "MES_DE_INFORME",
+   "dataTypeName": "text",
+   "description": "Mes del informe de la información",
+   "fieldName": "mes_de_informe",
+   "position": 5,
+   "renderTypeName": "text",
+   "tableColumnId": 51415235,
+   "width": 95,
+   "cachedContents": {
+    "largest": "08",
+    "non_null": "62137",
+    "null": "0",
+    "top": [
+     {
+      "item": "08",
+      "count": "62137"
+     }
+    ],
+    "smallest": "08",
+    "not_null": "45194",
+    "count": "62137",
+    "cardinality": "62137"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 370642332,
+   "name": "ACTIVEC",
+   "dataTypeName": "text",
+   "description": "Actividad económica del afiliado ",
+   "fieldName": "activec",
+   "position": 6,
+   "renderTypeName": "text",
+   "tableColumnId": 51415236,
+   "width": 80,
+   "cachedContents": {
+    "largest": "5960901",
+    "non_null": "62137",
+    "null": "0",
+    "top": [
+     {
+      "item": "1829902",
+      "count": "1112"
+     },
+     {
+      "item": "1841201",
+      "count": "965"
+     },
+     {
+      "item": "1970001",
+      "count": "944"
+     },
+     {
+      "item": "3360001",
+      "count": "636"
+     },
+     {
+      "item": "5711001",
+      "count": "636"
+     },
+     {
+      "item": "1949101",
+      "count": "625"
+     },
+     {
+      "item": "1471101",
+      "count": "595"
+     },
+     {
+      "item": "2014101",
+      "count": "589"
+     },
+     {
+      "item": "3861001",
+      "count": "586"
+     },
+     {
+      "item": "3473101",
+      "count": "564"
+     },
+     {
+      "item": "1477301",
+      "count": "512"
+     },
+     {
+      "item": "2851101",
+      "count": "493"
+     },
+     {
+      "item": "1823001",
+      "count": "483"
+     },
+     {
+      "item": "5411101",
+      "count": "472"
+     },
+     {
+      "item": "2015001",
+      "count": "453"
+     },
+     {
+      "item": "1691001",
+      "count": "445"
+     },
+     {
+      "item": "5421001",
+      "count": "443"
+     },
+     {
+      "item": "4492301",
+      "count": "434"
+     },
+     {
+      "item": "1949901",
+      "count": "433"
+     },
+     {
+      "item": "2551101",
+      "count": "412"
+     }
+    ],
+    "smallest": "1131201",
+    "not_null": "45194",
+    "count": "62137",
+    "cardinality": "62137"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 370642333,
+   "name": "RELA_DEP",
+   "dataTypeName": "number",
+   "description": "Relación trabajadores dependientes",
+   "fieldName": "rela_dep",
+   "position": 7,
+   "renderTypeName": "number",
+   "tableColumnId": 51415237,
+   "width": 100,
+   "cachedContents": {
+    "largest": "130410",
+    "non_null": "62137",
+    "average": "58.47633054065457",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "20601"
+     },
+     {
+      "item": "1",
+      "count": "6219"
+     },
+     {
+      "item": "2",
+      "count": "4549"
+     },
+     {
+      "item": "3",
+      "count": "3209"
+     },
+     {
+      "item": "4",
+      "count": "2511"
+     },
+     {
+      "item": "5",
+      "count": "2007"
+     },
+     {
+      "item": "6",
+      "count": "1666"
+     },
+     {
+      "item": "7",
+      "count": "1386"
+     },
+     {
+      "item": "8",
+      "count": "1195"
+     },
+     {
+      "item": "9",
+      "count": "1039"
+     },
+     {
+      "item": "10",
+      "count": "939"
+     },
+     {
+      "item": "12",
+      "count": "762"
+     },
+     {
+      "item": "11",
+      "count": "754"
+     },
+     {
+      "item": "13",
+      "count": "701"
+     },
+     {
+      "item": "14",
+      "count": "611"
+     },
+     {
+      "item": "15",
+      "count": "538"
+     },
+     {
+      "item": "16",
+      "count": "521"
+     },
+     {
+      "item": "17",
+      "count": "495"
+     },
+     {
+      "item": "18",
+      "count": "414"
+     },
+     {
+      "item": "19",
+      "count": "397"
+     }
+    ],
+    "smallest": "0",
+    "not_null": "45194",
+    "count": "62137",
+    "sum": "9701808",
+    "cardinality": "62137"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 370642334,
+   "name": "RELA_INDEP",
+   "dataTypeName": "number",
+   "description": "Relaciones laborales trabajadores independientes ",
+   "fieldName": "rela_indep",
+   "position": 8,
+   "renderTypeName": "number",
+   "tableColumnId": 51415238,
+   "width": 121,
+   "cachedContents": {
+    "largest": "100951",
+    "non_null": "62137",
+    "average": "9.311928153818335",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "54238"
+     },
+     {
+      "item": "1",
+      "count": "2352"
+     },
+     {
+      "item": "2",
+      "count": "955"
+     },
+     {
+      "item": "3",
+      "count": "539"
+     },
+     {
+      "item": "4",
+      "count": "382"
+     },
+     {
+      "item": "5",
+      "count": "271"
+     },
+     {
+      "item": "6",
+      "count": "207"
+     },
+     {
+      "item": "7",
+      "count": "185"
+     },
+     {
+      "item": "8",
+      "count": "162"
+     },
+     {
+      "item": "9",
+      "count": "135"
+     },
+     {
+      "item": "10",
+      "count": "128"
+     },
+     {
+      "item": "11",
+      "count": "116"
+     },
+     {
+      "item": "12",
+      "count": "106"
+     },
+     {
+      "item": "13",
+      "count": "95"
+     },
+     {
+      "item": "14",
+      "count": "65"
+     },
+     {
+      "item": "16",
+      "count": "64"
+     },
+     {
+      "item": "17",
+      "count": "59"
+     },
+     {
+      "item": "18",
+      "count": "58"
+     },
+     {
+      "item": "15",
+      "count": "54"
+     },
+     {
+      "item": "19",
+      "count": "52"
+     }
+    ],
+    "smallest": "0",
+    "not_null": "45194",
+    "count": "62137",
+    "sum": "1544942",
+    "cardinality": "62137"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 370642336,
+   "name": "PRESUACCIDETRASUCE",
+   "dataTypeName": "number",
+   "description": "Presunto accidente de trabajo sucedido",
+   "fieldName": "presuaccidetrasuce",
+   "position": 9,
+   "renderTypeName": "number",
+   "tableColumnId": 51415239,
+   "width": 148,
+   "cachedContents": {
+    "largest": "298",
+    "non_null": "62137",
+    "average": "0.3329274908082695",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "59227"
+     },
+     {
+      "item": "1",
+      "count": "1843"
+     },
+     {
+      "item": "2",
+      "count": "478"
+     },
+     {
+      "item": "3",
+      "count": "174"
+     },
+     {
+      "item": "4",
+      "count": "120"
+     },
+     {
+      "item": "5",
+      "count": "65"
+     },
+     {
+      "item": "6",
+      "count": "42"
+     },
+     {
+      "item": "7",
+      "count": "30"
+     },
+     {
+      "item": "9",
+      "count": "28"
+     },
+     {
+      "item": "8",
+      "count": "18"
+     },
+     {
+      "item": "10",
+      "count": "14"
+     },
+     {
+      "item": "12",
+      "count": "12"
+     },
+     {
+      "item": "13",
+      "count": "10"
+     },
+     {
+      "item": "15",
+      "count": "10"
+     },
+     {
+      "item": "17",
+      "count": "8"
+     },
+     {
+      "item": "16",
+      "count": "7"
+     },
+     {
+      "item": "19",
+      "count": "4"
+     },
+     {
+      "item": "11",
+      "count": "4"
+     },
+     {
+      "item": "14",
+      "count": "4"
+     },
+     {
+      "item": "21",
+      "count": "4"
+     }
+    ],
+    "smallest": "0",
+    "not_null": "45194",
+    "count": "62137",
+    "sum": "55236",
+    "cardinality": "62137"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 370642337,
+   "name": "MUERTES_REPOR_AT",
+   "dataTypeName": "number",
+   "description": "Muertes de trabajadores reportadas por accidente de trabajo",
+   "fieldName": "muertes_repor_at",
+   "position": 10,
+   "renderTypeName": "number",
+   "tableColumnId": 51415240,
+   "width": 178,
+   "cachedContents": {
+    "largest": "298",
+    "non_null": "62137",
+    "average": "0.0006268458802965463",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "59227"
+     },
+     {
+      "item": "1",
+      "count": "1843"
+     },
+     {
+      "item": "2",
+      "count": "478"
+     },
+     {
+      "item": "3",
+      "count": "174"
+     },
+     {
+      "item": "4",
+      "count": "120"
+     },
+     {
+      "item": "5",
+      "count": "65"
+     },
+     {
+      "item": "6",
+      "count": "42"
+     },
+     {
+      "item": "7",
+      "count": "30"
+     },
+     {
+      "item": "9",
+      "count": "28"
+     },
+     {
+      "item": "8",
+      "count": "18"
+     },
+     {
+      "item": "10",
+      "count": "14"
+     },
+     {
+      "item": "12",
+      "count": "12"
+     },
+     {
+      "item": "13",
+      "count": "10"
+     },
+     {
+      "item": "15",
+      "count": "10"
+     },
+     {
+      "item": "17",
+      "count": "8"
+     },
+     {
+      "item": "16",
+      "count": "7"
+     },
+     {
+      "item": "19",
+      "count": "4"
+     },
+     {
+      "item": "11",
+      "count": "4"
+     },
+     {
+      "item": "14",
+      "count": "4"
+     },
+     {
+      "item": "21",
+      "count": "4"
+     }
+    ],
+    "smallest": "0",
+    "not_null": "45194",
+    "count": "62137",
+    "sum": "104",
+    "cardinality": "62137"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 370642338,
+   "name": "NUEVAPENSIOINVA_R_AT",
+   "dataTypeName": "number",
+   "description": "Nueva pensión    Accidentes de trabajo",
+   "fieldName": "nuevapensioinva_r_at",
+   "position": 11,
+   "renderTypeName": "number",
+   "tableColumnId": 51415241,
+   "width": 147,
+   "cachedContents": {
+    "largest": "298",
+    "non_null": "62137",
+    "average": "0.0003073955759146525",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "59227"
+     },
+     {
+      "item": "1",
+      "count": "1843"
+     },
+     {
+      "item": "2",
+      "count": "478"
+     },
+     {
+      "item": "3",
+      "count": "174"
+     },
+     {
+      "item": "4",
+      "count": "120"
+     },
+     {
+      "item": "5",
+      "count": "65"
+     },
+     {
+      "item": "6",
+      "count": "42"
+     },
+     {
+      "item": "7",
+      "count": "30"
+     },
+     {
+      "item": "9",
+      "count": "28"
+     },
+     {
+      "item": "8",
+      "count": "18"
+     },
+     {
+      "item": "10",
+      "count": "14"
+     },
+     {
+      "item": "12",
+      "count": "12"
+     },
+     {
+      "item": "13",
+      "count": "10"
+     },
+     {
+      "item": "15",
+      "count": "10"
+     },
+     {
+      "item": "17",
+      "count": "8"
+     },
+     {
+      "item": "16",
+      "count": "7"
+     },
+     {
+      "item": "19",
+      "count": "4"
+     },
+     {
+      "item": "11",
+      "count": "4"
+     },
+     {
+      "item": "14",
+      "count": "4"
+     },
+     {
+      "item": "21",
+      "count": "4"
+     }
+    ],
+    "smallest": "0",
+    "not_null": "45194",
+    "count": "62137",
+    "sum": "51",
+    "cardinality": "62137"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 370642340,
+   "name": "NUEVAPENSIOINVA_R_EL",
+   "dataTypeName": "number",
+   "description": "Nueva pensión    Enfermedad laboral",
+   "fieldName": "nuevapensioinva_r_el",
+   "position": 12,
+   "renderTypeName": "number",
+   "tableColumnId": 51415242,
+   "width": 154,
+   "cachedContents": {
+    "largest": "6",
+    "non_null": "62137",
+    "average": "0.00007835573503706829",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "62119"
+     },
+     {
+      "item": "1",
+      "count": "15"
+     },
+     {
+      "item": "2",
+      "count": "2"
+     },
+     {
+      "item": "6",
+      "count": "1"
+     }
+    ],
+    "smallest": "0",
+    "not_null": "45194",
+    "count": "62137",
+    "sum": "13",
+    "cardinality": "62137"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 370642341,
+   "name": "INCAPERMAPARCIAR_AT",
+   "dataTypeName": "number",
+   "description": "Incapacidad permanente parcial reportada por accidente de trabajo",
+   "fieldName": "incapermaparciar_at",
+   "position": 13,
+   "renderTypeName": "number",
+   "tableColumnId": 51415243,
+   "width": 328,
+   "cachedContents": {
+    "non_null": "62137",
+    "average": "0.004737508287625821",
+    "largest": "1",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "62130"
+     },
+     {
+      "item": "1",
+      "count": "7"
+     }
+    ],
+    "not_null": "45194",
+    "smallest": "0",
+    "count": "62137",
+    "sum": "786",
+    "cardinality": "62137"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 370642342,
+   "name": "INCAPERMAPARCIAR_EL",
+   "dataTypeName": "number",
+   "description": "Incapacidad permanente parcial por enfermedad laboral",
+   "fieldName": "incapermaparciar_el",
+   "position": 14,
+   "renderTypeName": "number",
+   "tableColumnId": 51415244,
+   "width": 328,
+   "cachedContents": {
+    "largest": "1",
+    "non_null": "62137",
+    "average": "0.002736423362063770",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "62132"
+     },
+     {
+      "item": "1",
+      "count": "5"
+     }
+    ],
+    "smallest": "0",
+    "not_null": "45194",
+    "count": "62137",
+    "sum": "454",
+    "cardinality": "62137"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Positiva Compañía de Seguros, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Hacienda y Crédito Público",
+    "Área o dependencia": "Oficina de Estrategia y Desarrollo",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Nacional",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Trimestral"
+   }
+  },
+  "availableDisplayTypes": [
+   "table",
+   "fatrow",
+   "page"
+  ]
+ },
+ "owner": {
+  "id": "pnsj-mmua",
+  "displayName": "Positiva Compañía de Seguros S.A.",
+  "profileImageUrlLarge": "/api/users/pnsj-mmua/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/pnsj-mmua/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/pnsj-mmua/profile_images/TINY",
+  "screenName": "Positiva Compañía de Seguros S.A.",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "pnsj-mmua",
+  "displayName": "Positiva Compañía de Seguros S.A.",
+  "profileImageUrlLarge": "/api/users/pnsj-mmua/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/pnsj-mmua/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/pnsj-mmua/profile_images/TINY",
+  "screenName": "Positiva Compañía de Seguros S.A.",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "riesgos laborales"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

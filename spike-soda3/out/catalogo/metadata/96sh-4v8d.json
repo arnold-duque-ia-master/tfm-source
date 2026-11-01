@@ -1,0 +1,936 @@
+{
+ "id": "96sh-4v8d",
+ "name": "Entradas de extranjeros a Colombia",
+ "assetType": "dataset",
+ "attribution": "Unidad Administrativa Especial Migración Colombia, Bogotá D.C.",
+ "attributionLink": "http://migracioncolombia.gov.co/index.php/es/?option=com_content&view=article&id=1801",
+ "averageRating": 0,
+ "category": "Estadísticas Nacionales",
+ "createdAt": 1532462013,
+ "description": "Muestra el consolidado de entradas de extranjeros a Colombia desde el 2012, discriminado por nacionalidad y género",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 20700,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 41657978,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1759420784,
+ "publicationGroup": 15404197,
+ "publicationStage": "published",
+ "resourceName": "NA1",
+ "rowsUpdatedAt": 1787261427,
+ "rowsUpdatedBy": "eamc-kfqe",
+ "tableId": 20112280,
+ "totalTimesRated": 0,
+ "viewCount": 80646,
+ "viewLastModified": 1787261397,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1532463370,
+   "reviewedAutomatically": true,
+   "state": "approved",
+   "submissionId": 7145354,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1532463370,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "submissionDetails": {
+    "permissionType": "READ"
+   },
+   "submissionOutcomeApplication": {
+    "failureCount": 0,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "eamc-kfqe",
+    "displayName": "emurillo"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 618623714,
+   "name": "Año",
+   "dataTypeName": "text",
+   "description": "Año en el que se registró la entrada de los extranjeros a Colombia",
+   "fieldName": "a_o",
+   "position": 1,
+   "renderTypeName": "text",
+   "tableColumnId": 67524076,
+   "width": 100,
+   "cachedContents": {
+    "non_null": "181186",
+    "largest": "2026",
+    "null": "0",
+    "top": [
+     {
+      "item": "2024",
+      "count": "15583"
+     },
+     {
+      "item": "2025",
+      "count": "15487"
+     },
+     {
+      "item": "2023",
+      "count": "15461"
+     },
+     {
+      "item": "2019",
+      "count": "13568"
+     },
+     {
+      "item": "2022",
+      "count": "13476"
+     },
+     {
+      "item": "2018",
+      "count": "13459"
+     },
+     {
+      "item": "2017",
+      "count": "13144"
+     },
+     {
+      "item": "2015",
+      "count": "12243"
+     },
+     {
+      "item": "2016",
+      "count": "12242"
+     },
+     {
+      "item": "2013",
+      "count": "11797"
+     },
+     {
+      "item": "2012",
+      "count": "11773"
+     },
+     {
+      "item": "2014",
+      "count": "11689"
+     },
+     {
+      "item": "2021",
+      "count": "8346"
+     },
+     {
+      "item": "2026",
+      "count": "7482"
+     },
+     {
+      "item": "2020",
+      "count": "5436"
+     }
+    ],
+    "smallest": "2012",
+    "count": "181186",
+    "cardinality": "181186"
+   },
+   "format": {
+    "precisionStyle": "standard",
+    "align": "left"
+   }
+  },
+  {
+   "id": 618623715,
+   "name": "Mes",
+   "dataTypeName": "text",
+   "description": "Mes en el que se registró la entrada de los extranjeros a Colombia",
+   "fieldName": "mes",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 67524211,
+   "width": 100,
+   "cachedContents": {
+    "non_null": "181186",
+    "largest": "Septiembre",
+    "null": "0",
+    "top": [
+     {
+      "item": "Enero",
+      "count": "16600"
+     },
+     {
+      "item": "Marzo",
+      "count": "16156"
+     },
+     {
+      "item": "Febrero",
+      "count": "16054"
+     },
+     {
+      "item": "Diciembre",
+      "count": "15572"
+     },
+     {
+      "item": "Abril",
+      "count": "15106"
+     },
+     {
+      "item": "Noviembre",
+      "count": "14999"
+     },
+     {
+      "item": "Junio",
+      "count": "14932"
+     },
+     {
+      "item": "Mayo",
+      "count": "14930"
+     },
+     {
+      "item": "Julio",
+      "count": "14405"
+     },
+     {
+      "item": "Octubre",
+      "count": "14332"
+     },
+     {
+      "item": "Agosto",
+      "count": "14196"
+     },
+     {
+      "item": "Septiembre",
+      "count": "13904"
+     }
+    ],
+    "smallest": "Abril",
+    "count": "181186",
+    "cardinality": "181186"
+   },
+   "format": {
+    "align": "left"
+   }
+  },
+  {
+   "id": 618623716,
+   "name": "Nacionalidad",
+   "dataTypeName": "text",
+   "description": "País de nacionalidad del extranjero que ingresa a Colombia",
+   "fieldName": "nacionalidad",
+   "position": 3,
+   "renderTypeName": "text",
+   "tableColumnId": 67524212,
+   "width": 100,
+   "cachedContents": {
+    "non_null": "181186",
+    "largest": "Zimbabwe",
+    "null": "0",
+    "top": [
+     {
+      "item": "Venezuela (República Bolivariana de)",
+      "count": "3923"
+     },
+     {
+      "item": "Estados Unidos de América",
+      "count": "3856"
+     },
+     {
+      "item": "España",
+      "count": "3825"
+     },
+     {
+      "item": "Ecuador",
+      "count": "3590"
+     },
+     {
+      "item": "Perú",
+      "count": "3535"
+     },
+     {
+      "item": "Países Bajos",
+      "count": "3477"
+     },
+     {
+      "item": "Reino Unido de Gran Bretaña e Irlanda del Norte",
+      "count": "3398"
+     },
+     {
+      "item": "Italia",
+      "count": "3397"
+     },
+     {
+      "item": "Francia",
+      "count": "3376"
+     },
+     {
+      "item": "México",
+      "count": "3363"
+     },
+     {
+      "item": "Alemania",
+      "count": "3347"
+     },
+     {
+      "item": "Argentina",
+      "count": "3229"
+     },
+     {
+      "item": "Brasil",
+      "count": "3165"
+     },
+     {
+      "item": "Panamá",
+      "count": "3083"
+     },
+     {
+      "item": "Canadá",
+      "count": "3082"
+     },
+     {
+      "item": "Chile",
+      "count": "3050"
+     },
+     {
+      "item": "Suiza",
+      "count": "2631"
+     },
+     {
+      "item": "Costa Rica",
+      "count": "2579"
+     },
+     {
+      "item": "República Dominicana",
+      "count": "2550"
+     },
+     {
+      "item": "Australia",
+      "count": "2505"
+     }
+    ],
+    "smallest": "Afganistán",
+    "count": "181186",
+    "cardinality": "181186"
+   },
+   "format": {
+    "align": "left"
+   }
+  },
+  {
+   "id": 618623717,
+   "name": "Codigo M49",
+   "dataTypeName": "number",
+   "description": "El Código M49 es un estándar internacional para los códigos de país y los códigos para sus subdivisiones. Ha sido publicada por la Organización Internacional de Normalización.",
+   "fieldName": "codigo_m49",
+   "position": 4,
+   "renderTypeName": "number",
+   "tableColumnId": 120058762,
+   "cachedContents": {
+    "non_null": "181186",
+    "largest": "99999",
+    "null": "0",
+    "top": [
+     {
+      "item": "862",
+      "count": "4075"
+     },
+     {
+      "item": "840",
+      "count": "4013"
+     },
+     {
+      "item": "724",
+      "count": "3825"
+     },
+     {
+      "item": "218",
+      "count": "3590"
+     },
+     {
+      "item": "604",
+      "count": "3535"
+     },
+     {
+      "item": "826",
+      "count": "3521"
+     },
+     {
+      "item": "528",
+      "count": "3477"
+     },
+     {
+      "item": "380",
+      "count": "3397"
+     },
+     {
+      "item": "250",
+      "count": "3376"
+     },
+     {
+      "item": "484",
+      "count": "3363"
+     },
+     {
+      "item": "276",
+      "count": "3347"
+     },
+     {
+      "item": "32",
+      "count": "3229"
+     },
+     {
+      "item": "76",
+      "count": "3165"
+     },
+     {
+      "item": "591",
+      "count": "3083"
+     },
+     {
+      "item": "124",
+      "count": "3082"
+     },
+     {
+      "item": "152",
+      "count": "3050"
+     },
+     {
+      "item": "756",
+      "count": "2631"
+     },
+     {
+      "item": "188",
+      "count": "2579"
+     },
+     {
+      "item": "214",
+      "count": "2550"
+     },
+     {
+      "item": "643",
+      "count": "2523"
+     }
+    ],
+    "smallest": "4",
+    "count": "181186",
+    "cardinality": "181186"
+   },
+   "format": {}
+  },
+  {
+   "id": 618623718,
+   "name": "Femenino",
+   "dataTypeName": "number",
+   "description": "Número de extranjeros de género femenino  según nacionalidad, mes y año ",
+   "fieldName": "femenino",
+   "position": 5,
+   "renderTypeName": "number",
+   "tableColumnId": 67524323,
+   "width": 100,
+   "cachedContents": {
+    "non_null": "181186",
+    "largest": "39500",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "53097"
+     },
+     {
+      "item": "1",
+      "count": "34854"
+     },
+     {
+      "item": "2",
+      "count": "15385"
+     },
+     {
+      "item": "3",
+      "count": "9361"
+     },
+     {
+      "item": "4",
+      "count": "6313"
+     },
+     {
+      "item": "5",
+      "count": "4741"
+     },
+     {
+      "item": "6",
+      "count": "3654"
+     },
+     {
+      "item": "7",
+      "count": "2990"
+     },
+     {
+      "item": "8",
+      "count": "2589"
+     },
+     {
+      "item": "9",
+      "count": "2218"
+     },
+     {
+      "item": "10",
+      "count": "1887"
+     },
+     {
+      "item": "11",
+      "count": "1650"
+     },
+     {
+      "item": "12",
+      "count": "1478"
+     },
+     {
+      "item": "13",
+      "count": "1397"
+     },
+     {
+      "item": "14",
+      "count": "1259"
+     },
+     {
+      "item": "15",
+      "count": "1092"
+     },
+     {
+      "item": "16",
+      "count": "1071"
+     },
+     {
+      "item": "17",
+      "count": "951"
+     },
+     {
+      "item": "18",
+      "count": "862"
+     },
+     {
+      "item": "19",
+      "count": "789"
+     }
+    ],
+    "smallest": "0",
+    "count": "181186",
+    "cardinality": "181186"
+   },
+   "format": {
+    "precisionStyle": "standard",
+    "align": "left"
+   }
+  },
+  {
+   "id": 618623719,
+   "name": "Masculino",
+   "dataTypeName": "number",
+   "description": "Número de extranjeros de género masculino según nacionalidad, mes y año ",
+   "fieldName": "masculino",
+   "position": 6,
+   "renderTypeName": "number",
+   "tableColumnId": 67524371,
+   "width": 100,
+   "cachedContents": {
+    "non_null": "181186",
+    "largest": "48041",
+    "null": "0",
+    "top": [
+     {
+      "item": "1",
+      "count": "43525"
+     },
+     {
+      "item": "2",
+      "count": "19541"
+     },
+     {
+      "item": "0",
+      "count": "16253"
+     },
+     {
+      "item": "3",
+      "count": "11919"
+     },
+     {
+      "item": "4",
+      "count": "8236"
+     },
+     {
+      "item": "5",
+      "count": "6253"
+     },
+     {
+      "item": "6",
+      "count": "4907"
+     },
+     {
+      "item": "7",
+      "count": "4054"
+     },
+     {
+      "item": "8",
+      "count": "3568"
+     },
+     {
+      "item": "9",
+      "count": "2903"
+     },
+     {
+      "item": "10",
+      "count": "2613"
+     },
+     {
+      "item": "11",
+      "count": "2231"
+     },
+     {
+      "item": "12",
+      "count": "1991"
+     },
+     {
+      "item": "13",
+      "count": "1806"
+     },
+     {
+      "item": "14",
+      "count": "1694"
+     },
+     {
+      "item": "15",
+      "count": "1546"
+     },
+     {
+      "item": "16",
+      "count": "1392"
+     },
+     {
+      "item": "17",
+      "count": "1330"
+     },
+     {
+      "item": "18",
+      "count": "1236"
+     },
+     {
+      "item": "19",
+      "count": "1093"
+     }
+    ],
+    "smallest": "0",
+    "count": "181186",
+    "cardinality": "181186"
+   },
+   "format": {}
+  },
+  {
+   "id": 618623720,
+   "name": "Indefinido",
+   "dataTypeName": "number",
+   "description": "Número de extranjeros de género indefinido según nacionalidad, mes y año ",
+   "fieldName": "indefinido",
+   "position": 7,
+   "renderTypeName": "number",
+   "tableColumnId": 67524372,
+   "width": 100,
+   "cachedContents": {
+    "non_null": "0",
+    "null": "181186",
+    "count": "181186",
+    "cardinality": "181186"
+   },
+   "format": {}
+  },
+  {
+   "id": 618623721,
+   "name": "Total",
+   "dataTypeName": "number",
+   "description": "Sumatoria del número de extranjeros de género masculino, femenino e indefinido según nacionalidad, mes y año ",
+   "fieldName": "total",
+   "position": 8,
+   "renderTypeName": "number",
+   "tableColumnId": 67524373,
+   "width": 100,
+   "cachedContents": {
+    "non_null": "181186",
+    "largest": "82609",
+    "null": "0",
+    "top": [
+     {
+      "item": "1",
+      "count": "42892"
+     },
+     {
+      "item": "2",
+      "count": "20879"
+     },
+     {
+      "item": "3",
+      "count": "12722"
+     },
+     {
+      "item": "4",
+      "count": "9156"
+     },
+     {
+      "item": "5",
+      "count": "6842"
+     },
+     {
+      "item": "6",
+      "count": "5454"
+     },
+     {
+      "item": "7",
+      "count": "4491"
+     },
+     {
+      "item": "8",
+      "count": "3705"
+     },
+     {
+      "item": "9",
+      "count": "3239"
+     },
+     {
+      "item": "10",
+      "count": "2857"
+     },
+     {
+      "item": "11",
+      "count": "2511"
+     },
+     {
+      "item": "12",
+      "count": "2203"
+     },
+     {
+      "item": "13",
+      "count": "2081"
+     },
+     {
+      "item": "14",
+      "count": "1857"
+     },
+     {
+      "item": "15",
+      "count": "1624"
+     },
+     {
+      "item": "16",
+      "count": "1535"
+     },
+     {
+      "item": "17",
+      "count": "1388"
+     },
+     {
+      "item": "18",
+      "count": "1316"
+     },
+     {
+      "item": "19",
+      "count": "1233"
+     },
+     {
+      "item": "20",
+      "count": "1176"
+     }
+    ],
+    "smallest": "1",
+    "count": "181186",
+    "cardinality": "181186"
+   },
+   "format": {}
+  },
+  {
+   "id": 618623722,
+   "name": "Ubicación PCM",
+   "dataTypeName": "text",
+   "description": "Es la Ubicación del Puesto de Control Migratorio - PCM en Latitud y Longitud",
+   "fieldName": "ubicacion_pcm",
+   "position": 9,
+   "renderTypeName": "text",
+   "tableColumnId": 107771497,
+   "cachedContents": {
+    "non_null": "181186",
+    "largest": "No Aplica,No Aplica",
+    "null": "0",
+    "top": [
+     {
+      "item": "(4.697144,-74.140516)",
+      "count": "26473"
+     },
+     {
+      "item": "(6.171601,-75.427454)",
+      "count": "17634"
+     },
+     {
+      "item": "(10.445761,-75.516429)",
+      "count": "16612"
+     },
+     {
+      "item": "(3.541112,-76.384584)",
+      "count": "13877"
+     },
+     {
+      "item": "(10.886611,-74.776708)",
+      "count": "10772"
+     },
+     {
+      "item": "(10.408582,-75.538003)",
+      "count": "9844"
+     },
+     {
+      "item": "(0.814836,-77.662532)",
+      "count": "9791"
+     },
+     {
+      "item": "(4.815061,-75.736532)",
+      "count": "6841"
+     },
+     {
+      "item": "(7.818934,-72.453226)",
+      "count": "6733"
+     },
+     {
+      "item": "(12.586067,-81.702563)",
+      "count": "5716"
+     },
+     {
+      "item": "(-4.197703,-69.941278)",
+      "count": "5616"
+     },
+     {
+      "item": "(11.360009,-72.129330)",
+      "count": "5283"
+     },
+     {
+      "item": "(7.128456,-73.183637)",
+      "count": "5277"
+     },
+     {
+      "item": "(8.635765,-77.346578)",
+      "count": "4320"
+     },
+     {
+      "item": "(11.247723,-74.213989)",
+      "count": "3691"
+     },
+     {
+      "item": "(4.452882,-75.766298)",
+      "count": "3333"
+     },
+     {
+      "item": "(7.927209,-72.507910)",
+      "count": "3238"
+     },
+     {
+      "item": "(0.25129,-76.875963)",
+      "count": "2977"
+     },
+     {
+      "item": "(3.893038,-77.067921)",
+      "count": "2597"
+     },
+     {
+      "item": "(11.117806,-74.232622)",
+      "count": "2453"
+     }
+    ],
+    "smallest": "(-0.18501107448023868, -74.78279702850188)",
+    "count": "181186",
+    "cardinality": "181186"
+   },
+   "format": {}
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Unidad Administrativa Especial Migración Colombia, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Cooperación Internacional",
+    "Área o dependencia": "Oficina",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Nacional",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Semestral"
+   }
+  },
+  "availableDisplayTypes": [
+   "table",
+   "fatrow",
+   "page"
+  ]
+ },
+ "owner": {
+  "id": "eamc-kfqe",
+  "displayName": "emurillo",
+  "profileImageUrlLarge": "/api/users/eamc-kfqe/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/eamc-kfqe/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/eamc-kfqe/profile_images/TINY",
+  "screenName": "emurillo",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "eamc-kfqe",
+  "displayName": "emurillo",
+  "profileImageUrlLarge": "/api/users/eamc-kfqe/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/eamc-kfqe/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/eamc-kfqe/profile_images/TINY",
+  "screenName": "emurillo",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "extranjeros",
+  "entradas a colombia",
+  "nacionalidad",
+  "migración",
+  "colombia",
+  "género",
+  "inmigración"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

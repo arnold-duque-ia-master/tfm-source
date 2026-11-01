@@ -1,0 +1,1025 @@
+{
+ "id": "akpq-tuqi",
+ "name": "TRAMITES RADICADOS POR ACTORES DEL SISTEMA RUNT 2.0 A NIVEL NACIONAL.",
+ "assetType": "dataset",
+ "attribution": "Ministerio de Transporte - MinTransporte, Bogotá D.C.",
+ "attributionLink": "https://www.runt.gov.co/",
+ "averageRating": 0,
+ "category": "Transporte",
+ "createdAt": 1688999095,
+ "description": "Se publicarán los tramites que se realizan en los diferentes organismos de tránsito municipal y departamentalmente del sector de tránsito y transporte.\n\nActores que serán relacionados en la data:\nCEA (Centro de enseñanza automotor)\nCIA (Centro de infracciones automotor)\nCRC (Centro de reconocimiento de conductores)\nCDA (Centro de diagnóstico automotor)\nOT CURSOS (Organismos de tránsitos cursos comparendo)\nDESINTEGRADORAS\nOT (Organismos de Transito)",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 4516,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 40875322,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1727198993,
+ "publicationGroup": 19203008,
+ "publicationStage": "published",
+ "resourceName": "Tramites",
+ "rowsUpdatedAt": 1791234630,
+ "rowsUpdatedBy": "bj55-bqpg",
+ "tableId": 19654950,
+ "totalTimesRated": 0,
+ "viewCount": 79711,
+ "viewLastModified": 1791234615,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1689029623,
+   "reviewedAutomatically": false,
+   "state": "approved",
+   "submissionId": 6560130,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1689002928,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "reviewer": {
+    "id": "vc9x-zjzh",
+    "displayName": "soporteccc"
+   },
+   "submissionDetails": {
+    "permissionType": "read"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1689029623,
+    "failureCount": 0,
+    "startedAt": 1689029623,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "bj55-bqpg",
+    "displayName": "RUNT 2.0"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 599647433,
+   "name": "FECHA",
+   "dataTypeName": "text",
+   "description": "Fecha que se radica el tramite",
+   "fieldName": "fecha",
+   "position": 1,
+   "renderTypeName": "text",
+   "tableColumnId": 147366640,
+   "cachedContents": {
+    "non_null": "4115769",
+    "largest": "9/12/2025",
+    "null": "0",
+    "top": [
+     {
+      "item": "17/12/2025",
+      "count": "5400"
+     },
+     {
+      "item": "2/12/2025",
+      "count": "5317"
+     },
+     {
+      "item": "11/12/2024",
+      "count": "5268"
+     },
+     {
+      "item": "4/12/2025",
+      "count": "5257"
+     },
+     {
+      "item": "5/12/2025",
+      "count": "5232"
+     },
+     {
+      "item": "22/08/2025",
+      "count": "5222"
+     },
+     {
+      "item": "10/12/2025",
+      "count": "5204"
+     },
+     {
+      "item": "16/12/2025",
+      "count": "5190"
+     },
+     {
+      "item": "18/12/2025",
+      "count": "5174"
+     },
+     {
+      "item": "8/09/2026",
+      "count": "5159"
+     },
+     {
+      "item": "19/12/2025",
+      "count": "5149"
+     },
+     {
+      "item": "3/12/2025",
+      "count": "5147"
+     },
+     {
+      "item": "6/08/2025",
+      "count": "5141"
+     },
+     {
+      "item": "21/08/2025",
+      "count": "5117"
+     },
+     {
+      "item": "18/09/2025",
+      "count": "5110"
+     },
+     {
+      "item": "17/12/2024",
+      "count": "5087"
+     },
+     {
+      "item": "11/12/2025",
+      "count": "5086"
+     },
+     {
+      "item": "6/02/2026",
+      "count": "5080"
+     },
+     {
+      "item": "18/12/2024",
+      "count": "5075"
+     },
+     {
+      "item": "8/07/2025",
+      "count": "5070"
+     }
+    ],
+    "smallest": "01/09/2023",
+    "count": "4115769",
+    "cardinality": "4115769"
+   },
+   "format": {
+    "precisionStyle": "financial",
+    "view": "iso_8601_date"
+   }
+  },
+  {
+   "id": 599647434,
+   "name": "TIPO_ACTOR",
+   "dataTypeName": "text",
+   "description": "Nombre del actor que genero el tramite",
+   "fieldName": "tipo_actor",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 147366639,
+   "cachedContents": {
+    "non_null": "4115769",
+    "largest": "TRANSVERSAL",
+    "null": "0",
+    "top": [
+     {
+      "item": "OT",
+      "count": "2387102"
+     },
+     {
+      "item": "OA",
+      "count": "867464"
+     },
+     {
+      "item": "TRANSVERSAL",
+      "count": "398408"
+     },
+     {
+      "item": "EMPRESA TRANSPORTE",
+      "count": "359116"
+     },
+     {
+      "item": "DT",
+      "count": "78345"
+     },
+     {
+      "item": "ENTIDAD FINANCIERA",
+      "count": "15223"
+     },
+     {
+      "item": "ASEGURADORA",
+      "count": "4517"
+     },
+     {
+      "item": "RUNT",
+      "count": "2419"
+     },
+     {
+      "item": "FABRICANTE",
+      "count": "2090"
+     },
+     {
+      "item": "MT",
+      "count": "1085"
+     }
+    ],
+    "smallest": "ASEGURADORA",
+    "count": "4115769",
+    "cardinality": "4115769"
+   },
+   "format": {}
+  },
+  {
+   "id": 599647436,
+   "name": "NOMBRE_MUNICIPIO",
+   "dataTypeName": "text",
+   "description": "Nombre Municipio donde se radico el tramite",
+   "fieldName": "nombre_municipio",
+   "position": 3,
+   "renderTypeName": "text",
+   "tableColumnId": 147366637,
+   "cachedContents": {
+    "non_null": "4115769",
+    "largest": "ZONA BANANERA",
+    "null": "0",
+    "top": [
+     {
+      "item": "BOGOTA",
+      "count": "84358"
+     },
+     {
+      "item": "CALI",
+      "count": "50504"
+     },
+     {
+      "item": "MEDELLIN",
+      "count": "50021"
+     },
+     {
+      "item": "ENVIGADO",
+      "count": "43750"
+     },
+     {
+      "item": "FUNZA",
+      "count": "43687"
+     },
+     {
+      "item": "BARRANQUILLA",
+      "count": "38133"
+     },
+     {
+      "item": "BUCARAMANGA",
+      "count": "37809"
+     },
+     {
+      "item": "VILLAVICENCIO",
+      "count": "37726"
+     },
+     {
+      "item": "MANIZALES",
+      "count": "37247"
+     },
+     {
+      "item": "SABANETA",
+      "count": "35724"
+     },
+     {
+      "item": "PEREIRA",
+      "count": "34019"
+     },
+     {
+      "item": "SOACHA",
+      "count": "33786"
+     },
+     {
+      "item": "MOSQUERA",
+      "count": "33525"
+     },
+     {
+      "item": "GIRON",
+      "count": "33153"
+     },
+     {
+      "item": "CARTAGENA",
+      "count": "33143"
+     },
+     {
+      "item": "PASTO",
+      "count": "32865"
+     },
+     {
+      "item": "IBAGUE",
+      "count": "31955"
+     },
+     {
+      "item": "CUCUTA",
+      "count": "31648"
+     },
+     {
+      "item": "NEIVA",
+      "count": "30808"
+     },
+     {
+      "item": "ZIPAQUIRA",
+      "count": "30671"
+     }
+    ],
+    "smallest": "ABEJORRAL",
+    "count": "4115769",
+    "cardinality": "4115769"
+   },
+   "format": {}
+  },
+  {
+   "id": 599647437,
+   "name": "CODIGO_DEPARTAMENTO",
+   "dataTypeName": "number",
+   "description": "Código del departamento donde se generó el tramite",
+   "fieldName": "codigo_departamento",
+   "position": 4,
+   "renderTypeName": "number",
+   "tableColumnId": 147366636,
+   "cachedContents": {
+    "non_null": "4115767",
+    "largest": "99",
+    "null": "2",
+    "top": [
+     {
+      "item": "5",
+      "count": "601958"
+     },
+     {
+      "item": "25",
+      "count": "516867"
+     },
+     {
+      "item": "76",
+      "count": "398131"
+     },
+     {
+      "item": "68",
+      "count": "247238"
+     },
+     {
+      "item": "15",
+      "count": "208029"
+     },
+     {
+      "item": "17",
+      "count": "162090"
+     },
+     {
+      "item": "73",
+      "count": "162086"
+     },
+     {
+      "item": "52",
+      "count": "146096"
+     },
+     {
+      "item": "8",
+      "count": "140413"
+     },
+     {
+      "item": "41",
+      "count": "139482"
+     },
+     {
+      "item": "19",
+      "count": "131545"
+     },
+     {
+      "item": "54",
+      "count": "128982"
+     },
+     {
+      "item": "13",
+      "count": "123417"
+     },
+     {
+      "item": "50",
+      "count": "123256"
+     },
+     {
+      "item": "20",
+      "count": "100438"
+     },
+     {
+      "item": "66",
+      "count": "97176"
+     },
+     {
+      "item": "23",
+      "count": "91851"
+     },
+     {
+      "item": "63",
+      "count": "90794"
+     },
+     {
+      "item": "11",
+      "count": "84378"
+     },
+     {
+      "item": "47",
+      "count": "76314"
+     }
+    ],
+    "smallest": "0",
+    "count": "4115769",
+    "cardinality": "4115769"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 599647438,
+   "name": "NOMBRE_DEPARTAMENTO",
+   "dataTypeName": "text",
+   "description": "Nombre del departamento donde se generó el tramite",
+   "fieldName": "nombre_departamento",
+   "position": 5,
+   "renderTypeName": "text",
+   "tableColumnId": 147366635,
+   "cachedContents": {
+    "non_null": "4115767",
+    "largest": "VICHADA",
+    "null": "2",
+    "top": [
+     {
+      "item": "ANTIOQUIA",
+      "count": "601958"
+     },
+     {
+      "item": "CUNDINAMARCA",
+      "count": "516867"
+     },
+     {
+      "item": "VALLE DEL CAUCA",
+      "count": "398131"
+     },
+     {
+      "item": "SANTANDER",
+      "count": "247238"
+     },
+     {
+      "item": "BOYACA",
+      "count": "208029"
+     },
+     {
+      "item": "CALDAS",
+      "count": "162090"
+     },
+     {
+      "item": "TOLIMA",
+      "count": "162086"
+     },
+     {
+      "item": "NARINO",
+      "count": "146096"
+     },
+     {
+      "item": "ATLANTICO",
+      "count": "140413"
+     },
+     {
+      "item": "HUILA",
+      "count": "139482"
+     },
+     {
+      "item": "CAUCA",
+      "count": "131545"
+     },
+     {
+      "item": "NORTE DE SANTANDER",
+      "count": "128982"
+     },
+     {
+      "item": "BOLIVAR",
+      "count": "123417"
+     },
+     {
+      "item": "META",
+      "count": "123256"
+     },
+     {
+      "item": "CESAR",
+      "count": "100438"
+     },
+     {
+      "item": "RISARALDA",
+      "count": "97176"
+     },
+     {
+      "item": "CORDOBA",
+      "count": "91851"
+     },
+     {
+      "item": "QUINDIO",
+      "count": "90794"
+     },
+     {
+      "item": "BOGOTA D.C.",
+      "count": "84378"
+     },
+     {
+      "item": "MAGDALENA",
+      "count": "76314"
+     }
+    ],
+    "smallest": "AMAZONAS",
+    "count": "4115769",
+    "cardinality": "4115769"
+   },
+   "format": {}
+  },
+  {
+   "id": 599647439,
+   "name": "ESTADO_TRAMITE",
+   "dataTypeName": "text",
+   "description": "Estado del trámite que se radica",
+   "fieldName": "estado_tramite",
+   "position": 6,
+   "renderTypeName": "text",
+   "tableColumnId": 147366634,
+   "cachedContents": {
+    "non_null": "4115323",
+    "largest": "RECHAZADO",
+    "null": "446",
+    "top": [
+     {
+      "item": "APROBADO",
+      "count": "3354518"
+     },
+     {
+      "item": "RECHAZADO",
+      "count": "760803"
+     },
+     {
+      "item": "AUTORIZADO",
+      "count": "2"
+     }
+    ],
+    "smallest": "APROBADO",
+    "count": "4115769",
+    "cardinality": "4115769"
+   },
+   "format": {}
+  },
+  {
+   "id": 599647440,
+   "name": "REGISTRO",
+   "dataTypeName": "text",
+   "description": "registro al que pertenece el trámite radicado",
+   "fieldName": "registro",
+   "position": 7,
+   "renderTypeName": "text",
+   "tableColumnId": 147366633,
+   "cachedContents": {
+    "non_null": "4115323",
+    "largest": "TRANSVERSAL",
+    "null": "446",
+    "top": [
+     {
+      "item": "RNA",
+      "count": "1874782"
+     },
+     {
+      "item": "RNC",
+      "count": "1283851"
+     },
+     {
+      "item": "TRANSVERSAL",
+      "count": "398340"
+     },
+     {
+      "item": "PVO",
+      "count": "359116"
+     },
+     {
+      "item": "RNET",
+      "count": "59876"
+     },
+     {
+      "item": "RNMA",
+      "count": "54329"
+     },
+     {
+      "item": "RNRS",
+      "count": "30889"
+     },
+     {
+      "item": "RNPNJ",
+      "count": "24469"
+     },
+     {
+      "item": "GM",
+      "count": "15185"
+     },
+     {
+      "item": "RNCEA",
+      "count": "9831"
+     },
+     {
+      "item": "RNS",
+      "count": "4655"
+     }
+    ],
+    "smallest": "GM",
+    "count": "4115769",
+    "cardinality": "4115769"
+   },
+   "format": {}
+  },
+  {
+   "id": 599647441,
+   "name": "COD_TRAMITE",
+   "dataTypeName": "number",
+   "description": "Código del tramite que se radico ",
+   "fieldName": "cod_tramite",
+   "position": 8,
+   "renderTypeName": "number",
+   "tableColumnId": 154716867,
+   "cachedContents": {
+    "non_null": "4115323",
+    "largest": "8002",
+    "null": "446",
+    "top": [
+     {
+      "item": "101",
+      "count": "359116"
+     },
+     {
+      "item": "21",
+      "count": "331543"
+     },
+     {
+      "item": "16",
+      "count": "272378"
+     },
+     {
+      "item": "28",
+      "count": "255795"
+     },
+     {
+      "item": "9",
+      "count": "240136"
+     },
+     {
+      "item": "29",
+      "count": "227745"
+     },
+     {
+      "item": "1",
+      "count": "215594"
+     },
+     {
+      "item": "35",
+      "count": "214586"
+     },
+     {
+      "item": "38",
+      "count": "199461"
+     },
+     {
+      "item": "4",
+      "count": "178245"
+     },
+     {
+      "item": "11",
+      "count": "164087"
+     },
+     {
+      "item": "26",
+      "count": "148878"
+     },
+     {
+      "item": "181",
+      "count": "121729"
+     },
+     {
+      "item": "51",
+      "count": "115880"
+     },
+     {
+      "item": "10",
+      "count": "93827"
+     },
+     {
+      "item": "65",
+      "count": "90609"
+     },
+     {
+      "item": "8",
+      "count": "90550"
+     },
+     {
+      "item": "15",
+      "count": "89970"
+     },
+     {
+      "item": "3",
+      "count": "88541"
+     },
+     {
+      "item": "53",
+      "count": "77486"
+     }
+    ],
+    "smallest": "1",
+    "count": "4115769",
+    "cardinality": "4115769"
+   },
+   "format": {
+    "noCommas": "true"
+   }
+  },
+  {
+   "id": 599647442,
+   "name": "DESCRIPCIÓN",
+   "dataTypeName": "text",
+   "description": "Nombre del tramite que se radico",
+   "fieldName": "descripcion_del_tramite_radicado",
+   "position": 9,
+   "renderTypeName": "text",
+   "tableColumnId": 147366631,
+   "width": 385,
+   "cachedContents": {
+    "non_null": "4115323",
+    "largest": "VINCULACIÓN VEHÍCULOS TRANS. INTERNACIONAL",
+    "null": "446",
+    "top": [
+     {
+      "item": "PLANILLA DE VIAJE OCASIONAL",
+      "count": "359116"
+     },
+     {
+      "item": "TRAMITE REVISION TECNICO MECANICA",
+      "count": "331543"
+     },
+     {
+      "item": "TRÁMITE REFRENDACIÓN LICENCIA CONDUCCIÓN",
+      "count": "211469"
+     },
+     {
+      "item": "INSCRIPCIÓN CIUDADANO",
+      "count": "207475"
+     },
+     {
+      "item": "TRAMITE CERTIFICADO APTITUD FISICA MENTAL MOTRIZ",
+      "count": "199461"
+     },
+     {
+      "item": "TRÁMITE EXPEDICIÓN LICENCIA CONDUCCIÓN",
+      "count": "192761"
+     },
+     {
+      "item": "TRÁMITE TRASPASO",
+      "count": "187501"
+     },
+     {
+      "item": "TRÁMITE MATRÍCULA INICIAL",
+      "count": "168065"
+     },
+     {
+      "item": "MODIFICACIÓN CIUDADANO",
+      "count": "146048"
+     },
+     {
+      "item": "TRÁMITE CERTIFICADO APTITUD EN CONDUCCIÓN",
+      "count": "140506"
+     },
+     {
+      "item": "TRÁMITE CERTIFICADO DE CAPACITACIÓN EN NORMAS DE TRANSITO",
+      "count": "121729"
+     },
+     {
+      "item": "TRÁMITE INSCRIPCIÓN ALERTA",
+      "count": "116329"
+     },
+     {
+      "item": "TRÁMITE LEVANTAMIENTO ALERTA",
+      "count": "101233"
+     },
+     {
+      "item": "TRAMITE TRASPASO",
+      "count": "84440"
+     },
+     {
+      "item": "TRÁMITE DUPLICADO LICENCIA CONDUCCIÓN",
+      "count": "79063"
+     },
+     {
+      "item": "TRAMITE CERTIFICADO APTITUD EN CONDUCCION",
+      "count": "73611"
+     },
+     {
+      "item": "TRAMITE MATRICULA INICIAL",
+      "count": "72071"
+     },
+     {
+      "item": "TRÁMITE RECATEGORIZACIÓN LICENCIA CONDUCCIÓN HACIA ARRIBA",
+      "count": "65423"
+     },
+     {
+      "item": "TRÁMITE RADICACION CUENTA",
+      "count": "65077"
+     },
+     {
+      "item": "TRÁMITE DUPLICADO LICENCIA TRANSITO",
+      "count": "61778"
+     }
+    ],
+    "smallest": "CAMBIO DE GPS",
+    "count": "4115769",
+    "cardinality": "4115769"
+   },
+   "format": {}
+  },
+  {
+   "id": 599647443,
+   "name": "CANTIDAD",
+   "dataTypeName": "number",
+   "description": "Total, de tramites radicados por organismos de transito y otros actores",
+   "fieldName": "cantidad",
+   "position": 10,
+   "renderTypeName": "number",
+   "tableColumnId": 154716865,
+   "cachedContents": {
+    "non_null": "4115217",
+    "largest": "52982",
+    "null": "552",
+    "top": [
+     {
+      "item": "1",
+      "count": "1284198"
+     },
+     {
+      "item": "2",
+      "count": "584916"
+     },
+     {
+      "item": "3",
+      "count": "338745"
+     },
+     {
+      "item": "4",
+      "count": "231838"
+     },
+     {
+      "item": "5",
+      "count": "169474"
+     },
+     {
+      "item": "6",
+      "count": "131979"
+     },
+     {
+      "item": "7",
+      "count": "106191"
+     },
+     {
+      "item": "8",
+      "count": "87810"
+     },
+     {
+      "item": "9",
+      "count": "74325"
+     },
+     {
+      "item": "10",
+      "count": "63917"
+     },
+     {
+      "item": "11",
+      "count": "55731"
+     },
+     {
+      "item": "12",
+      "count": "49814"
+     },
+     {
+      "item": "13",
+      "count": "43981"
+     },
+     {
+      "item": "14",
+      "count": "40080"
+     },
+     {
+      "item": "15",
+      "count": "36533"
+     },
+     {
+      "item": "16",
+      "count": "33456"
+     },
+     {
+      "item": "17",
+      "count": "30849"
+     },
+     {
+      "item": "18",
+      "count": "28650"
+     },
+     {
+      "item": "19",
+      "count": "26537"
+     },
+     {
+      "item": "20",
+      "count": "24143"
+     }
+    ],
+    "smallest": "1",
+    "count": "4115769",
+    "cardinality": "4115769"
+   },
+   "format": {
+    "noCommas": "false"
+   }
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Ministerio de Transporte - MinTransporte, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Transporte",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Nacional",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Mensual"
+   }
+  },
+  "availableDisplayTypes": [
+   "table",
+   "fatrow",
+   "page"
+  ]
+ },
+ "owner": {
+  "id": "bj55-bqpg",
+  "displayName": "RUNT 2.0",
+  "profileImageUrlLarge": "/api/users/bj55-bqpg/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/bj55-bqpg/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/bj55-bqpg/profile_images/TINY",
+  "screenName": "RUNT 2.0",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "bj55-bqpg",
+  "displayName": "RUNT 2.0",
+  "profileImageUrlLarge": "/api/users/bj55-bqpg/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/bj55-bqpg/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/bj55-bqpg/profile_images/TINY",
+  "screenName": "RUNT 2.0",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "tramites",
+  "departamentos",
+  "municipios",
+  "cantidad"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

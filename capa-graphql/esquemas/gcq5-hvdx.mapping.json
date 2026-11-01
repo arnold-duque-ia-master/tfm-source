@@ -1,0 +1,184 @@
+{
+ "id": "gcq5-hvdx",
+ "alias": "vacunacionAftosaVichada",
+ "type": "VacunacionAftosaVichada",
+ "baseWhere": null,
+ "columns": {
+  "codigoDaneDepartamento": {
+   "field": "codigo_dane_departamento",
+   "kind": "int",
+   "gql": "Int",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "departamento": {
+   "field": "departamento",
+   "kind": "enum",
+   "gql": "VacunacionAftosaVichadaDepartamento",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "VICHADA": [
+     "VICHADA"
+    ]
+   }
+  },
+  "codigoDaneMunicipio": {
+   "field": "codigo_dane_municipio",
+   "kind": "int",
+   "gql": "Int",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "municipio": {
+   "field": "municipio",
+   "kind": "enum",
+   "gql": "VacunacionAftosaVichadaMunicipio",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "CUMARIBO": [
+     "CUMARIBO"
+    ],
+    "LA_PRIMAVERA": [
+     "LA PRIMAVERA"
+    ],
+    "PUERTO_CARRENO": [
+     "PUERTO CARREÑO"
+    ],
+    "SANTA_ROSALIA": [
+     "SANTA ROSALÍA"
+    ]
+   }
+  },
+  "vereda": {
+   "field": "vereda",
+   "kind": "string",
+   "gql": "String",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "tenencia": {
+   "field": "tenencia",
+   "kind": "enum",
+   "gql": "VacunacionAftosaVichadaTenencia",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "ARRENDADO": [
+     "ARRENDADO"
+    ],
+    "OTRO": [
+     "OTRO"
+    ],
+    "POSEEDOR": [
+     "POSEEDOR"
+    ],
+    "PROPIO": [
+     "PROPIO"
+    ],
+    "TENEDOR": [
+     "TENEDOR"
+    ],
+    "TERRITORIO_COLECTIVO": [
+     "TERRITORIO COLECTIVO"
+    ]
+   }
+  },
+  "ruv": {
+   "field": "ruv",
+   "kind": "int",
+   "gql": "Int",
+   "role": "id",
+   "cast": null,
+   "enum": null
+  },
+  "fechaRuv": {
+   "field": "fecha_ruv",
+   "kind": "date",
+   "gql": "Date",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "vigencia": {
+   "field": "vigencia",
+   "kind": "int",
+   "gql": "Int",
+   "role": "time",
+   "cast": null,
+   "enum": null
+  },
+  "cicloVacunacion": {
+   "field": "ciclo_vacunacion",
+   "kind": "enum",
+   "gql": "VacunacionAftosaVichadaCicloVacunacion",
+   "role": null,
+   "cast": null,
+   "enum": {
+    "CICLO_II_2024": [
+     "Ciclo II - 2024"
+    ]
+   }
+  },
+  "longitud": {
+   "field": "longitud",
+   "kind": "float",
+   "gql": "Float",
+   "role": "geo",
+   "cast": null,
+   "enum": null
+  },
+  "latitud": {
+   "field": "latitud",
+   "kind": "float",
+   "gql": "Float",
+   "role": "geo",
+   "cast": null,
+   "enum": null
+  },
+  "totalAftosa": {
+   "field": "total_aftosa",
+   "kind": "int",
+   "gql": "Int",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "equinos": {
+   "field": "equinos",
+   "kind": "int",
+   "gql": "Int",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "porcinos": {
+   "field": "porcinos",
+   "kind": "int",
+   "gql": "Int",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "ovinos": {
+   "field": "ovinos",
+   "kind": "int",
+   "gql": "Int",
+   "role": null,
+   "cast": null,
+   "enum": null
+  },
+  "caprinos": {
+   "field": "caprinos",
+   "kind": "int",
+   "gql": "Int",
+   "role": null,
+   "cast": null,
+   "enum": null
+  }
+ }
+}
