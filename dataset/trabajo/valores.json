@@ -1,0 +1,3916 @@
+{
+ "gcq5-hvdx": {
+  "anios": [
+   2024
+  ],
+  "dims": {
+   "municipio": [
+    {
+     "enum": "LA_PRIMAVERA",
+     "texto": "LA PRIMAVERA",
+     "n": 1337
+    },
+    {
+     "enum": "CUMARIBO",
+     "texto": "CUMARIBO",
+     "n": 765
+    },
+    {
+     "enum": "SANTA_ROSALIA",
+     "texto": "SANTA ROSALÍA",
+     "n": 495
+    },
+    {
+     "enum": "PUERTO_CARRENO",
+     "texto": "PUERTO CARREÑO",
+     "n": 280
+    }
+   ],
+   "tenencia": [
+    {
+     "enum": "PROPIO",
+     "texto": "PROPIO",
+     "n": 1758
+    },
+    {
+     "enum": "ARRENDADO",
+     "texto": "ARRENDADO",
+     "n": 813
+    },
+    {
+     "enum": "TENEDOR",
+     "texto": "TENEDOR",
+     "n": 118
+    },
+    {
+     "enum": "TERRITORIO_COLECTIVO",
+     "texto": "TERRITORIO COLECTIVO",
+     "n": 99
+    },
+    {
+     "enum": "POSEEDOR",
+     "texto": "POSEEDOR",
+     "n": 88
+    },
+    {
+     "enum": "OTRO",
+     "texto": "OTRO",
+     "n": 1
+    }
+   ],
+   "vereda": [
+    {
+     "texto": "SANTA BARBARA",
+     "n": 270
+    },
+    {
+     "texto": "MATIYURE",
+     "n": 174
+    },
+    {
+     "texto": "NUEVA ANTIOQUIA",
+     "n": 134
+    },
+    {
+     "texto": "PAVANAY",
+     "n": 120
+    },
+    {
+     "texto": "FLOR AMARILLO",
+     "n": 88
+    },
+    {
+     "texto": "AGUAS CLARAS",
+     "n": 83
+    },
+    {
+     "texto": "CANTA CLARO",
+     "n": 79
+    },
+    {
+     "texto": "ARACOMBIA",
+     "n": 69
+    },
+    {
+     "texto": "EL VIENTO",
+     "n": 67
+    },
+    {
+     "texto": "EL TRIUNFO",
+     "n": 66
+    },
+    {
+     "texto": "RESGUARDO",
+     "n": 56
+    },
+    {
+     "texto": "SOLEDAD",
+     "n": 54
+    },
+    {
+     "texto": "LLANO ALTO",
+     "n": 53
+    },
+    {
+     "texto": "BORDEREÑO",
+     "n": 50
+    },
+    {
+     "texto": "LIDA SIRIPIANA",
+     "n": 48
+    },
+    {
+     "texto": "MATA GRANDE",
+     "n": 48
+    },
+    {
+     "texto": "LA PRADERA",
+     "n": 46
+    },
+    {
+     "texto": "BALSA",
+     "n": 45
+    },
+    {
+     "texto": "GUACACIAS",
+     "n": 45
+    },
+    {
+     "texto": "SANTA CECILIA",
+     "n": 45
+    },
+    {
+     "texto": "TOMO",
+     "n": 44
+    },
+    {
+     "texto": "LADERA",
+     "n": 41
+    },
+    {
+     "texto": "GUACAMAYAS",
+     "n": 39
+    },
+    {
+     "texto": "BUENAVISTA",
+     "n": 36
+    },
+    {
+     "texto": "SAN TEODORO",
+     "n": 35
+    },
+    {
+     "texto": "ESPERANZA",
+     "n": 33
+    },
+    {
+     "texto": "PUERTO MURILLO",
+     "n": 32
+    },
+    {
+     "texto": "CONTROL",
+     "n": 31
+    },
+    {
+     "texto": "ESMERALDA",
+     "n": 30
+    },
+    {
+     "texto": "JURIEPE",
+     "n": 30
+    }
+   ]
+  },
+  "medias": {
+   "totalAftosa": {
+    "avg": 84.22627737226277,
+    "max": 5071
+   },
+   "equinos": {
+    "avg": 1.654153632255822,
+    "max": 87
+   },
+   "porcinos": {
+    "avg": 0.40910670837678137,
+    "max": 58
+   },
+   "ovinos": {
+    "avg": 0.1922141119221411,
+    "max": 60
+   },
+   "caprinos": {
+    "avg": 0.0681265206812652,
+    "max": 188
+   }
+  },
+  "meses": [
+   [
+    2024,
+    12
+   ],
+   [
+    2024,
+    11
+   ],
+   [
+    2024,
+    10
+   ]
+  ]
+ },
+ "h2yr-zfb2": {
+  "anios": [
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "dims": {
+   "departamento": [
+    {
+     "enum": "ANTIOQUIA",
+     "texto": "ANTIOQUIA",
+     "n": 11397
+    },
+    {
+     "enum": "VALLE_DEL_CAUCA",
+     "texto": "VALLE DEL CAUCA",
+     "n": 10016
+    },
+    {
+     "enum": "CUNDINAMARCA",
+     "texto": "CUNDINAMARCA",
+     "n": 7395
+    },
+    {
+     "enum": "ATLANTICO",
+     "texto": "ATLÁNTICO",
+     "n": 5575
+    },
+    {
+     "enum": "SANTANDER",
+     "texto": "SANTANDER",
+     "n": 5238
+    },
+    {
+     "enum": "NORTE_DE_SANTANDER",
+     "texto": "NORTE DE SANTANDER",
+     "n": 4450
+    },
+    {
+     "enum": "BOYACA",
+     "texto": "BOYACÁ",
+     "n": 4150
+    },
+    {
+     "enum": "TOLIMA",
+     "texto": "TOLIMA",
+     "n": 3765
+    },
+    {
+     "enum": "BOLIVAR",
+     "texto": "BOLÍVAR",
+     "n": 3088
+    },
+    {
+     "enum": "RISARALDA",
+     "texto": "RISARALDA",
+     "n": 2948
+    },
+    {
+     "enum": "NARINO",
+     "texto": "NARIÑO",
+     "n": 2858
+    },
+    {
+     "enum": "HUILA",
+     "texto": "HUILA",
+     "n": 2801
+    },
+    {
+     "enum": "META",
+     "texto": "META",
+     "n": 2718
+    },
+    {
+     "enum": "CAUCA",
+     "texto": "CAUCA",
+     "n": 2371
+    },
+    {
+     "enum": "CESAR",
+     "texto": "CESAR",
+     "n": 2227
+    },
+    {
+     "enum": "CORDOBA",
+     "texto": "CÓRDOBA",
+     "n": 2199
+    },
+    {
+     "enum": "CALDAS",
+     "texto": "CALDAS",
+     "n": 2152
+    },
+    {
+     "enum": "QUINDIO",
+     "texto": "QUINDÍO",
+     "n": 2114
+    },
+    {
+     "enum": "BOGOTA_D_C",
+     "texto": "BOGOTÁ, D.C.",
+     "n": 2052
+    },
+    {
+     "enum": "MAGDALENA",
+     "texto": "MAGDALENA",
+     "n": 1693
+    },
+    {
+     "enum": "SUCRE",
+     "texto": "SUCRE",
+     "n": 1184
+    },
+    {
+     "enum": "LA_GUAJIRA",
+     "texto": "LA GUAJIRA",
+     "n": 1150
+    },
+    {
+     "enum": "CASANARE",
+     "texto": "CASANARE",
+     "n": 782
+    },
+    {
+     "enum": "CAQUETA",
+     "texto": "CAQUETÁ",
+     "n": 779
+    },
+    {
+     "enum": "PUTUMAYO",
+     "texto": "PUTUMAYO",
+     "n": 512
+    },
+    {
+     "enum": "CHOCO",
+     "texto": "CHOCÓ",
+     "n": 500
+    },
+    {
+     "enum": "ARAUCA",
+     "texto": "ARAUCA",
+     "n": 450
+    },
+    {
+     "enum": "GUAVIARE",
+     "texto": "GUAVIARE",
+     "n": 331
+    },
+    {
+     "enum": "VICHADA",
+     "texto": "VICHADA",
+     "n": 89
+    },
+    {
+     "enum": "AMAZONAS",
+     "texto": "AMAZONAS",
+     "n": 46
+    }
+   ],
+   "programa": [
+    {
+     "enum": "MI_CASA_YA",
+     "texto": "MI CASA YA",
+     "n": 50788
+    },
+    {
+     "enum": "BOLSA_DESPLAZADOS",
+     "texto": "Bolsa Desplazados",
+     "n": 9296
+    },
+    {
+     "enum": "SEMILLERO_DE_PROPIETARIOS_ARRIENDO",
+     "texto": "Semillero de Propietarios Arriendo",
+     "n": 4683
+    },
+    {
+     "enum": "CASA_DIGNA_VIDA_DIGNA",
+     "texto": "Casa Digna Vida Digna",
+     "n": 4415
+    },
+    {
+     "enum": "VIPA",
+     "texto": "VIPA",
+     "n": 3308
+    },
+    {
+     "enum": "PROGRAMA_VIVIENDA_GRATUITA_FASE_I",
+     "texto": "Programa Vivienda Gratuita Fase I",
+     "n": 2657
+    },
+    {
+     "enum": "BOLSA_ESFUERZO_TERRITORIAL",
+     "texto": "Bolsa Esfuerzo Territorial",
+     "n": 2034
+    },
+    {
+     "enum": "SEMILLERO_DE_PROPIETARIOS_AHORRO",
+     "texto": "Semillero de Propietarios Ahorro",
+     "n": 1699
+    },
+    {
+     "enum": "BOLSA_ORDINARIA",
+     "texto": "Bolsa Ordinaria",
+     "n": 1351
+    },
+    {
+     "enum": "AHORRO_PROGRAMADO_CONTRACTUAL",
+     "texto": "Ahorro Programado Contractual",
+     "n": 1231
+    },
+    {
+     "enum": "PROGRAMA_VIVIENDA_GRATUITA_FASE_II",
+     "texto": "Programa Vivienda Gratuita Fase II",
+     "n": 1087
+    },
+    {
+     "enum": "BOLSA_CONCEJALES",
+     "texto": "Bolsa Concejales",
+     "n": 1029
+    },
+    {
+     "enum": "BOLSA_DESASTRES_NATURALES",
+     "texto": "Bolsa Desastres Naturales",
+     "n": 756
+    },
+    {
+     "enum": "BOLSA_ATENTADOS_TERRORISTAS",
+     "texto": "Bolsa Atentados terroristas",
+     "n": 745
+    },
+    {
+     "enum": "BOLSA_SALUDABLE",
+     "texto": "Bolsa Saludable",
+     "n": 729
+    },
+    {
+     "enum": "BOLSA_UNICA_NACIONAL",
+     "texto": "Bolsa unica Nacional",
+     "n": 370
+    },
+    {
+     "enum": "MACROPROYECTO",
+     "texto": "Macroproyecto",
+     "n": 201
+    },
+    {
+     "enum": "FENOMENO_DE_LA_NINA",
+     "texto": "Fenómeno de la Niña",
+     "n": 194
+    },
+    {
+     "enum": "BOLSA_RECICLADORES",
+     "texto": "Bolsa Recicladores",
+     "n": 135
+    },
+    {
+     "enum": "HABILITACION_DE_TITULOS",
+     "texto": "Habilitación de Titulos",
+     "n": 134
+    },
+    {
+     "enum": "CONCURSO_DE_ESFUERZO_TERRITORIAL_NACIONAL",
+     "texto": "Concurso de Esfuerzo Territorial Nacional",
+     "n": 74
+    },
+    {
+     "enum": "BOLSA_UNICA_MEJORAMIENTO",
+     "texto": "Bolsa Única Mejoramiento",
+     "n": 62
+    },
+    {
+     "enum": "SIN_CLASIFICACION",
+     "texto": "Sin clasificación",
+     "n": 41
+    },
+    {
+     "enum": "ESTRATEGIA_ADQUISICION",
+     "texto": "ESTRATEGIA ADQUISICIÓN",
+     "n": 35
+    },
+    {
+     "enum": "SUBSIDIOS_EN_ESPECIE_Y_COMPLEMENTARIOS",
+     "texto": "Subsidios en Especie y complementarios",
+     "n": 30
+    },
+    {
+     "enum": "TUTELAS",
+     "texto": "TUTELAS",
+     "n": 11
+    }
+   ],
+   "estadoDePostulacion": [
+    {
+     "enum": "ASIGNADOS",
+     "texto": "Asignados",
+     "n": 68922
+    },
+    {
+     "enum": "APTO_CON_SUBSIDIO_VENCIDO",
+     "texto": "Apto con subsidio vencido",
+     "n": 7125
+    },
+    {
+     "enum": "RENUNCIAS_AL_SUBSIDIO",
+     "texto": "Renuncias al subsidio",
+     "n": 5226
+    },
+    {
+     "enum": "ASIGNADO_CON_APLICACION_EN_VIVIENDA_GRATUITA",
+     "texto": "Asignado con aplicación en Vivienda Gratuita",
+     "n": 1420
+    },
+    {
+     "enum": "RENUNCIA_CON_RESTITUCION_DE_SUBSIDIO",
+     "texto": "Renuncia con restitucion de subsidio",
+     "n": 1221
+    },
+    {
+     "enum": "PERDIDA_DE_EJECUTORIEDAD_DE_ASIGNACION_DE_SFV",
+     "texto": "Perdida de ejecutoriedad de asignación de SFV",
+     "n": 1168
+    },
+    {
+     "enum": "RESTITUCION_SFV_POR_VENCIMIENTO_VIGENCIA",
+     "texto": "Restitución SFV por Vencimiento Vigencia",
+     "n": 605
+    },
+    {
+     "enum": "RESTITUCION_SFV_POR_INDEMNIZACION",
+     "texto": "Restitución SFV por Indemnización",
+     "n": 339
+    },
+    {
+     "enum": "SUBSIDIO_REVOCADO",
+     "texto": "Subsidio Revocado",
+     "n": 331
+    },
+    {
+     "enum": "RESTITUCION_DE_SUBSIDIOS_NO_APLICADOS",
+     "texto": "Restitucion de subsidios no aplicados",
+     "n": 285
+    },
+    {
+     "enum": "SUBSIDIO_REVOCADO_MEDIANTE_PROCEDIMIENTO_ADMINISTRATIVO_SANCIONATORIO",
+     "texto": "Subsidio revocado mediante procedimiento Administrativo Sancionatorio",
+     "n": 251
+    },
+    {
+     "enum": "RESTITUCION_SFV_COBRO_DIRECTO_FIDUCIARIA",
+     "texto": "Restitución SFV Cobro Directo Fiduciaria",
+     "n": 55
+    },
+    {
+     "enum": "RENUNCIA_AL_SUBSIDIO_PENDIENTE_DE_RESTITUCION",
+     "texto": "Renuncia al Subsidio - Pendiente de Restitución",
+     "n": 30
+    },
+    {
+     "enum": "ASIGNADO_POSTERIORMENTE_BENEFICIARIO_DE_VIVIENDA_GRATUITA",
+     "texto": "Asignado posteriormente beneficiario de Vivienda Gratuita",
+     "n": 27
+    },
+    {
+     "enum": "RENUNCIA_A_LA_POSTULACION",
+     "texto": "Renuncia a la postulación",
+     "n": 23
+    },
+    {
+     "enum": "SUBSIDIO_REVOCADO_CON_RESTITUCION_A_LA_DTN",
+     "texto": "Subsidio Revocado con Restitución a la DTN",
+     "n": 15
+    },
+    {
+     "enum": "SUBSIDIO_RESTITUIDO",
+     "texto": "Subsidio Restituido",
+     "n": 10
+    },
+    {
+     "enum": "RENUNCIA_A_LA_POSTULACION_ANTERIORMENTE_VENCIDO",
+     "texto": "Renuncia a la postulación - Anteriormente vencido",
+     "n": 6
+    },
+    {
+     "enum": "ASIGNADO_CON_APLICACION_EN_MI_CASA_YA",
+     "texto": "Asignado con Aplicación en Mi Casa Ya",
+     "n": 5
+    },
+    {
+     "enum": "ESTADO_ANULADO",
+     "texto": "Estado anulado",
+     "n": 5
+    },
+    {
+     "enum": "VENCIDO_EN_PROCESO_DE_RESTITUCION_DE_RECURSOS_A_LA_DTN",
+     "texto": "Vencido en proceso de restitución de recursos a la DTN",
+     "n": 5
+    },
+    {
+     "enum": "ASIGNADO_SANCIONADO",
+     "texto": "Asignado sancionado",
+     "n": 4
+    },
+    {
+     "enum": "REALIZO_CAMBIO_DE_PROYECTO_HOGAR_ASIGNADO",
+     "texto": "Realizó cambio de proyecto, hogar asignado",
+     "n": 4
+    },
+    {
+     "enum": "ASIGNADO_EN_DEMANDA_DE_NULIDAD_Y_RESTABLECIMIENTO_HABILITADOS_MI_CASA_YA",
+     "texto": "Asignado (en demanda de nulidad y restablecimiento - Habilitados Mi Casa Ya)",
+     "n": 3
+    },
+    {
+     "enum": "DIAGNOSTICO_INVIABLE_DIAGNOSTICO_NO_EFECTIVO",
+     "texto": "Diagnóstico Inviable/Diagnóstico no Efectivo",
+     "n": 2
+    },
+    {
+     "enum": "EN_SISTEMA_NO_EN_RESOLUCION_DEPURACION_CON_RESOLUCION",
+     "texto": "En sistema no en resolucion depuración con resolución",
+     "n": 2
+    },
+    {
+     "enum": "RECHAZADO_MEDIANTE_PROCEDIMIENTO_ADMINISTRATIVO_SANCIONATORIO",
+     "texto": "Rechazado mediante Procedimiento Administrativo Sancionatorio",
+     "n": 2
+    },
+    {
+     "enum": "PENDIENTE_DE_REVOCAR",
+     "texto": "Pendiente de Revocar",
+     "n": 1
+    },
+    {
+     "enum": "PENDIENTE_DE_SANCION_POR_FALSEDAD",
+     "texto": "Pendiente de Sanción por Falsedad",
+     "n": 1
+    },
+    {
+     "enum": "POSTULACION_ANULADA_POR_ERROR_DE_DIGITACION_DE_LA_CAJA",
+     "texto": "postulación anulada  por error de digitación de la caja",
+     "n": 1
+    }
+   ],
+   "municipio": [
+    {
+     "texto": "BOGOTÁ, D.C.",
+     "n": 2052
+    },
+    {
+     "texto": "SOLEDAD",
+     "n": 1615
+    },
+    {
+     "texto": "BARRANQUILLA",
+     "n": 1533
+    },
+    {
+     "texto": "IBAGUÉ",
+     "n": 1481
+    },
+    {
+     "texto": "SAN JOSÉ DE CÚCUTA",
+     "n": 1438
+    },
+    {
+     "texto": "SANTIAGO DE CALI",
+     "n": 1420
+    },
+    {
+     "texto": "CARTAGENA DE INDIAS",
+     "n": 1410
+    },
+    {
+     "texto": "MEDELLÍN",
+     "n": 1403
+    },
+    {
+     "texto": "JAMUNDÍ",
+     "n": 1368
+    },
+    {
+     "texto": "SOACHA",
+     "n": 1355
+    },
+    {
+     "texto": "BELLO",
+     "n": 1190
+    },
+    {
+     "texto": "PASTO",
+     "n": 1189
+    },
+    {
+     "texto": "PEREIRA",
+     "n": 1142
+    },
+    {
+     "texto": "VALLEDUPAR",
+     "n": 1142
+    },
+    {
+     "texto": "DOSQUEBRADAS",
+     "n": 1062
+    },
+    {
+     "texto": "ARMENIA",
+     "n": 1029
+    },
+    {
+     "texto": "SANTA MARTA",
+     "n": 999
+    },
+    {
+     "texto": "CANDELARIA",
+     "n": 993
+    },
+    {
+     "texto": "PALMIRA",
+     "n": 961
+    },
+    {
+     "texto": "VILLAVICENCIO",
+     "n": 959
+    },
+    {
+     "texto": "PIEDECUESTA",
+     "n": 956
+    },
+    {
+     "texto": "VILLA DEL ROSARIO",
+     "n": 942
+    },
+    {
+     "texto": "NEIVA",
+     "n": 904
+    },
+    {
+     "texto": "BUCARAMANGA",
+     "n": 903
+    },
+    {
+     "texto": "TUNJA",
+     "n": 898
+    },
+    {
+     "texto": "POPAYÁN",
+     "n": 886
+    },
+    {
+     "texto": "MONTERÍA",
+     "n": 885
+    },
+    {
+     "texto": "MANIZALES",
+     "n": 859
+    },
+    {
+     "texto": "MADRID",
+     "n": 805
+    },
+    {
+     "texto": "GIRÓN",
+     "n": 789
+    }
+   ]
+  },
+  "medias": {
+   "hogares": {
+    "avg": 11.573913542683277,
+    "max": 6100
+   },
+   "valorAsignado": {
+    "avg": 234544936.65314028,
+    "max": 65843588500.0
+   }
+  },
+  "meses": []
+ },
+ "uejq-wxrr": {
+  "anios": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "dims": {
+   "departamento": [
+    {
+     "enum": "BOYACA",
+     "texto": "Boyacá",
+     "n": 17679
+    },
+    {
+     "enum": "CUNDINAMARCA",
+     "texto": "Cundinamarca",
+     "n": 15584
+    },
+    {
+     "enum": "ANTIOQUIA",
+     "texto": "Antioquia",
+     "n": 15216
+    },
+    {
+     "enum": "SANTANDER",
+     "texto": "Santander",
+     "n": 13071
+    },
+    {
+     "enum": "HUILA",
+     "texto": "Huila",
+     "n": 11769
+    },
+    {
+     "enum": "NARINO",
+     "texto": "Nariño",
+     "n": 11568
+    },
+    {
+     "enum": "VALLE_DEL_CAUCA",
+     "texto": "Valle del Cauca",
+     "n": 10589
+    },
+    {
+     "enum": "CAUCA",
+     "texto": "Cauca",
+     "n": 7518
+    },
+    {
+     "enum": "NORTE_DE_SANTANDER",
+     "texto": "Norte de Santander",
+     "n": 7125
+    },
+    {
+     "enum": "TOLIMA",
+     "texto": "Tolima",
+     "n": 6688
+    },
+    {
+     "enum": "BOLIVAR",
+     "texto": "Bolívar",
+     "n": 4834
+    },
+    {
+     "enum": "MAGDALENA",
+     "texto": "Magdalena",
+     "n": 4295
+    },
+    {
+     "enum": "CESAR",
+     "texto": "Cesar",
+     "n": 4268
+    },
+    {
+     "enum": "META",
+     "texto": "Meta",
+     "n": 4238
+    },
+    {
+     "enum": "CORDOBA",
+     "texto": "Córdoba",
+     "n": 4208
+    },
+    {
+     "enum": "CALDAS",
+     "texto": "Caldas",
+     "n": 3882
+    },
+    {
+     "enum": "SUCRE",
+     "texto": "Sucre",
+     "n": 3527
+    },
+    {
+     "enum": "CHOCO",
+     "texto": "Chocó",
+     "n": 3419
+    },
+    {
+     "enum": "ATLANTICO",
+     "texto": "Atlántico",
+     "n": 2855
+    },
+    {
+     "enum": "LA_GUAJIRA",
+     "texto": "La Guajira",
+     "n": 2415
+    },
+    {
+     "enum": "CASANARE",
+     "texto": "Casanare",
+     "n": 2344
+    },
+    {
+     "enum": "QUINDIO",
+     "texto": "Quindío",
+     "n": 2022
+    },
+    {
+     "enum": "RISARALDA",
+     "texto": "Risaralda",
+     "n": 1939
+    },
+    {
+     "enum": "CAQUETA",
+     "texto": "Caquetá",
+     "n": 1547
+    },
+    {
+     "enum": "PUTUMAYO",
+     "texto": "Putumayo",
+     "n": 1459
+    },
+    {
+     "enum": "ARAUCA",
+     "texto": "Arauca",
+     "n": 791
+    },
+    {
+     "enum": "AMAZONAS",
+     "texto": "Amazonas",
+     "n": 462
+    },
+    {
+     "enum": "VICHADA",
+     "texto": "Vichada",
+     "n": 410
+    },
+    {
+     "enum": "GUAVIARE",
+     "texto": "Guaviare",
+     "n": 311
+    },
+    {
+     "enum": "VAUPES",
+     "texto": "Vaupés",
+     "n": 278
+    }
+   ],
+   "grupoCultivo": [
+    {
+     "enum": "FRUTALES",
+     "texto": "Frutales",
+     "n": 49152
+    },
+    {
+     "enum": "HORTALIZAS",
+     "texto": "Hortalizas",
+     "n": 31629
+    },
+    {
+     "enum": "CEREALES",
+     "texto": "Cereales",
+     "n": 28663
+    },
+    {
+     "enum": "RAICES_Y_TUBERCULOS",
+     "texto": "Raíces y tubérculos",
+     "n": 21244
+    },
+    {
+     "enum": "LEGUMINOSAS",
+     "texto": "Leguminosas",
+     "n": 17898
+    },
+    {
+     "enum": "CULTIVOS_TROPICALES_TRADICIONALES",
+     "texto": "Cultivos tropicales tradicionales",
+     "n": 14511
+    },
+    {
+     "enum": "OLEAGINOSAS",
+     "texto": "Oleaginosas",
+     "n": 2045
+    },
+    {
+     "enum": "CULTIVOS_PARA_CONDIMENTOS_BEBIDAS_MEDICINALES_Y_AROMATICAS",
+     "texto": "Cultivos para condimentos, bebidas medicinales y aromáticas",
+     "n": 1590
+    }
+   ],
+   "cultivo": [
+    {
+     "texto": "Maíz",
+     "n": 21992
+    },
+    {
+     "texto": "Yuca",
+     "n": 10126
+    },
+    {
+     "texto": "Frijol",
+     "n": 9642
+    },
+    {
+     "texto": "Tomate",
+     "n": 7174
+    },
+    {
+     "texto": "Plátano",
+     "n": 5652
+    },
+    {
+     "texto": "Aguacate",
+     "n": 5618
+    },
+    {
+     "texto": "Papa",
+     "n": 5574
+    },
+    {
+     "texto": "Limón",
+     "n": 4839
+    },
+    {
+     "texto": "Arroz",
+     "n": 4838
+    },
+    {
+     "texto": "Caña",
+     "n": 4702
+    },
+    {
+     "texto": "Café",
+     "n": 4459
+    },
+    {
+     "texto": "Arveja",
+     "n": 4408
+    },
+    {
+     "texto": "Cacao",
+     "n": 4034
+    },
+    {
+     "texto": "Naranja",
+     "n": 3217
+    },
+    {
+     "texto": "Ahuyama",
+     "n": 2900
+    },
+    {
+     "texto": "Habichuela",
+     "n": 2543
+    },
+    {
+     "texto": "Arracacha",
+     "n": 2315
+    },
+    {
+     "texto": "Lulo",
+     "n": 2267
+    },
+    {
+     "texto": "Mora",
+     "n": 2113
+    },
+    {
+     "texto": "Mandarina",
+     "n": 2049
+    },
+    {
+     "texto": "Otras hortalizas",
+     "n": 2020
+    },
+    {
+     "texto": "Patilla",
+     "n": 1972
+    },
+    {
+     "texto": "Banano",
+     "n": 1944
+    },
+    {
+     "texto": "Mango",
+     "n": 1887
+    },
+    {
+     "texto": "Tomate de árbol",
+     "n": 1846
+    },
+    {
+     "texto": "Cebolla de rama",
+     "n": 1791
+    },
+    {
+     "texto": "Cebolla de bulbo",
+     "n": 1728
+    },
+    {
+     "texto": "Pimentón",
+     "n": 1728
+    },
+    {
+     "texto": "Piña",
+     "n": 1706
+    },
+    {
+     "texto": "Cilantro",
+     "n": 1697
+    }
+   ],
+   "cicloDelCultivo": [
+    {
+     "enum": "TRANSITORIO",
+     "texto": "Transitorio",
+     "n": 101676
+    },
+    {
+     "enum": "PERMANENTE",
+     "texto": "Permanente",
+     "n": 65056
+    }
+   ],
+   "municipio": [
+    {
+     "texto": "La Unión",
+     "n": 801
+    },
+    {
+     "texto": "Bolívar",
+     "n": 770
+    },
+    {
+     "texto": "Granada",
+     "n": 762
+    },
+    {
+     "texto": "Córdoba",
+     "n": 561
+    },
+    {
+     "texto": "Guadalupe",
+     "n": 543
+    },
+    {
+     "texto": "Buenavista",
+     "n": 518
+    },
+    {
+     "texto": "Villanueva",
+     "n": 506
+    },
+    {
+     "texto": "Santa Bárbara",
+     "n": 493
+    },
+    {
+     "texto": "Pital",
+     "n": 478
+    },
+    {
+     "texto": "Restrepo",
+     "n": 472
+    },
+    {
+     "texto": "Santa María",
+     "n": 468
+    },
+    {
+     "texto": "Roldanillo",
+     "n": 463
+    },
+    {
+     "texto": "El Tambo",
+     "n": 456
+    },
+    {
+     "texto": "Fundación",
+     "n": 440
+    },
+    {
+     "texto": "Garzón",
+     "n": 434
+    },
+    {
+     "texto": "La Plata",
+     "n": 429
+    },
+    {
+     "texto": "Gigante",
+     "n": 427
+    },
+    {
+     "texto": "Algeciras",
+     "n": 423
+    },
+    {
+     "texto": "Campoalegre",
+     "n": 423
+    },
+    {
+     "texto": "Argelia",
+     "n": 414
+    },
+    {
+     "texto": "Neiva",
+     "n": 406
+    },
+    {
+     "texto": "San Bernardo",
+     "n": 406
+    },
+    {
+     "texto": "Sabanalarga",
+     "n": 394
+    },
+    {
+     "texto": "Yumbo",
+     "n": 392
+    },
+    {
+     "texto": "La Paz",
+     "n": 389
+    },
+    {
+     "texto": "Colombia",
+     "n": 381
+    },
+    {
+     "texto": "San Pedro",
+     "n": 381
+    },
+    {
+     "texto": "Rionegro",
+     "n": 374
+    },
+    {
+     "texto": "Palestina",
+     "n": 372
+    },
+    {
+     "texto": "Palermo",
+     "n": 369
+    }
+   ]
+  },
+  "medias": {
+   "areaSembrada": {
+    "avg": 228.46848745291845,
+    "max": 77630.0
+   },
+   "areaCosechada": {
+    "avg": 208.9915662260394,
+    "max": 77630.0
+   },
+   "produccion": {
+    "avg": 3189.6355240145863,
+    "max": 4776340.5
+   },
+   "rendimiento": {
+    "avg": 10.601229338099465,
+    "max": 253.0
+   }
+  },
+  "meses": []
+ },
+ "8yi9-t44c": {
+  "anios": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "dims": {
+   "peaje": [
+    {
+     "texto": "PURGATORIO",
+     "n": 1869
+    },
+    {
+     "texto": "TUTA",
+     "n": 1857
+    },
+    {
+     "texto": "SIBERIA",
+     "n": 1852
+    },
+    {
+     "texto": "BOQUERÓN I",
+     "n": 1738
+    },
+    {
+     "texto": "NARANJAL",
+     "n": 1700
+    },
+    {
+     "texto": "BOQUERÓN II",
+     "n": 1681
+    },
+    {
+     "texto": "PARAGUACHÓN",
+     "n": 1664
+    },
+    {
+     "texto": "LAS PALMAS",
+     "n": 1609
+    },
+    {
+     "texto": "LOS PATIOS",
+     "n": 1608
+    },
+    {
+     "texto": "EL ROBLE",
+     "n": 1513
+    },
+    {
+     "texto": "NEIVA",
+     "n": 1498
+    },
+    {
+     "texto": "CHICORAL",
+     "n": 1490
+    },
+    {
+     "texto": "PAVAS",
+     "n": 1490
+    },
+    {
+     "texto": "SAN BERNARDO",
+     "n": 1479
+    },
+    {
+     "texto": "AMAGÁ",
+     "n": 1445
+    },
+    {
+     "texto": "CAIMANERA",
+     "n": 1441
+    },
+    {
+     "texto": "PIPIRAL",
+     "n": 1417
+    },
+    {
+     "texto": "LA LOMA",
+     "n": 1389
+    },
+    {
+     "texto": "EL COPEY",
+     "n": 1387
+    },
+    {
+     "texto": "TUCURINCA",
+     "n": 1387
+    },
+    {
+     "texto": "LA CABAÑA",
+     "n": 1370
+    },
+    {
+     "texto": "ALBARRACÍN",
+     "n": 1364
+    },
+    {
+     "texto": "SABANAGRANDE",
+     "n": 1364
+    },
+    {
+     "texto": "MACHETÁ",
+     "n": 1358
+    },
+    {
+     "texto": "CORZO",
+     "n": 1353
+    },
+    {
+     "texto": "RÍO BOGOTÁ",
+     "n": 1353
+    },
+    {
+     "texto": "EL DIFÍCIL",
+     "n": 1339
+    },
+    {
+     "texto": "GUALANDAY",
+     "n": 1339
+    },
+    {
+     "texto": "PUENTE PLATO",
+     "n": 1339
+    },
+    {
+     "texto": "ANDES",
+     "n": 1320
+    }
+   ],
+   "categoriaTarifa": [
+    {
+     "texto": "V",
+     "n": 16535
+    },
+    {
+     "texto": "II",
+     "n": 16531
+    },
+    {
+     "texto": "I",
+     "n": 16520
+    },
+    {
+     "texto": "III",
+     "n": 16513
+    },
+    {
+     "texto": "IV",
+     "n": 16420
+    },
+    {
+     "texto": "VI",
+     "n": 9185
+    },
+    {
+     "texto": "IE",
+     "n": 8933
+    },
+    {
+     "texto": "VII",
+     "n": 8748
+    },
+    {
+     "texto": "EG",
+     "n": 7000
+    },
+    {
+     "texto": "ER",
+     "n": 6949
+    },
+    {
+     "texto": "EA",
+     "n": 6892
+    },
+    {
+     "texto": "IIE",
+     "n": 6274
+    },
+    {
+     "texto": "IIIE",
+     "n": 2572
+    },
+    {
+     "texto": "IVE",
+     "n": 2140
+    },
+    {
+     "texto": "POLCA",
+     "n": 1357
+    },
+    {
+     "texto": "IEE",
+     "n": 1113
+    },
+    {
+     "texto": "EC",
+     "n": 1102
+    },
+    {
+     "texto": "VE",
+     "n": 983
+    },
+    {
+     "texto": "IEEE",
+     "n": 701
+    },
+    {
+     "texto": "IIE1",
+     "n": 517
+    },
+    {
+     "texto": "IE1",
+     "n": 417
+    },
+    {
+     "texto": "IIA",
+     "n": 332
+    },
+    {
+     "texto": "IE10",
+     "n": 254
+    },
+    {
+     "texto": "VIIE",
+     "n": 197
+    },
+    {
+     "texto": "IE2",
+     "n": 155
+    },
+    {
+     "texto": "VIE",
+     "n": 137
+    },
+    {
+     "texto": "IE3",
+     "n": 134
+    },
+    {
+     "texto": "IXE",
+     "n": 111
+    },
+    {
+     "texto": "E1-III",
+     "n": 99
+    },
+    {
+     "texto": "UNICA",
+     "n": 93
+    }
+   ]
+  },
+  "medias": {
+   "cantidadTrafico": {
+    "avg": 21896.851277810383,
+    "max": 1124159
+   },
+   "cantidadEvasores": {
+    "avg": 3.908292429173558,
+    "max": 273071
+   },
+   "cantidadExentos787": {
+    "avg": 179.10904737768766,
+    "max": 101300
+   },
+   "valorTarifa": {
+    "avg": 20052.223863575735,
+    "max": 195200
+   }
+  },
+  "meses": [
+   [
+    2026,
+    5
+   ],
+   [
+    2026,
+    4
+   ],
+   [
+    2026,
+    3
+   ],
+   [
+    2026,
+    2
+   ],
+   [
+    2026,
+    1
+   ],
+   [
+    2025,
+    12
+   ],
+   [
+    2025,
+    11
+   ],
+   [
+    2025,
+    10
+   ],
+   [
+    2025,
+    9
+   ],
+   [
+    2025,
+    8
+   ],
+   [
+    2025,
+    7
+   ],
+   [
+    2025,
+    6
+   ],
+   [
+    2025,
+    5
+   ],
+   [
+    2025,
+    4
+   ],
+   [
+    2025,
+    3
+   ],
+   [
+    2025,
+    2
+   ],
+   [
+    2025,
+    1
+   ],
+   [
+    2024,
+    12
+   ],
+   [
+    2024,
+    11
+   ],
+   [
+    2024,
+    10
+   ],
+   [
+    2024,
+    9
+   ],
+   [
+    2024,
+    8
+   ],
+   [
+    2024,
+    7
+   ],
+   [
+    2024,
+    6
+   ],
+   [
+    2024,
+    5
+   ],
+   [
+    2024,
+    4
+   ],
+   [
+    2024,
+    3
+   ],
+   [
+    2024,
+    2
+   ],
+   [
+    2024,
+    1
+   ],
+   [
+    2023,
+    12
+   ],
+   [
+    2023,
+    11
+   ],
+   [
+    2023,
+    10
+   ],
+   [
+    2023,
+    9
+   ],
+   [
+    2023,
+    8
+   ],
+   [
+    2023,
+    7
+   ],
+   [
+    2023,
+    6
+   ]
+  ]
+ },
+ "3ebi-d83g": {
+  "anios": [
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "dims": {
+   "departamento": [
+    {
+     "enum": "CHOCO",
+     "texto": "CHOCO",
+     "n": 2318
+    },
+    {
+     "enum": "NARINO",
+     "texto": "NARIÑO",
+     "n": 1139
+    },
+    {
+     "enum": "CAUCA",
+     "texto": "CAUCA",
+     "n": 852
+    },
+    {
+     "enum": "VALLE_DEL_CAUCA",
+     "texto": "VALLE DEL CAUCA",
+     "n": 480
+    },
+    {
+     "enum": "CAQUETA",
+     "texto": "CAQUETA",
+     "n": 298
+    },
+    {
+     "enum": "VICHADA",
+     "texto": "VICHADA",
+     "n": 257
+    },
+    {
+     "enum": "GUAINIA",
+     "texto": "GUAINIA",
+     "n": 232
+    },
+    {
+     "enum": "VAUPES",
+     "texto": "VAUPES",
+     "n": 221
+    },
+    {
+     "enum": "AMAZONAS",
+     "texto": "AMAZONAS",
+     "n": 208
+    },
+    {
+     "enum": "ANTIOQUIA",
+     "texto": "ANTIOQUIA",
+     "n": 183
+    },
+    {
+     "enum": "BOLIVAR",
+     "texto": "BOLIVAR",
+     "n": 177
+    },
+    {
+     "enum": "PUTUMAYO",
+     "texto": "PUTUMAYO",
+     "n": 129
+    },
+    {
+     "enum": "CHOCO",
+     "texto": "CHOCO",
+     "n": 102
+    },
+    {
+     "enum": "GUAVIARE",
+     "texto": "GUAVIARE",
+     "n": 92
+    },
+    {
+     "enum": "MAGDALENA",
+     "texto": "MAGDALENA",
+     "n": 80
+    },
+    {
+     "enum": "META",
+     "texto": "META",
+     "n": 76
+    },
+    {
+     "enum": "LA_GUAJIRA",
+     "texto": "LA GUAJIRA",
+     "n": 70
+    },
+    {
+     "enum": "ARCHIPIELAGO_DE_SAN_ANDRES_PROVIDENCIA_Y_SANTA_CATALINA",
+     "texto": "ARCHIPIELAGO DE SAN ANDRES",
+     "n": 65
+    },
+    {
+     "enum": "ARCHIPIELAGO_DE_SAN_ANDRES_PROVIDENCIA_Y_SANTA_CATALINA",
+     "texto": "ARCHIPIELAGO DE SAN ANDRES",
+     "n": 48
+    },
+    {
+     "enum": "CASANARE",
+     "texto": "CASANARE",
+     "n": 30
+    },
+    {
+     "enum": "ARCHIPIELAGO_DE_SAN_ANDRES_PROVIDENCIA_Y_SANTA_CATALINA",
+     "texto": "ARCHIPIELAGO DE SAN ANDRES",
+     "n": 16
+    },
+    {
+     "enum": "ARCHIPIELAGO_DE_SAN_ANDRES_PROVIDENCIA_Y_SANTA_CATALINA",
+     "texto": "ARCHIPIELAGO DE SAN ANDRES",
+     "n": 6
+    },
+    {
+     "enum": "BOLIVAR",
+     "texto": "BOLIVAR",
+     "n": 3
+    },
+    {
+     "enum": "CAQUETA",
+     "texto": "CAQUETA",
+     "n": 3
+    },
+    {
+     "enum": "ARCHIPIELAGO_DE_SAN_ANDRES_PROVIDENCIA_Y_SANTA_CATALINA",
+     "texto": "ARCHIPIELAGO DE SAN ANDRES",
+     "n": 2
+    },
+    {
+     "enum": "GUAINIA",
+     "texto": "GUAINIA",
+     "n": 2
+    },
+    {
+     "enum": "VAUPES",
+     "texto": "VAUPES",
+     "n": 2
+    }
+   ],
+   "municipio": [
+    {
+     "texto": "BUENAVENTURA",
+     "n": 480
+    },
+    {
+     "texto": "TIMBIQUÍ",
+     "n": 431
+    },
+    {
+     "texto": "NUQUÍ",
+     "n": 351
+    },
+    {
+     "texto": "LA TOLA",
+     "n": 317
+    },
+    {
+     "texto": "BAJO BAUDÓ",
+     "n": 309
+    },
+    {
+     "texto": "LÓPEZ DE MICAY",
+     "n": 261
+    },
+    {
+     "texto": "EL CHARCO",
+     "n": 256
+    },
+    {
+     "texto": "SAN ANDRÉS DE TUMACO",
+     "n": 225
+    },
+    {
+     "texto": "UNGUÍA",
+     "n": 222
+    },
+    {
+     "texto": "VIGÍA DEL FUERTE",
+     "n": 182
+    },
+    {
+     "texto": "SAN VICENTE DEL CAGUÁN",
+     "n": 179
+    },
+    {
+     "texto": "CARTAGENA DE INDIAS",
+     "n": 170
+    },
+    {
+     "texto": "ACANDÍ",
+     "n": 154
+    },
+    {
+     "texto": "ALTO BAUDO",
+     "n": 146
+    },
+    {
+     "texto": "BOJAYÁ",
+     "n": 138
+    },
+    {
+     "texto": "GUAPI",
+     "n": 138
+    },
+    {
+     "texto": "INÍRIDA",
+     "n": 134
+    },
+    {
+     "texto": "JURADO",
+     "n": 132
+    },
+    {
+     "texto": "BOJAYÁ (BELLAVISTA)",
+     "n": 129
+    },
+    {
+     "texto": "PUERTO CARREÑO",
+     "n": 126
+    },
+    {
+     "texto": "EL LITORAL DEL SAN JUAN",
+     "n": 124
+    },
+    {
+     "texto": "BAHÍA SOLANO (MUTIS)",
+     "n": 108
+    },
+    {
+     "texto": "BAJO BAUDÓ (PIZARRO)",
+     "n": 101
+    },
+    {
+     "texto": "MEDIO ATRATO",
+     "n": 94
+    },
+    {
+     "texto": "BAHÍA SOLANO",
+     "n": 88
+    },
+    {
+     "texto": "CIÉNAGA",
+     "n": 79
+    },
+    {
+     "texto": "MITÚ",
+     "n": 76
+    },
+    {
+     "texto": "SANTA BÁRBARA (ISCUANDÉ)",
+     "n": 75
+    },
+    {
+     "texto": "OLAYA HERRERA",
+     "n": 74
+    },
+    {
+     "texto": "PUERTO LEGUÍZAMO",
+     "n": 74
+    }
+   ],
+   "localidad": [
+    {
+     "texto": "PALMOR (CIÉNAGA - MAGDALENA)",
+     "n": 66
+    },
+    {
+     "texto": "GUACAMAYAS (SAN VICENTE DEL CAGUÁN - CAQUETÁ)",
+     "n": 65
+    },
+    {
+     "texto": "PUERTO CARREÑO (PUERTO CARREÑO - VICHADA)",
+     "n": 64
+    },
+    {
+     "texto": "MULATOS (LA TOLA - NARIÑO)",
+     "n": 63
+    },
+    {
+     "texto": "ACANDÍ (ACANDÍ - CHOCÓ)",
+     "n": 62
+    },
+    {
+     "texto": "MITÚ (MITÚ - VAUPÉS)",
+     "n": 62
+    },
+    {
+     "texto": "SAN FRANCISCO NAYA (BUENAVENTURA - VALLE DEL CAUCA)",
+     "n": 62
+    },
+    {
+     "texto": "COTEJE (TIMBIQUÍ - CAUCA)",
+     "n": 61
+    },
+    {
+     "texto": "PUERTO MERIZALDE (BUENAVENTURA - VALLE DEL CAUCA)",
+     "n": 60
+    },
+    {
+     "texto": "TARAIRA (TARAIRA - VAUPÉS)",
+     "n": 60
+    },
+    {
+     "texto": "TITUMATE (UNGUÍA - CHOCÓ)",
+     "n": 59
+    },
+    {
+     "texto": "UNGUÍA (UNGUÍA - CHOCÓ)",
+     "n": 59
+    },
+    {
+     "texto": "CARURÚ (CARURÚ - VAUPÉS)",
+     "n": 58
+    },
+    {
+     "texto": "LETICIA (LETICIA - AMAZONAS)",
+     "n": 58
+    },
+    {
+     "texto": "MIRAFLORES (MIRAFLORES - GUAVIARE)",
+     "n": 58
+    },
+    {
+     "texto": "PUERTO NARIÑO (PUERTO NARIÑO - AMAZONAS)",
+     "n": 58
+    },
+    {
+     "texto": "LIMONES (GUAPI - CAUCA)",
+     "n": 56
+    },
+    {
+     "texto": "EL VALLE (BAHÍA SOLANO - CHOCÓ)",
+     "n": 55
+    },
+    {
+     "texto": "INÍRIDA (INÍRIDA - GUAINÍA)",
+     "n": 55
+    },
+    {
+     "texto": "BALBOA (UNGUÍA - CHOCÓ)",
+     "n": 54
+    },
+    {
+     "texto": "ISLA FUERTE (CARTAGENA DE INDIAS - BOLÍVAR)",
+     "n": 54
+    },
+    {
+     "texto": "SAN JUAN DE LA COSTA (SAN ANDRÉS DE TUMACO - NARIÑO)",
+     "n": 53
+    },
+    {
+     "texto": "CUPICA (BAHÍA SOLANO - CHOCÓ)",
+     "n": 52
+    },
+    {
+     "texto": "CIUDAD MUTIS (BAHÍA SOLANO - CHOCÓ)",
+     "n": 51
+    },
+    {
+     "texto": "SANTA ROSA DE SAIJA (TIMBIQUÍ - CAUCA)",
+     "n": 51
+    },
+    {
+     "texto": "BOCA DE PRIETA (OLAYA HERRERA - NARIÑO)",
+     "n": 49
+    },
+    {
+     "texto": "TAGACHI (QUIBDÓ - CHOCÓ)",
+     "n": 47
+    },
+    {
+     "texto": "CUMARIBO (CUMARIBO - VICHADA)",
+     "n": 46
+    },
+    {
+     "texto": "PUERTO SAIJA (TIMBIQUÍ - CAUCA)",
+     "n": 46
+    },
+    {
+     "texto": "COMUNIDAD DE CHETE (TIMBIQUÍ - CAUCA)",
+     "n": 45
+    }
+   ],
+   "diaDeDemandaMaxima": [
+    {
+     "enum": "SABADO",
+     "texto": "Sabado",
+     "n": 1016
+    },
+    {
+     "enum": "JUEVES",
+     "texto": "Jueves",
+     "n": 970
+    },
+    {
+     "enum": "VIERNES",
+     "texto": "Viernes",
+     "n": 887
+    },
+    {
+     "enum": "MIERCOLES",
+     "texto": "Miercoles",
+     "n": 882
+    },
+    {
+     "enum": "MARTES",
+     "texto": "Martes",
+     "n": 774
+    },
+    {
+     "enum": "LUNES",
+     "texto": "Lunes",
+     "n": 744
+    },
+    {
+     "enum": "DOMINGO",
+     "texto": "Domingo",
+     "n": 633
+    },
+    {
+     "enum": "VIERNES",
+     "texto": "Viernes",
+     "n": 178
+    },
+    {
+     "enum": "MIERCOLES",
+     "texto": "Miercoles",
+     "n": 167
+    },
+    {
+     "enum": "MARTES",
+     "texto": "Martes",
+     "n": 151
+    },
+    {
+     "enum": "SABADO",
+     "texto": "Sabado",
+     "n": 149
+    },
+    {
+     "enum": "JUEVES",
+     "texto": "Jueves",
+     "n": 141
+    },
+    {
+     "enum": "LUNES",
+     "texto": "Lunes",
+     "n": 134
+    },
+    {
+     "enum": "DOMINGO",
+     "texto": "Domingo",
+     "n": 111
+    },
+    {
+     "enum": "MIERCOLES",
+     "texto": "Miercoles",
+     "n": 35
+    },
+    {
+     "enum": "SABADO",
+     "texto": "Sabado",
+     "n": 21
+    }
+   ]
+  },
+  "medias": {
+   "energiaActiva": {
+    "avg": 341501.35890565504,
+    "max": 21430420
+   },
+   "energiaReactiva": {
+    "avg": 94827.31561133832,
+    "max": 5435213
+   },
+   "potenciaMaxima": {
+    "avg": 161688.6646407778,
+    "max": 314570801.0
+   },
+   "promedioDiarioEnHoras": {
+    "avg": 49.390714878014386,
+    "max": 2400.0
+   }
+  },
+  "meses": []
+ },
+ "rtai-k9uh": {
+  "anios": [
+   2018,
+   2019,
+   2020,
+   2021,
+   2025
+  ],
+  "dims": {
+   "orden": [
+    {
+     "enum": "TERRITORIAL",
+     "texto": "TERRITORIAL",
+     "n": 102592
+    },
+    {
+     "enum": "NACIONAL",
+     "texto": "NACIONAL",
+     "n": 6364
+    }
+   ],
+   "sector": [
+    {
+     "enum": "NO_APLICA",
+     "texto": "NO APLICA",
+     "n": 102779
+    },
+    {
+     "enum": "HACIENDA_Y_CREDITO_PUBLICO",
+     "texto": "HACIENDA Y CRÉDITO PÚBLICO",
+     "n": 842
+    },
+    {
+     "enum": "DEFENSA",
+     "texto": "DEFENSA",
+     "n": 732
+    },
+    {
+     "enum": "EDUCACION",
+     "texto": "EDUCACIÓN",
+     "n": 487
+    },
+    {
+     "enum": "AMBIENTE_Y_DESARROLLO_SOSTENIBLE",
+     "texto": "AMBIENTE Y DESARROLLO SOSTENIBLE",
+     "n": 431
+    },
+    {
+     "enum": "SALUD_Y_PROTECCION_SOCIAL",
+     "texto": "SALUD Y PROTECCIÓN SOCIAL",
+     "n": 409
+    },
+    {
+     "enum": "AGROPECUARIO_PESQUERO_Y_DE_DESARROLLO_RURAL",
+     "texto": "AGROPECUARIO PESQUERO Y DE DESARROLLO RURAL",
+     "n": 291
+    },
+    {
+     "enum": "COMERCIO_INDUSTRIA_Y_TURISMO",
+     "texto": "COMERCIO, INDUSTRIA Y TURISMO",
+     "n": 288
+    },
+    {
+     "enum": "TECNOLOGIAS_DE_LA_INFORMACION_Y_LAS_COMUNICACIONES",
+     "texto": "TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+     "n": 281
+    },
+    {
+     "enum": "TRANSPORTE",
+     "texto": "TRANSPORTE",
+     "n": 266
+    },
+    {
+     "enum": "MINAS_Y_ENERGIA",
+     "texto": "MINAS Y ENERGÍA",
+     "n": 263
+    },
+    {
+     "enum": "TRABAJO",
+     "texto": "TRABAJO",
+     "n": 236
+    },
+    {
+     "enum": "INTERIOR",
+     "texto": "INTERIOR",
+     "n": 232
+    },
+    {
+     "enum": "PRESIDENCIA_DE_LA_REPUBLICA",
+     "texto": "PRESIDENCIA DE LA REPÚBLICA",
+     "n": 230
+    },
+    {
+     "enum": "JUSTICIA_Y_DEL_DERECHO",
+     "texto": "JUSTICIA Y DEL DERECHO",
+     "n": 190
+    },
+    {
+     "enum": "CULTURA",
+     "texto": "CULTURA",
+     "n": 159
+    },
+    {
+     "enum": "INCLUSION_SOCIAL_Y_RECONCILIACION",
+     "texto": "INCLUSIÓN SOCIAL Y RECONCILIACIÓN",
+     "n": 146
+    },
+    {
+     "enum": "PLANEACION",
+     "texto": "PLANEACIÓN",
+     "n": 136
+    },
+    {
+     "enum": "VIVIENDA_CIUDAD_Y_TERRITORIO",
+     "texto": "VIVIENDA CIUDAD Y TERRITORIO",
+     "n": 101
+    },
+    {
+     "enum": "AGROPECUARIO_PESQUERO_Y_DE_DESARROLLO_RURAL",
+     "texto": "AGROPECUARIO PESQUERO Y DE DESARROLLO RURAL",
+     "n": 85
+    },
+    {
+     "enum": "FUNCION_PUBLICA",
+     "texto": "FUNCIÓN PÚBLICA",
+     "n": 80
+    },
+    {
+     "enum": "RELACIONES_EXTERIORES",
+     "texto": "RELACIONES EXTERIORES",
+     "n": 80
+    },
+    {
+     "enum": "ESTADISTICAS",
+     "texto": "ESTADÍSTICAS",
+     "n": 58
+    },
+    {
+     "enum": "IGUALDAD_Y_EQUIDAD",
+     "texto": "IGUALDAD Y EQUIDAD",
+     "n": 43
+    },
+    {
+     "enum": "CIENCIA_TECNOLOGIA_E_INNOVACION",
+     "texto": "CIENCIA, TECNOLOGÍA E INNOVACIÓN",
+     "n": 40
+    },
+    {
+     "enum": "DEPORTE",
+     "texto": "DEL DEPORTE, LA RECREACIÓN, LA ACTIVIDAD FÍSICA Y EL APROVECHAMIENTO DEL TIEMPO LIBRE",
+     "n": 29
+    },
+    {
+     "enum": "INFORMACION_ESTADISTICA",
+     "texto": "INFORMACIÓN ESTADÍSTICA",
+     "n": 22
+    },
+    {
+     "enum": "DEPORTE",
+     "texto": "DEL DEPORTE, LA RECREACIÓN, LA ACTIVIDAD FÍSICA Y EL APROVECHAMIENTO DEL TIEMPO LIBRE",
+     "n": 10
+    },
+    {
+     "enum": "INTELIGENCIA_ESTRATEGICA_Y_CONTRAINTELIGENCIA",
+     "texto": "INTELIGENCIA ESTRATÉGICA Y CONTRAINTELIGENCIA",
+     "n": 10
+    }
+   ],
+   "indice": [
+    {
+     "enum": "ARQUITECTURA",
+     "texto": "Arquitectura",
+     "n": 10580
+    },
+    {
+     "enum": "INDICE_DE_GOBIERNO_DIGITAL",
+     "texto": "Gobierno Digital",
+     "n": 10579
+    },
+    {
+     "enum": "SEGURIDAD_Y_PRIVACIDAD_DE_LA_INFORMACION",
+     "texto": "Fortalecimiento de la Seguridad y Privacidad de la Información",
+     "n": 10576
+    },
+    {
+     "enum": "ESTADO_ABIERTO",
+     "texto": "Empoderamiento de los ciudadanos mediante un Estado abierto",
+     "n": 10542
+    },
+    {
+     "enum": "SERVICIOS_CIUDADANOS_DIGITALES",
+     "texto": "Servicios Ciudadanos Digitales",
+     "n": 8917
+    },
+    {
+     "enum": "PROCESOS_SEGUROS_Y_EFICIENTES",
+     "texto": "Procesos seguros y eficientes",
+     "n": 8909
+    },
+    {
+     "enum": "DECISIONES_BASADAS_EN_DATOS",
+     "texto": "Decisiones Basadas en Datos",
+     "n": 8877
+    },
+    {
+     "enum": "SERVICIOS_DIGITALES_DE_CONFIANZA_Y_CALIDAD",
+     "texto": "Servicios Digitales de Confianza y Calidad",
+     "n": 4171
+    },
+    {
+     "enum": "ESTRATEGIAS_DE_CIUDADES_Y_TERRITORIOS_INTELIGENTES",
+     "texto": "Estrategias de Ciudades y Territorios Inteligentes",
+     "n": 4012
+    },
+    {
+     "enum": "ARQUITECTURA",
+     "texto": "Arquitectura",
+     "n": 3374
+    },
+    {
+     "enum": "SEGURIDAD_Y_PRIVACIDAD_DE_LA_INFORMACION",
+     "texto": "Fortalecimiento de la Seguridad y Privacidad de la Información",
+     "n": 3373
+    },
+    {
+     "enum": "ESTADO_ABIERTO",
+     "texto": "Empoderamiento de los ciudadanos mediante un Estado abierto",
+     "n": 3372
+    },
+    {
+     "enum": "INDICE_DE_GOBIERNO_DIGITAL",
+     "texto": "Gobierno Digital",
+     "n": 3372
+    },
+    {
+     "enum": "DECISIONES_BASADAS_EN_DATOS",
+     "texto": "Decisiones Basadas en Datos",
+     "n": 3371
+    },
+    {
+     "enum": "GOBERNANZA",
+     "texto": "Gobernanza",
+     "n": 3030
+    },
+    {
+     "enum": "CULTURA_Y_APROPIACION",
+     "texto": "Cultura y Apropiación",
+     "n": 3028
+    },
+    {
+     "enum": "SERVICIOS_CIUDADANOS_DIGITALES",
+     "texto": "Servicios Ciudadanos Digitales",
+     "n": 2751
+    },
+    {
+     "enum": "INNOVACION_PUBLICA_DIGITAL",
+     "texto": "Innovación Pública Digital",
+     "n": 2414
+    },
+    {
+     "enum": "SERVICIOS_Y_PROCESOS_INTELIGENTES",
+     "texto": "Servicios y Procesos Inteligentes",
+     "n": 2360
+    },
+    {
+     "enum": "PROYECTOS_DE_TRANSFORMACION_DIGITAL",
+     "texto": "Proyectos de Transformación Digital",
+     "n": 1057
+    },
+    {
+     "enum": "ESTRATEGIAS_DE_CIUDADES_Y_TERRITORIOS_INTELIGENTES",
+     "texto": "Estrategias de Ciudades y Territorios Inteligentes",
+     "n": 291
+    }
+   ],
+   "departamento": [
+    {
+     "texto": "Antioquia",
+     "n": 9648
+    },
+    {
+     "texto": "Cundinamarca",
+     "n": 7359
+    },
+    {
+     "texto": "Boyacá",
+     "n": 6659
+    },
+    {
+     "texto": "Santander",
+     "n": 5656
+    },
+    {
+     "texto": "Bogotá, D. C.",
+     "n": 5326
+    },
+    {
+     "texto": "Valle Del Cauca",
+     "n": 4306
+    },
+    {
+     "texto": "ANTIOQUIA",
+     "n": 4211
+    },
+    {
+     "texto": "Nariño",
+     "n": 3651
+    },
+    {
+     "texto": "Tolima",
+     "n": 3296
+    },
+    {
+     "texto": "Huila",
+     "n": 2787
+    },
+    {
+     "texto": "CUNDINAMARCA",
+     "n": 2705
+    },
+    {
+     "texto": "BOGOTÁ. D.C.",
+     "n": 2661
+    },
+    {
+     "texto": "BOYACÁ",
+     "n": 2615
+    },
+    {
+     "texto": "Bolívar",
+     "n": 2367
+    },
+    {
+     "texto": "Caldas",
+     "n": 2284
+    },
+    {
+     "texto": "Cauca",
+     "n": 2231
+    },
+    {
+     "texto": "SANTANDER",
+     "n": 2185
+    },
+    {
+     "texto": "Norte De Santander",
+     "n": 2121
+    },
+    {
+     "texto": "Cesar",
+     "n": 1969
+    },
+    {
+     "texto": "Magdalena",
+     "n": 1952
+    },
+    {
+     "texto": "Meta",
+     "n": 1817
+    },
+    {
+     "texto": "VALLE DEL CAUCA",
+     "n": 1769
+    },
+    {
+     "texto": "Risaralda",
+     "n": 1602
+    },
+    {
+     "texto": "Atlántico",
+     "n": 1589
+    },
+    {
+     "texto": "Córdoba",
+     "n": 1571
+    },
+    {
+     "texto": "Sucre",
+     "n": 1512
+    },
+    {
+     "texto": "Casanare",
+     "n": 1430
+    },
+    {
+     "texto": "NARIÑO",
+     "n": 1407
+    },
+    {
+     "texto": "TOLIMA",
+     "n": 1322
+    },
+    {
+     "texto": "HUILA",
+     "n": 1157
+    }
+   ]
+  },
+  "medias": {
+   "puntajeEntidad": {
+    "avg": 56.146788200101525,
+    "max": 100.0
+   },
+   "promedioGrupoPar": {
+    "avg": 56.121028750402196,
+    "max": 100.0
+   }
+  },
+  "meses": []
+ },
+ "kekd-7v7h": {
+  "anios": [
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "dims": {
+   "variable": [
+    {
+     "enum": "PM10",
+     "texto": "PM10",
+     "n": 5706
+    },
+    {
+     "enum": "PM2_5",
+     "texto": "PM2.5",
+     "n": 3711
+    },
+    {
+     "enum": "VVIENTO",
+     "texto": "VViento",
+     "n": 2508
+    },
+    {
+     "enum": "DVIENTO",
+     "texto": "DViento",
+     "n": 2198
+    },
+    {
+     "enum": "SO2",
+     "texto": "SO2",
+     "n": 2009
+    },
+    {
+     "enum": "PLIQUIDA",
+     "texto": "PLiquida",
+     "n": 1854
+    },
+    {
+     "enum": "TAIRE2",
+     "texto": "TAire2",
+     "n": 1668
+    },
+    {
+     "enum": "O3",
+     "texto": "O3",
+     "n": 1597
+    },
+    {
+     "enum": "HAIRE2",
+     "texto": "HAire2",
+     "n": 1386
+    },
+    {
+     "enum": "CO",
+     "texto": "CO",
+     "n": 1363
+    },
+    {
+     "enum": "P",
+     "texto": "P",
+     "n": 1346
+    },
+    {
+     "enum": "NO2",
+     "texto": "NO2",
+     "n": 1239
+    },
+    {
+     "enum": "RGLOBAL",
+     "texto": "RGlobal",
+     "n": 1200
+    },
+    {
+     "enum": "HAIRE10",
+     "texto": "HAire10",
+     "n": 722
+    },
+    {
+     "enum": "TAIRE10",
+     "texto": "TAire10",
+     "n": 668
+    },
+    {
+     "enum": "NO",
+     "texto": "NO",
+     "n": 580
+    },
+    {
+     "enum": "PST",
+     "texto": "PST",
+     "n": 482
+    },
+    {
+     "enum": "HAIRE",
+     "texto": "HAire",
+     "n": 150
+    },
+    {
+     "enum": "TAIRE",
+     "texto": "TAire",
+     "n": 146
+    },
+    {
+     "enum": "RUVB",
+     "texto": "RUVb",
+     "n": 132
+    }
+   ],
+   "nombreDelDepartamento": [
+    {
+     "enum": "ANTIOQUIA",
+     "texto": "ANTIOQUIA",
+     "n": 8486
+    },
+    {
+     "enum": "BOGOTA_D_C",
+     "texto": "BOGOTA, D.C.",
+     "n": 4285
+    },
+    {
+     "enum": "VALLE_DEL_CAUCA",
+     "texto": "VALLE DEL CAUCA",
+     "n": 2868
+    },
+    {
+     "enum": "SANTANDER",
+     "texto": "SANTANDER",
+     "n": 1880
+    },
+    {
+     "enum": "BOGOTA_D_C",
+     "texto": "BOGOTA, D.C.",
+     "n": 1680
+    },
+    {
+     "enum": "CUNDINAMARCA",
+     "texto": "CUNDINAMARCA",
+     "n": 1514
+    },
+    {
+     "enum": "CESAR",
+     "texto": "CESAR",
+     "n": 1048
+    },
+    {
+     "enum": "BOYACA",
+     "texto": "BOYACA",
+     "n": 1030
+    },
+    {
+     "enum": "MAGDALENA",
+     "texto": "MAGDALENA",
+     "n": 986
+    },
+    {
+     "enum": "LA_GUAJIRA",
+     "texto": "LA GUAJIRA",
+     "n": 764
+    },
+    {
+     "enum": "ATLANTICO",
+     "texto": "ATLANTICO",
+     "n": 654
+    },
+    {
+     "enum": "BOGOTA_D_C",
+     "texto": "BOGOTA, D.C.",
+     "n": 634
+    },
+    {
+     "enum": "BOYACA",
+     "texto": "BOYACA",
+     "n": 564
+    },
+    {
+     "enum": "CUNDINAMARCA",
+     "texto": "CUNDINAMARCA",
+     "n": 542
+    },
+    {
+     "enum": "ANTIOQUIA",
+     "texto": "ANTIOQUIA",
+     "n": 506
+    },
+    {
+     "enum": "META",
+     "texto": "META",
+     "n": 488
+    },
+    {
+     "enum": "CAUCA",
+     "texto": "CAUCA",
+     "n": 290
+    },
+    {
+     "enum": "BOLIVAR",
+     "texto": "BOLÍVAR",
+     "n": 228
+    },
+    {
+     "enum": "VALLE_DEL_CAUCA",
+     "texto": "VALLE DEL CAUCA",
+     "n": 214
+    },
+    {
+     "enum": "BOYACA",
+     "texto": "BOYACA",
+     "n": 190
+    },
+    {
+     "enum": "CALDAS",
+     "texto": "CALDAS",
+     "n": 184
+    },
+    {
+     "enum": "ATLANTICO",
+     "texto": "ATLANTICO",
+     "n": 168
+    },
+    {
+     "enum": "RISARALDA",
+     "texto": "RISARALDA",
+     "n": 162
+    },
+    {
+     "enum": "BOLIVAR",
+     "texto": "BOLÍVAR",
+     "n": 150
+    },
+    {
+     "enum": "CORDOBA",
+     "texto": "CORDOBA",
+     "n": 126
+    },
+    {
+     "enum": "NORTE_DE_SANTANDER",
+     "texto": "NORTE DE SANTANDER",
+     "n": 120
+    },
+    {
+     "enum": "TOLIMA",
+     "texto": "TOLIMA",
+     "n": 104
+    },
+    {
+     "enum": "SANTANDER",
+     "texto": "SANTANDER",
+     "n": 102
+    },
+    {
+     "enum": "MAGDALENA",
+     "texto": "MAGDALENA",
+     "n": 96
+    },
+    {
+     "enum": "CESAR",
+     "texto": "CESAR",
+     "n": 68
+    }
+   ],
+   "tipoDeEstacion": [
+    {
+     "enum": "FIJA",
+     "texto": "Fija",
+     "n": 27568
+    },
+    {
+     "enum": "INDICATIVA",
+     "texto": "Indicativa",
+     "n": 3095
+    },
+    {
+     "enum": "NA",
+     "texto": "N/A",
+     "n": 1
+    },
+    {
+     "enum": "NA",
+     "texto": "N/A",
+     "n": 1
+    }
+   ],
+   "autoridadAmbiental": [
+    {
+     "enum": "SDA",
+     "texto": "SDA",
+     "n": 6482
+    },
+    {
+     "enum": "AMVA",
+     "texto": "AMVA",
+     "n": 5944
+    },
+    {
+     "enum": "CORANTIOQUIA",
+     "texto": "CORANTIOQUIA",
+     "n": 2444
+    },
+    {
+     "enum": "CAR",
+     "texto": "CAR",
+     "n": 2325
+    },
+    {
+     "enum": "DAGMA",
+     "texto": "DAGMA",
+     "n": 2028
+    },
+    {
+     "enum": "CORPOBOYACA",
+     "texto": "CORPOBOYACA",
+     "n": 1632
+    },
+    {
+     "enum": "CDMB",
+     "texto": "CDMB",
+     "n": 1490
+    },
+    {
+     "enum": "CORPOCESAR",
+     "texto": "CORPOCESAR",
+     "n": 1116
+    },
+    {
+     "enum": "CORPAMAG",
+     "texto": "CORPAMAG",
+     "n": 1082
+    },
+    {
+     "enum": "CVC",
+     "texto": "CVC",
+     "n": 1054
+    },
+    {
+     "enum": "EPA_BARRANQUILLA",
+     "texto": "EPA BARRANQUILLA",
+     "n": 804
+    },
+    {
+     "enum": "CORPOGUAJIRA",
+     "texto": "CORPOGUAJIRA",
+     "n": 788
+    },
+    {
+     "enum": "CORNARE",
+     "texto": "CORNARE",
+     "n": 604
+    },
+    {
+     "enum": "CORMACARENA",
+     "texto": "CORMACARENA",
+     "n": 517
+    },
+    {
+     "enum": "AMB",
+     "texto": "AMB",
+     "n": 492
+    },
+    {
+     "enum": "CRC",
+     "texto": "CRC",
+     "n": 295
+    },
+    {
+     "enum": "CORPOCALDAS",
+     "texto": "CORPOCALDAS",
+     "n": 250
+    },
+    {
+     "enum": "CVS",
+     "texto": "CVS",
+     "n": 200
+    },
+    {
+     "enum": "CARDER",
+     "texto": "CARDER",
+     "n": 194
+    },
+    {
+     "enum": "CORPONOR",
+     "texto": "CORPONOR",
+     "n": 155
+    },
+    {
+     "enum": "EPA_CARTAGENA",
+     "texto": "EPA CARTAGENA",
+     "n": 142
+    },
+    {
+     "enum": "CORTOLIMA",
+     "texto": "CORTOLIMA",
+     "n": 109
+    },
+    {
+     "enum": "CARDIQUE",
+     "texto": "CARDIQUE",
+     "n": 90
+    },
+    {
+     "enum": "EPA_CARTAGENA",
+     "texto": "EPA CARTAGENA",
+     "n": 90
+    },
+    {
+     "enum": "CRA",
+     "texto": "CRA",
+     "n": 78
+    },
+    {
+     "enum": "CORPORINOQUIA",
+     "texto": "CORPORINOQUIA",
+     "n": 72
+    },
+    {
+     "enum": "CAM",
+     "texto": "CAM",
+     "n": 56
+    },
+    {
+     "enum": "CAR_DEL_CANAL_DEL_DIQUE",
+     "texto": "CAR DEL CANAL DEL DIQUE",
+     "n": 56
+    },
+    {
+     "enum": "CRQ",
+     "texto": "CRQ",
+     "n": 42
+    },
+    {
+     "enum": "CORPONARINO",
+     "texto": "CORPONARIÑO",
+     "n": 22
+    }
+   ],
+   "nombreDelMunicipio": [
+    {
+     "texto": "BOGOTÁ, D.C.",
+     "n": 4285
+    },
+    {
+     "texto": "CALI",
+     "n": 2056
+    },
+    {
+     "texto": "MEDELLÍN",
+     "n": 1860
+    },
+    {
+     "texto": "BOGOTA, D.C.",
+     "n": 1680
+    },
+    {
+     "texto": "BUCARAMANGA",
+     "n": 1306
+    },
+    {
+     "texto": "SOGAMOSO",
+     "n": 892
+    },
+    {
+     "texto": "MEDELLIN",
+     "n": 856
+    },
+    {
+     "texto": "GIRARDOTA",
+     "n": 828
+    },
+    {
+     "texto": "ITAGÜÍ",
+     "n": 790
+    },
+    {
+     "texto": "SANTA MARTA",
+     "n": 686
+    },
+    {
+     "texto": "BARRANQUILLA",
+     "n": 592
+    },
+    {
+     "texto": "NOBSA",
+     "n": 498
+    },
+    {
+     "texto": "VILLAVICENCIO",
+     "n": 488
+    },
+    {
+     "texto": "Bogotá, D.C.",
+     "n": 458
+    },
+    {
+     "texto": "SABANETA",
+     "n": 458
+    },
+    {
+     "texto": "BELLO",
+     "n": 448
+    },
+    {
+     "texto": "CALDAS",
+     "n": 386
+    },
+    {
+     "texto": "FLORIDABLANCA",
+     "n": 354
+    },
+    {
+     "texto": "LA JAGUA DE IBIRICO",
+     "n": 340
+    },
+    {
+     "texto": "YUMBO",
+     "n": 322
+    },
+    {
+     "texto": "BARBOSA",
+     "n": 310
+    },
+    {
+     "texto": "EL PASO",
+     "n": 292
+    },
+    {
+     "texto": "PALMIRA",
+     "n": 266
+    },
+    {
+     "texto": "BARRANCAS",
+     "n": 244
+    },
+    {
+     "texto": "ENVIGADO",
+     "n": 244
+    },
+    {
+     "texto": "MOSQUERA",
+     "n": 222
+    },
+    {
+     "texto": "SOACHA",
+     "n": 212
+    },
+    {
+     "texto": "SOLEDAD",
+     "n": 198
+    },
+    {
+     "texto": "RIONEGRO",
+     "n": 186
+    },
+    {
+     "texto": "CHIRIGUANÁ",
+     "n": 182
+    }
+   ]
+  },
+  "medias": {
+   "promedio": {
+    "avg": 108.48929948889614,
+    "max": 3294.8
+   },
+   "maximo": {
+    "avg": 418.63700193588784,
+    "max": 733378.0
+   },
+   "diasDeExcedencias": {
+    "avg": 7.109277678134681,
+    "max": 327
+   },
+   "excedenciasLimiteActual": {
+    "avg": 29.480710908201534,
+    "max": 3292
+   },
+   "noDeDatos": {
+    "avg": 3064.699005380727,
+    "max": 8783
+   }
+  },
+  "meses": []
+ },
+ "nxt2-39c3": {
+  "anios": [
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024
+  ],
+  "dims": {
+   "departamento": [
+    {
+     "enum": "ANTIOQUIA",
+     "texto": "Antioquia",
+     "n": 2207
+    },
+    {
+     "enum": "BOYACA",
+     "texto": "Boyacá",
+     "n": 2197
+    },
+    {
+     "enum": "CUNDINAMARCA",
+     "texto": "Cundinamarca",
+     "n": 2045
+    },
+    {
+     "enum": "SANTANDER",
+     "texto": "Santander",
+     "n": 1519
+    },
+    {
+     "enum": "NARINO",
+     "texto": "Nariño",
+     "n": 1067
+    },
+    {
+     "enum": "TOLIMA",
+     "texto": "Tolima",
+     "n": 806
+    },
+    {
+     "enum": "BOLIVAR",
+     "texto": "Bolívar",
+     "n": 785
+    },
+    {
+     "enum": "NORTE_DE_SANTANDER",
+     "texto": "Norte de Santander",
+     "n": 717
+    },
+    {
+     "enum": "VALLE_DEL_CAUCA",
+     "texto": "Valle del Cauca",
+     "n": 706
+    },
+    {
+     "enum": "CAUCA",
+     "texto": "Cauca",
+     "n": 698
+    },
+    {
+     "enum": "HUILA",
+     "texto": "Huila",
+     "n": 664
+    },
+    {
+     "enum": "MAGDALENA",
+     "texto": "Magdalena",
+     "n": 518
+    },
+    {
+     "enum": "CALDAS",
+     "texto": "Caldas",
+     "n": 486
+    },
+    {
+     "enum": "META",
+     "texto": "Meta",
+     "n": 481
+    },
+    {
+     "enum": "SUCRE",
+     "texto": "Sucre",
+     "n": 458
+    },
+    {
+     "enum": "CESAR",
+     "texto": "Cesar",
+     "n": 434
+    },
+    {
+     "enum": "CORDOBA",
+     "texto": "Córdoba",
+     "n": 419
+    },
+    {
+     "enum": "ATLANTICO",
+     "texto": "Atlántico",
+     "n": 413
+    },
+    {
+     "enum": "CASANARE",
+     "texto": "Casanare",
+     "n": 332
+    },
+    {
+     "enum": "CAQUETA",
+     "texto": "Caquetá",
+     "n": 270
+    },
+    {
+     "enum": "RISARALDA",
+     "texto": "Risaralda",
+     "n": 252
+    },
+    {
+     "enum": "LA_GUAJIRA",
+     "texto": "La Guajira",
+     "n": 240
+    },
+    {
+     "enum": "QUINDIO",
+     "texto": "Quindío",
+     "n": 216
+    },
+    {
+     "enum": "PUTUMAYO",
+     "texto": "Putumayo",
+     "n": 214
+    },
+    {
+     "enum": "ARAUCA",
+     "texto": "Arauca",
+     "n": 126
+    },
+    {
+     "enum": "CHOCO",
+     "texto": "Chocó",
+     "n": 69
+    },
+    {
+     "enum": "VICHADA",
+     "texto": "Vichada",
+     "n": 65
+    },
+    {
+     "enum": "GUAVIARE",
+     "texto": "Guaviare",
+     "n": 53
+    },
+    {
+     "enum": "VAUPES",
+     "texto": "Vaupés",
+     "n": 35
+    },
+    {
+     "enum": "ARCHIPIELAGO_DE_SAN_ANDRES_PROVIDENCIA_Y_SANTA_CATALINA",
+     "texto": "Archipiélago de San Andrés, Providencia Y Santa Catalina",
+     "n": 32
+    }
+   ],
+   "nivelDeRiesgo": [
+    {
+     "enum": "SIN_RIESGO",
+     "texto": "Sin riesgo",
+     "n": 5890
+    },
+    {
+     "enum": "RIESGO_MEDIO",
+     "texto": "Riesgo medio",
+     "n": 4420
+    },
+    {
+     "enum": "ALTO_RIESGO",
+     "texto": "Alto riesgo",
+     "n": 4118
+    },
+    {
+     "enum": "BAJO_RIESGO",
+     "texto": "Bajo riesgo",
+     "n": 3488
+    },
+    {
+     "enum": "INVIABLE_SANITARIAMENTE",
+     "texto": "Inviable sanitariamente",
+     "n": 354
+    },
+    {
+     "enum": "BAJO_RIESGO",
+     "texto": "Bajo riesgo",
+     "n": 256
+    },
+    {
+     "enum": "ALTO_RIESGO",
+     "texto": "Alto riesgo",
+     "n": 65
+    }
+   ],
+   "municipio": [
+    {
+     "texto": "La Unión",
+     "n": 70
+    },
+    {
+     "texto": "Villanueva",
+     "n": 70
+    },
+    {
+     "texto": "Buenavista",
+     "n": 65
+    },
+    {
+     "texto": "Granada",
+     "n": 54
+    },
+    {
+     "texto": "Guadalupe",
+     "n": 54
+    },
+    {
+     "texto": "Nariño",
+     "n": 54
+    },
+    {
+     "texto": "Sabanalarga",
+     "n": 54
+    },
+    {
+     "texto": "Córdoba",
+     "n": 52
+    },
+    {
+     "texto": "San Francisco",
+     "n": 52
+    },
+    {
+     "texto": "Santa Bárbara",
+     "n": 52
+    },
+    {
+     "texto": "Albania",
+     "n": 51
+    },
+    {
+     "texto": "Sucre",
+     "n": 51
+    },
+    {
+     "texto": "Argelia",
+     "n": 48
+    },
+    {
+     "texto": "Bolívar",
+     "n": 48
+    },
+    {
+     "texto": "El Peñón",
+     "n": 45
+    },
+    {
+     "texto": "Armenia",
+     "n": 36
+    },
+    {
+     "texto": "Briceño",
+     "n": 36
+    },
+    {
+     "texto": "Cabrera",
+     "n": 36
+    },
+    {
+     "texto": "Caldas",
+     "n": 36
+    },
+    {
+     "texto": "Candelaria",
+     "n": 36
+    },
+    {
+     "texto": "Concepción",
+     "n": 36
+    },
+    {
+     "texto": "Concordia",
+     "n": 36
+    },
+    {
+     "texto": "Jericó",
+     "n": 36
+    },
+    {
+     "texto": "La Paz",
+     "n": 36
+    },
+    {
+     "texto": "Morales",
+     "n": 36
+    },
+    {
+     "texto": "Palestina",
+     "n": 36
+    },
+    {
+     "texto": "Ricaurte",
+     "n": 36
+    },
+    {
+     "texto": "Rionegro",
+     "n": 36
+    },
+    {
+     "texto": "Salamina",
+     "n": 36
+    },
+    {
+     "texto": "San Andrés",
+     "n": 36
+    }
+   ]
+  },
+  "medias": {
+   "irca": {
+    "avg": 21.264574256360603,
+    "max": 100.0
+   },
+   "ircaUrbano": {
+    "avg": 15.241178507531599,
+    "max": 100.0
+   },
+   "ircaRural": {
+    "avg": 38.07937700209875,
+    "max": 100.0
+   }
+  },
+  "meses": []
+ },
+ "ni93-8mm5": {
+  "anios": [
+   1994,
+   1995,
+   1996,
+   1997,
+   1998,
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "dims": {
+   "mineral": [
+    {
+     "texto": "CARBÓN TÉRMICO DE LA GUAJIRA MAYOR DE 3 MT",
+     "n": 96
+    },
+    {
+     "texto": "CARBÓN TÉRMICO DEL CESAR SECTOR DE LA JAGUA DE IBIRICO MAYOR DE 3 MT",
+     "n": 96
+    },
+    {
+     "texto": "CARBÓN TÉRMICO DEL CESAR SECTOR DE LA JAGUA DE IBIRICO MENOR DE 3 MT",
+     "n": 96
+    },
+    {
+     "texto": "CARBÓN TÉRMICO DEL CESAR SECTOR EL DESCANSO MAYOR DE 3 MT",
+     "n": 96
+    },
+    {
+     "texto": "CARBÓN TÉRMICO DEL CESAR SECTOR LA LOMA Y EL BOQUERÓN MAYOR DE 3 MT",
+     "n": 96
+    },
+    {
+     "texto": "CARBÓN ZONA INTERIOR METALÚRGICO MAYOR DE 3 MT",
+     "n": 96
+    },
+    {
+     "texto": "CARBÓN ZONA INTERIOR METALÚRGICO MENOR DE 3 MT",
+     "n": 96
+    },
+    {
+     "texto": "CARBÓN ZONA SANTANDERES METALÚRGICO MAYOR DE 3 MT",
+     "n": 96
+    },
+    {
+     "texto": "CARBÓN ZONA SANTANDERES TÉRMICO MAYOR DE 3 MT",
+     "n": 96
+    },
+    {
+     "texto": "MINERAL DE HIERRO",
+     "n": 96
+    },
+    {
+     "texto": "MINERAL DE MANGANESO",
+     "n": 96
+    },
+    {
+     "texto": "CARBÓN TÉRMICO DEL CESAR SECTOR EL DESCANSO MENOR DE 3 MT",
+     "n": 95
+    },
+    {
+     "texto": "CARBÓN TÉRMICO DEL CESAR SECTOR LA LOMA Y EL BOQUERÓN MENOR DE 3 MT",
+     "n": 95
+    },
+    {
+     "texto": "CARBÓN ZONA INTERIOR TÉRMICO MAYOR DE 3 MT",
+     "n": 93
+    },
+    {
+     "texto": "CARBÓN ZONA INTERIOR TÉRMICO MENOR DE 3 MT",
+     "n": 93
+    },
+    {
+     "texto": "CARBÓN ZONA INTERIOR ANTRACITAS MAYOR DE 3 MT",
+     "n": 81
+    },
+    {
+     "texto": "CARBÓN ZONA INTERIOR ANTRACITAS MENOR DE 3 MT",
+     "n": 81
+    },
+    {
+     "texto": "CARBÓN ZONA SANTANDERES ANTRACITAS MAYOR DE 3 MT",
+     "n": 81
+    },
+    {
+     "texto": "CARBÓN ZONA SANTANDERES ANTRACITAS MENOR DE 3 MT",
+     "n": 81
+    },
+    {
+     "texto": "MAGNESIO",
+     "n": 77
+    },
+    {
+     "texto": "ARENAS SILÍCEAS",
+     "n": 63
+    },
+    {
+     "texto": "BARITA",
+     "n": 61
+    },
+    {
+     "texto": "DOLOMITA",
+     "n": 61
+    },
+    {
+     "texto": "FELDESPATOS",
+     "n": 61
+    },
+    {
+     "texto": "SAL MARINA",
+     "n": 61
+    },
+    {
+     "texto": "YESO",
+     "n": 61
+    },
+    {
+     "texto": "BAUXITA",
+     "n": 60
+    },
+    {
+     "texto": "FLUORITA",
+     "n": 60
+    },
+    {
+     "texto": "GRAFITO",
+     "n": 60
+    },
+    {
+     "texto": "RECEBO",
+     "n": 60
+    }
+   ],
+   "unidad": [
+    {
+     "enum": "TON",
+     "texto": "Ton",
+     "n": 4269
+    },
+    {
+     "enum": "M3",
+     "texto": "m3",
+     "n": 1005
+    },
+    {
+     "enum": "KG",
+     "texto": "kg",
+     "n": 553
+    },
+    {
+     "enum": "LB",
+     "texto": "Lb",
+     "n": 40
+    },
+    {
+     "enum": "GRS",
+     "texto": "Grs",
+     "n": 1
+    }
+   ]
+  },
+  "medias": {
+   "precio": {
+    "avg": 197684.50490115883,
+    "max": 42767124.0
+   }
+  },
+  "meses": [
+   [
+    2026,
+    7
+   ],
+   [
+    2026,
+    4
+   ],
+   [
+    2026,
+    1
+   ],
+   [
+    2025,
+    10
+   ],
+   [
+    2025,
+    7
+   ],
+   [
+    2025,
+    4
+   ],
+   [
+    2025,
+    1
+   ],
+   [
+    2024,
+    10
+   ],
+   [
+    2024,
+    7
+   ],
+   [
+    2024,
+    4
+   ],
+   [
+    2024,
+    1
+   ],
+   [
+    2023,
+    10
+   ],
+   [
+    2023,
+    7
+   ],
+   [
+    2023,
+    4
+   ],
+   [
+    2023,
+    1
+   ],
+   [
+    2022,
+    10
+   ],
+   [
+    2022,
+    7
+   ],
+   [
+    2022,
+    4
+   ],
+   [
+    2022,
+    1
+   ],
+   [
+    2021,
+    10
+   ],
+   [
+    2021,
+    7
+   ],
+   [
+    2021,
+    4
+   ],
+   [
+    2021,
+    1
+   ],
+   [
+    2020,
+    10
+   ],
+   [
+    2020,
+    9
+   ],
+   [
+    2020,
+    7
+   ],
+   [
+    2020,
+    4
+   ],
+   [
+    2020,
+    1
+   ],
+   [
+    2019,
+    10
+   ],
+   [
+    2019,
+    7
+   ],
+   [
+    2019,
+    4
+   ],
+   [
+    2019,
+    1
+   ],
+   [
+    2018,
+    10
+   ],
+   [
+    2018,
+    7
+   ],
+   [
+    2018,
+    4
+   ],
+   [
+    2018,
+    1
+   ]
+  ]
+ }
+}

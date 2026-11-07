@@ -1,0 +1,83 @@
+{
+ "por_conjunto": {
+  "3ebi-d83g": {
+   "train": 117,
+   "val": 28,
+   "test": 29
+  },
+  "8yi9-t44c": {
+   "train": 114,
+   "val": 23,
+   "test": 25
+  },
+  "gcq5-hvdx": {
+   "train": 119,
+   "val": 22,
+   "test": 25
+  },
+  "h2yr-zfb2": {
+   "train": 115,
+   "val": 27,
+   "test": 28
+  },
+  "kekd-7v7h": {
+   "train": 106,
+   "val": 24,
+   "test": 26
+  },
+  "nxt2-39c3": {
+   "train": 88,
+   "val": 20,
+   "test": 24
+  },
+  "rtai-k9uh": {
+   "train": 70,
+   "val": 19,
+   "test": 20
+  },
+  "uejq-wxrr": {
+   "train": 118,
+   "val": 28,
+   "test": 30
+  },
+  "ni93-8mm5": {
+   "reservado": 116
+  }
+ },
+ "categorias": {
+  "agrupación doble": 38,
+  "agrupación+orden por agregado": 49,
+  "año con el máximo": 22,
+  "comparación numérica": 68,
+  "conteo": 9,
+  "conteo distinto": 33,
+  "conteo por grupo": 32,
+  "conteo+año": 48,
+  "conteo+filtro": 117,
+  "evolución anual": 47,
+  "filas+filtro": 90,
+  "filas+orden+límite": 71,
+  "filtro in": 55,
+  "lógica or/not": 46,
+  "mínimo y máximo": 55,
+  "negación": 53,
+  "paginación": 28,
+  "promedio por grupo": 50,
+  "promedio+filtro": 87,
+  "rango de años": 48,
+  "suma+filtro": 64,
+  "suma+filtros": 49,
+  "texto contiene": 57,
+  "texto empieza por": 34,
+  "top-N de grupos": 49,
+  "varias medidas": 39,
+  "mínimo y máximo de fecha": 2,
+  "rango de fechas": 15,
+  "agrupación doble+orden múltiple": 1,
+  "agrupación por mes": 1,
+  "filas+filtro enum": 1,
+  "nulos": 1,
+  "promedio+valor con tilde": 1,
+  "varias sumas": 1
+ }
+}
