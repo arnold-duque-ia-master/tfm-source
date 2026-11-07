@@ -1,0 +1,1082 @@
+[
+ {
+  "ronda": "frio1",
+  "consulta": 1,
+  "ok": true,
+  "ms": 3865,
+  "cache": false,
+  "filas": 1,
+  "dataset": "gcq5-hvdx"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 2,
+  "ok": true,
+  "ms": 528,
+  "cache": false,
+  "filas": 2,
+  "dataset": "gcq5-hvdx"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 3,
+  "ok": true,
+  "ms": 440,
+  "cache": false,
+  "filas": 3,
+  "dataset": "h2yr-zfb2"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 4,
+  "ok": true,
+  "ms": 364,
+  "cache": false,
+  "filas": 3,
+  "dataset": "h2yr-zfb2"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 5,
+  "ok": true,
+  "ms": 262,
+  "cache": false,
+  "filas": 3,
+  "dataset": "uejq-wxrr"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 6,
+  "ok": true,
+  "ms": 860,
+  "cache": false,
+  "filas": 3,
+  "dataset": "uejq-wxrr"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 7,
+  "ok": true,
+  "ms": 512,
+  "cache": false,
+  "filas": 3,
+  "dataset": "8yi9-t44c"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 8,
+  "ok": true,
+  "ms": 244,
+  "cache": false,
+  "filas": 3,
+  "dataset": "8yi9-t44c"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 9,
+  "ok": true,
+  "ms": 475,
+  "cache": false,
+  "filas": 1,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 10,
+  "ok": true,
+  "ms": 252,
+  "cache": false,
+  "filas": 7,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 11,
+  "ok": true,
+  "ms": 361,
+  "cache": false,
+  "filas": 2,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 12,
+  "ok": true,
+  "ms": 408,
+  "cache": false,
+  "filas": 4,
+  "dataset": "rtai-k9uh"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 13,
+  "ok": true,
+  "ms": 410,
+  "cache": false,
+  "filas": 1,
+  "dataset": "rtai-k9uh"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 14,
+  "ok": true,
+  "ms": 410,
+  "cache": false,
+  "filas": 3,
+  "dataset": "kekd-7v7h"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 15,
+  "ok": true,
+  "ms": 410,
+  "cache": false,
+  "filas": 4,
+  "dataset": "kekd-7v7h"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 16,
+  "ok": true,
+  "ms": 408,
+  "cache": false,
+  "filas": 5,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 17,
+  "ok": true,
+  "ms": 257,
+  "cache": false,
+  "filas": 2,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 18,
+  "ok": true,
+  "ms": 270,
+  "cache": false,
+  "filas": 2,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 19,
+  "ok": true,
+  "ms": 292,
+  "cache": false,
+  "filas": 0,
+  "dataset": "ni93-8mm5"
+ },
+ {
+  "ronda": "frio1",
+  "consulta": 20,
+  "ok": true,
+  "ms": 306,
+  "cache": false,
+  "filas": 4,
+  "dataset": "ni93-8mm5"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 1,
+  "ok": true,
+  "ms": 2892,
+  "cache": false,
+  "filas": 1,
+  "dataset": "gcq5-hvdx"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 2,
+  "ok": true,
+  "ms": 305,
+  "cache": false,
+  "filas": 2,
+  "dataset": "gcq5-hvdx"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 3,
+  "ok": true,
+  "ms": 235,
+  "cache": false,
+  "filas": 3,
+  "dataset": "h2yr-zfb2"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 4,
+  "ok": true,
+  "ms": 277,
+  "cache": false,
+  "filas": 3,
+  "dataset": "h2yr-zfb2"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 5,
+  "ok": true,
+  "ms": 307,
+  "cache": false,
+  "filas": 3,
+  "dataset": "uejq-wxrr"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 6,
+  "ok": true,
+  "ms": 239,
+  "cache": false,
+  "filas": 3,
+  "dataset": "uejq-wxrr"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 7,
+  "ok": true,
+  "ms": 258,
+  "cache": false,
+  "filas": 3,
+  "dataset": "8yi9-t44c"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 8,
+  "ok": true,
+  "ms": 186,
+  "cache": false,
+  "filas": 3,
+  "dataset": "8yi9-t44c"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 9,
+  "ok": true,
+  "ms": 4591,
+  "cache": false,
+  "filas": 1,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 10,
+  "ok": true,
+  "ms": 239,
+  "cache": false,
+  "filas": 7,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 11,
+  "ok": true,
+  "ms": 203,
+  "cache": false,
+  "filas": 2,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 12,
+  "ok": true,
+  "ms": 252,
+  "cache": false,
+  "filas": 4,
+  "dataset": "rtai-k9uh"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 13,
+  "ok": true,
+  "ms": 191,
+  "cache": false,
+  "filas": 1,
+  "dataset": "rtai-k9uh"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 14,
+  "ok": true,
+  "ms": 304,
+  "cache": false,
+  "filas": 3,
+  "dataset": "kekd-7v7h"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 15,
+  "ok": true,
+  "ms": 294,
+  "cache": false,
+  "filas": 4,
+  "dataset": "kekd-7v7h"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 16,
+  "ok": true,
+  "ms": 204,
+  "cache": false,
+  "filas": 5,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 17,
+  "ok": true,
+  "ms": 197,
+  "cache": false,
+  "filas": 2,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 18,
+  "ok": true,
+  "ms": 222,
+  "cache": false,
+  "filas": 2,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 19,
+  "ok": true,
+  "ms": 703,
+  "cache": false,
+  "filas": 0,
+  "dataset": "ni93-8mm5"
+ },
+ {
+  "ronda": "frio2",
+  "consulta": 20,
+  "ok": true,
+  "ms": 216,
+  "cache": false,
+  "filas": 4,
+  "dataset": "ni93-8mm5"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 1,
+  "ok": true,
+  "ms": 475,
+  "cache": false,
+  "filas": 1,
+  "dataset": "gcq5-hvdx"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 2,
+  "ok": true,
+  "ms": 233,
+  "cache": false,
+  "filas": 2,
+  "dataset": "gcq5-hvdx"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 3,
+  "ok": true,
+  "ms": 217,
+  "cache": false,
+  "filas": 3,
+  "dataset": "h2yr-zfb2"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 4,
+  "ok": true,
+  "ms": 214,
+  "cache": false,
+  "filas": 3,
+  "dataset": "h2yr-zfb2"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 5,
+  "ok": true,
+  "ms": 341,
+  "cache": false,
+  "filas": 3,
+  "dataset": "uejq-wxrr"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 6,
+  "ok": true,
+  "ms": 375,
+  "cache": false,
+  "filas": 3,
+  "dataset": "uejq-wxrr"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 7,
+  "ok": true,
+  "ms": 237,
+  "cache": false,
+  "filas": 3,
+  "dataset": "8yi9-t44c"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 8,
+  "ok": true,
+  "ms": 242,
+  "cache": false,
+  "filas": 3,
+  "dataset": "8yi9-t44c"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 9,
+  "ok": true,
+  "ms": 341,
+  "cache": false,
+  "filas": 1,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 10,
+  "ok": true,
+  "ms": 232,
+  "cache": false,
+  "filas": 7,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 11,
+  "ok": true,
+  "ms": 275,
+  "cache": false,
+  "filas": 2,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 12,
+  "ok": true,
+  "ms": 904,
+  "cache": false,
+  "filas": 4,
+  "dataset": "rtai-k9uh"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 13,
+  "ok": true,
+  "ms": 199,
+  "cache": false,
+  "filas": 1,
+  "dataset": "rtai-k9uh"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 14,
+  "ok": true,
+  "ms": 178,
+  "cache": false,
+  "filas": 3,
+  "dataset": "kekd-7v7h"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 15,
+  "ok": true,
+  "ms": 215,
+  "cache": false,
+  "filas": 4,
+  "dataset": "kekd-7v7h"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 16,
+  "ok": true,
+  "ms": 182,
+  "cache": false,
+  "filas": 5,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 17,
+  "ok": true,
+  "ms": 284,
+  "cache": false,
+  "filas": 2,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 18,
+  "ok": true,
+  "ms": 247,
+  "cache": false,
+  "filas": 2,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 19,
+  "ok": true,
+  "ms": 281,
+  "cache": false,
+  "filas": 0,
+  "dataset": "ni93-8mm5"
+ },
+ {
+  "ronda": "frio3",
+  "consulta": 20,
+  "ok": true,
+  "ms": 2093,
+  "cache": false,
+  "filas": 4,
+  "dataset": "ni93-8mm5"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 1,
+  "ok": true,
+  "ms": 3,
+  "cache": true,
+  "filas": 1,
+  "dataset": "gcq5-hvdx"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 2,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 2,
+  "dataset": "gcq5-hvdx"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 3,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "h2yr-zfb2"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 4,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "h2yr-zfb2"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 5,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "uejq-wxrr"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 6,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "uejq-wxrr"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 7,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "8yi9-t44c"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 8,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "8yi9-t44c"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 9,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 1,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 10,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 7,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 11,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 2,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 12,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 4,
+  "dataset": "rtai-k9uh"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 13,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 1,
+  "dataset": "rtai-k9uh"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 14,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "kekd-7v7h"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 15,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 4,
+  "dataset": "kekd-7v7h"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 16,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 5,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 17,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 2,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 18,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 2,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 19,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 0,
+  "dataset": "ni93-8mm5"
+ },
+ {
+  "ronda": "caliente1",
+  "consulta": 20,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 4,
+  "dataset": "ni93-8mm5"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 1,
+  "ok": true,
+  "ms": 3,
+  "cache": true,
+  "filas": 1,
+  "dataset": "gcq5-hvdx"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 2,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 2,
+  "dataset": "gcq5-hvdx"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 3,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "h2yr-zfb2"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 4,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "h2yr-zfb2"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 5,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "uejq-wxrr"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 6,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "uejq-wxrr"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 7,
+  "ok": true,
+  "ms": 10,
+  "cache": true,
+  "filas": 3,
+  "dataset": "8yi9-t44c"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 8,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "8yi9-t44c"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 9,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 1,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 10,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 7,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 11,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 2,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 12,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 4,
+  "dataset": "rtai-k9uh"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 13,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 1,
+  "dataset": "rtai-k9uh"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 14,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "kekd-7v7h"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 15,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 4,
+  "dataset": "kekd-7v7h"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 16,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 5,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 17,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 2,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 18,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 2,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 19,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 0,
+  "dataset": "ni93-8mm5"
+ },
+ {
+  "ronda": "caliente2",
+  "consulta": 20,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 4,
+  "dataset": "ni93-8mm5"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 1,
+  "ok": true,
+  "ms": 2,
+  "cache": true,
+  "filas": 1,
+  "dataset": "gcq5-hvdx"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 2,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 2,
+  "dataset": "gcq5-hvdx"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 3,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "h2yr-zfb2"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 4,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "h2yr-zfb2"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 5,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "uejq-wxrr"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 6,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "uejq-wxrr"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 7,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "8yi9-t44c"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 8,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "8yi9-t44c"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 9,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 1,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 10,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 7,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 11,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 2,
+  "dataset": "3ebi-d83g"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 12,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 4,
+  "dataset": "rtai-k9uh"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 13,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 1,
+  "dataset": "rtai-k9uh"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 14,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 3,
+  "dataset": "kekd-7v7h"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 15,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 4,
+  "dataset": "kekd-7v7h"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 16,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 5,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 17,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 2,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 18,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 2,
+  "dataset": "nxt2-39c3"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 19,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 0,
+  "dataset": "ni93-8mm5"
+ },
+ {
+  "ronda": "caliente3",
+  "consulta": 20,
+  "ok": true,
+  "ms": 1,
+  "cache": true,
+  "filas": 4,
+  "dataset": "ni93-8mm5"
+ }
+]

@@ -164,7 +164,7 @@ class Traductor:
                         c = self.cols[col]
                         if name == "countDistinct":
                             key = f"count_distinct_{c['field']}"
-                            expr = f"count(distinct {c['field']})"
+                            expr = self._distinct(col)
                             kind = "count"
                         else:
                             key = f"{name}_{c['field']}"
@@ -235,12 +235,33 @@ class Traductor:
         base, part = self._col(name)
         return "int" if part else self.cols[base]["kind"]
 
+    def _enum_fusion(self, base) -> str | None:
+        """Expresión que reduce cada grupo de variantes fusionadas de un enum a la primera (la canónica).
+
+        Sin ella, GROUP BY y count(distinct) trabajan sobre los valores originales y devuelven una fila
+        (o cuentan un valor) por variante: SABADO aparecería tres veces. None si el enum no fusiona nada."""
+        c = self.cols[base]
+        if c.get("kind") != "enum" or not c.get("enum"):
+            return None
+        grupos = [raws for raws in c["enum"].values() if len(raws) > 1]
+        if not grupos:
+            return None
+        f = c["field"]
+        ramas = ", ".join(f"{f} IN ({', '.join(q(x) for x in raws)}), {q(raws[0])}" for raws in grupos)
+        return f"case({ramas}, true, {f})"
+
+    def _distinct(self, col) -> str:
+        return f"count(distinct {self._enum_fusion(col) or self.cols[col]['field']})"
+
     def _key(self, name):
         """Clave de agrupación: (expresión, alias SoQL, tipo, columna)."""
         base, part = self._col(name)
         c = self.cols[base]
         if part:
             return self._expr(name), f"{c['field']}_{part}", "int", base
+        fusion = self._enum_fusion(base)
+        if fusion:
+            return fusion, c["field"] + "_canon", c["kind"], base
         if c.get("cast"):
             return self._expr(name), c["field"] + "_num", c["kind"], base
         return c["field"], c["field"], c["kind"], base
@@ -332,7 +353,7 @@ class Traductor:
                     rule(f"orderBy.{k} debe tener exactamente una clave")
                 col, d = inner[0]
                 if k == "countDistinct":
-                    items.append(f"count(distinct {self.cols[col]['field']}) {d}")
+                    items.append(f"{self._distinct(col)} {d}")
                 else:
                     items.append(f"{k}({self._expr(col)}) {d}")
             elif k == "count":

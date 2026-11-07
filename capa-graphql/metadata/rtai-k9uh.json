@@ -1,0 +1,1769 @@
+{
+ "id": "rtai-k9uh",
+ "name": "Índice de Gobierno Digital - Histórico",
+ "assetType": "dataset",
+ "attribution": "Ministerio de Tecnologías de la Información y las Comunicaciones - MinTIC, Bogotá D.C.",
+ "attributionLink": "https://www.datos.gov.co/d/rtai-k9uh",
+ "averageRating": 0,
+ "category": "Ciencia, Tecnología e Innovación",
+ "createdAt": 1600797346,
+ "description": "El Índice de Gobierno Digital permite medir el desempeño y cumplimiento de las entidades públicas en la Política de Gobierno Digital.\nEste Índice permite al Ministerio de Tecnologías de la Información y las Comunicaciones determinar los avances específicos en cada temática de la Política de Gobierno Digital, buenas prácticas de implementación y estrategias focalizadas de acompañamiento.\nAsí mismo, la información generada a través del Índice de Gobierno Digital permite a las entidades públicas tomar decisiones y definir acciones orientadas a mejorar su desempeño y cumplimiento de la Política de Gobierno Digital.",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 1866,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 35300124,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1600798538,
+ "publicationGroup": 17584434,
+ "publicationStage": "published",
+ "rowsUpdatedAt": 1786719521,
+ "rowsUpdatedBy": "r9fx-984f",
+ "tableId": 17584434,
+ "totalTimesRated": 0,
+ "viewCount": 14045,
+ "viewLastModified": 1786719498,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1600802912,
+   "reviewedAutomatically": false,
+   "state": "approved",
+   "submissionId": 2718580,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1600798538,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "reviewer": {
+    "id": "r4qn-dwdd",
+    "displayName": "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+   },
+   "submissionDetails": {
+    "permissionType": "READ"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1600802912,
+    "failureCount": 0,
+    "startedAt": 1600802912,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "r9fx-984f",
+    "displayName": "GobiernoDigital"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 497052113,
+   "name": "CÓDIGO_SIGEP",
+   "dataTypeName": "number",
+   "description": "Código único de identificación de las entidades, de acuerdo con el Sistema de Información y Gestión del Empleo Público -SIGEP",
+   "fieldName": "c_digo_sigep",
+   "position": 1,
+   "renderTypeName": "number",
+   "tableColumnId": 116487748,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "16385",
+    "null": "0",
+    "top": [
+     {
+      "item": "600",
+      "count": "44"
+     },
+     {
+      "item": "847",
+      "count": "44"
+     },
+     {
+      "item": "445",
+      "count": "44"
+     },
+     {
+      "item": "594",
+      "count": "44"
+     },
+     {
+      "item": "755",
+      "count": "44"
+     },
+     {
+      "item": "804",
+      "count": "44"
+     },
+     {
+      "item": "407",
+      "count": "44"
+     },
+     {
+      "item": "423",
+      "count": "44"
+     },
+     {
+      "item": "485",
+      "count": "44"
+     },
+     {
+      "item": "156",
+      "count": "44"
+     },
+     {
+      "item": "330",
+      "count": "44"
+     },
+     {
+      "item": "686",
+      "count": "44"
+     },
+     {
+      "item": "789",
+      "count": "44"
+     },
+     {
+      "item": "339",
+      "count": "44"
+     },
+     {
+      "item": "152",
+      "count": "44"
+     },
+     {
+      "item": "394",
+      "count": "44"
+     },
+     {
+      "item": "409",
+      "count": "44"
+     },
+     {
+      "item": "51",
+      "count": "44"
+     },
+     {
+      "item": "320",
+      "count": "44"
+     },
+     {
+      "item": "966",
+      "count": "44"
+     }
+    ],
+    "smallest": "1",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  },
+  {
+   "id": 497052112,
+   "name": "ENTIDAD",
+   "dataTypeName": "text",
+   "description": "Razón social de las entidades públicas",
+   "fieldName": "entidad",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 116487747,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "VIDASINÚ",
+    "null": "0",
+    "top": [
+     {
+      "item": "UNIDADES TECNOLOGICAS DE SANTANDER",
+      "count": "44"
+     },
+     {
+      "item": "UNIDAD EJECUTORA DE SANEAMIENTO DEL VALLE DEL CAUCA",
+      "count": "44"
+     },
+     {
+      "item": "INSTITUTO DE DESARROLLO URBANO - IDU",
+      "count": "44"
+     },
+     {
+      "item": "EMPRESA DE TRANSPORTE DEL TERCER MILENIO TRANSMILENIO S.A.",
+      "count": "44"
+     },
+     {
+      "item": "COLEGIO MAYOR DEL CAUCA - POPAYAN-",
+      "count": "44"
+     },
+     {
+      "item": "INSTITUTO DISTRITAL DE LAS ARTES",
+      "count": "44"
+     },
+     {
+      "item": "EMPRESA DE SERVICIOS PUBLICOS ENVIASEO",
+      "count": "43"
+     },
+     {
+      "item": "UNIDAD ADMINISTRATIVA ESPECIAL DE CATASTRO DISTRITAL",
+      "count": "43"
+     },
+     {
+      "item": "UNIDAD CENTRAL DEL VALLE DEL CAUCA",
+      "count": "43"
+     },
+     {
+      "item": "SUBRED INTEGRADA DE SERVICIOS DE SALUD SUR",
+      "count": "43"
+     },
+     {
+      "item": "FONDO DE PRESTACIONES ECONOMICAS, CESANTIAS Y PENSIONES -FONCEP-",
+      "count": "43"
+     },
+     {
+      "item": "UNIDAD ADMINISTRATIVA ESPECIAL DE PENSIONES DEL DEPARTAMENTO DE CUNDINAMARCA",
+      "count": "43"
+     },
+     {
+      "item": "SUBRED INTEGRADA DE SERVICIOS DE SALUD SUR OCCIDENTE",
+      "count": "43"
+     },
+     {
+      "item": "INSTITUTO MUNICIPAL DE CULTURA Y TURISMO DE BUCARAMANGA",
+      "count": "43"
+     },
+     {
+      "item": "INSTITUTO DISTRITAL DE TURISMO",
+      "count": "43"
+     },
+     {
+      "item": "EMPRESA DE OBRAS SANITARIAS DE CALDAS S.A. .",
+      "count": "42"
+     },
+     {
+      "item": "HOSPITAL SAN ANTONIO VILLAMARIA CALDAS",
+      "count": "42"
+     },
+     {
+      "item": "SUBRED INTEGRADA DE SERVICIOS DE SALUD CENTRO ORIENTE",
+      "count": "42"
+     },
+     {
+      "item": "EMPRESA SOCIAL DEL ESTADO PASTO SALUD",
+      "count": "42"
+     },
+     {
+      "item": "INSTITUTO DISTRITAL DE PATRIMONIO CULTURAL",
+      "count": "42"
+     }
+    ],
+    "smallest": "ABASTOS GUADALAJARA DE BUGA",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  },
+  {
+   "id": 497052111,
+   "name": "ORDEN",
+   "dataTypeName": "text",
+   "description": "Orden en que se encuentre clasificada cada entidad: nacional o territorial",
+   "fieldName": "orden",
+   "position": 3,
+   "renderTypeName": "text",
+   "tableColumnId": 116487746,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "TERRITORIAL",
+    "null": "0",
+    "top": [
+     {
+      "item": "TERRITORIAL",
+      "count": "102592"
+     },
+     {
+      "item": "NACIONAL",
+      "count": "6364"
+     }
+    ],
+    "smallest": "NACIONAL",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  },
+  {
+   "id": 497052110,
+   "name": "SECTOR",
+   "dataTypeName": "text",
+   "description": "Corresponde a los 24 sectores administrativos de la rama ejecutiva del orden nacional",
+   "fieldName": "sector",
+   "position": 4,
+   "renderTypeName": "text",
+   "tableColumnId": 116487745,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "VIVIENDA CIUDAD Y TERRITORIO",
+    "null": "0",
+    "top": [
+     {
+      "item": "NO APLICA",
+      "count": "102779"
+     },
+     {
+      "item": "HACIENDA Y CRÉDITO PÚBLICO",
+      "count": "842"
+     },
+     {
+      "item": "DEFENSA",
+      "count": "732"
+     },
+     {
+      "item": "EDUCACIÓN",
+      "count": "487"
+     },
+     {
+      "item": "AMBIENTE Y DESARROLLO SOSTENIBLE",
+      "count": "431"
+     },
+     {
+      "item": "SALUD Y PROTECCIÓN SOCIAL",
+      "count": "409"
+     },
+     {
+      "item": "AGROPECUARIO, PESQUERO Y DE DESARROLLO RURAL",
+      "count": "291"
+     },
+     {
+      "item": "COMERCIO, INDUSTRIA Y TURISMO",
+      "count": "288"
+     },
+     {
+      "item": "TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+      "count": "281"
+     },
+     {
+      "item": "TRANSPORTE",
+      "count": "266"
+     },
+     {
+      "item": "MINAS Y ENERGÍA",
+      "count": "263"
+     },
+     {
+      "item": "TRABAJO",
+      "count": "236"
+     },
+     {
+      "item": "INTERIOR",
+      "count": "232"
+     },
+     {
+      "item": "PRESIDENCIA DE LA REPÚBLICA",
+      "count": "230"
+     },
+     {
+      "item": "JUSTICIA Y DEL DERECHO",
+      "count": "190"
+     },
+     {
+      "item": "CULTURA",
+      "count": "159"
+     },
+     {
+      "item": "INCLUSIÓN SOCIAL Y RECONCILIACIÓN",
+      "count": "146"
+     },
+     {
+      "item": "PLANEACIÓN",
+      "count": "136"
+     },
+     {
+      "item": "VIVIENDA CIUDAD Y TERRITORIO",
+      "count": "101"
+     },
+     {
+      "item": "AGROPECUARIO PESQUERO Y DE DESARROLLO RURAL",
+      "count": "85"
+     }
+    ],
+    "smallest": "AGROPECUARIO PESQUERO Y DE DESARROLLO RURAL",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  },
+  {
+   "id": 497052109,
+   "name": "NATURALEZA_JURÍDICA",
+   "dataTypeName": "text",
+   "description": "Naturaleza jurídica de cada entidad",
+   "fieldName": "naturaleza_jur_dica",
+   "position": 5,
+   "renderTypeName": "text",
+   "tableColumnId": 116487744,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "UNIDAD ADMINISTRATIVA ESPECIAL SIN PERSONERÍA JURÍDICA",
+    "null": "0",
+    "top": [
+     {
+      "item": "ALCALDÍA",
+      "count": "43312"
+     },
+     {
+      "item": "EMPRESA SOCIAL DEL ESTADO",
+      "count": "26826"
+     },
+     {
+      "item": "ESTABLECIMIENTO PÚBLICO",
+      "count": "14375"
+     },
+     {
+      "item": "EMPRESA DE SERVICIOS PÚBLICOS DOMICILIARIOS OFICIAL",
+      "count": "10153"
+     },
+     {
+      "item": "EMPRESA INDUSTRIAL Y COMERCIAL DEL ESTADO",
+      "count": "2981"
+     },
+     {
+      "item": "SOCIEDAD DE ECONOMÍA MIXTA",
+      "count": "1473"
+     },
+     {
+      "item": "UNIDAD ADMINISTRATIVA ESPECIAL CON PERSONERÍA JURÍDICA",
+      "count": "1384"
+     },
+     {
+      "item": "GOBERNACIÓN",
+      "count": "1362"
+     },
+     {
+      "item": "MINISTERIO",
+      "count": "727"
+     },
+     {
+      "item": "SECRETARÍA DE DESPACHO",
+      "count": "650"
+     },
+     {
+      "item": "PERSONERÍA MUNICIPAL",
+      "count": "459"
+     },
+     {
+      "item": "INSTITUCIÓN PRESTADORA DE SERVICIOS DE SALUD",
+      "count": "431"
+     },
+     {
+      "item": "ESPECIAL",
+      "count": "399"
+     },
+     {
+      "item": "SUPERINTENDENCIA CON PERSONERÍA JURÍDICA",
+      "count": "396"
+     },
+     {
+      "item": "CONCEJO MUNICIPAL",
+      "count": "396"
+     },
+     {
+      "item": "UNIDAD ADMINISTRATIVA ESPECIAL SIN PERSONERÍA JURÍDICA",
+      "count": "348"
+     },
+     {
+      "item": "DEPARTAMENTO ADMINISTRATIVO",
+      "count": "324"
+     },
+     {
+      "item": "AGENCIA ESTATAL DE NATURALEZA ESPECIAL",
+      "count": "269"
+     },
+     {
+      "item": "ÓRGANO AUTÓNOMO",
+      "count": "251"
+     },
+     {
+      "item": "SOCIEDAD PÚBLICA POR ACCIONES",
+      "count": "230"
+     }
+    ],
+    "smallest": "AGENCIA ESTATAL DE NATURALEZA ESPECIAL",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  },
+  {
+   "id": 497052108,
+   "name": "ID_DEPARTAMENTO",
+   "dataTypeName": "number",
+   "description": "Código único de identificación DIVIPOLA de los departamentos de Colombia",
+   "fieldName": "id_departamento",
+   "position": 6,
+   "renderTypeName": "number",
+   "tableColumnId": 116487743,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "99",
+    "null": "0",
+    "top": [
+     {
+      "item": "5",
+      "count": "13859"
+     },
+     {
+      "item": "25",
+      "count": "10064"
+     },
+     {
+      "item": "15",
+      "count": "9274"
+     },
+     {
+      "item": "11",
+      "count": "7987"
+     },
+     {
+      "item": "68",
+      "count": "7841"
+     },
+     {
+      "item": "76",
+      "count": "6075"
+     },
+     {
+      "item": "52",
+      "count": "5058"
+     },
+     {
+      "item": "73",
+      "count": "4618"
+     },
+     {
+      "item": "41",
+      "count": "3944"
+     },
+     {
+      "item": "13",
+      "count": "3406"
+     },
+     {
+      "item": "17",
+      "count": "3175"
+     },
+     {
+      "item": "19",
+      "count": "3135"
+     },
+     {
+      "item": "54",
+      "count": "2980"
+     },
+     {
+      "item": "20",
+      "count": "2763"
+     },
+     {
+      "item": "47",
+      "count": "2675"
+     },
+     {
+      "item": "50",
+      "count": "2581"
+     },
+     {
+      "item": "66",
+      "count": "2275"
+     },
+     {
+      "item": "8",
+      "count": "2271"
+     },
+     {
+      "item": "23",
+      "count": "2220"
+     },
+     {
+      "item": "70",
+      "count": "2164"
+     }
+    ],
+    "smallest": "5",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  },
+  {
+   "id": 497052107,
+   "name": "DEPARTAMENTO",
+   "dataTypeName": "text",
+   "description": "Departamentos de Colombia",
+   "fieldName": "departamento",
+   "position": 7,
+   "renderTypeName": "text",
+   "tableColumnId": 116487742,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "VICHADA",
+    "null": "0",
+    "top": [
+     {
+      "item": "Antioquia",
+      "count": "9648"
+     },
+     {
+      "item": "Cundinamarca",
+      "count": "7359"
+     },
+     {
+      "item": "Boyacá",
+      "count": "6659"
+     },
+     {
+      "item": "Santander",
+      "count": "5656"
+     },
+     {
+      "item": "Bogotá, D. C.",
+      "count": "5326"
+     },
+     {
+      "item": "Valle Del Cauca",
+      "count": "4306"
+     },
+     {
+      "item": "ANTIOQUIA",
+      "count": "4211"
+     },
+     {
+      "item": "Nariño",
+      "count": "3651"
+     },
+     {
+      "item": "Tolima",
+      "count": "3296"
+     },
+     {
+      "item": "Huila",
+      "count": "2787"
+     },
+     {
+      "item": "CUNDINAMARCA",
+      "count": "2705"
+     },
+     {
+      "item": "BOGOTÁ. D.C.",
+      "count": "2661"
+     },
+     {
+      "item": "BOYACÁ",
+      "count": "2615"
+     },
+     {
+      "item": "Bolívar",
+      "count": "2367"
+     },
+     {
+      "item": "Caldas",
+      "count": "2284"
+     },
+     {
+      "item": "Cauca",
+      "count": "2231"
+     },
+     {
+      "item": "SANTANDER",
+      "count": "2185"
+     },
+     {
+      "item": "Norte De Santander",
+      "count": "2121"
+     },
+     {
+      "item": "Cesar",
+      "count": "1969"
+     },
+     {
+      "item": "Magdalena",
+      "count": "1952"
+     }
+    ],
+    "smallest": "Amazonas",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  },
+  {
+   "id": 497052106,
+   "name": "ID_MUNICIPIO",
+   "dataTypeName": "number",
+   "description": "Código único de identificación DIVIPOLA de los municipios de Colombia",
+   "fieldName": "id_municipio",
+   "position": 8,
+   "renderTypeName": "number",
+   "tableColumnId": 116487741,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "99773",
+    "null": "0",
+    "top": [
+     {
+      "item": "11001",
+      "count": "7987"
+     },
+     {
+      "item": "5001",
+      "count": "1897"
+     },
+     {
+      "item": "76001",
+      "count": "1394"
+     },
+     {
+      "item": "17001",
+      "count": "930"
+     },
+     {
+      "item": "68001",
+      "count": "923"
+     },
+     {
+      "item": "13001",
+      "count": "726"
+     },
+     {
+      "item": "50001",
+      "count": "718"
+     },
+     {
+      "item": "66001",
+      "count": "704"
+     },
+     {
+      "item": "63001",
+      "count": "633"
+     },
+     {
+      "item": "54001",
+      "count": "628"
+     },
+     {
+      "item": "19001",
+      "count": "619"
+     },
+     {
+      "item": "15001",
+      "count": "598"
+     },
+     {
+      "item": "85001",
+      "count": "572"
+     },
+     {
+      "item": "8001",
+      "count": "565"
+     },
+     {
+      "item": "73001",
+      "count": "565"
+     },
+     {
+      "item": "25",
+      "count": "551"
+     },
+     {
+      "item": "20001",
+      "count": "529"
+     },
+     {
+      "item": "52001",
+      "count": "501"
+     },
+     {
+      "item": "41001",
+      "count": "481"
+     },
+     {
+      "item": "47001",
+      "count": "471"
+     }
+    ],
+    "smallest": "25",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  },
+  {
+   "id": 497052105,
+   "name": "MUNICIPIO",
+   "dataTypeName": "text",
+   "description": "Municipios de Colombia",
+   "fieldName": "municipio",
+   "position": 9,
+   "renderTypeName": "text",
+   "tableColumnId": 116487740,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "ZONA BANANERA",
+    "null": "0",
+    "top": [
+     {
+      "item": "Bogotá, D. C.",
+      "count": "5326"
+     },
+     {
+      "item": "BOGOTÁ. D.C.",
+      "count": "2661"
+     },
+     {
+      "item": "Medellín",
+      "count": "1315"
+     },
+     {
+      "item": "Cali",
+      "count": "998"
+     },
+     {
+      "item": "Manizales",
+      "count": "669"
+     },
+     {
+      "item": "Bucaramanga",
+      "count": "654"
+     },
+     {
+      "item": "MEDELLÍN",
+      "count": "592"
+     },
+     {
+      "item": "Cundinamarca",
+      "count": "551"
+     },
+     {
+      "item": "Cartagena",
+      "count": "509"
+     },
+     {
+      "item": "Pereira",
+      "count": "487"
+     },
+     {
+      "item": "Armenia",
+      "count": "485"
+     },
+     {
+      "item": "Villavicencio",
+      "count": "481"
+     },
+     {
+      "item": "Popayán",
+      "count": "432"
+     },
+     {
+      "item": "Cúcuta",
+      "count": "425"
+     },
+     {
+      "item": "Barranquilla",
+      "count": "400"
+     },
+     {
+      "item": "CALI",
+      "count": "396"
+     },
+     {
+      "item": "Ibagué",
+      "count": "380"
+     },
+     {
+      "item": "Tunja",
+      "count": "379"
+     },
+     {
+      "item": "Yopal",
+      "count": "373"
+     },
+     {
+      "item": "Valledupar",
+      "count": "339"
+     }
+    ],
+    "smallest": "Abejorral",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  },
+  {
+   "id": 497052104,
+   "name": "VIGENCIA",
+   "dataTypeName": "number",
+   "description": "Año de medición",
+   "fieldName": "vigencia",
+   "position": 10,
+   "renderTypeName": "number",
+   "tableColumnId": 116487739,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "2025",
+    "null": "0",
+    "top": [
+     {
+      "item": "2025",
+      "count": "31793"
+     },
+     {
+      "item": "2019",
+      "count": "24884"
+     },
+     {
+      "item": "2021",
+      "count": "22164"
+     },
+     {
+      "item": "2020",
+      "count": "21949"
+     },
+     {
+      "item": "2018",
+      "count": "8166"
+     }
+    ],
+    "smallest": "2018",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  },
+  {
+   "id": 497052103,
+   "name": "ID_ÍNDICE",
+   "dataTypeName": "text",
+   "description": "Código único de identificación de cada índice",
+   "fieldName": "id_ndice",
+   "position": 11,
+   "renderTypeName": "text",
+   "tableColumnId": 116487738,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "POL07",
+    "null": "0",
+    "top": [
+     {
+      "item": "I20",
+      "count": "10580"
+     },
+     {
+      "item": "POL06",
+      "count": "10579"
+     },
+     {
+      "item": "I21",
+      "count": "10576"
+     },
+     {
+      "item": "I18",
+      "count": "10542"
+     },
+     {
+      "item": "I85",
+      "count": "8917"
+     },
+     {
+      "item": "I82",
+      "count": "8909"
+     },
+     {
+      "item": "I83",
+      "count": "8877"
+     },
+     {
+      "item": "I19",
+      "count": "4171"
+     },
+     {
+      "item": "I84",
+      "count": "4012"
+     },
+     {
+      "item": "i13",
+      "count": "3374"
+     },
+     {
+      "item": "i14",
+      "count": "3373"
+     },
+     {
+      "item": "POL07",
+      "count": "3372"
+     },
+     {
+      "item": "i18",
+      "count": "3372"
+     },
+     {
+      "item": "i19",
+      "count": "3371"
+     },
+     {
+      "item": "i11",
+      "count": "3030"
+     },
+     {
+      "item": "i16",
+      "count": "3028"
+     },
+     {
+      "item": "i15",
+      "count": "2751"
+     },
+     {
+      "item": "i12",
+      "count": "2414"
+     },
+     {
+      "item": "i17",
+      "count": "2360"
+     },
+     {
+      "item": "i20",
+      "count": "1057"
+     }
+    ],
+    "smallest": "i11",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  },
+  {
+   "id": 497052102,
+   "name": "ÍNDICE",
+   "dataTypeName": "text",
+   "description": "Nombre de cada índice",
+   "fieldName": "ndice",
+   "position": 12,
+   "renderTypeName": "text",
+   "tableColumnId": 116487737,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "Uso y apropiación de los Servicios Ciudadanos Digitales",
+    "null": "0",
+    "top": [
+     {
+      "item": "Fortalecimiento de la Arquitectura Empresarial y de la Gestión de TI",
+      "count": "10580"
+     },
+     {
+      "item": "Gobierno Digital",
+      "count": "10579"
+     },
+     {
+      "item": "Fortalecimiento de la Seguridad y Privacidad de la Información",
+      "count": "10576"
+     },
+     {
+      "item": "Empoderamiento de los ciudadanos mediante un Estado abierto",
+      "count": "10542"
+     },
+     {
+      "item": "Uso y apropiación de los Servicios Ciudadanos Digitales",
+      "count": "8917"
+     },
+     {
+      "item": "Procesos seguros y eficientes",
+      "count": "8909"
+     },
+     {
+      "item": "Toma de decisiones basadas en datos",
+      "count": "8877"
+     },
+     {
+      "item": "Servicios Digitales de Confianza y Calidad",
+      "count": "4171"
+     },
+     {
+      "item": "Impulso en el desarrollo de territorios y ciudades inteligentes",
+      "count": "4012"
+     },
+     {
+      "item": "Arquitectura",
+      "count": "3374"
+     },
+     {
+      "item": "Seguridad y Privacidad de la información",
+      "count": "3373"
+     },
+     {
+      "item": "Índice de Gobierno Digital",
+      "count": "3372"
+     },
+     {
+      "item": "Estado Abierto",
+      "count": "3372"
+     },
+     {
+      "item": "Decisiones Basadas en Datos",
+      "count": "3371"
+     },
+     {
+      "item": "Gobernanza",
+      "count": "3030"
+     },
+     {
+      "item": "Cultura y Apropiación",
+      "count": "3028"
+     },
+     {
+      "item": "Servicios Ciudadanos Digitales",
+      "count": "2751"
+     },
+     {
+      "item": "Innovación Pública Digital",
+      "count": "2414"
+     },
+     {
+      "item": "Servicios y Procesos Inteligentes",
+      "count": "2360"
+     },
+     {
+      "item": "Proyectos de Transformación Digital",
+      "count": "1057"
+     }
+    ],
+    "smallest": "Arquitectura",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  },
+  {
+   "id": 497052101,
+   "name": "PUNTAJE ENTIDAD",
+   "dataTypeName": "number",
+   "description": "Puntaje obtenido por cada entidad en cada índice y en cada vigencia",
+   "fieldName": "puntaje_entidad",
+   "position": 13,
+   "renderTypeName": "number",
+   "tableColumnId": 116487736,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "100",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "6275"
+     },
+     {
+      "item": "55.46",
+      "count": "2546"
+     },
+     {
+      "item": "100",
+      "count": "2244"
+     },
+     {
+      "item": "48.33",
+      "count": "1364"
+     },
+     {
+      "item": "37.67",
+      "count": "1047"
+     },
+     {
+      "item": "42.46",
+      "count": "1000"
+     },
+     {
+      "item": "66.67",
+      "count": "965"
+     },
+     {
+      "item": "43.12",
+      "count": "940"
+     },
+     {
+      "item": "42.48",
+      "count": "903"
+     },
+     {
+      "item": "50",
+      "count": "844"
+     },
+     {
+      "item": "33.33",
+      "count": "831"
+     },
+     {
+      "item": "37.22",
+      "count": "699"
+     },
+     {
+      "item": "28.06",
+      "count": "489"
+     },
+     {
+      "item": "43.3611",
+      "count": "477"
+     },
+     {
+      "item": "42.79",
+      "count": "432"
+     },
+     {
+      "item": "20",
+      "count": "428"
+     },
+     {
+      "item": "25",
+      "count": "423"
+     },
+     {
+      "item": "16.67",
+      "count": "420"
+     },
+     {
+      "item": "53.2",
+      "count": "420"
+     },
+     {
+      "item": "28.5",
+      "count": "406"
+     }
+    ],
+    "smallest": "0",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  },
+  {
+   "id": 497052100,
+   "name": "PROMEDIO GRUPO PAR",
+   "dataTypeName": "number",
+   "description": "Puntaje promedio del grupo par al que pertenece cada entidad",
+   "fieldName": "promedio_grupo_par",
+   "position": 14,
+   "renderTypeName": "number",
+   "tableColumnId": 116487735,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "100",
+    "null": "0",
+    "top": [
+     {
+      "item": "64.04973777175319",
+      "count": "560"
+     },
+     {
+      "item": "66.22400135643325",
+      "count": "560"
+     },
+     {
+      "item": "60.97014414021999",
+      "count": "560"
+     },
+     {
+      "item": "61.70235683970094",
+      "count": "560"
+     },
+     {
+      "item": "57.12094916666648",
+      "count": "560"
+     },
+     {
+      "item": "56.71146370495168",
+      "count": "560"
+     },
+     {
+      "item": "60.73082762556256",
+      "count": "560"
+     },
+     {
+      "item": "60.07278842234867",
+      "count": "560"
+     },
+     {
+      "item": "61.42767178581873",
+      "count": "559"
+     },
+     {
+      "item": "61.36147203467539",
+      "count": "558"
+     },
+     {
+      "item": "57.0987853544529",
+      "count": "558"
+     },
+     {
+      "item": "56.53333931777399",
+      "count": "557"
+     },
+     {
+      "item": "58.34926194878381",
+      "count": "557"
+     },
+     {
+      "item": "64.52613595216552",
+      "count": "556"
+     },
+     {
+      "item": "55.34783653846152",
+      "count": "416"
+     },
+     {
+      "item": "60.8066810319791",
+      "count": "416"
+     },
+     {
+      "item": "56.11914011672384",
+      "count": "416"
+     },
+     {
+      "item": "60.91206730769232",
+      "count": "416"
+     },
+     {
+      "item": "59.02028633404423",
+      "count": "416"
+     },
+     {
+      "item": "56.21017265010481",
+      "count": "416"
+     }
+    ],
+    "smallest": "0",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  },
+  {
+   "id": 497052099,
+   "name": "MÁXIMO GRUPO PAR",
+   "dataTypeName": "number",
+   "description": "Puntaje máximo del grupo par al que pertenece cada entidad",
+   "fieldName": "m_ximo_grupo_par",
+   "position": 15,
+   "renderTypeName": "number",
+   "tableColumnId": 116487734,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "100",
+    "null": "0",
+    "top": [
+     {
+      "item": "100",
+      "count": "21921"
+     },
+     {
+      "item": "99",
+      "count": "4990"
+     },
+     {
+      "item": "74.03",
+      "count": "2980"
+     },
+     {
+      "item": "83.72",
+      "count": "2762"
+     },
+     {
+      "item": "99.2833333333333",
+      "count": "2740"
+     },
+     {
+      "item": "98",
+      "count": "2433"
+     },
+     {
+      "item": "84.4470666666667",
+      "count": "2176"
+     },
+     {
+      "item": "88.3579520716153",
+      "count": "1536"
+     },
+     {
+      "item": "81.46",
+      "count": "1120"
+     },
+     {
+      "item": "82.31",
+      "count": "944"
+     },
+     {
+      "item": "96.5908699397071",
+      "count": "867"
+     },
+     {
+      "item": "94.86660637261",
+      "count": "851"
+     },
+     {
+      "item": "97.771144278607",
+      "count": "808"
+     },
+     {
+      "item": "81.81",
+      "count": "669"
+     },
+     {
+      "item": "66.1",
+      "count": "586"
+     },
+     {
+      "item": "98.1475538631347",
+      "count": "560"
+     },
+     {
+      "item": "98.2333618641879",
+      "count": "560"
+     },
+     {
+      "item": "97.2900673893935",
+      "count": "560"
+     },
+     {
+      "item": "97.0818666666667",
+      "count": "560"
+     },
+     {
+      "item": "98.129011592929",
+      "count": "560"
+     }
+    ],
+    "smallest": "0",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  },
+  {
+   "id": 497052098,
+   "name": "MÍNIMO GRUPO PAR",
+   "dataTypeName": "number",
+   "description": "Puntaje mínimo del grupo par al que pertenece cada entidad",
+   "fieldName": "m_nimo_grupo_par",
+   "position": 16,
+   "renderTypeName": "number",
+   "tableColumnId": 116487733,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "100",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "22320"
+     },
+     {
+      "item": "10",
+      "count": "4376"
+     },
+     {
+      "item": "43.12",
+      "count": "3065"
+     },
+     {
+      "item": "37.67",
+      "count": "3061"
+     },
+     {
+      "item": "48.33",
+      "count": "2891"
+     },
+     {
+      "item": "28.06",
+      "count": "2847"
+     },
+     {
+      "item": "42.48",
+      "count": "2779"
+     },
+     {
+      "item": "37.22",
+      "count": "2756"
+     },
+     {
+      "item": "37.4367",
+      "count": "2713"
+     },
+     {
+      "item": "28.5",
+      "count": "2664"
+     },
+     {
+      "item": "23.64",
+      "count": "2604"
+     },
+     {
+      "item": "21.7",
+      "count": "2500"
+     },
+     {
+      "item": "22.8244666666667",
+      "count": "2345"
+     },
+     {
+      "item": "25.5275666666667",
+      "count": "2333"
+     },
+     {
+      "item": "11",
+      "count": "1450"
+     },
+     {
+      "item": "43.3611",
+      "count": "1281"
+     },
+     {
+      "item": "32.23",
+      "count": "1250"
+     },
+     {
+      "item": "42.46",
+      "count": "1228"
+     },
+     {
+      "item": "41.8753333333333",
+      "count": "1108"
+     },
+     {
+      "item": "14.64",
+      "count": "946"
+     }
+    ],
+    "smallest": "0",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  },
+  {
+   "id": 497052115,
+   "name": "QUINTIL GRUPO PAR",
+   "dataTypeName": "number",
+   "description": "Quintil en el que se ubica cada entidad dentro de su grupo par",
+   "fieldName": "quintil_grupo_par",
+   "position": 17,
+   "renderTypeName": "number",
+   "tableColumnId": 116487750,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "5",
+    "null": "0",
+    "top": [
+     {
+      "item": "5",
+      "count": "26702"
+     },
+     {
+      "item": "3",
+      "count": "23982"
+     },
+     {
+      "item": "4",
+      "count": "21833"
+     },
+     {
+      "item": "2",
+      "count": "21095"
+     },
+     {
+      "item": "1",
+      "count": "15344"
+     }
+    ],
+    "smallest": "1",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  },
+  {
+   "id": 497052114,
+   "name": "PERCENTIL GRUPO PAR",
+   "dataTypeName": "number",
+   "description": "Percentil en el que se ubica cada entidad dentro de su grupo par",
+   "fieldName": "percentil_grupo_par",
+   "position": 18,
+   "renderTypeName": "number",
+   "tableColumnId": 116487749,
+   "cachedContents": {
+    "non_null": "108956",
+    "largest": "100",
+    "null": "0",
+    "top": [
+     {
+      "item": "100",
+      "count": "5135"
+     },
+     {
+      "item": "29",
+      "count": "2594"
+     },
+     {
+      "item": "57",
+      "count": "2194"
+     },
+     {
+      "item": "51",
+      "count": "1987"
+     },
+     {
+      "item": "43",
+      "count": "1471"
+     },
+     {
+      "item": "34",
+      "count": "1440"
+     },
+     {
+      "item": "91",
+      "count": "1419"
+     },
+     {
+      "item": "89",
+      "count": "1394"
+     },
+     {
+      "item": "67",
+      "count": "1381"
+     },
+     {
+      "item": "95",
+      "count": "1378"
+     },
+     {
+      "item": "81",
+      "count": "1350"
+     },
+     {
+      "item": "53",
+      "count": "1312"
+     },
+     {
+      "item": "45",
+      "count": "1311"
+     },
+     {
+      "item": "78",
+      "count": "1305"
+     },
+     {
+      "item": "26",
+      "count": "1303"
+     },
+     {
+      "item": "49",
+      "count": "1295"
+     },
+     {
+      "item": "84",
+      "count": "1280"
+     },
+     {
+      "item": "48",
+      "count": "1274"
+     },
+     {
+      "item": "37",
+      "count": "1262"
+     },
+     {
+      "item": "69",
+      "count": "1251"
+     }
+    ],
+    "smallest": "1",
+    "count": "108956",
+    "cardinality": "108956"
+   },
+   "format": {}
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Ministerio de Tecnologías de la Información y las Comunicaciones - MinTIC, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Tecnologías de la Información y Comunicaciones",
+    "Área o dependencia": "Dirección de Gobierno Digital",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Nacional",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Anual"
+   }
+  },
+  "availableDisplayTypes": [
+   "table",
+   "fatrow",
+   "page"
+  ]
+ },
+ "owner": {
+  "id": "r9fx-984f",
+  "displayName": "GobiernoDigital",
+  "screenName": "GobiernoDigital",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "r9fx-984f",
+  "displayName": "GobiernoDigital",
+  "screenName": "GobiernoDigital",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "gobierno digital",
+  "gobierno abierto",
+  "tecnología",
+  "índice de gobierno digital",
+  "furag"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

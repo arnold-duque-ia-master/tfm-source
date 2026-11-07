@@ -1,0 +1,1780 @@
+{
+ "id": "uejq-wxrr",
+ "name": "Evaluaciones Agropecuarias Municipales – EVA. 2019 - 2025. Base Agrícola",
+ "assetType": "dataset",
+ "attribution": "Unidad de Planificación de Tierras Rurales, Adecuación de Tierras y Usos Agropecuarios - UPRA, Bogotá D.C.",
+ "attributionLink": "https://upra.gov.co/",
+ "averageRating": 0,
+ "category": "Agricultura y Desarrollo Rural",
+ "createdAt": 1651683634,
+ "description": "La EVA es una investigación que se realiza mediante un mecanismo subjetivo de recolección de información respecto al área, la producción y el rendimiento de la actividad agropecuaria municipal. El método de cálculo se fundamenta principalmente en la confrontación y conciliación de la información que proveen los registros administrativos que manejan entidades y gremios del sector (área registrada, área bajo asistencia técnica, sacrificio de ganado, registros de parafiscales etc.), con el conocimiento de los funcionarios y los profesionales del sector, respecto al desarrollo y comportamiento de la producción. Su cobertura es de 1.103 municipios y de cerca de 200 productos de la canasta agropecuaria. El Gobierno Nacional, mediante Resolución 299 de 2019 del Ministerio de Agricultura y Desarrollo Rural (MADR), delegó en la Unidad de Planificación Rural Agropecuaria (UPRA) coordinar las actuaciones de las autoridades administrativas sectoriales con miras a implementar el Sistema Nacional Unificado de Información Rural y Agropecuaria (SNUIRA), el Sistema de Información para la Gestión de Riesgos Agropecuarios (SIGRA), consolidar Agronet y gestionar la información del sector agropecuario generada por las diferentes entidades adscritas y vinculadas, así como la realización de las Evaluaciones Agropecuarias Municipales (EVA) en coordinación con las entidades competentes. En la operación de la EVA por la UPRA, se cuenta con información municipal y semestral para los años 2019 al 2025, referente al área sembrada, el área cosechada, la producción y el rendimiento de la actividad agrícola, el\ninventario y el sacrificio de las principales especies pecuarios. Esta información se cuenta dispuesta en la página de la EVA-UPRA, en el SIGRA, en AGRONET.\nLa información recolectada a través de este proyecto es de gran importancia en la toma de decisiones a todo nivel y se convierte en la base para la formulación de planes, proyectos y políticas agropecuarias para el desarrollo económico de los municipios, las regiones y del país.\nNota: Los datos de área cosechada, producción y rendimiento de cultivos transitorios a partir del año 2022, corresponden a las cosechas efectivas de cada periodo; para los años anteriores estas variables corresponden a las siembras realizadas en el periodo respectivo. Las cifras de los dos últimos años son susceptibles de modificación por posibles ajustes de las fuentes. El municipio Nuevo Belén de Bajirá, código 27493, se incorporó a las EVA en el 2024, dado que a partir del decreto 0284 del 26 de diciembre de 2023 y de la Ordenanza No. 180 del 27 de junio de 2023, se crea el municipio, segregado del municipio de Riosucio. Se ajustaron las cifras de producción y rendimiento de algodón, ajonjolí y guandul, para los años  2021, 2022 y 2023 por actualización de los parámetros de conversión.",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 3303,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 38452885,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1653684072,
+ "publicationGroup": 18689060,
+ "publicationStage": "published",
+ "resourceName": "EVABaseAgricola20192025",
+ "rowsUpdatedAt": 1787936043,
+ "rowsUpdatedBy": "mskn-mcjt",
+ "tableId": 18689060,
+ "totalTimesRated": 0,
+ "viewCount": 18040,
+ "viewLastModified": 1787935979,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1654057060,
+   "reviewedAutomatically": false,
+   "state": "approved",
+   "submissionId": 4725449,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1653684073,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "reviewer": {
+    "id": "r4qn-dwdd",
+    "displayName": "Ministerio de Tecnologías de la Información y las Comunicaciones - Datos Abiertos"
+   },
+   "submissionDetails": {
+    "permissionType": "READ"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1654057061,
+    "failureCount": 0,
+    "startedAt": 1654057060,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "mskn-mcjt",
+    "displayName": "UPRA"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 561047178,
+   "name": "Código Dane departamento",
+   "dataTypeName": "text",
+   "description": "Código del departamento - DIVIPOLA",
+   "fieldName": "c_digo_dane_departamento",
+   "position": 1,
+   "renderTypeName": "text",
+   "tableColumnId": 142331609,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "99",
+    "null": "0",
+    "top": [
+     {
+      "item": "15",
+      "count": "17679"
+     },
+     {
+      "item": "25",
+      "count": "15584"
+     },
+     {
+      "item": "05",
+      "count": "15216"
+     },
+     {
+      "item": "68",
+      "count": "13071"
+     },
+     {
+      "item": "41",
+      "count": "11769"
+     },
+     {
+      "item": "52",
+      "count": "11568"
+     },
+     {
+      "item": "76",
+      "count": "10589"
+     },
+     {
+      "item": "19",
+      "count": "7518"
+     },
+     {
+      "item": "54",
+      "count": "7125"
+     },
+     {
+      "item": "73",
+      "count": "6688"
+     },
+     {
+      "item": "13",
+      "count": "4834"
+     },
+     {
+      "item": "47",
+      "count": "4295"
+     },
+     {
+      "item": "20",
+      "count": "4268"
+     },
+     {
+      "item": "50",
+      "count": "4238"
+     },
+     {
+      "item": "23",
+      "count": "4208"
+     },
+     {
+      "item": "17",
+      "count": "3882"
+     },
+     {
+      "item": "70",
+      "count": "3527"
+     },
+     {
+      "item": "27",
+      "count": "3419"
+     },
+     {
+      "item": "08",
+      "count": "2855"
+     },
+     {
+      "item": "44",
+      "count": "2415"
+     }
+    ],
+    "smallest": "05",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {}
+  },
+  {
+   "id": 561047177,
+   "name": "Departamento",
+   "dataTypeName": "text",
+   "description": "Nombre del departamento",
+   "fieldName": "departamento",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 142331608,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "Vichada",
+    "null": "0",
+    "top": [
+     {
+      "item": "Boyacá",
+      "count": "17679"
+     },
+     {
+      "item": "Cundinamarca",
+      "count": "15584"
+     },
+     {
+      "item": "Antioquia",
+      "count": "15216"
+     },
+     {
+      "item": "Santander",
+      "count": "13071"
+     },
+     {
+      "item": "Huila",
+      "count": "11769"
+     },
+     {
+      "item": "Nariño",
+      "count": "11568"
+     },
+     {
+      "item": "Valle del Cauca",
+      "count": "10589"
+     },
+     {
+      "item": "Cauca",
+      "count": "7518"
+     },
+     {
+      "item": "Norte de Santander",
+      "count": "7125"
+     },
+     {
+      "item": "Tolima",
+      "count": "6688"
+     },
+     {
+      "item": "Bolívar",
+      "count": "4834"
+     },
+     {
+      "item": "Magdalena",
+      "count": "4295"
+     },
+     {
+      "item": "Cesar",
+      "count": "4268"
+     },
+     {
+      "item": "Meta",
+      "count": "4238"
+     },
+     {
+      "item": "Córdoba",
+      "count": "4208"
+     },
+     {
+      "item": "Caldas",
+      "count": "3882"
+     },
+     {
+      "item": "Sucre",
+      "count": "3527"
+     },
+     {
+      "item": "Chocó",
+      "count": "3419"
+     },
+     {
+      "item": "Atlántico",
+      "count": "2855"
+     },
+     {
+      "item": "La Guajira",
+      "count": "2415"
+     }
+    ],
+    "smallest": "Amazonas",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {}
+  },
+  {
+   "id": 561047176,
+   "name": "Código Dane municipio",
+   "dataTypeName": "text",
+   "description": "Código del municipio - DIVIPOLA",
+   "fieldName": "c_digo_dane_municipio",
+   "position": 3,
+   "renderTypeName": "text",
+   "tableColumnId": 142331607,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "99773",
+    "null": "0",
+    "top": [
+     {
+      "item": "41548",
+      "count": "478"
+     },
+     {
+      "item": "76622",
+      "count": "463"
+     },
+     {
+      "item": "47288",
+      "count": "440"
+     },
+     {
+      "item": "41298",
+      "count": "434"
+     },
+     {
+      "item": "41396",
+      "count": "429"
+     },
+     {
+      "item": "41306",
+      "count": "427"
+     },
+     {
+      "item": "41132",
+      "count": "423"
+     },
+     {
+      "item": "41020",
+      "count": "423"
+     },
+     {
+      "item": "41001",
+      "count": "406"
+     },
+     {
+      "item": "76892",
+      "count": "392"
+     },
+     {
+      "item": "76100",
+      "count": "382"
+     },
+     {
+      "item": "41206",
+      "count": "381"
+     },
+     {
+      "item": "41524",
+      "count": "369"
+     },
+     {
+      "item": "52320",
+      "count": "368"
+     },
+     {
+      "item": "76834",
+      "count": "367"
+     },
+     {
+      "item": "76111",
+      "count": "365"
+     },
+     {
+      "item": "05001",
+      "count": "364"
+     },
+     {
+      "item": "47001",
+      "count": "362"
+     },
+     {
+      "item": "76736",
+      "count": "352"
+     },
+     {
+      "item": "41013",
+      "count": "351"
+     }
+    ],
+    "smallest": "05001",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {}
+  },
+  {
+   "id": 561047175,
+   "name": "Municipio",
+   "dataTypeName": "text",
+   "description": "Nombre del municipio",
+   "fieldName": "municipio",
+   "position": 4,
+   "renderTypeName": "text",
+   "tableColumnId": 142331606,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "Zona Bananera",
+    "null": "0",
+    "top": [
+     {
+      "item": "La Unión",
+      "count": "801"
+     },
+     {
+      "item": "Bolívar",
+      "count": "770"
+     },
+     {
+      "item": "Granada",
+      "count": "762"
+     },
+     {
+      "item": "Córdoba",
+      "count": "561"
+     },
+     {
+      "item": "Guadalupe",
+      "count": "543"
+     },
+     {
+      "item": "Buenavista",
+      "count": "518"
+     },
+     {
+      "item": "Villanueva",
+      "count": "506"
+     },
+     {
+      "item": "Santa Bárbara",
+      "count": "493"
+     },
+     {
+      "item": "Pital",
+      "count": "478"
+     },
+     {
+      "item": "Restrepo",
+      "count": "472"
+     },
+     {
+      "item": "Santa María",
+      "count": "468"
+     },
+     {
+      "item": "Roldanillo",
+      "count": "463"
+     },
+     {
+      "item": "El Tambo",
+      "count": "456"
+     },
+     {
+      "item": "Fundación",
+      "count": "440"
+     },
+     {
+      "item": "Garzón",
+      "count": "434"
+     },
+     {
+      "item": "La Plata",
+      "count": "429"
+     },
+     {
+      "item": "Gigante",
+      "count": "427"
+     },
+     {
+      "item": "Campoalegre",
+      "count": "423"
+     },
+     {
+      "item": "Algeciras",
+      "count": "423"
+     },
+     {
+      "item": "Argelia",
+      "count": "414"
+     }
+    ],
+    "smallest": "Abejorral",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {}
+  },
+  {
+   "id": 561047174,
+   "name": "Grupo cultivo",
+   "dataTypeName": "text",
+   "description": "Clasificación de la especie cultivada",
+   "fieldName": "grupo_cultivo",
+   "position": 5,
+   "renderTypeName": "text",
+   "tableColumnId": 142331605,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "Raíces y tubérculos",
+    "null": "0",
+    "top": [
+     {
+      "item": "Frutales",
+      "count": "49152"
+     },
+     {
+      "item": "Hortalizas",
+      "count": "31629"
+     },
+     {
+      "item": "Cereales",
+      "count": "28663"
+     },
+     {
+      "item": "Raíces y tubérculos",
+      "count": "21244"
+     },
+     {
+      "item": "Leguminosas",
+      "count": "17898"
+     },
+     {
+      "item": "Cultivos tropicales tradicionales",
+      "count": "14511"
+     },
+     {
+      "item": "Oleaginosas",
+      "count": "2045"
+     },
+     {
+      "item": "Cultivos para condimentos, bebidas medicinales y aromáticas",
+      "count": "1590"
+     }
+    ],
+    "smallest": "Cereales",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {}
+  },
+  {
+   "id": 561047173,
+   "name": "Subgrupo",
+   "dataTypeName": "text",
+   "description": "Subgrupo de la clasificación de especie cultivada",
+   "fieldName": "subgrupo",
+   "position": 6,
+   "renderTypeName": "text",
+   "tableColumnId": 142331604,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "Solanáceas",
+    "null": "0",
+    "top": [
+     {
+      "item": "Cereales",
+      "count": "28663"
+     },
+     {
+      "item": "Demás frutales",
+      "count": "23848"
+     },
+     {
+      "item": "Raíces y tubérculos",
+      "count": "21244"
+     },
+     {
+      "item": "Hortalizas de fruto",
+      "count": "19082"
+     },
+     {
+      "item": "Leguminosas",
+      "count": "17898"
+     },
+     {
+      "item": "Cultivos tropicales tradicionales",
+      "count": "14511"
+     },
+     {
+      "item": "Cítricos",
+      "count": "11124"
+     },
+     {
+      "item": "Solanáceas",
+      "count": "4707"
+     },
+     {
+      "item": "Pasifloráceas",
+      "count": "4244"
+     },
+     {
+      "item": "Hortalizas de hoja",
+      "count": "4023"
+     },
+     {
+      "item": "Hortalizas de raíz",
+      "count": "3914"
+     },
+     {
+      "item": "Oleaginosas",
+      "count": "2045"
+     },
+     {
+      "item": "Hortalizas",
+      "count": "2020"
+     },
+     {
+      "item": "Hortalizas de tallo",
+      "count": "1960"
+     },
+     {
+      "item": "Mirtáceas",
+      "count": "1688"
+     },
+     {
+      "item": "Anonáceas",
+      "count": "1294"
+     },
+     {
+      "item": "Caducifolios",
+      "count": "1126"
+     },
+     {
+      "item": "Aráceas",
+      "count": "1121"
+     },
+     {
+      "item": "Hortalizas de flor",
+      "count": "630"
+     },
+     {
+      "item": "Condimentos",
+      "count": "533"
+     }
+    ],
+    "smallest": "Anonáceas",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {}
+  },
+  {
+   "id": 561047172,
+   "name": "Cultivo",
+   "dataTypeName": "text",
+   "description": "Nombre de la especie cultivada",
+   "fieldName": "cultivo",
+   "position": 7,
+   "renderTypeName": "text",
+   "tableColumnId": 142331603,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "Zapote",
+    "null": "0",
+    "top": [
+     {
+      "item": "Maíz",
+      "count": "21992"
+     },
+     {
+      "item": "Yuca",
+      "count": "10126"
+     },
+     {
+      "item": "Frijol",
+      "count": "9642"
+     },
+     {
+      "item": "Tomate",
+      "count": "7174"
+     },
+     {
+      "item": "Plátano",
+      "count": "5652"
+     },
+     {
+      "item": "Aguacate",
+      "count": "5618"
+     },
+     {
+      "item": "Papa",
+      "count": "5574"
+     },
+     {
+      "item": "Limón",
+      "count": "4839"
+     },
+     {
+      "item": "Arroz",
+      "count": "4838"
+     },
+     {
+      "item": "Caña",
+      "count": "4702"
+     },
+     {
+      "item": "Café",
+      "count": "4459"
+     },
+     {
+      "item": "Arveja",
+      "count": "4408"
+     },
+     {
+      "item": "Cacao",
+      "count": "4034"
+     },
+     {
+      "item": "Naranja",
+      "count": "3217"
+     },
+     {
+      "item": "Ahuyama",
+      "count": "2900"
+     },
+     {
+      "item": "Habichuela",
+      "count": "2543"
+     },
+     {
+      "item": "Arracacha",
+      "count": "2315"
+     },
+     {
+      "item": "Lulo",
+      "count": "2267"
+     },
+     {
+      "item": "Mora",
+      "count": "2113"
+     },
+     {
+      "item": "Mandarina",
+      "count": "2049"
+     }
+    ],
+    "smallest": "Acelga",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {}
+  },
+  {
+   "id": 561047171,
+   "name": "Desagregación cultivo",
+   "dataTypeName": "text",
+   "description": "Desagregación de la especie, reportada por los municipios",
+   "fieldName": "desagregaci_n_cultivo",
+   "position": 8,
+   "renderTypeName": "text",
+   "tableColumnId": 142331602,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "Zapote",
+    "null": "0",
+    "top": [
+     {
+      "item": "Yuca consumo en fresco",
+      "count": "9677"
+     },
+     {
+      "item": "Frijol",
+      "count": "9642"
+     },
+     {
+      "item": "Maíz amarillo tradicional",
+      "count": "9247"
+     },
+     {
+      "item": "Plátano consumo interno",
+      "count": "5600"
+     },
+     {
+      "item": "Maíz blanco tradicional",
+      "count": "4928"
+     },
+     {
+      "item": "Café",
+      "count": "4459"
+     },
+     {
+      "item": "Arveja",
+      "count": "4408"
+     },
+     {
+      "item": "Tomate",
+      "count": "4350"
+     },
+     {
+      "item": "Cacao",
+      "count": "4034"
+     },
+     {
+      "item": "Caña panelera",
+      "count": "3951"
+     },
+     {
+      "item": "Papa todas las variedades",
+      "count": "3869"
+     },
+     {
+      "item": "Aguacate demás variedades",
+      "count": "3529"
+     },
+     {
+      "item": "Maíz tradicional",
+      "count": "3464"
+     },
+     {
+      "item": "Ahuyama",
+      "count": "2900"
+     },
+     {
+      "item": "Tomate invernadero",
+      "count": "2824"
+     },
+     {
+      "item": "Habichuela",
+      "count": "2543"
+     },
+     {
+      "item": "Arracacha",
+      "count": "2315"
+     },
+     {
+      "item": "Lulo",
+      "count": "2267"
+     },
+     {
+      "item": "Limón Tahití",
+      "count": "2139"
+     },
+     {
+      "item": "Mora",
+      "count": "2113"
+     }
+    ],
+    "smallest": "Acelga",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {}
+  },
+  {
+   "id": 561047170,
+   "name": "Año",
+   "dataTypeName": "number",
+   "description": "Año de referencia ",
+   "fieldName": "a_o",
+   "position": 9,
+   "renderTypeName": "number",
+   "tableColumnId": 142331601,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "2025",
+    "null": "0",
+    "top": [
+     {
+      "item": "2025",
+      "count": "25617"
+     },
+     {
+      "item": "2024",
+      "count": "25553"
+     },
+     {
+      "item": "2023",
+      "count": "24909"
+     },
+     {
+      "item": "2022",
+      "count": "24808"
+     },
+     {
+      "item": "2021",
+      "count": "23898"
+     },
+     {
+      "item": "2020",
+      "count": "21511"
+     },
+     {
+      "item": "2019",
+      "count": "20436"
+     }
+    ],
+    "smallest": "2019",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {
+    "noCommas": "true"
+   }
+  },
+  {
+   "id": 561047169,
+   "name": "Periodo",
+   "dataTypeName": "text",
+   "description": "Periodo de siembra (Año y semestre para transitorios) y solo año para los cultivos permanentes",
+   "fieldName": "periodo",
+   "position": 10,
+   "renderTypeName": "text",
+   "tableColumnId": 142331600,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "2025B",
+    "null": "0",
+    "top": [
+     {
+      "item": "2024",
+      "count": "9955"
+     },
+     {
+      "item": "2025",
+      "count": "9929"
+     },
+     {
+      "item": "2023",
+      "count": "9669"
+     },
+     {
+      "item": "2022",
+      "count": "9627"
+     },
+     {
+      "item": "2021",
+      "count": "9527"
+     },
+     {
+      "item": "2020",
+      "count": "8572"
+     },
+     {
+      "item": "2025A",
+      "count": "8071"
+     },
+     {
+      "item": "2024A",
+      "count": "8013"
+     },
+     {
+      "item": "2019",
+      "count": "8007"
+     },
+     {
+      "item": "2023A",
+      "count": "7833"
+     },
+     {
+      "item": "2022A",
+      "count": "7818"
+     },
+     {
+      "item": "2021A",
+      "count": "7654"
+     },
+     {
+      "item": "2025B",
+      "count": "7617"
+     },
+     {
+      "item": "2024B",
+      "count": "7585"
+     },
+     {
+      "item": "2023B",
+      "count": "7407"
+     },
+     {
+      "item": "2022B",
+      "count": "7363"
+     },
+     {
+      "item": "2020A",
+      "count": "6923"
+     },
+     {
+      "item": "2019A",
+      "count": "6753"
+     },
+     {
+      "item": "2021B",
+      "count": "6717"
+     },
+     {
+      "item": "2020B",
+      "count": "6016"
+     }
+    ],
+    "smallest": "2019",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {}
+  },
+  {
+   "id": 561047168,
+   "name": "Área sembrada",
+   "dataTypeName": "number",
+   "description": "Área Sembrada en hectáreas",
+   "fieldName": "rea_sembrada",
+   "position": 11,
+   "renderTypeName": "number",
+   "tableColumnId": 142331599,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "77630.00",
+    "null": "0",
+    "top": [
+     {
+      "item": "5.00",
+      "count": "6248"
+     },
+     {
+      "item": "2.00",
+      "count": "6155"
+     },
+     {
+      "item": "10.00",
+      "count": "5865"
+     },
+     {
+      "item": "3.00",
+      "count": "5721"
+     },
+     {
+      "item": "1.00",
+      "count": "5291"
+     },
+     {
+      "item": "4.00",
+      "count": "4878"
+     },
+     {
+      "item": "6.00",
+      "count": "4172"
+     },
+     {
+      "item": "20.00",
+      "count": "4044"
+     },
+     {
+      "item": "8.00",
+      "count": "3784"
+     },
+     {
+      "item": "15.00",
+      "count": "3622"
+     },
+     {
+      "item": "7.00",
+      "count": "3103"
+     },
+     {
+      "item": "0.00",
+      "count": "3007"
+     },
+     {
+      "item": "30.00",
+      "count": "2991"
+     },
+     {
+      "item": "12.00",
+      "count": "2886"
+     },
+     {
+      "item": "25.00",
+      "count": "2289"
+     },
+     {
+      "item": "40.00",
+      "count": "2168"
+     },
+     {
+      "item": "50.00",
+      "count": "2017"
+     },
+     {
+      "item": "9.00",
+      "count": "1909"
+     },
+     {
+      "item": "60.00",
+      "count": "1564"
+     },
+     {
+      "item": "18.00",
+      "count": "1543"
+     }
+    ],
+    "smallest": "0.00",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {
+    "precision": "2"
+   }
+  },
+  {
+   "id": 561047167,
+   "name": "Área cosechada",
+   "dataTypeName": "number",
+   "description": "Área cosechada en hectáreas de las siembras realizadas en el periodo de referencia",
+   "fieldName": "rea_cosechada",
+   "position": 12,
+   "renderTypeName": "number",
+   "tableColumnId": 142331598,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "77630.00",
+    "null": "0",
+    "top": [
+     {
+      "item": "0.00",
+      "count": "7116"
+     },
+     {
+      "item": "2.00",
+      "count": "6201"
+     },
+     {
+      "item": "5.00",
+      "count": "5906"
+     },
+     {
+      "item": "3.00",
+      "count": "5524"
+     },
+     {
+      "item": "1.00",
+      "count": "5461"
+     },
+     {
+      "item": "10.00",
+      "count": "5159"
+     },
+     {
+      "item": "4.00",
+      "count": "4898"
+     },
+     {
+      "item": "6.00",
+      "count": "3851"
+     },
+     {
+      "item": "8.00",
+      "count": "3607"
+     },
+     {
+      "item": "20.00",
+      "count": "3452"
+     },
+     {
+      "item": "15.00",
+      "count": "3149"
+     },
+     {
+      "item": "7.00",
+      "count": "3086"
+     },
+     {
+      "item": "12.00",
+      "count": "2587"
+     },
+     {
+      "item": "30.00",
+      "count": "2585"
+     },
+     {
+      "item": "9.00",
+      "count": "2120"
+     },
+     {
+      "item": "25.00",
+      "count": "1906"
+     },
+     {
+      "item": "40.00",
+      "count": "1815"
+     },
+     {
+      "item": "50.00",
+      "count": "1704"
+     },
+     {
+      "item": "18.00",
+      "count": "1552"
+     },
+     {
+      "item": "11.00",
+      "count": "1473"
+     }
+    ],
+    "smallest": "0.00",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {
+    "precision": "2"
+   }
+  },
+  {
+   "id": 561047166,
+   "name": "Producción",
+   "dataTypeName": "number",
+   "description": "Producción en toneladas de las siembras realizadas en el periodo de referencia",
+   "fieldName": "producci_n",
+   "position": 13,
+   "renderTypeName": "number",
+   "tableColumnId": 142331597,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "4776340.50",
+    "null": "0",
+    "top": [
+     {
+      "item": "0.00",
+      "count": "7116"
+     },
+     {
+      "item": "60.00",
+      "count": "1827"
+     },
+     {
+      "item": "30.00",
+      "count": "1825"
+     },
+     {
+      "item": "20.00",
+      "count": "1675"
+     },
+     {
+      "item": "40.00",
+      "count": "1478"
+     },
+     {
+      "item": "12.00",
+      "count": "1451"
+     },
+     {
+      "item": "120.00",
+      "count": "1424"
+     },
+     {
+      "item": "10.00",
+      "count": "1344"
+     },
+     {
+      "item": "24.00",
+      "count": "1337"
+     },
+     {
+      "item": "15.00",
+      "count": "1247"
+     },
+     {
+      "item": "6.00",
+      "count": "1202"
+     },
+     {
+      "item": "90.00",
+      "count": "1126"
+     },
+     {
+      "item": "80.00",
+      "count": "1114"
+     },
+     {
+      "item": "36.00",
+      "count": "1085"
+     },
+     {
+      "item": "18.00",
+      "count": "1073"
+     },
+     {
+      "item": "8.00",
+      "count": "1058"
+     },
+     {
+      "item": "100.00",
+      "count": "1008"
+     },
+     {
+      "item": "150.00",
+      "count": "987"
+     },
+     {
+      "item": "300.00",
+      "count": "960"
+     },
+     {
+      "item": "16.00",
+      "count": "958"
+     }
+    ],
+    "smallest": "0.00",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {
+    "precision": "2"
+   }
+  },
+  {
+   "id": 561047165,
+   "name": "Rendimiento",
+   "dataTypeName": "number",
+   "description": "Rendimiento (producción / área cosechada)",
+   "fieldName": "rendimiento",
+   "position": 14,
+   "renderTypeName": "number",
+   "tableColumnId": 142331596,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "253.00",
+    "null": "0",
+    "top": [
+     {
+      "item": "10.00",
+      "count": "9380"
+     },
+     {
+      "item": "8.00",
+      "count": "7321"
+     },
+     {
+      "item": "0.00",
+      "count": "7116"
+     },
+     {
+      "item": "5.00",
+      "count": "6159"
+     },
+     {
+      "item": "12.00",
+      "count": "5929"
+     },
+     {
+      "item": "2.00",
+      "count": "5712"
+     },
+     {
+      "item": "15.00",
+      "count": "5659"
+     },
+     {
+      "item": "6.00",
+      "count": "5637"
+     },
+     {
+      "item": "20.00",
+      "count": "5187"
+     },
+     {
+      "item": "7.00",
+      "count": "5009"
+     },
+     {
+      "item": "4.00",
+      "count": "4932"
+     },
+     {
+      "item": "1.00",
+      "count": "4818"
+     },
+     {
+      "item": "3.00",
+      "count": "4735"
+     },
+     {
+      "item": "1.50",
+      "count": "3840"
+     },
+     {
+      "item": "9.00",
+      "count": "3730"
+     },
+     {
+      "item": "18.00",
+      "count": "2762"
+     },
+     {
+      "item": "14.00",
+      "count": "2275"
+     },
+     {
+      "item": "25.00",
+      "count": "2101"
+     },
+     {
+      "item": "1.20",
+      "count": "2078"
+     },
+     {
+      "item": "16.00",
+      "count": "2034"
+     }
+    ],
+    "smallest": "0.00",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {
+    "precision": "2"
+   }
+  },
+  {
+   "id": 561047164,
+   "name": "Ciclo del cultivo",
+   "dataTypeName": "text",
+   "description": "Ciclo del cultivo (transitorio o permanente)",
+   "fieldName": "ciclo_del_cultivo",
+   "position": 15,
+   "renderTypeName": "text",
+   "tableColumnId": 142331595,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "Transitorio",
+    "null": "0",
+    "top": [
+     {
+      "item": "Transitorio",
+      "count": "101676"
+     },
+     {
+      "item": "Permanente",
+      "count": "65056"
+     }
+    ],
+    "smallest": "Permanente",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {}
+  },
+  {
+   "id": 561047163,
+   "name": "Estado físico del cultivo",
+   "dataTypeName": "text",
+   "description": "Estado físico como se expresa la producción",
+   "fieldName": "estado_f_sico_del_cultivo",
+   "position": 16,
+   "renderTypeName": "text",
+   "tableColumnId": 142331594,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "Pergamino o seco de trilla",
+    "null": "0",
+    "top": [
+     {
+      "item": "En fresco",
+      "count": "113470"
+     },
+     {
+      "item": "Grano seco",
+      "count": "32403"
+     },
+     {
+      "item": "Paddy o cascara verde",
+      "count": "4838"
+     },
+     {
+      "item": "Caña o verde",
+      "count": "4702"
+     },
+     {
+      "item": "Pergamino o seco de trilla",
+      "count": "4459"
+     },
+     {
+      "item": "Grano",
+      "count": "4408"
+     },
+     {
+      "item": "Aceite crudo",
+      "count": "976"
+     },
+     {
+      "item": "Grano o almendra",
+      "count": "681"
+     },
+     {
+      "item": "Fibra o cabuya",
+      "count": "433"
+     },
+     {
+      "item": "Algodón semilla",
+      "count": "362"
+     }
+    ],
+    "smallest": "Aceite crudo",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {}
+  },
+  {
+   "id": 561047162,
+   "name": "Código del cultivo",
+   "dataTypeName": "number",
+   "description": "Código cultivo - Clasificación EVA",
+   "fieldName": "c_digo_del_cultivo",
+   "position": 17,
+   "renderTypeName": "number",
+   "tableColumnId": 142331593,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "2080300",
+    "null": "0",
+    "top": [
+     {
+      "item": "1081001",
+      "count": "9677"
+     },
+     {
+      "item": "1060200",
+      "count": "9642"
+     },
+     {
+      "item": "1010402",
+      "count": "9247"
+     },
+     {
+      "item": "2045802",
+      "count": "5600"
+     },
+     {
+      "item": "1010404",
+      "count": "4928"
+     },
+     {
+      "item": "2030300",
+      "count": "4459"
+     },
+     {
+      "item": "1060100",
+      "count": "4408"
+     },
+     {
+      "item": "1052901",
+      "count": "4350"
+     },
+     {
+      "item": "2030200",
+      "count": "4034"
+     },
+     {
+      "item": "2030402",
+      "count": "3951"
+     },
+     {
+      "item": "1080701",
+      "count": "3869"
+     },
+     {
+      "item": "2040299",
+      "count": "3529"
+     },
+     {
+      "item": "1010497",
+      "count": "3464"
+     },
+     {
+      "item": "1050200",
+      "count": "2900"
+     },
+     {
+      "item": "1052902",
+      "count": "2824"
+     },
+     {
+      "item": "1060600",
+      "count": "2543"
+     },
+     {
+      "item": "1080200",
+      "count": "2315"
+     },
+     {
+      "item": "2043700",
+      "count": "2267"
+     },
+     {
+      "item": "2043603",
+      "count": "2139"
+     },
+     {
+      "item": "2044700",
+      "count": "2113"
+     }
+    ],
+    "smallest": "1010101",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "noCommas": "true"
+   }
+  },
+  {
+   "id": 561047161,
+   "name": "Nombre científico del cultivo",
+   "dataTypeName": "text",
+   "description": "Nombre científico de la especie cultivada",
+   "fieldName": "nombre_cient_fico_del_cultivo",
+   "position": 18,
+   "renderTypeName": "text",
+   "tableColumnId": 142331592,
+   "cachedContents": {
+    "non_null": "166732",
+    "largest": "Zingiber officinale",
+    "null": "0",
+    "top": [
+     {
+      "item": "Zea mays",
+      "count": "21992"
+     },
+     {
+      "item": "Manihot esculenta",
+      "count": "10126"
+     },
+     {
+      "item": "Phaseolus vulgaris",
+      "count": "9642"
+     },
+     {
+      "item": "Lycopersicon esculentum",
+      "count": "7174"
+     },
+     {
+      "item": "Musa x paradisiaca",
+      "count": "5652"
+     },
+     {
+      "item": "Persea americana",
+      "count": "5618"
+     },
+     {
+      "item": "Citrus limon",
+      "count": "4839"
+     },
+     {
+      "item": "Oryza sativa",
+      "count": "4838"
+     },
+     {
+      "item": "Saccharum officinarum",
+      "count": "4702"
+     },
+     {
+      "item": "Coffea arabica",
+      "count": "4459"
+     },
+     {
+      "item": "Pisum sativum",
+      "count": "4408"
+     },
+     {
+      "item": "Theobrama cacao",
+      "count": "4034"
+     },
+     {
+      "item": "Solanum tuberosum",
+      "count": "3869"
+     },
+     {
+      "item": "Citrus x aurantium",
+      "count": "3217"
+     },
+     {
+      "item": "No aplica",
+      "count": "3145"
+     },
+     {
+      "item": "Cucurbita maxima",
+      "count": "2900"
+     },
+     {
+      "item": "Phaseolus vulgaris ‘habichuela’",
+      "count": "2543"
+     },
+     {
+      "item": "Arracacia xanthorrhiza",
+      "count": "2315"
+     },
+     {
+      "item": "Solanum quitoense",
+      "count": "2267"
+     },
+     {
+      "item": "Rubus glaucus Benth.",
+      "count": "2113"
+     }
+    ],
+    "smallest": "Allium cepa",
+    "count": "166732",
+    "cardinality": "166732"
+   },
+   "format": {}
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "attachments": [
+   {
+    "filename": "MTEvas_20260506.pdf",
+    "assetId": "267b8fcb-6062-4c47-bcfd-3ab9d2216e55",
+    "name": "MTEvas_20260506.pdf"
+   }
+  ],
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Unidad de Planificación de Tierras Rurales, Adecuación de Tierras y Usos Agropecuarios - UPRA, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Agricultura y Desarrollo Rural",
+    "Área o dependencia": "Oficina de Tecnologías de la Información y Comunicaciones",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Nacional",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Anual"
+   }
+  },
+  "availableDisplayTypes": [
+   "table",
+   "fatrow",
+   "page"
+  ]
+ },
+ "owner": {
+  "id": "mskn-mcjt",
+  "displayName": "UPRA",
+  "profileImageUrlLarge": "/api/users/mskn-mcjt/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/mskn-mcjt/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/mskn-mcjt/profile_images/TINY",
+  "screenName": "UPRA",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "mskn-mcjt",
+  "displayName": "UPRA",
+  "profileImageUrlLarge": "/api/users/mskn-mcjt/profile_images/LARGE",
+  "profileImageUrlMedium": "/api/users/mskn-mcjt/profile_images/THUMB",
+  "profileImageUrlSmall": "/api/users/mskn-mcjt/profile_images/TINY",
+  "screenName": "UPRA",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "área",
+  "cultivos transitorios",
+  "cultivos",
+  "evaluaciones agropecuarias municipales",
+  "upra",
+  "producción",
+  "rendimiento",
+  "área cosechada",
+  "área sembrada"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

@@ -70,13 +70,29 @@ def test_escape_y_logicos():
 
 def test_convertir():
     tr = T.traducir('{ calidadAguaIrcaAggregate { nivelDeRiesgo count avg { ircaUrbano } } }')
-    rows = [{"nivel_de_riesgo": "Riesgo alto", "count": "12", "avg_ircaurbano": "45.5"}, {"nivel_de_riesgo": "Desconocido", "count": "1"}]
+    rows = [{"nivel_de_riesgo_canon": "Riesgo alto", "count": "12", "avg_ircaurbano": "45.5"}, {"nivel_de_riesgo_canon": "Desconocido", "count": "1"}]
     assert T.convertir(tr, rows) == [{"nivelDeRiesgo": "ALTO_RIESGO", "count": 12, "avg": {"ircaUrbano": 45.5}},
                                      {"nivelDeRiesgo": None, "count": 1, "avg": {"ircaUrbano": None}}]
     tr = T.traducir('{ calidadAguaIrca(limit: 1) { ircaUrbano anio } }')
     assert T.convertir(tr, [{"ircaurbano": "ND", "a_o": "2007"}]) == [{"ircaUrbano": None, "anio": 2007}]
     tr = T.traducir('{ vacunacionAftosaVichada(limit: 1) { fechaRuv totalAftosa } }')
     assert T.convertir(tr, [{"fecha_ruv": "2024-10-28T00:00:00.000", "total_aftosa": "148"}]) == [{"fechaRuv": "2024-10-28", "totalAftosa": 148}]
+
+
+def test_agrupacion_enum_fusionado():
+    # Agrupar por un enum con variantes fusionadas: una fila por valor GraphQL, no por variante original
+    tr = T.traducir('{ energiaZonasNoInterconectadasAggregate { diaDeDemandaMaxima count } }')
+    assert "dia_demanda_maxima IN ('Sabado', 'Sábado', 'sábado'), 'Sabado'" in tr.soql, tr.soql
+    assert "GROUP BY dia_demanda_maxima_canon" in tr.soql, tr.soql
+    assert T.convertir(tr, [{"dia_demanda_maxima_canon": "Sabado", "count": "5"}]) == [{"diaDeDemandaMaxima": "SABADO", "count": 5}]
+    tr = T.traducir('{ energiaZonasNoInterconectadasAggregate(orderBy: [{diaDeDemandaMaxima: ASC}]) { diaDeDemandaMaxima count } }')
+    assert "ORDER BY dia_demanda_maxima_canon ASC" in tr.soql, tr.soql
+    # count(distinct) también cuenta valores GraphQL, no variantes
+    tr = T.traducir('{ energiaZonasNoInterconectadasAggregate { countDistinct { diaDeDemandaMaxima } } }')
+    assert tr.soql.startswith("SELECT count(distinct case(dia_demanda_maxima IN ('Domingo', 'domingo'), 'Domingo'"), tr.soql
+    # un enum sin fusiones no cambia
+    assert T.traducir('{ vacunacionAftosaVichadaAggregate { municipio count } }').soql == \
+        "SELECT municipio, count(*) AS count GROUP BY municipio LIMIT 100"
 
 
 if __name__ == "__main__":

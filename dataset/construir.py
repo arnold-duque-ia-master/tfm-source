@@ -671,6 +671,40 @@ def validar():
     print("fin", dict(motivos))
 
 
+def revalidar():
+    """Vuelve a validar los pares válidos cuya SoQL cambia con la versión actual de la capa.
+
+    Se usa tras corregir el traductor sin cambiar el esquema (p. ej., la agrupación y el conteo distinto por
+    enums fusionados, 06/11/2026): la consulta GraphQL y la pregunta no cambian, pero sí la SoQL y la respuesta.
+    Añade las nuevas validaciones a validados.jsonl (la última de cada consulta prevalece); después hay que
+    ejecutar `particionar`, que conserva las particiones mientras no cambie el conjunto de pares válidos."""
+    svc = servicio()
+    vf = TRABAJO / "validados.jsonl"
+    ultimo = {}
+    for l in vf.read_text(encoding="utf8").splitlines():
+        if l.strip():
+            e = json.loads(l); ultimo[e["graphql"]] = e
+    resumen = Counter()
+    with open(vf, "a", encoding="utf8") as fh:
+        for g, e in ultimo.items():
+            if e["estado"] != "valido":
+                continue
+            if svc.tr.traducir(g).soql == e.get("soql"):
+                continue
+            e = dict(e)
+            r = svc.ejecutar(g)
+            if r.get("errors"):
+                e.update(estado="rechazado", motivo="ejecución: " + r["errors"][0].get("extensions", {}).get("code", "") + " " + r["errors"][0]["message"][:160])
+            else:
+                root = next(iter(r["data"]))
+                ok, m = util(r["data"], root)
+                e.update(soql=r["extensions"]["soql"], filas=r["extensions"]["filas"],
+                         respuesta=r["data"][root][:5], estado="valido" if ok else "rechazado", motivo=m)
+            resumen[e["estado"] + (": " + e["motivo"] if e["estado"] != "valido" else "")] += 1
+            fh.write(json.dumps(e, ensure_ascii=False) + "\n"); fh.flush()
+    print("revalidados", sum(resumen.values()), dict(resumen))
+
+
 # ----------------------------------------------------------------------------- partición
 
 RESERVADO = "ni93-8mm5"
@@ -726,4 +760,5 @@ def particionar():
 
 
 if __name__ == "__main__":
-    {"explorar": explorar, "generar": generar, "validar": validar, "particionar": particionar}[sys.argv[1]]()
+    {"explorar": explorar, "generar": generar, "validar": validar, "revalidar": revalidar,
+     "particionar": particionar}[sys.argv[1]]()

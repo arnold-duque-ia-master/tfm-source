@@ -1,0 +1,29 @@
+{
+ "inicio_utc": "2026-11-07T04:22:17+00:00",
+ "rondas_por_escenario": 3,
+ "consultas": 20,
+ "correctas": 120,
+ "total": 120,
+ "cache_en_frio": [
+  "False"
+ ],
+ "cache_en_caliente": [
+  "True"
+ ],
+ "sin_cache": {
+  "ejecuciones": 60,
+  "min": 178,
+  "mediana": 279.0,
+  "media": 524,
+  "p90": 703,
+  "max": 4591
+ },
+ "con_cache": {
+  "ejecuciones": 60,
+  "min": 1,
+  "mediana": 1.0,
+  "media": 1,
+  "p90": 1,
+  "max": 10
+ }
+}

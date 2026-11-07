@@ -1,0 +1,1103 @@
+{
+ "id": "nxt2-39c3",
+ "name": "Calidad del Agua para Consumo Humano en Colombia",
+ "assetType": "dataset",
+ "attribution": "Instituto Nacional de Salud INS, Bogotá D.C",
+ "attributionLink": "https://www.ins.gov.co/sivicap/Paginas/sivicap.aspx",
+ "averageRating": 0,
+ "category": "Salud y Protección Social",
+ "createdAt": 1733764344,
+ "description": "El Sistema de Información de la Vigilancia de la Calidad del Agua de Potable (SIVICAP) fue creado con el propósito de monitorear la calidad del agua potable en el ámbito de la vigilancia en salud pública para el país. A partir del SIVICAP se genera el Índice de Riesgo de la Calidad de Agua Potable (IRCA) que mide en porcentaje el nivel de riesgo de ocurrencia de enfermedades relacionadas con el no cumplimiento de características físicas, químicas y microbiológicas del agua para consumo humano. Este conjunto de datos tiene los históricos del valor promedio anual del IRCA desagregados por departamento, municipio, área urbana y area rural a partir de 2007.",
+ "diciBackend": false,
+ "displayType": "table",
+ "downloadCount": 2633,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "licenseId": "CC_40_BY_SA",
+ "locked": false,
+ "newBackend": true,
+ "numberOfComments": 0,
+ "oid": 41001916,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1733766158,
+ "publicationGroup": 19710981,
+ "publicationStage": "published",
+ "rowsUpdatedAt": 1749585666,
+ "tableId": 19710981,
+ "totalTimesRated": 0,
+ "viewCount": 25977,
+ "viewLastModified": 1790294215,
+ "viewType": "tabular",
+ "approvals": [
+  {
+   "reviewedAt": 1733782390,
+   "reviewedAutomatically": false,
+   "state": "approved",
+   "submissionId": 6648602,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1733766159,
+   "targetAudience": "public",
+   "workflowId": 2188,
+   "reviewer": {
+    "id": "vc9x-zjzh",
+    "displayName": "soporteccc"
+   },
+   "submissionDetails": {
+    "permissionType": "READ"
+   },
+   "submissionOutcomeApplication": {
+    "endedAt": 1733782390,
+    "failureCount": 0,
+    "startedAt": 1733782390,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "issr-5hya",
+    "displayName": "DatosabiertosINS"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [
+  {
+   "id": 602678838,
+   "name": "DepartamentoCodigo",
+   "dataTypeName": "text",
+   "description": "Código DIVIPOLA del Departamento",
+   "fieldName": "departamentocodigo",
+   "position": 1,
+   "renderTypeName": "text",
+   "tableColumnId": 155821159,
+   "cachedContents": {
+    "non_null": "19160",
+    "largest": "99",
+    "null": "0",
+    "top": [
+     {
+      "item": "05",
+      "count": "2225"
+     },
+     {
+      "item": "15",
+      "count": "2215"
+     },
+     {
+      "item": "25",
+      "count": "2063"
+     },
+     {
+      "item": "68",
+      "count": "1537"
+     },
+     {
+      "item": "52",
+      "count": "1085"
+     },
+     {
+      "item": "73",
+      "count": "824"
+     },
+     {
+      "item": "13",
+      "count": "803"
+     },
+     {
+      "item": "54",
+      "count": "735"
+     },
+     {
+      "item": "76",
+      "count": "724"
+     },
+     {
+      "item": "19",
+      "count": "716"
+     },
+     {
+      "item": "41",
+      "count": "682"
+     },
+     {
+      "item": "47",
+      "count": "536"
+     },
+     {
+      "item": "17",
+      "count": "504"
+     },
+     {
+      "item": "50",
+      "count": "499"
+     },
+     {
+      "item": "70",
+      "count": "476"
+     },
+     {
+      "item": "20",
+      "count": "452"
+     },
+     {
+      "item": "23",
+      "count": "435"
+     },
+     {
+      "item": "08",
+      "count": "431"
+     },
+     {
+      "item": "85",
+      "count": "350"
+     },
+     {
+      "item": "18",
+      "count": "287"
+     }
+    ],
+    "smallest": "05",
+    "count": "19160",
+    "cardinality": "19160"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 602678837,
+   "name": "Departamento",
+   "dataTypeName": "text",
+   "description": "Nombre del Departamento",
+   "fieldName": "departamento",
+   "position": 2,
+   "renderTypeName": "text",
+   "tableColumnId": 155821158,
+   "cachedContents": {
+    "non_null": "19160",
+    "largest": "Vichada",
+    "null": "0",
+    "top": [
+     {
+      "item": "Antioquia",
+      "count": "2225"
+     },
+     {
+      "item": "Boyacá",
+      "count": "2215"
+     },
+     {
+      "item": "Cundinamarca",
+      "count": "2063"
+     },
+     {
+      "item": "Santander",
+      "count": "1537"
+     },
+     {
+      "item": "Nariño",
+      "count": "1085"
+     },
+     {
+      "item": "Tolima",
+      "count": "824"
+     },
+     {
+      "item": "Bolívar",
+      "count": "803"
+     },
+     {
+      "item": "Norte de Santander",
+      "count": "735"
+     },
+     {
+      "item": "Valle del Cauca",
+      "count": "724"
+     },
+     {
+      "item": "Cauca",
+      "count": "716"
+     },
+     {
+      "item": "Huila",
+      "count": "682"
+     },
+     {
+      "item": "Magdalena",
+      "count": "536"
+     },
+     {
+      "item": "Caldas",
+      "count": "504"
+     },
+     {
+      "item": "Meta",
+      "count": "499"
+     },
+     {
+      "item": "Sucre",
+      "count": "476"
+     },
+     {
+      "item": "Cesar",
+      "count": "452"
+     },
+     {
+      "item": "Córdoba",
+      "count": "435"
+     },
+     {
+      "item": "Atlántico",
+      "count": "431"
+     },
+     {
+      "item": "Casanare",
+      "count": "350"
+     },
+     {
+      "item": "Caquetá",
+      "count": "287"
+     }
+    ],
+    "smallest": "Amazonas",
+    "count": "19160",
+    "cardinality": "19160"
+   },
+   "format": {}
+  },
+  {
+   "id": 602678836,
+   "name": "MunicipioCodigo",
+   "dataTypeName": "text",
+   "description": "Codigo DIVIPOLA del Municipio. La opción #TODOS indica que es un IRCA departamental y se consideraron las muestras de vigilancia de la calidad del agua de todos sus municipios.",
+   "fieldName": "municipiocodigo",
+   "position": 3,
+   "renderTypeName": "text",
+   "tableColumnId": 155821157,
+   "cachedContents": {
+    "non_null": "19160",
+    "largest": "#TODOS",
+    "null": "0",
+    "top": [
+     {
+      "item": "#TODOS",
+      "count": "569"
+     },
+     {
+      "item": "15778",
+      "count": "18"
+     },
+     {
+      "item": "05390",
+      "count": "18"
+     },
+     {
+      "item": "25839",
+      "count": "18"
+     },
+     {
+      "item": "13160",
+      "count": "18"
+     },
+     {
+      "item": "73616",
+      "count": "18"
+     },
+     {
+      "item": "15172",
+      "count": "18"
+     },
+     {
+      "item": "05150",
+      "count": "18"
+     },
+     {
+      "item": "41799",
+      "count": "18"
+     },
+     {
+      "item": "86571",
+      "count": "18"
+     },
+     {
+      "item": "25123",
+      "count": "18"
+     },
+     {
+      "item": "15401",
+      "count": "18"
+     },
+     {
+      "item": "54720",
+      "count": "18"
+     },
+     {
+      "item": "05250",
+      "count": "18"
+     },
+     {
+      "item": "63690",
+      "count": "18"
+     },
+     {
+      "item": "19824",
+      "count": "18"
+     },
+     {
+      "item": "66088",
+      "count": "18"
+     },
+     {
+      "item": "52323",
+      "count": "18"
+     },
+     {
+      "item": "68271",
+      "count": "18"
+     },
+     {
+      "item": "70110",
+      "count": "18"
+     }
+    ],
+    "smallest": "05001",
+    "count": "19160",
+    "cardinality": "19160"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 602678835,
+   "name": "Municipio",
+   "dataTypeName": "text",
+   "description": "Nombre del Municipio. La opción #TODOS indica que es un IRCA departamental y se consideraron las muestras de vigilancia de la calidad del agua de todos sus municipios.",
+   "fieldName": "municipio",
+   "position": 4,
+   "renderTypeName": "text",
+   "tableColumnId": 155821156,
+   "cachedContents": {
+    "non_null": "19160",
+    "largest": "Zona Bananera",
+    "null": "0",
+    "top": [
+     {
+      "item": "#TODOS",
+      "count": "569"
+     },
+     {
+      "item": "Villanueva",
+      "count": "70"
+     },
+     {
+      "item": "La Unión",
+      "count": "70"
+     },
+     {
+      "item": "Buenavista",
+      "count": "65"
+     },
+     {
+      "item": "Sabanalarga",
+      "count": "54"
+     },
+     {
+      "item": "Granada",
+      "count": "54"
+     },
+     {
+      "item": "Guadalupe",
+      "count": "54"
+     },
+     {
+      "item": "Nariño",
+      "count": "54"
+     },
+     {
+      "item": "Santa Bárbara",
+      "count": "52"
+     },
+     {
+      "item": "San Francisco",
+      "count": "52"
+     },
+     {
+      "item": "Córdoba",
+      "count": "52"
+     },
+     {
+      "item": "Sucre",
+      "count": "51"
+     },
+     {
+      "item": "Albania",
+      "count": "51"
+     },
+     {
+      "item": "Argelia",
+      "count": "48"
+     },
+     {
+      "item": "Bolívar",
+      "count": "48"
+     },
+     {
+      "item": "El Peñón",
+      "count": "45"
+     },
+     {
+      "item": "Briceño",
+      "count": "36"
+     },
+     {
+      "item": "Jericó",
+      "count": "36"
+     },
+     {
+      "item": "Caldas",
+      "count": "36"
+     },
+     {
+      "item": "Cabrera",
+      "count": "36"
+     }
+    ],
+    "smallest": "Abejorral",
+    "count": "19160",
+    "cardinality": "19160"
+   },
+   "format": {}
+  },
+  {
+   "id": 602678834,
+   "name": "Año",
+   "dataTypeName": "number",
+   "description": "Año",
+   "fieldName": "a_o",
+   "position": 5,
+   "renderTypeName": "number",
+   "tableColumnId": 155821155,
+   "cachedContents": {
+    "non_null": "19160",
+    "largest": "2024",
+    "null": "0",
+    "top": [
+     {
+      "item": "2019",
+      "count": "1113"
+     },
+     {
+      "item": "2018",
+      "count": "1109"
+     },
+     {
+      "item": "2013",
+      "count": "1089"
+     },
+     {
+      "item": "2014",
+      "count": "1089"
+     },
+     {
+      "item": "2017",
+      "count": "1086"
+     },
+     {
+      "item": "2010",
+      "count": "1085"
+     },
+     {
+      "item": "2012",
+      "count": "1085"
+     },
+     {
+      "item": "2011",
+      "count": "1082"
+     },
+     {
+      "item": "2021",
+      "count": "1073"
+     },
+     {
+      "item": "2009",
+      "count": "1069"
+     },
+     {
+      "item": "2016",
+      "count": "1061"
+     },
+     {
+      "item": "2008",
+      "count": "1060"
+     },
+     {
+      "item": "2015",
+      "count": "1056"
+     },
+     {
+      "item": "2024",
+      "count": "1038"
+     },
+     {
+      "item": "2020",
+      "count": "1037"
+     },
+     {
+      "item": "2007",
+      "count": "1026"
+     },
+     {
+      "item": "2023",
+      "count": "1009"
+     },
+     {
+      "item": "2022",
+      "count": "993"
+     }
+    ],
+    "smallest": "2007",
+    "count": "19160",
+    "cardinality": "19160"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 602678833,
+   "name": "IRCA",
+   "dataTypeName": "number",
+   "description": "Indice de Riesgo de la Calidad del Agua para Consumo Humano representa un valor porcentual calculado a partir de las muestras de vigilancia de la calidad del agua potable recopiladas a nivel municipal o departamental, según corresponda. La opción ND indica que el valor no está disponible.",
+   "fieldName": "irca",
+   "position": 6,
+   "renderTypeName": "number",
+   "tableColumnId": 155821154,
+   "cachedContents": {
+    "non_null": "19160",
+    "largest": "100.0",
+    "null": "0",
+    "top": [
+     {
+      "item": "0",
+      "count": "1412"
+     },
+     {
+      "item": "0.1",
+      "count": "169"
+     },
+     {
+      "item": "0.7",
+      "count": "133"
+     },
+     {
+      "item": "1",
+      "count": "128"
+     },
+     {
+      "item": "0.2",
+      "count": "127"
+     },
+     {
+      "item": "1.7",
+      "count": "124"
+     },
+     {
+      "item": "0.4",
+      "count": "119"
+     },
+     {
+      "item": "0.3",
+      "count": "117"
+     },
+     {
+      "item": "0.6",
+      "count": "117"
+     },
+     {
+      "item": "1.1",
+      "count": "115"
+     },
+     {
+      "item": "1.5",
+      "count": "114"
+     },
+     {
+      "item": "0.8",
+      "count": "113"
+     },
+     {
+      "item": "1.8",
+      "count": "110"
+     },
+     {
+      "item": "0.9",
+      "count": "109"
+     },
+     {
+      "item": "1.4",
+      "count": "106"
+     },
+     {
+      "item": "2.1",
+      "count": "106"
+     },
+     {
+      "item": "1.3",
+      "count": "105"
+     },
+     {
+      "item": "1.6",
+      "count": "104"
+     },
+     {
+      "item": "0.5",
+      "count": "103"
+     },
+     {
+      "item": "3.2",
+      "count": "100"
+     }
+    ],
+    "smallest": "0.0",
+    "count": "19160",
+    "cardinality": "19160"
+   },
+   "format": {
+    "decimalSeparator": ".",
+    "groupSeparator": ","
+   }
+  },
+  {
+   "id": 602678832,
+   "name": "Nivel de riesgo",
+   "dataTypeName": "text",
+   "description": "Intepretación del valor IRCA de acuerdo a la Resolución 2115 de 2007. El nivel de riesgo según el valor del IRCA es: (I) 0% a 5% = Sin Riesgo; (II)5.1% a 14% = Riesgo bajo; (III) 4.1% a 35% = Riesgo medio; (IV) 35.1% a 80% = Riesgo Alto; (V) 80.1% a 100% = Inviable sanitariamente",
+   "fieldName": "nivel_de_riesgo",
+   "position": 7,
+   "renderTypeName": "text",
+   "tableColumnId": 155821153,
+   "cachedContents": {
+    "non_null": "19160",
+    "largest": "Sin riesgo",
+    "null": "0",
+    "top": [
+     {
+      "item": "Sin riesgo",
+      "count": "5979"
+     },
+     {
+      "item": "Riesgo medio",
+      "count": "4658"
+     },
+     {
+      "item": "Riesgo alto",
+      "count": "4193"
+     },
+     {
+      "item": "Riesgo bajo",
+      "count": "3635"
+     },
+     {
+      "item": "Inviable sanitariamente",
+      "count": "359"
+     },
+     {
+      "item": "Bajo riesgo",
+      "count": "270"
+     },
+     {
+      "item": "Alto riesgo",
+      "count": "66"
+     }
+    ],
+    "smallest": "Alto riesgo",
+    "count": "19160",
+    "cardinality": "19160"
+   },
+   "format": {}
+  },
+  {
+   "id": 602678831,
+   "name": "IRCAurbano",
+   "dataTypeName": "text",
+   "description": "IRCA calculado considerando las muestras de vigilancia de la calidad del agua potable recolectadas exclusivamente en el área URBANA de cada municipio o departamento, según corresponda. La opción ND significa valor No Disponible.",
+   "fieldName": "ircaurbano",
+   "position": 8,
+   "renderTypeName": "text",
+   "tableColumnId": 155821152,
+   "cachedContents": {
+    "non_null": "19160",
+    "largest": "ND",
+    "null": "0",
+    "top": [
+     {
+      "item": "0.0",
+      "count": "2325"
+     },
+     {
+      "item": "ND",
+      "count": "1268"
+     },
+     {
+      "item": "0.1",
+      "count": "263"
+     },
+     {
+      "item": "0.2",
+      "count": "206"
+     },
+     {
+      "item": "0.6",
+      "count": "201"
+     },
+     {
+      "item": "0",
+      "count": "200"
+     },
+     {
+      "item": "0.7",
+      "count": "185"
+     },
+     {
+      "item": "0.4",
+      "count": "181"
+     },
+     {
+      "item": "0.5",
+      "count": "177"
+     },
+     {
+      "item": "0.3",
+      "count": "169"
+     },
+     {
+      "item": "0.8",
+      "count": "154"
+     },
+     {
+      "item": "0.9",
+      "count": "153"
+     },
+     {
+      "item": "1.1",
+      "count": "149"
+     },
+     {
+      "item": "1.5",
+      "count": "148"
+     },
+     {
+      "item": "1.4",
+      "count": "131"
+     },
+     {
+      "item": "1.6",
+      "count": "131"
+     },
+     {
+      "item": "1.0",
+      "count": "129"
+     },
+     {
+      "item": "1.3",
+      "count": "128"
+     },
+     {
+      "item": "1.9",
+      "count": "128"
+     },
+     {
+      "item": "2.3",
+      "count": "123"
+     }
+    ],
+    "smallest": "0",
+    "count": "19160",
+    "cardinality": "19160"
+   },
+   "format": {}
+  },
+  {
+   "id": 602678830,
+   "name": "Nivel de riesgo urbano",
+   "dataTypeName": "text",
+   "description": "Intepretación del valor IRCA de acuerdo a la Resolución 2115 de 2007. El nivel de riesgo según el valor del IRCA es: (I) 0% a 5% = Sin Riesgo; (II)5.1% a 14% = Riesgo bajo; (III) 4.1% a 35% = Riesgo medio; (IV) 35.1% a 80% = Riesgo Alto; (V) 80.1% a 100% = Inviable sanitariamente",
+   "fieldName": "nivel_de_riesgo_urbano",
+   "position": 9,
+   "renderTypeName": "text",
+   "tableColumnId": 155821151,
+   "cachedContents": {
+    "non_null": "19160",
+    "largest": "Sin riesgo",
+    "null": "0",
+    "top": [
+     {
+      "item": "Sin riesgo",
+      "count": "8208"
+     },
+     {
+      "item": "Riesgo bajo",
+      "count": "3470"
+     },
+     {
+      "item": "Riesgo medio",
+      "count": "3379"
+     },
+     {
+      "item": "Riesgo alto",
+      "count": "2245"
+     },
+     {
+      "item": "ND",
+      "count": "1268"
+     },
+     {
+      "item": "Inviable sanitariamente",
+      "count": "330"
+     },
+     {
+      "item": "Bajo riesgo",
+      "count": "211"
+     },
+     {
+      "item": "Alto riesgo",
+      "count": "49"
+     }
+    ],
+    "smallest": "Alto riesgo",
+    "count": "19160",
+    "cardinality": "19160"
+   },
+   "format": {}
+  },
+  {
+   "id": 602678829,
+   "name": "IRCArural",
+   "dataTypeName": "text",
+   "description": "IRCA calculado considerando las muestras de vigilancia de la calidad del agua potable recolectadas exclusivamente en el área RURAL de cada municipio o departamento, según corresponda. La opción ND significa valor No Disponible.",
+   "fieldName": "ircarural",
+   "position": 10,
+   "renderTypeName": "text",
+   "tableColumnId": 155821150,
+   "cachedContents": {
+    "non_null": "19160",
+    "largest": "ND",
+    "null": "0",
+    "top": [
+     {
+      "item": "ND",
+      "count": "9615"
+     },
+     {
+      "item": "0.0",
+      "count": "1021"
+     },
+     {
+      "item": "0",
+      "count": "83"
+     },
+     {
+      "item": "100.0",
+      "count": "67"
+     },
+     {
+      "item": "37.5",
+      "count": "52"
+     },
+     {
+      "item": "71.0",
+      "count": "27"
+     },
+     {
+      "item": "1.1",
+      "count": "27"
+     },
+     {
+      "item": "1.7",
+      "count": "27"
+     },
+     {
+      "item": "5.4",
+      "count": "26"
+     },
+     {
+      "item": "18.2",
+      "count": "25"
+     },
+     {
+      "item": "6.1",
+      "count": "25"
+     },
+     {
+      "item": "7.5",
+      "count": "25"
+     },
+     {
+      "item": "5.3",
+      "count": "25"
+     },
+     {
+      "item": "3.2",
+      "count": "24"
+     },
+     {
+      "item": "66.7",
+      "count": "24"
+     },
+     {
+      "item": "64.3",
+      "count": "24"
+     },
+     {
+      "item": "18.8",
+      "count": "24"
+     },
+     {
+      "item": "9.1",
+      "count": "24"
+     },
+     {
+      "item": "12.5",
+      "count": "24"
+     },
+     {
+      "item": "1.2",
+      "count": "23"
+     }
+    ],
+    "smallest": "0",
+    "count": "19160",
+    "cardinality": "19160"
+   },
+   "format": {}
+  },
+  {
+   "id": 602678828,
+   "name": "Nivel de riesgo rural",
+   "dataTypeName": "text",
+   "description": "Intepretación del valor IRCA de acuerdo a la Resolución 2115 de 2007. El nivel de riesgo según el valor del IRCA es: (I) 0% a 5% = Sin Riesgo; (II)5.1% a 14% = Riesgo bajo; (III) 4.1% a 35% = Riesgo medio; (IV) 35.1% a 80% = Riesgo Alto; (V) 80.1% a 100% = Inviable sanitariamente",
+   "fieldName": "nivel_de_riesgo_rural",
+   "position": 11,
+   "renderTypeName": "text",
+   "tableColumnId": 155821149,
+   "cachedContents": {
+    "non_null": "19160",
+    "largest": "Sin riesgo",
+    "null": "0",
+    "top": [
+     {
+      "item": "ND",
+      "count": "9615"
+     },
+     {
+      "item": "Riesgo alto",
+      "count": "3996"
+     },
+     {
+      "item": "Sin riesgo",
+      "count": "1893"
+     },
+     {
+      "item": "Riesgo medio",
+      "count": "1683"
+     },
+     {
+      "item": "Riesgo bajo",
+      "count": "1013"
+     },
+     {
+      "item": "Inviable sanitariamente",
+      "count": "766"
+     },
+     {
+      "item": "Bajo riesgo",
+      "count": "104"
+     },
+     {
+      "item": "Alto riesgo",
+      "count": "90"
+     }
+    ],
+    "smallest": "Alto riesgo",
+    "count": "19160",
+    "cardinality": "19160"
+   },
+   "format": {}
+  }
+ ],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "license": {
+  "name": "Creative Commons Attribution | Share Alike 4.0 International",
+  "logoUrl": "images/licenses/cc30bysa.png",
+  "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+ },
+ "metadata": {
+  "custom_fields": {
+   "Información de la Entidad": {
+    "Municipio": "Bogotá D.C.",
+    "Nombre de la Entidad": "Instituto Nacional de Salud - INS, Bogotá D.C.",
+    "DIVIPOLA Municipio": "11001",
+    "Orden": "Nacional",
+    "Sector": "Planeación",
+    "Área o dependencia": "Oficina TIC",
+    "Departamento": "Bogotá D.C."
+   },
+   "Información de Datos": {
+    "Cobertura Geográfica": "Departamental",
+    "Idioma": "Español",
+    "Frecuencia de Actualización": "Anual"
+   }
+  }
+ },
+ "owner": {
+  "id": "issr-5hya",
+  "displayName": "DatosabiertosINS",
+  "screenName": "DatosabiertosINS",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "issr-5hya",
+  "displayName": "DatosabiertosINS",
+  "screenName": "DatosabiertosINS",
+  "type": "interactive",
+  "flags": [
+   "acceptedEula",
+   "mayBeStoriesCoOwner"
+  ]
+ },
+ "tags": [
+  "irca",
+  "calidad de agua",
+  "agua de consumo",
+  "agua potable"
+ ],
+ "flags": [
+  "default",
+  "ownerMayBeContacted",
+  "restorable",
+  "restorePossibleForType"
+ ]
+}

@@ -142,6 +142,7 @@ Nombres reservados que ninguna columna puede usar: `_and`, `_or`, `_not`, `count
 - Columnas con `cast` usadas como clave de agrupación: `anio::number AS anio_num … GROUP BY anio_num`.
 - En `where`, las condiciones de columna van en el orden del esquema y las lógicas (`_and`, `_or`, `_not`) al final; `baseWhere` va siempre primero.
 - Un valor de enum fusionado se traduce a `IN`/`NOT IN` con todas sus variantes, también en `eq`/`neq`.
+- Agrupar o contar valores distintos (`countDistinct`) sobre un enum con variantes fusionadas usa una expresión que reduce cada grupo a su primera variante: `case(col IN ('Sabado', 'Sábado', 'sábado'), 'Sabado', …, true, col) AS col_canon … GROUP BY col_canon`. Sin ella, la respuesta tendría una fila por variante (corregido el 06/11/2026; ver `dataset/README.md`).
 - Las cadenas se escapan duplicando la comilla simple.
 - La petición a SODA3 usa `page = {pageNumber: 1, pageSize: limit}`.
 - La SoQL generada es determinista: la misma consulta GraphQL produce siempre la misma cadena. Esto permite comparar resultados en la exactitud de ejecución.

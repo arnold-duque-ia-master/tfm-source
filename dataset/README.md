@@ -75,6 +75,7 @@ pip install -r ../capa-graphql/requirements.txt     # credenciales en ../spike-s
 python3 construir.py explorar
 python3 construir.py generar
 python3 construir.py validar       # reanudable; con la caché de la capa no vuelve a consultar el portal
+python3 construir.py revalidar     # tras un cambio del traductor: revalida los pares cuya SoQL cambia
 python3 construir.py particionar
 ```
 
@@ -82,7 +83,7 @@ python3 construir.py particionar
 
 - **Revisión humana pendiente.** Las redacciones de las plantillas se escribieron con ayuda de un LLM (Claude), y algunas preguntas suenan poco naturales ("¿cuánto suma bovinos vacunados…?", "promedio de concentración promedio"). Antes de entrenar, cada integrante revisa `revision.csv` (unas 680 filas cada uno) y corrige la pregunta cuando haga falta; la consulta GraphQL no se toca. Este uso de un LLM debe declararse en la memoria.
 - **Una redacción por consulta.** No hay paráfrasis múltiples de la misma consulta. Si hace falta más variedad lingüística, se pueden añadir paráfrasis de las preguntas de entrenamiento, dejando val y test intactos.
-- **Agrupación por enum fusionado (capa).** Al agrupar por una columna `enum` cuyas variantes se fusionaron (por ejemplo `diaDeDemandaMaxima`), la capa devuelve una fila por variante original (`SABADO` aparece tres veces). Afecta a 83 pares. Las consultas siguen siendo válidas y la comparación por ejecución es coherente, pero la respuesta al usuario es incorrecta. Hay que corregirlo en `traductor.py`, agrupando por una expresión `case(...)` que unifique las variantes, y volver a validar.
+- **Agrupación por enum fusionado (corregido el 06/11/2026).** Al agrupar o contar valores distintos sobre una columna `enum` con variantes fusionadas (por ejemplo `diaDeDemandaMaxima`), la capa devolvía una fila por variante original (`SABADO` tres veces) y contaba las variantes. `traductor.py` agrupa y cuenta ahora por una expresión `case(...)` que reduce cada grupo a su primera variante. `python3 construir.py revalidar` volvió a ejecutar los 129 pares válidos cuya SoQL cambiaba (todos siguen siendo válidos) y `particionar` regeneró las particiones: ids, preguntas y consultas GraphQL no cambian; cambian la SoQL de 83 pares (56 train, 14 val, 13 test) y el número de filas de 38.
 - **`rtai-k9uh`.** No se generan preguntas de evolución anual del puntaje, porque los puntajes de 2021 y 2025 no son comparables.
 - **`gcq5-hvdx`.** Solo tiene la vigencia 2024, así que sus preguntas temporales son poco variadas.
 - **Datos vivos.** Las respuestas corresponden al portal el 01/11/2026. La caché de la capa (`~/.cache/tfm-graphql/soda.sqlite`) conserva esa instantánea para la evaluación.
