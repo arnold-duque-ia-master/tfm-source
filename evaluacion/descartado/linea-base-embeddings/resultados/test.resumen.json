@@ -1,0 +1,993 @@
+{
+  "modelo": "linea-base-recuperacion",
+  "particion": "test",
+  "predicciones": "predicciones/linea-base-recuperacion/test.jsonl",
+  "fecha": "2026-11-08T18:42:18+00:00",
+  "offline": true,
+  "referencias_fallidas": 0,
+  "errores": {},
+  "total": {
+    "n": 207,
+    "valida_sintaxis": {
+      "aciertos": 207,
+      "tasa": 1.0
+    },
+    "valida_esquema": {
+      "aciertos": 207,
+      "tasa": 1.0
+    },
+    "coincidencia_exacta": {
+      "aciertos": 0,
+      "tasa": 0.0
+    },
+    "coincidencia_estructural": {
+      "aciertos": 45,
+      "tasa": 0.2174
+    },
+    "exactitud_ejecucion": {
+      "aciertos": 1,
+      "tasa": 0.0048
+    },
+    "ms_inferencia": {
+      "mediana": 137.6,
+      "media": 140.3,
+      "max": 205.5
+    }
+  },
+  "por_conjunto": {
+    "3ebi-d83g": {
+      "n": 29,
+      "valida_sintaxis": {
+        "aciertos": 29,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 29,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 8,
+        "tasa": 0.2759
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 126.2,
+        "media": 126.3,
+        "max": 150.5
+      }
+    },
+    "8yi9-t44c": {
+      "n": 25,
+      "valida_sintaxis": {
+        "aciertos": 25,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 25,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 9,
+        "tasa": 0.36
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 127.3,
+        "media": 134.5,
+        "max": 195.2
+      }
+    },
+    "gcq5-hvdx": {
+      "n": 25,
+      "valida_sintaxis": {
+        "aciertos": 25,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 25,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 4,
+        "tasa": 0.16
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 142.6,
+        "media": 143.4,
+        "max": 185.4
+      }
+    },
+    "h2yr-zfb2": {
+      "n": 28,
+      "valida_sintaxis": {
+        "aciertos": 28,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 28,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 7,
+        "tasa": 0.25
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 1,
+        "tasa": 0.0357
+      },
+      "ms_inferencia": {
+        "mediana": 129.3,
+        "media": 129.7,
+        "max": 160.2
+      }
+    },
+    "kekd-7v7h": {
+      "n": 26,
+      "valida_sintaxis": {
+        "aciertos": 26,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 26,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 3,
+        "tasa": 0.1154
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 125.1,
+        "media": 126.8,
+        "max": 155.3
+      }
+    },
+    "nxt2-39c3": {
+      "n": 24,
+      "valida_sintaxis": {
+        "aciertos": 24,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 24,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 7,
+        "tasa": 0.2917
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 153.7,
+        "media": 148.7,
+        "max": 205.5
+      }
+    },
+    "rtai-k9uh": {
+      "n": 20,
+      "valida_sintaxis": {
+        "aciertos": 20,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 20,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 157.14999999999998,
+        "media": 161.5,
+        "max": 194.8
+      }
+    },
+    "uejq-wxrr": {
+      "n": 30,
+      "valida_sintaxis": {
+        "aciertos": 30,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 30,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 7,
+        "tasa": 0.2333
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 155.15,
+        "media": 156.7,
+        "max": 183.7
+      }
+    }
+  },
+  "por_categoria": {
+    "agrupación doble": {
+      "n": 6,
+      "valida_sintaxis": {
+        "aciertos": 6,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 6,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 2,
+        "tasa": 0.3333
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 139.3,
+        "media": 140.6,
+        "max": 160.0
+      }
+    },
+    "agrupación+orden por agregado": {
+      "n": 6,
+      "valida_sintaxis": {
+        "aciertos": 6,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 6,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 1,
+        "tasa": 0.1667
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 133.5,
+        "media": 140.5,
+        "max": 168.7
+      }
+    },
+    "año con el máximo": {
+      "n": 5,
+      "valida_sintaxis": {
+        "aciertos": 5,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 5,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 119.5,
+        "media": 130.2,
+        "max": 185.4
+      }
+    },
+    "comparación numérica": {
+      "n": 8,
+      "valida_sintaxis": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 1,
+        "tasa": 0.125
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 159.55,
+        "media": 154.8,
+        "max": 167.6
+      }
+    },
+    "conteo distinto": {
+      "n": 7,
+      "valida_sintaxis": {
+        "aciertos": 7,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 7,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 114.7,
+        "media": 120.9,
+        "max": 146.8
+      }
+    },
+    "conteo por grupo": {
+      "n": 7,
+      "valida_sintaxis": {
+        "aciertos": 7,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 7,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 118.6,
+        "media": 130.3,
+        "max": 154.2
+      }
+    },
+    "conteo+año": {
+      "n": 7,
+      "valida_sintaxis": {
+        "aciertos": 7,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 7,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 3,
+        "tasa": 0.4286
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 123.9,
+        "media": 135.8,
+        "max": 160.2
+      }
+    },
+    "conteo+filtro": {
+      "n": 16,
+      "valida_sintaxis": {
+        "aciertos": 16,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 16,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 5,
+        "tasa": 0.3125
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 130.55,
+        "media": 133.1,
+        "max": 165.2
+      }
+    },
+    "evolución anual": {
+      "n": 7,
+      "valida_sintaxis": {
+        "aciertos": 7,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 7,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 2,
+        "tasa": 0.2857
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 148.7,
+        "media": 148.8,
+        "max": 175.1
+      }
+    },
+    "filas+filtro": {
+      "n": 16,
+      "valida_sintaxis": {
+        "aciertos": 16,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 16,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 142.05,
+        "media": 142.4,
+        "max": 181.8
+      }
+    },
+    "filas+orden+límite": {
+      "n": 8,
+      "valida_sintaxis": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 139.75,
+        "media": 136.9,
+        "max": 162.6
+      }
+    },
+    "filtro in": {
+      "n": 8,
+      "valida_sintaxis": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 2,
+        "tasa": 0.25
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 136.75,
+        "media": 146.2,
+        "max": 189.3
+      }
+    },
+    "lógica or/not": {
+      "n": 8,
+      "valida_sintaxis": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 151.55,
+        "media": 163.4,
+        "max": 205.5
+      }
+    },
+    "mínimo y máximo": {
+      "n": 8,
+      "valida_sintaxis": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 1,
+        "tasa": 0.125
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 1,
+        "tasa": 0.125
+      },
+      "ms_inferencia": {
+        "mediana": 143.39999999999998,
+        "media": 140.8,
+        "max": 176.5
+      }
+    },
+    "negación": {
+      "n": 8,
+      "valida_sintaxis": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 4,
+        "tasa": 0.5
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 129.5,
+        "media": 139.9,
+        "max": 192.5
+      }
+    },
+    "paginación": {
+      "n": 8,
+      "valida_sintaxis": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 1,
+        "tasa": 0.125
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 153.0,
+        "media": 147.3,
+        "max": 172.4
+      }
+    },
+    "promedio por grupo": {
+      "n": 8,
+      "valida_sintaxis": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 127.65,
+        "media": 136.3,
+        "max": 168.5
+      }
+    },
+    "promedio+filtro": {
+      "n": 13,
+      "valida_sintaxis": {
+        "aciertos": 13,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 13,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 5,
+        "tasa": 0.3846
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 136.9,
+        "media": 138.8,
+        "max": 163.0
+      }
+    },
+    "rango de años": {
+      "n": 7,
+      "valida_sintaxis": {
+        "aciertos": 7,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 7,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 5,
+        "tasa": 0.7143
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 139.1,
+        "media": 142.5,
+        "max": 159.8
+      }
+    },
+    "rango de fechas": {
+      "n": 2,
+      "valida_sintaxis": {
+        "aciertos": 2,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 2,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 2,
+        "tasa": 1.0
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 132.25,
+        "media": 132.2,
+        "max": 133.3
+      }
+    },
+    "suma+filtro": {
+      "n": 10,
+      "valida_sintaxis": {
+        "aciertos": 10,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 10,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 3,
+        "tasa": 0.3
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 129.2,
+        "media": 131.4,
+        "max": 153.2
+      }
+    },
+    "suma+filtros": {
+      "n": 8,
+      "valida_sintaxis": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 140.6,
+        "media": 142.6,
+        "max": 167.5
+      }
+    },
+    "texto contiene": {
+      "n": 6,
+      "valida_sintaxis": {
+        "aciertos": 6,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 6,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 3,
+        "tasa": 0.5
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 145.2,
+        "media": 145.3,
+        "max": 195.2
+      }
+    },
+    "texto empieza por": {
+      "n": 6,
+      "valida_sintaxis": {
+        "aciertos": 6,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 6,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 5,
+        "tasa": 0.8333
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 142.35,
+        "media": 144.8,
+        "max": 178.5
+      }
+    },
+    "top-N de grupos": {
+      "n": 6,
+      "valida_sintaxis": {
+        "aciertos": 6,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 6,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 127.05,
+        "media": 130.5,
+        "max": 157.0
+      }
+    },
+    "varias medidas": {
+      "n": 8,
+      "valida_sintaxis": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "valida_esquema": {
+        "aciertos": 8,
+        "tasa": 1.0
+      },
+      "coincidencia_exacta": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "coincidencia_estructural": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "exactitud_ejecucion": {
+        "aciertos": 0,
+        "tasa": 0.0
+      },
+      "ms_inferencia": {
+        "mediana": 149.75,
+        "media": 146.5,
+        "max": 167.9
+      }
+    }
+  }
+}

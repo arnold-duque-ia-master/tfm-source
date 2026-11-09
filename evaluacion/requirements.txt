@@ -1,0 +1,8 @@
+# Evaluación técnica (evaluar.py, mcnemar.py): las dependencias de la capa
+-r ../capa-graphql/requirements.txt
+# Línea base Granite-8B-Code-Instruct (linea_base_granite.py)
+torch>=2.1
+transformers>=4.45
+accelerate>=0.33
+huggingface_hub>=0.23
+bitsandbytes>=0.43; sys_platform == "linux" or sys_platform == "win32"   # 4 bits, solo con CUDA

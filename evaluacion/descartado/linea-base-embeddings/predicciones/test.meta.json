@@ -1,0 +1,18 @@
+{
+  "modelo": "xthor/Qwen3-Embedding-0.6B-GraphQL",
+  "revision": "728ac823c1c7736c00f0aff95fca2a421dacf6a9",
+  "entrenamiento_adicional": false,
+  "metodo": "vecino más cercano por similitud de coseno dentro del mismo conjunto de datos",
+  "particion": "test",
+  "pares_evaluados": 207,
+  "pares_indice": 847,
+  "sin_indice": 0,
+  "prompt_entrenamiento": "query",
+  "prompt_pregunta": "query",
+  "dispositivo": "cpu",
+  "ms_carga_modelo": 221673,
+  "ms_indexado": 41406,
+  "sentence_transformers": "6.2.0",
+  "python": "3.13.18",
+  "fecha": "2026-11-08T18:36:25+00:00"
+}
